@@ -1,0 +1,609 @@
+{
+  "starting_equity_usdt": 500,
+  "hard_stop_pct": 2,
+  "near_support_pct": 1,
+  "bearish_volume_multiple": 1.5,
+  "volume_median_lookback_bars": 20,
+  "results": {
+    "2022": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": [],
+        "entry_checks": null
+      },
+      "original_short_either_side_of_support": {
+        "return_pct": 16.534279841327116,
+        "max_drawdown_pct": 25.40935666147872,
+        "trades": 21,
+        "short_trades": 7,
+        "short_net_usdt": 25.638767120710465,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 10,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 3,
+          "nearSupport": 7,
+          "volumeException": 0
+        }
+      },
+      "support_1pct": {
+        "return_pct": 16.534279841327116,
+        "max_drawdown_pct": 25.40935666147872,
+        "trades": 21,
+        "short_trades": 7,
+        "short_net_usdt": 25.638767120710465,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 10,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 3,
+          "nearSupport": 7,
+          "volumeException": 0
+        }
+      },
+      "support_1pct_or_volume_15m": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": [
+          {
+            "opened_utc": "2022-03-31T14:30:00.000Z",
+            "distance_pct": -1.1591546258356697,
+            "net_usdt": 31.05294263957769,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2022-03-31T22:15:00+08:00",
+                "volume_multiple": 4.486428291733526
+              }
+            ]
+          },
+          {
+            "opened_utc": "2022-07-13T13:30:00.000Z",
+            "distance_pct": -2.0022071574964526,
+            "net_usdt": -32.209039799999914,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2022-07-13T21:15:00+08:00",
+                "volume_multiple": 3.371161399528061
+              }
+            ]
+          },
+          {
+            "opened_utc": "2022-09-13T13:15:00.000Z",
+            "distance_pct": -3.712448860315605,
+            "net_usdt": 141.17874511102426,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2022-09-13T21:00:00+08:00",
+                "volume_multiple": 2.6213759367528495
+              }
+            ]
+          }
+        ],
+        "entry_checks": {
+          "candidates": 10,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 0,
+          "nearSupport": 7,
+          "volumeException": 3
+        }
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": [
+          {
+            "opened_utc": "2022-03-31T14:30:00.000Z",
+            "distance_pct": -1.1591546258356697,
+            "net_usdt": 31.05294263957769,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2022-03-31T21:30:00+08:00",
+                "volume_multiple": 4.510862746997402
+              },
+              {
+                "bar_open_local": "2022-03-31T21:45:00+08:00",
+                "volume_multiple": 2.915045583766297
+              },
+              {
+                "bar_open_local": "2022-03-31T22:00:00+08:00",
+                "volume_multiple": 20.255759239290267
+              },
+              {
+                "bar_open_local": "2022-03-31T22:15:00+08:00",
+                "volume_multiple": 4.486428291733526
+              }
+            ]
+          },
+          {
+            "opened_utc": "2022-07-13T13:30:00.000Z",
+            "distance_pct": -2.0022071574964526,
+            "net_usdt": -32.209039799999914,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2022-07-13T20:30:00+08:00",
+                "volume_multiple": 26.1009923826252
+              },
+              {
+                "bar_open_local": "2022-07-13T21:15:00+08:00",
+                "volume_multiple": 3.371161399528061
+              }
+            ]
+          },
+          {
+            "opened_utc": "2022-09-13T13:15:00.000Z",
+            "distance_pct": -3.712448860315605,
+            "net_usdt": 141.17874511102426,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2022-09-13T20:30:00+08:00",
+                "volume_multiple": 23.566189489679324
+              },
+              {
+                "bar_open_local": "2022-09-13T20:45:00+08:00",
+                "volume_multiple": 7.0655274165652715
+              },
+              {
+                "bar_open_local": "2022-09-13T21:00:00+08:00",
+                "volume_multiple": 2.6213759367528495
+              }
+            ]
+          }
+        ],
+        "entry_checks": {
+          "candidates": 10,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 0,
+          "nearSupport": 7,
+          "volumeException": 3
+        }
+      }
+    },
+    "2023": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": [],
+        "entry_checks": null
+      },
+      "original_short_either_side_of_support": {
+        "return_pct": 77.0799798206107,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 32,
+        "short_trades": 6,
+        "short_net_usdt": 66.82658325286275,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 8,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 2,
+          "nearSupport": 6,
+          "volumeException": 0
+        }
+      },
+      "support_1pct": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 8,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 0,
+          "nearSupport": 8,
+          "volumeException": 0
+        }
+      },
+      "support_1pct_or_volume_15m": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 8,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 0,
+          "nearSupport": 8,
+          "volumeException": 0
+        }
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 8,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 0,
+          "nearSupport": 8,
+          "volumeException": 0
+        }
+      }
+    },
+    "2024": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "short_trades": 18,
+        "short_net_usdt": 571.4997873059131,
+        "volume_exception_trades": [],
+        "entry_checks": null
+      },
+      "original_short_either_side_of_support": {
+        "return_pct": 85.8394084345597,
+        "max_drawdown_pct": 29.23671949459311,
+        "trades": 43,
+        "short_trades": 10,
+        "short_net_usdt": 330.75267652163325,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 18,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 8,
+          "nearSupport": 10,
+          "volumeException": 0
+        }
+      },
+      "support_1pct": {
+        "return_pct": 126.5228480134037,
+        "max_drawdown_pct": 22.93519820309795,
+        "trades": 45,
+        "short_trades": 12,
+        "short_net_usdt": 537.7085693958533,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 18,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 6,
+          "nearSupport": 12,
+          "volumeException": 0
+        }
+      },
+      "support_1pct_or_volume_15m": {
+        "return_pct": 125.58408032098778,
+        "max_drawdown_pct": 23.00220377699318,
+        "trades": 47,
+        "short_trades": 14,
+        "short_net_usdt": 532.0359757063655,
+        "volume_exception_trades": [
+          {
+            "opened_utc": "2024-05-23T14:00:00.000Z",
+            "distance_pct": -1.1112890688711055,
+            "net_usdt": 14.734989326058873,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2024-05-23T21:45:00+08:00",
+                "volume_multiple": 14.238700211018392
+              }
+            ]
+          },
+          {
+            "opened_utc": "2024-08-14T14:15:00.000Z",
+            "distance_pct": -2.560317699455097,
+            "net_usdt": -27.7962975599997,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2024-08-14T22:00:00+08:00",
+                "volume_multiple": 8.638295022204469
+              }
+            ]
+          }
+        ],
+        "entry_checks": {
+          "candidates": 18,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 4,
+          "nearSupport": 12,
+          "volumeException": 2
+        }
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 135.64001808200166,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 49,
+        "short_trades": 16,
+        "short_net_usdt": 595.3523540645916,
+        "volume_exception_trades": [
+          {
+            "opened_utc": "2024-05-23T14:00:00.000Z",
+            "distance_pct": -1.1112890688711055,
+            "net_usdt": 14.734989326058873,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2024-05-23T21:00:00+08:00",
+                "volume_multiple": 3.6651608426254882
+              },
+              {
+                "bar_open_local": "2024-05-23T21:15:00+08:00",
+                "volume_multiple": 1.7771812816857662
+              },
+              {
+                "bar_open_local": "2024-05-23T21:30:00+08:00",
+                "volume_multiple": 9.355818878469986
+              },
+              {
+                "bar_open_local": "2024-05-23T21:45:00+08:00",
+                "volume_multiple": 14.238700211018392
+              }
+            ]
+          },
+          {
+            "opened_utc": "2024-08-02T15:30:00.000Z",
+            "distance_pct": -1.4902802274420364,
+            "net_usdt": 80.62982982884303,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2024-08-02T22:30:00+08:00",
+                "volume_multiple": 4.652115475478205
+              },
+              {
+                "bar_open_local": "2024-08-02T22:45:00+08:00",
+                "volume_multiple": 4.347575297123239
+              },
+              {
+                "bar_open_local": "2024-08-02T23:00:00+08:00",
+                "volume_multiple": 4.265663631467805
+              }
+            ]
+          },
+          {
+            "opened_utc": "2024-08-14T14:15:00.000Z",
+            "distance_pct": -2.560317699455097,
+            "net_usdt": -29.589607079999684,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2024-08-14T21:30:00+08:00",
+                "volume_multiple": 4.865913644543169
+              },
+              {
+                "bar_open_local": "2024-08-14T21:45:00+08:00",
+                "volume_multiple": 8.315313754720004
+              },
+              {
+                "bar_open_local": "2024-08-14T22:00:00+08:00",
+                "volume_multiple": 8.638295022204469
+              }
+            ]
+          },
+          {
+            "opened_utc": "2024-12-10T16:15:00.000Z",
+            "distance_pct": -1.1353670759208219,
+            "net_usdt": -25.10974269078096,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2024-12-10T23:15:00+08:00",
+                "volume_multiple": 2.808386034657269
+              },
+              {
+                "bar_open_local": "2024-12-10T23:30:00+08:00",
+                "volume_multiple": 4.892505343661738
+              },
+              {
+                "bar_open_local": "2024-12-10T23:45:00+08:00",
+                "volume_multiple": 3.6798449998458542
+              }
+            ]
+          }
+        ],
+        "entry_checks": {
+          "candidates": 18,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 2,
+          "nearSupport": 12,
+          "volumeException": 4
+        }
+      }
+    },
+    "2025": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "short_trades": 25,
+        "short_net_usdt": -8.92475531130142,
+        "volume_exception_trades": [],
+        "entry_checks": null
+      },
+      "original_short_either_side_of_support": {
+        "return_pct": 2.850772883658781,
+        "max_drawdown_pct": 19.04670784528144,
+        "trades": 39,
+        "short_trades": 19,
+        "short_net_usdt": 28.08082415637026,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 25,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 6,
+          "nearSupport": 19,
+          "volumeException": 0
+        }
+      },
+      "support_1pct": {
+        "return_pct": 0.05814087597870721,
+        "max_drawdown_pct": 19.12117627036931,
+        "trades": 41,
+        "short_trades": 21,
+        "short_net_usdt": 12.610267502897214,
+        "volume_exception_trades": [],
+        "entry_checks": {
+          "candidates": 25,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 4,
+          "nearSupport": 21,
+          "volumeException": 0
+        }
+      },
+      "support_1pct_or_volume_15m": {
+        "return_pct": 3.6266876970746376,
+        "max_drawdown_pct": 18.828201360691267,
+        "trades": 43,
+        "short_trades": 23,
+        "short_net_usdt": 32.494218948698624,
+        "volume_exception_trades": [
+          {
+            "opened_utc": "2025-01-19T22:45:00.000Z",
+            "distance_pct": -1.1036388921416622,
+            "net_usdt": 34.20165288068051,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2025-01-20T06:30:00+08:00",
+                "volume_multiple": 2.0010549775292854
+              }
+            ]
+          },
+          {
+            "opened_utc": "2025-02-04T21:30:00.000Z",
+            "distance_pct": -1.0717368247250476,
+            "net_usdt": -16.905705854190643,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2025-02-05T05:15:00+08:00",
+                "volume_multiple": 2.0205851502554313
+              }
+            ]
+          }
+        ],
+        "entry_checks": {
+          "candidates": 25,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 2,
+          "nearSupport": 21,
+          "volumeException": 2
+        }
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 3.6266876970746376,
+        "max_drawdown_pct": 18.828201360691267,
+        "trades": 43,
+        "short_trades": 23,
+        "short_net_usdt": 32.494218948698624,
+        "volume_exception_trades": [
+          {
+            "opened_utc": "2025-01-19T22:45:00.000Z",
+            "distance_pct": -1.1036388921416622,
+            "net_usdt": 34.20165288068051,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2025-01-20T05:45:00+08:00",
+                "volume_multiple": 3.8755741928767553
+              },
+              {
+                "bar_open_local": "2025-01-20T06:30:00+08:00",
+                "volume_multiple": 2.0010549775292854
+              }
+            ]
+          },
+          {
+            "opened_utc": "2025-02-04T21:30:00.000Z",
+            "distance_pct": -1.0717368247250476,
+            "net_usdt": -16.905705854190643,
+            "bearish_volume_bars": [
+              {
+                "bar_open_local": "2025-02-05T05:00:00+08:00",
+                "volume_multiple": 3.766459761964682
+              },
+              {
+                "bar_open_local": "2025-02-05T05:15:00+08:00",
+                "volume_multiple": 2.0205851502554313
+              }
+            ]
+          }
+        ],
+        "entry_checks": {
+          "candidates": 25,
+          "noSupport": 0,
+          "belowSupport": 0,
+          "tooFar": 2,
+          "nearSupport": 21,
+          "volumeException": 2
+        }
+      }
+    }
+  },
+  "september_2022_case": {
+    "combined_short_timeout_atr_half_capped": {
+      "opened_local": "2022-09-13T21:15:00+08:00",
+      "net_usdt": 141.17874511102426,
+      "price": 21383.2225,
+      "distance_pct": -3.712448860315605
+    },
+    "support_1pct_or_volume_15m": {
+      "opened_local": "2022-09-13T21:15:00+08:00",
+      "net_usdt": 141.17874511102426,
+      "price": 21383.2225,
+      "distance_pct": -3.712448860315605
+    },
+    "support_1pct_or_volume_1h": {
+      "opened_local": "2022-09-13T21:15:00+08:00",
+      "net_usdt": 141.17874511102426,
+      "price": 21383.2225,
+      "distance_pct": -3.712448860315605
+    },
+    "last_four_bars": [
+      {
+        "local_time": "2022-09-13T20:15:00+08:00",
+        "close": 22711.5,
+        "volume_btc": 9510.385,
+        "volume_multiple": 4.7772970534663886,
+        "bearish_volume": false
+      },
+      {
+        "local_time": "2022-09-13T20:30:00+08:00",
+        "close": 21652.5,
+        "volume_btc": 48294.416,
+        "volume_multiple": 23.566189489679324,
+        "bearish_volume": true
+      },
+      {
+        "local_time": "2022-09-13T20:45:00+08:00",
+        "close": 21391.5,
+        "volume_btc": 15597.392,
+        "volume_multiple": 7.0655274165652715,
+        "bearish_volume": true
+      },
+      {
+        "local_time": "2022-09-13T21:00:00+08:00",
+        "close": 21387.5,
+        "volume_btc": 6199.077,
+        "volume_multiple": 2.6213759367528495,
+        "bearish_volume": true
+      }
+    ]
+  }
+}

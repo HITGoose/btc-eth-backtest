@@ -1,0 +1,1618 @@
+{
+  "period": "2021-2025, Asia/Kuala_Lumpur",
+  "bar_minutes": 15,
+  "threshold": 0.25,
+  "starting_equity_usdt_per_year": 100,
+  "market": {
+    "observations": 175200,
+    "unconditional_next_5h_low_er_pct": 65.68664383561644,
+    "unconditional_next_24h_low_er_pct": 93.28938356164383,
+    "unconditional_next_24h_median_abs_move_pct": 1.3887168807357742,
+    "by_horizon": [
+      {
+        "hours": 1,
+        "low_er_pct": 28.929794520547947,
+        "next_5h_low_er_pct": 66.05899181217323,
+        "next_24h_low_er_pct": 93.33925224425373,
+        "next_24h_median_abs_move_pct": 1.356339138536511,
+        "matched_prevalence_threshold": 0.608808302190452,
+        "matched_prevalence_next_5h_low_er_pct": 66.0581150831581,
+        "matched_prevalence_next_24h_low_er_pct": 93.35430388766271
+      },
+      {
+        "hours": 2,
+        "low_er_pct": 43.54223744292238,
+        "next_5h_low_er_pct": 66.31360931232467,
+        "next_24h_low_er_pct": 93.33036205856907,
+        "next_24h_median_abs_move_pct": 1.3410823306773678,
+        "matched_prevalence_threshold": 0.4042889182004613,
+        "matched_prevalence_next_5h_low_er_pct": 66.12763073286874,
+        "matched_prevalence_next_24h_low_er_pct": 93.28131245546653
+      },
+      {
+        "hours": 3,
+        "low_er_pct": 53.12557077625571,
+        "next_5h_low_er_pct": 66.1470196398642,
+        "next_24h_low_er_pct": 93.23026344062917,
+        "next_24h_median_abs_move_pct": 1.3272785527929876,
+        "matched_prevalence_threshold": 0.3242156069992341,
+        "matched_prevalence_next_5h_low_er_pct": 66.18411219825863,
+        "matched_prevalence_next_24h_low_er_pct": 93.26654037990303
+      },
+      {
+        "hours": 4,
+        "low_er_pct": 60.25057077625571,
+        "next_5h_low_er_pct": 66.15068350401198,
+        "next_24h_low_er_pct": 93.2615883060658,
+        "next_24h_median_abs_move_pct": 1.3266879046346824,
+        "matched_prevalence_threshold": 0.28004885557694414,
+        "matched_prevalence_next_5h_low_er_pct": 66.11025182044108,
+        "matched_prevalence_next_24h_low_er_pct": 93.24481673936845
+      },
+      {
+        "hours": 5,
+        "low_er_pct": 65.68607305936072,
+        "next_5h_low_er_pct": 66.09200396239203,
+        "next_24h_low_er_pct": 93.28044350984516,
+        "next_24h_median_abs_move_pct": 1.3290590852099826,
+        "matched_prevalence_threshold": 0.24998691408218512,
+        "matched_prevalence_next_5h_low_er_pct": 66.09200396239203,
+        "matched_prevalence_next_24h_low_er_pct": 93.28044350984516
+      },
+      {
+        "hours": 6,
+        "low_er_pct": 70.17009132420091,
+        "next_5h_low_er_pct": 65.96170427369894,
+        "next_24h_low_er_pct": 93.17216808472564,
+        "next_24h_median_abs_move_pct": 1.3307533572589736,
+        "matched_prevalence_threshold": 0.22716879901145284,
+        "matched_prevalence_next_5h_low_er_pct": 66.0172746389531,
+        "matched_prevalence_next_24h_low_er_pct": 93.17008741592952
+      },
+      {
+        "hours": 7,
+        "low_er_pct": 73.68150684931507,
+        "next_5h_low_er_pct": 65.82694244325664,
+        "next_24h_low_er_pct": 93.19312107831746,
+        "next_24h_median_abs_move_pct": 1.3282109405770959,
+        "matched_prevalence_threshold": 0.20992786475655656,
+        "matched_prevalence_next_5h_low_er_pct": 65.98338575971916,
+        "matched_prevalence_next_24h_low_er_pct": 93.1561842859874
+      },
+      {
+        "hours": 8,
+        "low_er_pct": 76.48687214611873,
+        "next_5h_low_er_pct": 65.6177008320585,
+        "next_24h_low_er_pct": 93.18756762807358,
+        "next_24h_median_abs_move_pct": 1.3287243208454091,
+        "matched_prevalence_threshold": 0.19696626742006126,
+        "matched_prevalence_next_5h_low_er_pct": 65.70445421525521,
+        "matched_prevalence_next_24h_low_er_pct": 93.1761700352792
+      },
+      {
+        "hours": 9,
+        "low_er_pct": 78.68721461187215,
+        "next_5h_low_er_pct": 65.62599738865515,
+        "next_24h_low_er_pct": 93.14739590889309,
+        "next_24h_median_abs_move_pct": 1.3300938950668528,
+        "matched_prevalence_threshold": 0.1866340349661743,
+        "matched_prevalence_next_5h_low_er_pct": 65.69142003093447,
+        "matched_prevalence_next_24h_low_er_pct": 93.09622703811196
+      },
+      {
+        "hours": 10,
+        "low_er_pct": 80.53767123287672,
+        "next_5h_low_er_pct": 65.54194837776927,
+        "next_24h_low_er_pct": 93.165936698275,
+        "next_24h_median_abs_move_pct": 1.3307472837188472,
+        "matched_prevalence_threshold": 0.17830912988147793,
+        "matched_prevalence_next_5h_low_er_pct": 65.55847135086287,
+        "matched_prevalence_next_24h_low_er_pct": 93.12924697172451
+      },
+      {
+        "hours": 11,
+        "low_er_pct": 82.14383561643835,
+        "next_5h_low_er_pct": 65.45067956307847,
+        "next_24h_low_er_pct": 93.15642458100558,
+        "next_24h_median_abs_move_pct": 1.3378596984565339,
+        "matched_prevalence_threshold": 0.17149252610785395,
+        "matched_prevalence_next_5h_low_er_pct": 65.48982464677361,
+        "matched_prevalence_next_24h_low_er_pct": 93.13793642793834
+      },
+      {
+        "hours": 12,
+        "low_er_pct": 83.5142694063927,
+        "next_5h_low_er_pct": 65.41276816774537,
+        "next_24h_low_er_pct": 93.15595590396195,
+        "next_24h_median_abs_move_pct": 1.3413942943510282,
+        "matched_prevalence_threshold": 0.1657216046201512,
+        "matched_prevalence_next_5h_low_er_pct": 65.3673033141586,
+        "matched_prevalence_next_24h_low_er_pct": 93.14141221042387
+      },
+      {
+        "hours": 13,
+        "low_er_pct": 84.80479452054794,
+        "next_5h_low_er_pct": 65.41143372504678,
+        "next_24h_low_er_pct": 93.14905302265477,
+        "next_24h_median_abs_move_pct": 1.3420417223933223,
+        "matched_prevalence_threshold": 0.1607483341863271,
+        "matched_prevalence_next_5h_low_er_pct": 65.42986739889818,
+        "matched_prevalence_next_24h_low_er_pct": 93.15879112285154
+      },
+      {
+        "hours": 14,
+        "low_er_pct": 85.99143835616438,
+        "next_5h_low_er_pct": 65.41216139973582,
+        "next_24h_low_er_pct": 93.12146133269611,
+        "next_24h_median_abs_move_pct": 1.3463678344967867,
+        "matched_prevalence_threshold": 0.1555208302635465,
+        "matched_prevalence_next_5h_low_er_pct": 65.39076484593595,
+        "matched_prevalence_next_24h_low_er_pct": 93.12577118923898
+      },
+      {
+        "hours": 15,
+        "low_er_pct": 87.14611872146119,
+        "next_5h_low_er_pct": 65.36940005239717,
+        "next_24h_low_er_pct": 93.12549122347393,
+        "next_24h_median_abs_move_pct": 1.3503147272367844,
+        "matched_prevalence_threshold": 0.1515151515151497,
+        "matched_prevalence_next_5h_low_er_pct": 65.24651987278635,
+        "matched_prevalence_next_24h_low_er_pct": 93.12750908048174
+      },
+      {
+        "hours": 16,
+        "low_er_pct": 88.05593607305936,
+        "next_5h_low_er_pct": 65.39857655859056,
+        "next_24h_low_er_pct": 93.11873679297872,
+        "next_24h_median_abs_move_pct": 1.3530488478524894,
+        "matched_prevalence_threshold": 0.14724957707765143,
+        "matched_prevalence_next_5h_low_er_pct": 65.20654837420274,
+        "matched_prevalence_next_24h_low_er_pct": 93.1249022436176
+      },
+      {
+        "hours": 17,
+        "low_er_pct": 88.88356164383562,
+        "next_5h_low_er_pct": 65.3996814877604,
+        "next_24h_low_er_pct": 93.11666795099022,
+        "next_24h_median_abs_move_pct": 1.355403225145485,
+        "matched_prevalence_threshold": 0.1437088284690935,
+        "matched_prevalence_next_5h_low_er_pct": 65.17874211431848,
+        "matched_prevalence_next_24h_low_er_pct": 93.10317860308301
+      },
+      {
+        "hours": 18,
+        "low_er_pct": 89.60388127853881,
+        "next_5h_low_er_pct": 65.41602435886003,
+        "next_24h_low_er_pct": 93.11976864178972,
+        "next_24h_median_abs_move_pct": 1.3596957099475726,
+        "matched_prevalence_threshold": 0.14047158166391763,
+        "matched_prevalence_next_5h_low_er_pct": 65.26302983959263,
+        "matched_prevalence_next_24h_low_er_pct": 93.14141221042387
+      },
+      {
+        "hours": 19,
+        "low_er_pct": 90.34018264840182,
+        "next_5h_low_er_pct": 65.46349414946043,
+        "next_24h_low_er_pct": 93.12403649321439,
+        "next_24h_median_abs_move_pct": 1.361842723562906,
+        "matched_prevalence_threshold": 0.13751983735348416,
+        "matched_prevalence_next_5h_low_er_pct": 65.1830868424254,
+        "matched_prevalence_next_24h_low_er_pct": 93.13098486296728
+      },
+      {
+        "hours": 20,
+        "low_er_pct": 91.02739726027397,
+        "next_5h_low_er_pct": 65.51166290443943,
+        "next_24h_low_er_pct": 93.13142713819916,
+        "next_24h_median_abs_move_pct": 1.363759108713536,
+        "matched_prevalence_threshold": 0.13452909310627312,
+        "matched_prevalence_next_5h_low_er_pct": 65.2091552110669,
+        "matched_prevalence_next_24h_low_er_pct": 93.12055751551068
+      },
+      {
+        "hours": 21,
+        "low_er_pct": 91.60045662100457,
+        "next_5h_low_er_pct": 65.52678148600484,
+        "next_24h_low_er_pct": 93.13202562249197,
+        "next_24h_median_abs_move_pct": 1.3665049721622746,
+        "matched_prevalence_threshold": 0.13171745150880465,
+        "matched_prevalence_next_5h_low_er_pct": 65.17961105993987,
+        "matched_prevalence_next_24h_low_er_pct": 93.16748057906537
+      },
+      {
+        "hours": 22,
+        "low_er_pct": 92.19235159817352,
+        "next_5h_low_er_pct": 65.50417592758836,
+        "next_24h_low_er_pct": 93.1544505048879,
+        "next_24h_median_abs_move_pct": 1.3699121391429037,
+        "matched_prevalence_threshold": 0.1287750645955844,
+        "matched_prevalence_next_5h_low_er_pct": 65.2439130359222,
+        "matched_prevalence_next_24h_low_er_pct": 93.20832102327037
+      },
+      {
+        "hours": 23,
+        "low_er_pct": 92.73173515981735,
+        "next_5h_low_er_pct": 65.51278421331233,
+        "next_24h_low_er_pct": 93.1678012630335,
+        "next_24h_median_abs_move_pct": 1.3725434969783734,
+        "matched_prevalence_threshold": 0.12638845120543032,
+        "matched_prevalence_next_5h_low_er_pct": 65.28649137136998,
+        "matched_prevalence_next_24h_low_er_pct": 93.25524408682504
+      },
+      {
+        "hours": 24,
+        "low_er_pct": 93.28938356164383,
+        "next_5h_low_er_pct": 65.50357005194472,
+        "next_24h_low_er_pct": 93.19701669695245,
+        "next_24h_median_abs_move_pct": 1.3736231510046992,
+        "matched_prevalence_threshold": 0.12413555969381125,
+        "matched_prevalence_next_5h_low_er_pct": 65.41248848647052,
+        "matched_prevalence_next_24h_low_er_pct": 93.26654037990303
+      }
+    ]
+  },
+  "baseline_by_year": {
+    "2021": {
+      "return_pct": 70.73761590578573,
+      "max_drawdown_pct": 30.5161270082549,
+      "trades": 41,
+      "short_trades": 17,
+      "short_net_usdt": 85.85140002949672,
+      "timeout_exits": 0
+    },
+    "2022": {
+      "return_pct": 35.063724580595476,
+      "max_drawdown_pct": 27.6225058268881,
+      "trades": 24,
+      "short_trades": 10,
+      "short_net_usdt": 26.357698664325454,
+      "timeout_exits": 0
+    },
+    "2023": {
+      "return_pct": 72.86336905415564,
+      "max_drawdown_pct": 13.263339649923001,
+      "trades": 34,
+      "short_trades": 8,
+      "short_net_usdt": 7.668623815054336,
+      "timeout_exits": 0
+    },
+    "2024": {
+      "return_pct": 121.06277730750094,
+      "max_drawdown_pct": 23.930919020731146,
+      "trades": 51,
+      "short_trades": 18,
+      "short_net_usdt": 101.24987310176549,
+      "timeout_exits": 0
+    },
+    "2025": {
+      "return_pct": -12.927796121614293,
+      "max_drawdown_pct": 27.089568023005494,
+      "trades": 45,
+      "short_trades": 25,
+      "short_net_usdt": -10.836066787530294,
+      "timeout_exits": 0
+    }
+  },
+  "strategies": [
+    {
+      "hours": 1,
+      "total_timeout_exits": 4,
+      "mean_annual_return_delta_pp": -1.1466838312887204,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 0.0,
+        "2022": 0.7048385500158929,
+        "2023": -7.604700066459458,
+        "2024": 0.0,
+        "2025": 1.1664423599999623
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 70.73761590578573,
+          "max_drawdown_pct": 30.5161270082549,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 85.85140002949672,
+          "timeout_exits": 0
+        },
+        "2022": {
+          "return_pct": 35.76856313061137,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 27.112199614341336,
+          "timeout_exits": 2
+        },
+        "2023": {
+          "return_pct": 65.25866898769618,
+          "max_drawdown_pct": 13.974628517732402,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 0.8556521485948037,
+          "timeout_exits": 1
+        },
+        "2024": {
+          "return_pct": 121.06277730750094,
+          "max_drawdown_pct": 23.930919020731146,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 101.24987310176549,
+          "timeout_exits": 0
+        },
+        "2025": {
+          "return_pct": -11.76135376161433,
+          "max_drawdown_pct": 26.10602593242041,
+          "trades": 45,
+          "short_trades": 25,
+          "short_net_usdt": -9.669624427530334,
+          "timeout_exits": 1
+        }
+      }
+    },
+    {
+      "hours": 2,
+      "total_timeout_exits": 3,
+      "mean_annual_return_delta_pp": 0.24832305199999496,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": -1.1902380000000221,
+        "2022": 0.0,
+        "2023": 0.0,
+        "2024": 0.4246849199999758,
+        "2025": 2.007168340000021
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 69.54737790578571,
+          "max_drawdown_pct": 30.5161270082549,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 84.66116202949672,
+          "timeout_exits": 1
+        },
+        "2022": {
+          "return_pct": 35.063724580595476,
+          "max_drawdown_pct": 27.6225058268881,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 26.357698664325454,
+          "timeout_exits": 0
+        },
+        "2023": {
+          "return_pct": 72.86336905415564,
+          "max_drawdown_pct": 13.263339649923001,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 7.668623815054336,
+          "timeout_exits": 0
+        },
+        "2024": {
+          "return_pct": 121.48746222750091,
+          "max_drawdown_pct": 23.930919020731146,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 101.67455802176549,
+          "timeout_exits": 1
+        },
+        "2025": {
+          "return_pct": -10.920627781614272,
+          "max_drawdown_pct": 27.089568023005494,
+          "trades": 45,
+          "short_trades": 25,
+          "short_net_usdt": -8.897470027530277,
+          "timeout_exits": 1
+        }
+      }
+    },
+    {
+      "hours": 3,
+      "total_timeout_exits": 7,
+      "mean_annual_return_delta_pp": 0.5054507100032055,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": -1.1902380000000221,
+        "2022": -0.01680574998400175,
+        "2023": 0.928310280000062,
+        "2024": 0.4246849199999758,
+        "2025": 2.3813021000000134
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 69.54737790578571,
+          "max_drawdown_pct": 30.5161270082549,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 84.66116202949672,
+          "timeout_exits": 1
+        },
+        "2022": {
+          "return_pct": 35.046918830611475,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 26.390555314341434,
+          "timeout_exits": 1
+        },
+        "2023": {
+          "return_pct": 73.7916793341557,
+          "max_drawdown_pct": 12.555698491110135,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 8.962282495054406,
+          "timeout_exits": 1
+        },
+        "2024": {
+          "return_pct": 121.48746222750091,
+          "max_drawdown_pct": 23.930919020731146,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 101.67455802176549,
+          "timeout_exits": 1
+        },
+        "2025": {
+          "return_pct": -10.54649402161428,
+          "max_drawdown_pct": 26.17673121146461,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -7.4539813875302805,
+          "timeout_exits": 3
+        }
+      }
+    },
+    {
+      "hours": 4,
+      "total_timeout_exits": 15,
+      "mean_annual_return_delta_pp": 2.0866207550431595,
+      "years_improved": 4,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -0.01680574998400175,
+        "2023": 1.4927231400002086,
+        "2024": 2.1401018586796567,
+        "2025": 5.153424619999996
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 35.046918830611475,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 26.390555314341434,
+          "timeout_exits": 1
+        },
+        "2023": {
+          "return_pct": 74.35609219415585,
+          "max_drawdown_pct": 12.555698491110135,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 9.52669535505454,
+          "timeout_exits": 2
+        },
+        "2024": {
+          "return_pct": 123.2028791661806,
+          "max_drawdown_pct": 22.617015377276882,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 105.72752938044519,
+          "timeout_exits": 3
+        },
+        "2025": {
+          "return_pct": -7.774371501614297,
+          "max_drawdown_pct": 24.944489457773734,
+          "trades": 45,
+          "short_trades": 25,
+          "short_net_usdt": -5.6409821475303055,
+          "timeout_exits": 4
+        }
+      }
+    },
+    {
+      "hours": 5,
+      "total_timeout_exits": 21,
+      "mean_annual_return_delta_pp": 1.371532879102554,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": -1.8298796232583072,
+        "2022": 4.727761350015925,
+        "2023": -6.042451746459307,
+        "2024": 2.1401018586796567,
+        "2025": 7.862132556534803
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 68.90773628252742,
+          "max_drawdown_pct": 30.592367520234077,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 83.46874580623843,
+          "timeout_exits": 3
+        },
+        "2022": {
+          "return_pct": 39.7914859306114,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 31.472691514341356,
+          "timeout_exits": 3
+        },
+        "2023": {
+          "return_pct": 66.82091730769633,
+          "max_drawdown_pct": 13.445615423233948,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 2.5947999085949967,
+          "timeout_exits": 3
+        },
+        "2024": {
+          "return_pct": 123.2028791661806,
+          "max_drawdown_pct": 22.617015377276882,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 105.72752938044519,
+          "timeout_exits": 3
+        },
+        "2025": {
+          "return_pct": -5.06566356507949,
+          "max_drawdown_pct": 22.823537503226355,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -0.07931877099548054,
+          "timeout_exits": 9
+        }
+      }
+    },
+    {
+      "hours": 6,
+      "total_timeout_exits": 23,
+      "mean_annual_return_delta_pp": 1.6176620231025567,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": -0.18939952325834497,
+        "2022": 4.727761350015925,
+        "2023": -4.900016706459269,
+        "2024": 2.1401018586796567,
+        "2025": 6.3098631365348155
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 70.54821638252739,
+          "max_drawdown_pct": 30.592367520234077,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 85.5791678062384,
+          "timeout_exits": 3
+        },
+        "2022": {
+          "return_pct": 39.7914859306114,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 31.472691514341356,
+          "timeout_exits": 3
+        },
+        "2023": {
+          "return_pct": 67.96335234769637,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 2.9788767085950356,
+          "timeout_exits": 4
+        },
+        "2024": {
+          "return_pct": 123.2028791661806,
+          "max_drawdown_pct": 22.617015377276882,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 105.72752938044519,
+          "timeout_exits": 3
+        },
+        "2025": {
+          "return_pct": -6.617932985079477,
+          "max_drawdown_pct": 24.178534429222044,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.491801170995461,
+          "timeout_exits": 10
+        }
+      }
+    },
+    {
+      "hours": 7,
+      "total_timeout_exits": 29,
+      "mean_annual_return_delta_pp": -0.3529350833930863,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": 4.727761350015925,
+        "2023": -2.4664326264591807,
+        "2024": -12.318390943576986,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 39.7914859306114,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 31.472691514341356,
+          "timeout_exits": 3
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 108.74438636392395,
+          "max_drawdown_pct": 22.28863303173273,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 87.665762963625,
+          "timeout_exits": 4
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 8,
+      "total_timeout_exits": 29,
+      "mean_annual_return_delta_pp": -0.3529350833930863,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": 4.727761350015925,
+        "2023": -2.4664326264591807,
+        "2024": -12.318390943576986,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 39.7914859306114,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 31.472691514341356,
+          "timeout_exits": 3
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 108.74438636392395,
+          "max_drawdown_pct": 22.28863303173273,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 87.665762963625,
+          "timeout_exits": 4
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 9,
+      "total_timeout_exits": 29,
+      "mean_annual_return_delta_pp": -0.3529350833930863,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": 4.727761350015925,
+        "2023": -2.4664326264591807,
+        "2024": -12.318390943576986,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 39.7914859306114,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 31.472691514341356,
+          "timeout_exits": 3
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 108.74438636392395,
+          "max_drawdown_pct": 22.28863303173273,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 87.665762963625,
+          "timeout_exits": 4
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 10,
+      "total_timeout_exits": 29,
+      "mean_annual_return_delta_pp": -0.3529350833930863,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": 4.727761350015925,
+        "2023": -2.4664326264591807,
+        "2024": -12.318390943576986,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 39.7914859306114,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 31.472691514341356,
+          "timeout_exits": 3
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 108.74438636392395,
+          "max_drawdown_pct": 22.28863303173273,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 87.665762963625,
+          "timeout_exits": 4
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 11,
+      "total_timeout_exits": 28,
+      "mean_annual_return_delta_pp": -0.8396518993931039,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": 4.727761350015925,
+        "2023": -4.900016706459269,
+        "2024": -12.318390943576986,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 39.7914859306114,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 31.472691514341356,
+          "timeout_exits": 3
+        },
+        "2023": {
+          "return_pct": 67.96335234769637,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 2.9788767085950356,
+          "timeout_exits": 4
+        },
+        "2024": {
+          "return_pct": 108.74438636392395,
+          "max_drawdown_pct": 22.28863303173273,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 87.665762963625,
+          "timeout_exits": 4
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 12,
+      "total_timeout_exits": 29,
+      "mean_annual_return_delta_pp": 0.4729387326069087,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": 4.727761350015925,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 9.034407936534862
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 39.7914859306114,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 31.472691514341356,
+          "timeout_exits": 3
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -3.8933881850794307,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": 0.2327436290045726,
+          "timeout_exits": 11
+        }
+      }
+    },
+    {
+      "hours": 13,
+      "total_timeout_exits": 29,
+      "mean_annual_return_delta_pp": 0.4729387326069087,
+      "years_improved": 3,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": 4.727761350015925,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 9.034407936534862
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 39.7914859306114,
+          "max_drawdown_pct": 27.61475743063977,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 31.472691514341356,
+          "timeout_exits": 3
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -3.8933881850794307,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": 0.2327436290045726,
+          "timeout_exits": 11
+        }
+      }
+    },
+    {
+      "hours": 14,
+      "total_timeout_exits": 31,
+      "mean_annual_return_delta_pp": -2.2010904982711765,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 15,
+      "total_timeout_exits": 30,
+      "mean_annual_return_delta_pp": -1.7199542902711784,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 9.034407936534862
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -3.8933881850794307,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": 0.2327436290045726,
+          "timeout_exits": 11
+        }
+      }
+    },
+    {
+      "hours": 16,
+      "total_timeout_exits": 30,
+      "mean_annual_return_delta_pp": -1.7199542902711784,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 9.034407936534862
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -3.8933881850794307,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": 0.2327436290045726,
+          "timeout_exits": 11
+        }
+      }
+    },
+    {
+      "hours": 17,
+      "total_timeout_exits": 31,
+      "mean_annual_return_delta_pp": -2.2010904982711765,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 18,
+      "total_timeout_exits": 31,
+      "mean_annual_return_delta_pp": -2.2010904982711765,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 19,
+      "total_timeout_exits": 31,
+      "mean_annual_return_delta_pp": -2.2010904982711765,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 20,
+      "total_timeout_exits": 31,
+      "mean_annual_return_delta_pp": -2.2010904982711765,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 21,
+      "total_timeout_exits": 31,
+      "mean_annual_return_delta_pp": -2.2010904982711765,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 22,
+      "total_timeout_exits": 31,
+      "mean_annual_return_delta_pp": -2.2010904982711765,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 23,
+      "total_timeout_exits": 31,
+      "mean_annual_return_delta_pp": -2.2010904982711765,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    },
+    {
+      "hours": 24,
+      "total_timeout_exits": 31,
+      "mean_annual_return_delta_pp": -2.2010904982711765,
+      "years_improved": 2,
+      "annual_return_delta_pp": {
+        "2021": 1.6636599065199391,
+        "2022": -6.236703764374511,
+        "2023": -2.4664326264591807,
+        "2024": -10.594702903577002,
+        "2025": 6.628726896534872
+      },
+      "by_year": {
+        "2021": {
+          "return_pct": 72.40127581230567,
+          "max_drawdown_pct": 29.80116368369361,
+          "trades": 41,
+          "short_trades": 17,
+          "short_net_usdt": 88.11617503262369,
+          "timeout_exits": 5
+        },
+        "2022": {
+          "return_pct": 28.827020816220966,
+          "max_drawdown_pct": 31.850271618759084,
+          "trades": 24,
+          "short_trades": 10,
+          "short_net_usdt": 21.580636934418187,
+          "timeout_exits": 4
+        },
+        "2023": {
+          "return_pct": 70.39693642769646,
+          "max_drawdown_pct": 13.228522903582974,
+          "trades": 34,
+          "short_trades": 8,
+          "short_net_usdt": 5.412460788595109,
+          "timeout_exits": 5
+        },
+        "2024": {
+          "return_pct": 110.46807440392394,
+          "max_drawdown_pct": 22.28576878804942,
+          "trades": 51,
+          "short_trades": 18,
+          "short_net_usdt": 89.87450462362499,
+          "timeout_exits": 5
+        },
+        "2025": {
+          "return_pct": -6.299069225079421,
+          "max_drawdown_pct": 21.800242503109367,
+          "trades": 46,
+          "short_trades": 25,
+          "short_net_usdt": -2.1729374109954236,
+          "timeout_exits": 12
+        }
+      }
+    }
+  ]
+}

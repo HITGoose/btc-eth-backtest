@@ -1,0 +1,1233 @@
+{
+  "starting_equity_usdt": 500,
+  "hypothetical_fee_per_side_pct": 0.055,
+  "slippage_per_side_pct": 0.02,
+  "funding_modeled": false,
+  "initial_risk_at_stop_limit_pct": 1,
+  "pilot_macd_cross_max_minutes_before_squeeze": 60,
+  "pilot_requires_up_hourly_structure": true,
+  "annual": {
+    "2019": {
+      "since": "2019-09-23T17:45:00.000Z",
+      "until": "2019-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": -5.621359060369224,
+          "max_drawdown_pct": 12.814108865533736,
+          "trades": 10,
+          "long_net_usdt": -36.47401414404554,
+          "short_net_usdt": 8.367218842199478,
+          "fees_usdt": 0,
+          "long_trades": 5,
+          "short_trades": 5,
+          "trades_with_reduction_order": 10,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_only": {
+          "return_pct": -10.631692315977826,
+          "max_drawdown_pct": 13.934805077320023,
+          "trades": 10,
+          "long_net_usdt": -48.88627922161133,
+          "short_net_usdt": -4.272182358277927,
+          "fees_usdt": 24.783804919526986,
+          "long_trades": 5,
+          "short_trades": 5,
+          "trades_with_reduction_order": 10,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_and_one_pct_risk": {
+          "return_pct": -0.9637219859097046,
+          "max_drawdown_pct": 1.3112459416367739,
+          "trades": 10,
+          "long_net_usdt": -4.360187183660643,
+          "short_net_usdt": -0.4584227458879515,
+          "fees_usdt": 2.510661428184739,
+          "long_trades": 5,
+          "short_trades": 5,
+          "trades_with_reduction_order": 10,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "relaxed_both_with_cost": {
+          "return_pct": 56.505097233238665,
+          "max_drawdown_pct": 31.70565150525675,
+          "trades": 24,
+          "long_net_usdt": 289.1810106074491,
+          "short_net_usdt": -6.655524441255837,
+          "fees_usdt": 84.30642655395802,
+          "long_trades": 19,
+          "short_trades": 5,
+          "trades_with_reduction_order": 24,
+          "extra_long_by_hourly_structure": {
+            "-1": {
+              "trades": 4,
+              "net_usdt": -58.47755790161709,
+              "median_net_bps_notional": -40.289854178335254
+            },
+            "0": {
+              "trades": 9,
+              "net_usdt": 396.0109112679374,
+              "median_net_bps_notional": -47.32973343363977
+            },
+            "1": {
+              "trades": 2,
+              "net_usdt": -21.86663735943793,
+              "median_net_bps_notional": -37.684256851761845
+            }
+          },
+          "extra_longs": 15,
+          "extra_longs_net_usdt": 315.6667160068824,
+          "early_cross_long_count": 7,
+          "early_cross_median_lead_minutes": 15,
+          "early_cross_median_age_minutes": 75,
+          "best_extra_long_usdt": 471.3822680096738
+        },
+        "fresh_early_macd_with_cost": {
+          "return_pct": -12.7248054926693,
+          "max_drawdown_pct": 15.9580994799583,
+          "trades": 11,
+          "long_net_usdt": -59.42851414527132,
+          "short_net_usdt": -4.195513318075234,
+          "fees_usdt": 26.901240227059795,
+          "long_trades": 6,
+          "short_trades": 5,
+          "trades_with_reduction_order": 11,
+          "extra_long_by_hourly_structure": {
+            "1": {
+              "trades": 1,
+              "net_usdt": -10.634931050751774,
+              "median_net_bps_notional": -47.45615551643478
+            }
+          },
+          "extra_longs": 1,
+          "extra_longs_net_usdt": -10.634931050751774,
+          "early_cross_long_count": 1,
+          "early_cross_median_lead_minutes": 15,
+          "early_cross_median_age_minutes": 90,
+          "best_extra_long_usdt": -10.634931050751774
+        },
+        "cost_long_profit_protection": {
+          "return_pct": -10.631692315977826,
+          "max_drawdown_pct": 13.934805077320023,
+          "trades": 10,
+          "long_net_usdt": -48.88627922161133,
+          "short_net_usdt": -4.272182358277927,
+          "profit_protection_exits": 0,
+          "fees_usdt": 24.783804919526986,
+          "examples": []
+        },
+        "cost_risk_long_profit_protection": {
+          "return_pct": -0.9637219859097046,
+          "max_drawdown_pct": 1.3112459416367739,
+          "trades": 10,
+          "long_net_usdt": -4.360187183660643,
+          "short_net_usdt": -0.4584227458879515,
+          "profit_protection_exits": 0,
+          "fees_usdt": 2.510661428184739,
+          "examples": []
+        },
+        "cost_risk_timeout_both_sides": {
+          "return_pct": -1.5652770710015251,
+          "max_drawdown_pct": 1.897737559298529,
+          "trades": 10,
+          "long_net_usdt": -7.379877553899688,
+          "short_net_usdt": -0.44650780110795163,
+          "long_timeout_trades": 2
+        }
+      }
+    },
+    "2020": {
+      "since": "2020-04-09T10:30:00.000Z",
+      "until": "2020-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 2.9019827014417077,
+          "max_drawdown_pct": 14.574023260738766,
+          "trades": 17,
+          "long_net_usdt": 72.03813141216042,
+          "short_net_usdt": -57.52821790495183,
+          "fees_usdt": 0,
+          "long_trades": 10,
+          "short_trades": 7,
+          "trades_with_reduction_order": 17,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_only": {
+          "return_pct": -6.23490660656334,
+          "max_drawdown_pct": 17.573708112922017,
+          "trades": 17,
+          "long_net_usdt": 39.18573779417167,
+          "short_net_usdt": -70.36027082698835,
+          "fees_usdt": 44.11560571373557,
+          "long_trades": 10,
+          "short_trades": 7,
+          "trades_with_reduction_order": 17,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_and_one_pct_risk": {
+          "return_pct": -0.45096599418945615,
+          "max_drawdown_pct": 1.7617040175117449,
+          "trades": 17,
+          "long_net_usdt": 4.501842539965882,
+          "short_net_usdt": -6.7566725109133206,
+          "fees_usdt": 4.232709764701537,
+          "long_trades": 10,
+          "short_trades": 7,
+          "trades_with_reduction_order": 17,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "relaxed_both_with_cost": {
+          "return_pct": -35.4035728290721,
+          "max_drawdown_pct": 38.67160917994662,
+          "trades": 42,
+          "long_net_usdt": -126.0997014470343,
+          "short_net_usdt": -50.91816269832621,
+          "fees_usdt": 90.0013733931489,
+          "long_trades": 35,
+          "short_trades": 7,
+          "trades_with_reduction_order": 42,
+          "extra_long_by_hourly_structure": {
+            "-1": {
+              "trades": 3,
+              "net_usdt": -7.066423556100494,
+              "median_net_bps_notional": -26.399273964372412
+            },
+            "0": {
+              "trades": 18,
+              "net_usdt": -107.63654584672875,
+              "median_net_bps_notional": -30.026510097407588
+            },
+            "1": {
+              "trades": 7,
+              "net_usdt": -45.63931201791182,
+              "median_net_bps_notional": -25.913878682272134
+            }
+          },
+          "extra_longs": 28,
+          "extra_longs_net_usdt": -160.34228142074107,
+          "early_cross_long_count": 24,
+          "early_cross_median_lead_minutes": 15.0,
+          "early_cross_median_age_minutes": 75.0,
+          "best_extra_long_usdt": 38.07613511407309
+        },
+        "fresh_early_macd_with_cost": {
+          "return_pct": -8.157039673655486,
+          "max_drawdown_pct": 20.663476939086234,
+          "trades": 20,
+          "long_net_usdt": 28.492766166665426,
+          "short_net_usdt": -69.27796453494258,
+          "fees_usdt": 51.70292242861372,
+          "long_trades": 13,
+          "short_trades": 7,
+          "trades_with_reduction_order": 20,
+          "extra_long_by_hourly_structure": {
+            "1": {
+              "trades": 3,
+              "net_usdt": -8.497526116433882,
+              "median_net_bps_notional": -9.997133838552736
+            }
+          },
+          "extra_longs": 3,
+          "extra_longs_net_usdt": -8.497526116433882,
+          "early_cross_long_count": 3,
+          "early_cross_median_lead_minutes": 0,
+          "early_cross_median_age_minutes": 90,
+          "best_extra_long_usdt": 4.675453958990635
+        },
+        "cost_long_profit_protection": {
+          "return_pct": -6.23490660656334,
+          "max_drawdown_pct": 17.573708112922017,
+          "trades": 17,
+          "long_net_usdt": 39.18573779417167,
+          "short_net_usdt": -70.36027082698835,
+          "profit_protection_exits": 0,
+          "fees_usdt": 44.11560571373557,
+          "examples": []
+        },
+        "cost_risk_long_profit_protection": {
+          "return_pct": -0.45096599418945615,
+          "max_drawdown_pct": 1.7617040175117449,
+          "trades": 17,
+          "long_net_usdt": 4.501842539965882,
+          "short_net_usdt": -6.7566725109133206,
+          "profit_protection_exits": 0,
+          "fees_usdt": 4.232709764701537,
+          "examples": []
+        },
+        "cost_risk_timeout_both_sides": {
+          "return_pct": -1.4434141690404467,
+          "max_drawdown_pct": 2.2010186476364324,
+          "trades": 17,
+          "long_net_usdt": -0.4603983342890654,
+          "short_net_usdt": -6.7566725109133206,
+          "long_timeout_trades": 4
+        }
+      }
+    },
+    "2021": {
+      "since": "2020-12-31T16:00:00.000Z",
+      "until": "2021-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 56.42903419783054,
+          "max_drawdown_pct": 30.211671814809137,
+          "trades": 37,
+          "long_net_usdt": -90.52905402636051,
+          "short_net_usdt": 372.67422501551323,
+          "fees_usdt": 0,
+          "long_trades": 23,
+          "short_trades": 14,
+          "trades_with_reduction_order": 37,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_only": {
+          "return_pct": 28.272759199144847,
+          "max_drawdown_pct": 34.23383945811194,
+          "trades": 37,
+          "long_net_usdt": -138.43926752473484,
+          "short_net_usdt": 279.8030635204591,
+          "fees_usdt": 102.27972495930341,
+          "long_trades": 23,
+          "short_trades": 14,
+          "trades_with_reduction_order": 37,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_and_one_pct_risk": {
+          "return_pct": 5.412252631535064,
+          "max_drawdown_pct": 3.83900002076516,
+          "trades": 37,
+          "long_net_usdt": -10.283148119929752,
+          "short_net_usdt": 37.344411277605055,
+          "fees_usdt": 8.704098481397228,
+          "long_trades": 23,
+          "short_trades": 14,
+          "trades_with_reduction_order": 18,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "relaxed_both_with_cost": {
+          "return_pct": -45.611440143602145,
+          "max_drawdown_pct": 63.58921601826522,
+          "trades": 74,
+          "long_net_usdt": -355.92284784002675,
+          "short_net_usdt": 127.86564712201604,
+          "fees_usdt": 128.49538693043368,
+          "long_trades": 60,
+          "short_trades": 14,
+          "trades_with_reduction_order": 74,
+          "extra_long_by_hourly_structure": {
+            "-1": {
+              "trades": 13,
+              "net_usdt": 19.770743525394597,
+              "median_net_bps_notional": -14.108886813304022
+            },
+            "0": {
+              "trades": 20,
+              "net_usdt": -164.86680985460592,
+              "median_net_bps_notional": -47.40411959474005
+            },
+            "1": {
+              "trades": 10,
+              "net_usdt": -44.79549382315554,
+              "median_net_bps_notional": -63.97170294769724
+            }
+          },
+          "extra_longs": 43,
+          "extra_longs_net_usdt": -189.89156015236685,
+          "early_cross_long_count": 32,
+          "early_cross_median_lead_minutes": 15.0,
+          "early_cross_median_age_minutes": 60.0,
+          "best_extra_long_usdt": 49.20975543394142
+        },
+        "fresh_early_macd_with_cost": {
+          "return_pct": 22.07262100363987,
+          "max_drawdown_pct": 36.901714954397434,
+          "trades": 38,
+          "long_net_usdt": -154.0564106791196,
+          "short_net_usdt": 264.41951569731907,
+          "fees_usdt": 102.6633992368284,
+          "long_trades": 24,
+          "short_trades": 14,
+          "trades_with_reduction_order": 38,
+          "extra_long_by_hourly_structure": {
+            "1": {
+              "trades": 1,
+              "net_usdt": -17.605404070799754,
+              "median_net_bps_notional": -79.14249157092698
+            }
+          },
+          "extra_longs": 1,
+          "extra_longs_net_usdt": -17.605404070799754,
+          "early_cross_long_count": 1,
+          "early_cross_median_lead_minutes": 0,
+          "early_cross_median_age_minutes": 90,
+          "best_extra_long_usdt": -17.605404070799754
+        },
+        "cost_long_profit_protection": {
+          "return_pct": 35.51841721245999,
+          "max_drawdown_pct": 34.5304411578456,
+          "trades": 37,
+          "long_net_usdt": -103.25670043300119,
+          "short_net_usdt": 280.84878649530094,
+          "profit_protection_exits": 6,
+          "fees_usdt": 107.31827057504265,
+          "examples": [
+            {
+              "opened_utc": "2021-01-04T23:30:00.000Z",
+              "net_usdt": -0.5354132070673909,
+              "control_net_usdt": -39.43896057868445
+            },
+            {
+              "opened_utc": "2021-03-16T20:45:00.000Z",
+              "net_usdt": -4.952932092993542,
+              "control_net_usdt": -12.845338614768346
+            },
+            {
+              "opened_utc": "2021-05-05T09:15:00.000Z",
+              "net_usdt": -0.006131493895086271,
+              "control_net_usdt": 11.243268207964944
+            },
+            {
+              "opened_utc": "2021-05-14T08:15:00.000Z",
+              "net_usdt": -0.14989730876966068,
+              "control_net_usdt": 14.695474312977357
+            },
+            {
+              "opened_utc": "2021-05-25T22:45:00.000Z",
+              "net_usdt": -7.522310992506296,
+              "control_net_usdt": -3.40362755811626
+            },
+            {
+              "opened_utc": "2021-12-24T18:45:00.000Z",
+              "net_usdt": -3.147227786197911,
+              "control_net_usdt": -23.236084045285715
+            }
+          ]
+        },
+        "cost_risk_long_profit_protection": {
+          "return_pct": 6.022101724645235,
+          "max_drawdown_pct": 4.0786991912975745,
+          "trades": 37,
+          "long_net_usdt": -6.195835203176955,
+          "short_net_usdt": 36.306343826403115,
+          "profit_protection_exits": 6,
+          "fees_usdt": 8.780760970815539,
+          "examples": [
+            {
+              "opened_utc": "2021-01-04T23:30:00.000Z",
+              "net_usdt": -0.14219954108149643,
+              "control_net_usdt": -3.8472992907593118
+            },
+            {
+              "opened_utc": "2021-03-16T20:45:00.000Z",
+              "net_usdt": -0.19274948393999367,
+              "control_net_usdt": -1.9234506744599842
+            },
+            {
+              "opened_utc": "2021-05-05T09:15:00.000Z",
+              "net_usdt": -0.23966198987997972,
+              "control_net_usdt": 1.0353811504800061
+            },
+            {
+              "opened_utc": "2021-05-14T08:15:00.000Z",
+              "net_usdt": -0.01394396832000086,
+              "control_net_usdt": 1.2610991720400142
+            },
+            {
+              "opened_utc": "2021-05-25T22:45:00.000Z",
+              "net_usdt": -0.685375796501164,
+              "control_net_usdt": -0.3681138865761605
+            },
+            {
+              "opened_utc": "2021-12-24T18:45:00.000Z",
+              "net_usdt": -0.5857685305799957,
+              "control_net_usdt": -2.104628697779992
+            }
+          ]
+        },
+        "cost_risk_timeout_both_sides": {
+          "return_pct": 7.136424846901734,
+          "max_drawdown_pct": 3.451830153622204,
+          "trades": 37,
+          "long_net_usdt": -1.3445156386714943,
+          "short_net_usdt": 37.02663987318006,
+          "long_timeout_trades": 9
+        }
+      }
+    },
+    "2022": {
+      "since": "2021-12-31T16:00:00.000Z",
+      "until": "2022-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 39.78062002990623,
+          "max_drawdown_pct": 27.806620754590526,
+          "trades": 24,
+          "long_net_usdt": 39.51012396599913,
+          "short_net_usdt": 159.39297618353208,
+          "fees_usdt": 0,
+          "long_trades": 14,
+          "short_trades": 10,
+          "trades_with_reduction_order": 24,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_only": {
+          "return_pct": 22.78510123106352,
+          "max_drawdown_pct": 30.463884008689202,
+          "trades": 24,
+          "long_net_usdt": -5.683633156446184,
+          "short_net_usdt": 119.60913931176368,
+          "fees_usdt": 72.36002438012622,
+          "long_trades": 14,
+          "short_trades": 10,
+          "trades_with_reduction_order": 24,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_and_one_pct_risk": {
+          "return_pct": 2.6868947986536273,
+          "max_drawdown_pct": 3.203795076412441,
+          "trades": 24,
+          "long_net_usdt": 2.7404585430955426,
+          "short_net_usdt": 10.694015450172591,
+          "fees_usdt": 5.94301931137815,
+          "long_trades": 14,
+          "short_trades": 10,
+          "trades_with_reduction_order": 24,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "relaxed_both_with_cost": {
+          "return_pct": -5.5409639114026525,
+          "max_drawdown_pct": 38.858781718089375,
+          "trades": 67,
+          "long_net_usdt": -152.299690328993,
+          "short_net_usdt": 124.59487077197957,
+          "fees_usdt": 198.9197004879664,
+          "long_trades": 57,
+          "short_trades": 10,
+          "trades_with_reduction_order": 67,
+          "extra_long_by_hourly_structure": {
+            "-1": {
+              "trades": 7,
+              "net_usdt": -104.0122239372684,
+              "median_net_bps_notional": -45.08535758637654
+            },
+            "0": {
+              "trades": 32,
+              "net_usdt": -171.6661804447598,
+              "median_net_bps_notional": -29.439977849190655
+            },
+            "1": {
+              "trades": 9,
+              "net_usdt": -46.1245393464931,
+              "median_net_bps_notional": -26.10766008763683
+            }
+          },
+          "extra_longs": 48,
+          "extra_longs_net_usdt": -321.8029437285213,
+          "early_cross_long_count": 30,
+          "early_cross_median_lead_minutes": 15.0,
+          "early_cross_median_age_minutes": 90.0,
+          "best_extra_long_usdt": 44.385907440245504
+        },
+        "fresh_early_macd_with_cost": {
+          "return_pct": 14.815693686840682,
+          "max_drawdown_pct": 33.36397092435561,
+          "trades": 30,
+          "long_net_usdt": -37.10838682702202,
+          "short_net_usdt": 111.18685526122572,
+          "fees_usdt": 87.02667277901654,
+          "long_trades": 20,
+          "short_trades": 10,
+          "trades_with_reduction_order": 30,
+          "extra_long_by_hourly_structure": {
+            "1": {
+              "trades": 6,
+              "net_usdt": -34.877943213047466,
+              "median_net_bps_notional": -37.35026710366907
+            }
+          },
+          "extra_longs": 6,
+          "extra_longs_net_usdt": -34.877943213047466,
+          "early_cross_long_count": 6,
+          "early_cross_median_lead_minutes": 15.0,
+          "early_cross_median_age_minutes": 135.0,
+          "best_extra_long_usdt": 21.400215965073766
+        },
+        "cost_long_profit_protection": {
+          "return_pct": 26.731678863327968,
+          "max_drawdown_pct": 29.11127475489289,
+          "trades": 24,
+          "long_net_usdt": 12.299869317089188,
+          "short_net_usdt": 121.35852499955027,
+          "profit_protection_exits": 4,
+          "fees_usdt": 74.16843478782909,
+          "examples": [
+            {
+              "opened_utc": "2022-05-01T15:30:00.000Z",
+              "net_usdt": -3.073786651816286,
+              "control_net_usdt": -23.065783602586592
+            },
+            {
+              "opened_utc": "2022-05-15T11:30:00.000Z",
+              "net_usdt": -4.337264927187621,
+              "control_net_usdt": -4.107282505876048
+            },
+            {
+              "opened_utc": "2022-06-20T08:30:00.000Z",
+              "net_usdt": -0.11005424134359032,
+              "control_net_usdt": 0.12985046174488102
+            },
+            {
+              "opened_utc": "2022-06-24T21:15:00.000Z",
+              "net_usdt": -4.816809948783402,
+              "control_net_usdt": -2.52334658021837
+            }
+          ]
+        },
+        "cost_risk_long_profit_protection": {
+          "return_pct": 3.3369410221776308,
+          "max_drawdown_pct": 3.0022655064510073,
+          "trades": 24,
+          "long_net_usdt": 6.054985664675553,
+          "short_net_usdt": 10.629719446212594,
+          "profit_protection_exits": 4,
+          "fees_usdt": 6.01031639375815,
+          "examples": [
+            {
+              "opened_utc": "2022-05-01T15:30:00.000Z",
+              "net_usdt": -0.32806382942151696,
+              "control_net_usdt": -2.0817477724715436
+            },
+            {
+              "opened_utc": "2022-05-15T11:30:00.000Z",
+              "net_usdt": -0.46177842703153715,
+              "control_net_usdt": -0.4437919250515335
+            },
+            {
+              "opened_utc": "2022-06-20T08:30:00.000Z",
+              "net_usdt": -0.03820334743683415,
+              "control_net_usdt": -0.011223594466828718
+            },
+            {
+              "opened_utc": "2022-06-24T21:15:00.000Z",
+              "net_usdt": -0.5014479088748545,
+              "control_net_usdt": -0.22220225664984522
+            }
+          ]
+        },
+        "cost_risk_timeout_both_sides": {
+          "return_pct": 3.4889202393550756,
+          "max_drawdown_pct": 2.798321335619758,
+          "trades": 24,
+          "long_net_usdt": 6.814881750562837,
+          "short_net_usdt": 10.629719446212594,
+          "long_timeout_trades": 2
+        }
+      }
+    },
+    "2023": {
+      "since": "2022-12-31T16:00:00.000Z",
+      "until": "2023-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 73.31043931056973,
+          "max_drawdown_pct": 12.669174614288082,
+          "trades": 34,
+          "long_net_usdt": 318.1803060101906,
+          "short_net_usdt": 48.371890542657944,
+          "fees_usdt": 0,
+          "long_trades": 26,
+          "short_trades": 8,
+          "trades_with_reduction_order": 34,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_only": {
+          "return_pct": 43.97734267132507,
+          "max_drawdown_pct": 18.24068764614829,
+          "trades": 34,
+          "long_net_usdt": 204.99089443601017,
+          "short_net_usdt": 14.895818920615785,
+          "fees_usdt": 123.09408312279776,
+          "long_trades": 26,
+          "short_trades": 8,
+          "trades_with_reduction_order": 34,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_and_one_pct_risk": {
+          "return_pct": 4.278340346100995,
+          "max_drawdown_pct": 1.7840385493795963,
+          "trades": 34,
+          "long_net_usdt": 20.104823548034496,
+          "short_net_usdt": 1.2868781824706608,
+          "fees_usdt": 8.563496547765155,
+          "long_trades": 26,
+          "short_trades": 8,
+          "trades_with_reduction_order": 34,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "relaxed_both_with_cost": {
+          "return_pct": 101.81694047197855,
+          "max_drawdown_pct": 26.640763721955384,
+          "trades": 81,
+          "long_net_usdt": 489.7489705290519,
+          "short_net_usdt": 19.335731830840587,
+          "fees_usdt": 390.57224953025184,
+          "long_trades": 73,
+          "short_trades": 8,
+          "trades_with_reduction_order": 81,
+          "extra_long_by_hourly_structure": {
+            "-1": {
+              "trades": 12,
+              "net_usdt": 44.5600690177173,
+              "median_net_bps_notional": -28.722338493425447
+            },
+            "0": {
+              "trades": 37,
+              "net_usdt": 116.08679950654751,
+              "median_net_bps_notional": -20.85511998021714
+            },
+            "1": {
+              "trades": 10,
+              "net_usdt": 130.74713859034148,
+              "median_net_bps_notional": -3.3084294708999242
+            }
+          },
+          "extra_longs": 59,
+          "extra_longs_net_usdt": 291.39400711460627,
+          "early_cross_long_count": 40,
+          "early_cross_median_lead_minutes": 15.0,
+          "early_cross_median_age_minutes": 60.0,
+          "best_extra_long_usdt": 135.80078229646085
+        },
+        "fresh_early_macd_with_cost": {
+          "return_pct": 85.6026131733088,
+          "max_drawdown_pct": 15.182169622517982,
+          "trades": 41,
+          "long_net_usdt": 413.2164419233162,
+          "short_net_usdt": 14.79662394322809,
+          "fees_usdt": 181.1256283672559,
+          "long_trades": 33,
+          "short_trades": 8,
+          "trades_with_reduction_order": 41,
+          "extra_long_by_hourly_structure": {
+            "1": {
+              "trades": 7,
+              "net_usdt": 181.60207257990226,
+              "median_net_bps_notional": 38.54573843730349
+            }
+          },
+          "extra_longs": 7,
+          "extra_longs_net_usdt": 181.60207257990226,
+          "early_cross_long_count": 7,
+          "early_cross_median_lead_minutes": 0,
+          "early_cross_median_age_minutes": 75,
+          "best_extra_long_usdt": 120.01089301004495
+        },
+        "cost_long_profit_protection": {
+          "return_pct": 7.0523836531160455,
+          "max_drawdown_pct": 19.674593651477256,
+          "trades": 34,
+          "long_net_usdt": 20.764255603322084,
+          "short_net_usdt": 14.49766266225802,
+          "profit_protection_exits": 3,
+          "fees_usdt": 96.83377773327999,
+          "examples": [
+            {
+              "opened_utc": "2023-01-12T17:45:00.000Z",
+              "net_usdt": -0.7000850228909459,
+              "control_net_usdt": 15.098059216209153
+            },
+            {
+              "opened_utc": "2023-03-12T18:30:00.000Z",
+              "net_usdt": -2.8512533550011687,
+              "control_net_usdt": 132.09864038719945
+            },
+            {
+              "opened_utc": "2023-06-11T16:45:00.000Z",
+              "net_usdt": -12.995532503655294,
+              "control_net_usdt": -5.120485986338418
+            }
+          ]
+        },
+        "cost_risk_long_profit_protection": {
+          "return_pct": 1.1877098218318727,
+          "max_drawdown_pct": 1.9712730676899493,
+          "trades": 34,
+          "long_net_usdt": 4.651670926688482,
+          "short_net_usdt": 1.2868781824706608,
+          "profit_protection_exits": 3,
+          "fees_usdt": 8.420168929111155,
+          "examples": [
+            {
+              "opened_utc": "2023-01-12T17:45:00.000Z",
+              "net_usdt": -0.12492561375407685,
+              "control_net_usdt": 1.423912056745933
+            },
+            {
+              "opened_utc": "2023-03-12T18:30:00.000Z",
+              "net_usdt": -0.3197393767119238,
+              "control_net_usdt": 12.887749027202082
+            },
+            {
+              "opened_utc": "2023-06-11T16:45:00.000Z",
+              "net_usdt": -1.3566374279728695,
+              "control_net_usdt": -0.5268601366288704
+            }
+          ]
+        },
+        "cost_risk_timeout_both_sides": {
+          "return_pct": 3.982326773023992,
+          "max_drawdown_pct": 2.168566314937226,
+          "trades": 34,
+          "long_net_usdt": 18.6307837788433,
+          "short_net_usdt": 1.2808500862766647,
+          "long_timeout_trades": 8
+        }
+      }
+    },
+    "2024": {
+      "since": "2023-12-31T16:00:00.000Z",
+      "until": "2024-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 152.4150569247639,
+          "max_drawdown_pct": 21.023587087242923,
+          "trades": 47,
+          "long_net_usdt": 139.40752966994506,
+          "short_net_usdt": 622.667754953875,
+          "fees_usdt": 0,
+          "long_trades": 31,
+          "short_trades": 16,
+          "trades_with_reduction_order": 47,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_only": {
+          "return_pct": 95.5977859940852,
+          "max_drawdown_pct": 25.51216546676739,
+          "trades": 47,
+          "long_net_usdt": 5.618814132211638,
+          "short_net_usdt": 472.3701158382145,
+          "fees_usdt": 223.2239221022629,
+          "long_trades": 31,
+          "short_trades": 16,
+          "trades_with_reduction_order": 47,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_and_one_pct_risk": {
+          "return_pct": 7.959244328653714,
+          "max_drawdown_pct": 2.6052577283020684,
+          "trades": 47,
+          "long_net_usdt": 11.378169701959523,
+          "short_net_usdt": 28.418051941309294,
+          "fees_usdt": 10.86265323737326,
+          "long_trades": 31,
+          "short_trades": 16,
+          "trades_with_reduction_order": 8,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "relaxed_both_with_cost": {
+          "return_pct": 67.03347942499897,
+          "max_drawdown_pct": 30.46213697830138,
+          "trades": 93,
+          "long_net_usdt": -21.084171764007348,
+          "short_net_usdt": 356.25156888900233,
+          "fees_usdt": 353.6133169377022,
+          "long_trades": 77,
+          "short_trades": 16,
+          "trades_with_reduction_order": 93,
+          "extra_long_by_hourly_structure": {
+            "-1": {
+              "trades": 14,
+              "net_usdt": -186.0991871166234,
+              "median_net_bps_notional": -36.09840076927625
+            },
+            "0": {
+              "trades": 34,
+              "net_usdt": -62.70536632798738,
+              "median_net_bps_notional": -23.63717262547685
+            },
+            "1": {
+              "trades": 9,
+              "net_usdt": 153.65064886497805,
+              "median_net_bps_notional": 3.4664367369076747
+            }
+          },
+          "extra_longs": 57,
+          "extra_longs_net_usdt": -95.15390457963272,
+          "early_cross_long_count": 38,
+          "early_cross_median_lead_minutes": 15.0,
+          "early_cross_median_age_minutes": 75.0,
+          "best_extra_long_usdt": 112.98592035010621
+        },
+        "fresh_early_macd_with_cost": {
+          "return_pct": 108.34718836451071,
+          "max_drawdown_pct": 23.282185046597515,
+          "trades": 51,
+          "long_net_usdt": 68.65542300415203,
+          "short_net_usdt": 473.0805188184019,
+          "fees_usdt": 246.27804775137713,
+          "long_trades": 35,
+          "short_trades": 16,
+          "trades_with_reduction_order": 51,
+          "extra_long_by_hourly_structure": {
+            "1": {
+              "trades": 4,
+              "net_usdt": 70.87741208482362,
+              "median_net_bps_notional": 2.9750932828464585
+            }
+          },
+          "extra_longs": 4,
+          "extra_longs_net_usdt": 70.87741208482362,
+          "early_cross_long_count": 4,
+          "early_cross_median_lead_minutes": 15.0,
+          "early_cross_median_age_minutes": 82.5,
+          "best_extra_long_usdt": 105.64696119502841
+        },
+        "cost_long_profit_protection": {
+          "return_pct": 102.74927912619832,
+          "max_drawdown_pct": 23.019257561425345,
+          "trades": 47,
+          "long_net_usdt": 54.357019379930804,
+          "short_net_usdt": 459.3893762510602,
+          "profit_protection_exits": 4,
+          "fees_usdt": 222.45178728654133,
+          "examples": [
+            {
+              "opened_utc": "2024-02-01T14:45:00.000Z",
+              "net_usdt": -1.6229848713197774,
+              "control_net_usdt": 19.524345056632352
+            },
+            {
+              "opened_utc": "2024-05-07T07:30:00.000Z",
+              "net_usdt": -9.878863611334703,
+              "control_net_usdt": -7.417205025246279
+            },
+            {
+              "opened_utc": "2024-08-12T11:15:00.000Z",
+              "net_usdt": -38.622703306730514,
+              "control_net_usdt": -89.6612943721595
+            },
+            {
+              "opened_utc": "2024-11-15T09:30:00.000Z",
+              "net_usdt": -2.4831343515035065,
+              "control_net_usdt": -31.2721124000914
+            }
+          ]
+        },
+        "cost_risk_long_profit_protection": {
+          "return_pct": 8.607704594819188,
+          "max_drawdown_pct": 2.4485310403265292,
+          "trades": 47,
+          "long_net_usdt": 14.620471032786705,
+          "short_net_usdt": 28.418051941309294,
+          "profit_protection_exits": 4,
+          "fees_usdt": 10.864437484441103,
+          "examples": [
+            {
+              "opened_utc": "2024-02-01T14:45:00.000Z",
+              "net_usdt": -0.11152832325343538,
+              "control_net_usdt": 1.6507491707425752
+            },
+            {
+              "opened_utc": "2024-05-07T07:30:00.000Z",
+              "net_usdt": -0.005861519045984781,
+              "control_net_usdt": -0.7205251977179793
+            },
+            {
+              "opened_utc": "2024-08-12T11:15:00.000Z",
+              "net_usdt": -2.4410219295480027,
+              "control_net_usdt": -5.049598840613181
+            },
+            {
+              "opened_utc": "2024-11-15T09:30:00.000Z",
+              "net_usdt": -0.011637121817962975,
+              "control_net_usdt": -1.6929753569039863
+            }
+          ]
+        },
+        "cost_risk_timeout_both_sides": {
+          "return_pct": 5.14196766647812,
+          "max_drawdown_pct": 2.5117760588112548,
+          "trades": 47,
+          "long_net_usdt": -1.8319167522404982,
+          "short_net_usdt": 27.54175508463129,
+          "long_timeout_trades": 10
+        }
+      }
+    },
+    "2025": {
+      "since": "2024-12-31T16:00:00.000Z",
+      "until": "2025-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 3.6266876970746376,
+          "max_drawdown_pct": 18.828201360691267,
+          "trades": 43,
+          "long_net_usdt": -14.360780463325067,
+          "short_net_usdt": 32.494218948698624,
+          "fees_usdt": 0,
+          "long_trades": 20,
+          "short_trades": 23,
+          "trades_with_reduction_order": 43,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_only": {
+          "return_pct": -17.59704564284864,
+          "max_drawdown_pct": 29.16214624295619,
+          "trades": 43,
+          "long_net_usdt": -62.661679526638814,
+          "short_net_usdt": -25.323548687604205,
+          "fees_usdt": 106.49049880524163,
+          "long_trades": 20,
+          "short_trades": 23,
+          "trades_with_reduction_order": 43,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "cost_and_one_pct_risk": {
+          "return_pct": -1.836977998223277,
+          "max_drawdown_pct": 3.15943078747849,
+          "trades": 43,
+          "long_net_usdt": -7.2304035955798955,
+          "short_net_usdt": -1.9544863955368732,
+          "fees_usdt": 8.961472571117003,
+          "long_trades": 20,
+          "short_trades": 23,
+          "trades_with_reduction_order": 0,
+          "extra_long_by_hourly_structure": {},
+          "extra_longs": 0,
+          "extra_longs_net_usdt": 0,
+          "early_cross_long_count": 0,
+          "early_cross_median_lead_minutes": null,
+          "early_cross_median_age_minutes": null,
+          "best_extra_long_usdt": null
+        },
+        "relaxed_both_with_cost": {
+          "return_pct": -45.44820825774363,
+          "max_drawdown_pct": 52.8040403746314,
+          "trades": 84,
+          "long_net_usdt": -207.94529760692564,
+          "short_net_usdt": -19.29574368179232,
+          "fees_usdt": 183.23140815602127,
+          "long_trades": 61,
+          "short_trades": 23,
+          "trades_with_reduction_order": 84,
+          "extra_long_by_hourly_structure": {
+            "-1": {
+              "trades": 9,
+              "net_usdt": 37.79308416153278,
+              "median_net_bps_notional": 4.397382574767094
+            },
+            "0": {
+              "trades": 33,
+              "net_usdt": -178.8187317241111,
+              "median_net_bps_notional": -28.16088852719195
+            },
+            "1": {
+              "trades": 9,
+              "net_usdt": -97.64889659230325,
+              "median_net_bps_notional": -51.851721728465535
+            }
+          },
+          "extra_longs": 51,
+          "extra_longs_net_usdt": -238.67454415488154,
+          "early_cross_long_count": 30,
+          "early_cross_median_lead_minutes": 15.0,
+          "early_cross_median_age_minutes": 82.5,
+          "best_extra_long_usdt": 52.81480934922468
+        },
+        "fresh_early_macd_with_cost": {
+          "return_pct": -18.53501082889778,
+          "max_drawdown_pct": 29.16214624295619,
+          "trades": 44,
+          "long_net_usdt": -67.91384547631363,
+          "short_net_usdt": -24.76120866817519,
+          "fees_usdt": 108.72806453548763,
+          "long_trades": 21,
+          "short_trades": 23,
+          "trades_with_reduction_order": 44,
+          "extra_long_by_hourly_structure": {
+            "1": {
+              "trades": 1,
+              "net_usdt": -5.252165949674801,
+              "median_net_bps_notional": -24.52877266037519
+            }
+          },
+          "extra_longs": 1,
+          "extra_longs_net_usdt": -5.252165949674801,
+          "early_cross_long_count": 1,
+          "early_cross_median_lead_minutes": 15,
+          "early_cross_median_age_minutes": 75,
+          "best_extra_long_usdt": -5.252165949674801
+        },
+        "cost_long_profit_protection": {
+          "return_pct": -14.861993462791245,
+          "max_drawdown_pct": 26.71401306591944,
+          "trades": 43,
+          "long_net_usdt": -48.276285084032125,
+          "short_net_usdt": -26.033682229923574,
+          "profit_protection_exits": 1,
+          "fees_usdt": 109.96572105908888,
+          "examples": [
+            {
+              "opened_utc": "2025-02-14T17:45:00.000Z",
+              "net_usdt": -0.4368197462147614,
+              "control_net_usdt": -17.955672674734398
+            }
+          ]
+        },
+        "cost_risk_long_profit_protection": {
+          "return_pct": -1.5013099012720965,
+          "max_drawdown_pct": 2.8281260508185246,
+          "trades": 43,
+          "long_net_usdt": -5.552063110823959,
+          "short_net_usdt": -1.9544863955368732,
+          "profit_protection_exits": 2,
+          "fees_usdt": 8.962396166361001,
+          "examples": [
+            {
+              "opened_utc": "2025-02-14T17:45:00.000Z",
+              "net_usdt": -0.37159195855803073,
+              "control_net_usdt": -2.123477251409995
+            },
+            {
+              "opened_utc": "2025-03-17T17:30:00.000Z",
+              "net_usdt": -0.048016827582020166,
+              "control_net_usdt": 0.025527980514008244
+            }
+          ]
+        },
+        "cost_risk_timeout_both_sides": {
+          "return_pct": -2.2508873787874806,
+          "max_drawdown_pct": 3.521531209364126,
+          "trades": 43,
+          "long_net_usdt": -9.29995049840078,
+          "short_net_usdt": -1.9544863955368732,
+          "long_timeout_trades": 11
+        }
+      }
+    }
+  },
+  "long_profit_protection": {
+    "arm_move_pct": 0.8,
+    "confirmed_exit_net_pct_of_initial_notional": 0,
+    "eligibility_begins_after_target_bar": true
+  }
+}

@@ -1,0 +1,474 @@
+{
+  "monthly_account_return_rounded_pct": {
+    "2013": [
+      -13,
+      18,
+      21,
+      0,
+      37,
+      -31,
+      -17,
+      25,
+      -16,
+      18,
+      9,
+      0
+    ],
+    "2014": [
+      -10,
+      15,
+      0,
+      31,
+      -1,
+      -21,
+      -25,
+      -11,
+      5,
+      -1,
+      9,
+      3
+    ],
+    "2015": [
+      9,
+      -7,
+      4,
+      27,
+      -3,
+      0,
+      35,
+      8,
+      -14,
+      19,
+      -4,
+      8
+    ],
+    "2016": [
+      5,
+      -14,
+      -20,
+      15,
+      -4,
+      32,
+      2,
+      -4,
+      -5,
+      2,
+      -2,
+      19
+    ],
+    "2017": [
+      4,
+      18,
+      9,
+      17,
+      -3,
+      1,
+      14,
+      9,
+      0,
+      3,
+      9,
+      -3
+    ],
+    "2018": [
+      17,
+      0,
+      1,
+      4,
+      0,
+      -10,
+      -4,
+      -2,
+      -10,
+      -14,
+      39,
+      0
+    ],
+    "2019": [
+      -11,
+      3,
+      -9,
+      24,
+      6,
+      18,
+      -1,
+      1,
+      -2,
+      -3,
+      3,
+      10
+    ],
+    "2020": [
+      7,
+      2,
+      4,
+      32,
+      8,
+      0,
+      -4,
+      -1,
+      1,
+      13,
+      17,
+      1
+    ],
+    "2021": [
+      1,
+      7,
+      -3,
+      11,
+      0,
+      0,
+      0,
+      3,
+      2,
+      6,
+      -2,
+      1
+    ],
+    "2022": [
+      37,
+      4,
+      17,
+      4,
+      -1,
+      -6,
+      -3,
+      11,
+      5,
+      18,
+      13,
+      -17
+    ],
+    "2023": [
+      15,
+      3,
+      13,
+      -13,
+      -2,
+      25,
+      1,
+      39,
+      -6,
+      23,
+      3,
+      -8
+    ],
+    "2024": [
+      10,
+      22,
+      -2,
+      -2,
+      -7,
+      10,
+      3,
+      -5,
+      -12,
+      10,
+      3,
+      29
+    ],
+    "2025": [
+      18,
+      8,
+      17,
+      2,
+      1,
+      8,
+      -3,
+      -2,
+      -3,
+      10,
+      7,
+      -11
+    ],
+    "2026": [
+      21,
+      12,
+      2,
+      4,
+      8,
+      5,
+      -5,
+      12,
+      1,
+      15
+    ]
+  },
+  "annual_from_rounded_months": {
+    "2013": {
+      "central_pct": 31.62312112345409,
+      "range_if_rounded_to_whole_pct": [
+        23.961774816628424,
+        39.714566424319116
+      ]
+    },
+    "2014": {
+      "central_pct": -17.393652928452408,
+      "range_if_rounded_to_whole_pct": [
+        -22.344240855056473,
+        -12.155902822178998
+      ]
+    },
+    "2015": {
+      "central_pct": 100.91676003897305,
+      "range_if_rounded_to_whole_pct": [
+        89.74912846479623,
+        112.68309929921423
+      ]
+    },
+    "2016": {
+      "central_pct": 16.490084646405844,
+      "range_if_rounded_to_whole_pct": [
+        9.717114039584128,
+        23.643751840613582
+      ]
+    },
+    "2017": {
+      "central_pct": 107.48543733367724,
+      "range_if_rounded_to_whole_pct": [
+        96.04548844796665,
+        119.53412450634313
+      ]
+    },
+    "2018": {
+      "central_pct": 11.953107776706574,
+      "range_if_rounded_to_whole_pct": [
+        5.431776707445257,
+        18.84184947839802
+      ]
+    },
+    "2019": {
+      "central_pct": 39.33572112411865,
+      "range_if_rounded_to_whole_pct": [
+        31.384824413965994,
+        47.725131665557605
+      ]
+    },
+    "2020": {
+      "central_pct": 107.4094098927334,
+      "range_if_rounded_to_whole_pct": [
+        95.95821331554177,
+        119.47067786750947
+      ]
+    },
+    "2021": {
+      "central_pct": 28.25980512591093,
+      "range_if_rounded_to_whole_pct": [
+        20.917051298257316,
+        36.00919512655316
+      ]
+    },
+    "2022": {
+      "central_pct": 101.86392391016778,
+      "range_if_rounded_to_whole_pct": [
+        90.65023156718834,
+        113.67842062594109
+      ]
+    },
+    "2023": {
+      "central_pct": 119.41334631388006,
+      "range_if_rounded_to_whole_pct": [
+        107.29099840413619,
+        132.181334680833
+      ]
+    },
+    "2024": {
+      "central_pct": 65.93707224675317,
+      "range_if_rounded_to_whole_pct": [
+        56.58866429383631,
+        75.79402297893574
+      ]
+    },
+    "2025": {
+      "central_pct": 60.240739040541854,
+      "range_if_rounded_to_whole_pct": [
+        51.20949553803058,
+        69.76370325939298
+      ]
+    },
+    "2026": {
+      "central_pct": 101.47019217803886,
+      "range_if_rounded_to_whole_pct": [
+        92.25218543456954,
+        111.08388294721614
+      ]
+    }
+  },
+  "cagr_checks": {
+    "2013_2019": {
+      "central_pct": 35.151094668222015,
+      "range_if_rounded_to_whole_pct": [
+        27.383372670525862,
+        43.35006458683219
+      ],
+      "reported_pct": 35.4,
+      "reported_mark_to_market_mdd_pct": 52.9,
+      "months": 84
+    },
+    "2016_July_2019": {
+      "central_pct": 43.979703588554784,
+      "range_if_rounded_to_whole_pct": [
+        35.78343896589233,
+        52.62685824256652
+      ],
+      "reported_pct": 44.2,
+      "reported_mark_to_market_mdd_pct": 36.8,
+      "months": 42
+    },
+    "2020_2026_October": {
+      "central_pct": 83.41684202766318,
+      "range_if_rounded_to_whole_pct": [
+        73.17678722675518,
+        94.20875077446438
+      ],
+      "reported_pct": 84.6,
+      "reported_mark_to_market_mdd_pct": 30.0,
+      "months": 82
+    }
+  },
+  "positive_months": {
+    "headline_2013_to_October_2026": 100,
+    "rounded_labels_positive": 100,
+    "rounded_labels_zero": 12,
+    "headline_since_2020": 56,
+    "since_2020_rounded_positive": 56,
+    "since_2020_rounded_zero": 4
+  },
+  "standalone_vs_portfolio_pct": {
+    "2018": {
+      "BTC": -34.9,
+      "ETH": 81.3,
+      "combined": 13.0
+    },
+    "2022": {
+      "BTC": 265.6,
+      "ETH": -6.8,
+      "combined": 103.5
+    },
+    "2025": {
+      "BTC": 3.2,
+      "ETH": 110.9,
+      "combined": 61.0
+    }
+  },
+  "october_2026": {
+    "reported_account_return_pct": 14.9,
+    "reported_mdd_pct": 10.9,
+    "reported_entries": 19,
+    "reported_wins": 13,
+    "reported_losses": 6,
+    "approximate_ordered_bars": [
+      [
+        "ETH",
+        2.7,
+        1
+      ],
+      [
+        "ETH",
+        -6.4,
+        -2
+      ],
+      [
+        "BTC",
+        2.7,
+        1
+      ],
+      [
+        "BTC",
+        -6.1,
+        -2
+      ],
+      [
+        "ETH",
+        2.9,
+        1
+      ],
+      [
+        "ETH",
+        14.7,
+        5
+      ],
+      [
+        "BTC",
+        -6.2,
+        -2
+      ],
+      [
+        "BTC",
+        2.8,
+        1
+      ],
+      [
+        "ETH",
+        2.8,
+        1
+      ],
+      [
+        "BTC",
+        5.8,
+        2
+      ],
+      [
+        "ETH",
+        8.8,
+        3
+      ],
+      [
+        "ETH",
+        2.8,
+        1
+      ],
+      [
+        "BTC",
+        2.8,
+        1
+      ],
+      [
+        "BTC",
+        -6.1,
+        -2
+      ],
+      [
+        "BTC",
+        2.7,
+        1
+      ],
+      [
+        "BTC",
+        -6.3,
+        -2
+      ],
+      [
+        "ETH",
+        -6.1,
+        -2
+      ],
+      [
+        "BTC",
+        5.9,
+        2
+      ],
+      [
+        "BTC",
+        2.7,
+        1
+      ]
+    ],
+    "estimated_effective_leverage_if_ladder_moves_are_correct": 2.9935267857142853,
+    "estimated_account_cost_intercept_pp": -0.21272321428571384,
+    "conditional_sleeve_compounding_check": {
+      "equal_start_weight_account_return_pct": 10.941885704478027,
+      "equal_start_weight_if_bar_estimates_vary_by_0.15_pp": [
+        9.412281240444909,
+        12.491191162215376
+      ],
+      "implied_ETH_start_weight_if_only_these_trades": 0.6713532932288433,
+      "sleeve_return_pct": {
+        "BTC": -0.6076860047621868,
+        "ETH": 22.49145741371823
+      }
+    },
+    "sleeve_compounding_assumptions": "Bar height is return on its sleeve before each trade. Only the 19 trades affect the month; no transfers, funding or boundary position revaluation."
+  }
+}

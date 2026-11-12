@@ -1,0 +1,5 @@
+numpy==2.3.5
+pandas==3.0.1
+pyarrow>=14
+requests==2.34.2
+tzdata; sys_platform == "win32"

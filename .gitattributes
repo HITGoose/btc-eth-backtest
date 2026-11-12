@@ -1,0 +1,2 @@
+* text=auto eol=lf
+/work/*_Gate_2026SepNov_replay.csv -text !eol whitespace=cr-at-eol

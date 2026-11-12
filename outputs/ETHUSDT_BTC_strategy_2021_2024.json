@@ -1,0 +1,482 @@
+{
+  "starting_equity_usdt": 500,
+  "account_carried_across_years": true,
+  "fee_per_side_pct": 0.05,
+  "slippage_per_side_pct": 0.02,
+  "stop_pct": 2,
+  "funding_modeled": false,
+  "max_leverage": 5,
+  "eth_qty_step": 0.01,
+  "eth_entry_min_notional_usdt": 5,
+  "cases": {
+    "eth_bybit_2021_2024": {
+      "symbol": "ETHUSDT",
+      "venue": "Bybit",
+      "since": "2021-03-30T00:00:00.000Z",
+      "until": "2024-12-31T16:00:00.000Z",
+      "test_candles": 131776,
+      "warmup_candles": 1440,
+      "source_sha256": "365689dd816dcbe7b5b8be6a981809a1860a9206e2c49c07e15c2b85bd3ce758",
+      "market_return_pct_by_year": {
+        "2021": 108.08997415168014,
+        "2022": -68.20968892882628,
+        "2023": 91.24495988693519,
+        "2024": 48.32876164476458
+      },
+      "scenarios": {
+        "eth_current_strategy": {
+          "ending_equity_usdt": 831.0710500383391,
+          "return_pct": 66.2142100076678,
+          "max_drawdown_pct": 47.88992808245438,
+          "trades": 148,
+          "net_usdt": 331.07105003833817,
+          "trading_fees_usdt": 334.0349116777657,
+          "long_net_usdt": -62.6159821790617,
+          "short_net_usdt": 393.6870322174,
+          "time_exits": 10,
+          "hard_stops": 7,
+          "rejected_entries": 0,
+          "reduction_orders": 148,
+          "reduction_fills": 76,
+          "years": {
+            "2021": {
+              "opening_equity_usdt": 500,
+              "ending_equity_usdt": 354.77336564199976,
+              "return_pct": -29.045326871600054,
+              "max_drawdown_pct": 38.59281615678923,
+              "long_net_usdt": -127.3595266915487,
+              "short_net_usdt": -17.867107666451545,
+              "entries": 26,
+              "long_entries": 18,
+              "short_entries": 8,
+              "time_exits_in_entries": 2,
+              "hard_stops_in_entries": 2
+            },
+            "2022": {
+              "opening_equity_usdt": 354.77336564199976,
+              "ending_equity_usdt": 340.8026192784254,
+              "return_pct": -3.9379355150555906,
+              "max_drawdown_pct": 25.473621624070176,
+              "long_net_usdt": 1.8131587458877902,
+              "short_net_usdt": -15.783905109462125,
+              "entries": 36,
+              "long_entries": 24,
+              "short_entries": 12,
+              "time_exits_in_entries": 1,
+              "hard_stops_in_entries": 2
+            },
+            "2023": {
+              "opening_equity_usdt": 340.8026192784254,
+              "ending_equity_usdt": 495.70684512785954,
+              "return_pct": 45.4527685783078,
+              "max_drawdown_pct": 24.898557063988648,
+              "long_net_usdt": 186.24294452779378,
+              "short_net_usdt": -31.33871867835967,
+              "entries": 35,
+              "long_entries": 26,
+              "short_entries": 9,
+              "time_exits_in_entries": 3,
+              "hard_stops_in_entries": 0
+            },
+            "2024": {
+              "opening_equity_usdt": 495.70684512785954,
+              "ending_equity_usdt": 831.0710500383391,
+              "return_pct": 67.65373692267207,
+              "max_drawdown_pct": 34.56128176343024,
+              "long_net_usdt": -123.31255876119417,
+              "short_net_usdt": 458.6767636716737,
+              "entries": 51,
+              "long_entries": 33,
+              "short_entries": 18,
+              "time_exits_in_entries": 4,
+              "hard_stops_in_entries": 3
+            }
+          }
+        },
+        "eth_without_price_and_volume_gates": {
+          "ending_equity_usdt": 704.5973411395506,
+          "return_pct": 40.91946822791013,
+          "max_drawdown_pct": 58.34979293449386,
+          "trades": 162,
+          "net_usdt": 204.5973411395505,
+          "trading_fees_usdt": 359.21784901911576,
+          "long_net_usdt": -235.11631702025917,
+          "short_net_usdt": 439.7136581598097,
+          "time_exits": 14,
+          "hard_stops": 9,
+          "rejected_entries": 0,
+          "reduction_orders": 162,
+          "reduction_fills": 80,
+          "years": {
+            "2021": {
+              "opening_equity_usdt": 500,
+              "ending_equity_usdt": 431.34205478698556,
+              "return_pct": -13.731589042602888,
+              "max_drawdown_pct": 42.477896929830905,
+              "long_net_usdt": -164.7762429339204,
+              "short_net_usdt": 96.11829772090596,
+              "entries": 30,
+              "long_entries": 19,
+              "short_entries": 11,
+              "time_exits_in_entries": 3,
+              "hard_stops_in_entries": 2
+            },
+            "2022": {
+              "opening_equity_usdt": 431.34205478698556,
+              "ending_equity_usdt": 321.0779801139422,
+              "return_pct": -25.563024390815848,
+              "max_drawdown_pct": 37.760952284183205,
+              "long_net_usdt": -81.77882007382385,
+              "short_net_usdt": -28.485254599219502,
+              "entries": 41,
+              "long_entries": 27,
+              "short_entries": 14,
+              "time_exits_in_entries": 3,
+              "hard_stops_in_entries": 4
+            },
+            "2023": {
+              "opening_equity_usdt": 321.0779801139422,
+              "ending_equity_usdt": 450.4606629734148,
+              "return_pct": 40.29634259364596,
+              "max_drawdown_pct": 25.85508741261974,
+              "long_net_usdt": 162.2071459659274,
+              "short_net_usdt": -32.8244631064548,
+              "entries": 38,
+              "long_entries": 28,
+              "short_entries": 10,
+              "time_exits_in_entries": 4,
+              "hard_stops_in_entries": 0
+            },
+            "2024": {
+              "opening_equity_usdt": 450.4606629734148,
+              "ending_equity_usdt": 704.5973411395506,
+              "return_pct": 56.41706347644708,
+              "max_drawdown_pct": 37.59018576730866,
+              "long_net_usdt": -150.76839997844223,
+              "short_net_usdt": 404.90507814457806,
+              "entries": 53,
+              "long_entries": 35,
+              "short_entries": 18,
+              "time_exits_in_entries": 4,
+              "hard_stops_in_entries": 3
+            }
+          }
+        },
+        "eth_finer_lot_diagnostic": {
+          "ending_equity_usdt": 829.8305427775008,
+          "return_pct": 65.96610855550016,
+          "max_drawdown_pct": 48.11906090790043,
+          "trades": 148,
+          "net_usdt": 329.83054277750045,
+          "trading_fees_usdt": 335.1947386165112,
+          "long_net_usdt": -63.67617242957394,
+          "short_net_usdt": 393.5067152070744,
+          "time_exits": 10,
+          "hard_stops": 7,
+          "rejected_entries": 0,
+          "reduction_orders": 148,
+          "reduction_fills": 76,
+          "years": {
+            "2021": {
+              "opening_equity_usdt": 500,
+              "ending_equity_usdt": 353.966062539651,
+              "return_pct": -29.206787492069807,
+              "max_drawdown_pct": 38.80658045562048,
+              "long_net_usdt": -127.8476987747751,
+              "short_net_usdt": -18.186238685573926,
+              "entries": 26,
+              "long_entries": 18,
+              "short_entries": 8,
+              "time_exits_in_entries": 2,
+              "hard_stops_in_entries": 2
+            },
+            "2022": {
+              "opening_equity_usdt": 353.966062539651,
+              "ending_equity_usdt": 340.244583023579,
+              "return_pct": -3.8764957910434994,
+              "max_drawdown_pct": 25.68279250248795,
+              "long_net_usdt": 1.5274359967908708,
+              "short_net_usdt": -15.248915512862823,
+              "entries": 36,
+              "long_entries": 24,
+              "short_entries": 12,
+              "time_exits_in_entries": 1,
+              "hard_stops_in_entries": 2
+            },
+            "2023": {
+              "opening_equity_usdt": 340.244583023579,
+              "ending_equity_usdt": 494.54514750803764,
+              "return_pct": 45.34989598166963,
+              "max_drawdown_pct": 25.00712318869407,
+              "long_net_usdt": 185.74985391410706,
+              "short_net_usdt": -31.449289429648445,
+              "entries": 35,
+              "long_entries": 26,
+              "short_entries": 9,
+              "time_exits_in_entries": 3,
+              "hard_stops_in_entries": 0
+            },
+            "2024": {
+              "opening_equity_usdt": 494.54514750803764,
+              "ending_equity_usdt": 829.8305427775008,
+              "return_pct": 67.79672128195615,
+              "max_drawdown_pct": 34.62161156658017,
+              "long_net_usdt": -123.10576356569692,
+              "short_net_usdt": 458.39115883516,
+              "entries": 51,
+              "long_entries": 33,
+              "short_entries": 18,
+              "time_exits_in_entries": 4,
+              "hard_stops_in_entries": 3
+            }
+          }
+        }
+      }
+    },
+    "eth_binance_2021": {
+      "symbol": "ETHUSDT",
+      "venue": "Binance",
+      "since": "2020-12-31T16:00:00.000Z",
+      "until": "2021-12-31T16:00:00.000Z",
+      "test_candles": 35040,
+      "warmup_candles": 1440,
+      "source_sha256": "b860ef6a5f32c641a1fee0cb3fe8997ee24ebce5debb6e3c10f1ce824a0b58ec",
+      "market_return_pct_by_year": {
+        "2021": 413.7858908537745
+      },
+      "scenarios": {
+        "eth_current_strategy": {
+          "ending_equity_usdt": 280.0757023890141,
+          "return_pct": -43.98485952219717,
+          "max_drawdown_pct": 53.81149161854587,
+          "trades": 32,
+          "net_usdt": -219.92429761098575,
+          "trading_fees_usdt": 55.64672001627393,
+          "long_net_usdt": -151.4797603597965,
+          "short_net_usdt": -68.44453725118929,
+          "time_exits": 2,
+          "hard_stops": 4,
+          "rejected_entries": 0,
+          "reduction_orders": 32,
+          "reduction_fills": 16,
+          "years": {
+            "2021": {
+              "opening_equity_usdt": 500,
+              "ending_equity_usdt": 280.0757023890141,
+              "return_pct": -43.98485952219717,
+              "max_drawdown_pct": 53.81149161854587,
+              "long_net_usdt": -151.47976035979656,
+              "short_net_usdt": -68.44453725118933,
+              "entries": 32,
+              "long_entries": 23,
+              "short_entries": 9,
+              "time_exits_in_entries": 2,
+              "hard_stops_in_entries": 4
+            }
+          }
+        },
+        "eth_without_price_and_volume_gates": {
+          "ending_equity_usdt": 322.64508270624606,
+          "return_pct": -35.470983458750794,
+          "max_drawdown_pct": 55.56432975639076,
+          "trades": 36,
+          "net_usdt": -177.35491729375408,
+          "trading_fees_usdt": 66.84583258201896,
+          "long_net_usdt": -150.62289210979515,
+          "short_net_usdt": -26.732025183958964,
+          "time_exits": 2,
+          "hard_stops": 5,
+          "rejected_entries": 0,
+          "reduction_orders": 36,
+          "reduction_fills": 19,
+          "years": {
+            "2021": {
+              "opening_equity_usdt": 500,
+              "ending_equity_usdt": 322.64508270624606,
+              "return_pct": -35.470983458750794,
+              "max_drawdown_pct": 55.56432975639076,
+              "long_net_usdt": -150.6228921097951,
+              "short_net_usdt": -26.732025183958854,
+              "entries": 36,
+              "long_entries": 23,
+              "short_entries": 13,
+              "time_exits_in_entries": 2,
+              "hard_stops_in_entries": 5
+            }
+          }
+        },
+        "eth_finer_lot_diagnostic": {
+          "ending_equity_usdt": 280.88975086001835,
+          "return_pct": -43.82204982799634,
+          "max_drawdown_pct": 53.7455145713855,
+          "trades": 32,
+          "net_usdt": -219.11024913998133,
+          "trading_fees_usdt": 56.1908347946419,
+          "long_net_usdt": -151.14721921134696,
+          "short_net_usdt": -67.96302992863433,
+          "time_exits": 2,
+          "hard_stops": 4,
+          "rejected_entries": 0,
+          "reduction_orders": 32,
+          "reduction_fills": 16,
+          "years": {
+            "2021": {
+              "opening_equity_usdt": 500,
+              "ending_equity_usdt": 280.88975086001835,
+              "return_pct": -43.82204982799634,
+              "max_drawdown_pct": 53.7455145713855,
+              "long_net_usdt": -151.1472192113472,
+              "short_net_usdt": -67.96302992863446,
+              "entries": 32,
+              "long_entries": 23,
+              "short_entries": 9,
+              "time_exits_in_entries": 2,
+              "hard_stops_in_entries": 4
+            }
+          }
+        }
+      }
+    },
+    "btc_matched_2021_2024": {
+      "symbol": "BTCUSDT",
+      "venue": "Bybit",
+      "since": "2021-03-30T00:00:00.000Z",
+      "until": "2024-12-31T16:00:00.000Z",
+      "test_candles": 131776,
+      "warmup_candles": 1440,
+      "source_sha256": "31f601ae263fbc811769244ec54e4026fc636adf1b8f777b712bbe0e7739f3c4",
+      "market_return_pct_by_year": {
+        "2021": -16.87157227146311,
+        "2022": -65.40658286953078,
+        "2023": 156.05796752131602,
+        "2024": 124.46669066999894
+      },
+      "scenarios": {
+        "actual_fee_5x_cap": {
+          "ending_equity_usdt": 2587.747910900817,
+          "return_pct": 417.5495821801634,
+          "max_drawdown_pct": 36.251723344028306,
+          "trades": 136,
+          "net_usdt": 2087.7479109008154,
+          "trading_fees_usdt": 915.4200624933277,
+          "long_net_usdt": 318.3450904395467,
+          "short_net_usdt": 1769.4028204612682,
+          "time_exits": 10,
+          "hard_stops": 6,
+          "rejected_entries": 0,
+          "reduction_orders": 136,
+          "reduction_fills": 64,
+          "years": {
+            "2021": {
+              "opening_equity_usdt": 500,
+              "ending_equity_usdt": 710.6323818833538,
+              "return_pct": 42.12647637667075,
+              "max_drawdown_pct": 33.744345159499176,
+              "long_net_usdt": -98.48165303124222,
+              "short_net_usdt": 309.114034914596,
+              "entries": 31,
+              "long_entries": 17,
+              "short_entries": 14,
+              "time_exits_in_entries": 3,
+              "hard_stops_in_entries": 2
+            },
+            "2022": {
+              "opening_equity_usdt": 710.6323818833538,
+              "ending_equity_usdt": 881.5163462536245,
+              "return_pct": 24.04674607106778,
+              "max_drawdown_pct": 30.20492866933856,
+              "long_net_usdt": -3.3271784087297647,
+              "short_net_usdt": 174.2111427790005,
+              "entries": 24,
+              "long_entries": 14,
+              "short_entries": 10,
+              "time_exits_in_entries": 3,
+              "hard_stops_in_entries": 1
+            },
+            "2023": {
+              "opening_equity_usdt": 881.5163462536245,
+              "ending_equity_usdt": 1291.7434192052037,
+              "return_pct": 46.53652478425523,
+              "max_drawdown_pct": 17.44792265435098,
+              "long_net_usdt": 378.35373892157486,
+              "short_net_usdt": 31.873334030004344,
+              "entries": 34,
+              "long_entries": 26,
+              "short_entries": 8,
+              "time_exits_in_entries": 2,
+              "hard_stops_in_entries": 1
+            },
+            "2024": {
+              "opening_equity_usdt": 1291.7434192052037,
+              "ending_equity_usdt": 2587.747910900817,
+              "return_pct": 100.32986988182459,
+              "max_drawdown_pct": 24.9328491531122,
+              "long_net_usdt": 41.80018295794457,
+              "short_net_usdt": 1254.2043087376685,
+              "entries": 47,
+              "long_entries": 31,
+              "short_entries": 16,
+              "time_exits_in_entries": 2,
+              "hard_stops_in_entries": 2
+            }
+          }
+        }
+      }
+    }
+  },
+  "binance_then_bybit_full_2021_2024": {
+    "ending_equity_usdt": 652.0827118271806,
+    "return_pct": 30.416542365436115,
+    "max_drawdown_pct": 61.97022571125244,
+    "segments": [
+      {
+        "venue": "Binance",
+        "start_utc": "2020-12-31T16:00:00.000Z",
+        "end_exclusive_utc": "2021-03-30T00:00:00.000Z",
+        "candles": 8480,
+        "ending_equity_usdt": 391.53606654335056,
+        "trades": 7,
+        "forced_end_of_window_exits": 0
+      },
+      {
+        "venue": "Bybit",
+        "start_utc": "2021-03-30T00:00:00.000Z",
+        "end_exclusive_utc": "2024-12-31T16:00:00.000Z",
+        "candles": 131776,
+        "ending_equity_usdt": 652.0827118271806,
+        "trades": 148,
+        "forced_end_of_window_exits": 0
+      }
+    ],
+    "years": {
+      "2021": {
+        "opening_equity_usdt": 500,
+        "long_net_usdt": -160.69015093864323,
+        "short_net_usdt": -62.45069910518845,
+        "ending_equity_usdt": 276.8591499561683,
+        "return_pct": -44.62817000876633
+      },
+      "2022": {
+        "opening_equity_usdt": 276.8591499561683,
+        "long_net_usdt": 1.5205557632667706,
+        "short_net_usdt": -12.402957721685937,
+        "ending_equity_usdt": 265.97674799774916,
+        "return_pct": -3.9306636461688305
+      },
+      "2023": {
+        "opening_equity_usdt": 265.97674799774916,
+        "long_net_usdt": 144.8361385125218,
+        "short_net_usdt": -24.544199391782342,
+        "ending_equity_usdt": 386.26868711848863,
+        "return_pct": 45.22648691146396
+      },
+      "2024": {
+        "opening_equity_usdt": 386.26868711848863,
+        "long_net_usdt": -95.47968571973126,
+        "short_net_usdt": 361.2937104284232,
+        "ending_equity_usdt": 652.0827118271806,
+        "return_pct": 68.8158356018004
+      }
+    }
+  }
+}

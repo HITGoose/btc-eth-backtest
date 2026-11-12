@@ -1,0 +1,1387 @@
+{
+  "starting_equity_usdt": 500,
+  "hard_stop_pct": 2,
+  "long_resistance_distance_pct": 1,
+  "bearish_low_volume_ratio": 0.6666666666666666,
+  "high_volume_ratio": 1.5,
+  "volume_history_bars": 20,
+  "results": {
+    "2022": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "long_trades": 14,
+        "short_trades": 10,
+        "long_net_usdt": 39.51012396599913,
+        "short_net_usdt": 159.39297618353208,
+        "long_entry_gate_counts": {},
+        "long_gates": [],
+        "long_signal_checks": null
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "long_trades": 14,
+        "short_trades": 10,
+        "long_net_usdt": 39.51012396599913,
+        "short_net_usdt": 159.39297618353208,
+        "long_entry_gate_counts": {},
+        "long_gates": [],
+        "long_signal_checks": null
+      },
+      "both_sides_volume": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "long_trades": 14,
+        "short_trades": 10,
+        "long_net_usdt": 39.51012396599913,
+        "short_net_usdt": 159.39297618353208,
+        "long_entry_gate_counts": {
+          "nearResistance": 11,
+          "upVolumeBreakout": 3
+        },
+        "long_gates": [
+          {
+            "opened_utc": "2022-01-26T03:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.3069880166958395,
+            "net_usdt": 30.601820238035454
+          },
+          {
+            "opened_utc": "2022-02-01T13:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.7966381355058265,
+            "net_usdt": -34.322933599999594
+          },
+          {
+            "opened_utc": "2022-03-22T02:30:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.3741769252791298,
+            "net_usdt": 17.529377619362787
+          },
+          {
+            "opened_utc": "2022-05-01T15:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.5043641875293995,
+            "net_usdt": -20.939108100391806
+          },
+          {
+            "opened_utc": "2022-05-15T11:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.18850613061973476,
+            "net_usdt": -1.1541907528416404
+          },
+          {
+            "opened_utc": "2022-05-31T16:45:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.7377028868789495,
+            "net_usdt": -54.77959750475515
+          },
+          {
+            "opened_utc": "2022-06-20T08:30:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.2473707381499781,
+            "net_usdt": 2.786463241979556
+          },
+          {
+            "opened_utc": "2022-06-24T21:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.8667058132706987,
+            "net_usdt": 0.1381573588241336
+          },
+          {
+            "opened_utc": "2022-07-09T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.6290746883220862,
+            "net_usdt": -36.14018239999987
+          },
+          {
+            "opened_utc": "2022-09-08T20:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3050829929158695,
+            "net_usdt": 182.76324086578504
+          },
+          {
+            "opened_utc": "2022-10-12T21:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.04171663972467018,
+            "net_usdt": -9.982142400000216
+          },
+          {
+            "opened_utc": "2022-10-19T20:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3588610063710831,
+            "net_usdt": -11.067716100000037
+          },
+          {
+            "opened_utc": "2022-11-26T14:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.02407318247472316,
+            "net_usdt": -23.87846249999966
+          },
+          {
+            "opened_utc": "2022-12-25T01:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.10093813086331789,
+            "net_usdt": -2.044601999999868
+          }
+        ],
+        "long_signal_checks": {
+          "candidates": 14,
+          "nearResistance": 11,
+          "upVolumeBreakout": 3,
+          "weakDownReclaim": 0,
+          "blocked": 0
+        }
+      },
+      "both_sides_volume_and_weak_down": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "long_trades": 14,
+        "short_trades": 10,
+        "long_net_usdt": 39.51012396599913,
+        "short_net_usdt": 159.39297618353208,
+        "long_entry_gate_counts": {
+          "nearResistance": 11,
+          "upVolumeBreakout": 3
+        },
+        "long_gates": [
+          {
+            "opened_utc": "2022-01-26T03:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.3069880166958395,
+            "net_usdt": 30.601820238035454
+          },
+          {
+            "opened_utc": "2022-02-01T13:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.7966381355058265,
+            "net_usdt": -34.322933599999594
+          },
+          {
+            "opened_utc": "2022-03-22T02:30:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.3741769252791298,
+            "net_usdt": 17.529377619362787
+          },
+          {
+            "opened_utc": "2022-05-01T15:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.5043641875293995,
+            "net_usdt": -20.939108100391806
+          },
+          {
+            "opened_utc": "2022-05-15T11:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.18850613061973476,
+            "net_usdt": -1.1541907528416404
+          },
+          {
+            "opened_utc": "2022-05-31T16:45:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.7377028868789495,
+            "net_usdt": -54.77959750475515
+          },
+          {
+            "opened_utc": "2022-06-20T08:30:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.2473707381499781,
+            "net_usdt": 2.786463241979556
+          },
+          {
+            "opened_utc": "2022-06-24T21:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.8667058132706987,
+            "net_usdt": 0.1381573588241336
+          },
+          {
+            "opened_utc": "2022-07-09T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.6290746883220862,
+            "net_usdt": -36.14018239999987
+          },
+          {
+            "opened_utc": "2022-09-08T20:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3050829929158695,
+            "net_usdt": 182.76324086578504
+          },
+          {
+            "opened_utc": "2022-10-12T21:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.04171663972467018,
+            "net_usdt": -9.982142400000216
+          },
+          {
+            "opened_utc": "2022-10-19T20:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3588610063710831,
+            "net_usdt": -11.067716100000037
+          },
+          {
+            "opened_utc": "2022-11-26T14:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.02407318247472316,
+            "net_usdt": -23.87846249999966
+          },
+          {
+            "opened_utc": "2022-12-25T01:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.10093813086331789,
+            "net_usdt": -2.044601999999868
+          }
+        ],
+        "long_signal_checks": {
+          "candidates": 14,
+          "nearResistance": 11,
+          "upVolumeBreakout": 3,
+          "weakDownReclaim": 0,
+          "blocked": 0
+        }
+      }
+    },
+    "2023": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "long_trades": 26,
+        "short_trades": 8,
+        "long_net_usdt": 318.1803060101906,
+        "short_net_usdt": 48.371890542657944,
+        "long_entry_gate_counts": {},
+        "long_gates": [],
+        "long_signal_checks": null
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "long_trades": 26,
+        "short_trades": 8,
+        "long_net_usdt": 318.1803060101906,
+        "short_net_usdt": 48.371890542657944,
+        "long_entry_gate_counts": {},
+        "long_gates": [],
+        "long_signal_checks": null
+      },
+      "both_sides_volume": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "long_trades": 26,
+        "short_trades": 8,
+        "long_net_usdt": 318.1803060101906,
+        "short_net_usdt": 48.371890542657944,
+        "long_entry_gate_counts": {
+          "nearResistance": 24,
+          "upVolumeBreakout": 2
+        },
+        "long_gates": [
+          {
+            "opened_utc": "2023-01-04T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.050261656269402474,
+            "net_usdt": -14.66266199999988
+          },
+          {
+            "opened_utc": "2023-01-08T06:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.04723107804935648,
+            "net_usdt": -2.1841104999999046
+          },
+          {
+            "opened_utc": "2023-01-12T17:45:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.5663555412509387,
+            "net_usdt": 17.988637608864032
+          },
+          {
+            "opened_utc": "2023-01-17T08:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.18640428493900568,
+            "net_usdt": -11.500091199999945
+          },
+          {
+            "opened_utc": "2023-03-06T15:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.12242626599888702,
+            "net_usdt": 3.931892159999872
+          },
+          {
+            "opened_utc": "2023-03-12T11:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.5210475798710985,
+            "net_usdt": -7.261201920000312
+          },
+          {
+            "opened_utc": "2023-03-12T18:30:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.8667100970957533,
+            "net_usdt": 140.6756538784221
+          },
+          {
+            "opened_utc": "2023-03-22T13:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.058645017469863815,
+            "net_usdt": -47.17473902127193
+          },
+          {
+            "opened_utc": "2023-04-08T03:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.10558150355219126,
+            "net_usdt": 9.625160400000073
+          },
+          {
+            "opened_utc": "2023-04-25T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.3233755911313012,
+            "net_usdt": 197.78204981023902
+          },
+          {
+            "opened_utc": "2023-04-27T15:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.41392228105016005,
+            "net_usdt": 26.693769569985804
+          },
+          {
+            "opened_utc": "2023-05-05T14:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.670461517485857,
+            "net_usdt": -24.56258069999972
+          },
+          {
+            "opened_utc": "2023-05-07T07:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.8185430280208218,
+            "net_usdt": -14.725415359999426
+          },
+          {
+            "opened_utc": "2023-05-07T14:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.17419739842222,
+            "net_usdt": -7.07036255999931
+          },
+          {
+            "opened_utc": "2023-06-09T09:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.16185483386408156,
+            "net_usdt": -9.19797589999982
+          },
+          {
+            "opened_utc": "2023-06-11T16:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.3667425089660967,
+            "net_usdt": -1.1718117716754533
+          },
+          {
+            "opened_utc": "2023-06-16T16:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.8407524967097652,
+            "net_usdt": 70.4514913095671
+          },
+          {
+            "opened_utc": "2023-06-26T13:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.2851227602770562,
+            "net_usdt": -43.63535459999995
+          },
+          {
+            "opened_utc": "2023-07-02T20:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.4025941321332863,
+            "net_usdt": 5.255210399999858
+          },
+          {
+            "opened_utc": "2023-08-20T10:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.03978637775635991,
+            "net_usdt": -16.006067199999816
+          },
+          {
+            "opened_utc": "2023-08-21T19:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.33979987434683623,
+            "net_usdt": -10.29061899999989
+          },
+          {
+            "opened_utc": "2023-09-27T02:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.09562123324723058,
+            "net_usdt": -5.656656799999873
+          },
+          {
+            "opened_utc": "2023-10-08T21:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.23986825146785049,
+            "net_usdt": -5.812842239999911
+          },
+          {
+            "opened_utc": "2023-11-04T19:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.0799045743931791,
+            "net_usdt": 36.34713781575422
+          },
+          {
+            "opened_utc": "2023-11-17T13:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.4476501105443998,
+            "net_usdt": -41.649717600000294
+          },
+          {
+            "opened_utc": "2023-11-22T18:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.11683706540152583,
+            "net_usdt": 71.99151143030393
+          }
+        ],
+        "long_signal_checks": {
+          "candidates": 26,
+          "nearResistance": 24,
+          "upVolumeBreakout": 2,
+          "weakDownReclaim": 0,
+          "blocked": 0
+        }
+      },
+      "both_sides_volume_and_weak_down": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "long_trades": 26,
+        "short_trades": 8,
+        "long_net_usdt": 318.1803060101906,
+        "short_net_usdt": 48.371890542657944,
+        "long_entry_gate_counts": {
+          "nearResistance": 24,
+          "upVolumeBreakout": 2
+        },
+        "long_gates": [
+          {
+            "opened_utc": "2023-01-04T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.050261656269402474,
+            "net_usdt": -14.66266199999988
+          },
+          {
+            "opened_utc": "2023-01-08T06:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.04723107804935648,
+            "net_usdt": -2.1841104999999046
+          },
+          {
+            "opened_utc": "2023-01-12T17:45:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.5663555412509387,
+            "net_usdt": 17.988637608864032
+          },
+          {
+            "opened_utc": "2023-01-17T08:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.18640428493900568,
+            "net_usdt": -11.500091199999945
+          },
+          {
+            "opened_utc": "2023-03-06T15:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.12242626599888702,
+            "net_usdt": 3.931892159999872
+          },
+          {
+            "opened_utc": "2023-03-12T11:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.5210475798710985,
+            "net_usdt": -7.261201920000312
+          },
+          {
+            "opened_utc": "2023-03-12T18:30:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.8667100970957533,
+            "net_usdt": 140.6756538784221
+          },
+          {
+            "opened_utc": "2023-03-22T13:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.058645017469863815,
+            "net_usdt": -47.17473902127193
+          },
+          {
+            "opened_utc": "2023-04-08T03:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.10558150355219126,
+            "net_usdt": 9.625160400000073
+          },
+          {
+            "opened_utc": "2023-04-25T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.3233755911313012,
+            "net_usdt": 197.78204981023902
+          },
+          {
+            "opened_utc": "2023-04-27T15:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.41392228105016005,
+            "net_usdt": 26.693769569985804
+          },
+          {
+            "opened_utc": "2023-05-05T14:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.670461517485857,
+            "net_usdt": -24.56258069999972
+          },
+          {
+            "opened_utc": "2023-05-07T07:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.8185430280208218,
+            "net_usdt": -14.725415359999426
+          },
+          {
+            "opened_utc": "2023-05-07T14:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.17419739842222,
+            "net_usdt": -7.07036255999931
+          },
+          {
+            "opened_utc": "2023-06-09T09:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.16185483386408156,
+            "net_usdt": -9.19797589999982
+          },
+          {
+            "opened_utc": "2023-06-11T16:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.3667425089660967,
+            "net_usdt": -1.1718117716754533
+          },
+          {
+            "opened_utc": "2023-06-16T16:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.8407524967097652,
+            "net_usdt": 70.4514913095671
+          },
+          {
+            "opened_utc": "2023-06-26T13:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.2851227602770562,
+            "net_usdt": -43.63535459999995
+          },
+          {
+            "opened_utc": "2023-07-02T20:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.4025941321332863,
+            "net_usdt": 5.255210399999858
+          },
+          {
+            "opened_utc": "2023-08-20T10:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.03978637775635991,
+            "net_usdt": -16.006067199999816
+          },
+          {
+            "opened_utc": "2023-08-21T19:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.33979987434683623,
+            "net_usdt": -10.29061899999989
+          },
+          {
+            "opened_utc": "2023-09-27T02:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.09562123324723058,
+            "net_usdt": -5.656656799999873
+          },
+          {
+            "opened_utc": "2023-10-08T21:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.23986825146785049,
+            "net_usdt": -5.812842239999911
+          },
+          {
+            "opened_utc": "2023-11-04T19:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.0799045743931791,
+            "net_usdt": 36.34713781575422
+          },
+          {
+            "opened_utc": "2023-11-17T13:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.4476501105443998,
+            "net_usdt": -41.649717600000294
+          },
+          {
+            "opened_utc": "2023-11-22T18:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.11683706540152583,
+            "net_usdt": 71.99151143030393
+          }
+        ],
+        "long_signal_checks": {
+          "candidates": 26,
+          "nearResistance": 24,
+          "upVolumeBreakout": 2,
+          "weakDownReclaim": 0,
+          "blocked": 0
+        }
+      }
+    },
+    "2024": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "long_trades": 33,
+        "short_trades": 18,
+        "long_net_usdt": 83.15390376541647,
+        "short_net_usdt": 571.4997873059131,
+        "long_entry_gate_counts": {},
+        "long_gates": [],
+        "long_signal_checks": null
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 135.64001808200166,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 49,
+        "long_trades": 33,
+        "short_trades": 16,
+        "long_net_usdt": 82.84773634541648,
+        "short_net_usdt": 595.3523540645916,
+        "long_entry_gate_counts": {},
+        "long_gates": [],
+        "long_signal_checks": null
+      },
+      "both_sides_volume": {
+        "return_pct": 152.4150569247639,
+        "max_drawdown_pct": 21.023587087242923,
+        "trades": 47,
+        "long_trades": 31,
+        "short_trades": 16,
+        "long_net_usdt": 139.40752966994506,
+        "short_net_usdt": 622.667754953875,
+        "long_entry_gate_counts": {
+          "nearResistance": 30,
+          "upVolumeBreakout": 1
+        },
+        "long_gates": [
+          {
+            "opened_utc": "2024-01-04T12:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.1063065186695046,
+            "net_usdt": 46.95724302840199
+          },
+          {
+            "opened_utc": "2024-01-18T06:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.045815373395289766,
+            "net_usdt": -4.358694240000506
+          },
+          {
+            "opened_utc": "2024-01-20T19:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.07080079296888125,
+            "net_usdt": 0.6589397200001694
+          },
+          {
+            "opened_utc": "2024-02-01T14:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.4311602043600473,
+            "net_usdt": 23.01638135041363
+          },
+          {
+            "opened_utc": "2024-02-02T12:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.10092569230163483,
+            "net_usdt": -24.40027925999977
+          },
+          {
+            "opened_utc": "2024-02-03T00:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3339333517954331,
+            "net_usdt": -11.237928000000247
+          },
+          {
+            "opened_utc": "2024-02-12T00:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.6327438802956938,
+            "net_usdt": -31.49529655999973
+          },
+          {
+            "opened_utc": "2024-02-28T04:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.04393880777033928,
+            "net_usdt": 114.77487477379248
+          },
+          {
+            "opened_utc": "2024-03-13T20:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.4767029972751964,
+            "net_usdt": -10.470535639999726
+          },
+          {
+            "opened_utc": "2024-03-25T14:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.9312579919749634,
+            "net_usdt": 86.32735250422965
+          },
+          {
+            "opened_utc": "2024-04-08T05:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3584255135756357,
+            "net_usdt": 94.80317231989801
+          },
+          {
+            "opened_utc": "2024-04-12T02:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.08524209178156383,
+            "net_usdt": -3.228857299999378
+          },
+          {
+            "opened_utc": "2024-05-07T07:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3307780338302842,
+            "net_usdt": -3.2394780076143217
+          },
+          {
+            "opened_utc": "2024-07-12T13:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.2917993422769694,
+            "net_usdt": 12.157362092616335
+          },
+          {
+            "opened_utc": "2024-07-20T07:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.13791964942294985,
+            "net_usdt": -16.42363127999974
+          },
+          {
+            "opened_utc": "2024-07-20T15:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.0718186152651204,
+            "net_usdt": 29.512549173205336
+          },
+          {
+            "opened_utc": "2024-08-12T11:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.43660978990789107,
+            "net_usdt": -97.62815972215844
+          },
+          {
+            "opened_utc": "2024-08-16T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.2660982639769738,
+            "net_usdt": 5.949294753919588
+          },
+          {
+            "opened_utc": "2024-08-29T05:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.0069122831271144335,
+            "net_usdt": 108.57719584862663
+          },
+          {
+            "opened_utc": "2024-09-10T18:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.23701410806524406,
+            "net_usdt": -8.099002319999709
+          },
+          {
+            "opened_utc": "2024-09-13T15:30:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.1393370390455582,
+            "net_usdt": 127.62551869754373
+          },
+          {
+            "opened_utc": "2024-09-28T02:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.04001679492758132,
+            "net_usdt": -21.908190959999395
+          },
+          {
+            "opened_utc": "2024-10-22T19:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.16680110411378157,
+            "net_usdt": -41.813322719999476
+          },
+          {
+            "opened_utc": "2024-10-30T10:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.05081797661821401,
+            "net_usdt": -45.5950402799992
+          },
+          {
+            "opened_utc": "2024-10-31T11:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.21427863654379306,
+            "net_usdt": -44.2599866799982
+          },
+          {
+            "opened_utc": "2024-11-03T21:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.6041840397375089,
+            "net_usdt": -43.064544960001015
+          },
+          {
+            "opened_utc": "2024-11-08T05:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.39528756250287844,
+            "net_usdt": -26.946929340000295
+          },
+          {
+            "opened_utc": "2024-11-15T09:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.7452782603822162,
+            "net_usdt": -31.38578720293407
+          },
+          {
+            "opened_utc": "2024-11-19T04:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.37524536532170755,
+            "net_usdt": -23.6232639999995
+          },
+          {
+            "opened_utc": "2024-12-25T10:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.033575734583316835,
+            "net_usdt": -9.471984200000298
+          },
+          {
+            "opened_utc": "2024-12-28T11:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.0632524427164218,
+            "net_usdt": -12.301441919999547
+          }
+        ],
+        "long_signal_checks": {
+          "candidates": 33,
+          "nearResistance": 30,
+          "upVolumeBreakout": 1,
+          "weakDownReclaim": 0,
+          "blocked": 2
+        }
+      },
+      "both_sides_volume_and_weak_down": {
+        "return_pct": 146.6624368087619,
+        "max_drawdown_pct": 22.880471528665037,
+        "trades": 48,
+        "long_trades": 32,
+        "short_trades": 16,
+        "long_net_usdt": 112.35130990994546,
+        "short_net_usdt": 620.9608741338641,
+        "long_entry_gate_counts": {
+          "nearResistance": 30,
+          "upVolumeBreakout": 1,
+          "weakDownReclaim": 1
+        },
+        "long_gates": [
+          {
+            "opened_utc": "2024-01-04T12:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.1063065186695046,
+            "net_usdt": 46.95724302840199
+          },
+          {
+            "opened_utc": "2024-01-18T06:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.045815373395289766,
+            "net_usdt": -4.358694240000506
+          },
+          {
+            "opened_utc": "2024-01-20T19:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.07080079296888125,
+            "net_usdt": 0.6589397200001694
+          },
+          {
+            "opened_utc": "2024-02-01T14:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.4311602043600473,
+            "net_usdt": 23.01638135041363
+          },
+          {
+            "opened_utc": "2024-02-02T12:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.10092569230163483,
+            "net_usdt": -24.40027925999977
+          },
+          {
+            "opened_utc": "2024-02-03T00:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3339333517954331,
+            "net_usdt": -11.237928000000247
+          },
+          {
+            "opened_utc": "2024-02-12T00:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.6327438802956938,
+            "net_usdt": -31.49529655999973
+          },
+          {
+            "opened_utc": "2024-02-28T04:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.04393880777033928,
+            "net_usdt": 114.77487477379248
+          },
+          {
+            "opened_utc": "2024-03-13T20:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.4767029972751964,
+            "net_usdt": -10.470535639999726
+          },
+          {
+            "opened_utc": "2024-03-25T14:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.9312579919749634,
+            "net_usdt": 86.32735250422965
+          },
+          {
+            "opened_utc": "2024-04-08T05:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3584255135756357,
+            "net_usdt": 94.80317231989801
+          },
+          {
+            "opened_utc": "2024-04-12T02:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.08524209178156383,
+            "net_usdt": -3.228857299999378
+          },
+          {
+            "opened_utc": "2024-05-07T07:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.3307780338302842,
+            "net_usdt": -3.2394780076143217
+          },
+          {
+            "opened_utc": "2024-07-12T13:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.2917993422769694,
+            "net_usdt": 12.157362092616335
+          },
+          {
+            "opened_utc": "2024-07-20T07:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.13791964942294985,
+            "net_usdt": -16.42363127999974
+          },
+          {
+            "opened_utc": "2024-07-20T15:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.0718186152651204,
+            "net_usdt": 29.512549173205336
+          },
+          {
+            "opened_utc": "2024-08-12T11:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.43660978990789107,
+            "net_usdt": -97.62815972215844
+          },
+          {
+            "opened_utc": "2024-08-16T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.2660982639769738,
+            "net_usdt": 5.949294753919588
+          },
+          {
+            "opened_utc": "2024-08-29T05:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.0069122831271144335,
+            "net_usdt": 108.57719584862663
+          },
+          {
+            "opened_utc": "2024-09-10T18:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.23701410806524406,
+            "net_usdt": -8.099002319999709
+          },
+          {
+            "opened_utc": "2024-09-13T15:30:00.000Z",
+            "gate": "upVolumeBreakout",
+            "distance_pct": 1.1393370390455582,
+            "net_usdt": 127.62551869754373
+          },
+          {
+            "opened_utc": "2024-09-18T03:15:00.000Z",
+            "gate": "weakDownReclaim",
+            "distance_pct": -1.2746436892835171,
+            "net_usdt": -33.90973079999938
+          },
+          {
+            "opened_utc": "2024-09-28T02:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.04001679492758132,
+            "net_usdt": -21.502483719999407
+          },
+          {
+            "opened_utc": "2024-10-22T19:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.16680110411378157,
+            "net_usdt": -41.00922035999949
+          },
+          {
+            "opened_utc": "2024-10-30T10:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.05081797661821401,
+            "net_usdt": -44.62493303999922
+          },
+          {
+            "opened_utc": "2024-10-31T11:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.21427863654379306,
+            "net_usdt": -43.28723971999823
+          },
+          {
+            "opened_utc": "2024-11-03T21:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.6041840397375089,
+            "net_usdt": -42.12835920000099
+          },
+          {
+            "opened_utc": "2024-11-08T05:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.39528756250287844,
+            "net_usdt": -26.281573060000287
+          },
+          {
+            "opened_utc": "2024-11-15T09:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.7452782603822162,
+            "net_usdt": -30.637043842934077
+          },
+          {
+            "opened_utc": "2024-11-19T04:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.37524536532170755,
+            "net_usdt": -22.885036999999517
+          },
+          {
+            "opened_utc": "2024-12-25T10:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.033575734583316835,
+            "net_usdt": -9.20135608000029
+          },
+          {
+            "opened_utc": "2024-12-28T11:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.0632524427164218,
+            "net_usdt": -11.95973519999956
+          }
+        ],
+        "long_signal_checks": {
+          "candidates": 33,
+          "nearResistance": 30,
+          "upVolumeBreakout": 1,
+          "weakDownReclaim": 1,
+          "blocked": 1
+        }
+      }
+    },
+    "2025": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "long_trades": 20,
+        "short_trades": 25,
+        "long_net_usdt": -13.694851903003343,
+        "short_net_usdt": -8.92475531130142,
+        "long_entry_gate_counts": {},
+        "long_gates": [],
+        "long_signal_checks": null
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 3.6266876970746376,
+        "max_drawdown_pct": 18.828201360691267,
+        "trades": 43,
+        "long_trades": 20,
+        "short_trades": 23,
+        "long_net_usdt": -14.360780463325067,
+        "short_net_usdt": 32.494218948698624,
+        "long_entry_gate_counts": {},
+        "long_gates": [],
+        "long_signal_checks": null
+      },
+      "both_sides_volume": {
+        "return_pct": 3.6266876970746376,
+        "max_drawdown_pct": 18.828201360691267,
+        "trades": 43,
+        "long_trades": 20,
+        "short_trades": 23,
+        "long_net_usdt": -14.360780463325067,
+        "short_net_usdt": 32.494218948698624,
+        "long_entry_gate_counts": {
+          "nearResistance": 20
+        },
+        "long_gates": [
+          {
+            "opened_utc": "2025-01-04T07:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.07851475741383108,
+            "net_usdt": -2.3817009999998846
+          },
+          {
+            "opened_utc": "2025-02-14T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.7946903576412976,
+            "net_usdt": -16.224401586740104
+          },
+          {
+            "opened_utc": "2025-02-24T13:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.21430744418837913,
+            "net_usdt": -3.688691239999782
+          },
+          {
+            "opened_utc": "2025-03-11T18:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.173179401481323,
+            "net_usdt": 15.257358245767639
+          },
+          {
+            "opened_utc": "2025-03-17T17:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.13339214190348342,
+            "net_usdt": 6.6589816658151975
+          },
+          {
+            "opened_utc": "2025-04-17T18:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.4757334860060443,
+            "net_usdt": -12.323984000000172
+          },
+          {
+            "opened_utc": "2025-04-26T22:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.16758038886268428,
+            "net_usdt": -7.553344959999842
+          },
+          {
+            "opened_utc": "2025-05-03T21:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.09142143204773198,
+            "net_usdt": -7.249520519999875
+          },
+          {
+            "opened_utc": "2025-05-09T20:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.45475013436240164,
+            "net_usdt": -8.681810399999726
+          },
+          {
+            "opened_utc": "2025-06-14T22:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.19614864742921787,
+            "net_usdt": 1.8975561599998036
+          },
+          {
+            "opened_utc": "2025-06-27T21:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.5791759905225828,
+            "net_usdt": -2.521575559999954
+          },
+          {
+            "opened_utc": "2025-07-03T19:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.6729101061348263,
+            "net_usdt": -3.063163460000083
+          },
+          {
+            "opened_utc": "2025-07-23T23:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.050299564660226566,
+            "net_usdt": -18.064472579999624
+          },
+          {
+            "opened_utc": "2025-07-27T14:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.10445747136919264,
+            "net_usdt": 12.04314307574759
+          },
+          {
+            "opened_utc": "2025-07-29T03:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.02050769629367942,
+            "net_usdt": -0.7899684000000707
+          },
+          {
+            "opened_utc": "2025-08-10T23:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.04728882975684332,
+            "net_usdt": 45.03054239871289
+          },
+          {
+            "opened_utc": "2025-08-26T18:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.3024908143442282,
+            "net_usdt": 6.983501797370554
+          },
+          {
+            "opened_utc": "2025-09-26T17:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.10184773081616912,
+            "net_usdt": -19.25271071999974
+          },
+          {
+            "opened_utc": "2025-10-25T23:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.08260775294368256,
+            "net_usdt": -2.4250951999999812
+          },
+          {
+            "opened_utc": "2025-12-20T19:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.043276752566863246,
+            "net_usdt": 1.9885758200001002
+          }
+        ],
+        "long_signal_checks": {
+          "candidates": 20,
+          "nearResistance": 20,
+          "upVolumeBreakout": 0,
+          "weakDownReclaim": 0,
+          "blocked": 0
+        }
+      },
+      "both_sides_volume_and_weak_down": {
+        "return_pct": 3.6266876970746376,
+        "max_drawdown_pct": 18.828201360691267,
+        "trades": 43,
+        "long_trades": 20,
+        "short_trades": 23,
+        "long_net_usdt": -14.360780463325067,
+        "short_net_usdt": 32.494218948698624,
+        "long_entry_gate_counts": {
+          "nearResistance": 20
+        },
+        "long_gates": [
+          {
+            "opened_utc": "2025-01-04T07:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.07851475741383108,
+            "net_usdt": -2.3817009999998846
+          },
+          {
+            "opened_utc": "2025-02-14T17:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.7946903576412976,
+            "net_usdt": -16.224401586740104
+          },
+          {
+            "opened_utc": "2025-02-24T13:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.21430744418837913,
+            "net_usdt": -3.688691239999782
+          },
+          {
+            "opened_utc": "2025-03-11T18:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.173179401481323,
+            "net_usdt": 15.257358245767639
+          },
+          {
+            "opened_utc": "2025-03-17T17:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.13339214190348342,
+            "net_usdt": 6.6589816658151975
+          },
+          {
+            "opened_utc": "2025-04-17T18:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.4757334860060443,
+            "net_usdt": -12.323984000000172
+          },
+          {
+            "opened_utc": "2025-04-26T22:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.16758038886268428,
+            "net_usdt": -7.553344959999842
+          },
+          {
+            "opened_utc": "2025-05-03T21:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.09142143204773198,
+            "net_usdt": -7.249520519999875
+          },
+          {
+            "opened_utc": "2025-05-09T20:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.45475013436240164,
+            "net_usdt": -8.681810399999726
+          },
+          {
+            "opened_utc": "2025-06-14T22:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.19614864742921787,
+            "net_usdt": 1.8975561599998036
+          },
+          {
+            "opened_utc": "2025-06-27T21:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.5791759905225828,
+            "net_usdt": -2.521575559999954
+          },
+          {
+            "opened_utc": "2025-07-03T19:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.6729101061348263,
+            "net_usdt": -3.063163460000083
+          },
+          {
+            "opened_utc": "2025-07-23T23:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.050299564660226566,
+            "net_usdt": -18.064472579999624
+          },
+          {
+            "opened_utc": "2025-07-27T14:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.10445747136919264,
+            "net_usdt": 12.04314307574759
+          },
+          {
+            "opened_utc": "2025-07-29T03:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.02050769629367942,
+            "net_usdt": -0.7899684000000707
+          },
+          {
+            "opened_utc": "2025-08-10T23:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.04728882975684332,
+            "net_usdt": 45.03054239871289
+          },
+          {
+            "opened_utc": "2025-08-26T18:45:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.3024908143442282,
+            "net_usdt": 6.983501797370554
+          },
+          {
+            "opened_utc": "2025-09-26T17:30:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": 0.10184773081616912,
+            "net_usdt": -19.25271071999974
+          },
+          {
+            "opened_utc": "2025-10-25T23:15:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.08260775294368256,
+            "net_usdt": -2.4250951999999812
+          },
+          {
+            "opened_utc": "2025-12-20T19:00:00.000Z",
+            "gate": "nearResistance",
+            "distance_pct": -0.043276752566863246,
+            "net_usdt": 1.9885758200001002
+          }
+        ],
+        "long_signal_checks": {
+          "candidates": 20,
+          "nearResistance": 20,
+          "upVolumeBreakout": 0,
+          "weakDownReclaim": 0,
+          "blocked": 0
+        }
+      }
+    }
+  }
+}

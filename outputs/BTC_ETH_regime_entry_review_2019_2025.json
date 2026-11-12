@@ -1,0 +1,4579 @@
+{
+  "start_local": "2019-09-24T01:45:00+08:00",
+  "end_exclusive_local": "2026-01-01T00:00:00+08:00",
+  "eth_start_local": "2021-03-30T08:00:00+08:00",
+  "initial_usdt": 500,
+  "single_asset_opening_leverage_cap": 2.5,
+  "shared_gross_cap": 5,
+  "fees_pct_per_fill": 0.05,
+  "slippage_pct_per_fill": 0.02,
+  "funding_modeled": false,
+  "regime": "Signed efficiency ratios from closed 1-hour bars, 24h >= 0.20 and 120h >= 0.10 in the same direction. Developing variant also permits a 24h trend when the 120h ratio is not an opposing trend.",
+  "entry": "Continuation supplement uses 15m SMA/EMA 20/60/120, bandwidth <=0.25% within 96 bars, 5 of 6 lines sloping with price outside the band, matching MACD sign, and first qualifying expansion per compression episode. Existing signals have priority. Range-breakout variants require the same close to exceed the preceding 8h extremes, with optional directional volume >=1.5x the prior 20-bar median.",
+  "exit": "Original hard price stop 2%, 0.8% partial, 15m reversal and 1h range-short timeout.",
+  "profit_exit_variants": "After the partial, a closed 15m bar at +2% or better moves the stop to +1% for the next bar. Runner mode can defer a MA5/MA30 exit until the next hourly close if the last completed hour is on the position side of its SMA30 and neither 15m nor 1h structure is opposite. The stop and any intervening 15m structure exit still apply. The hour-only mode tests the same bounded delay with the original 2% stop and no new profit floor.",
+  "comparison": {
+    "original": {
+      "full_2019_2025": {
+        "ending_equity_usdt": 1159.6730539650202,
+        "return_pct": 131.93461079300403,
+        "return_2025_pct": -5.520383846047904,
+        "by_side_net_usdt": {
+          "LONG": 51.5297348737567,
+          "SHORT": 608.1433190912635
+        },
+        "synthetic_exit_cost_usdt": 1.9695056377600002,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 1.9695056377600002
+        },
+        "ending_equity_if_closed_usdt": 1157.7035483272603,
+        "max_drawdown_pct": 39.05943507680908,
+        "trades": 410,
+        "entry_counts_by_asset": {
+          "BTC": 228,
+          "ETH": 182
+        },
+        "exit_reasons": {
+          "stop": 18,
+          "15m_structure_flip": 182,
+          "ma5_ma30_cross": 182,
+          "er_1h_timeout": 27,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2019": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 501.88455209442503,
+            "low_equity_usdt": 467.0592147648627,
+            "max_drawdown_pct": 6.938913976178784,
+            "ending_equity_usdt": 474.82568697173974,
+            "asset_net_usdt": {
+              "BTC": -25.174313028260258
+            },
+            "return_pct": -5.034862605652046,
+            "entries": {
+              "BTC": 10
+            },
+            "cumulative_return_pct": -5.034862605652046,
+            "drawdown_since_start_pct": 6.938913976178784
+          },
+          "2020": {
+            "opening_equity_usdt": 474.82568697173974,
+            "peak_equity_usdt": 475.77444085621966,
+            "low_equity_usdt": 345.8568152833528,
+            "max_drawdown_pct": 27.30655840592503,
+            "ending_equity_usdt": 358.3232324626316,
+            "asset_net_usdt": {
+              "BTC": -116.50245450910813,
+              "ETH": 0.0
+            },
+            "return_pct": -24.53583656185855,
+            "entries": {
+              "BTC": 33,
+              "ETH": 0
+            },
+            "cumulative_return_pct": -28.33535350747368,
+            "drawdown_since_start_pct": 31.088372048900414
+          },
+          "2021": {
+            "opening_equity_usdt": 358.3232324626316,
+            "peak_equity_usdt": 430.5808916194575,
+            "low_equity_usdt": 305.85128130856907,
+            "max_drawdown_pct": 23.851642755215174,
+            "ending_equity_usdt": 363.0741088668955,
+            "asset_net_usdt": {
+              "BTC": 62.17110121847878,
+              "ETH": -57.42022481421495
+            },
+            "return_pct": 1.3258633473505865,
+            "entries": {
+              "BTC": 37,
+              "ETH": 26
+            },
+            "cumulative_return_pct": -27.38517822662091,
+            "drawdown_since_start_pct": 39.05943507680908
+          },
+          "2022": {
+            "opening_equity_usdt": 363.0741088668955,
+            "peak_equity_usdt": 490.94079580253447,
+            "low_equity_usdt": 316.71220185323426,
+            "max_drawdown_pct": 18.41340823501514,
+            "ending_equity_usdt": 412.74087510965376,
+            "asset_net_usdt": {
+              "BTC": 58.40620534051175,
+              "ETH": -8.739439097753461
+            },
+            "return_pct": 13.679511986619342,
+            "entries": {
+              "BTC": 24,
+              "ETH": 36
+            },
+            "cumulative_return_pct": -17.451824978069254,
+            "drawdown_since_start_pct": 39.05943507680908
+          },
+          "2023": {
+            "opening_equity_usdt": 412.74087510965376,
+            "peak_equity_usdt": 641.1948179515452,
+            "low_equity_usdt": 395.6098316178069,
+            "max_drawdown_pct": 11.213298011848726,
+            "ending_equity_usdt": 623.9738740895623,
+            "asset_net_usdt": {
+              "BTC": 102.90010526350844,
+              "ETH": 108.33289371640016
+            },
+            "return_pct": 51.178114821748586,
+            "entries": {
+              "BTC": 34,
+              "ETH": 35
+            },
+            "cumulative_return_pct": 24.794774817912458,
+            "drawdown_since_start_pct": 39.05943507680908
+          },
+          "2024": {
+            "opening_equity_usdt": 623.9738740895623,
+            "peak_equity_usdt": 1583.4137155398723,
+            "low_equity_usdt": 533.1379113423665,
+            "max_drawdown_pct": 25.189826835246564,
+            "ending_equity_usdt": 1227.4320125045417,
+            "asset_net_usdt": {
+              "BTC": 224.17466744598048,
+              "ETH": 379.2834709689989
+            },
+            "return_pct": 96.7120841870956,
+            "entries": {
+              "BTC": 47,
+              "ETH": 51
+            },
+            "cumulative_return_pct": 145.48640250090835,
+            "drawdown_since_start_pct": 39.05943507680908
+          },
+          "2025": {
+            "opening_equity_usdt": 1227.4320125045417,
+            "peak_equity_usdt": 1575.0475566150315,
+            "low_equity_usdt": 1091.3539388622366,
+            "max_drawdown_pct": 30.7097786172445,
+            "ending_equity_usdt": 1159.6730539650202,
+            "asset_net_usdt": {
+              "BTC": -111.67368869044623,
+              "ETH": 43.914730150924754
+            },
+            "return_pct": -5.520383846047904,
+            "entries": {
+              "BTC": 43,
+              "ETH": 34
+            },
+            "cumulative_return_pct": 131.93461079300403,
+            "drawdown_since_start_pct": 39.05943507680908
+          }
+        },
+        "new_entry_by_year_asset_side": {},
+        "return_2022_to_2024_pct": 238.06652210348705
+      },
+      "fresh_500_2025": {
+        "ending_equity_usdt": 472.19046830269366,
+        "return_pct": -5.561906339461265,
+        "return_2025_pct": -5.561906339461265,
+        "by_side_net_usdt": {
+          "LONG": 35.80039392892156,
+          "SHORT": -63.60992562622792
+        },
+        "synthetic_exit_cost_usdt": 0.8001116653400001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 0.8001116653400001
+        },
+        "ending_equity_if_closed_usdt": 471.39035663735365,
+        "max_drawdown_pct": 30.554795753997755,
+        "trades": 77,
+        "entry_counts_by_asset": {
+          "BTC": 43,
+          "ETH": 34
+        },
+        "exit_reasons": {
+          "15m_structure_flip": 34,
+          "ma5_ma30_cross": 35,
+          "er_1h_timeout": 7,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2025": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 639.8081605433699,
+            "low_equity_usdt": 444.3160838719332,
+            "max_drawdown_pct": 30.554795753997755,
+            "ending_equity_usdt": 472.19046830269366,
+            "asset_net_usdt": {
+              "BTC": -46.34640900881893,
+              "ETH": 18.53687731151255
+            },
+            "return_pct": -5.561906339461265,
+            "entries": {
+              "BTC": 43,
+              "ETH": 34
+            },
+            "cumulative_return_pct": -5.561906339461265,
+            "drawdown_since_start_pct": 30.554795753997755
+          }
+        },
+        "new_entry_by_year_asset_side": {}
+      }
+    },
+    "countertrend_gate": {
+      "full_2019_2025": {
+        "ending_equity_usdt": 1089.3158405067938,
+        "return_pct": 117.86316810135875,
+        "return_2025_pct": -13.14247066143379,
+        "by_side_net_usdt": {
+          "LONG": -43.45559235307363,
+          "SHORT": 632.7714328598678
+        },
+        "synthetic_exit_cost_usdt": 1.8464115354000001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 1.8464115354000001
+        },
+        "ending_equity_if_closed_usdt": 1087.4694289713939,
+        "max_drawdown_pct": 45.24826755843109,
+        "trades": 391,
+        "entry_counts_by_asset": {
+          "BTC": 221,
+          "ETH": 170
+        },
+        "exit_reasons": {
+          "stop": 17,
+          "15m_structure_flip": 170,
+          "ma5_ma30_cross": 177,
+          "er_1h_timeout": 26,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2019": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 501.88455209442503,
+            "low_equity_usdt": 467.0592147648627,
+            "max_drawdown_pct": 6.938913976178784,
+            "ending_equity_usdt": 474.82568697173974,
+            "asset_net_usdt": {
+              "BTC": -25.174313028260258
+            },
+            "return_pct": -5.034862605652046,
+            "entries": {
+              "BTC": 10
+            },
+            "cumulative_return_pct": -5.034862605652046,
+            "drawdown_since_start_pct": 6.938913976178784
+          },
+          "2020": {
+            "opening_equity_usdt": 474.82568697173974,
+            "peak_equity_usdt": 475.77444085621966,
+            "low_equity_usdt": 341.15162494231157,
+            "max_drawdown_pct": 28.295512401136204,
+            "ending_equity_usdt": 352.9285393431404,
+            "asset_net_usdt": {
+              "BTC": -121.89714762859936,
+              "ETH": 0.0
+            },
+            "return_pct": -25.671978364526492,
+            "entries": {
+              "BTC": 31,
+              "ETH": 0
+            },
+            "cumulative_return_pct": -29.414292131371923,
+            "drawdown_since_start_pct": 32.02587656491029
+          },
+          "2021": {
+            "opening_equity_usdt": 352.9285393431404,
+            "peak_equity_usdt": 386.54891191342995,
+            "low_equity_usdt": 274.79048712830615,
+            "max_drawdown_pct": 26.971422385682864,
+            "ending_equity_usdt": 325.980201960416,
+            "asset_net_usdt": {
+              "BTC": 37.69691949496562,
+              "ETH": -64.64525687768997
+            },
+            "return_pct": -7.635635653857797,
+            "entries": {
+              "BTC": 34,
+              "ETH": 24
+            },
+            "cumulative_return_pct": -34.80395960791679,
+            "drawdown_since_start_pct": 45.24826755843109
+          },
+          "2022": {
+            "opening_equity_usdt": 325.980201960416,
+            "peak_equity_usdt": 450.02925333033795,
+            "low_equity_usdt": 284.13739508253036,
+            "max_drawdown_pct": 18.546502558045642,
+            "ending_equity_usdt": 380.67981262638773,
+            "asset_net_usdt": {
+              "BTC": 53.57064666338131,
+              "ETH": 1.1289640025904077
+            },
+            "return_pct": 16.780040731619007,
+            "entries": {
+              "BTC": 24,
+              "ETH": 34
+            },
+            "cumulative_return_pct": -23.864037474722455,
+            "drawdown_since_start_pct": 45.24826755843109
+          },
+          "2023": {
+            "opening_equity_usdt": 380.67981262638773,
+            "peak_equity_usdt": 601.6423325424214,
+            "low_equity_usdt": 365.0093950241881,
+            "max_drawdown_pct": 11.217271173739118,
+            "ending_equity_usdt": 585.5171208362241,
+            "asset_net_usdt": {
+              "BTC": 97.82651628712995,
+              "ETH": 107.01079192270637
+            },
+            "return_pct": 53.80829280035155,
+            "entries": {
+              "BTC": 34,
+              "ETH": 34
+            },
+            "cumulative_return_pct": 17.103424167244818,
+            "drawdown_since_start_pct": 45.24826755843109
+          },
+          "2024": {
+            "opening_equity_usdt": 585.5171208362241,
+            "peak_equity_usdt": 1610.9593245458739,
+            "low_equity_usdt": 530.3704578635054,
+            "max_drawdown_pct": 25.09337125687908,
+            "ending_equity_usdt": 1254.1409464465612,
+            "asset_net_usdt": {
+              "BTC": 189.07886693766287,
+              "ETH": 479.5449586726743
+            },
+            "return_pct": 114.19372753019101,
+            "entries": {
+              "BTC": 46,
+              "ETH": 48
+            },
+            "cumulative_return_pct": 150.82818928931223,
+            "drawdown_since_start_pct": 45.24826755843109
+          },
+          "2025": {
+            "opening_equity_usdt": 1254.1409464465612,
+            "peak_equity_usdt": 1406.9457338703712,
+            "low_equity_usdt": 1011.8634418296801,
+            "max_drawdown_pct": 28.080847933904174,
+            "ending_equity_usdt": 1089.3158405067938,
+            "asset_net_usdt": {
+              "BTC": -90.42407425759191,
+              "ETH": -74.40103168217553
+            },
+            "return_pct": -13.14247066143379,
+            "entries": {
+              "BTC": 42,
+              "ETH": 30
+            },
+            "cumulative_return_pct": 117.86316810135875,
+            "drawdown_since_start_pct": 45.24826755843109
+          }
+        },
+        "new_entry_by_year_asset_side": {},
+        "return_2022_to_2024_pct": 284.7291764666286
+      },
+      "fresh_500_2025": {
+        "ending_equity_usdt": 435.7975534159556,
+        "return_pct": -12.84048931680889,
+        "return_2025_pct": -12.84048931680889,
+        "by_side_net_usdt": {
+          "LONG": -24.79765031269303,
+          "SHORT": -39.404796271351394
+        },
+        "synthetic_exit_cost_usdt": 0.7385646141600001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 0.7385646141600001
+        },
+        "ending_equity_if_closed_usdt": 435.0589888017956,
+        "max_drawdown_pct": 27.80935111535967,
+        "trades": 72,
+        "entry_counts_by_asset": {
+          "BTC": 42,
+          "ETH": 30
+        },
+        "exit_reasons": {
+          "15m_structure_flip": 32,
+          "ma5_ma30_cross": 33,
+          "er_1h_timeout": 6,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2025": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 562.016666921013,
+            "low_equity_usdt": 405.723478690107,
+            "max_drawdown_pct": 27.80935111535967,
+            "ending_equity_usdt": 435.7975534159556,
+            "asset_net_usdt": {
+              "BTC": -34.76749957356463,
+              "ETH": -29.43494701047981
+            },
+            "return_pct": -12.84048931680889,
+            "entries": {
+              "BTC": 42,
+              "ETH": 30
+            },
+            "cumulative_return_pct": -12.84048931680889,
+            "drawdown_since_start_pct": 27.80935111535967
+          }
+        },
+        "new_entry_by_year_asset_side": {}
+      }
+    },
+    "confirmed_breakout": {
+      "full_2019_2025": {
+        "ending_equity_usdt": 1059.158577459342,
+        "return_pct": 111.8317154918684,
+        "return_2025_pct": -7.7843600005010005,
+        "by_side_net_usdt": {
+          "LONG": -44.10316726823552,
+          "SHORT": 603.2617447275778
+        },
+        "synthetic_exit_cost_usdt": 1.78486448422,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 1.78486448422
+        },
+        "ending_equity_if_closed_usdt": 1057.373712975122,
+        "max_drawdown_pct": 40.54231556447526,
+        "trades": 454,
+        "entry_counts_by_asset": {
+          "BTC": 253,
+          "ETH": 201
+        },
+        "exit_reasons": {
+          "ma5_ma30_cross": 200,
+          "stop": 18,
+          "15m_structure_flip": 208,
+          "er_1h_timeout": 27,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2019": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 515.9929789370881,
+            "low_equity_usdt": 471.63926834333284,
+            "max_drawdown_pct": 8.59579730815737,
+            "ending_equity_usdt": 482.7616251941743,
+            "asset_net_usdt": {
+              "BTC": -17.238374805825703
+            },
+            "return_pct": -3.447674961165137,
+            "entries": {
+              "BTC": 12
+            },
+            "cumulative_return_pct": -3.447674961165137,
+            "drawdown_since_start_pct": 8.59579730815737
+          },
+          "2020": {
+            "opening_equity_usdt": 482.7616251941743,
+            "peak_equity_usdt": 483.7281682139882,
+            "low_equity_usdt": 348.21627310625126,
+            "max_drawdown_pct": 28.01405913740177,
+            "ending_equity_usdt": 364.31993311561274,
+            "asset_net_usdt": {
+              "BTC": -118.44169207856154,
+              "ETH": 0.0
+            },
+            "return_pct": -24.53419781054935,
+            "entries": {
+              "BTC": 38,
+              "ETH": 0
+            },
+            "cumulative_return_pct": -27.136013376877454,
+            "drawdown_since_start_pct": 32.515307897492306
+          },
+          "2021": {
+            "opening_equity_usdt": 364.31993311561274,
+            "peak_equity_usdt": 430.75269612595633,
+            "low_equity_usdt": 306.79747712587744,
+            "max_drawdown_pct": 23.841495505868192,
+            "ending_equity_usdt": 362.7357051280943,
+            "asset_net_usdt": {
+              "BTC": 57.234851437686466,
+              "ETH": -58.819079425204905
+            },
+            "return_pct": -0.43484526744675955,
+            "entries": {
+              "BTC": 38,
+              "ETH": 26
+            },
+            "cumulative_return_pct": -27.452858974381133,
+            "drawdown_since_start_pct": 40.54231556447526
+          },
+          "2022": {
+            "opening_equity_usdt": 362.7357051280943,
+            "peak_equity_usdt": 484.9406300549335,
+            "low_equity_usdt": 314.64284084532125,
+            "max_drawdown_pct": 18.875766024407003,
+            "ending_equity_usdt": 407.84120359000275,
+            "asset_net_usdt": {
+              "BTC": 56.061061931861715,
+              "ETH": -10.955563469953304
+            },
+            "return_pct": 12.434810751806236,
+            "entries": {
+              "BTC": 24,
+              "ETH": 37
+            },
+            "cumulative_return_pct": -18.431759281999447,
+            "drawdown_since_start_pct": 40.54231556447526
+          },
+          "2023": {
+            "opening_equity_usdt": 407.84120359000275,
+            "peak_equity_usdt": 600.993501393957,
+            "low_equity_usdt": 407.84120359000275,
+            "max_drawdown_pct": 17.34123113585504,
+            "ending_equity_usdt": 584.8682896877597,
+            "asset_net_usdt": {
+              "BTC": 84.24975288930474,
+              "ETH": 92.77733320845223
+            },
+            "return_pct": 43.405885560233834,
+            "entries": {
+              "BTC": 42,
+              "ETH": 49
+            },
+            "cumulative_return_pct": 16.973657937551945,
+            "drawdown_since_start_pct": 40.54231556447526
+          },
+          "2024": {
+            "opening_equity_usdt": 584.8682896877597,
+            "peak_equity_usdt": 1505.121700694454,
+            "low_equity_usdt": 485.87160825334615,
+            "max_drawdown_pct": 26.502119730807006,
+            "ending_equity_usdt": 1148.5671817330513,
+            "asset_net_usdt": {
+              "BTC": 220.23275584995187,
+              "ETH": 343.4661361953396
+            },
+            "return_pct": 96.38048462949331,
+            "entries": {
+              "BTC": 51,
+              "ETH": 52
+            },
+            "cumulative_return_pct": 129.71343634661022,
+            "drawdown_since_start_pct": 40.54231556447526
+          },
+          "2025": {
+            "opening_equity_usdt": 1148.5671817330513,
+            "peak_equity_usdt": 1470.984606403561,
+            "low_equity_usdt": 984.0061153575867,
+            "max_drawdown_pct": 33.10561435694406,
+            "ending_equity_usdt": 1059.158577459342,
+            "asset_net_usdt": {
+              "BTC": -101.4428520169172,
+              "ETH": 12.034247743208311
+            },
+            "return_pct": -7.7843600005010005,
+            "entries": {
+              "BTC": 48,
+              "ETH": 37
+            },
+            "cumulative_return_pct": 111.8317154918684,
+            "drawdown_since_start_pct": 40.54231556447526
+          }
+        },
+        "new_entry_by_year_asset_side": {
+          "2019/BTC/SHORT": {
+            "trades": 2,
+            "net_usdt": 8.048519694486451,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1,
+              "15m_structure_flip": 1
+            }
+          },
+          "2020/BTC/LONG": {
+            "trades": 3,
+            "net_usdt": 8.094387860862192,
+            "exit_reasons": {
+              "ma5_ma30_cross": 2,
+              "15m_structure_flip": 1
+            }
+          },
+          "2020/BTC/SHORT": {
+            "trades": 2,
+            "net_usdt": -9.151627515549789,
+            "exit_reasons": {
+              "15m_structure_flip": 1,
+              "ma5_ma30_cross": 1
+            }
+          },
+          "2021/BTC/LONG": {
+            "trades": 1,
+            "net_usdt": -4.4083929341999895,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2022/ETH/LONG": {
+            "trades": 1,
+            "net_usdt": -8.38987571499993,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2022/ETH/SHORT": {
+            "trades": 1,
+            "net_usdt": -1.3550261618194257,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2023/BTC/LONG": {
+            "trades": 4,
+            "net_usdt": 5.97538992618052,
+            "exit_reasons": {
+              "15m_structure_flip": 4
+            }
+          },
+          "2023/BTC/SHORT": {
+            "trades": 4,
+            "net_usdt": -27.290102761449695,
+            "exit_reasons": {
+              "ma5_ma30_cross": 2,
+              "15m_structure_flip": 2
+            }
+          },
+          "2023/ETH/LONG": {
+            "trades": 9,
+            "net_usdt": 4.522485525344686,
+            "exit_reasons": {
+              "ma5_ma30_cross": 3,
+              "15m_structure_flip": 6
+            }
+          },
+          "2023/ETH/SHORT": {
+            "trades": 5,
+            "net_usdt": -14.940115832347312,
+            "exit_reasons": {
+              "15m_structure_flip": 1,
+              "ma5_ma30_cross": 4
+            }
+          },
+          "2024/BTC/LONG": {
+            "trades": 2,
+            "net_usdt": -39.10383160513952,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1,
+              "15m_structure_flip": 1
+            }
+          },
+          "2024/BTC/SHORT": {
+            "trades": 2,
+            "net_usdt": 48.294169934312414,
+            "exit_reasons": {
+              "15m_structure_flip": 2
+            }
+          },
+          "2024/ETH/SHORT": {
+            "trades": 1,
+            "net_usdt": -16.252587476059862,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2025/BTC/LONG": {
+            "trades": 3,
+            "net_usdt": -30.759243739039114,
+            "exit_reasons": {
+              "15m_structure_flip": 1,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2025/BTC/SHORT": {
+            "trades": 2,
+            "net_usdt": 34.33780971728362,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1,
+              "15m_structure_flip": 1
+            }
+          },
+          "2025/ETH/LONG": {
+            "trades": 3,
+            "net_usdt": -28.175074346286536,
+            "exit_reasons": {
+              "15m_structure_flip": 2,
+              "ma5_ma30_cross": 1
+            }
+          }
+        },
+        "return_2022_to_2024_pct": 216.64023295623824
+      },
+      "fresh_500_2025": {
+        "ending_equity_usdt": 462.31500735034683,
+        "return_pct": -7.536998529930639,
+        "return_2025_pct": -7.536998529930639,
+        "by_side_net_usdt": {
+          "LONG": 10.127031486854843,
+          "SHORT": -47.81202413650801
+        },
+        "synthetic_exit_cost_usdt": 0.8001116653400001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 0.8001116653400001
+        },
+        "ending_equity_if_closed_usdt": 461.5148956850068,
+        "max_drawdown_pct": 32.6229916027443,
+        "trades": 85,
+        "entry_counts_by_asset": {
+          "BTC": 48,
+          "ETH": 37
+        },
+        "exit_reasons": {
+          "15m_structure_flip": 38,
+          "ma5_ma30_cross": 39,
+          "er_1h_timeout": 7,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2025": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 639.8081605433699,
+            "low_equity_usdt": 431.0835980556336,
+            "max_drawdown_pct": 32.6229916027443,
+            "ending_equity_usdt": 462.31500735034683,
+            "asset_net_usdt": {
+              "BTC": -44.066412766518624,
+              "ETH": 6.381420116865449
+            },
+            "return_pct": -7.536998529930639,
+            "entries": {
+              "BTC": 48,
+              "ETH": 37
+            },
+            "cumulative_return_pct": -7.536998529930639,
+            "drawdown_since_start_pct": 32.6229916027443
+          }
+        },
+        "new_entry_by_year_asset_side": {
+          "2025/BTC/LONG": {
+            "trades": 3,
+            "net_usdt": -12.993109693429629,
+            "exit_reasons": {
+              "15m_structure_flip": 1,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2025/BTC/SHORT": {
+            "trades": 2,
+            "net_usdt": 14.3407606337618,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1,
+              "15m_structure_flip": 1
+            }
+          },
+          "2025/ETH/LONG": {
+            "trades": 3,
+            "net_usdt": -12.29444898689354,
+            "exit_reasons": {
+              "15m_structure_flip": 2,
+              "ma5_ma30_cross": 1
+            }
+          }
+        }
+      }
+    },
+    "developing_breakout": {
+      "full_2019_2025": {
+        "ending_equity_usdt": 697.9083544320176,
+        "return_pct": 39.58167088640352,
+        "return_2025_pct": 6.731219067189254,
+        "by_side_net_usdt": {
+          "LONG": -253.8003931014486,
+          "SHORT": 451.70874753346624
+        },
+        "synthetic_exit_cost_usdt": 1.16939397242,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 1.16939397242
+        },
+        "ending_equity_if_closed_usdt": 696.7389604595976,
+        "max_drawdown_pct": 51.88166285733939,
+        "trades": 625,
+        "entry_counts_by_asset": {
+          "BTC": 364,
+          "ETH": 261
+        },
+        "exit_reasons": {
+          "ma5_ma30_cross": 278,
+          "stop": 22,
+          "15m_structure_flip": 285,
+          "er_1h_timeout": 39,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2019": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 515.9929789370881,
+            "low_equity_usdt": 461.7566281634279,
+            "max_drawdown_pct": 10.511063713576796,
+            "ending_equity_usdt": 488.7984622943296,
+            "asset_net_usdt": {
+              "BTC": -11.201537705670372
+            },
+            "return_pct": -2.240307541134079,
+            "entries": {
+              "BTC": 15
+            },
+            "cumulative_return_pct": -2.240307541134079,
+            "drawdown_since_start_pct": 10.511063713576796
+          },
+          "2020": {
+            "opening_equity_usdt": 488.7984622943296,
+            "peak_equity_usdt": 489.77686473769955,
+            "low_equity_usdt": 321.241134301128,
+            "max_drawdown_pct": 34.41071691428933,
+            "ending_equity_usdt": 360.5380771928495,
+            "asset_net_usdt": {
+              "BTC": -128.2603851014801,
+              "ETH": 0.0
+            },
+            "return_pct": -26.239932200164784,
+            "entries": {
+              "BTC": 55,
+              "ETH": 0
+            },
+            "cumulative_return_pct": -27.892384561430095,
+            "drawdown_since_start_pct": 37.743119109321256
+          },
+          "2021": {
+            "opening_equity_usdt": 360.5380771928495,
+            "peak_equity_usdt": 433.1133887742365,
+            "low_equity_usdt": 297.25090331865414,
+            "max_drawdown_pct": 23.229733722800884,
+            "ending_equity_usdt": 364.2165059703245,
+            "asset_net_usdt": {
+              "BTC": 62.55382784673993,
+              "ETH": -58.87539906926495
+            },
+            "return_pct": 1.0202608296230986,
+            "entries": {
+              "BTC": 41,
+              "ETH": 27
+            },
+            "cumulative_return_pct": -27.156698805935108,
+            "drawdown_since_start_pct": 42.39245194169664
+          },
+          "2022": {
+            "opening_equity_usdt": 364.2165059703245,
+            "peak_equity_usdt": 490.19144051825424,
+            "low_equity_usdt": 316.7925365070539,
+            "max_drawdown_pct": 24.9216578394738,
+            "ending_equity_usdt": 368.0276069539072,
+            "asset_net_usdt": {
+              "BTC": 38.136384570169014,
+              "ETH": -34.3252835865863
+            },
+            "return_pct": 1.0463833794213784,
+            "entries": {
+              "BTC": 37,
+              "ETH": 45
+            },
+            "cumulative_return_pct": -26.394478609218563,
+            "drawdown_since_start_pct": 42.39245194169664
+          },
+          "2023": {
+            "opening_equity_usdt": 368.0276069539072,
+            "peak_equity_usdt": 487.01779204670936,
+            "low_equity_usdt": 268.80158033085,
+            "max_drawdown_pct": 44.806620061825264,
+            "ending_equity_usdt": 311.4648065767099,
+            "asset_net_usdt": {
+              "BTC": 0.06836031629727302,
+              "ETH": -56.63116069349455
+            },
+            "return_pct": -15.369173211041575,
+            "entries": {
+              "BTC": 82,
+              "ETH": 77
+            },
+            "cumulative_return_pct": -37.70703868465801,
+            "drawdown_since_start_pct": 47.90596164998916
+          },
+          "2024": {
+            "opening_equity_usdt": 311.4648065767099,
+            "peak_equity_usdt": 794.7200571107202,
+            "low_equity_usdt": 248.2872412374058,
+            "max_drawdown_pct": 26.0788600183125,
+            "ending_equity_usdt": 653.893359910629,
+            "asset_net_usdt": {
+              "BTC": 111.1237529887978,
+              "ETH": 231.3048003451212
+            },
+            "return_pct": 109.9413308031587,
+            "entries": {
+              "BTC": 60,
+              "ETH": 63
+            },
+            "cumulative_return_pct": 30.778671982125804,
+            "drawdown_since_start_pct": 51.88166285733939
+          },
+          "2025": {
+            "opening_equity_usdt": 653.893359910629,
+            "peak_equity_usdt": 1057.8739990253803,
+            "low_equity_usdt": 651.4888668346289,
+            "max_drawdown_pct": 34.8672793505022,
+            "ending_equity_usdt": 697.9083544320176,
+            "asset_net_usdt": {
+              "BTC": -146.9633403690175,
+              "ETH": 190.97833489040624
+            },
+            "return_pct": 6.731219067189254,
+            "entries": {
+              "BTC": 74,
+              "ETH": 49
+            },
+            "cumulative_return_pct": 39.58167088640352,
+            "drawdown_since_start_pct": 51.88166285733939
+          }
+        },
+        "new_entry_by_year_asset_side": {
+          "2019/BTC/LONG": {
+            "trades": 3,
+            "net_usdt": 3.5063648313994094,
+            "exit_reasons": {
+              "15m_structure_flip": 1,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2019/BTC/SHORT": {
+            "trades": 3,
+            "net_usdt": 5.936417803708358,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1,
+              "15m_structure_flip": 2
+            }
+          },
+          "2020/BTC/LONG": {
+            "trades": 12,
+            "net_usdt": 1.3981655474701338,
+            "exit_reasons": {
+              "15m_structure_flip": 7,
+              "ma5_ma30_cross": 5
+            }
+          },
+          "2020/BTC/SHORT": {
+            "trades": 10,
+            "net_usdt": -13.19048316877429,
+            "exit_reasons": {
+              "15m_structure_flip": 5,
+              "ma5_ma30_cross": 5
+            }
+          },
+          "2021/BTC/LONG": {
+            "trades": 2,
+            "net_usdt": -1.164814489406695,
+            "exit_reasons": {
+              "15m_structure_flip": 2
+            }
+          },
+          "2021/BTC/SHORT": {
+            "trades": 2,
+            "net_usdt": 1.075153194260169,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1,
+              "15m_structure_flip": 1
+            }
+          },
+          "2021/ETH/LONG": {
+            "trades": 1,
+            "net_usdt": -0.3350577076000103,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2022/BTC/LONG": {
+            "trades": 2,
+            "net_usdt": -8.037629312230013,
+            "exit_reasons": {
+              "15m_structure_flip": 1,
+              "ma5_ma30_cross": 1
+            }
+          },
+          "2022/BTC/SHORT": {
+            "trades": 12,
+            "net_usdt": -13.75176202191271,
+            "exit_reasons": {
+              "er_1h_timeout": 3,
+              "ma5_ma30_cross": 3,
+              "15m_structure_flip": 6
+            }
+          },
+          "2022/ETH/LONG": {
+            "trades": 7,
+            "net_usdt": -17.42976288149264,
+            "exit_reasons": {
+              "ma5_ma30_cross": 3,
+              "15m_structure_flip": 4
+            }
+          },
+          "2022/ETH/SHORT": {
+            "trades": 3,
+            "net_usdt": -18.37812890053238,
+            "exit_reasons": {
+              "15m_structure_flip": 2,
+              "stop": 1
+            }
+          },
+          "2023/BTC/LONG": {
+            "trades": 23,
+            "net_usdt": -44.829719144944185,
+            "exit_reasons": {
+              "15m_structure_flip": 13,
+              "ma5_ma30_cross": 10
+            }
+          },
+          "2023/BTC/SHORT": {
+            "trades": 25,
+            "net_usdt": -45.58767462832753,
+            "exit_reasons": {
+              "ma5_ma30_cross": 11,
+              "15m_structure_flip": 12,
+              "er_1h_timeout": 2
+            }
+          },
+          "2023/ETH/LONG": {
+            "trades": 21,
+            "net_usdt": -37.71710636045095,
+            "exit_reasons": {
+              "ma5_ma30_cross": 10,
+              "15m_structure_flip": 11
+            }
+          },
+          "2023/ETH/SHORT": {
+            "trades": 22,
+            "net_usdt": -55.69997946824915,
+            "exit_reasons": {
+              "er_1h_timeout": 5,
+              "15m_structure_flip": 4,
+              "ma5_ma30_cross": 13
+            }
+          },
+          "2024/BTC/LONG": {
+            "trades": 8,
+            "net_usdt": -12.332380051861941,
+            "exit_reasons": {
+              "ma5_ma30_cross": 3,
+              "15m_structure_flip": 5
+            }
+          },
+          "2024/BTC/SHORT": {
+            "trades": 5,
+            "net_usdt": 18.130753038898824,
+            "exit_reasons": {
+              "15m_structure_flip": 3,
+              "ma5_ma30_cross": 1,
+              "er_1h_timeout": 1
+            }
+          },
+          "2024/ETH/LONG": {
+            "trades": 7,
+            "net_usdt": 69.74658470380936,
+            "exit_reasons": {
+              "15m_structure_flip": 2,
+              "ma5_ma30_cross": 5
+            }
+          },
+          "2024/ETH/SHORT": {
+            "trades": 5,
+            "net_usdt": -20.716562126792187,
+            "exit_reasons": {
+              "15m_structure_flip": 2,
+              "ma5_ma30_cross": 2,
+              "stop": 1
+            }
+          },
+          "2025/BTC/LONG": {
+            "trades": 21,
+            "net_usdt": -91.22735075911837,
+            "exit_reasons": {
+              "15m_structure_flip": 10,
+              "ma5_ma30_cross": 10,
+              "stop": 1
+            }
+          },
+          "2025/BTC/SHORT": {
+            "trades": 10,
+            "net_usdt": 19.455833978692453,
+            "exit_reasons": {
+              "15m_structure_flip": 4,
+              "ma5_ma30_cross": 5,
+              "er_1h_timeout": 1
+            }
+          },
+          "2025/ETH/LONG": {
+            "trades": 9,
+            "net_usdt": -57.41551182826017,
+            "exit_reasons": {
+              "15m_structure_flip": 5,
+              "ma5_ma30_cross": 4
+            }
+          },
+          "2025/ETH/SHORT": {
+            "trades": 6,
+            "net_usdt": 246.38707130482464,
+            "exit_reasons": {
+              "15m_structure_flip": 3,
+              "ma5_ma30_cross": 2,
+              "stop": 1
+            }
+          }
+        },
+        "return_2022_to_2024_pct": 79.5342465791231
+      },
+      "fresh_500_2025": {
+        "ending_equity_usdt": 533.8320058702773,
+        "return_pct": 6.7664011740554475,
+        "return_2025_pct": 6.7664011740554475,
+        "by_side_net_usdt": {
+          "LONG": -94.6588462039391,
+          "SHORT": 128.49085207421632
+        },
+        "synthetic_exit_cost_usdt": 0.9232057677000001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 0.9232057677000001
+        },
+        "ending_equity_if_closed_usdt": 532.9088001025773,
+        "max_drawdown_pct": 34.94306860668145,
+        "trades": 123,
+        "entry_counts_by_asset": {
+          "BTC": 74,
+          "ETH": 49
+        },
+        "exit_reasons": {
+          "15m_structure_flip": 56,
+          "ma5_ma30_cross": 56,
+          "er_1h_timeout": 8,
+          "stop": 2,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2025": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 810.6097405651803,
+            "low_equity_usdt": 498.14653658725,
+            "max_drawdown_pct": 34.94306860668145,
+            "ending_equity_usdt": 533.8320058702773,
+            "asset_net_usdt": {
+              "BTC": -112.61359017819571,
+              "ETH": 146.44559604847294
+            },
+            "return_pct": 6.7664011740554475,
+            "entries": {
+              "BTC": 74,
+              "ETH": 49
+            },
+            "cumulative_return_pct": 6.7664011740554475,
+            "drawdown_since_start_pct": 34.94306860668145
+          }
+        },
+        "new_entry_by_year_asset_side": {
+          "2025/BTC/LONG": {
+            "trades": 21,
+            "net_usdt": -69.69235250455584,
+            "exit_reasons": {
+              "15m_structure_flip": 10,
+              "ma5_ma30_cross": 10,
+              "stop": 1
+            }
+          },
+          "2025/BTC/SHORT": {
+            "trades": 10,
+            "net_usdt": 14.269047144804539,
+            "exit_reasons": {
+              "15m_structure_flip": 4,
+              "ma5_ma30_cross": 5,
+              "er_1h_timeout": 1
+            }
+          },
+          "2025/ETH/LONG": {
+            "trades": 9,
+            "net_usdt": -43.852171032914,
+            "exit_reasons": {
+              "15m_structure_flip": 5,
+              "ma5_ma30_cross": 4
+            }
+          },
+          "2025/ETH/SHORT": {
+            "trades": 6,
+            "net_usdt": 189.55651883671888,
+            "exit_reasons": {
+              "15m_structure_flip": 3,
+              "ma5_ma30_cross": 2,
+              "stop": 1
+            }
+          }
+        }
+      }
+    },
+    "range_breakout": {
+      "full_2019_2025": {
+        "ending_equity_usdt": 854.9720378203634,
+        "return_pct": 70.99440756407269,
+        "return_2025_pct": -8.102281108250631,
+        "by_side_net_usdt": {
+          "LONG": -64.58299376648957,
+          "SHORT": 419.55503158685275
+        },
+        "synthetic_exit_cost_usdt": 1.4771292283200002,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 1.4771292283200002
+        },
+        "ending_equity_if_closed_usdt": 853.4949085920434,
+        "max_drawdown_pct": 39.07429621240573,
+        "trades": 470,
+        "entry_counts_by_asset": {
+          "BTC": 264,
+          "ETH": 206
+        },
+        "exit_reasons": {
+          "stop": 20,
+          "15m_structure_flip": 217,
+          "ma5_ma30_cross": 205,
+          "er_1h_timeout": 27,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2019": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 501.88455209442503,
+            "low_equity_usdt": 467.0592147648627,
+            "max_drawdown_pct": 6.938913976178784,
+            "ending_equity_usdt": 474.82568697173974,
+            "asset_net_usdt": {
+              "BTC": -25.174313028260258
+            },
+            "return_pct": -5.034862605652046,
+            "entries": {
+              "BTC": 10
+            },
+            "cumulative_return_pct": -5.034862605652046,
+            "drawdown_since_start_pct": 6.938913976178784
+          },
+          "2020": {
+            "opening_equity_usdt": 474.82568697173974,
+            "peak_equity_usdt": 475.77444085621966,
+            "low_equity_usdt": 333.5981647836844,
+            "max_drawdown_pct": 29.88312609157189,
+            "ending_equity_usdt": 363.13866124137905,
+            "asset_net_usdt": {
+              "BTC": -111.68702573036067,
+              "ETH": 0.0
+            },
+            "return_pct": -23.521689915863377,
+            "entries": {
+              "BTC": 37,
+              "ETH": 0
+            },
+            "cumulative_return_pct": -27.372267751724188,
+            "drawdown_since_start_pct": 33.530896021497604
+          },
+          "2021": {
+            "opening_equity_usdt": 363.13866124137905,
+            "peak_equity_usdt": 433.49856361196595,
+            "low_equity_usdt": 305.7766955647437,
+            "max_drawdown_pct": 23.02144345266631,
+            "ending_equity_usdt": 364.93673851565393,
+            "asset_net_usdt": {
+              "BTC": 60.98771718072978,
+              "ETH": -59.189639906454886
+            },
+            "return_pct": 0.4951489516781926,
+            "entries": {
+              "BTC": 39,
+              "ETH": 26
+            },
+            "cumulative_return_pct": -27.01265229686921,
+            "drawdown_since_start_pct": 39.07429621240573
+          },
+          "2022": {
+            "opening_equity_usdt": 364.93673851565393,
+            "peak_equity_usdt": 490.98488493480863,
+            "low_equity_usdt": 316.7562909855084,
+            "max_drawdown_pct": 18.942114090880814,
+            "ending_equity_usdt": 400.37702691272784,
+            "asset_net_usdt": {
+              "BTC": 49.869679446977486,
+              "ETH": -14.429391049903586
+            },
+            "return_pct": 9.711351216987364,
+            "entries": {
+              "BTC": 26,
+              "ETH": 38
+            },
+            "cumulative_return_pct": -19.924594617454428,
+            "drawdown_since_start_pct": 39.07429621240573
+          },
+          "2023": {
+            "opening_equity_usdt": 400.37702691272784,
+            "peak_equity_usdt": 544.0669294698575,
+            "low_equity_usdt": 384.74626931516883,
+            "max_drawdown_pct": 26.261320885156614,
+            "ending_equity_usdt": 475.40227690338594,
+            "asset_net_usdt": {
+              "BTC": 80.13966498123749,
+              "ETH": -5.1144149905793626
+            },
+            "return_pct": 18.738650059213246,
+            "entries": {
+              "BTC": 45,
+              "ETH": 47
+            },
+            "cumulative_return_pct": -4.919544619322814,
+            "drawdown_since_start_pct": 39.07429621240573
+          },
+          "2024": {
+            "opening_equity_usdt": 475.40227690338594,
+            "peak_equity_usdt": 1120.9456404504913,
+            "low_equity_usdt": 402.86122916357806,
+            "max_drawdown_pct": 21.44140897090209,
+            "ending_equity_usdt": 930.3517520684873,
+            "asset_net_usdt": {
+              "BTC": 171.15465351817042,
+              "ETH": 283.79482164693087
+            },
+            "return_pct": 95.69779053825584,
+            "entries": {
+              "BTC": 50,
+              "ETH": 54
+            },
+            "cumulative_return_pct": 86.07035041369745,
+            "drawdown_since_start_pct": 39.07429621240573
+          },
+          "2025": {
+            "opening_equity_usdt": 930.3517520684873,
+            "peak_equity_usdt": 1284.9310425379106,
+            "low_equity_usdt": 844.0273794495827,
+            "max_drawdown_pct": 34.313410486019876,
+            "ending_equity_usdt": 854.9720378203634,
+            "asset_net_usdt": {
+              "BTC": -65.92591043033104,
+              "ETH": -9.453803817792704
+            },
+            "return_pct": -8.102281108250631,
+            "entries": {
+              "BTC": 57,
+              "ETH": 41
+            },
+            "cumulative_return_pct": 70.99440756407269,
+            "drawdown_since_start_pct": 39.07429621240573
+          }
+        },
+        "new_entry_by_year_asset_side": {
+          "2020/BTC/LONG": {
+            "trades": 1,
+            "net_usdt": -8.285045710599922,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1
+            }
+          },
+          "2020/BTC/SHORT": {
+            "trades": 3,
+            "net_usdt": 10.171291134991385,
+            "exit_reasons": {
+              "ma5_ma30_cross": 2,
+              "15m_structure_flip": 1
+            }
+          },
+          "2021/BTC/LONG": {
+            "trades": 2,
+            "net_usdt": -1.5321805672566948,
+            "exit_reasons": {
+              "15m_structure_flip": 2
+            }
+          },
+          "2022/BTC/LONG": {
+            "trades": 1,
+            "net_usdt": -6.9627845393999515,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2022/BTC/SHORT": {
+            "trades": 1,
+            "net_usdt": -2.871419819584346,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2022/ETH/LONG": {
+            "trades": 2,
+            "net_usdt": -8.443048647100053,
+            "exit_reasons": {
+              "15m_structure_flip": 2
+            }
+          },
+          "2023/BTC/LONG": {
+            "trades": 6,
+            "net_usdt": -8.929870191164927,
+            "exit_reasons": {
+              "15m_structure_flip": 4,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2023/BTC/SHORT": {
+            "trades": 5,
+            "net_usdt": -10.940059415366058,
+            "exit_reasons": {
+              "15m_structure_flip": 3,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2023/ETH/LONG": {
+            "trades": 9,
+            "net_usdt": -62.953078624986425,
+            "exit_reasons": {
+              "15m_structure_flip": 6,
+              "ma5_ma30_cross": 3
+            }
+          },
+          "2023/ETH/SHORT": {
+            "trades": 3,
+            "net_usdt": -25.694970389759707,
+            "exit_reasons": {
+              "ma5_ma30_cross": 2,
+              "15m_structure_flip": 1
+            }
+          },
+          "2024/BTC/LONG": {
+            "trades": 1,
+            "net_usdt": -8.475057253400028,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1
+            }
+          },
+          "2024/BTC/SHORT": {
+            "trades": 2,
+            "net_usdt": 5.367866259455316,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1,
+              "15m_structure_flip": 1
+            }
+          },
+          "2024/ETH/LONG": {
+            "trades": 2,
+            "net_usdt": 55.22063489785174,
+            "exit_reasons": {
+              "15m_structure_flip": 1,
+              "ma5_ma30_cross": 1
+            }
+          },
+          "2024/ETH/SHORT": {
+            "trades": 1,
+            "net_usdt": -36.39823933811161,
+            "exit_reasons": {
+              "stop": 1
+            }
+          },
+          "2025/BTC/LONG": {
+            "trades": 10,
+            "net_usdt": -0.6332783895324408,
+            "exit_reasons": {
+              "ma5_ma30_cross": 3,
+              "15m_structure_flip": 6,
+              "stop": 1
+            }
+          },
+          "2025/BTC/SHORT": {
+            "trades": 4,
+            "net_usdt": 26.730325947742706,
+            "exit_reasons": {
+              "15m_structure_flip": 2,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2025/ETH/LONG": {
+            "trades": 7,
+            "net_usdt": -52.25654346166796,
+            "exit_reasons": {
+              "15m_structure_flip": 4,
+              "ma5_ma30_cross": 3
+            }
+          }
+        },
+        "return_2022_to_2024_pct": 154.93507610458897
+      },
+      "fresh_500_2025": {
+        "ending_equity_usdt": 466.49362101025,
+        "return_pct": -6.70127579794999,
+        "return_2025_pct": -6.70127579794999,
+        "by_side_net_usdt": {
+          "LONG": 17.129282230278125,
+          "SHORT": -50.63566122002808
+        },
+        "synthetic_exit_cost_usdt": 0.8001116653400001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 0.8001116653400001
+        },
+        "ending_equity_if_closed_usdt": 465.69350934491,
+        "max_drawdown_pct": 33.50690286350846,
+        "trades": 98,
+        "entry_counts_by_asset": {
+          "BTC": 57,
+          "ETH": 41
+        },
+        "exit_reasons": {
+          "15m_structure_flip": 46,
+          "ma5_ma30_cross": 43,
+          "er_1h_timeout": 7,
+          "stop": 1,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2025": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 693.0228488584041,
+            "low_equity_usdt": 460.81235606949963,
+            "max_drawdown_pct": 33.50690286350846,
+            "ending_equity_usdt": 466.49362101025,
+            "asset_net_usdt": {
+              "BTC": -28.918963818828104,
+              "ETH": -4.5874151709218705
+            },
+            "return_pct": -6.70127579794999,
+            "entries": {
+              "BTC": 57,
+              "ETH": 41
+            },
+            "cumulative_return_pct": -6.70127579794999,
+            "drawdown_since_start_pct": 33.50690286350846
+          }
+        },
+        "new_entry_by_year_asset_side": {
+          "2025/BTC/LONG": {
+            "trades": 10,
+            "net_usdt": 1.4318272791002542,
+            "exit_reasons": {
+              "ma5_ma30_cross": 3,
+              "15m_structure_flip": 6,
+              "stop": 1
+            }
+          },
+          "2025/BTC/SHORT": {
+            "trades": 4,
+            "net_usdt": 13.786994505346374,
+            "exit_reasons": {
+              "15m_structure_flip": 2,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2025/ETH/LONG": {
+            "trades": 7,
+            "net_usdt": -28.47575584815891,
+            "exit_reasons": {
+              "15m_structure_flip": 4,
+              "ma5_ma30_cross": 3
+            }
+          }
+        }
+      }
+    },
+    "range_breakout_volume": {
+      "full_2019_2025": {
+        "ending_equity_usdt": 868.8923085818,
+        "return_pct": 73.77846171636,
+        "return_2025_pct": -7.9883847236536525,
+        "by_side_net_usdt": {
+          "LONG": -59.6327909540555,
+          "SHORT": 428.525099535855
+        },
+        "synthetic_exit_cost_usdt": 1.4771292283200002,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 1.4771292283200002
+        },
+        "ending_equity_if_closed_usdt": 867.41517935348,
+        "max_drawdown_pct": 38.355390279899204,
+        "trades": 469,
+        "entry_counts_by_asset": {
+          "BTC": 263,
+          "ETH": 206
+        },
+        "exit_reasons": {
+          "stop": 20,
+          "15m_structure_flip": 216,
+          "ma5_ma30_cross": 205,
+          "er_1h_timeout": 27,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2019": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 501.88455209442503,
+            "low_equity_usdt": 467.0592147648627,
+            "max_drawdown_pct": 6.938913976178784,
+            "ending_equity_usdt": 474.82568697173974,
+            "asset_net_usdt": {
+              "BTC": -25.174313028260258
+            },
+            "return_pct": -5.034862605652046,
+            "entries": {
+              "BTC": 10
+            },
+            "cumulative_return_pct": -5.034862605652046,
+            "drawdown_since_start_pct": 6.938913976178784
+          },
+          "2020": {
+            "opening_equity_usdt": 474.82568697173974,
+            "peak_equity_usdt": 475.77444085621966,
+            "low_equity_usdt": 333.5981647836844,
+            "max_drawdown_pct": 29.88312609157189,
+            "ending_equity_usdt": 363.13866124137905,
+            "asset_net_usdt": {
+              "BTC": -111.68702573036067,
+              "ETH": 0.0
+            },
+            "return_pct": -23.521689915863377,
+            "entries": {
+              "BTC": 37,
+              "ETH": 0
+            },
+            "cumulative_return_pct": -27.372267751724188,
+            "drawdown_since_start_pct": 33.530896021497604
+          },
+          "2021": {
+            "opening_equity_usdt": 363.13866124137905,
+            "peak_equity_usdt": 438.81110528521594,
+            "low_equity_usdt": 309.38477338408427,
+            "max_drawdown_pct": 23.05372380366919,
+            "ending_equity_usdt": 369.6388152347039,
+            "asset_net_usdt": {
+              "BTC": 64.79513351632976,
+              "ETH": -58.29497952300488
+            },
+            "return_pct": 1.7899922776341892,
+            "entries": {
+              "BTC": 38,
+              "ETH": 26
+            },
+            "cumulative_return_pct": -26.072236953059225,
+            "drawdown_since_start_pct": 38.355390279899204
+          },
+          "2022": {
+            "opening_equity_usdt": 369.6388152347039,
+            "peak_equity_usdt": 494.4282679048918,
+            "low_equity_usdt": 319.6634785445416,
+            "max_drawdown_pct": 19.17075182582351,
+            "ending_equity_usdt": 403.54792771886105,
+            "asset_net_usdt": {
+              "BTC": 49.22538469978139,
+              "ETH": -15.316272215624252
+            },
+            "return_pct": 9.173580015569094,
+            "entries": {
+              "BTC": 26,
+              "ETH": 38
+            },
+            "cumulative_return_pct": -19.29041445622779,
+            "drawdown_since_start_pct": 38.355390279899204
+          },
+          "2023": {
+            "opening_equity_usdt": 403.54792771886105,
+            "peak_equity_usdt": 551.5450337867233,
+            "low_equity_usdt": 387.8436229733945,
+            "max_drawdown_pct": 26.21999823631006,
+            "ending_equity_usdt": 483.1609131258832,
+            "asset_net_usdt": {
+              "BTC": 83.3160707829856,
+              "ETH": -3.703085375963468
+            },
+            "return_pct": 19.728260248305872,
+            "entries": {
+              "BTC": 45,
+              "ETH": 47
+            },
+            "cumulative_return_pct": -3.3678173748233564,
+            "drawdown_since_start_pct": 38.355390279899204
+          },
+          "2024": {
+            "opening_equity_usdt": 483.1609131258832,
+            "peak_equity_usdt": 1138.271860930845,
+            "low_equity_usdt": 409.38040499103533,
+            "max_drawdown_pct": 21.448457589777725,
+            "ending_equity_usdt": 944.3289371371011,
+            "asset_net_usdt": {
+              "BTC": 172.2373348108092,
+              "ETH": 288.9306892004088
+            },
+            "return_pct": 95.4481232820803,
+            "entries": {
+              "BTC": 50,
+              "ETH": 54
+            },
+            "cumulative_return_pct": 88.86578742742022,
+            "drawdown_since_start_pct": 38.355390279899204
+          },
+          "2025": {
+            "opening_equity_usdt": 944.3289371371011,
+            "peak_equity_usdt": 1303.8898313577943,
+            "low_equity_usdt": 857.5726035792591,
+            "max_drawdown_pct": 34.229673170605736,
+            "ending_equity_usdt": 868.8923085818,
+            "asset_net_usdt": {
+              "BTC": -65.52891109392169,
+              "ETH": -9.907717461379548
+            },
+            "return_pct": -7.9883847236536525,
+            "entries": {
+              "BTC": 57,
+              "ETH": 41
+            },
+            "cumulative_return_pct": 73.77846171636,
+            "drawdown_since_start_pct": 38.355390279899204
+          }
+        },
+        "new_entry_by_year_asset_side": {
+          "2020/BTC/LONG": {
+            "trades": 1,
+            "net_usdt": -8.285045710599922,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1
+            }
+          },
+          "2020/BTC/SHORT": {
+            "trades": 3,
+            "net_usdt": 10.171291134991385,
+            "exit_reasons": {
+              "ma5_ma30_cross": 2,
+              "15m_structure_flip": 1
+            }
+          },
+          "2021/BTC/LONG": {
+            "trades": 1,
+            "net_usdt": 2.8762123669432946,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2022/BTC/LONG": {
+            "trades": 1,
+            "net_usdt": -6.9627845393999515,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2022/BTC/SHORT": {
+            "trades": 1,
+            "net_usdt": -2.615808703480456,
+            "exit_reasons": {
+              "15m_structure_flip": 1
+            }
+          },
+          "2022/ETH/LONG": {
+            "trades": 2,
+            "net_usdt": -8.472840698250053,
+            "exit_reasons": {
+              "15m_structure_flip": 2
+            }
+          },
+          "2023/BTC/LONG": {
+            "trades": 6,
+            "net_usdt": -8.915227849594926,
+            "exit_reasons": {
+              "15m_structure_flip": 4,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2023/BTC/SHORT": {
+            "trades": 5,
+            "net_usdt": -10.842060602366056,
+            "exit_reasons": {
+              "15m_structure_flip": 3,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2023/ETH/LONG": {
+            "trades": 9,
+            "net_usdt": -63.70494858292446,
+            "exit_reasons": {
+              "15m_structure_flip": 6,
+              "ma5_ma30_cross": 3
+            }
+          },
+          "2023/ETH/SHORT": {
+            "trades": 3,
+            "net_usdt": -26.0964543020997,
+            "exit_reasons": {
+              "ma5_ma30_cross": 2,
+              "15m_structure_flip": 1
+            }
+          },
+          "2024/BTC/LONG": {
+            "trades": 1,
+            "net_usdt": -8.89881011607003,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1
+            }
+          },
+          "2024/BTC/SHORT": {
+            "trades": 2,
+            "net_usdt": 5.367866259455316,
+            "exit_reasons": {
+              "ma5_ma30_cross": 1,
+              "15m_structure_flip": 1
+            }
+          },
+          "2024/ETH/LONG": {
+            "trades": 2,
+            "net_usdt": 56.21473463777801,
+            "exit_reasons": {
+              "15m_structure_flip": 1,
+              "ma5_ma30_cross": 1
+            }
+          },
+          "2024/ETH/SHORT": {
+            "trades": 1,
+            "net_usdt": -37.12620412487384,
+            "exit_reasons": {
+              "stop": 1
+            }
+          },
+          "2025/BTC/LONG": {
+            "trades": 10,
+            "net_usdt": -0.47800672149242196,
+            "exit_reasons": {
+              "ma5_ma30_cross": 3,
+              "15m_structure_flip": 6,
+              "stop": 1
+            }
+          },
+          "2025/BTC/SHORT": {
+            "trades": 4,
+            "net_usdt": 26.941918846952717,
+            "exit_reasons": {
+              "15m_structure_flip": 2,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2025/ETH/LONG": {
+            "trades": 7,
+            "net_usdt": -52.90712260270794,
+            "exit_reasons": {
+              "15m_structure_flip": 4,
+              "ma5_ma30_cross": 3
+            }
+          }
+        },
+        "return_2022_to_2024_pct": 155.47342384416396
+      },
+      "fresh_500_2025": {
+        "ending_equity_usdt": 466.49362101025,
+        "return_pct": -6.70127579794999,
+        "return_2025_pct": -6.70127579794999,
+        "by_side_net_usdt": {
+          "LONG": 17.129282230278125,
+          "SHORT": -50.63566122002808
+        },
+        "synthetic_exit_cost_usdt": 0.8001116653400001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 0.8001116653400001
+        },
+        "ending_equity_if_closed_usdt": 465.69350934491,
+        "max_drawdown_pct": 33.50690286350846,
+        "trades": 98,
+        "entry_counts_by_asset": {
+          "BTC": 57,
+          "ETH": 41
+        },
+        "exit_reasons": {
+          "15m_structure_flip": 46,
+          "ma5_ma30_cross": 43,
+          "er_1h_timeout": 7,
+          "stop": 1,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2025": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 693.0228488584041,
+            "low_equity_usdt": 460.81235606949963,
+            "max_drawdown_pct": 33.50690286350846,
+            "ending_equity_usdt": 466.49362101025,
+            "asset_net_usdt": {
+              "BTC": -28.918963818828104,
+              "ETH": -4.5874151709218705
+            },
+            "return_pct": -6.70127579794999,
+            "entries": {
+              "BTC": 57,
+              "ETH": 41
+            },
+            "cumulative_return_pct": -6.70127579794999,
+            "drawdown_since_start_pct": 33.50690286350846
+          }
+        },
+        "new_entry_by_year_asset_side": {
+          "2025/BTC/LONG": {
+            "trades": 10,
+            "net_usdt": 1.4318272791002542,
+            "exit_reasons": {
+              "ma5_ma30_cross": 3,
+              "15m_structure_flip": 6,
+              "stop": 1
+            }
+          },
+          "2025/BTC/SHORT": {
+            "trades": 4,
+            "net_usdt": 13.786994505346374,
+            "exit_reasons": {
+              "15m_structure_flip": 2,
+              "ma5_ma30_cross": 2
+            }
+          },
+          "2025/ETH/LONG": {
+            "trades": 7,
+            "net_usdt": -28.47575584815891,
+            "exit_reasons": {
+              "15m_structure_flip": 4,
+              "ma5_ma30_cross": 3
+            }
+          }
+        }
+      }
+    },
+    "profit_close_lock": {
+      "full_2019_2025": {
+        "ending_equity_usdt": 1402.1549666843557,
+        "return_pct": 180.43099333687115,
+        "return_2025_pct": -8.854209899443344,
+        "by_side_net_usdt": {
+          "LONG": 91.75812097718084,
+          "SHORT": 810.3968457071745
+        },
+        "synthetic_exit_cost_usdt": 2.4003349960200002,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 2.4003349960200002
+        },
+        "ending_equity_if_closed_usdt": 1399.7546316883356,
+        "max_drawdown_pct": 34.87543765797672,
+        "trades": 410,
+        "entry_counts_by_asset": {
+          "BTC": 228,
+          "ETH": 182
+        },
+        "exit_reasons": {
+          "stop": 15,
+          "15m_structure_flip": 167,
+          "ma5_ma30_cross": 169,
+          "profit_floor": 31,
+          "er_1h_timeout": 27,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2019": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 501.88455209442503,
+            "low_equity_usdt": 467.0592147648627,
+            "max_drawdown_pct": 6.938913976178784,
+            "ending_equity_usdt": 474.82568697173974,
+            "asset_net_usdt": {
+              "BTC": -25.174313028260258
+            },
+            "return_pct": -5.034862605652046,
+            "entries": {
+              "BTC": 10
+            },
+            "cumulative_return_pct": -5.034862605652046,
+            "drawdown_since_start_pct": 6.938913976178784
+          },
+          "2020": {
+            "opening_equity_usdt": 474.82568697173974,
+            "peak_equity_usdt": 475.77444085621966,
+            "low_equity_usdt": 367.35461307172545,
+            "max_drawdown_pct": 22.788073186398627,
+            "ending_equity_usdt": 380.83406290393344,
+            "asset_net_usdt": {
+              "BTC": -93.99162406780631,
+              "ETH": 0.0
+            },
+            "return_pct": -19.79497458683199,
+            "entries": {
+              "BTC": 33,
+              "ETH": 0
+            },
+            "cumulative_return_pct": -23.83318741921331,
+            "drawdown_since_start_pct": 26.80495712834552
+          },
+          "2021": {
+            "opening_equity_usdt": 380.83406290393344,
+            "peak_equity_usdt": 523.391399705818,
+            "low_equity_usdt": 344.7343330640557,
+            "max_drawdown_pct": 23.73982767366326,
+            "ending_equity_usdt": 441.50398262632285,
+            "asset_net_usdt": {
+              "BTC": 93.9635046438293,
+              "ETH": -33.29358492143989
+            },
+            "return_pct": 15.930801793245465,
+            "entries": {
+              "BTC": 37,
+              "ETH": 26
+            },
+            "cumulative_return_pct": -11.69920347473543,
+            "drawdown_since_start_pct": 31.31202551952683
+          },
+          "2022": {
+            "opening_equity_usdt": 441.50398262632285,
+            "peak_equity_usdt": 595.2479874197904,
+            "low_equity_usdt": 384.0168874766596,
+            "max_drawdown_pct": 18.74192358856057,
+            "ending_equity_usdt": 500.48206529776905,
+            "asset_net_usdt": {
+              "BTC": 82.16769170965316,
+              "ETH": -23.189609038206953
+            },
+            "return_pct": 13.358448619332997,
+            "entries": {
+              "BTC": 24,
+              "ETH": 36
+            },
+            "cumulative_return_pct": 0.09641305955381263,
+            "drawdown_since_start_pct": 31.31202551952683
+          },
+          "2023": {
+            "opening_equity_usdt": 500.48206529776905,
+            "peak_equity_usdt": 784.5544185709653,
+            "low_equity_usdt": 481.92280905221617,
+            "max_drawdown_pct": 11.013192624951717,
+            "ending_equity_usdt": 763.4066108726556,
+            "asset_net_usdt": {
+              "BTC": 133.05939517758281,
+              "ETH": 129.86515039730375
+            },
+            "return_pct": 52.53425922834134,
+            "entries": {
+              "BTC": 34,
+              "ETH": 35
+            },
+            "cumulative_return_pct": 52.68132217453112,
+            "drawdown_since_start_pct": 31.31202551952683
+          },
+          "2024": {
+            "opening_equity_usdt": 763.4066108726556,
+            "peak_equity_usdt": 1966.621709308483,
+            "low_equity_usdt": 668.611092070107,
+            "max_drawdown_pct": 25.150252076128933,
+            "ending_equity_usdt": 1538.3650359906117,
+            "asset_net_usdt": {
+              "BTC": 287.16191471004294,
+              "ETH": 487.7965104079132
+            },
+            "return_pct": 101.51319284910247,
+            "entries": {
+              "BTC": 47,
+              "ETH": 51
+            },
+            "cumulative_return_pct": 207.67300719812232,
+            "drawdown_since_start_pct": 31.31202551952683
+          },
+          "2025": {
+            "opening_equity_usdt": 1538.3650359906117,
+            "peak_equity_usdt": 1838.7120668742807,
+            "low_equity_usdt": 1280.753781110367,
+            "max_drawdown_pct": 30.345060317813388,
+            "ending_equity_usdt": 1402.1549666843557,
+            "asset_net_usdt": {
+              "BTC": -138.34241403935258,
+              "ETH": 2.1323447330963745
+            },
+            "return_pct": -8.854209899443344,
+            "entries": {
+              "BTC": 43,
+              "ETH": 34
+            },
+            "cumulative_return_pct": 180.43099333687115,
+            "drawdown_since_start_pct": 34.87543765797672
+          }
+        },
+        "new_entry_by_year_asset_side": {},
+        "return_2022_to_2024_pct": 248.4374086139655
+      },
+      "fresh_500_2025": {
+        "ending_equity_usdt": 455.4863946024606,
+        "return_pct": -8.90272107950788,
+        "return_2025_pct": -8.90272107950788,
+        "by_side_net_usdt": {
+          "LONG": 6.9400875679341585,
+          "SHORT": -51.45369296547354
+        },
+        "synthetic_exit_cost_usdt": 0.7385646141600001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 0.7385646141600001
+        },
+        "ending_equity_if_closed_usdt": 454.7478299883006,
+        "max_drawdown_pct": 29.97473566389427,
+        "trades": 77,
+        "entry_counts_by_asset": {
+          "BTC": 43,
+          "ETH": 34
+        },
+        "exit_reasons": {
+          "15m_structure_flip": 30,
+          "profit_floor": 9,
+          "ma5_ma30_cross": 30,
+          "er_1h_timeout": 7,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2025": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 595.593201851429,
+            "low_equity_usdt": 417.0657139643389,
+            "max_drawdown_pct": 29.97473566389427,
+            "ending_equity_usdt": 455.4863946024606,
+            "asset_net_usdt": {
+              "BTC": -45.10453466042599,
+              "ETH": 0.5909292628865908
+            },
+            "return_pct": -8.90272107950788,
+            "entries": {
+              "BTC": 43,
+              "ETH": 34
+            },
+            "cumulative_return_pct": -8.90272107950788,
+            "drawdown_since_start_pct": 29.97473566389427
+          }
+        },
+        "new_entry_by_year_asset_side": {}
+      }
+    },
+    "profit_runner": {
+      "full_2019_2025": {
+        "ending_equity_usdt": 1416.5399448923072,
+        "return_pct": 183.30798897846145,
+        "return_2025_pct": -8.172277697039886,
+        "by_side_net_usdt": {
+          "LONG": 110.52884634561222,
+          "SHORT": 806.0110985466957
+        },
+        "synthetic_exit_cost_usdt": 2.4618820472,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 2.4618820472
+        },
+        "ending_equity_if_closed_usdt": 1414.078062845107,
+        "max_drawdown_pct": 34.702063276350906,
+        "trades": 410,
+        "entry_counts_by_asset": {
+          "BTC": 228,
+          "ETH": 182
+        },
+        "exit_reasons": {
+          "stop": 15,
+          "15m_structure_flip": 169,
+          "ma5_ma30_cross": 150,
+          "profit_floor": 31,
+          "er_1h_timeout": 27,
+          "profit_runner_hour": 17,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2019": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 501.88455209442503,
+            "low_equity_usdt": 467.0592147648627,
+            "max_drawdown_pct": 6.938913976178784,
+            "ending_equity_usdt": 474.82568697173974,
+            "asset_net_usdt": {
+              "BTC": -25.174313028260258
+            },
+            "return_pct": -5.034862605652046,
+            "entries": {
+              "BTC": 10
+            },
+            "cumulative_return_pct": -5.034862605652046,
+            "drawdown_since_start_pct": 6.938913976178784
+          },
+          "2020": {
+            "opening_equity_usdt": 474.82568697173974,
+            "peak_equity_usdt": 475.77444085621966,
+            "low_equity_usdt": 367.35461307172545,
+            "max_drawdown_pct": 22.788073186398627,
+            "ending_equity_usdt": 380.83406290393344,
+            "asset_net_usdt": {
+              "BTC": -93.99162406780631,
+              "ETH": 0.0
+            },
+            "return_pct": -19.79497458683199,
+            "entries": {
+              "BTC": 33,
+              "ETH": 0
+            },
+            "cumulative_return_pct": -23.83318741921331,
+            "drawdown_since_start_pct": 26.80495712834552
+          },
+          "2021": {
+            "opening_equity_usdt": 380.83406290393344,
+            "peak_equity_usdt": 525.8059221737162,
+            "low_equity_usdt": 344.7343330640557,
+            "max_drawdown_pct": 23.24784145725709,
+            "ending_equity_usdt": 440.5364818494209,
+            "asset_net_usdt": {
+              "BTC": 92.61912777617738,
+              "ETH": -32.916708830689885
+            },
+            "return_pct": 15.676753935886145,
+            "entries": {
+              "BTC": 37,
+              "ETH": 26
+            },
+            "cumulative_return_pct": -11.89270363011582,
+            "drawdown_since_start_pct": 31.31202551952683
+          },
+          "2022": {
+            "opening_equity_usdt": 440.5364818494209,
+            "peak_equity_usdt": 597.1222134225884,
+            "low_equity_usdt": 383.5687400470577,
+            "max_drawdown_pct": 18.670250657348564,
+            "ending_equity_usdt": 500.11400762471703,
+            "asset_net_usdt": {
+              "BTC": 80.30252662025312,
+              "ETH": -20.725000844957002
+            },
+            "return_pct": 13.523857439725106,
+            "entries": {
+              "BTC": 24,
+              "ETH": 36
+            },
+            "cumulative_return_pct": 0.022801524943405482,
+            "drawdown_since_start_pct": 31.31202551952683
+          },
+          "2023": {
+            "opening_equity_usdt": 500.11400762471703,
+            "peak_equity_usdt": 785.4819647851702,
+            "low_equity_usdt": 481.55475137916414,
+            "max_drawdown_pct": 11.006930364397583,
+            "ending_equity_usdt": 768.5732880410706,
+            "asset_net_usdt": {
+              "BTC": 130.46695530415258,
+              "ETH": 137.9923251122009
+            },
+            "return_pct": 53.67961631216775,
+            "entries": {
+              "BTC": 34,
+              "ETH": 35
+            },
+            "cumulative_return_pct": 53.7146576082141,
+            "drawdown_since_start_pct": 31.31202551952683
+          },
+          "2024": {
+            "opening_equity_usdt": 768.5732880410706,
+            "peak_equity_usdt": 1976.736986858253,
+            "low_equity_usdt": 673.6659521852118,
+            "max_drawdown_pct": 25.32558499069375,
+            "ending_equity_usdt": 1542.6059901810765,
+            "asset_net_usdt": {
+              "BTC": 282.57658733212264,
+              "ETH": 491.4561148078834
+            },
+            "return_pct": 100.71033097088899,
+            "entries": {
+              "BTC": 47,
+              "ETH": 51
+            },
+            "cumulative_return_pct": 208.52119803621528,
+            "drawdown_since_start_pct": 31.31202551952683
+          },
+          "2025": {
+            "opening_equity_usdt": 1542.6059901810765,
+            "peak_equity_usdt": 1843.9511786255366,
+            "low_equity_usdt": 1290.7684668716697,
+            "max_drawdown_pct": 29.999856729732066,
+            "ending_equity_usdt": 1416.5399448923072,
+            "asset_net_usdt": {
+              "BTC": -130.41632274425234,
+              "ETH": 4.35027745548291
+            },
+            "return_pct": -8.172277697039886,
+            "entries": {
+              "BTC": 43,
+              "ETH": 34
+            },
+            "cumulative_return_pct": 183.30798897846145,
+            "drawdown_since_start_pct": 34.702063276350906
+          }
+        },
+        "new_entry_by_year_asset_side": {},
+        "return_2022_to_2024_pct": 250.16532199672676
+      },
+      "fresh_500_2025": {
+        "ending_equity_usdt": 458.98240309078136,
+        "return_pct": -8.203519381843726,
+        "return_2025_pct": -8.203519381843726,
+        "by_side_net_usdt": {
+          "LONG": 7.395985234404222,
+          "SHORT": -48.413582143622826
+        },
+        "synthetic_exit_cost_usdt": 0.7385646141600001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 0.7385646141600001
+        },
+        "ending_equity_if_closed_usdt": 458.24383847662136,
+        "max_drawdown_pct": 29.67168807339471,
+        "trades": 77,
+        "entry_counts_by_asset": {
+          "BTC": 43,
+          "ETH": 34
+        },
+        "exit_reasons": {
+          "15m_structure_flip": 30,
+          "profit_floor": 9,
+          "ma5_ma30_cross": 28,
+          "er_1h_timeout": 7,
+          "profit_runner_hour": 2,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2025": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 595.593201851429,
+            "low_equity_usdt": 418.8706448117288,
+            "max_drawdown_pct": 29.67168807339471,
+            "ending_equity_usdt": 458.98240309078136,
+            "asset_net_usdt": {
+              "BTC": -41.6938565081253,
+              "ETH": 0.6762595989066691
+            },
+            "return_pct": -8.203519381843726,
+            "entries": {
+              "BTC": 43,
+              "ETH": 34
+            },
+            "cumulative_return_pct": -8.203519381843726,
+            "drawdown_since_start_pct": 29.67168807339471
+          }
+        },
+        "new_entry_by_year_asset_side": {}
+      }
+    },
+    "profit_hour_only": {
+      "full_2019_2025": {
+        "ending_equity_usdt": 1159.1202473315136,
+        "return_pct": 131.82404946630274,
+        "return_2025_pct": -3.8183154770764505,
+        "by_side_net_usdt": {
+          "LONG": 74.70881685838556,
+          "SHORT": 584.4114304731278
+        },
+        "synthetic_exit_cost_usdt": 1.9695056377600002,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 1.9695056377600002
+        },
+        "ending_equity_if_closed_usdt": 1157.1507416937536,
+        "max_drawdown_pct": 40.81407118235867,
+        "trades": 410,
+        "entry_counts_by_asset": {
+          "BTC": 228,
+          "ETH": 182
+        },
+        "exit_reasons": {
+          "stop": 18,
+          "15m_structure_flip": 186,
+          "ma5_ma30_cross": 153,
+          "er_1h_timeout": 27,
+          "profit_runner_hour": 25,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2019": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 501.88455209442503,
+            "low_equity_usdt": 467.0592147648627,
+            "max_drawdown_pct": 6.938913976178784,
+            "ending_equity_usdt": 474.82568697173974,
+            "asset_net_usdt": {
+              "BTC": -25.174313028260258
+            },
+            "return_pct": -5.034862605652046,
+            "entries": {
+              "BTC": 10
+            },
+            "cumulative_return_pct": -5.034862605652046,
+            "drawdown_since_start_pct": 6.938913976178784
+          },
+          "2020": {
+            "opening_equity_usdt": 474.82568697173974,
+            "peak_equity_usdt": 475.77444085621966,
+            "low_equity_usdt": 345.8568152833528,
+            "max_drawdown_pct": 27.30655840592503,
+            "ending_equity_usdt": 358.3232324626316,
+            "asset_net_usdt": {
+              "BTC": -116.50245450910813,
+              "ETH": 0.0
+            },
+            "return_pct": -24.53583656185855,
+            "entries": {
+              "BTC": 33,
+              "ETH": 0
+            },
+            "cumulative_return_pct": -28.33535350747368,
+            "drawdown_since_start_pct": 31.088372048900414
+          },
+          "2021": {
+            "opening_equity_usdt": 358.3232324626316,
+            "peak_equity_usdt": 419.7312370614851,
+            "low_equity_usdt": 297.04503374934444,
+            "max_drawdown_pct": 24.13130229434476,
+            "ending_equity_usdt": 349.90988049657307,
+            "asset_net_usdt": {
+              "BTC": 51.85401702151284,
+              "ETH": -60.26736898757137
+            },
+            "return_pct": -2.347978362507086,
+            "entries": {
+              "BTC": 37,
+              "ETH": 26
+            },
+            "cumulative_return_pct": -30.018023900685385,
+            "drawdown_since_start_pct": 40.81407118235867
+          },
+          "2022": {
+            "opening_equity_usdt": 349.90988049657307,
+            "peak_equity_usdt": 477.41033316296614,
+            "low_equity_usdt": 306.1787142705879,
+            "max_drawdown_pct": 18.246895186838465,
+            "ending_equity_usdt": 399.5602069617006,
+            "asset_net_usdt": {
+              "BTC": 56.760860490245925,
+              "ETH": -7.110534025118369
+            },
+            "return_pct": 14.189461124866343,
+            "entries": {
+              "BTC": 24,
+              "ETH": 36
+            },
+            "cumulative_return_pct": -20.087958607659886,
+            "drawdown_since_start_pct": 40.81407118235867
+          },
+          "2023": {
+            "opening_equity_usdt": 399.5602069617006,
+            "peak_equity_usdt": 625.7456410733465,
+            "low_equity_usdt": 382.9459924249413,
+            "max_drawdown_pct": 11.000191052329866,
+            "ending_equity_usdt": 612.3576968261092,
+            "asset_net_usdt": {
+              "BTC": 100.55226460577786,
+              "ETH": 112.24522525863071
+            },
+            "return_pct": 53.25792863171834,
+            "entries": {
+              "BTC": 34,
+              "ETH": 35
+            },
+            "cumulative_return_pct": 22.471539365221837,
+            "drawdown_since_start_pct": 40.81407118235867
+          },
+          "2024": {
+            "opening_equity_usdt": 612.3576968261092,
+            "peak_equity_usdt": 1556.316959257914,
+            "low_equity_usdt": 524.1981817856033,
+            "max_drawdown_pct": 25.395542547338867,
+            "ending_equity_usdt": 1205.1361473662416,
+            "asset_net_usdt": {
+              "BTC": 221.21436795443776,
+              "ETH": 371.56408258569473
+            },
+            "return_pct": 96.8026455146302,
+            "entries": {
+              "BTC": 47,
+              "ETH": 51
+            },
+            "cumulative_return_pct": 141.02722947324833,
+            "drawdown_since_start_pct": 40.81407118235867
+          },
+          "2025": {
+            "opening_equity_usdt": 1205.1361473662416,
+            "peak_equity_usdt": 1547.2258906201134,
+            "low_equity_usdt": 1077.5494344425992,
+            "max_drawdown_pct": 30.35603650539175,
+            "ending_equity_usdt": 1159.1202473315136,
+            "asset_net_usdt": {
+              "BTC": -102.98298487436335,
+              "ETH": 56.96708483963533
+            },
+            "return_pct": -3.8183154770764505,
+            "entries": {
+              "BTC": 43,
+              "ETH": 34
+            },
+            "cumulative_return_pct": 131.82404946630274,
+            "drawdown_since_start_pct": 40.81407118235867
+          }
+        },
+        "new_entry_by_year_asset_side": {},
+        "return_2022_to_2024_pct": 244.41329454772128
+      },
+      "fresh_500_2025": {
+        "ending_equity_usdt": 481.32627055792045,
+        "return_pct": -3.7347458884159135,
+        "return_2025_pct": -3.7347458884159135,
+        "by_side_net_usdt": {
+          "LONG": 44.11944293660835,
+          "SHORT": -62.793172378687906
+        },
+        "synthetic_exit_cost_usdt": 0.8001116653400001,
+        "synthetic_exit_cost_by_asset_usdt": {
+          "BTC": 0.8001116653400001
+        },
+        "ending_equity_if_closed_usdt": 480.52615889258044,
+        "max_drawdown_pct": 30.12005334516631,
+        "trades": 77,
+        "entry_counts_by_asset": {
+          "BTC": 43,
+          "ETH": 34
+        },
+        "exit_reasons": {
+          "15m_structure_flip": 35,
+          "ma5_ma30_cross": 29,
+          "er_1h_timeout": 7,
+          "profit_runner_hour": 5,
+          "end_of_data": 1
+        },
+        "annual": {
+          "2025": {
+            "opening_equity_usdt": 500,
+            "peak_equity_usdt": 639.8081605433699,
+            "low_equity_usdt": 447.09760128097963,
+            "max_drawdown_pct": 30.12005334516631,
+            "ending_equity_usdt": 481.32627055792045,
+            "asset_net_usdt": {
+              "BTC": -42.449691710222375,
+              "ETH": 23.77596226814283
+            },
+            "return_pct": -3.7347458884159135,
+            "entries": {
+              "BTC": 43,
+              "ETH": 34
+            },
+            "cumulative_return_pct": -3.7347458884159135,
+            "drawdown_since_start_pct": 30.12005334516631
+          }
+        },
+        "new_entry_by_year_asset_side": {}
+      }
+    }
+  },
+  "diagnostic_attribution": {
+    "original": {
+      "by_year_asset_side": {
+        "2022/BTC/LONG": {
+          "trades": 14,
+          "net_usdt": 13.906559010352275,
+          "mean_net_pct_of_notional": 0.13087915960070584,
+          "median_net_pct_of_notional": -0.26178390132192275,
+          "winners": 4,
+          "exits": {
+            "15m_structure_flip": 8,
+            "ma5_ma30_cross": 5,
+            "stop": 1
+          }
+        },
+        "2022/BTC/SHORT": {
+          "trades": 10,
+          "net_usdt": 44.49964633015944,
+          "mean_net_pct_of_notional": 0.4714879861676427,
+          "median_net_pct_of_notional": -0.17202015845291063,
+          "winners": 4,
+          "exits": {
+            "15m_structure_flip": 6,
+            "er_1h_timeout": 3,
+            "ma5_ma30_cross": 1
+          }
+        },
+        "2022/ETH/LONG": {
+          "trades": 24,
+          "net_usdt": -3.2408048468924835,
+          "mean_net_pct_of_notional": 0.03263645628409213,
+          "median_net_pct_of_notional": -0.38858555877591733,
+          "winners": 8,
+          "exits": {
+            "ma5_ma30_cross": 12,
+            "15m_structure_flip": 11,
+            "stop": 1
+          }
+        },
+        "2022/ETH/SHORT": {
+          "trades": 12,
+          "net_usdt": -5.498634250860972,
+          "mean_net_pct_of_notional": -0.0127330202050292,
+          "median_net_pct_of_notional": -0.23669558858135528,
+          "winners": 5,
+          "exits": {
+            "ma5_ma30_cross": 6,
+            "15m_structure_flip": 4,
+            "stop": 1,
+            "er_1h_timeout": 1
+          }
+        },
+        "2023/BTC/LONG": {
+          "trades": 26,
+          "net_usdt": 95.6868351226466,
+          "mean_net_pct_of_notional": 0.3419405364645384,
+          "median_net_pct_of_notional": -0.241675158433589,
+          "winners": 10,
+          "exits": {
+            "ma5_ma30_cross": 14,
+            "15m_structure_flip": 11,
+            "stop": 1
+          }
+        },
+        "2023/BTC/SHORT": {
+          "trades": 8,
+          "net_usdt": 7.213270140861869,
+          "mean_net_pct_of_notional": 0.0884114053658253,
+          "median_net_pct_of_notional": -0.0647777452970325,
+          "winners": 3,
+          "exits": {
+            "15m_structure_flip": 4,
+            "ma5_ma30_cross": 2,
+            "er_1h_timeout": 2
+          }
+        },
+        "2023/ETH/LONG": {
+          "trades": 26,
+          "net_usdt": 131.21055070578555,
+          "mean_net_pct_of_notional": 0.4231805986518913,
+          "median_net_pct_of_notional": -0.08876343666653601,
+          "winners": 12,
+          "exits": {
+            "ma5_ma30_cross": 15,
+            "15m_structure_flip": 11
+          }
+        },
+        "2023/ETH/SHORT": {
+          "trades": 9,
+          "net_usdt": -22.877656989385414,
+          "mean_net_pct_of_notional": -0.21976232658519246,
+          "median_net_pct_of_notional": -0.16874684382830168,
+          "winners": 2,
+          "exits": {
+            "er_1h_timeout": 3,
+            "15m_structure_flip": 5,
+            "ma5_ma30_cross": 1
+          }
+        },
+        "2024/BTC/LONG": {
+          "trades": 31,
+          "net_usdt": -12.564858989706249,
+          "mean_net_pct_of_notional": 0.13137081554078492,
+          "median_net_pct_of_notional": -0.26421613350097917,
+          "winners": 9,
+          "exits": {
+            "15m_structure_flip": 13,
+            "ma5_ma30_cross": 17,
+            "stop": 1
+          }
+        },
+        "2024/BTC/SHORT": {
+          "trades": 16,
+          "net_usdt": 236.7395264356868,
+          "mean_net_pct_of_notional": 0.7628107714696456,
+          "median_net_pct_of_notional": 0.24639686663019356,
+          "winners": 10,
+          "exits": {
+            "ma5_ma30_cross": 7,
+            "er_1h_timeout": 2,
+            "15m_structure_flip": 6,
+            "stop": 1
+          }
+        },
+        "2024/ETH/LONG": {
+          "trades": 33,
+          "net_usdt": -72.24876757850933,
+          "mean_net_pct_of_notional": -0.043703925953740404,
+          "median_net_pct_of_notional": -0.14644865589428982,
+          "winners": 14,
+          "exits": {
+            "ma5_ma30_cross": 20,
+            "15m_structure_flip": 11,
+            "stop": 2
+          }
+        },
+        "2024/ETH/SHORT": {
+          "trades": 18,
+          "net_usdt": 451.53223854750837,
+          "mean_net_pct_of_notional": 0.9941073986474653,
+          "median_net_pct_of_notional": -0.3539245569019265,
+          "winners": 6,
+          "exits": {
+            "ma5_ma30_cross": 2,
+            "15m_structure_flip": 11,
+            "er_1h_timeout": 4,
+            "stop": 1
+          }
+        },
+        "2025/BTC/LONG": {
+          "trades": 20,
+          "net_usdt": -84.03503734096383,
+          "mean_net_pct_of_notional": -0.11528051624673068,
+          "median_net_pct_of_notional": -0.20048573941549788,
+          "winners": 5,
+          "exits": {
+            "15m_structure_flip": 10,
+            "ma5_ma30_cross": 10
+          }
+        },
+        "2025/BTC/SHORT": {
+          "trades": 23,
+          "net_usdt": -29.608156987242438,
+          "mean_net_pct_of_notional": -0.037652122060487174,
+          "median_net_pct_of_notional": -0.06509673782101674,
+          "winners": 8,
+          "exits": {
+            "15m_structure_flip": 7,
+            "ma5_ma30_cross": 9,
+            "er_1h_timeout": 6,
+            "end_of_data": 1
+          }
+        },
+        "2025/ETH/LONG": {
+          "trades": 24,
+          "net_usdt": 174.26950583095285,
+          "mean_net_pct_of_notional": 0.23912075594886753,
+          "median_net_pct_of_notional": -0.26795309231597997,
+          "winners": 10,
+          "exits": {
+            "15m_structure_flip": 13,
+            "ma5_ma30_cross": 11
+          }
+        },
+        "2025/ETH/SHORT": {
+          "trades": 10,
+          "net_usdt": -130.3547756800282,
+          "mean_net_pct_of_notional": -0.39932860182463736,
+          "median_net_pct_of_notional": -0.6187724706311202,
+          "winners": 4,
+          "exits": {
+            "ma5_ma30_cross": 5,
+            "15m_structure_flip": 4,
+            "er_1h_timeout": 1
+          }
+        }
+      },
+      "by_year_regime": {
+        "2022/against_trend": {
+          "trades": 2,
+          "net_usdt": -11.358479864599936,
+          "mean_net_pct_of_notional": -0.6275707308466366,
+          "median_net_pct_of_notional": -0.6275707308466366,
+          "winners": 0,
+          "exits": {
+            "ma5_ma30_cross": 1,
+            "15m_structure_flip": 1
+          }
+        },
+        "2022/range": {
+          "trades": 18,
+          "net_usdt": 87.40339963717967,
+          "mean_net_pct_of_notional": 0.5612282691095076,
+          "median_net_pct_of_notional": 0.09323698920594337,
+          "winners": 9,
+          "exits": {
+            "15m_structure_flip": 11,
+            "er_1h_timeout": 1,
+            "ma5_ma30_cross": 6
+          }
+        },
+        "2022/transition": {
+          "trades": 32,
+          "net_usdt": 30.4192682712144,
+          "mean_net_pct_of_notional": 0.138469637316525,
+          "median_net_pct_of_notional": -0.24450238055493412,
+          "winners": 11,
+          "exits": {
+            "15m_structure_flip": 13,
+            "ma5_ma30_cross": 16,
+            "er_1h_timeout": 3
+          }
+        },
+        "2022/with_trend": {
+          "trades": 8,
+          "net_usdt": -56.79742180103588,
+          "mean_net_pct_of_notional": -0.762541121495312,
+          "median_net_pct_of_notional": -1.4344092286582442,
+          "winners": 1,
+          "exits": {
+            "ma5_ma30_cross": 1,
+            "stop": 3,
+            "15m_structure_flip": 4
+          }
+        },
+        "2023/against_trend": {
+          "trades": 1,
+          "net_usdt": -5.982410502809956,
+          "mean_net_pct_of_notional": -0.505249452592089,
+          "median_net_pct_of_notional": -0.505249452592089,
+          "winners": 0,
+          "exits": {
+            "15m_structure_flip": 1
+          }
+        },
+        "2023/range": {
+          "trades": 27,
+          "net_usdt": 101.7706551361942,
+          "mean_net_pct_of_notional": 0.2942676339620581,
+          "median_net_pct_of_notional": -0.11818207678904802,
+          "winners": 11,
+          "exits": {
+            "15m_structure_flip": 11,
+            "ma5_ma30_cross": 14,
+            "er_1h_timeout": 2
+          }
+        },
+        "2023/transition": {
+          "trades": 37,
+          "net_usdt": 138.76377427805048,
+          "mean_net_pct_of_notional": 0.35034845102292295,
+          "median_net_pct_of_notional": -0.1901098753563689,
+          "winners": 15,
+          "exits": {
+            "ma5_ma30_cross": 16,
+            "15m_structure_flip": 18,
+            "stop": 1,
+            "er_1h_timeout": 2
+          }
+        },
+        "2023/with_trend": {
+          "trades": 4,
+          "net_usdt": -23.319019931526114,
+          "mean_net_pct_of_notional": -0.44507238388614623,
+          "median_net_pct_of_notional": -0.42256483694733815,
+          "winners": 1,
+          "exits": {
+            "ma5_ma30_cross": 2,
+            "15m_structure_flip": 1,
+            "er_1h_timeout": 1
+          }
+        },
+        "2024/against_trend": {
+          "trades": 5,
+          "net_usdt": -28.826036505442122,
+          "mean_net_pct_of_notional": -0.43459783371162225,
+          "median_net_pct_of_notional": -0.5505911363326175,
+          "winners": 1,
+          "exits": {
+            "15m_structure_flip": 3,
+            "stop": 1,
+            "ma5_ma30_cross": 1
+          }
+        },
+        "2024/range": {
+          "trades": 32,
+          "net_usdt": -152.70511025925353,
+          "mean_net_pct_of_notional": -0.03749319884233119,
+          "median_net_pct_of_notional": -0.24369890616228496,
+          "winners": 10,
+          "exits": {
+            "15m_structure_flip": 16,
+            "er_1h_timeout": 4,
+            "ma5_ma30_cross": 11,
+            "stop": 1
+          }
+        },
+        "2024/transition": {
+          "trades": 42,
+          "net_usdt": 315.6320948293755,
+          "mean_net_pct_of_notional": 0.27662947013239303,
+          "median_net_pct_of_notional": -0.15064552150560404,
+          "winners": 20,
+          "exits": {
+            "ma5_ma30_cross": 22,
+            "15m_structure_flip": 16,
+            "stop": 2,
+            "er_1h_timeout": 2
+          }
+        },
+        "2024/with_trend": {
+          "trades": 19,
+          "net_usdt": 469.35719035029973,
+          "mean_net_pct_of_notional": 1.2886055279164108,
+          "median_net_pct_of_notional": -0.26802393923221424,
+          "winners": 8,
+          "exits": {
+            "15m_structure_flip": 6,
+            "ma5_ma30_cross": 12,
+            "stop": 1
+          }
+        },
+        "2025/against_trend": {
+          "trades": 5,
+          "net_usdt": 109.45608250336713,
+          "mean_net_pct_of_notional": 0.734805098017745,
+          "median_net_pct_of_notional": -0.35142647014229544,
+          "winners": 1,
+          "exits": {
+            "15m_structure_flip": 2,
+            "ma5_ma30_cross": 2,
+            "er_1h_timeout": 1
+          }
+        },
+        "2025/range": {
+          "trades": 35,
+          "net_usdt": 101.08484301292506,
+          "mean_net_pct_of_notional": 0.08485004374883344,
+          "median_net_pct_of_notional": -0.045619332310601224,
+          "winners": 16,
+          "exits": {
+            "ma5_ma30_cross": 11,
+            "15m_structure_flip": 19,
+            "er_1h_timeout": 4,
+            "end_of_data": 1
+          }
+        },
+        "2025/transition": {
+          "trades": 29,
+          "net_usdt": -215.865877123791,
+          "mean_net_pct_of_notional": -0.21317097214632363,
+          "median_net_pct_of_notional": -0.20227720698040536,
+          "winners": 8,
+          "exits": {
+            "15m_structure_flip": 8,
+            "ma5_ma30_cross": 19,
+            "er_1h_timeout": 2
+          }
+        },
+        "2025/with_trend": {
+          "trades": 8,
+          "net_usdt": -64.40351256978279,
+          "mean_net_pct_of_notional": -0.23597697960673525,
+          "median_net_pct_of_notional": -0.5069322524334172,
+          "winners": 2,
+          "exits": {
+            "15m_structure_flip": 5,
+            "ma5_ma30_cross": 3
+          }
+        }
+      },
+      "by_year_asset_side_regime": {
+        "2022/BTC/LONG/range": {
+          "trades": 7,
+          "net_usdt": 71.43922595159991,
+          "mean_net_pct_of_notional": 1.1591797760424172,
+          "median_net_pct_of_notional": -0.10357244046677089,
+          "winners": 3,
+          "exits": {
+            "15m_structure_flip": 5,
+            "ma5_ma30_cross": 2
+          }
+        },
+        "2022/BTC/LONG/transition": {
+          "trades": 5,
+          "net_usdt": -27.740563279046903,
+          "mean_net_pct_of_notional": -0.5635829655743734,
+          "median_net_pct_of_notional": -0.3587873143419033,
+          "winners": 1,
+          "exits": {
+            "15m_structure_flip": 3,
+            "ma5_ma30_cross": 2
+          }
+        },
+        "2022/BTC/LONG/with_trend": {
+          "trades": 2,
+          "net_usdt": -29.792103662200724,
+          "mean_net_pct_of_notional": -1.7320176850075852,
+          "median_net_pct_of_notional": -1.7320176850075852,
+          "winners": 0,
+          "exits": {
+            "ma5_ma30_cross": 1,
+            "stop": 1
+          }
+        },
+        "2022/BTC/SHORT/range": {
+          "trades": 3,
+          "net_usdt": 16.83088953344147,
+          "mean_net_pct_of_notional": 0.7003590033719705,
+          "median_net_pct_of_notional": 0.9380205878210308,
+          "winners": 2,
+          "exits": {
+            "15m_structure_flip": 2,
+            "er_1h_timeout": 1
+          }
+        },
+        "2022/BTC/SHORT/transition": {
+          "trades": 5,
+          "net_usdt": 43.88913845381803,
+          "mean_net_pct_of_notional": 0.8892020719254413,
+          "median_net_pct_of_notional": -0.08545734772093473,
+          "winners": 2,
+          "exits": {
+            "15m_structure_flip": 2,
+            "ma5_ma30_cross": 1,
+            "er_1h_timeout": 2
+          }
+        },
+        "2022/BTC/SHORT/with_trend": {
+          "trades": 2,
+          "net_usdt": -16.220381657100056,
+          "mean_net_pct_of_notional": -0.916103754033346,
+          "median_net_pct_of_notional": -0.916103754033346,
+          "winners": 0,
+          "exits": {
+            "15m_structure_flip": 2
+          }
+        },
+        "2022/ETH/LONG/range": {
+          "trades": 4,
+          "net_usdt": -8.69180799472832,
+          "mean_net_pct_of_notional": -0.22760626420999008,
+          "median_net_pct_of_notional": -0.7338680560856421,
+          "winners": 1,
+          "exits": {
+            "ma5_ma30_cross": 2,
+            "15m_structure_flip": 2
+          }
+        },
+        "2022/ETH/LONG/transition": {
+          "trades": 17,
+          "net_usdt": -2.16292388830874,
+          "mean_net_pct_of_notional": 0.02213975891404723,
+          "median_net_pct_of_notional": -0.3328802019564856,
+          "winners": 6,
+          "exits": {
+            "ma5_ma30_cross": 10,
+            "15m_structure_flip": 7
+          }
+        },
+        "2022/ETH/LONG/with_trend": {
+          "trades": 3,
+          "net_usdt": 7.6139270361445766,
+          "mean_net_pct_of_notional": 0.4391080353731229,
+          "median_net_pct_of_notional": -0.8025965269444163,
+          "winners": 1,
+          "exits": {
+            "stop": 1,
+            "15m_structure_flip": 2
+          }
+        },
+        "2022/ETH/SHORT/against_trend": {
+          "trades": 2,
+          "net_usdt": -11.358479864599936,
+          "mean_net_pct_of_notional": -0.6275707308466366,
+          "median_net_pct_of_notional": -0.6275707308466366,
+          "winners": 0,
+          "exits": {
+            "ma5_ma30_cross": 1,
+            "15m_structure_flip": 1
+          }
+        },
+        "2022/ETH/SHORT/range": {
+          "trades": 4,
+          "net_usdt": 7.825092146866625,
+          "mean_net_pct_of_notional": 0.19929961459956685,
+          "median_net_pct_of_notional": 0.3610532558017771,
+          "winners": 3,
+          "exits": {
+            "ma5_ma30_cross": 2,
+            "15m_structure_flip": 2
+          }
+        },
+        "2022/ETH/SHORT/transition": {
+          "trades": 5,
+          "net_usdt": 16.433616984752017,
+          "mean_net_pct_of_notional": 0.4853113921669315,
+          "median_net_pct_of_notional": -0.2382402161411963,
+          "winners": 2,
+          "exits": {
+            "ma5_ma30_cross": 3,
+            "15m_structure_flip": 1,
+            "er_1h_timeout": 1
+          }
+        },
+        "2022/ETH/SHORT/with_trend": {
+          "trades": 1,
+          "net_usdt": -18.39886351787968,
+          "mean_net_pct_of_notional": -2.121410200000002,
+          "median_net_pct_of_notional": -2.121410200000002,
+          "winners": 0,
+          "exits": {
+            "stop": 1
+          }
+        },
+        "2023/BTC/LONG/range": {
+          "trades": 10,
+          "net_usdt": 2.300278933995291,
+          "mean_net_pct_of_notional": 0.021204205211625145,
+          "median_net_pct_of_notional": -0.18256503113448447,
+          "winners": 4,
+          "exits": {
+            "15m_structure_flip": 4,
+            "ma5_ma30_cross": 6
+          }
+        },
+        "2023/BTC/LONG/transition": {
+          "trades": 14,
+          "net_usdt": 93.98645990569742,
+          "mean_net_pct_of_notional": 0.6228937321332574,
+          "median_net_pct_of_notional": -0.3679475328235018,
+          "winners": 5,
+          "exits": {
+            "ma5_ma30_cross": 7,
+            "15m_structure_flip": 6,
+            "stop": 1
+          }
+        },
+        "2023/BTC/LONG/with_trend": {
+          "trades": 2,
+          "net_usdt": -0.5999037170461134,
+          "mean_net_pct_of_notional": -0.021050176951928068,
+          "median_net_pct_of_notional": -0.021050176951928068,
+          "winners": 1,
+          "exits": {
+            "ma5_ma30_cross": 1,
+            "15m_structure_flip": 1
+          }
+        },
+        "2023/BTC/SHORT/range": {
+          "trades": 3,
+          "net_usdt": 6.2562139044061,
+          "mean_net_pct_of_notional": 0.19112482516792087,
+          "median_net_pct_of_notional": 0.1501901032095885,
+          "winners": 2,
+          "exits": {
+            "15m_structure_flip": 2,
+            "er_1h_timeout": 1
+          }
+        },
+        "2023/BTC/SHORT/transition": {
+          "trades": 5,
+          "net_usdt": 0.9570562364557694,
+          "mean_net_pct_of_notional": 0.026783353484567944,
+          "median_net_pct_of_notional": -0.2200194238870918,
+          "winners": 1,
+          "exits": {
+            "ma5_ma30_cross": 2,
+            "er_1h_timeout": 1,
+            "15m_structure_flip": 2
+          }
+        },
+        "2023/ETH/LONG/against_trend": {
+          "trades": 1,
+          "net_usdt": -5.982410502809956,
+          "mean_net_pct_of_notional": -0.505249452592089,
+          "median_net_pct_of_notional": -0.505249452592089,
+          "winners": 0,
+          "exits": {
+            "15m_structure_flip": 1
+          }
+        },
+        "2023/ETH/LONG/range": {
+          "trades": 10,
+          "net_usdt": 90.92278288106557,
+          "mean_net_pct_of_notional": 0.7192997202668631,
+          "median_net_pct_of_notional": -0.08876343666653601,
+          "winners": 4,
+          "exits": {
+            "ma5_ma30_cross": 8,
+            "15m_structure_flip": 2
+          }
+        },
+        "2023/ETH/LONG/transition": {
+          "trades": 15,
+          "net_usdt": 46.270178327529926,
+          "mean_net_pct_of_notional": 0.28766318765817545,
+          "median_net_pct_of_notional": 0.1564240542353893,
+          "winners": 8,
+          "exits": {
+            "ma5_ma30_cross": 7,
+            "15m_structure_flip": 8
+          }
+        },
+        "2023/ETH/SHORT/range": {
+          "trades": 4,
+          "net_usdt": 2.2913794167272323,
+          "mean_net_pct_of_notional": -0.008296903328269122,
+          "median_net_pct_of_notional": -0.18526987704596481,
+          "winners": 1,
+          "exits": {
+            "er_1h_timeout": 1,
+            "15m_structure_flip": 3
+          }
+        },
+        "2023/ETH/SHORT/transition": {
+          "trades": 3,
+          "net_usdt": -2.4499201916326454,
+          "mean_net_pct_of_notional": -0.06882804810430894,
+          "median_net_pct_of_notional": -0.12435533029435937,
+          "winners": 1,
+          "exits": {
+            "er_1h_timeout": 1,
+            "15m_structure_flip": 2
+          }
+        },
+        "2023/ETH/SHORT/with_trend": {
+          "trades": 2,
+          "net_usdt": -22.71911621448,
+          "mean_net_pct_of_notional": -0.8690945908203643,
+          "median_net_pct_of_notional": -0.8690945908203643,
+          "winners": 0,
+          "exits": {
+            "ma5_ma30_cross": 1,
+            "er_1h_timeout": 1
+          }
+        },
+        "2024/BTC/LONG/range": {
+          "trades": 10,
+          "net_usdt": -26.22675302589737,
+          "mean_net_pct_of_notional": 0.011462974859050025,
+          "median_net_pct_of_notional": -0.19562983902269818,
+          "winners": 2,
+          "exits": {
+            "15m_structure_flip": 7,
+            "ma5_ma30_cross": 3
+          }
+        },
+        "2024/BTC/LONG/transition": {
+          "trades": 13,
+          "net_usdt": -22.060845834120855,
+          "mean_net_pct_of_notional": -0.07098178175094859,
+          "median_net_pct_of_notional": -0.28028929973810024,
+          "winners": 4,
+          "exits": {
+            "ma5_ma30_cross": 9,
+            "stop": 1,
+            "15m_structure_flip": 3
+          }
+        },
+        "2024/BTC/LONG/with_trend": {
+          "trades": 8,
+          "net_usdt": 35.722739870311976,
+          "mean_net_pct_of_notional": 0.6100785869920206,
+          "median_net_pct_of_notional": -0.40024488852993745,
+          "winners": 3,
+          "exits": {
+            "15m_structure_flip": 3,
+            "ma5_ma30_cross": 5
+          }
+        },
+        "2024/BTC/SHORT/against_trend": {
+          "trades": 1,
+          "net_usdt": 42.53403835560399,
+          "mean_net_pct_of_notional": 1.7655802136115004,
+          "median_net_pct_of_notional": 1.7655802136115004,
+          "winners": 1,
+          "exits": {
+            "15m_structure_flip": 1
+          }
+        },
+        "2024/BTC/SHORT/range": {
+          "trades": 4,
+          "net_usdt": 11.761131189576444,
+          "mean_net_pct_of_notional": 0.436740602594219,
+          "median_net_pct_of_notional": -0.1904715923515719,
+          "winners": 1,
+          "exits": {
+            "er_1h_timeout": 2,
+            "15m_structure_flip": 2
+          }
+        },
+        "2024/BTC/SHORT/transition": {
+          "trades": 8,
+          "net_usdt": 194.90588895784498,
+          "mean_net_pct_of_notional": 0.9861753602622604,
+          "median_net_pct_of_notional": 0.6060529504978401,
+          "winners": 7,
+          "exits": {
+            "ma5_ma30_cross": 5,
+            "15m_structure_flip": 3
+          }
+        },
+        "2024/BTC/SHORT/with_trend": {
+          "trades": 3,
+          "net_usdt": -12.46153206733863,
+          "mean_net_pct_of_notional": 0.2676756124759565,
+          "median_net_pct_of_notional": -0.5069901908091181,
+          "winners": 1,
+          "exits": {
+            "ma5_ma30_cross": 2,
+            "stop": 1
+          }
+        },
+        "2024/ETH/LONG/against_trend": {
+          "trades": 2,
+          "net_usdt": -51.42481861281646,
+          "mean_net_pct_of_notional": -1.3345906681663136,
+          "median_net_pct_of_notional": -1.3345906681663136,
+          "winners": 0,
+          "exits": {
+            "stop": 1,
+            "ma5_ma30_cross": 1
+          }
+        },
+        "2024/ETH/LONG/range": {
+          "trades": 10,
+          "net_usdt": 14.515485669584884,
+          "mean_net_pct_of_notional": 0.19808468565224466,
+          "median_net_pct_of_notional": 0.2760534058013534,
+          "winners": 6,
+          "exits": {
+            "15m_structure_flip": 3,
+            "ma5_ma30_cross": 7
+          }
+        },
+        "2024/ETH/LONG/transition": {
+          "trades": 15,
+          "net_usdt": 8.441059506437409,
+          "mean_net_pct_of_notional": 0.07993633761114373,
+          "median_net_pct_of_notional": -0.1855983309577321,
+          "winners": 6,
+          "exits": {
+            "ma5_ma30_cross": 7,
+            "15m_structure_flip": 7,
+            "stop": 1
+          }
+        },
+        "2024/ETH/LONG/with_trend": {
+          "trades": 6,
+          "net_usdt": -43.78049414171517,
+          "mean_net_pct_of_notional": -0.3254900234717348,
+          "median_net_pct_of_notional": -0.20723629756325201,
+          "winners": 2,
+          "exits": {
+            "ma5_ma30_cross": 5,
+            "15m_structure_flip": 1
+          }
+        },
+        "2024/ETH/SHORT/against_trend": {
+          "trades": 2,
+          "net_usdt": -19.93525624822965,
+          "mean_net_pct_of_notional": -0.6346940229184923,
+          "median_net_pct_of_notional": -0.6346940229184923,
+          "winners": 0,
+          "exits": {
+            "15m_structure_flip": 2
+          }
+        },
+        "2024/ETH/SHORT/range": {
+          "trades": 8,
+          "net_usdt": -152.7549740925175,
+          "mean_net_pct_of_notional": -0.6302776723055526,
+          "median_net_pct_of_notional": -0.3942639645250375,
+          "winners": 1,
+          "exits": {
+            "ma5_ma30_cross": 1,
+            "15m_structure_flip": 4,
+            "er_1h_timeout": 2,
+            "stop": 1
+          }
+        },
+        "2024/ETH/SHORT/transition": {
+          "trades": 6,
+          "net_usdt": 134.34599219921398,
+          "mean_net_pct_of_notional": 0.5754588270096,
+          "median_net_pct_of_notional": -0.10861950580983015,
+          "winners": 3,
+          "exits": {
+            "er_1h_timeout": 2,
+            "15m_structure_flip": 3,
+            "ma5_ma30_cross": 1
+          }
+        },
+        "2024/ETH/SHORT/with_trend": {
+          "trades": 2,
+          "net_usdt": 489.8764766890415,
+          "mean_net_pct_of_notional": 10.37639481893909,
+          "median_net_pct_of_notional": 10.37639481893909,
+          "winners": 2,
+          "exits": {
+            "15m_structure_flip": 2
+          }
+        },
+        "2025/BTC/LONG/range": {
+          "trades": 7,
+          "net_usdt": -40.83831425967649,
+          "mean_net_pct_of_notional": -0.18410851393086938,
+          "median_net_pct_of_notional": -0.22126761496203834,
+          "winners": 2,
+          "exits": {
+            "15m_structure_flip": 4,
+            "ma5_ma30_cross": 3
+          }
+        },
+        "2025/BTC/LONG/transition": {
+          "trades": 10,
+          "net_usdt": -72.33710667632138,
+          "mean_net_pct_of_notional": -0.21958852308321677,
+          "median_net_pct_of_notional": -0.16779404998607733,
+          "winners": 2,
+          "exits": {
+            "ma5_ma30_cross": 6,
+            "15m_structure_flip": 4
+          }
+        },
+        "2025/BTC/LONG/with_trend": {
+          "trades": 3,
+          "net_usdt": 29.140383595034038,
+          "mean_net_pct_of_notional": 0.3930115011378799,
+          "median_net_pct_of_notional": -0.19694827670479778,
+          "winners": 1,
+          "exits": {
+            "15m_structure_flip": 2,
+            "ma5_ma30_cross": 1
+          }
+        },
+        "2025/BTC/SHORT/against_trend": {
+          "trades": 1,
+          "net_usdt": -10.680674282039998,
+          "mean_net_pct_of_notional": -0.35142647014229544,
+          "median_net_pct_of_notional": -0.35142647014229544,
+          "winners": 0,
+          "exits": {
+            "15m_structure_flip": 1
+          }
+        },
+        "2025/BTC/SHORT/range": {
+          "trades": 14,
+          "net_usdt": -55.06384171348645,
+          "mean_net_pct_of_notional": -0.1367500080053077,
+          "median_net_pct_of_notional": -0.17932584091374232,
+          "winners": 4,
+          "exits": {
+            "ma5_ma30_cross": 5,
+            "15m_structure_flip": 4,
+            "er_1h_timeout": 4,
+            "end_of_data": 1
+          }
+        },
+        "2025/BTC/SHORT/transition": {
+          "trades": 7,
+          "net_usdt": 61.620702387290855,
+          "mean_net_pct_of_notional": 0.3040448310504281,
+          "median_net_pct_of_notional": 0.2971005356602367,
+          "winners": 4,
+          "exits": {
+            "15m_structure_flip": 1,
+            "er_1h_timeout": 2,
+            "ma5_ma30_cross": 4
+          }
+        },
+        "2025/BTC/SHORT/with_trend": {
+          "trades": 1,
+          "net_usdt": -25.484343379006845,
+          "mean_net_pct_of_notional": -0.7283860425275983,
+          "median_net_pct_of_notional": -0.7283860425275983,
+          "winners": 0,
+          "exits": {
+            "15m_structure_flip": 1
+          }
+        },
+        "2025/ETH/LONG/against_trend": {
+          "trades": 3,
+          "net_usdt": 157.2824277407669,
+          "mean_net_pct_of_notional": 1.7386485828362288,
+          "median_net_pct_of_notional": -0.3338695060923881,
+          "winners": 1,
+          "exits": {
+            "15m_structure_flip": 1,
+            "ma5_ma30_cross": 2
+          }
+        },
+        "2025/ETH/LONG/range": {
+          "trades": 12,
+          "net_usdt": 223.59936087215885,
+          "mean_net_pct_of_notional": 0.5853726968210697,
+          "median_net_pct_of_notional": 0.745934940981382,
+          "winners": 9,
+          "exits": {
+            "15m_structure_flip": 9,
+            "ma5_ma30_cross": 3
+          }
+        },
+        "2025/ETH/LONG/transition": {
+          "trades": 7,
+          "net_usdt": -154.07698164278506,
+          "mean_net_pct_of_notional": -0.6688679499235848,
+          "median_net_pct_of_notional": -0.5513073132334221,
+          "winners": 0,
+          "exits": {
+            "15m_structure_flip": 2,
+            "ma5_ma30_cross": 5
+          }
+        },
+        "2025/ETH/LONG/with_trend": {
+          "trades": 2,
+          "net_usdt": -52.535301139187844,
+          "mean_net_pct_of_notional": -0.9097221590618043,
+          "median_net_pct_of_notional": -0.9097221590618043,
+          "winners": 0,
+          "exits": {
+            "15m_structure_flip": 1,
+            "ma5_ma30_cross": 1
+          }
+        },
+        "2025/ETH/SHORT/against_trend": {
+          "trades": 1,
+          "net_usdt": -37.14567095535977,
+          "mean_net_pct_of_notional": -1.1904937882776658,
+          "median_net_pct_of_notional": -1.1904937882776658,
+          "winners": 0,
+          "exits": {
+            "er_1h_timeout": 1
+          }
+        },
+        "2025/ETH/SHORT/range": {
+          "trades": 2,
+          "net_usdt": -26.612361886070858,
+          "mean_net_pct_of_notional": -0.4257305605266363,
+          "median_net_pct_of_notional": -0.4257305605266363,
+          "winners": 1,
+          "exits": {
+            "15m_structure_flip": 2
+          }
+        },
+        "2025/ETH/SHORT/transition": {
+          "trades": 5,
+          "net_usdt": -51.07249119197543,
+          "mean_net_pct_of_notional": -0.28646222585982406,
+          "median_net_pct_of_notional": -0.3976735926863256,
+          "winners": 2,
+          "exits": {
+            "ma5_ma30_cross": 4,
+            "15m_structure_flip": 1
+          }
+        },
+        "2025/ETH/SHORT/with_trend": {
+          "trades": 2,
+          "net_usdt": -15.524251646622147,
+          "mean_net_pct_of_notional": -0.2595099898081575,
+          "median_net_pct_of_notional": -0.2595099898081575,
+          "winners": 1,
+          "exits": {
+            "15m_structure_flip": 1,
+            "ma5_ma30_cross": 1
+          }
+        }
+      }
+    },
+    "bot_approximation": {
+      "by_year_asset_side": {
+        "2022/BTC/LONG": {
+          "trades": 26,
+          "net_usdt": -464.8358605125657,
+          "mean_net_pct_of_notional": -0.1432459569277974,
+          "median_net_pct_of_notional": -0.17967827959785151,
+          "winners": 12,
+          "exits": {
+            "hard_stop": 12,
+            "ladder_exit": 11,
+            "time_exit": 3
+          }
+        },
+        "2022/BTC/SHORT": {
+          "trades": 48,
+          "net_usdt": -683.2564890198988,
+          "mean_net_pct_of_notional": -0.1668746669544412,
+          "median_net_pct_of_notional": 0.8804924705731784,
+          "winners": 25,
+          "exits": {
+            "ladder_exit": 24,
+            "hard_stop": 22,
+            "time_exit": 2
+          }
+        },
+        "2022/ETH/LONG": {
+          "trades": 13,
+          "net_usdt": -634.636218733675,
+          "mean_net_pct_of_notional": -0.9409531086174036,
+          "median_net_pct_of_notional": -2.1184023204336873,
+          "winners": 3,
+          "exits": {
+            "ladder_exit": 3,
+            "hard_stop": 9,
+            "time_exit": 1
+          }
+        },
+        "2022/ETH/SHORT": {
+          "trades": 21,
+          "net_usdt": 565.7168147799255,
+          "mean_net_pct_of_notional": 0.2036884984159204,
+          "median_net_pct_of_notional": 0.8807543339110466,
+          "winners": 12,
+          "exits": {
+            "ladder_exit": 12,
+            "hard_stop": 8,
+            "time_exit": 1
+          }
+        },
+        "2023/BTC/LONG": {
+          "trades": 53,
+          "net_usdt": 128.6491229072079,
+          "mean_net_pct_of_notional": 0.1846773412648066,
+          "median_net_pct_of_notional": 0.879175818252625,
+          "winners": 29,
+          "exits": {
+            "time_exit": 5,
+            "ladder_exit": 25,
+            "hard_stop": 23
+          }
+        },
+        "2023/BTC/SHORT": {
+          "trades": 44,
+          "net_usdt": 266.90709442117833,
+          "mean_net_pct_of_notional": 0.3777146719251067,
+          "median_net_pct_of_notional": 0.8805659721418397,
+          "winners": 25,
+          "exits": {
+            "hard_stop": 18,
+            "ladder_exit": 22,
+            "time_exit": 4
+          }
+        },
+        "2023/ETH/LONG": {
+          "trades": 49,
+          "net_usdt": -195.23849320880603,
+          "mean_net_pct_of_notional": -0.07113639960479484,
+          "median_net_pct_of_notional": -0.6357855244905696,
+          "winners": 24,
+          "exits": {
+            "ladder_exit": 20,
+            "time_exit": 7,
+            "hard_stop": 22
+          }
+        },
+        "2023/ETH/SHORT": {
+          "trades": 57,
+          "net_usdt": 238.77557551425417,
+          "mean_net_pct_of_notional": 0.1550300708164935,
+          "median_net_pct_of_notional": 0.8805121305270883,
+          "winners": 35,
+          "exits": {
+            "hard_stop": 20,
+            "ladder_exit": 33,
+            "time_exit": 4
+          }
+        },
+        "2024/BTC/LONG": {
+          "trades": 35,
+          "net_usdt": 275.30233988614845,
+          "mean_net_pct_of_notional": 0.3196608343340466,
+          "median_net_pct_of_notional": 0.8793439647946693,
+          "winners": 20,
+          "exits": {
+            "ladder_exit": 19,
+            "hard_stop": 15,
+            "time_exit": 1
+          }
+        },
+        "2024/BTC/SHORT": {
+          "trades": 37,
+          "net_usdt": 313.89778104500994,
+          "mean_net_pct_of_notional": 0.27281485478767203,
+          "median_net_pct_of_notional": 0.8806292091759118,
+          "winners": 23,
+          "exits": {
+            "ladder_exit": 22,
+            "hard_stop": 13,
+            "time_exit": 2
+          }
+        },
+        "2024/ETH/LONG": {
+          "trades": 27,
+          "net_usdt": -125.85785600562485,
+          "mean_net_pct_of_notional": -0.12487347459208226,
+          "median_net_pct_of_notional": 0.8791088241974562,
+          "winners": 14,
+          "exits": {
+            "hard_stop": 12,
+            "ladder_exit": 14,
+            "time_exit": 1
+          }
+        },
+        "2024/ETH/SHORT": {
+          "trades": 28,
+          "net_usdt": 166.30525127123218,
+          "mean_net_pct_of_notional": 0.13017505380171407,
+          "median_net_pct_of_notional": 0.8806558408751594,
+          "winners": 17,
+          "exits": {
+            "hard_stop": 11,
+            "ladder_exit": 17
+          }
+        },
+        "2025/BTC/LONG": {
+          "trades": 36,
+          "net_usdt": 1165.7350090992131,
+          "mean_net_pct_of_notional": 0.5167671114456662,
+          "median_net_pct_of_notional": 0.8792943803013245,
+          "winners": 22,
+          "exits": {
+            "ladder_exit": 16,
+            "hard_stop": 13,
+            "time_exit": 7
+          }
+        },
+        "2025/BTC/SHORT": {
+          "trades": 49,
+          "net_usdt": -952.4981036229997,
+          "mean_net_pct_of_notional": 0.1934294055986994,
+          "median_net_pct_of_notional": 0.8806506566493605,
+          "winners": 25,
+          "exits": {
+            "ladder_exit": 24,
+            "hard_stop": 20,
+            "time_exit": 5
+          }
+        },
+        "2025/ETH/LONG": {
+          "trades": 19,
+          "net_usdt": 3758.574322333776,
+          "mean_net_pct_of_notional": 1.1487728180724501,
+          "median_net_pct_of_notional": 0.8793689781801713,
+          "winners": 14,
+          "exits": {
+            "ladder_exit": 13,
+            "hard_stop": 5,
+            "time_exit": 1
+          }
+        },
+        "2025/ETH/SHORT": {
+          "trades": 20,
+          "net_usdt": 2648.888892736146,
+          "mean_net_pct_of_notional": 0.7508714573409284,
+          "median_net_pct_of_notional": 0.8808037885596778,
+          "winners": 11,
+          "exits": {
+            "ladder_exit": 10,
+            "hard_stop": 9,
+            "time_exit": 1
+          }
+        }
+      },
+      "by_year_regime": {
+        "2022/range": {
+          "trades": 38,
+          "net_usdt": -922.9274892833577,
+          "mean_net_pct_of_notional": -0.1569322561784663,
+          "median_net_pct_of_notional": -0.4128975173445731,
+          "winners": 18,
+          "exits": {
+            "ladder_exit": 17,
+            "hard_stop": 18,
+            "time_exit": 3
+          }
+        },
+        "2022/transition": {
+          "trades": 52,
+          "net_usdt": 194.03683369253415,
+          "mean_net_pct_of_notional": -0.17575251410500192,
+          "median_net_pct_of_notional": -0.33012823881094255,
+          "winners": 25,
+          "exits": {
+            "hard_stop": 25,
+            "ladder_exit": 24,
+            "time_exit": 3
+          }
+        },
+        "2022/with_trend": {
+          "trades": 18,
+          "net_usdt": -488.1210978953906,
+          "mean_net_pct_of_notional": -0.2548196872770005,
+          "median_net_pct_of_notional": -0.32899986042783924,
+          "winners": 9,
+          "exits": {
+            "ladder_exit": 9,
+            "hard_stop": 8,
+            "time_exit": 1
+          }
+        },
+        "2023/range": {
+          "trades": 64,
+          "net_usdt": 820.0323685162035,
+          "mean_net_pct_of_notional": 0.40796551963131905,
+          "median_net_pct_of_notional": 0.8794676173992506,
+          "winners": 42,
+          "exits": {
+            "hard_stop": 20,
+            "ladder_exit": 38,
+            "time_exit": 6
+          }
+        },
+        "2023/transition": {
+          "trades": 105,
+          "net_usdt": -48.125826219615696,
+          "mean_net_pct_of_notional": 0.13478327885743163,
+          "median_net_pct_of_notional": 0.45616408550660537,
+          "winners": 54,
+          "exits": {
+            "time_exit": 10,
+            "hard_stop": 47,
+            "ladder_exit": 48
+          }
+        },
+        "2023/with_trend": {
+          "trades": 34,
+          "net_usdt": -332.81324266275345,
+          "mean_net_pct_of_notional": -0.2501077184938269,
+          "median_net_pct_of_notional": -0.5839952559951432,
+          "winners": 17,
+          "exits": {
+            "time_exit": 4,
+            "ladder_exit": 14,
+            "hard_stop": 16
+          }
+        },
+        "2024/range": {
+          "trades": 46,
+          "net_usdt": 510.4684490666779,
+          "mean_net_pct_of_notional": 0.3957464996912353,
+          "median_net_pct_of_notional": 0.879362283721538,
+          "winners": 27,
+          "exits": {
+            "ladder_exit": 25,
+            "hard_stop": 18,
+            "time_exit": 3
+          }
+        },
+        "2024/transition": {
+          "trades": 58,
+          "net_usdt": -393.0713372281885,
+          "mean_net_pct_of_notional": -0.18769945190678772,
+          "median_net_pct_of_notional": 0.8791645581582895,
+          "winners": 30,
+          "exits": {
+            "hard_stop": 27,
+            "ladder_exit": 30,
+            "time_exit": 1
+          }
+        },
+        "2024/with_trend": {
+          "trades": 23,
+          "net_usdt": 512.2504043582763,
+          "mean_net_pct_of_notional": 0.6190359020040926,
+          "median_net_pct_of_notional": 0.8807049621033939,
+          "winners": 17,
+          "exits": {
+            "hard_stop": 6,
+            "ladder_exit": 17
+          }
+        },
+        "2025/range": {
+          "trades": 56,
+          "net_usdt": 4117.755870555214,
+          "mean_net_pct_of_notional": 0.7388964673916895,
+          "median_net_pct_of_notional": 0.879401413517806,
+          "winners": 31,
+          "exits": {
+            "hard_stop": 22,
+            "ladder_exit": 26,
+            "time_exit": 8
+          }
+        },
+        "2025/transition": {
+          "trades": 43,
+          "net_usdt": 674.2159422202075,
+          "mean_net_pct_of_notional": 0.30963405396310467,
+          "median_net_pct_of_notional": 0.8793207073702406,
+          "winners": 27,
+          "exits": {
+            "ladder_exit": 24,
+            "time_exit": 5,
+            "hard_stop": 14
+          }
+        },
+        "2025/with_trend": {
+          "trades": 25,
+          "net_usdt": 1828.7283077707139,
+          "mean_net_pct_of_notional": 0.4093321232890904,
+          "median_net_pct_of_notional": 0.8793167531741408,
+          "winners": 14,
+          "exits": {
+            "ladder_exit": 13,
+            "hard_stop": 11,
+            "time_exit": 1
+          }
+        }
+      },
+      "by_year_asset_side_regime": {
+        "2022/BTC/LONG/range": {
+          "trades": 12,
+          "net_usdt": -804.8375276485963,
+          "mean_net_pct_of_notional": -0.4452318384800706,
+          "median_net_pct_of_notional": -2.1183920100862412,
+          "winners": 4,
+          "exits": {
+            "ladder_exit": 4,
+            "hard_stop": 7,
+            "time_exit": 1
+          }
+        },
+        "2022/BTC/LONG/transition": {
+          "trades": 13,
+          "net_usdt": 274.32525896104204,
+          "mean_net_pct_of_notional": 0.056855115400416996,
+          "median_net_pct_of_notional": 0.39363715122317094,
+          "winners": 7,
+          "exits": {
+            "hard_stop": 5,
+            "ladder_exit": 6,
+            "time_exit": 2
+          }
+        },
+        "2022/BTC/LONG/with_trend": {
+          "trades": 1,
+          "net_usdt": 65.67640817498858,
+          "mean_net_pct_of_notional": 0.8792706814326929,
+          "median_net_pct_of_notional": 0.8792706814326929,
+          "winners": 1,
+          "exits": {
+            "ladder_exit": 1
+          }
+        },
+        "2022/BTC/SHORT/range": {
+          "trades": 15,
+          "net_usdt": -73.186625909382,
+          "mean_net_pct_of_notional": 0.02464611677584403,
+          "median_net_pct_of_notional": 0.8807260977013683,
+          "winners": 9,
+          "exits": {
+            "ladder_exit": 8,
+            "hard_stop": 6,
+            "time_exit": 1
+          }
+        },
+        "2022/BTC/SHORT/transition": {
+          "trades": 19,
+          "net_usdt": 175.61445772575283,
+          "mean_net_pct_of_notional": 0.03799150580986869,
+          "median_net_pct_of_notional": 0.8805085647497921,
+          "winners": 10,
+          "exits": {
+            "hard_stop": 9,
+            "ladder_exit": 10
+          }
+        },
+        "2022/BTC/SHORT/with_trend": {
+          "trades": 14,
+          "net_usdt": -785.6843208362698,
+          "mean_net_pct_of_notional": -0.6501081697027388,
+          "median_net_pct_of_notional": -1.8292975151553446,
+          "winners": 6,
+          "exits": {
+            "ladder_exit": 6,
+            "hard_stop": 7,
+            "time_exit": 1
+          }
+        },
+        "2022/ETH/LONG/range": {
+          "trades": 4,
+          "net_usdt": -562.1030494774209,
+          "mean_net_pct_of_notional": -1.7888105930877918,
+          "median_net_pct_of_notional": -2.118414142937722,
+          "winners": 0,
+          "exits": {
+            "hard_stop": 3,
+            "time_exit": 1
+          }
+        },
+        "2022/ETH/LONG/transition": {
+          "trades": 8,
+          "net_usdt": -399.7767139833548,
+          "mean_net_pct_of_notional": -1.2441953673870774,
+          "median_net_pct_of_notional": -2.1184353396759836,
+          "winners": 2,
+          "exits": {
+            "ladder_exit": 2,
+            "hard_stop": 6
+          }
+        },
+        "2022/ETH/LONG/with_trend": {
+          "trades": 1,
+          "net_usdt": 327.24354472710064,
+          "mean_net_pct_of_notional": 4.8764148994215395,
+          "median_net_pct_of_notional": 4.8764148994215395,
+          "winners": 1,
+          "exits": {
+            "ladder_exit": 1
+          }
+        },
+        "2022/ETH/SHORT/range": {
+          "trades": 7,
+          "net_usdt": 517.1997137520415,
+          "mean_net_pct_of_notional": 0.8807009925275191,
+          "median_net_pct_of_notional": 1.8812740488654294,
+          "winners": 5,
+          "exits": {
+            "ladder_exit": 5,
+            "hard_stop": 2
+          }
+        },
+        "2022/ETH/SHORT/transition": {
+          "trades": 12,
+          "net_usdt": 143.87383098909407,
+          "mean_net_pct_of_notional": -0.05387690874636728,
+          "median_net_pct_of_notional": 0.27685551339738373,
+          "winners": 6,
+          "exits": {
+            "ladder_exit": 6,
+            "hard_stop": 5,
+            "time_exit": 1
+          }
+        },
+        "2022/ETH/SHORT/with_trend": {
+          "trades": 2,
+          "net_usdt": -95.3567299612101,
+          "mean_net_pct_of_notional": -0.6204627880009489,
+          "median_net_pct_of_notional": -0.6204627880009489,
+          "winners": 1,
+          "exits": {
+            "hard_stop": 1,
+            "ladder_exit": 1
+          }
+        },
+        "2023/BTC/LONG/range": {
+          "trades": 15,
+          "net_usdt": 73.88659065330044,
+          "mean_net_pct_of_notional": 0.21312616491249484,
+          "median_net_pct_of_notional": 0.8792249768368458,
+          "winners": 9,
+          "exits": {
+            "hard_stop": 6,
+            "ladder_exit": 9
+          }
+        },
+        "2023/BTC/LONG/transition": {
+          "trades": 27,
+          "net_usdt": 55.0944826293434,
+          "mean_net_pct_of_notional": 0.19104234692151645,
+          "median_net_pct_of_notional": 0.1097232405800796,
+          "winners": 14,
+          "exits": {
+            "time_exit": 4,
+            "hard_stop": 12,
+            "ladder_exit": 11
+          }
+        },
+        "2023/BTC/LONG/with_trend": {
+          "trades": 11,
+          "net_usdt": -0.3319503754359481,
+          "mean_net_pct_of_notional": 0.13026029513330747,
+          "median_net_pct_of_notional": 0.6337408750239091,
+          "winners": 6,
+          "exits": {
+            "time_exit": 1,
+            "ladder_exit": 5,
+            "hard_stop": 5
+          }
+        },
+        "2023/BTC/SHORT/range": {
+          "trades": 17,
+          "net_usdt": 253.68621262534012,
+          "mean_net_pct_of_notional": 0.5111465192284359,
+          "median_net_pct_of_notional": 0.8806218673462398,
+          "winners": 12,
+          "exits": {
+            "ladder_exit": 11,
+            "hard_stop": 4,
+            "time_exit": 2
+          }
+        },
+        "2023/BTC/SHORT/transition": {
+          "trades": 24,
+          "net_usdt": 267.083558729958,
+          "mean_net_pct_of_notional": 0.5955955245497956,
+          "median_net_pct_of_notional": 0.8805665318634811,
+          "winners": 13,
+          "exits": {
+            "hard_stop": 11,
+            "time_exit": 2,
+            "ladder_exit": 11
+          }
+        },
+        "2023/BTC/SHORT/with_trend": {
+          "trades": 3,
+          "net_usdt": -253.86267693411975,
+          "mean_net_pct_of_notional": -2.1214459504579373,
+          "median_net_pct_of_notional": -2.1215226720045557,
+          "winners": 0,
+          "exits": {
+            "hard_stop": 3
+          }
+        },
+        "2023/ETH/LONG/range": {
+          "trades": 18,
+          "net_usdt": 174.77896689694117,
+          "mean_net_pct_of_notional": 0.42011297179794005,
+          "median_net_pct_of_notional": 0.879311588338318,
+          "winners": 12,
+          "exits": {
+            "ladder_exit": 10,
+            "hard_stop": 6,
+            "time_exit": 2
+          }
+        },
+        "2023/ETH/LONG/transition": {
+          "trades": 23,
+          "net_usdt": -220.17240088219842,
+          "mean_net_pct_of_notional": -0.24145597219708287,
+          "median_net_pct_of_notional": -2.118333316017221,
+          "winners": 9,
+          "exits": {
+            "ladder_exit": 8,
+            "hard_stop": 12,
+            "time_exit": 3
+          }
+        },
+        "2023/ETH/LONG/with_trend": {
+          "trades": 8,
+          "net_usdt": -149.8450592235488,
+          "mean_net_pct_of_notional": -0.6867787140581202,
+          "median_net_pct_of_notional": -1.7633541854466448,
+          "winners": 3,
+          "exits": {
+            "time_exit": 2,
+            "ladder_exit": 2,
+            "hard_stop": 4
+          }
+        },
+        "2023/ETH/SHORT/range": {
+          "trades": 14,
+          "net_usdt": 317.6805983406218,
+          "mean_net_pct_of_notional": 0.47581260453361907,
+          "median_net_pct_of_notional": 0.8805341772667556,
+          "winners": 9,
+          "exits": {
+            "ladder_exit": 8,
+            "hard_stop": 4,
+            "time_exit": 2
+          }
+        },
+        "2023/ETH/SHORT/transition": {
+          "trades": 31,
+          "net_usdt": -150.13146669671866,
+          "mean_net_pct_of_notional": 0.008170828531844794,
+          "median_net_pct_of_notional": 0.8805121305270883,
+          "winners": 18,
+          "exits": {
+            "hard_stop": 12,
+            "ladder_exit": 18,
+            "time_exit": 1
+          }
+        },
+        "2023/ETH/SHORT/with_trend": {
+          "trades": 12,
+          "net_usdt": 71.22644387035102,
+          "mean_net_pct_of_notional": 0.16017015738185622,
+          "median_net_pct_of_notional": 0.8804850513334662,
+          "winners": 8,
+          "exits": {
+            "ladder_exit": 7,
+            "hard_stop": 4,
+            "time_exit": 1
+          }
+        },
+        "2024/BTC/LONG/range": {
+          "trades": 11,
+          "net_usdt": 542.828326245677,
+          "mean_net_pct_of_notional": 1.2788703066002458,
+          "median_net_pct_of_notional": 0.8793791240144807,
+          "winners": 7,
+          "exits": {
+            "ladder_exit": 6,
+            "hard_stop": 4,
+            "time_exit": 1
+          }
+        },
+        "2024/BTC/LONG/transition": {
+          "trades": 16,
+          "net_usdt": -366.562988624828,
+          "mean_net_pct_of_notional": -0.49470810785775954,
+          "median_net_pct_of_notional": -2.118518265715159,
+          "winners": 7,
+          "exits": {
+            "hard_stop": 9,
+            "ladder_exit": 7
+          }
+        },
+        "2024/BTC/LONG/with_trend": {
+          "trades": 8,
+          "net_usdt": 99.03700226529952,
+          "mean_net_pct_of_notional": 0.6294856943516348,
+          "median_net_pct_of_notional": 1.3789747881006602,
+          "winners": 6,
+          "exits": {
+            "hard_stop": 2,
+            "ladder_exit": 6
+          }
+        },
+        "2024/BTC/SHORT/range": {
+          "trades": 9,
+          "net_usdt": -34.6714699159624,
+          "mean_net_pct_of_notional": 0.043205603782270605,
+          "median_net_pct_of_notional": 0.3482722600418559,
+          "winners": 5,
+          "exits": {
+            "hard_stop": 4,
+            "time_exit": 1,
+            "ladder_exit": 4
+          }
+        },
+        "2024/BTC/SHORT/transition": {
+          "trades": 19,
+          "net_usdt": 168.11420165344612,
+          "mean_net_pct_of_notional": 0.30431085102341215,
+          "median_net_pct_of_notional": 0.880639014886314,
+          "winners": 12,
+          "exits": {
+            "hard_stop": 6,
+            "ladder_exit": 12,
+            "time_exit": 1
+          }
+        },
+        "2024/BTC/SHORT/with_trend": {
+          "trades": 9,
+          "net_usdt": 180.4550493075262,
+          "mean_net_pct_of_notional": 0.4359325581842887,
+          "median_net_pct_of_notional": 0.8806573928256324,
+          "winners": 6,
+          "exits": {
+            "ladder_exit": 6,
+            "hard_stop": 3
+          }
+        },
+        "2024/ETH/LONG/range": {
+          "trades": 15,
+          "net_usdt": 9.431787386373278,
+          "mean_net_pct_of_notional": 0.1377010017614297,
+          "median_net_pct_of_notional": 0.87931298315923,
+          "winners": 8,
+          "exits": {
+            "ladder_exit": 8,
+            "hard_stop": 6,
+            "time_exit": 1
+          }
+        },
+        "2024/ETH/LONG/transition": {
+          "trades": 10,
+          "net_usdt": -313.45896612247805,
+          "mean_net_pct_of_notional": -0.9194277471322101,
+          "median_net_pct_of_notional": -2.11846646256351,
+          "winners": 4,
+          "exits": {
+            "hard_stop": 6,
+            "ladder_exit": 4
+          }
+        },
+        "2024/ETH/LONG/with_trend": {
+          "trades": 2,
+          "net_usdt": 178.16932273047993,
+          "mean_net_pct_of_notional": 1.8785893154572173,
+          "median_net_pct_of_notional": 1.8785893154572173,
+          "winners": 2,
+          "exits": {
+            "ladder_exit": 2
+          }
+        },
+        "2024/ETH/SHORT/range": {
+          "trades": 11,
+          "net_usdt": -7.120194649409925,
+          "mean_net_pct_of_notional": 0.1529454684302036,
+          "median_net_pct_of_notional": 0.8806595335384902,
+          "winners": 7,
+          "exits": {
+            "hard_stop": 4,
+            "ladder_exit": 7
+          }
+        },
+        "2024/ETH/SHORT/transition": {
+          "trades": 13,
+          "net_usdt": 118.83641586567144,
+          "mean_net_pct_of_notional": 0.033933293615979666,
+          "median_net_pct_of_notional": 0.8806521482118285,
+          "winners": 7,
+          "exits": {
+            "hard_stop": 6,
+            "ladder_exit": 7
+          }
+        },
+        "2024/ETH/SHORT/with_trend": {
+          "trades": 4,
+          "net_usdt": 54.58903005497065,
+          "mean_net_pct_of_notional": 0.3803421341770046,
+          "median_net_pct_of_notional": 0.8807192805576192,
+          "winners": 3,
+          "exits": {
+            "ladder_exit": 3,
+            "hard_stop": 1
+          }
+        },
+        "2025/BTC/LONG/range": {
+          "trades": 13,
+          "net_usdt": 641.0741092340062,
+          "mean_net_pct_of_notional": 0.6754559252987037,
+          "median_net_pct_of_notional": 0.879286134044748,
+          "winners": 7,
+          "exits": {
+            "hard_stop": 5,
+            "ladder_exit": 5,
+            "time_exit": 3
+          }
+        },
+        "2025/BTC/LONG/transition": {
+          "trades": 20,
+          "net_usdt": -1129.8488432731897,
+          "mean_net_pct_of_notional": -0.002370428280122712,
+          "median_net_pct_of_notional": 0.6056100600793036,
+          "winners": 12,
+          "exits": {
+            "ladder_exit": 9,
+            "hard_stop": 8,
+            "time_exit": 3
+          }
+        },
+        "2025/BTC/LONG/with_trend": {
+          "trades": 3,
+          "net_usdt": 1654.5097431383965,
+          "mean_net_pct_of_notional": 3.2900325162544295,
+          "median_net_pct_of_notional": 1.8786000711542918,
+          "winners": 3,
+          "exits": {
+            "time_exit": 1,
+            "ladder_exit": 2
+          }
+        },
+        "2025/BTC/SHORT/range": {
+          "trades": 20,
+          "net_usdt": -827.8523064357396,
+          "mean_net_pct_of_notional": 0.24168453991081568,
+          "median_net_pct_of_notional": 0.14193944391838959,
+          "winners": 10,
+          "exits": {
+            "ladder_exit": 9,
+            "time_exit": 3,
+            "hard_stop": 8
+          }
+        },
+        "2025/BTC/SHORT/transition": {
+          "trades": 16,
+          "net_usdt": -587.150185083577,
+          "mean_net_pct_of_notional": 0.07505617572974482,
+          "median_net_pct_of_notional": 0.17572914053735217,
+          "winners": 8,
+          "exits": {
+            "ladder_exit": 8,
+            "time_exit": 2,
+            "hard_stop": 6
+          }
+        },
+        "2025/BTC/SHORT/with_trend": {
+          "trades": 13,
+          "net_usdt": 462.5043878963168,
+          "mean_net_pct_of_notional": 0.2648808664956955,
+          "median_net_pct_of_notional": 0.8807033357817103,
+          "winners": 7,
+          "exits": {
+            "ladder_exit": 7,
+            "hard_stop": 6
+          }
+        },
+        "2025/ETH/LONG/range": {
+          "trades": 10,
+          "net_usdt": 2613.1039938326226,
+          "mean_net_pct_of_notional": 1.7910241433548226,
+          "median_net_pct_of_notional": 1.3790735039049618,
+          "winners": 7,
+          "exits": {
+            "ladder_exit": 6,
+            "time_exit": 1,
+            "hard_stop": 3
+          }
+        },
+        "2025/ETH/LONG/transition": {
+          "trades": 4,
+          "net_usdt": 1256.413194207944,
+          "mean_net_pct_of_notional": 1.3788996633030637,
+          "median_net_pct_of_notional": 1.3788964160500377,
+          "winners": 4,
+          "exits": {
+            "ladder_exit": 4
+          }
+        },
+        "2025/ETH/LONG/with_trend": {
+          "trades": 5,
+          "net_usdt": -110.94286570679054,
+          "mean_net_pct_of_notional": -0.3198313086767856,
+          "median_net_pct_of_notional": 0.8792354950136111,
+          "winners": 3,
+          "exits": {
+            "hard_stop": 2,
+            "ladder_exit": 3
+          }
+        },
+        "2025/ETH/SHORT/range": {
+          "trades": 13,
+          "net_usdt": 1691.4300739243247,
+          "mean_net_pct_of_notional": 0.7579494548682251,
+          "median_net_pct_of_notional": 0.8807396420614896,
+          "winners": 7,
+          "exits": {
+            "ladder_exit": 6,
+            "hard_stop": 6,
+            "time_exit": 1
+          }
+        },
+        "2025/ETH/SHORT/transition": {
+          "trades": 3,
+          "net_usdt": 1134.80177636903,
+          "mean_net_pct_of_notional": 2.215058473709261,
+          "median_net_pct_of_notional": 2.882087699880737,
+          "winners": 3,
+          "exits": {
+            "ladder_exit": 3
+          }
+        },
+        "2025/ETH/SHORT/with_trend": {
+          "trades": 4,
+          "net_usdt": -177.34295755720905,
+          "mean_net_pct_of_notional": -0.3702722968990354,
+          "median_net_pct_of_notional": -2.121481793938144,
+          "winners": 1,
+          "exits": {
+            "ladder_exit": 1,
+            "hard_stop": 3
+          }
+        }
+      }
+    }
+  },
+  "formal_live_fill_check": [
+    {
+      "asset": "BTC",
+      "side": "SHORT",
+      "opened_local": "2026-11-09T02:06:49+08:00",
+      "closed_local": "2026-11-09T05:56:28+08:00",
+      "qty": 0.002,
+      "entry": 75820.3,
+      "exit": 74293.4,
+      "reported_net_usdt": 2.95,
+      "gross_usdt": 3.0538,
+      "net_pct_of_entry_notional": 1.9453892954789151,
+      "reported_rung": 2,
+      "model_stop_price": 74303.9,
+      "execution_difference_from_stop_bps": -1.4131155968932774,
+      "gross_less_reported_net_usdt": 0.1038
+    },
+    {
+      "asset": "ETH",
+      "side": "SHORT",
+      "opened_local": "2026-11-09T01:43:07+08:00",
+      "closed_local": "2026-11-09T05:56:02+08:00",
+      "qty": 0.06,
+      "entry": 2229.45,
+      "exit": 2121.89,
+      "reported_net_usdt": 6.36,
+      "gross_usdt": 6.4536,
+      "net_pct_of_entry_notional": 4.754535872076072,
+      "reported_rung": 5,
+      "model_stop_price": 2117.98,
+      "execution_difference_from_stop_bps": 18.460986411579228,
+      "gross_less_reported_net_usdt": 0.0936
+    },
+    {
+      "asset": "ETH",
+      "side": "SHORT",
+      "opened_local": "2026-11-09T06:00:21+08:00",
+      "closed_local": "2026-11-09T16:24:42+08:00",
+      "qty": 0.08,
+      "entry": 2131.13,
+      "exit": 2110.0,
+      "reported_net_usdt": 1.56,
+      "gross_usdt": 1.6904,
+      "net_pct_of_entry_notional": 0.9150075312158338,
+      "reported_rung": 1,
+      "model_stop_price": 2109.82,
+      "execution_difference_from_stop_bps": 0.8531533495736987,
+      "gross_less_reported_net_usdt": 0.1304
+    },
+    {
+      "asset": "ETH",
+      "side": "SHORT",
+      "opened_local": "2026-11-09T16:43:18+08:00",
+      "closed_local": "2026-11-10T21:36:18+08:00",
+      "qty": 0.08,
+      "entry": 2112.07,
+      "exit": 2069.95,
+      "reported_net_usdt": 3.27,
+      "gross_usdt": 3.3696,
+      "net_pct_of_entry_notional": 1.935305174544404,
+      "reported_rung": 2,
+      "model_stop_price": 2069.83,
+      "execution_difference_from_stop_bps": 0.5797577578836588,
+      "gross_less_reported_net_usdt": 0.0996
+    }
+  ],
+  "matched_exit_comparison": {
+    "full_2019_2025": {
+      "profit_close_lock": {
+        "matched_entries": 410,
+        "changed_exits": 31,
+        "changed_exits_by_year": {
+          "2023": 4,
+          "2025": 9,
+          "2022": 3,
+          "2021": 9,
+          "2024": 5,
+          "2020": 1
+        },
+        "hour_close_exits": 0,
+        "max_delay_min": 0.0,
+        "max_holding_hours": 24.5
+      },
+      "profit_runner": {
+        "matched_entries": 410,
+        "changed_exits": 50,
+        "changed_exits_by_year": {
+          "2023": 8,
+          "2025": 11,
+          "2022": 5,
+          "2024": 13,
+          "2021": 12,
+          "2020": 1
+        },
+        "hour_close_exits": 17,
+        "max_delay_min": 60.0,
+        "max_holding_hours": 24.5
+      },
+      "profit_hour_only": {
+        "matched_entries": 410,
+        "changed_exits": 29,
+        "changed_exits_by_year": {
+          "2023": 5,
+          "2024": 9,
+          "2021": 7,
+          "2025": 6,
+          "2022": 2
+        },
+        "hour_close_exits": 25,
+        "max_delay_min": 60.0,
+        "max_holding_hours": 24.5
+      }
+    },
+    "fresh_500_2025": {
+      "profit_close_lock": {
+        "matched_entries": 77,
+        "changed_exits": 9,
+        "changed_exits_by_year": {
+          "2025": 9
+        },
+        "hour_close_exits": 0,
+        "max_delay_min": 0.0,
+        "max_holding_hours": 11.75
+      },
+      "profit_runner": {
+        "matched_entries": 77,
+        "changed_exits": 11,
+        "changed_exits_by_year": {
+          "2025": 11
+        },
+        "hour_close_exits": 2,
+        "max_delay_min": 45.0,
+        "max_holding_hours": 12.5
+      },
+      "profit_hour_only": {
+        "matched_entries": 77,
+        "changed_exits": 6,
+        "changed_exits_by_year": {
+          "2025": 6
+        },
+        "hour_close_exits": 5,
+        "max_delay_min": 60.0,
+        "max_holding_hours": 12.75
+      }
+    }
+  }
+}

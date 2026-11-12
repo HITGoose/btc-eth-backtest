@@ -1,0 +1,1077 @@
+{
+  "baseline": {
+    "mean_annual_return_pct": 57.3599381452847,
+    "mean_annual_max_drawdown_pct": 24.484491905760528,
+    "total_timeout_exits": 0,
+    "by_year": {
+      "2021": {
+        "return_pct": 70.73761590578573,
+        "max_drawdown_pct": 30.5161270082549,
+        "trades": 41,
+        "short_net_usdt": 85.85140002949672,
+        "long_net_usdt": -15.113784123711005,
+        "timeout_exits": 0
+      },
+      "2022": {
+        "return_pct": 35.063724580595476,
+        "max_drawdown_pct": 27.6225058268881,
+        "trades": 24,
+        "short_net_usdt": 26.357698664325454,
+        "long_net_usdt": 8.706025916270042,
+        "timeout_exits": 0
+      },
+      "2023": {
+        "return_pct": 72.86336905415564,
+        "max_drawdown_pct": 13.263339649923001,
+        "trades": 34,
+        "short_net_usdt": 7.668623815054336,
+        "long_net_usdt": 65.1947452391014,
+        "timeout_exits": 0
+      },
+      "2024": {
+        "return_pct": 121.06277730750094,
+        "max_drawdown_pct": 23.930919020731146,
+        "trades": 51,
+        "short_net_usdt": 101.24987310176549,
+        "long_net_usdt": 19.812904205735315,
+        "timeout_exits": 0
+      },
+      "2025": {
+        "return_pct": -12.927796121614293,
+        "max_drawdown_pct": 27.089568023005494,
+        "trades": 45,
+        "short_net_usdt": -10.836066787530294,
+        "long_net_usdt": -2.0917293340839684,
+        "timeout_exits": 0
+      }
+    }
+  },
+  "uncapped_half_atr": {
+    "mean_annual_return_pct": 58.634285982761085,
+    "mean_annual_max_drawdown_pct": 23.13742130588351,
+    "total_timeout_exits": 20,
+    "by_year": {
+      "2021": {
+        "return_pct": 83.23909825059926,
+        "max_drawdown_pct": 25.99663531675005,
+        "trades": 41,
+        "short_net_usdt": 100.20926431786917,
+        "long_net_usdt": -16.97016606727002,
+        "timeout_exits": 4
+      },
+      "2022": {
+        "return_pct": 39.7914859306114,
+        "max_drawdown_pct": 27.61475743063977,
+        "trades": 24,
+        "short_net_usdt": 31.472691514341356,
+        "long_net_usdt": 8.318794416270043,
+        "timeout_exits": 3
+      },
+      "2023": {
+        "return_pct": 74.35609219415585,
+        "max_drawdown_pct": 12.555698491110135,
+        "trades": 34,
+        "short_net_usdt": 9.52669535505454,
+        "long_net_usdt": 64.82939683910139,
+        "timeout_exits": 2
+      },
+      "2024": {
+        "return_pct": 100.46919982351847,
+        "max_drawdown_pct": 26.449568479062478,
+        "trades": 51,
+        "short_net_usdt": 82.68768261778305,
+        "long_net_usdt": 17.781517205735337,
+        "timeout_exits": 4
+      },
+      "2025": {
+        "return_pct": -4.684446285079545,
+        "max_drawdown_pct": 23.070446811855117,
+        "trades": 45,
+        "short_net_usdt": -0.7674563709955557,
+        "long_net_usdt": -3.91698991408394,
+        "timeout_exits": 7
+      }
+    }
+  },
+  "thresholds": [
+    {
+      "price_move_threshold_pct": 0.1,
+      "fixed": {
+        "mean_annual_return_pct": 60.33184275033078,
+        "mean_annual_max_drawdown_pct": 23.41197726153647,
+        "total_timeout_exits": 11,
+        "by_year": {
+          "2021": {
+            "return_pct": 70.89164670578575,
+            "max_drawdown_pct": 30.5161270082549,
+            "trades": 41,
+            "short_net_usdt": 86.00543082949675,
+            "long_net_usdt": -15.113784123711005,
+            "timeout_exits": 2
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 72.86336905415564,
+            "max_drawdown_pct": 13.263339649923001,
+            "trades": 34,
+            "short_net_usdt": 7.668623815054336,
+            "long_net_usdt": 65.1947452391014,
+            "timeout_exits": 0
+          },
+          "2024": {
+            "return_pct": 122.77155322618057,
+            "max_drawdown_pct": 22.61756646182186,
+            "trades": 51,
+            "short_net_usdt": 104.3138467004452,
+            "long_net_usdt": 18.45770652573532,
+            "timeout_exits": 1
+          },
+          "2025": {
+            "return_pct": -4.658841165079465,
+            "max_drawdown_pct": 23.04809575704283,
+            "trades": 45,
+            "short_net_usdt": -0.741851250995476,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 5
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 60.33184275033078,
+        "mean_annual_max_drawdown_pct": 23.41197726153647,
+        "total_timeout_exits": 11,
+        "by_year": {
+          "2021": {
+            "return_pct": 70.89164670578575,
+            "max_drawdown_pct": 30.5161270082549,
+            "trades": 41,
+            "short_net_usdt": 86.00543082949675,
+            "long_net_usdt": -15.113784123711005,
+            "timeout_exits": 2
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 72.86336905415564,
+            "max_drawdown_pct": 13.263339649923001,
+            "trades": 34,
+            "short_net_usdt": 7.668623815054336,
+            "long_net_usdt": 65.1947452391014,
+            "timeout_exits": 0
+          },
+          "2024": {
+            "return_pct": 122.77155322618057,
+            "max_drawdown_pct": 22.61756646182186,
+            "trades": 51,
+            "short_net_usdt": 104.3138467004452,
+            "long_net_usdt": 18.45770652573532,
+            "timeout_exits": 1
+          },
+          "2025": {
+            "return_pct": -4.658841165079465,
+            "max_drawdown_pct": 23.04809575704283,
+            "trades": 45,
+            "short_net_usdt": -0.741851250995476,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 5
+          }
+        }
+      }
+    },
+    {
+      "price_move_threshold_pct": 0.2,
+      "fixed": {
+        "mean_annual_return_pct": 60.06905211767912,
+        "mean_annual_max_drawdown_pct": 23.290057126223196,
+        "total_timeout_exits": 18,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 73.7916793341557,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 8.962282495054406,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 1
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -5.348520125079517,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 46,
+            "short_net_usdt": -0.3621753309955249,
+            "long_net_usdt": -4.986344794083939,
+            "timeout_exits": 8
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 60.20186688567912,
+        "mean_annual_max_drawdown_pct": 23.290057126223196,
+        "total_timeout_exits": 17,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 73.7916793341557,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 8.962282495054406,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 1
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -4.684446285079545,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 45,
+            "short_net_usdt": -0.7674563709955557,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 7
+          }
+        }
+      }
+    },
+    {
+      "price_move_threshold_pct": 0.3,
+      "fixed": {
+        "mean_annual_return_pct": 58.731471024387254,
+        "mean_annual_max_drawdown_pct": 23.418658650922207,
+        "total_timeout_exits": 21,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 66.82091730769633,
+            "max_drawdown_pct": 13.445615423233948,
+            "trades": 34,
+            "short_net_usdt": 2.5947999085949967,
+            "long_net_usdt": 64.22611739910138,
+            "timeout_exits": 3
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -5.06566356507949,
+            "max_drawdown_pct": 22.823537503226355,
+            "trades": 46,
+            "short_net_usdt": -0.07931877099548054,
+            "long_net_usdt": -4.986344794083939,
+            "timeout_exits": 9
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 60.31474945767914,
+        "mean_annual_max_drawdown_pct": 23.290057126223196,
+        "total_timeout_exits": 18,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 74.35609219415585,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 9.52669535505454,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 2
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -4.684446285079545,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 45,
+            "short_net_usdt": -0.7674563709955557,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 7
+          }
+        }
+      }
+    },
+    {
+      "price_move_threshold_pct": 0.35,
+      "fixed": {
+        "mean_annual_return_pct": 58.731471024387254,
+        "mean_annual_max_drawdown_pct": 23.418658650922207,
+        "total_timeout_exits": 21,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 66.82091730769633,
+            "max_drawdown_pct": 13.445615423233948,
+            "trades": 34,
+            "short_net_usdt": 2.5947999085949967,
+            "long_net_usdt": 64.22611739910138,
+            "timeout_exits": 3
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -5.06566356507949,
+            "max_drawdown_pct": 22.823537503226355,
+            "trades": 46,
+            "short_net_usdt": -0.07931877099548054,
+            "long_net_usdt": -4.986344794083939,
+            "timeout_exits": 9
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 60.31474945767914,
+        "mean_annual_max_drawdown_pct": 23.290057126223196,
+        "total_timeout_exits": 18,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 74.35609219415585,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 9.52669535505454,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 2
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -4.684446285079545,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 45,
+            "short_net_usdt": -0.7674563709955557,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 7
+          }
+        }
+      }
+    },
+    {
+      "price_move_threshold_pct": 0.4,
+      "fixed": {
+        "mean_annual_return_pct": 58.731471024387254,
+        "mean_annual_max_drawdown_pct": 23.418658650922207,
+        "total_timeout_exits": 21,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 66.82091730769633,
+            "max_drawdown_pct": 13.445615423233948,
+            "trades": 34,
+            "short_net_usdt": 2.5947999085949967,
+            "long_net_usdt": 64.22611739910138,
+            "timeout_exits": 3
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -5.06566356507949,
+            "max_drawdown_pct": 22.823537503226355,
+            "trades": 46,
+            "short_net_usdt": -0.07931877099548054,
+            "long_net_usdt": -4.986344794083939,
+            "timeout_exits": 9
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 60.31474945767914,
+        "mean_annual_max_drawdown_pct": 23.290057126223196,
+        "total_timeout_exits": 18,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 74.35609219415585,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 9.52669535505454,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 2
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -4.684446285079545,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 45,
+            "short_net_usdt": -0.7674563709955557,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 7
+          }
+        }
+      }
+    },
+    {
+      "price_move_threshold_pct": 0.45,
+      "fixed": {
+        "mean_annual_return_pct": 57.613517843398505,
+        "mean_annual_max_drawdown_pct": 23.3975412701786,
+        "total_timeout_exits": 23,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 61.981701482752555,
+            "max_drawdown_pct": 13.340028519515911,
+            "trades": 34,
+            "short_net_usdt": 1.1200026364863516,
+            "long_net_usdt": 60.861698846266194,
+            "timeout_exits": 4
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -5.8162136450794435,
+            "max_drawdown_pct": 22.823537503226355,
+            "trades": 46,
+            "short_net_usdt": -0.8298688509954375,
+            "long_net_usdt": -4.986344794083939,
+            "timeout_exits": 10
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 60.31474945767914,
+        "mean_annual_max_drawdown_pct": 23.290057126223196,
+        "total_timeout_exits": 18,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 74.35609219415585,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 9.52669535505454,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 2
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -4.684446285079545,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 45,
+            "short_net_usdt": -0.7674563709955557,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 7
+          }
+        }
+      }
+    },
+    {
+      "price_move_threshold_pct": 0.5,
+      "fixed": {
+        "mean_annual_return_pct": 57.613517843398505,
+        "mean_annual_max_drawdown_pct": 23.3975412701786,
+        "total_timeout_exits": 23,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 61.981701482752555,
+            "max_drawdown_pct": 13.340028519515911,
+            "trades": 34,
+            "short_net_usdt": 1.1200026364863516,
+            "long_net_usdt": 60.861698846266194,
+            "timeout_exits": 4
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -5.8162136450794435,
+            "max_drawdown_pct": 22.823537503226355,
+            "trades": 46,
+            "short_net_usdt": -0.8298688509954375,
+            "long_net_usdt": -4.986344794083939,
+            "timeout_exits": 10
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 60.31474945767914,
+        "mean_annual_max_drawdown_pct": 23.290057126223196,
+        "total_timeout_exits": 18,
+        "by_year": {
+          "2021": {
+            "return_pct": 68.90773628252742,
+            "max_drawdown_pct": 30.592367520234077,
+            "trades": 41,
+            "short_net_usdt": 83.46874580623843,
+            "long_net_usdt": -14.56100952371101,
+            "timeout_exits": 3
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 74.35609219415585,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 9.52669535505454,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 2
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -4.684446285079545,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 45,
+            "short_net_usdt": -0.7674563709955557,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 7
+          }
+        }
+      }
+    },
+    {
+      "price_move_threshold_pct": 0.6,
+      "fixed": {
+        "mean_annual_return_pct": 60.79753400101287,
+        "mean_annual_max_drawdown_pct": 22.201032009647143,
+        "total_timeout_exits": 25,
+        "by_year": {
+          "2021": {
+            "return_pct": 83.23909825059926,
+            "max_drawdown_pct": 25.99663531675005,
+            "trades": 41,
+            "short_net_usdt": 100.20926431786917,
+            "long_net_usdt": -16.97016606727002,
+            "timeout_exits": 4
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 61.981701482752555,
+            "max_drawdown_pct": 13.340028519515911,
+            "trades": 34,
+            "short_net_usdt": 1.1200026364863516,
+            "long_net_usdt": 60.861698846266194,
+            "timeout_exits": 4
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -4.227494825079447,
+            "max_drawdown_pct": 21.436723404053094,
+            "trades": 46,
+            "short_net_usdt": 0.7588499690045571,
+            "long_net_usdt": -4.986344794083939,
+            "timeout_exits": 11
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 63.18102185129351,
+        "mean_annual_max_drawdown_pct": 22.37091068552639,
+        "total_timeout_exits": 19,
+        "by_year": {
+          "2021": {
+            "return_pct": 83.23909825059926,
+            "max_drawdown_pct": 25.99663531675005,
+            "trades": 41,
+            "short_net_usdt": 100.20926431786917,
+            "long_net_usdt": -16.97016606727002,
+            "timeout_exits": 4
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 74.35609219415585,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 9.52669535505454,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 2
+          },
+          "2024": {
+            "return_pct": 123.2028791661806,
+            "max_drawdown_pct": 22.617015377276882,
+            "trades": 51,
+            "short_net_usdt": 105.72752938044519,
+            "long_net_usdt": 17.475349785735336,
+            "timeout_exits": 3
+          },
+          "2025": {
+            "return_pct": -4.684446285079545,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 45,
+            "short_net_usdt": -0.7674563709955557,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 7
+          }
+        }
+      }
+    },
+    {
+      "price_move_threshold_pct": 0.8,
+      "fixed": {
+        "mean_annual_return_pct": 56.817387679093365,
+        "mean_annual_max_drawdown_pct": 23.32211657305036,
+        "total_timeout_exits": 33,
+        "by_year": {
+          "2021": {
+            "return_pct": 83.23909825059926,
+            "max_drawdown_pct": 25.99663531675005,
+            "trades": 41,
+            "short_net_usdt": 100.20926431786917,
+            "long_net_usdt": -16.97016606727002,
+            "timeout_exits": 4
+          },
+          "2022": {
+            "return_pct": 31.926147439473567,
+            "max_drawdown_pct": 27.809237235920182,
+            "trades": 24,
+            "short_net_usdt": 24.942679223203513,
+            "long_net_usdt": 6.983468216270028,
+            "timeout_exits": 5
+          },
+          "2023": {
+            "return_pct": 67.98473376626632,
+            "max_drawdown_pct": 13.340028519515911,
+            "trades": 34,
+            "short_net_usdt": 6.730025080000175,
+            "long_net_usdt": 61.254708686266184,
+            "timeout_exits": 5
+          },
+          "2024": {
+            "return_pct": 104.76354856351853,
+            "max_drawdown_pct": 26.52608837703966,
+            "trades": 51,
+            "short_net_usdt": 86.82649971778315,
+            "long_net_usdt": 17.937048845735358,
+            "timeout_exits": 5
+          },
+          "2025": {
+            "return_pct": -3.8265896243908344,
+            "max_drawdown_pct": 22.938593416025988,
+            "trades": 46,
+            "short_net_usdt": -0.3540830703068073,
+            "long_net_usdt": -3.4725065540839575,
+            "timeout_exits": 14
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 58.634285982761085,
+        "mean_annual_max_drawdown_pct": 23.13742130588351,
+        "total_timeout_exits": 20,
+        "by_year": {
+          "2021": {
+            "return_pct": 83.23909825059926,
+            "max_drawdown_pct": 25.99663531675005,
+            "trades": 41,
+            "short_net_usdt": 100.20926431786917,
+            "long_net_usdt": -16.97016606727002,
+            "timeout_exits": 4
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 74.35609219415585,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 9.52669535505454,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 2
+          },
+          "2024": {
+            "return_pct": 100.46919982351847,
+            "max_drawdown_pct": 26.449568479062478,
+            "trades": 51,
+            "short_net_usdt": 82.68768261778305,
+            "long_net_usdt": 17.781517205735337,
+            "timeout_exits": 4
+          },
+          "2025": {
+            "return_pct": -4.684446285079545,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 45,
+            "short_net_usdt": -0.7674563709955557,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 7
+          }
+        }
+      }
+    },
+    {
+      "price_move_threshold_pct": 1.0,
+      "fixed": {
+        "mean_annual_return_pct": 56.965350159093376,
+        "mean_annual_max_drawdown_pct": 23.21404507223891,
+        "total_timeout_exits": 34,
+        "by_year": {
+          "2021": {
+            "return_pct": 83.23909825059926,
+            "max_drawdown_pct": 25.99663531675005,
+            "trades": 41,
+            "short_net_usdt": 100.20926431786917,
+            "long_net_usdt": -16.97016606727002,
+            "timeout_exits": 4
+          },
+          "2022": {
+            "return_pct": 31.926147439473567,
+            "max_drawdown_pct": 27.809237235920182,
+            "trades": 24,
+            "short_net_usdt": 24.942679223203513,
+            "long_net_usdt": 6.983468216270028,
+            "timeout_exits": 5
+          },
+          "2023": {
+            "return_pct": 67.98473376626632,
+            "max_drawdown_pct": 13.340028519515911,
+            "trades": 34,
+            "short_net_usdt": 6.730025080000175,
+            "long_net_usdt": 61.254708686266184,
+            "timeout_exits": 5
+          },
+          "2024": {
+            "return_pct": 104.76354856351853,
+            "max_drawdown_pct": 26.52608837703966,
+            "trades": 51,
+            "short_net_usdt": 86.82649971778315,
+            "long_net_usdt": 17.937048845735358,
+            "timeout_exits": 5
+          },
+          "2025": {
+            "return_pct": -3.0867772243908007,
+            "max_drawdown_pct": 22.398235911968744,
+            "trades": 46,
+            "short_net_usdt": 1.8995675696932022,
+            "long_net_usdt": -4.986344794083939,
+            "timeout_exits": 15
+          }
+        }
+      },
+      "atr_capped": {
+        "mean_annual_return_pct": 58.634285982761085,
+        "mean_annual_max_drawdown_pct": 23.13742130588351,
+        "total_timeout_exits": 20,
+        "by_year": {
+          "2021": {
+            "return_pct": 83.23909825059926,
+            "max_drawdown_pct": 25.99663531675005,
+            "trades": 41,
+            "short_net_usdt": 100.20926431786917,
+            "long_net_usdt": -16.97016606727002,
+            "timeout_exits": 4
+          },
+          "2022": {
+            "return_pct": 39.7914859306114,
+            "max_drawdown_pct": 27.61475743063977,
+            "trades": 24,
+            "short_net_usdt": 31.472691514341356,
+            "long_net_usdt": 8.318794416270043,
+            "timeout_exits": 3
+          },
+          "2023": {
+            "return_pct": 74.35609219415585,
+            "max_drawdown_pct": 12.555698491110135,
+            "trades": 34,
+            "short_net_usdt": 9.52669535505454,
+            "long_net_usdt": 64.82939683910139,
+            "timeout_exits": 2
+          },
+          "2024": {
+            "return_pct": 100.46919982351847,
+            "max_drawdown_pct": 26.449568479062478,
+            "trades": 51,
+            "short_net_usdt": 82.68768261778305,
+            "long_net_usdt": 17.781517205735337,
+            "timeout_exits": 4
+          },
+          "2025": {
+            "return_pct": -4.684446285079545,
+            "max_drawdown_pct": 23.070446811855117,
+            "trades": 45,
+            "short_net_usdt": -0.7674563709955557,
+            "long_net_usdt": -3.91698991408394,
+            "timeout_exits": 7
+          }
+        }
+      }
+    }
+  ],
+  "sample_years": [
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "er_hours": 5,
+  "er_threshold": 0.25
+}

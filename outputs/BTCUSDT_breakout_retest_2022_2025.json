@@ -1,0 +1,625 @@
+{
+  "sample_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "starting_equity_usdt": 500,
+  "hard_stop_pct": 2,
+  "levels": "latest confirmed 1h swing high or low known before breakout candle open",
+  "max_hours_breakout_to_retest": 8,
+  "max_hours_retest_to_original_signal": 1,
+  "results": {
+    "2022": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "long_trades": 14,
+        "short_trades": 10,
+        "long_net_usdt": 39.51012396599913,
+        "short_net_usdt": 159.39297618353208,
+        "timeout_exits": 3,
+        "signal_checks": null,
+        "verified_filtered_side_trades": []
+      },
+      "breakout_retest_long": {
+        "return_pct": 28.386843208005953,
+        "max_drawdown_pct": 8.466692599713044,
+        "trades": 10,
+        "long_trades": 0,
+        "short_trades": 10,
+        "long_net_usdt": 0,
+        "short_net_usdt": 141.93421604002998,
+        "timeout_exits": 3,
+        "signal_checks": {
+          "LONG": {
+            "signals": 14,
+            "breakoutActive": 6,
+            "retestConfirmed": 0
+          },
+          "SHORT": {
+            "signals": 10,
+            "breakoutActive": 7,
+            "retestConfirmed": 0
+          }
+        },
+        "verified_filtered_side_trades": []
+      },
+      "breakout_retest_short": {
+        "return_pct": 8.638940424084328,
+        "max_drawdown_pct": 26.985859426435642,
+        "trades": 14,
+        "long_trades": 14,
+        "short_trades": 0,
+        "long_net_usdt": 43.19470212042171,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "signal_checks": {
+          "LONG": {
+            "signals": 14,
+            "breakoutActive": 6,
+            "retestConfirmed": 0
+          },
+          "SHORT": {
+            "signals": 10,
+            "breakoutActive": 7,
+            "retestConfirmed": 0
+          }
+        },
+        "verified_filtered_side_trades": []
+      },
+      "breakout_retest_both": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "signal_checks": {
+          "LONG": {
+            "signals": 14,
+            "breakoutActive": 6,
+            "retestConfirmed": 0
+          },
+          "SHORT": {
+            "signals": 10,
+            "breakoutActive": 7,
+            "retestConfirmed": 0
+          }
+        },
+        "verified_filtered_side_trades": []
+      }
+    },
+    "2023": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "long_trades": 26,
+        "short_trades": 8,
+        "long_net_usdt": 318.1803060101906,
+        "short_net_usdt": 48.371890542657944,
+        "timeout_exits": 2,
+        "signal_checks": null,
+        "verified_filtered_side_trades": []
+      },
+      "breakout_retest_long": {
+        "return_pct": 7.509008782336157,
+        "max_drawdown_pct": 8.69821643082782,
+        "trades": 8,
+        "long_trades": 0,
+        "short_trades": 8,
+        "long_net_usdt": 0,
+        "short_net_usdt": 37.54504391168087,
+        "timeout_exits": 2,
+        "signal_checks": {
+          "LONG": {
+            "signals": 26,
+            "breakoutActive": 12,
+            "retestConfirmed": 0
+          },
+          "SHORT": {
+            "signals": 8,
+            "breakoutActive": 2,
+            "retestConfirmed": 0
+          }
+        },
+        "verified_filtered_side_trades": []
+      },
+      "breakout_retest_short": {
+        "return_pct": 60.883995089832645,
+        "max_drawdown_pct": 13.793955648408652,
+        "trades": 26,
+        "long_trades": 26,
+        "short_trades": 0,
+        "long_net_usdt": 304.41997544916353,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "signal_checks": {
+          "LONG": {
+            "signals": 26,
+            "breakoutActive": 12,
+            "retestConfirmed": 0
+          },
+          "SHORT": {
+            "signals": 8,
+            "breakoutActive": 2,
+            "retestConfirmed": 0
+          }
+        },
+        "verified_filtered_side_trades": []
+      },
+      "breakout_retest_both": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "signal_checks": {
+          "LONG": {
+            "signals": 26,
+            "breakoutActive": 12,
+            "retestConfirmed": 0
+          },
+          "SHORT": {
+            "signals": 8,
+            "breakoutActive": 2,
+            "retestConfirmed": 0
+          }
+        },
+        "verified_filtered_side_trades": []
+      }
+    },
+    "2024": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "long_trades": 33,
+        "short_trades": 18,
+        "long_net_usdt": 83.15390376541647,
+        "short_net_usdt": 571.4997873059131,
+        "timeout_exits": 3,
+        "signal_checks": null,
+        "verified_filtered_side_trades": []
+      },
+      "breakout_retest_long": {
+        "return_pct": 78.41599129936077,
+        "max_drawdown_pct": 20.15732706366623,
+        "trades": 19,
+        "long_trades": 1,
+        "short_trades": 18,
+        "long_net_usdt": -28.553665680000673,
+        "short_net_usdt": 420.6336221768046,
+        "timeout_exits": 3,
+        "signal_checks": {
+          "LONG": {
+            "signals": 33,
+            "breakoutActive": 13,
+            "retestConfirmed": 1
+          },
+          "SHORT": {
+            "signals": 18,
+            "breakoutActive": 12,
+            "retestConfirmed": 5
+          }
+        },
+        "verified_filtered_side_trades": [
+          {
+            "side": "LONG",
+            "breakout_utc": "2024-11-03T19:45:00.000Z",
+            "retest_utc": "2024-11-03T20:15:00.000Z",
+            "entry_utc": "2024-11-03T21:00:00.000Z",
+            "level": 68535.9,
+            "net_usdt": -28.553665680000673
+          }
+        ]
+      },
+      "breakout_retest_short": {
+        "return_pct": 65.91706641189687,
+        "max_drawdown_pct": 22.92765145541963,
+        "trades": 38,
+        "long_trades": 33,
+        "short_trades": 5,
+        "long_net_usdt": 113.06189422342096,
+        "short_net_usdt": 216.52343783606318,
+        "timeout_exits": 0,
+        "signal_checks": {
+          "LONG": {
+            "signals": 33,
+            "breakoutActive": 13,
+            "retestConfirmed": 1
+          },
+          "SHORT": {
+            "signals": 18,
+            "breakoutActive": 12,
+            "retestConfirmed": 5
+          }
+        },
+        "verified_filtered_side_trades": [
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-03-27T15:30:00.000Z",
+            "retest_utc": "2024-03-27T15:45:00.000Z",
+            "entry_utc": "2024-03-27T15:45:00.000Z",
+            "level": 69468.0,
+            "net_usdt": 11.973997564097676
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-07-29T13:45:00.000Z",
+            "retest_utc": "2024-07-29T14:00:00.000Z",
+            "entry_utc": "2024-07-29T14:45:00.000Z",
+            "level": 69371.0,
+            "net_usdt": 68.58253753741842
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-11-26T07:15:00.000Z",
+            "retest_utc": "2024-11-26T07:45:00.000Z",
+            "entry_utc": "2024-11-26T08:15:00.000Z",
+            "level": 94135.0,
+            "net_usdt": 35.75624117031465
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-12-05T15:30:00.000Z",
+            "retest_utc": "2024-12-05T15:45:00.000Z",
+            "entry_utc": "2024-12-05T16:30:00.000Z",
+            "level": 102382.3,
+            "net_usdt": 117.02648099855915
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-12-10T15:30:00.000Z",
+            "retest_utc": "2024-12-10T15:45:00.000Z",
+            "entry_utc": "2024-12-10T16:15:00.000Z",
+            "level": 96871.5,
+            "net_usdt": -16.815819434326723
+          }
+        ]
+      },
+      "breakout_retest_both": {
+        "return_pct": 28.18550988027393,
+        "max_drawdown_pct": 12.461078348672972,
+        "trades": 6,
+        "long_trades": 1,
+        "short_trades": 5,
+        "long_net_usdt": -18.72371520000044,
+        "short_net_usdt": 159.6512646013702,
+        "timeout_exits": 0,
+        "signal_checks": {
+          "LONG": {
+            "signals": 33,
+            "breakoutActive": 13,
+            "retestConfirmed": 1
+          },
+          "SHORT": {
+            "signals": 18,
+            "breakoutActive": 12,
+            "retestConfirmed": 5
+          }
+        },
+        "verified_filtered_side_trades": [
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-03-27T15:30:00.000Z",
+            "retest_utc": "2024-03-27T15:45:00.000Z",
+            "entry_utc": "2024-03-27T15:45:00.000Z",
+            "level": 69468.0,
+            "net_usdt": 9.355858914298196
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-07-29T13:45:00.000Z",
+            "retest_utc": "2024-07-29T14:00:00.000Z",
+            "entry_utc": "2024-07-29T14:45:00.000Z",
+            "level": 69371.0,
+            "net_usdt": 47.860770102192895
+          },
+          {
+            "side": "LONG",
+            "breakout_utc": "2024-11-03T19:45:00.000Z",
+            "retest_utc": "2024-11-03T20:15:00.000Z",
+            "entry_utc": "2024-11-03T21:00:00.000Z",
+            "level": 68535.9,
+            "net_usdt": -18.72371520000044
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-11-26T07:15:00.000Z",
+            "retest_utc": "2024-11-26T07:45:00.000Z",
+            "entry_utc": "2024-11-26T08:15:00.000Z",
+            "level": 94135.0,
+            "net_usdt": 27.146327207367648
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-12-05T15:30:00.000Z",
+            "retest_utc": "2024-12-05T15:45:00.000Z",
+            "entry_utc": "2024-12-05T16:30:00.000Z",
+            "level": 102382.3,
+            "net_usdt": 88.53330549325652
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2024-12-10T15:30:00.000Z",
+            "retest_utc": "2024-12-10T15:45:00.000Z",
+            "entry_utc": "2024-12-10T16:15:00.000Z",
+            "level": 96871.5,
+            "net_usdt": -13.24499711574504
+          }
+        ]
+      }
+    },
+    "2025": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "long_trades": 20,
+        "short_trades": 25,
+        "long_net_usdt": -13.694851903003343,
+        "short_net_usdt": -8.92475531130142,
+        "timeout_exits": 7,
+        "signal_checks": null,
+        "verified_filtered_side_trades": []
+      },
+      "breakout_retest_long": {
+        "return_pct": -7.1217397394707005,
+        "max_drawdown_pct": 20.528424734299865,
+        "trades": 28,
+        "long_trades": 3,
+        "short_trades": 25,
+        "long_net_usdt": -25.65358560674044,
+        "short_net_usdt": -9.955113090612917,
+        "timeout_exits": 7,
+        "signal_checks": {
+          "LONG": {
+            "signals": 20,
+            "breakoutActive": 9,
+            "retestConfirmed": 3
+          },
+          "SHORT": {
+            "signals": 25,
+            "breakoutActive": 15,
+            "retestConfirmed": 8
+          }
+        },
+        "verified_filtered_side_trades": [
+          {
+            "side": "LONG",
+            "breakout_utc": "2025-02-14T17:00:00.000Z",
+            "retest_utc": "2025-02-14T17:15:00.000Z",
+            "entry_utc": "2025-02-14T17:45:00.000Z",
+            "level": 97171.7,
+            "net_usdt": -16.224401586740104
+          },
+          {
+            "side": "LONG",
+            "breakout_utc": "2025-04-17T17:00:00.000Z",
+            "retest_utc": "2025-04-17T17:15:00.000Z",
+            "entry_utc": "2025-04-17T18:15:00.000Z",
+            "level": 84831.3,
+            "net_usdt": -11.168610500000156
+          },
+          {
+            "side": "LONG",
+            "breakout_utc": "2025-06-14T21:30:00.000Z",
+            "retest_utc": "2025-06-14T21:45:00.000Z",
+            "entry_utc": "2025-06-14T22:00:00.000Z",
+            "level": 105070.8,
+            "net_usdt": 1.7394264799998198
+          }
+        ]
+      },
+      "breakout_retest_short": {
+        "return_pct": 9.883259840681369,
+        "max_drawdown_pct": 14.003585698783494,
+        "trades": 28,
+        "long_trades": 20,
+        "short_trades": 8,
+        "long_net_usdt": -13.101387828733259,
+        "short_net_usdt": 62.517687032140216,
+        "timeout_exits": 3,
+        "signal_checks": {
+          "LONG": {
+            "signals": 20,
+            "breakoutActive": 9,
+            "retestConfirmed": 3
+          },
+          "SHORT": {
+            "signals": 25,
+            "breakoutActive": 15,
+            "retestConfirmed": 8
+          }
+        },
+        "verified_filtered_side_trades": [
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-01-19T21:30:00.000Z",
+            "retest_utc": "2025-01-19T21:45:00.000Z",
+            "entry_utc": "2025-01-19T22:45:00.000Z",
+            "level": 104471.3,
+            "net_usdt": 34.20165288068051
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-03-03T15:00:00.000Z",
+            "retest_utc": "2025-03-03T15:30:00.000Z",
+            "entry_utc": "2025-03-03T15:30:00.000Z",
+            "level": 91094.6,
+            "net_usdt": 26.096125190589706
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-04-04T11:00:00.000Z",
+            "retest_utc": "2025-04-04T11:15:00.000Z",
+            "entry_utc": "2025-04-04T11:45:00.000Z",
+            "level": 82585.0,
+            "net_usdt": -30.3967813200003
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-04-15T14:30:00.000Z",
+            "retest_utc": "2025-04-15T15:30:00.000Z",
+            "entry_utc": "2025-04-15T15:30:00.000Z",
+            "level": 85327.3,
+            "net_usdt": 35.375506155869274
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-05-26T17:00:00.000Z",
+            "retest_utc": "2025-05-26T17:15:00.000Z",
+            "entry_utc": "2025-05-26T18:00:00.000Z",
+            "level": 109423.3,
+            "net_usdt": 1.0911451200001174
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-09-14T03:15:00.000Z",
+            "retest_utc": "2025-09-14T03:30:00.000Z",
+            "entry_utc": "2025-09-14T04:15:00.000Z",
+            "level": 115693.4,
+            "net_usdt": -6.601973760000081
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-10-20T17:15:00.000Z",
+            "retest_utc": "2025-10-20T17:30:00.000Z",
+            "entry_utc": "2025-10-20T18:00:00.000Z",
+            "level": 110537.8,
+            "net_usdt": -16.27504367999977
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-10-29T14:15:00.000Z",
+            "retest_utc": "2025-10-29T15:00:00.000Z",
+            "entry_utc": "2025-10-29T15:00:00.000Z",
+            "level": 112665.3,
+            "net_usdt": 19.027056445000753
+          }
+        ]
+      },
+      "breakout_retest_both": {
+        "return_pct": 6.817627689079919,
+        "max_drawdown_pct": 10.609853944201165,
+        "trades": 11,
+        "long_trades": 3,
+        "short_trades": 8,
+        "long_net_usdt": -27.526261526740477,
+        "short_net_usdt": 61.614399972140205,
+        "timeout_exits": 3,
+        "signal_checks": {
+          "LONG": {
+            "signals": 20,
+            "breakoutActive": 9,
+            "retestConfirmed": 3
+          },
+          "SHORT": {
+            "signals": 25,
+            "breakoutActive": 15,
+            "retestConfirmed": 8
+          }
+        },
+        "verified_filtered_side_trades": [
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-01-19T21:30:00.000Z",
+            "retest_utc": "2025-01-19T21:45:00.000Z",
+            "entry_utc": "2025-01-19T22:45:00.000Z",
+            "level": 104471.3,
+            "net_usdt": 34.20165288068051
+          },
+          {
+            "side": "LONG",
+            "breakout_utc": "2025-02-14T17:00:00.000Z",
+            "retest_utc": "2025-02-14T17:15:00.000Z",
+            "entry_utc": "2025-02-14T17:45:00.000Z",
+            "level": 97171.7,
+            "net_usdt": -17.1788985267401
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-03-03T15:00:00.000Z",
+            "retest_utc": "2025-03-03T15:30:00.000Z",
+            "entry_utc": "2025-03-03T15:30:00.000Z",
+            "level": 91094.6,
+            "net_usdt": 26.096125190589706
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-04-04T11:00:00.000Z",
+            "retest_utc": "2025-04-04T11:15:00.000Z",
+            "entry_utc": "2025-04-04T11:45:00.000Z",
+            "level": 82585.0,
+            "net_usdt": -29.50275834000029
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-04-15T14:30:00.000Z",
+            "retest_utc": "2025-04-15T15:30:00.000Z",
+            "entry_utc": "2025-04-15T15:30:00.000Z",
+            "level": 85327.3,
+            "net_usdt": 34.119913915869255
+          },
+          {
+            "side": "LONG",
+            "breakout_utc": "2025-04-17T17:00:00.000Z",
+            "retest_utc": "2025-04-17T17:15:00.000Z",
+            "entry_utc": "2025-04-17T18:15:00.000Z",
+            "level": 84831.3,
+            "net_usdt": -12.323984000000172
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-05-26T17:00:00.000Z",
+            "retest_utc": "2025-05-26T17:15:00.000Z",
+            "entry_utc": "2025-05-26T18:00:00.000Z",
+            "level": 109423.3,
+            "net_usdt": 1.0911451200001174
+          },
+          {
+            "side": "LONG",
+            "breakout_utc": "2025-06-14T21:30:00.000Z",
+            "retest_utc": "2025-06-14T21:45:00.000Z",
+            "entry_utc": "2025-06-14T22:00:00.000Z",
+            "level": 105070.8,
+            "net_usdt": 1.9766209999997955
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-09-14T03:15:00.000Z",
+            "retest_utc": "2025-09-14T03:30:00.000Z",
+            "entry_utc": "2025-09-14T04:15:00.000Z",
+            "level": 115693.4,
+            "net_usdt": -6.3268915200000775
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-10-20T17:15:00.000Z",
+            "retest_utc": "2025-10-20T17:30:00.000Z",
+            "entry_utc": "2025-10-20T18:00:00.000Z",
+            "level": 110537.8,
+            "net_usdt": -16.27504367999977
+          },
+          {
+            "side": "SHORT",
+            "breakout_utc": "2025-10-29T14:15:00.000Z",
+            "retest_utc": "2025-10-29T15:00:00.000Z",
+            "entry_utc": "2025-10-29T15:00:00.000Z",
+            "level": 112665.3,
+            "net_usdt": 18.21025640500075
+          }
+        ]
+      }
+    }
+  }
+}

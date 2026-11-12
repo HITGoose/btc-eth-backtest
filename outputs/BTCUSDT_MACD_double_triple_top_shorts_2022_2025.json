@@ -1,0 +1,539 @@
+{
+  "sample_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "starting_equity_usdt": 500,
+  "logic": {
+    "macd": [
+      12,
+      26,
+      9
+    ],
+    "timeframe_minutes": 15,
+    "pivot_bars_on_each_side": 2,
+    "max_bars_between_adjacent_peaks": 32,
+    "leg_definition": "previous confirmed swing low through price swing high, inclusive",
+    "strictly_rising_price_peaks": true,
+    "nonincreasing_histogram_maxima": true,
+    "entry": "following 15m open if flat"
+  },
+  "results": {
+    "original_shorts_control": {
+      "2022": {
+        "return_pct": 28.386843208005953,
+        "ending_equity_usdt": 641.9342160400298,
+        "max_drawdown_pct": 8.466692599713044,
+        "trades": 10,
+        "wins": 5,
+        "losses": 5,
+        "short_net_usdt": 141.93421604002998,
+        "timeout_exits": 3,
+        "rejected_entries": 0
+      },
+      "2023": {
+        "return_pct": 7.509008782336157,
+        "ending_equity_usdt": 537.5450439116808,
+        "max_drawdown_pct": 8.69821643082782,
+        "trades": 8,
+        "wins": 4,
+        "losses": 4,
+        "short_net_usdt": 37.54504391168087,
+        "timeout_exits": 2,
+        "rejected_entries": 0
+      },
+      "2024": {
+        "return_pct": 84.60476580339164,
+        "ending_equity_usdt": 923.0238290169582,
+        "max_drawdown_pct": 20.076802533282855,
+        "trades": 18,
+        "wins": 11,
+        "losses": 7,
+        "short_net_usdt": 423.02382901695773,
+        "timeout_exits": 3,
+        "rejected_entries": 0
+      },
+      "2025": {
+        "return_pct": -2.2441020222602637,
+        "ending_equity_usdt": 488.77948988869866,
+        "max_drawdown_pct": 16.354526682129578,
+        "trades": 25,
+        "wins": 12,
+        "losses": 13,
+        "short_net_usdt": -11.220510111301353,
+        "timeout_exits": 7,
+        "rejected_entries": 0
+      }
+    },
+    "double_top_short": {
+      "2022": {
+        "return_pct": -58.754946935788354,
+        "ending_equity_usdt": 206.2252653210582,
+        "max_drawdown_pct": 59.88092319077531,
+        "trades": 437,
+        "wins": 173,
+        "losses": 264,
+        "short_net_usdt": -293.77473467894214,
+        "timeout_exits": 33,
+        "rejected_entries": 0
+      },
+      "2023": {
+        "return_pct": -75.65201406163786,
+        "ending_equity_usdt": 121.73992969181074,
+        "max_drawdown_pct": 77.24874303587279,
+        "trades": 453,
+        "wins": 166,
+        "losses": 287,
+        "short_net_usdt": -378.2600703081893,
+        "timeout_exits": 49,
+        "rejected_entries": 0
+      },
+      "2024": {
+        "return_pct": -78.95494331982624,
+        "ending_equity_usdt": 105.22528340086878,
+        "max_drawdown_pct": 82.0072521785168,
+        "trades": 533,
+        "wins": 197,
+        "losses": 336,
+        "short_net_usdt": -394.7747165991314,
+        "timeout_exits": 34,
+        "rejected_entries": 0
+      },
+      "2025": {
+        "return_pct": -81.55295462568873,
+        "ending_equity_usdt": 92.23522687155639,
+        "max_drawdown_pct": 85.40000652944244,
+        "trades": 554,
+        "wins": 188,
+        "losses": 366,
+        "short_net_usdt": -407.7647731284442,
+        "timeout_exits": 47,
+        "rejected_entries": 0
+      }
+    },
+    "triple_top_short": {
+      "2022": {
+        "return_pct": 3.857692799030099,
+        "ending_equity_usdt": 519.2884639951506,
+        "max_drawdown_pct": 18.299548194282565,
+        "trades": 38,
+        "wins": 14,
+        "losses": 24,
+        "short_net_usdt": 19.28846399515037,
+        "timeout_exits": 4,
+        "rejected_entries": 0
+      },
+      "2023": {
+        "return_pct": -12.459631242052305,
+        "ending_equity_usdt": 437.70184378973846,
+        "max_drawdown_pct": 16.933323184396876,
+        "trades": 42,
+        "wins": 15,
+        "losses": 27,
+        "short_net_usdt": -62.29815621026148,
+        "timeout_exits": 5,
+        "rejected_entries": 0
+      },
+      "2024": {
+        "return_pct": -20.687209488849245,
+        "ending_equity_usdt": 396.56395255575376,
+        "max_drawdown_pct": 37.9539818055958,
+        "trades": 67,
+        "wins": 24,
+        "losses": 43,
+        "short_net_usdt": -103.43604744424613,
+        "timeout_exits": 6,
+        "rejected_entries": 0
+      },
+      "2025": {
+        "return_pct": -39.1080638360731,
+        "ending_equity_usdt": 304.45968081963446,
+        "max_drawdown_pct": 40.03221747675656,
+        "trades": 77,
+        "wins": 27,
+        "losses": 50,
+        "short_net_usdt": -195.54031918036557,
+        "timeout_exits": 6,
+        "rejected_entries": 0
+      }
+    }
+  },
+  "confirmed_pattern_counts": {
+    "2022": {
+      "2": 445,
+      "3": 38
+    },
+    "2023": {
+      "2": 460,
+      "3": 42
+    },
+    "2024": {
+      "2": 535,
+      "3": 67
+    },
+    "2025": {
+      "2": 567,
+      "3": 79
+    }
+  },
+  "verified_pattern_trade_examples": {
+    "double_top_short": {
+      "2022": [
+        {
+          "opened": "2022-01-01T14:15:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2022-01-01T11:45:00+08:00",
+              "leg_start": "2022-01-01T10:30:00+08:00",
+              "price_high": 46871.0,
+              "histogram_max": 70.16526850304562
+            },
+            {
+              "peak_open_time": "2022-01-01T13:30:00+08:00",
+              "leg_start": "2022-01-01T12:00:00+08:00",
+              "price_high": 47552.0,
+              "histogram_max": 53.56480913307546
+            }
+          ],
+          "net_usdt": 6.089647199999978
+        },
+        {
+          "opened": "2022-01-02T12:15:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2022-01-02T10:15:00+08:00",
+              "leg_start": "2022-01-02T09:30:00+08:00",
+              "price_high": 47416.0,
+              "histogram_max": -12.782601500065603
+            },
+            {
+              "peak_open_time": "2022-01-02T11:30:00+08:00",
+              "leg_start": "2022-01-02T11:15:00+08:00",
+              "price_high": 47450.5,
+              "histogram_max": -15.947518980018856
+            }
+          ],
+          "net_usdt": 2.997568699999989
+        }
+      ],
+      "2023": [
+        {
+          "opened": "2023-01-02T02:00:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2023-01-01T22:30:00+08:00",
+              "leg_start": "2023-01-01T17:00:00+08:00",
+              "price_high": 16569.0,
+              "histogram_max": 4.238954747836022
+            },
+            {
+              "peak_open_time": "2023-01-02T01:15:00+08:00",
+              "leg_start": "2023-01-02T00:30:00+08:00",
+              "price_high": 16609.5,
+              "histogram_max": 1.8436859639447096
+            }
+          ],
+          "net_usdt": -2.6456999999998514
+        },
+        {
+          "opened": "2023-01-02T07:45:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2023-01-02T06:00:00+08:00",
+              "leg_start": "2023-01-02T03:45:00+08:00",
+              "price_high": 16614.5,
+              "histogram_max": 2.3269872033838706
+            },
+            {
+              "peak_open_time": "2023-01-02T07:00:00+08:00",
+              "leg_start": "2023-01-02T06:15:00+08:00",
+              "price_high": 16625.5,
+              "histogram_max": -1.6095866984136649
+            }
+          ],
+          "net_usdt": 3.704244300000162
+        }
+      ],
+      "2024": [
+        {
+          "opened": "2024-01-01T21:15:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2024-01-01T19:00:00+08:00",
+              "leg_start": "2024-01-01T18:15:00+08:00",
+              "price_high": 42809.6,
+              "histogram_max": 25.919744332871936
+            },
+            {
+              "peak_open_time": "2024-01-01T20:30:00+08:00",
+              "leg_start": "2024-01-01T19:30:00+08:00",
+              "price_high": 42820.0,
+              "histogram_max": 5.887069576915955
+            }
+          ],
+          "net_usdt": -2.882883039999855
+        },
+        {
+          "opened": "2024-01-02T12:15:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2024-01-02T09:00:00+08:00",
+              "leg_start": "2024-01-02T06:15:00+08:00",
+              "price_high": 45493.6,
+              "histogram_max": 119.5197677432792
+            },
+            {
+              "peak_open_time": "2024-01-02T11:30:00+08:00",
+              "leg_start": "2024-01-02T11:00:00+08:00",
+              "price_high": 45578.9,
+              "histogram_max": 28.796895125885158
+            }
+          ],
+          "net_usdt": 0.012638160000162315
+        }
+      ],
+      "2025": [
+        {
+          "opened": "2025-01-02T00:30:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2025-01-01T23:00:00+08:00",
+              "leg_start": "2025-01-01T22:30:00+08:00",
+              "price_high": 94244.8,
+              "histogram_max": 60.33519906898621
+            },
+            {
+              "peak_open_time": "2025-01-01T23:45:00+08:00",
+              "leg_start": "2025-01-01T23:15:00+08:00",
+              "price_high": 94481.4,
+              "histogram_max": 59.23209953286964
+            }
+          ],
+          "net_usdt": 2.5005832800003702
+        },
+        {
+          "opened": "2025-01-02T05:00:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2025-01-01T23:45:00+08:00",
+              "leg_start": "2025-01-01T23:15:00+08:00",
+              "price_high": 94481.4,
+              "histogram_max": 59.23209953286964
+            },
+            {
+              "peak_open_time": "2025-01-02T04:15:00+08:00",
+              "leg_start": "2025-01-02T03:30:00+08:00",
+              "price_high": 94863.8,
+              "histogram_max": 45.7045579685867
+            }
+          ],
+          "net_usdt": -0.3716918400001596
+        }
+      ]
+    },
+    "triple_top_short": {
+      "2022": [
+        {
+          "opened": "2022-01-11T10:15:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2022-01-11T06:00:00+08:00",
+              "leg_start": "2022-01-11T04:00:00+08:00",
+              "price_high": 41825.0,
+              "histogram_max": 43.311672377790515
+            },
+            {
+              "peak_open_time": "2022-01-11T07:30:00+08:00",
+              "leg_start": "2022-01-11T07:00:00+08:00",
+              "price_high": 41860.0,
+              "histogram_max": 8.473874273534918
+            },
+            {
+              "peak_open_time": "2022-01-11T09:30:00+08:00",
+              "leg_start": "2022-01-11T09:00:00+08:00",
+              "price_high": 42073.5,
+              "histogram_max": -6.983103808434777
+            }
+          ],
+          "net_usdt": -18.690798800000007
+        },
+        {
+          "opened": "2022-01-14T13:00:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2022-01-14T07:30:00+08:00",
+              "leg_start": "2022-01-14T06:30:00+08:00",
+              "price_high": 42717.5,
+              "histogram_max": 35.41860866931256
+            },
+            {
+              "peak_open_time": "2022-01-14T08:45:00+08:00",
+              "leg_start": "2022-01-14T08:00:00+08:00",
+              "price_high": 42745.0,
+              "histogram_max": 30.194063701250755
+            },
+            {
+              "peak_open_time": "2022-01-14T12:15:00+08:00",
+              "leg_start": "2022-01-14T12:00:00+08:00",
+              "price_high": 42834.0,
+              "histogram_max": 28.204424880145567
+            }
+          ],
+          "net_usdt": -3.364480000000098
+        }
+      ],
+      "2023": [
+        {
+          "opened": "2023-01-06T04:30:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2023-01-05T21:15:00+08:00",
+              "leg_start": "2023-01-05T19:15:00+08:00",
+              "price_high": 16823.5,
+              "histogram_max": 3.155310491616427
+            },
+            {
+              "peak_open_time": "2023-01-06T01:00:00+08:00",
+              "leg_start": "2023-01-06T00:30:00+08:00",
+              "price_high": 16837.0,
+              "histogram_max": 2.546564361284881
+            },
+            {
+              "peak_open_time": "2023-01-06T03:45:00+08:00",
+              "leg_start": "2023-01-06T03:30:00+08:00",
+              "price_high": 16864.0,
+              "histogram_max": 2.297492212418083
+            }
+          ],
+          "net_usdt": -1.1450168000000267
+        },
+        {
+          "opened": "2023-01-09T23:45:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2023-01-09T18:30:00+08:00",
+              "leg_start": "2023-01-09T16:00:00+08:00",
+              "price_high": 17271.0,
+              "histogram_max": 2.4774344486462994
+            },
+            {
+              "peak_open_time": "2023-01-09T21:30:00+08:00",
+              "leg_start": "2023-01-09T20:30:00+08:00",
+              "price_high": 17281.5,
+              "histogram_max": -0.7777548896449069
+            },
+            {
+              "peak_open_time": "2023-01-09T23:00:00+08:00",
+              "leg_start": "2023-01-09T21:45:00+08:00",
+              "price_high": 17300.0,
+              "histogram_max": -2.2357458260054326
+            }
+          ],
+          "net_usdt": 0.01365119999984745
+        }
+      ],
+      "2024": [
+        {
+          "opened": "2024-01-04T11:30:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2024-01-04T05:45:00+08:00",
+              "leg_start": "2024-01-04T05:00:00+08:00",
+              "price_high": 42995.0,
+              "histogram_max": 65.9521932798749
+            },
+            {
+              "peak_open_time": "2024-01-04T08:15:00+08:00",
+              "leg_start": "2024-01-04T07:00:00+08:00",
+              "price_high": 43019.0,
+              "histogram_max": 35.907296273778144
+            },
+            {
+              "peak_open_time": "2024-01-04T10:45:00+08:00",
+              "leg_start": "2024-01-04T09:30:00+08:00",
+              "price_high": 43270.0,
+              "histogram_max": 34.731512131176196
+            }
+          ],
+          "net_usdt": -0.5816564799999324
+        },
+        {
+          "opened": "2024-01-05T05:15:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2024-01-05T01:15:00+08:00",
+              "leg_start": "2024-01-05T00:30:00+08:00",
+              "price_high": 44270.6,
+              "histogram_max": 37.36489313591059
+            },
+            {
+              "peak_open_time": "2024-01-05T03:30:00+08:00",
+              "leg_start": "2024-01-05T01:30:00+08:00",
+              "price_high": 44477.9,
+              "histogram_max": 6.909443258732836
+            },
+            {
+              "peak_open_time": "2024-01-05T04:30:00+08:00",
+              "leg_start": "2024-01-05T04:00:00+08:00",
+              "price_high": 44875.5,
+              "histogram_max": -16.731129741661476
+            }
+          ],
+          "net_usdt": -7.551632479999913
+        }
+      ],
+      "2025": [
+        {
+          "opened": "2025-01-02T05:00:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2025-01-01T23:00:00+08:00",
+              "leg_start": "2025-01-01T22:30:00+08:00",
+              "price_high": 94244.8,
+              "histogram_max": 60.33519906898621
+            },
+            {
+              "peak_open_time": "2025-01-01T23:45:00+08:00",
+              "leg_start": "2025-01-01T23:15:00+08:00",
+              "price_high": 94481.4,
+              "histogram_max": 59.23209953286964
+            },
+            {
+              "peak_open_time": "2025-01-02T04:15:00+08:00",
+              "leg_start": "2025-01-02T03:30:00+08:00",
+              "price_high": 94863.8,
+              "histogram_max": 45.7045579685867
+            }
+          ],
+          "net_usdt": -0.3716918400001596
+        },
+        {
+          "opened": "2025-01-14T09:45:00+08:00",
+          "legs": [
+            {
+              "peak_open_time": "2025-01-14T06:15:00+08:00",
+              "leg_start": "2025-01-14T04:15:00+08:00",
+              "price_high": 94700.0,
+              "histogram_max": 255.35085033323196
+            },
+            {
+              "peak_open_time": "2025-01-14T08:15:00+08:00",
+              "leg_start": "2025-01-14T07:00:00+08:00",
+              "price_high": 94857.0,
+              "histogram_max": 125.87868098946842
+            },
+            {
+              "peak_open_time": "2025-01-14T09:00:00+08:00",
+              "leg_start": "2025-01-14T08:45:00+08:00",
+              "price_high": 95050.0,
+              "histogram_max": -19.175995671849137
+            }
+          ],
+          "net_usdt": -4.934679879999516
+        }
+      ]
+    }
+  }
+}

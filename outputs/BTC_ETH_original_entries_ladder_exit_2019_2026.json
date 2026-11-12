@@ -1,0 +1,1275 @@
+{
+  "initial_equity_usdt": 500,
+  "start_local": "2019-09-24T01:45:00+08:00",
+  "end_exclusive_local": "2026-11-10T19:00:00+08:00",
+  "btc_bybit_switch_local": "2020-04-09T18:30:00+08:00",
+  "eth_first_eligible_local": "2021-03-30T08:00:00+08:00",
+  "per_asset_opening_cap_x": 2.5,
+  "portfolio_opening_cap_x": 5,
+  "drawdown_sampling": "synchronized 15-minute bar-close account equity",
+  "fee_pct_per_fill": 0.05,
+  "slippage_pct_per_side": 0.02,
+  "funding_modeled": false,
+  "entry": "existing BTC/ETH main long/short rules, same next-open market fills, no RSI overlay",
+  "exit": {
+    "hard_stop_pct": 2,
+    "ladder_activation_pct": 2,
+    "first_lock_pct": 1,
+    "rung_step_pct": 1,
+    "maximum_lock_pct": 5,
+    "full_exit_at_stop": true,
+    "time_cap_hours_in_timed_variant": 72,
+    "trigger_quote": "traded price; exact archive order used for reconciled intervals",
+    "bar_stop_fill": "stop level with slippage inside a 15-minute candle; opening gaps use the opening price",
+    "maintenance_margin_and_liquidations_modeled": false
+  },
+  "refinement": {
+    "verified_1m_parent_bars": {
+      "BTC": 60,
+      "ETH": 62
+    },
+    "verified_public_trade_windows": {
+      "ticks": {
+        "BTC": 14,
+        "ETH": 16
+      },
+      "fullBars": {
+        "ETH": 1
+      }
+    },
+    "public_trade_sources": {
+      "BTC": {
+        "1584309240000_60000": {
+          "source": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2020-03-15.zip"
+        },
+        "1584309420000_60000": {
+          "source": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2020-03-15.zip"
+        },
+        "1584309480000_60000": {
+          "source": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2020-03-15.zip"
+        },
+        "1703456040000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2023-12-24.csv.gz"
+        },
+        "1572898740000_60000": {
+          "source": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2019-11-04.zip"
+        },
+        "1606827660000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2020-12-01.csv.gz"
+        },
+        "1634737320000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2021-10-20.csv.gz",
+          "frozen_open": 64599.0,
+          "archive_open": 64599.5
+        },
+        "1662693900000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2022-09-09.csv.gz",
+          "frozen_open": 19420.5,
+          "archive_open": 19421.0
+        },
+        "1731214380000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2024-11-10.csv.gz",
+          "frozen_open": 78335.8,
+          "archive_open": 78335.9
+        },
+        "1686980460000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2023-06-17.csv.gz",
+          "frozen_open": 26405.4,
+          "archive_open": 26405.5
+        },
+        "1595757780000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2020-07-26.csv.gz",
+          "frozen_open": 9887.0,
+          "archive_open": 9888.0
+        },
+        "1595757900000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2020-07-26.csv.gz"
+        },
+        "1702260420000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2023-12-11.csv.gz"
+        },
+        "1720153140000_60000": {
+          "source": "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2024-07-05.csv.gz",
+          "frozen_open": 54373.3,
+          "archive_open": 54370.0
+        }
+      },
+      "ETH": {
+        "1671068640000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2022-12-15.csv.gz"
+        },
+        "1686980460000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2023-06-17.csv.gz"
+        },
+        "1716232860000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2024-05-20.csv.gz"
+        },
+        "1722791400000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2024-08-04.csv.gz"
+        },
+        "1779938280000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2026-05-28.csv.gz"
+        },
+        "1657145160000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2022-07-06.csv.gz",
+          "frozen_open": 1166.8,
+          "archive_open": 1166.85
+        },
+        "1697462880000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2023-10-16.csv.gz",
+          "frozen_open": 1601.15,
+          "archive_open": 1601.14
+        },
+        "1697463000000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2023-10-16.csv.gz",
+          "frozen_open": 1625.3,
+          "archive_open": 1625.85
+        },
+        "1739398800000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2025-02-12.csv.gz",
+          "frozen_open": 2707.37,
+          "archive_open": 2707.36
+        },
+        "1617786000000_900000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2021-04-07.csv.gz",
+          "frozen_open": 2065.9,
+          "archive_open": 2066.0
+        },
+        "1627335300000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2021-07-26.csv.gz",
+          "frozen_open": 2243.5,
+          "archive_open": 2243.15
+        },
+        "1659958620000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2022-08-08.csv.gz",
+          "frozen_open": 1770.6,
+          "archive_open": 1770.65
+        },
+        "1675298460000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2023-02-02.csv.gz",
+          "frozen_open": 1679.16,
+          "archive_open": 1678.96
+        },
+        "1716232980000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2024-05-20.csv.gz",
+          "frozen_open": 3216.56,
+          "archive_open": 3216.57
+        },
+        "1787151960000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2026-08-19.csv.gz",
+          "frozen_open": 2000.52,
+          "archive_open": 2000.59
+        },
+        "1720148340000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2024-07-05.csv.gz"
+        },
+        "1754715960000_60000": {
+          "source": "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2025-08-09.csv.gz"
+        }
+      }
+    },
+    "passes": 3,
+    "unresolved_15m": [],
+    "unresolved_1m": [],
+    "failed_1m_downloads": [],
+    "failed_trade_downloads": [],
+    "both_extreme_orders_produce_identical_trade_journals": true
+  },
+  "results": {
+    "original": {
+      "years": {
+        "2019": {
+          "opening_equity_usdt": 500,
+          "peak_equity_usdt": 501.88455209442503,
+          "low_equity_usdt": 467.0592147648627,
+          "max_drawdown_pct": 6.938913976178784,
+          "ending_equity_usdt": 474.82568697173974,
+          "asset_net_usdt": {
+            "BTC": -25.174313028260258
+          },
+          "return_pct": -5.034862605652046,
+          "entries": {
+            "BTC": 10
+          },
+          "cumulative_return_pct": -5.034862605652046,
+          "drawdown_since_start_pct": 6.938913976178784
+        },
+        "2020": {
+          "opening_equity_usdt": 474.82568697173974,
+          "peak_equity_usdt": 475.77444085621966,
+          "low_equity_usdt": 345.8568152833528,
+          "max_drawdown_pct": 27.30655840592503,
+          "ending_equity_usdt": 358.3232324626316,
+          "asset_net_usdt": {
+            "BTC": -116.50245450910813,
+            "ETH": 0.0
+          },
+          "return_pct": -24.53583656185855,
+          "entries": {
+            "BTC": 33,
+            "ETH": 0
+          },
+          "cumulative_return_pct": -28.33535350747368,
+          "drawdown_since_start_pct": 31.088372048900414
+        },
+        "2021": {
+          "opening_equity_usdt": 358.3232324626316,
+          "peak_equity_usdt": 430.5808916194575,
+          "low_equity_usdt": 305.85128130856907,
+          "max_drawdown_pct": 23.851642755215174,
+          "ending_equity_usdt": 363.0741088668955,
+          "asset_net_usdt": {
+            "BTC": 62.17110121847878,
+            "ETH": -57.42022481421495
+          },
+          "return_pct": 1.3258633473505865,
+          "entries": {
+            "BTC": 37,
+            "ETH": 26
+          },
+          "cumulative_return_pct": -27.38517822662091,
+          "drawdown_since_start_pct": 39.05943507680908
+        },
+        "2022": {
+          "opening_equity_usdt": 363.0741088668955,
+          "peak_equity_usdt": 490.94079580253447,
+          "low_equity_usdt": 316.71220185323426,
+          "max_drawdown_pct": 18.41340823501514,
+          "ending_equity_usdt": 412.74087510965376,
+          "asset_net_usdt": {
+            "BTC": 58.40620534051175,
+            "ETH": -8.739439097753461
+          },
+          "return_pct": 13.679511986619342,
+          "entries": {
+            "BTC": 24,
+            "ETH": 36
+          },
+          "cumulative_return_pct": -17.451824978069254,
+          "drawdown_since_start_pct": 39.05943507680908
+        },
+        "2023": {
+          "opening_equity_usdt": 412.74087510965376,
+          "peak_equity_usdt": 641.1948179515452,
+          "low_equity_usdt": 395.6098316178069,
+          "max_drawdown_pct": 11.213298011848726,
+          "ending_equity_usdt": 623.9738740895623,
+          "asset_net_usdt": {
+            "BTC": 102.90010526350844,
+            "ETH": 108.33289371640016
+          },
+          "return_pct": 51.178114821748586,
+          "entries": {
+            "BTC": 34,
+            "ETH": 35
+          },
+          "cumulative_return_pct": 24.794774817912458,
+          "drawdown_since_start_pct": 39.05943507680908
+        },
+        "2024": {
+          "opening_equity_usdt": 623.9738740895623,
+          "peak_equity_usdt": 1583.4137155398723,
+          "low_equity_usdt": 533.1379113423665,
+          "max_drawdown_pct": 25.189826835246564,
+          "ending_equity_usdt": 1227.4320125045417,
+          "asset_net_usdt": {
+            "BTC": 224.17466744598048,
+            "ETH": 379.2834709689989
+          },
+          "return_pct": 96.7120841870956,
+          "entries": {
+            "BTC": 47,
+            "ETH": 51
+          },
+          "cumulative_return_pct": 145.48640250090835,
+          "drawdown_since_start_pct": 39.05943507680908
+        },
+        "2025": {
+          "opening_equity_usdt": 1227.4320125045417,
+          "peak_equity_usdt": 1575.0475566150315,
+          "low_equity_usdt": 1091.3539388622366,
+          "max_drawdown_pct": 30.7097786172445,
+          "ending_equity_usdt": 1159.6730539650202,
+          "asset_net_usdt": {
+            "BTC": -111.67368869044617,
+            "ETH": 43.914730150924754
+          },
+          "return_pct": -5.520383846047904,
+          "entries": {
+            "BTC": 43,
+            "ETH": 34
+          },
+          "cumulative_return_pct": 131.93461079300403,
+          "drawdown_since_start_pct": 39.05943507680908
+        },
+        "2026": {
+          "opening_equity_usdt": 1159.6730539650202,
+          "peak_equity_usdt": 1551.5184318531144,
+          "low_equity_usdt": 1115.691411921764,
+          "max_drawdown_pct": 19.270542065168826,
+          "ending_equity_usdt": 1281.2038240727184,
+          "asset_net_usdt": {
+            "BTC": -141.02201075601,
+            "ETH": 262.552780863708
+          },
+          "return_pct": 10.479744242756528,
+          "entries": {
+            "BTC": 33,
+            "ETH": 35
+          },
+          "cumulative_return_pct": 156.24076481454367,
+          "drawdown_since_start_pct": 39.05943507680908
+        }
+      },
+      "ending_equity_usdt": 1281.2038240727184,
+      "return_pct": 156.24076481454367,
+      "max_drawdown_pct": 39.05943507680908,
+      "max_gross_exposure_at_entry": 4.9833593335525,
+      "both_assets_held_bars": 405,
+      "entries": {
+        "BTC": 261,
+        "ETH": 217
+      },
+      "asset_net_usdt": {
+        "BTC": 53.27961228465489,
+        "ETH": 727.9242117880634
+      },
+      "hard_stops": {
+        "BTC": 11,
+        "ETH": 7
+      },
+      "time_exits": {
+        "BTC": 21,
+        "ETH": 13
+      },
+      "fees": {
+        "BTC": 496.65473568823734,
+        "ETH": 433.0719094819965
+      },
+      "status": "completed",
+      "total_trades": 478,
+      "total_fees_usdt": 929.7266451702338,
+      "by_side": {
+        "LONG": {
+          "trades": 311,
+          "gross_usdt": 786.6627244793225,
+          "fees_usdt": 589.1868807350817,
+          "net_usdt": 197.4758437442407,
+          "hard_stop_count": 11,
+          "one_hour_exit_count": 0
+        },
+        "SHORT": {
+          "trades": 167,
+          "gross_usdt": 924.2677447636302,
+          "fees_usdt": 340.5397644351522,
+          "net_usdt": 583.7279803284779,
+          "hard_stop_count": 7,
+          "one_hour_exit_count": 34
+        }
+      },
+      "exit_reasons": {
+        "stop": 18,
+        "15m_structure_flip": 210,
+        "ma5_ma30_cross": 216,
+        "er_1h_timeout": 34
+      },
+      "rejected_entries": {
+        "BTC": 0,
+        "ETH": 0
+      },
+      "median_holding_hours": 4.25,
+      "longest_trade": {
+        "asset": "BTC",
+        "side": "LONG",
+        "opened_local": "2020-10-18T03:30:00+08:00",
+        "closed_local": "2020-10-19T04:00:00+08:00",
+        "reason": "ma5_ma30_cross",
+        "net_usdt": 4.850988644288834
+      },
+      "terminal_settlements": [],
+      "through_2025": {
+        "ending_equity_usdt": 1159.6730539650202,
+        "return_pct": 131.93461079300403,
+        "max_drawdown_pct": 39.05943507680908,
+        "trades": 410
+      }
+    },
+    "ladder_adverse": {
+      "status": "insolvent",
+      "first_insolvent": {
+        "bar_close_local": "2022-06-19T00:00:00+08:00",
+        "equity_usdt": -1.9172989443181905,
+        "previous_bar_equity_usdt": 15.523701055681613,
+        "cumulative_realized_pnl_usdt": {
+          "BTC": 14.217060049100063,
+          "ETH": -3067.2065352040127
+        },
+        "open_positions": {
+          "BTC": {
+            "side": "LONG",
+            "opened_local": "2020-04-28T17:45:00+08:00",
+            "entry_price": 7730.0457,
+            "quantity": 0.214,
+            "bar_close_price": 18943.0,
+            "marked_pnl_usdt": 2398.7451053101004
+          }
+        }
+      },
+      "entries_before_first_insolvent_close": 59
+    },
+    "ladder_favorable": {
+      "status": "insolvent",
+      "first_insolvent": {
+        "bar_close_local": "2022-06-19T00:00:00+08:00",
+        "equity_usdt": -1.9172989443181905,
+        "previous_bar_equity_usdt": 15.523701055681613,
+        "cumulative_realized_pnl_usdt": {
+          "BTC": 14.217060049100063,
+          "ETH": -3067.2065352040127
+        },
+        "open_positions": {
+          "BTC": {
+            "side": "LONG",
+            "opened_local": "2020-04-28T17:45:00+08:00",
+            "entry_price": 7730.0457,
+            "quantity": 0.214,
+            "bar_close_price": 18943.0,
+            "marked_pnl_usdt": 2398.7451053101004
+          }
+        }
+      },
+      "entries_before_first_insolvent_close": 59
+    },
+    "ladder_72h_adverse": {
+      "years": {
+        "2019": {
+          "opening_equity_usdt": 500,
+          "peak_equity_usdt": 501.88455209442503,
+          "low_equity_usdt": 423.47842345993524,
+          "max_drawdown_pct": 15.622343486622869,
+          "entries": {
+            "BTC": 10
+          },
+          "ending_equity_usdt": 467.76546609505573,
+          "asset_net_usdt": {
+            "BTC": -32.23453390494425
+          },
+          "return_pct": -6.44690678098886,
+          "cumulative_return_pct": -6.44690678098886,
+          "drawdown_since_start_pct": 15.622343486622869
+        },
+        "2020": {
+          "opening_equity_usdt": 467.76546609505573,
+          "peak_equity_usdt": 883.4467303775918,
+          "low_equity_usdt": 427.1957993067252,
+          "max_drawdown_pct": 26.334510619187547,
+          "entries": {
+            "BTC": 27,
+            "ETH": 0
+          },
+          "ending_equity_usdt": 737.7221118905306,
+          "asset_net_usdt": {
+            "BTC": 269.95664579547486,
+            "ETH": 0.0
+          },
+          "return_pct": 57.71196579540063,
+          "cumulative_return_pct": 47.54442237810612,
+          "drawdown_since_start_pct": 26.334510619187547
+        },
+        "2021": {
+          "opening_equity_usdt": 737.7221118905306,
+          "peak_equity_usdt": 919.2514375715732,
+          "low_equity_usdt": 376.4027089663293,
+          "max_drawdown_pct": 59.053345626449186,
+          "entries": {
+            "BTC": 35,
+            "ETH": 24
+          },
+          "ending_equity_usdt": 376.4027089663293,
+          "asset_net_usdt": {
+            "BTC": -140.3274005877404,
+            "ETH": -220.99200233646084
+          },
+          "return_pct": -48.97771086164988,
+          "cumulative_return_pct": -24.719458206734135,
+          "drawdown_since_start_pct": 59.053345626449186
+        },
+        "2022": {
+          "opening_equity_usdt": 376.4027089663293,
+          "peak_equity_usdt": 517.6118737394487,
+          "low_equity_usdt": 348.7534602896653,
+          "max_drawdown_pct": 32.62259272181649,
+          "entries": {
+            "BTC": 24,
+            "ETH": 31
+          },
+          "ending_equity_usdt": 438.88968387811525,
+          "asset_net_usdt": {
+            "BTC": 47.351846964329596,
+            "ETH": 15.13512794745634
+          },
+          "return_pct": 16.601095960065383,
+          "cumulative_return_pct": -12.222063224376956,
+          "drawdown_since_start_pct": 62.06114605477446
+        },
+        "2023": {
+          "opening_equity_usdt": 438.88968387811525,
+          "peak_equity_usdt": 614.7267259616693,
+          "low_equity_usdt": 350.8379480307998,
+          "max_drawdown_pct": 42.927819270920075,
+          "entries": {
+            "BTC": 31,
+            "ETH": 33
+          },
+          "ending_equity_usdt": 536.147756403815,
+          "asset_net_usdt": {
+            "BTC": 164.06407845218553,
+            "ETH": -66.80600592648571
+          },
+          "return_pct": 22.160027017793716,
+          "cumulative_return_pct": 7.229551280763014,
+          "drawdown_since_start_pct": 62.06114605477446
+        },
+        "2024": {
+          "opening_equity_usdt": 536.147756403815,
+          "peak_equity_usdt": 1378.4047106950306,
+          "low_equity_usdt": 463.59468945797175,
+          "max_drawdown_pct": 30.22822264837609,
+          "entries": {
+            "BTC": 43,
+            "ETH": 46
+          },
+          "ending_equity_usdt": 961.7374657504325,
+          "asset_net_usdt": {
+            "BTC": -20.384619373497827,
+            "ETH": 445.97432872011524
+          },
+          "return_pct": 79.37918311945195,
+          "cumulative_return_pct": 92.3474931500865,
+          "drawdown_since_start_pct": 62.06114605477446
+        },
+        "2025": {
+          "opening_equity_usdt": 961.7374657504325,
+          "peak_equity_usdt": 1191.481836240518,
+          "low_equity_usdt": 730.0220804924343,
+          "max_drawdown_pct": 38.72990269026069,
+          "entries": {
+            "BTC": 36,
+            "ETH": 34
+          },
+          "ending_equity_usdt": 1005.3192045615268,
+          "asset_net_usdt": {
+            "BTC": 144.87322637650405,
+            "ETH": -101.29148756540977
+          },
+          "return_pct": 4.5315629642324495,
+          "cumulative_return_pct": 101.06384091230538,
+          "drawdown_since_start_pct": 62.06114605477446
+        },
+        "2026": {
+          "opening_equity_usdt": 1005.3192045615268,
+          "peak_equity_usdt": 1605.6577451356022,
+          "low_equity_usdt": 700.3728424416433,
+          "max_drawdown_pct": 32.1779167048037,
+          "entries": {
+            "BTC": 26,
+            "ETH": 31
+          },
+          "ending_equity_usdt": 1376.5687691432477,
+          "asset_net_usdt": {
+            "BTC": -93.72759428458005,
+            "ETH": 464.9771588663008
+          },
+          "return_pct": 36.9285260738297,
+          "cumulative_return_pct": 175.31375382864957,
+          "drawdown_since_start_pct": 62.06114605477446
+        }
+      },
+      "ending_equity_usdt": 1376.5687691432477,
+      "return_pct": 175.31375382864957,
+      "max_drawdown_pct": 62.06114605477446,
+      "max_gross_exposure_at_entry": 4.9902262603581535,
+      "both_assets_held_bars": 2552,
+      "entries": {
+        "BTC": 232,
+        "ETH": 199
+      },
+      "asset_net_usdt": {
+        "BTC": 339.5716494377315,
+        "ETH": 536.9971197055161
+      },
+      "hard_stops": {
+        "BTC": 97,
+        "ETH": 93
+      },
+      "time_exits": {
+        "BTC": 26,
+        "ETH": 7
+      },
+      "fees": {
+        "BTC": 419.5508493746331,
+        "ETH": 365.06641352520256
+      },
+      "status": "completed",
+      "total_trades": 431,
+      "total_fees_usdt": 784.6172628998357,
+      "by_side": {
+        "LONG": {
+          "trades": 282,
+          "gross_usdt": 577.5015558352009,
+          "fees_usdt": 502.76733564976763,
+          "net_usdt": 74.73422018543329,
+          "hard_stop_count": 137,
+          "one_hour_exit_count": 0
+        },
+        "SHORT": {
+          "trades": 149,
+          "gross_usdt": 1083.6844762078824,
+          "fees_usdt": 281.8499272500681,
+          "net_usdt": 801.8345489578144,
+          "hard_stop_count": 53,
+          "one_hour_exit_count": 0
+        }
+      },
+      "exit_reasons": {
+        "stop": 190,
+        "ladder_lock": 208,
+        "ladder_time_cap": 33
+      },
+      "rejected_entries": {
+        "BTC": 0,
+        "ETH": 0
+      },
+      "median_holding_hours": 14.0,
+      "longest_trade": {
+        "asset": "BTC",
+        "side": "SHORT",
+        "opened_local": "2020-03-06T21:00:00+08:00",
+        "closed_local": "2020-03-09T21:00:00+08:00",
+        "reason": "ladder_time_cap",
+        "net_usdt": 145.33902485555603
+      },
+      "terminal_settlements": [],
+      "through_2025": {
+        "ending_equity_usdt": 1005.3192045615268,
+        "return_pct": 101.06384091230538,
+        "max_drawdown_pct": 62.06114605477446,
+        "trades": 374
+      }
+    },
+    "ladder_72h_favorable": {
+      "years": {
+        "2019": {
+          "opening_equity_usdt": 500,
+          "peak_equity_usdt": 501.88455209442503,
+          "low_equity_usdt": 423.47842345993524,
+          "max_drawdown_pct": 15.622343486622869,
+          "entries": {
+            "BTC": 10
+          },
+          "ending_equity_usdt": 467.76546609505573,
+          "asset_net_usdt": {
+            "BTC": -32.23453390494425
+          },
+          "return_pct": -6.44690678098886,
+          "cumulative_return_pct": -6.44690678098886,
+          "drawdown_since_start_pct": 15.622343486622869
+        },
+        "2020": {
+          "opening_equity_usdt": 467.76546609505573,
+          "peak_equity_usdt": 883.4467303775918,
+          "low_equity_usdt": 427.1957993067252,
+          "max_drawdown_pct": 26.334510619187547,
+          "entries": {
+            "BTC": 27,
+            "ETH": 0
+          },
+          "ending_equity_usdt": 737.7221118905306,
+          "asset_net_usdt": {
+            "BTC": 269.95664579547486,
+            "ETH": 0.0
+          },
+          "return_pct": 57.71196579540063,
+          "cumulative_return_pct": 47.54442237810612,
+          "drawdown_since_start_pct": 26.334510619187547
+        },
+        "2021": {
+          "opening_equity_usdt": 737.7221118905306,
+          "peak_equity_usdt": 919.2514375715732,
+          "low_equity_usdt": 376.4027089663293,
+          "max_drawdown_pct": 59.053345626449186,
+          "entries": {
+            "BTC": 35,
+            "ETH": 24
+          },
+          "ending_equity_usdt": 376.4027089663293,
+          "asset_net_usdt": {
+            "BTC": -140.3274005877404,
+            "ETH": -220.99200233646084
+          },
+          "return_pct": -48.97771086164988,
+          "cumulative_return_pct": -24.719458206734135,
+          "drawdown_since_start_pct": 59.053345626449186
+        },
+        "2022": {
+          "opening_equity_usdt": 376.4027089663293,
+          "peak_equity_usdt": 517.6118737394487,
+          "low_equity_usdt": 348.7534602896653,
+          "max_drawdown_pct": 32.62259272181649,
+          "entries": {
+            "BTC": 24,
+            "ETH": 31
+          },
+          "ending_equity_usdt": 438.88968387811525,
+          "asset_net_usdt": {
+            "BTC": 47.351846964329596,
+            "ETH": 15.13512794745634
+          },
+          "return_pct": 16.601095960065383,
+          "cumulative_return_pct": -12.222063224376956,
+          "drawdown_since_start_pct": 62.06114605477446
+        },
+        "2023": {
+          "opening_equity_usdt": 438.88968387811525,
+          "peak_equity_usdt": 614.7267259616693,
+          "low_equity_usdt": 350.8379480307998,
+          "max_drawdown_pct": 42.927819270920075,
+          "entries": {
+            "BTC": 31,
+            "ETH": 33
+          },
+          "ending_equity_usdt": 536.147756403815,
+          "asset_net_usdt": {
+            "BTC": 164.06407845218553,
+            "ETH": -66.80600592648571
+          },
+          "return_pct": 22.160027017793716,
+          "cumulative_return_pct": 7.229551280763014,
+          "drawdown_since_start_pct": 62.06114605477446
+        },
+        "2024": {
+          "opening_equity_usdt": 536.147756403815,
+          "peak_equity_usdt": 1378.4047106950306,
+          "low_equity_usdt": 463.59468945797175,
+          "max_drawdown_pct": 30.22822264837609,
+          "entries": {
+            "BTC": 43,
+            "ETH": 46
+          },
+          "ending_equity_usdt": 961.7374657504325,
+          "asset_net_usdt": {
+            "BTC": -20.384619373497827,
+            "ETH": 445.97432872011524
+          },
+          "return_pct": 79.37918311945195,
+          "cumulative_return_pct": 92.3474931500865,
+          "drawdown_since_start_pct": 62.06114605477446
+        },
+        "2025": {
+          "opening_equity_usdt": 961.7374657504325,
+          "peak_equity_usdt": 1191.481836240518,
+          "low_equity_usdt": 730.0220804924343,
+          "max_drawdown_pct": 38.72990269026069,
+          "entries": {
+            "BTC": 36,
+            "ETH": 34
+          },
+          "ending_equity_usdt": 1005.3192045615268,
+          "asset_net_usdt": {
+            "BTC": 144.87322637650405,
+            "ETH": -101.29148756540977
+          },
+          "return_pct": 4.5315629642324495,
+          "cumulative_return_pct": 101.06384091230538,
+          "drawdown_since_start_pct": 62.06114605477446
+        },
+        "2026": {
+          "opening_equity_usdt": 1005.3192045615268,
+          "peak_equity_usdt": 1605.6577451356022,
+          "low_equity_usdt": 700.3728424416433,
+          "max_drawdown_pct": 32.1779167048037,
+          "entries": {
+            "BTC": 26,
+            "ETH": 31
+          },
+          "ending_equity_usdt": 1376.5687691432477,
+          "asset_net_usdt": {
+            "BTC": -93.72759428458005,
+            "ETH": 464.9771588663008
+          },
+          "return_pct": 36.9285260738297,
+          "cumulative_return_pct": 175.31375382864957,
+          "drawdown_since_start_pct": 62.06114605477446
+        }
+      },
+      "ending_equity_usdt": 1376.5687691432477,
+      "return_pct": 175.31375382864957,
+      "max_drawdown_pct": 62.06114605477446,
+      "max_gross_exposure_at_entry": 4.9902262603581535,
+      "both_assets_held_bars": 2552,
+      "entries": {
+        "BTC": 232,
+        "ETH": 199
+      },
+      "asset_net_usdt": {
+        "BTC": 339.5716494377315,
+        "ETH": 536.9971197055161
+      },
+      "hard_stops": {
+        "BTC": 97,
+        "ETH": 93
+      },
+      "time_exits": {
+        "BTC": 26,
+        "ETH": 7
+      },
+      "fees": {
+        "BTC": 419.5508493746331,
+        "ETH": 365.06641352520256
+      },
+      "status": "completed",
+      "total_trades": 431,
+      "total_fees_usdt": 784.6172628998357,
+      "by_side": {
+        "LONG": {
+          "trades": 282,
+          "gross_usdt": 577.5015558352009,
+          "fees_usdt": 502.76733564976763,
+          "net_usdt": 74.73422018543329,
+          "hard_stop_count": 137,
+          "one_hour_exit_count": 0
+        },
+        "SHORT": {
+          "trades": 149,
+          "gross_usdt": 1083.6844762078824,
+          "fees_usdt": 281.8499272500681,
+          "net_usdt": 801.8345489578144,
+          "hard_stop_count": 53,
+          "one_hour_exit_count": 0
+        }
+      },
+      "exit_reasons": {
+        "stop": 190,
+        "ladder_lock": 208,
+        "ladder_time_cap": 33
+      },
+      "rejected_entries": {
+        "BTC": 0,
+        "ETH": 0
+      },
+      "median_holding_hours": 14.0,
+      "longest_trade": {
+        "asset": "BTC",
+        "side": "SHORT",
+        "opened_local": "2020-03-06T21:00:00+08:00",
+        "closed_local": "2020-03-09T21:00:00+08:00",
+        "reason": "ladder_time_cap",
+        "net_usdt": 145.33902485555603
+      },
+      "terminal_settlements": [],
+      "through_2025": {
+        "ending_equity_usdt": 1005.3192045615268,
+        "return_pct": 101.06384091230538,
+        "max_drawdown_pct": 62.06114605477446,
+        "trades": 374
+      }
+    }
+  },
+  "separate_live_evidence": {
+    "asset": "ETH",
+    "side": "SHORT",
+    "entry_local": "2026-11-09T16:43:00+08:00",
+    "entry_price": 2112.07,
+    "first_lock_local": "2026-11-10T21:30:00+08:00",
+    "first_lock_price": 2090.95,
+    "exit_notice_local": "2026-11-10T21:36:00+08:00",
+    "reported_rung": 2,
+    "reported_net_usdt": 3.27,
+    "used_in_backtest": false,
+    "bybit_quote_comparison": {
+      "trade": {
+        "url": "https://api.bybit.com/v5/market/kline?category=linear&symbol=ETHUSDT&interval=1&start=1794317220000&end=1794317880000",
+        "rows": [
+          {
+            "time": "21:27",
+            "ohlc": [
+              "2093.85",
+              "2093.85",
+              "2091.57",
+              "2092.27"
+            ]
+          },
+          {
+            "time": "21:28",
+            "ohlc": [
+              "2092.27",
+              "2094.7",
+              "2091.67",
+              "2093.52"
+            ]
+          },
+          {
+            "time": "21:29",
+            "ohlc": [
+              "2093.52",
+              "2097.55",
+              "2093.18",
+              "2097.37"
+            ]
+          },
+          {
+            "time": "21:30",
+            "ohlc": [
+              "2097.37",
+              "2110.51",
+              "2025.51",
+              "2061.04"
+            ]
+          },
+          {
+            "time": "21:31",
+            "ohlc": [
+              "2061.04",
+              "2067.9",
+              "2051.06",
+              "2056.9"
+            ]
+          },
+          {
+            "time": "21:32",
+            "ohlc": [
+              "2056.9",
+              "2057.61",
+              "2050",
+              "2055.09"
+            ]
+          },
+          {
+            "time": "21:33",
+            "ohlc": [
+              "2055.09",
+              "2062.91",
+              "2052.5",
+              "2060.09"
+            ]
+          },
+          {
+            "time": "21:34",
+            "ohlc": [
+              "2060.09",
+              "2065.74",
+              "2058.41",
+              "2064.86"
+            ]
+          },
+          {
+            "time": "21:35",
+            "ohlc": [
+              "2064.86",
+              "2068.8",
+              "2060",
+              "2067.59"
+            ]
+          },
+          {
+            "time": "21:36",
+            "ohlc": [
+              "2067.59",
+              "2074.38",
+              "2065",
+              "2071.91"
+            ]
+          },
+          {
+            "time": "21:37",
+            "ohlc": [
+              "2071.91",
+              "2072.59",
+              "2067.75",
+              "2069.36"
+            ]
+          },
+          {
+            "time": "21:38",
+            "ohlc": [
+              "2069.36",
+              "2069.37",
+              "2062.8",
+              "2063.62"
+            ]
+          }
+        ]
+      },
+      "mark-price-": {
+        "url": "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=ETHUSDT&interval=1&start=1794317220000&end=1794317880000",
+        "rows": [
+          {
+            "time": "21:27",
+            "ohlc": [
+              "2093.85",
+              "2093.85",
+              "2092.23",
+              "2092.31"
+            ]
+          },
+          {
+            "time": "21:28",
+            "ohlc": [
+              "2092.31",
+              "2094.64",
+              "2092.12",
+              "2093.74"
+            ]
+          },
+          {
+            "time": "21:29",
+            "ohlc": [
+              "2093.74",
+              "2097.29",
+              "2093.21",
+              "2095.91"
+            ]
+          },
+          {
+            "time": "21:30",
+            "ohlc": [
+              "2095.91",
+              "2104.06",
+              "2037.46",
+              "2062.04"
+            ]
+          },
+          {
+            "time": "21:31",
+            "ohlc": [
+              "2062.04",
+              "2066.92",
+              "2052.05",
+              "2055.98"
+            ]
+          },
+          {
+            "time": "21:32",
+            "ohlc": [
+              "2055.98",
+              "2056.72",
+              "2050.75",
+              "2055.65"
+            ]
+          },
+          {
+            "time": "21:33",
+            "ohlc": [
+              "2055.65",
+              "2062.68",
+              "2053.57",
+              "2060.33"
+            ]
+          },
+          {
+            "time": "21:34",
+            "ohlc": [
+              "2060.33",
+              "2065.36",
+              "2058.5",
+              "2065.16"
+            ]
+          },
+          {
+            "time": "21:35",
+            "ohlc": [
+              "2065.16",
+              "2067.84",
+              "2060.46",
+              "2067.44"
+            ]
+          },
+          {
+            "time": "21:36",
+            "ohlc": [
+              "2067.44",
+              "2074",
+              "2065.47",
+              "2071.9"
+            ]
+          },
+          {
+            "time": "21:37",
+            "ohlc": [
+              "2071.9",
+              "2072.32",
+              "2068.09",
+              "2069.5"
+            ]
+          },
+          {
+            "time": "21:38",
+            "ohlc": [
+              "2069.5",
+              "2069.5",
+              "2063.4",
+              "2064.15"
+            ]
+          }
+        ]
+      },
+      "index-price-": {
+        "url": "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=ETHUSDT&interval=1&start=1794317220000&end=1794317880000",
+        "rows": [
+          {
+            "time": "21:27",
+            "ohlc": [
+              "2094.68",
+              "2094.68",
+              "2093.09",
+              "2093.19"
+            ]
+          },
+          {
+            "time": "21:28",
+            "ohlc": [
+              "2093.19",
+              "2095.49",
+              "2092.94",
+              "2094.6"
+            ]
+          },
+          {
+            "time": "21:29",
+            "ohlc": [
+              "2094.6",
+              "2098.36",
+              "2094.11",
+              "2097.95"
+            ]
+          },
+          {
+            "time": "21:30",
+            "ohlc": [
+              "2097.95",
+              "2105.79",
+              "2036.44",
+              "2062.48"
+            ]
+          },
+          {
+            "time": "21:31",
+            "ohlc": [
+              "2062.48",
+              "2068.28",
+              "2053.21",
+              "2057.59"
+            ]
+          },
+          {
+            "time": "21:32",
+            "ohlc": [
+              "2057.59",
+              "2058.15",
+              "2052.09",
+              "2056.62"
+            ]
+          },
+          {
+            "time": "21:33",
+            "ohlc": [
+              "2056.62",
+              "2064",
+              "2054",
+              "2061.55"
+            ]
+          },
+          {
+            "time": "21:34",
+            "ohlc": [
+              "2061.55",
+              "2066.46",
+              "2059.75",
+              "2066.02"
+            ]
+          },
+          {
+            "time": "21:35",
+            "ohlc": [
+              "2066.02",
+              "2069.6",
+              "2061.26",
+              "2068.4"
+            ]
+          },
+          {
+            "time": "21:36",
+            "ohlc": [
+              "2068.4",
+              "2075.09",
+              "2066.42",
+              "2072.94"
+            ]
+          },
+          {
+            "time": "21:37",
+            "ohlc": [
+              "2072.94",
+              "2073.52",
+              "2068.96",
+              "2070.57"
+            ]
+          },
+          {
+            "time": "21:38",
+            "ohlc": [
+              "2070.57",
+              "2070.58",
+              "2064.58",
+              "2065.09"
+            ]
+          }
+        ]
+      }
+    },
+    "prior_bybit_mark_price_checks": [
+      {
+        "asset": "BTC",
+        "entry": 75820.3,
+        "adverse_first": {
+          "arm": "05:55",
+          "exit": "05:56",
+          "rung": 2
+        },
+        "favorable_first": {
+          "arm": "05:55",
+          "exit": "05:55",
+          "rung": 2
+        }
+      },
+      {
+        "asset": "ETH",
+        "entry": 2229.45,
+        "adverse_first": {
+          "arm": "05:52",
+          "exit": "05:55",
+          "rung": 5
+        },
+        "favorable_first": {
+          "arm": "05:52",
+          "exit": "05:55",
+          "rung": 5
+        }
+      },
+      {
+        "asset": "ETH",
+        "entry": 2131.13,
+        "adverse_first": {
+          "arm": "15:12",
+          "exit": "16:24",
+          "rung": 1
+        },
+        "favorable_first": {
+          "arm": "15:12",
+          "exit": "16:24",
+          "rung": 1
+        }
+      }
+    ]
+  }
+}

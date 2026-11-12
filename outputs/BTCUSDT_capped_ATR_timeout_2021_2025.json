@@ -1,0 +1,2128 @@
+{
+  "atr_multiple": 0.5,
+  "atr_definition": "14 closed 1h true ranges, simple mean",
+  "er_hours": 5,
+  "er_threshold": 0.25,
+  "annual": {
+    "2021": {
+      "combined_selected_long_and_8h_short": {
+        "return_pct": 70.73761590578573,
+        "max_drawdown_pct": 30.5161270082549,
+        "trades": 41,
+        "long_net_usdt": -15.113784123711005,
+        "short_net_usdt": 85.85140002949672,
+        "short_trades": 17,
+        "timeout_exits": 0
+      },
+      "combined_selected_long_and_8h_short_timeout_shorts_only": {
+        "return_pct": 68.90773628252742,
+        "max_drawdown_pct": 30.592367520234077,
+        "trades": 41,
+        "long_net_usdt": -14.56100952371101,
+        "short_net_usdt": 83.46874580623843,
+        "short_trades": 17,
+        "timeout_exits": 3
+      },
+      "combined_short_timeout_atr_half": {
+        "return_pct": 83.23909825059926,
+        "max_drawdown_pct": 25.99663531675005,
+        "trades": 41,
+        "long_net_usdt": -16.97016606727002,
+        "short_net_usdt": 100.20926431786917,
+        "short_trades": 17,
+        "timeout_exits": 4
+      },
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 68.90773628252742,
+        "max_drawdown_pct": 30.592367520234077,
+        "trades": 41,
+        "long_net_usdt": -14.56100952371101,
+        "short_net_usdt": 83.46874580623843,
+        "short_trades": 17,
+        "timeout_exits": 3
+      }
+    },
+    "2022": {
+      "combined_selected_long_and_8h_short": {
+        "return_pct": 35.063724580595476,
+        "max_drawdown_pct": 27.6225058268881,
+        "trades": 24,
+        "long_net_usdt": 8.706025916270042,
+        "short_net_usdt": 26.357698664325454,
+        "short_trades": 10,
+        "timeout_exits": 0
+      },
+      "combined_selected_long_and_8h_short_timeout_shorts_only": {
+        "return_pct": 39.7914859306114,
+        "max_drawdown_pct": 27.61475743063977,
+        "trades": 24,
+        "long_net_usdt": 8.318794416270043,
+        "short_net_usdt": 31.472691514341356,
+        "short_trades": 10,
+        "timeout_exits": 3
+      },
+      "combined_short_timeout_atr_half": {
+        "return_pct": 39.7914859306114,
+        "max_drawdown_pct": 27.61475743063977,
+        "trades": 24,
+        "long_net_usdt": 8.318794416270043,
+        "short_net_usdt": 31.472691514341356,
+        "short_trades": 10,
+        "timeout_exits": 3
+      },
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 39.7914859306114,
+        "max_drawdown_pct": 27.61475743063977,
+        "trades": 24,
+        "long_net_usdt": 8.318794416270043,
+        "short_net_usdt": 31.472691514341356,
+        "short_trades": 10,
+        "timeout_exits": 3
+      }
+    },
+    "2023": {
+      "combined_selected_long_and_8h_short": {
+        "return_pct": 72.86336905415564,
+        "max_drawdown_pct": 13.263339649923001,
+        "trades": 34,
+        "long_net_usdt": 65.1947452391014,
+        "short_net_usdt": 7.668623815054336,
+        "short_trades": 8,
+        "timeout_exits": 0
+      },
+      "combined_selected_long_and_8h_short_timeout_shorts_only": {
+        "return_pct": 66.82091730769633,
+        "max_drawdown_pct": 13.445615423233948,
+        "trades": 34,
+        "long_net_usdt": 64.22611739910138,
+        "short_net_usdt": 2.5947999085949967,
+        "short_trades": 8,
+        "timeout_exits": 3
+      },
+      "combined_short_timeout_atr_half": {
+        "return_pct": 74.35609219415585,
+        "max_drawdown_pct": 12.555698491110135,
+        "trades": 34,
+        "long_net_usdt": 64.82939683910139,
+        "short_net_usdt": 9.52669535505454,
+        "short_trades": 8,
+        "timeout_exits": 2
+      },
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 74.35609219415585,
+        "max_drawdown_pct": 12.555698491110135,
+        "trades": 34,
+        "long_net_usdt": 64.82939683910139,
+        "short_net_usdt": 9.52669535505454,
+        "short_trades": 8,
+        "timeout_exits": 2
+      }
+    },
+    "2024": {
+      "combined_selected_long_and_8h_short": {
+        "return_pct": 121.06277730750094,
+        "max_drawdown_pct": 23.930919020731146,
+        "trades": 51,
+        "long_net_usdt": 19.812904205735315,
+        "short_net_usdt": 101.24987310176549,
+        "short_trades": 18,
+        "timeout_exits": 0
+      },
+      "combined_selected_long_and_8h_short_timeout_shorts_only": {
+        "return_pct": 123.2028791661806,
+        "max_drawdown_pct": 22.617015377276882,
+        "trades": 51,
+        "long_net_usdt": 17.475349785735336,
+        "short_net_usdt": 105.72752938044519,
+        "short_trades": 18,
+        "timeout_exits": 3
+      },
+      "combined_short_timeout_atr_half": {
+        "return_pct": 100.46919982351847,
+        "max_drawdown_pct": 26.449568479062478,
+        "trades": 51,
+        "long_net_usdt": 17.781517205735337,
+        "short_net_usdt": 82.68768261778305,
+        "short_trades": 18,
+        "timeout_exits": 4
+      },
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 123.2028791661806,
+        "max_drawdown_pct": 22.617015377276882,
+        "trades": 51,
+        "long_net_usdt": 17.475349785735336,
+        "short_net_usdt": 105.72752938044519,
+        "short_trades": 18,
+        "timeout_exits": 3
+      }
+    },
+    "2025": {
+      "combined_selected_long_and_8h_short": {
+        "return_pct": -12.927796121614293,
+        "max_drawdown_pct": 27.089568023005494,
+        "trades": 45,
+        "long_net_usdt": -2.0917293340839684,
+        "short_net_usdt": -10.836066787530294,
+        "short_trades": 25,
+        "timeout_exits": 0
+      },
+      "combined_selected_long_and_8h_short_timeout_shorts_only": {
+        "return_pct": -5.06566356507949,
+        "max_drawdown_pct": 22.823537503226355,
+        "trades": 46,
+        "long_net_usdt": -4.986344794083939,
+        "short_net_usdt": -0.07931877099548054,
+        "short_trades": 25,
+        "timeout_exits": 9
+      },
+      "combined_short_timeout_atr_half": {
+        "return_pct": -4.684446285079545,
+        "max_drawdown_pct": 23.070446811855117,
+        "trades": 45,
+        "long_net_usdt": -3.91698991408394,
+        "short_net_usdt": -0.7674563709955557,
+        "short_trades": 25,
+        "timeout_exits": 7
+      },
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": -4.684446285079545,
+        "max_drawdown_pct": 23.070446811855117,
+        "trades": 45,
+        "long_net_usdt": -3.91698991408394,
+        "short_net_usdt": -0.7674563709955557,
+        "short_trades": 25,
+        "timeout_exits": 7
+      }
+    }
+  },
+  "low_er_short_entries": [
+    {
+      "year": 2021,
+      "opened_utc": "2021-02-27T08:15:00.000Z",
+      "er": 0.132317562149158,
+      "atr_usdt": 826.5,
+      "atr_cutoff_pct": 0.8761595882042728,
+      "one_hour_mfe_pct": 1.6676500396368612,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-02-27T11:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.01,
+          "net_usdt": -1.6794728561523224
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-02-27T11:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.01,
+          "net_usdt": -1.6794728561523224
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-02-27T11:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.01,
+          "net_usdt": -1.6794728561523224
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-02-27T11:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.01,
+          "net_usdt": -1.6794728561523224
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-03-26T00:30:00.000Z",
+      "er": 0.004461942257217848,
+      "atr_usdt": 951.5357142857143,
+      "atr_cutoff_pct": 0.9170611480994545,
+      "one_hour_mfe_pct": 0.0031264684233879474,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-03-26T01:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.008,
+          "net_usdt": -2.390492799999949
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-03-26T01:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.008,
+          "net_usdt": -2.390492799999949
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-03-26T01:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.008,
+          "net_usdt": -2.390492799999949
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-03-26T01:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.008,
+          "net_usdt": -2.390492799999949
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-04-05T02:15:00.000Z",
+      "er": 0.22709447415329767,
+      "atr_usdt": 337.39285714285717,
+      "atr_cutoff_pct": 0.29212287847359736,
+      "one_hour_mfe_pct": 0.19904950519190395,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-04-05T10:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.007,
+          "net_usdt": 1.7611960919168197
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-04-05T03:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.007,
+          "net_usdt": -0.16522869999997783
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-04-05T03:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.007,
+          "net_usdt": -0.16522869999997783
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-04-05T03:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.007,
+          "net_usdt": -0.16522869999997783
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-04-12T01:15:00.000Z",
+      "er": 0.10899241603466955,
+      "atr_usdt": 367.9642857142857,
+      "atr_cutoff_pct": 0.3066854658497099,
+      "one_hour_mfe_pct": 0.2592068765821796,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-04-12T01:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.007,
+          "net_usdt": 0.4306127000000051
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-04-12T01:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.007,
+          "net_usdt": 0.4306127000000051
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-04-12T01:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.007,
+          "net_usdt": 0.4306127000000051
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-04-12T01:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.007,
+          "net_usdt": 0.4306127000000051
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-05-17T13:45:00.000Z",
+      "er": 0.056492226844755855,
+      "atr_usdt": 1190.9285714285713,
+      "atr_cutoff_pct": 1.3227984817038825,
+      "one_hour_mfe_pct": 2.729049402369008,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-05-17T19:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.011,
+          "net_usdt": 8.943477873144314
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-05-17T19:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.01,
+          "net_usdt": 8.027800973144316
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-05-17T19:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.01,
+          "net_usdt": 8.027800973144316
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-05-17T19:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.01,
+          "net_usdt": 8.027800973144316
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-05-27T01:30:00.000Z",
+      "er": 0.1564699512723335,
+      "atr_usdt": 699.1785714285714,
+      "atr_cutoff_pct": 0.9146558655395773,
+      "one_hour_mfe_pct": 1.9291936653545683,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-05-27T06:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.016,
+          "net_usdt": 1.0663373507206344
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-05-27T06:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 1.0531230507206346
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-05-27T06:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 1.0531230507206346
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-05-27T06:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 1.0531230507206346
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-05-30T01:15:00.000Z",
+      "er": 0.0346088546428105,
+      "atr_usdt": 836.4642857142857,
+      "atr_cutoff_pct": 1.2376390361346956,
+      "one_hour_mfe_pct": 0.5792371362037099,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-05-30T02:45:00.000Z",
+          "exit_reason": "stop",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": -12.2894733776472
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-05-30T02:45:00.000Z",
+          "exit_reason": "stop",
+          "quantity_btc": 0.017,
+          "net_usdt": -11.6067248566668
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-05-30T02:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.017,
+          "net_usdt": -3.562502999999895
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-05-30T02:45:00.000Z",
+          "exit_reason": "stop",
+          "quantity_btc": 0.017,
+          "net_usdt": -11.6067248566668
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-07-26T21:15:00.000Z",
+      "er": 0.21104828992492353,
+      "atr_usdt": 771.9285714285714,
+      "atr_cutoff_pct": 1.0242136662459398,
+      "one_hour_mfe_pct": 2.2435584313843515,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-07-27T06:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.017,
+          "net_usdt": 7.8753537867961505
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-07-27T06:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.017,
+          "net_usdt": 7.8753537867961505
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-07-27T06:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": 8.374880086796148
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-07-27T06:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.017,
+          "net_usdt": 7.8753537867961505
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-08-18T20:15:00.000Z",
+      "er": 0.1642943305186972,
+      "atr_usdt": 449.7857142857143,
+      "atr_cutoff_pct": 0.5003956324786428,
+      "one_hour_mfe_pct": 1.1347918275593134,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-08-18T22:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 2.3784209510860745
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-08-18T22:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 2.3784209510860745
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-08-18T22:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.016,
+          "net_usdt": 2.4889658510860757
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-08-18T22:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 2.3784209510860745
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-08-21T12:00:00.000Z",
+      "er": 0.09408602150537634,
+      "atr_usdt": 389.32142857142856,
+      "atr_cutoff_pct": 0.4013556945744893,
+      "one_hour_mfe_pct": 0.08411799757215489,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-08-21T13:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.014,
+          "net_usdt": -8.449294000000009
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-08-21T13:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.014,
+          "net_usdt": -9.639532000000006
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-08-21T13:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.015,
+          "net_usdt": -10.328070000000007
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-08-21T13:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.014,
+          "net_usdt": -9.639532000000006
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-09-05T04:00:00.000Z",
+      "er": 0.11690302798006899,
+      "atr_usdt": 312.4642857142857,
+      "atr_cutoff_pct": 0.31414779368792994,
+      "one_hour_mfe_pct": 0.02523845205694042,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-09-05T08:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -3.3353808000000136
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-09-05T05:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.012,
+          "net_usdt": -1.9911119999999938
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-09-05T05:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.013000000000000001,
+          "net_usdt": -2.1570379999999933
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-09-05T05:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.012,
+          "net_usdt": -1.9911119999999938
+        }
+      }
+    },
+    {
+      "year": 2021,
+      "opened_utc": "2021-12-03T15:30:00.000Z",
+      "er": 0.23309203722854188,
+      "atr_usdt": 458.35714285714283,
+      "atr_cutoff_pct": 0.40653078594999387,
+      "one_hour_mfe_pct": 2.427923312447116,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2021-12-04T14:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.01,
+          "net_usdt": 72.00544307475329
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2021-12-04T14:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.01,
+          "net_usdt": 72.00544307475329
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2021-12-04T14:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.011,
+          "net_usdt": 80.89617117475328
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2021-12-04T14:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.01,
+          "net_usdt": 72.00544307475329
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "opened_utc": "2022-01-13T16:15:00.000Z",
+      "er": 0.21706516643225504,
+      "atr_usdt": 301.17857142857144,
+      "atr_cutoff_pct": 0.34871254507953825,
+      "one_hour_mfe_pct": 0.6596401816885535,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2022-01-14T03:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.011,
+          "net_usdt": 4.9562068277964855
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2022-01-14T03:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.011,
+          "net_usdt": 4.9562068277964855
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2022-01-14T03:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.011,
+          "net_usdt": 4.9562068277964855
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2022-01-14T03:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.011,
+          "net_usdt": 4.9562068277964855
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "opened_utc": "2022-02-13T17:30:00.000Z",
+      "er": 0.24158613795401532,
+      "atr_usdt": 226.07142857142858,
+      "atr_cutoff_pct": 0.26783139105929393,
+      "one_hour_mfe_pct": 0.08069721732324579,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2022-02-13T21:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -0.8355966500159411
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2022-02-13T18:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.012,
+          "net_usdt": -0.8027399999999616
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2022-02-13T18:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.012,
+          "net_usdt": -0.8027399999999616
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2022-02-13T18:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.012,
+          "net_usdt": -0.8027399999999616
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "opened_utc": "2022-07-25T00:30:00.000Z",
+      "er": 0.24648359008707302,
+      "atr_usdt": 222.82142857142858,
+      "atr_cutoff_pct": 0.4980579743262854,
+      "one_hour_mfe_pct": 0.6662127562616739,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2022-07-25T07:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": 6.247973063341464
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2022-07-25T07:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": 6.247973063341464
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2022-07-25T07:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": 6.247973063341464
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2022-07-25T07:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": 6.247973063341464
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "opened_utc": "2022-09-21T07:15:00.000Z",
+      "er": 0.2053872053872054,
+      "atr_usdt": 173.5,
+      "atr_cutoff_pct": 0.46040196047274823,
+      "one_hour_mfe_pct": 0.030414657695420975,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2022-09-21T10:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.041,
+          "net_usdt": -6.357783899999926
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2022-09-21T08:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.041,
+          "net_usdt": -1.7853695999999037
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2022-09-21T08:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.041,
+          "net_usdt": -1.7853695999999037
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2022-09-21T08:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.041,
+          "net_usdt": -1.7853695999999037
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "opened_utc": "2022-11-02T20:45:00.000Z",
+      "er": 0.18995051389417586,
+      "atr_usdt": 160.46428571428572,
+      "atr_cutoff_pct": 0.3977507000849644,
+      "one_hour_mfe_pct": 0.5947257702637107,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2022-11-02T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.036000000000000004,
+          "net_usdt": 0.10555200000002515
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2022-11-02T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.037,
+          "net_usdt": 0.10848400000002584
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2022-11-02T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.037,
+          "net_usdt": 0.10848400000002584
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2022-11-02T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.037,
+          "net_usdt": 0.10848400000002584
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "opened_utc": "2022-12-14T20:45:00.000Z",
+      "er": 0.246001523229246,
+      "atr_usdt": 167.53571428571428,
+      "atr_cutoff_pct": 0.4728651639002752,
+      "one_hour_mfe_pct": 0.09007247734504231,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2022-12-14T23:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.039,
+          "net_usdt": -4.235700299999877
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2022-12-14T21:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.041,
+          "net_usdt": -3.694263999999974
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2022-12-14T21:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.041,
+          "net_usdt": -3.694263999999974
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2022-12-14T21:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.041,
+          "net_usdt": -3.694263999999974
+        }
+      }
+    },
+    {
+      "year": 2022,
+      "opened_utc": "2022-12-28T17:00:00.000Z",
+      "er": 0.19148936170212766,
+      "atr_usdt": 64.17857142857143,
+      "atr_cutoff_pct": 0.19332432752232726,
+      "one_hour_mfe_pct": 0.07638920869344018,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2022-12-28T17:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.041,
+          "net_usdt": -1.4205024000000595
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2022-12-28T17:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.042,
+          "net_usdt": -1.455148800000061
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2022-12-28T17:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.042,
+          "net_usdt": -1.455148800000061
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2022-12-28T17:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.042,
+          "net_usdt": -1.455148800000061
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "opened_utc": "2023-02-21T09:45:00.000Z",
+      "er": 0.09039991038422762,
+      "atr_usdt": 170.55000000000084,
+      "atr_cutoff_pct": 0.34392929805148836,
+      "one_hour_mfe_pct": 0.4050930149093243,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2023-02-21T14:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.019,
+          "net_usdt": 2.996505932108641
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2023-02-21T14:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.019,
+          "net_usdt": 2.996505932108641
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2023-02-21T14:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.019,
+          "net_usdt": 2.996505932108641
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2023-02-21T14:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.019,
+          "net_usdt": 2.996505932108641
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "opened_utc": "2023-05-18T13:45:00.000Z",
+      "er": 0.24287506721634322,
+      "atr_usdt": 112.48571428571371,
+      "atr_cutoff_pct": 0.2064348207705961,
+      "one_hour_mfe_pct": 0.24793654635192602,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2023-05-18T22:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.029,
+          "net_usdt": 8.734750626459544
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2023-05-18T14:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.029,
+          "net_usdt": 1.7259048400000065
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2023-05-18T22:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.029,
+          "net_usdt": 8.734750626459544
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2023-05-18T22:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.029,
+          "net_usdt": 8.734750626459544
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "opened_utc": "2023-08-10T16:15:00.000Z",
+      "er": 0.16501519355265215,
+      "atr_usdt": 104.27857142857127,
+      "atr_cutoff_pct": 0.17735223623996627,
+      "one_hour_mfe_pct": 0.13170328916248464,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2023-08-10T20:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.029,
+          "net_usdt": -2.3163883400000853
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2023-08-10T17:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.027,
+          "net_usdt": -0.9521965800000144
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2023-08-10T17:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.029,
+          "net_usdt": -1.0227296600000155
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2023-08-10T17:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.029,
+          "net_usdt": -1.0227296600000155
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "opened_utc": "2023-11-14T11:00:00.000Z",
+      "er": 0.20536791314837677,
+      "atr_usdt": 182.39285714285765,
+      "atr_cutoff_pct": 0.24976498350427978,
+      "one_hour_mfe_pct": 0.7054930955961114,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2023-11-14T14:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.023,
+          "net_usdt": -1.4261750035138974
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2023-11-14T14:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.022,
+          "net_usdt": -1.291142843513895
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2023-11-14T14:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.023,
+          "net_usdt": -1.4261750035138974
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2023-11-14T14:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.023,
+          "net_usdt": -1.4261750035138974
+        }
+      }
+    },
+    {
+      "year": 2023,
+      "opened_utc": "2023-12-22T08:15:00.000Z",
+      "er": 0.15094472150031663,
+      "atr_usdt": 299.90000000000043,
+      "atr_cutoff_pct": 0.3426931413368187,
+      "one_hour_mfe_pct": 0.2748103722071808,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2023-12-22T17:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.019,
+          "net_usdt": 1.5145546000000103
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2023-12-22T09:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": 1.969548120000138
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2023-12-22T09:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.019,
+          "net_usdt": 2.078967460000145
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2023-12-22T09:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.019,
+          "net_usdt": 2.078967460000145
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "opened_utc": "2024-01-15T15:30:00.000Z",
+      "er": 0.11930744376028576,
+      "atr_usdt": 267.9214285714282,
+      "atr_cutoff_pct": 0.3157104424789625,
+      "one_hour_mfe_pct": 0.6351694467074434,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2024-01-15T17:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -2.5081728000000005
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2024-01-15T17:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -2.5081728000000005
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2024-01-15T17:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -2.5081728000000005
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2024-01-15T17:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -2.5081728000000005
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "opened_utc": "2024-01-20T09:30:00.000Z",
+      "er": 0.1782178217821788,
+      "atr_usdt": 205.3785714285706,
+      "atr_cutoff_pct": 0.24740234968751584,
+      "one_hour_mfe_pct": 0.13635517906009,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2024-01-20T13:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -2.0188372799999197
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2024-01-20T10:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.012,
+          "net_usdt": -1.0298395199999213
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2024-01-20T10:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.012,
+          "net_usdt": -1.0298395199999213
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2024-01-20T10:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.012,
+          "net_usdt": -1.0298395199999213
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "opened_utc": "2024-03-05T17:00:00.000Z",
+      "er": 0.1387822802280936,
+      "atr_usdt": 1391.0142857142855,
+      "atr_cutoff_pct": 1.0603216299936515,
+      "one_hour_mfe_pct": 3.3281691814706327,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2024-03-05T23:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.008,
+          "net_usdt": 15.502872463289844
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2024-03-05T23:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.008,
+          "net_usdt": 15.502872463289844
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2024-03-05T23:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.008,
+          "net_usdt": 15.502872463289844
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2024-03-05T23:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.008,
+          "net_usdt": 15.502872463289844
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "opened_utc": "2024-03-27T15:45:00.000Z",
+      "er": 0.1456713002334828,
+      "atr_usdt": 711.7071428571425,
+      "atr_cutoff_pct": 0.514521323726684,
+      "one_hour_mfe_pct": 1.0979498977890731,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2024-03-27T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.011,
+          "net_usdt": 2.8105122897994876
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2024-03-27T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.011,
+          "net_usdt": 2.8105122897994876
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2024-03-27T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.011,
+          "net_usdt": 2.8105122897994876
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2024-03-27T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.011,
+          "net_usdt": 2.8105122897994876
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "opened_utc": "2024-07-29T14:45:00.000Z",
+      "er": 0.19580838323353097,
+      "atr_usdt": 511.36428571428615,
+      "atr_cutoff_pct": 0.37146617732338927,
+      "one_hour_mfe_pct": 1.7568237814995935,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2024-07-29T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 19.251705695225525
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2024-07-29T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 19.251705695225525
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2024-07-29T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 19.251705695225525
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2024-07-29T21:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.015,
+          "net_usdt": 19.251705695225525
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "opened_utc": "2024-10-20T02:30:00.000Z",
+      "er": 0.19152597053447287,
+      "atr_usdt": 156.8928571428592,
+      "atr_cutoff_pct": 0.11514029096222857,
+      "one_hour_mfe_pct": 0.08259221020429844,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2024-10-20T07:00:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": -4.617067679999862
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2024-10-20T03:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": 0.3177190800000681
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2024-10-20T03:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": 0.3177190800000681
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2024-10-20T03:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.018000000000000002,
+          "net_usdt": 0.3177190800000681
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "opened_utc": "2024-12-04T03:00:00.000Z",
+      "er": 0.05004681647939871,
+      "atr_usdt": 885.5071428571433,
+      "atr_cutoff_pct": 0.46194302186775266,
+      "one_hour_mfe_pct": 0.17906549126058743,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2024-12-04T04:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.011,
+          "net_usdt": -0.9026025799999042
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2024-12-04T04:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.011,
+          "net_usdt": -0.47791765999990454
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2024-12-04T04:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.011,
+          "net_usdt": -0.47791765999990454
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2024-12-04T04:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.011,
+          "net_usdt": -0.47791765999990454
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "opened_utc": "2024-12-05T16:30:00.000Z",
+      "er": 0.23910204081632688,
+      "atr_usdt": 1471.4357142857116,
+      "atr_cutoff_pct": 0.7258676549374323,
+      "one_hour_mfe_pct": 0.7004196731523279,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2024-12-06T01:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.01,
+          "net_usdt": 32.337701445302606
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2024-12-06T01:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.01,
+          "net_usdt": 32.337701445302606
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2024-12-05T17:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.01,
+          "net_usdt": 3.983368400000036
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2024-12-06T01:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.01,
+          "net_usdt": 32.337701445302606
+        }
+      }
+    },
+    {
+      "year": 2024,
+      "opened_utc": "2024-12-13T16:45:00.000Z",
+      "er": 0.11130574045343075,
+      "atr_usdt": 598.8928571428571,
+      "atr_cutoff_pct": 0.2969699098374742,
+      "one_hour_mfe_pct": 0.07659046972388284,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2024-12-13T17:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -3.679138559999876
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2024-12-13T17:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -3.679138559999876
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2024-12-13T17:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.011,
+          "net_usdt": -3.372543679999886
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2024-12-13T17:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.012,
+          "net_usdt": -3.679138559999876
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-01-19T22:45:00.000Z",
+      "er": 0.18660638266639484,
+      "atr_usdt": 1026.8142857142852,
+      "atr_cutoff_pct": 0.4969567136511033,
+      "one_hour_mfe_pct": 3.591351682026417,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-01-20T04:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": 6.195542480000004
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-01-20T04:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": 6.195542480000004
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-01-20T04:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": 6.195542480000004
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-01-20T04:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": 6.195542480000004
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-02-18T16:30:00.000Z",
+      "er": 0.1576882149507855,
+      "atr_usdt": 497.64999999999935,
+      "atr_cutoff_pct": 0.26136240951941897,
+      "one_hour_mfe_pct": 0.8543376838535895,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-02-18T22:00:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.005,
+          "net_usdt": 1.3189264784129917
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-02-18T22:00:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.005,
+          "net_usdt": 1.3189264784129917
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-02-18T22:00:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.005,
+          "net_usdt": 1.3189264784129917
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-02-18T22:00:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.005,
+          "net_usdt": 1.3189264784129917
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-03-03T15:30:00.000Z",
+      "er": 0.10409931171215703,
+      "atr_usdt": 1197.778571428569,
+      "atr_cutoff_pct": 0.6576620168418108,
+      "one_hour_mfe_pct": 1.4845524352033537,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-03-03T16:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.005,
+          "net_usdt": 4.6311226541179344
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-03-03T16:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.005,
+          "net_usdt": 4.6311226541179344
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-03-03T16:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.005,
+          "net_usdt": 4.6311226541179344
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-03-03T16:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.005,
+          "net_usdt": 4.6311226541179344
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-04-04T11:45:00.000Z",
+      "er": 0.2350819209608846,
+      "atr_usdt": 667.4071428571406,
+      "atr_cutoff_pct": 0.40764895287152914,
+      "one_hour_mfe_pct": 0,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-04-04T14:00:00.000Z",
+          "exit_reason": "stop",
+          "quantity_btc": 0.006,
+          "net_usdt": -9.923460236534885
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-04-04T12:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.006,
+          "net_usdt": -5.364137880000053
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-04-04T12:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.006,
+          "net_usdt": -5.364137880000053
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-04-04T12:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.006,
+          "net_usdt": -5.364137880000053
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-04-15T15:30:00.000Z",
+      "er": 0.15821145006268247,
+      "atr_usdt": 521.3785714285716,
+      "atr_cutoff_pct": 0.3061635524840701,
+      "one_hour_mfe_pct": 0.6886522336235511,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-04-16T03:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.005,
+          "net_usdt": 5.686652319311543
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-04-16T03:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.006,
+          "net_usdt": 6.942244559311556
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-04-16T03:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.006,
+          "net_usdt": 6.942244559311556
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-04-16T03:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.006,
+          "net_usdt": 6.942244559311556
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-04-16T13:45:00.000Z",
+      "er": 0.06046935520619639,
+      "atr_usdt": 481.221428571429,
+      "atr_cutoff_pct": 0.2865296669697854,
+      "one_hour_mfe_pct": 0.5229014785311058,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-04-16T17:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.006,
+          "net_usdt": -6.97813320000004
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-04-16T17:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.006,
+          "net_usdt": -6.97813320000004
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-04-16T17:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.006,
+          "net_usdt": -6.97813320000004
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-04-16T17:15:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.006,
+          "net_usdt": -6.97813320000004
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-04-19T17:15:00.000Z",
+      "er": 0.22476019598371338,
+      "atr_usdt": 288.83571428571406,
+      "atr_cutoff_pct": 0.17010725594406112,
+      "one_hour_mfe_pct": 0,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-04-19T21:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.005,
+          "net_usdt": -1.8246610999999393
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-04-19T18:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.005,
+          "net_usdt": -1.7761513999999443
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-04-19T18:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.005,
+          "net_usdt": -1.7761513999999443
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-04-19T18:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.005,
+          "net_usdt": -1.7761513999999443
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-04-27T23:30:00.000Z",
+      "er": 0.15402279299200286,
+      "atr_usdt": 315.65000000000146,
+      "atr_cutoff_pct": 0.1683440701995555,
+      "one_hour_mfe_pct": 0.5619603565632211,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-04-28T00:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": 0.1308238400000264
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-04-28T00:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.005,
+          "net_usdt": 0.163529800000033
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-04-28T00:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.005,
+          "net_usdt": 0.163529800000033
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-04-28T00:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.005,
+          "net_usdt": 0.163529800000033
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-05-14T15:15:00.000Z",
+      "er": 0.11412859819974687,
+      "atr_usdt": 502.07142857142964,
+      "atr_cutoff_pct": 0.24322490261935176,
+      "one_hour_mfe_pct": 0.1673784849964378,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-05-14T20:00:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.3548091199999326
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-05-14T16:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.418621839999978
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-05-14T16:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.418621839999978
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-05-14T16:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.418621839999978
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-05-26T18:00:00.000Z",
+      "er": 0.23261408106846548,
+      "atr_usdt": 528.8142857142853,
+      "atr_cutoff_pct": 0.24232686804441114,
+      "one_hour_mfe_pct": 0.15339616887217575,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-05-26T22:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.8563500799999456
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-05-26T19:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": 0.1818575200000196
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-05-26T19:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": 0.1818575200000196
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-05-26T19:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": 0.1818575200000196
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-06-10T14:45:00.000Z",
+      "er": 0.23682308200018554,
+      "atr_usdt": 451.21428571428675,
+      "atr_cutoff_pct": 0.20784839545400646,
+      "one_hour_mfe_pct": 0.2440361771069707,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-06-10T17:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.0910887199999997
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-06-10T15:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.8082321599999559
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-06-10T17:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.0910887199999997
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-06-10T17:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.0910887199999997
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-06-26T22:45:00.000Z",
+      "er": 0.11176766828940547,
+      "atr_usdt": 538.8785714285726,
+      "atr_cutoff_pct": 0.2521113662079495,
+      "one_hour_mfe_pct": 0.059061716688279566,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-06-27T03:00:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.384073759999941
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-06-26T23:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.26545007999998055
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-06-26T23:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.26545007999998055
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-06-26T23:45:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.26545007999998055
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-07-18T08:15:00.000Z",
+      "er": 0.2100406786387535,
+      "atr_usdt": 888.3499999999985,
+      "atr_cutoff_pct": 0.37237655820841825,
+      "one_hour_mfe_pct": 0.7018200924456259,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-07-18T11:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.003,
+          "net_usdt": 0.3348295799999905
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-07-18T11:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.003,
+          "net_usdt": 0.3348295799999905
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-07-18T11:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.003,
+          "net_usdt": 0.3348295799999905
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-07-18T11:45:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.003,
+          "net_usdt": 0.3348295799999905
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-08-21T03:15:00.000Z",
+      "er": 0.015262624455974217,
+      "atr_usdt": 816.1928571428559,
+      "atr_cutoff_pct": 0.35702964081190974,
+      "one_hour_mfe_pct": 0.4286272220930495,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-08-21T14:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": 2.4015950400000436
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-08-21T14:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": 2.4015950400000436
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-08-21T14:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": 2.4015950400000436
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-08-21T14:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": 2.4015950400000436
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-09-14T04:15:00.000Z",
+      "er": 0.19144741830313225,
+      "atr_usdt": 301.6571428571416,
+      "atr_cutoff_pct": 0.1305105779481537,
+      "one_hour_mfe_pct": 0.16274541995997643,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-09-14T08:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.1003289600000135
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-09-14T05:15:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.6950479199999827
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-09-14T08:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.1003289600000135
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-09-14T08:30:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.1003289600000135
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-09-21T09:45:00.000Z",
+      "er": 0.027524544179530725,
+      "atr_usdt": 170.12142857143044,
+      "atr_cutoff_pct": 0.07368703983925054,
+      "one_hour_mfe_pct": 0.004685195064862385,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-09-21T10:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.8932748000000138
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-09-21T10:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.8932748000000138
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-09-21T10:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.8932748000000138
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-09-21T10:00:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.8932748000000138
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-10-14T20:30:00.000Z",
+      "er": 0.19404900103867398,
+      "atr_usdt": 1172.3571428571438,
+      "atr_cutoff_pct": 0.5200691809536865,
+      "one_hour_mfe_pct": 0.07608189357162248,
+      "volatility_group": "at_or_above_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-10-14T23:30:00.000Z",
+          "exit_reason": "15m_structure_flip",
+          "quantity_btc": 0.004,
+          "net_usdt": -2.796097759999975
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-10-14T21:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.9053196799999569
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-10-14T21:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.9053196799999569
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-10-14T21:30:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -0.9053196799999569
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-10-20T18:00:00.000Z",
+      "er": 0.13235121355231022,
+      "atr_usdt": 677.52857142857,
+      "atr_cutoff_pct": 0.3073303807658314,
+      "one_hour_mfe_pct": 0.05420578519791372,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-10-20T20:15:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -3.0365720799999547
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-10-20T19:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -2.712507279999962
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-10-20T19:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -2.712507279999962
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-10-20T19:00:00.000Z",
+          "exit_reason": "er_1h_timeout",
+          "quantity_btc": 0.004,
+          "net_usdt": -2.712507279999962
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-10-29T15:00:00.000Z",
+      "er": 0.15708762886598274,
+      "atr_usdt": 532.4142857142859,
+      "atr_cutoff_pct": 0.23682178883181387,
+      "one_hour_mfe_pct": 1.0083905980498482,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-10-29T21:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.003,
+          "net_usdt": 2.4504001200000056
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-10-29T21:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": 3.267200160000008
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-10-29T21:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": 3.267200160000008
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-10-29T21:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": 3.267200160000008
+        }
+      }
+    },
+    {
+      "year": 2025,
+      "opened_utc": "2025-11-10T15:30:00.000Z",
+      "er": 0.18778568144321744,
+      "atr_usdt": 640.6285714285696,
+      "atr_cutoff_pct": 0.30389307381150915,
+      "one_hour_mfe_pct": 0.7604246396518145,
+      "volatility_group": "below_fixed_cutoff",
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "close_utc": "2025-11-10T18:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.7846026400000556
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "close_utc": "2025-11-10T18:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.7846026400000556
+        },
+        "combined_short_timeout_atr_half": {
+          "close_utc": "2025-11-10T18:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.7846026400000556
+        },
+        "combined_short_timeout_atr_half_capped": {
+          "close_utc": "2025-11-10T18:45:00.000Z",
+          "exit_reason": "ma5_ma30_cross",
+          "quantity_btc": 0.004,
+          "net_usdt": -1.7846026400000556
+        }
+      }
+    }
+  ],
+  "uncapped_comparison_volatility_groups": {
+    "at_or_above_fixed_cutoff": {
+      "shared_entries": 20,
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "low_er_shorts": 20,
+          "timeout_exits": 0,
+          "shared_entries_net_usdt": 110.97037962201776
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "low_er_shorts": 20,
+          "timeout_exits": 6,
+          "shared_entries_net_usdt": 121.52263489953293,
+          "timeout_entries_with_baseline_match": 6,
+          "timeout_entries_matched_net_delta_usdt": 10.798397956534776
+        },
+        "combined_short_timeout_atr_half": {
+          "low_er_shorts": 20,
+          "timeout_exits": 8,
+          "shared_entries_net_usdt": 110.02478501089726,
+          "timeout_entries_with_baseline_match": 8,
+          "timeout_entries_matched_net_delta_usdt": -9.51750271112049
+        }
+      }
+    },
+    "below_fixed_cutoff": {
+      "shared_entries": 33,
+      "scenarios": {
+        "combined_selected_long_and_8h_short": {
+          "low_er_shorts": 33,
+          "timeout_exits": 0,
+          "shared_entries_net_usdt": 10.613157877702164
+        },
+        "combined_selected_long_and_8h_short_timeout_shorts_only": {
+          "low_er_shorts": 33,
+          "timeout_exits": 15,
+          "shared_entries_net_usdt": 15.160129209341923,
+          "timeout_entries_with_baseline_match": 15,
+          "timeout_entries_matched_net_delta_usdt": 2.338555331639734
+        },
+        "combined_short_timeout_atr_half": {
+          "low_er_shorts": 33,
+          "timeout_exits": 12,
+          "shared_entries_net_usdt": 21.52536037580138,
+          "timeout_entries_with_baseline_match": 12,
+          "timeout_entries_matched_net_delta_usdt": 8.532223778099203
+        }
+      }
+    }
+  },
+  "capped_move_pct_max": 0.4,
+  "five_year_aggregate": {
+    "combined_selected_long_and_8h_short": {
+      "mean_annual_return_pct": 57.3599381452847,
+      "mean_annual_max_drawdown_pct": 24.484491905760528,
+      "total_timeout_exits": 0
+    },
+    "combined_selected_long_and_8h_short_timeout_shorts_only": {
+      "mean_annual_return_pct": 58.731471024387254,
+      "mean_annual_max_drawdown_pct": 23.418658650922207,
+      "total_timeout_exits": 21
+    },
+    "combined_short_timeout_atr_half": {
+      "mean_annual_return_pct": 58.634285982761085,
+      "mean_annual_max_drawdown_pct": 23.13742130588351,
+      "total_timeout_exits": 20
+    },
+    "combined_short_timeout_atr_half_capped": {
+      "mean_annual_return_pct": 60.31474945767914,
+      "mean_annual_max_drawdown_pct": 23.290057126223196,
+      "total_timeout_exits": 18
+    }
+  }
+}

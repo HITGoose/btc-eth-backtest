@@ -1,0 +1,1594 @@
+{
+  "starting_equity_usdt": 500,
+  "years": {
+    "2022": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "ending_equity_usdt": 698.9031001495312,
+        "rejected_entries": 0,
+        "by_setup": {
+          "peak_ma5_ma20_macd_death": {
+            "trades": 10,
+            "wins": 5,
+            "losses": 5,
+            "adds": 0,
+            "net": 159.39297618353208,
+            "gross": 159.39297618353208,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 3.241185760314792,
+            "medianHours": 1
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 14,
+            "wins": 5,
+            "losses": 9,
+            "adds": 0,
+            "net": 39.51012396599913,
+            "gross": 39.51012396599913,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.20333662933826,
+            "medianHours": 3.75
+          }
+        },
+        "by_side": {
+          "SHORT": {
+            "trades": 10,
+            "wins": 5,
+            "losses": 5,
+            "adds": 0,
+            "net": 159.39297618353208,
+            "gross": 159.39297618353208,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 3.241185760314792,
+            "medianHours": 1
+          },
+          "LONG": {
+            "trades": 14,
+            "wins": 5,
+            "losses": 9,
+            "adds": 0,
+            "net": 39.51012396599913,
+            "gross": 39.51012396599913,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.20333662933826,
+            "medianHours": 3.75
+          }
+        },
+        "timeout_exits": 3
+      },
+      "original_or_rsi": {
+        "return_pct": 39.38302733783878,
+        "max_drawdown_pct": 34.214953512164115,
+        "trades": 79,
+        "ending_equity_usdt": 696.9151366891939,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_1h_extreme": {
+            "trades": 56,
+            "wins": 32,
+            "losses": 24,
+            "adds": 0,
+            "net": 18.853321856089664,
+            "gross": 18.853321856089664,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.0683292598680654,
+            "medianHours": 0.25
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 9,
+            "wins": 5,
+            "losses": 4,
+            "adds": 0,
+            "net": 156.45694084894626,
+            "gross": 156.45694084894626,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 4.028978471207456,
+            "medianHours": 1
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 14,
+            "wins": 5,
+            "losses": 9,
+            "adds": 0,
+            "net": 21.60487398415821,
+            "gross": 21.60487398415821,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.1153680554769305,
+            "medianHours": 3.75
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 43,
+            "wins": 20,
+            "losses": 23,
+            "adds": 0,
+            "net": -27.473675353043987,
+            "gross": -27.473675353043987,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9237266796134831,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 36,
+            "wins": 22,
+            "losses": 14,
+            "adds": 0,
+            "net": 224.38881204223813,
+            "gross": 224.38881204223813,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 2.451031720716173,
+            "medianHours": 0.5
+          }
+        },
+        "timeout_exits": 2
+      },
+      "original_or_divergence": {
+        "return_pct": -81.66131431511425,
+        "max_drawdown_pct": 87.24792374611327,
+        "trades": 814,
+        "ending_equity_usdt": 91.69342842442872,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 798,
+            "wins": 302,
+            "losses": 496,
+            "adds": 0,
+            "net": -482.004371435631,
+            "gross": -482.004371435631,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.7656116628331152,
+            "medianHours": 0.25
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 5,
+            "wins": 3,
+            "losses": 2,
+            "adds": 0,
+            "net": 29.485969939547733,
+            "gross": 29.485969939547733,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 8.407838674953853,
+            "medianHours": 1
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 11,
+            "wins": 5,
+            "losses": 6,
+            "adds": 0,
+            "net": 44.21182992051299,
+            "gross": 44.21182992051299,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.6720340207827245,
+            "medianHours": 3.75
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 417,
+            "wins": 159,
+            "losses": 258,
+            "adds": 0,
+            "net": -336.833705885763,
+            "gross": -336.833705885763,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6898172603469583,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 397,
+            "wins": 151,
+            "losses": 246,
+            "adds": 0,
+            "net": -71.47286568980768,
+            "gross": -71.47286568980768,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9312948002778424,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 34
+      },
+      "original_or_rsi_or_divergence": {
+        "return_pct": -83.12319261133861,
+        "max_drawdown_pct": 88.64579589183352,
+        "trades": 860,
+        "ending_equity_usdt": 84.38403694330701,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 792,
+            "wins": 298,
+            "losses": 494,
+            "adds": 0,
+            "net": -464.3599443580731,
+            "gross": -464.3599443580731,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.7641257340652484,
+            "medianHours": 0.25
+          },
+          "rsi_1h_extreme": {
+            "trades": 52,
+            "wins": 29,
+            "losses": 23,
+            "adds": 0,
+            "net": -16.867189307948244,
+            "gross": -16.867189307948244,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.8707849467451623,
+            "medianHours": 0.25
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 5,
+            "wins": 3,
+            "losses": 2,
+            "adds": 0,
+            "net": 29.42238243954774,
+            "gross": 29.42238243954774,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 8.155655155786224,
+            "medianHours": 1
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 11,
+            "wins": 4,
+            "losses": 7,
+            "adds": 0,
+            "net": 36.18878816978149,
+            "gross": 36.18878816978149,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.5558190361027568,
+            "medianHours": 3.75
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 444,
+            "wins": 171,
+            "losses": 273,
+            "adds": 0,
+            "net": -364.77918289016077,
+            "gross": -364.77918289016077,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6735726461111446,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 416,
+            "wins": 163,
+            "losses": 253,
+            "adds": 0,
+            "net": -50.836780166532115,
+            "gross": -50.836780166532115,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9516274438713374,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 34
+      },
+      "only_rsi": {
+        "return_pct": -1.0529366586823796,
+        "max_drawdown_pct": 19.94419468616523,
+        "trades": 60,
+        "ending_equity_usdt": 494.7353167065881,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_1h_extreme": {
+            "trades": 60,
+            "wins": 36,
+            "losses": 24,
+            "adds": 0,
+            "net": -5.264683293411622,
+            "gross": -5.264683293411622,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.980431101490317,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 30,
+            "wins": 16,
+            "losses": 14,
+            "adds": 0,
+            "net": -57.29113816423912,
+            "gross": -57.29113816423912,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6675100275449858,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 30,
+            "wins": 20,
+            "losses": 10,
+            "adds": 0,
+            "net": 52.02645487082752,
+            "gross": 52.02645487082752,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.537886663562905,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 0
+      },
+      "only_divergence": {
+        "return_pct": -87.53690472044305,
+        "max_drawdown_pct": 90.36170940905589,
+        "trades": 807,
+        "ending_equity_usdt": 62.31547639778476,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 807,
+            "wins": 304,
+            "losses": 503,
+            "adds": 0,
+            "net": -437.6845236022142,
+            "gross": -437.6845236022142,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.7569178506389971,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 407,
+            "wins": 154,
+            "losses": 253,
+            "adds": 0,
+            "net": -303.99238113587717,
+            "gross": -303.99238113587717,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6444978903117237,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 400,
+            "wins": 150,
+            "losses": 250,
+            "adds": 0,
+            "net": -133.69214246633734,
+            "gross": -133.69214246633734,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.8585949272483403,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 34
+      }
+    },
+    "2023": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "ending_equity_usdt": 866.5521965528486,
+        "rejected_entries": 0,
+        "by_setup": {
+          "squeeze_triangle_macd_zero": {
+            "trades": 26,
+            "wins": 10,
+            "losses": 16,
+            "adds": 0,
+            "net": 318.1803060101906,
+            "gross": 318.1803060101906,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 2.211828267220562,
+            "medianHours": 4.75
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 8,
+            "wins": 4,
+            "losses": 4,
+            "adds": 0,
+            "net": 48.371890542657944,
+            "gross": 48.371890542657944,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 3.009010307946396,
+            "medianHours": 3.5
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 26,
+            "wins": 10,
+            "losses": 16,
+            "adds": 0,
+            "net": 318.1803060101906,
+            "gross": 318.1803060101906,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 2.211828267220562,
+            "medianHours": 4.75
+          },
+          "SHORT": {
+            "trades": 8,
+            "wins": 4,
+            "losses": 4,
+            "adds": 0,
+            "net": 48.371890542657944,
+            "gross": 48.371890542657944,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 3.009010307946396,
+            "medianHours": 3.5
+          }
+        },
+        "timeout_exits": 2
+      },
+      "original_or_rsi": {
+        "return_pct": -26.605362411415957,
+        "max_drawdown_pct": 43.67094025590582,
+        "trades": 89,
+        "ending_equity_usdt": 366.9731879429202,
+        "rejected_entries": 0,
+        "by_setup": {
+          "squeeze_triangle_macd_zero": {
+            "trades": 26,
+            "wins": 10,
+            "losses": 16,
+            "adds": 0,
+            "net": 217.7494175213514,
+            "gross": 217.7494175213514,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 2.360933789318937,
+            "medianHours": 4.75
+          },
+          "rsi_1h_extreme": {
+            "trades": 55,
+            "wins": 23,
+            "losses": 32,
+            "adds": 0,
+            "net": -385.81138843748096,
+            "gross": -385.81138843748096,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.33309031339038614,
+            "medianHours": 0.25
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 8,
+            "wins": 4,
+            "losses": 4,
+            "adds": 0,
+            "net": 35.0351588590496,
+            "gross": 35.0351588590496,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 4.142762844125682,
+            "medianHours": 3.5
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 43,
+            "wins": 18,
+            "losses": 25,
+            "adds": 0,
+            "net": 136.37659794930616,
+            "gross": 136.37659794930616,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.4542258020032193,
+            "medianHours": 2.5
+          },
+          "SHORT": {
+            "trades": 46,
+            "wins": 19,
+            "losses": 27,
+            "adds": 0,
+            "net": -269.403410006386,
+            "gross": -269.403410006386,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.40054571688280194,
+            "medianHours": 0.5
+          }
+        },
+        "timeout_exits": 2
+      },
+      "original_or_divergence": {
+        "return_pct": -69.03180429089471,
+        "max_drawdown_pct": 79.56551440014698,
+        "trades": 848,
+        "ending_equity_usdt": 154.84097854552644,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 821,
+            "wins": 281,
+            "losses": 540,
+            "adds": 0,
+            "net": -480.0344255653252,
+            "gross": -480.0344255653252,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6803273481061006,
+            "medianHours": 0.25
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 22,
+            "wins": 9,
+            "losses": 13,
+            "adds": 0,
+            "net": 109.03653796084092,
+            "gross": 109.03653796084092,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 2.301401965157111,
+            "medianHours": 4.25
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 5,
+            "wins": 3,
+            "losses": 2,
+            "adds": 0,
+            "net": 25.83886615001024,
+            "gross": 25.83886615001024,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 12.714571620793935,
+            "medianHours": 3.75
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 434,
+            "wins": 142,
+            "losses": 292,
+            "adds": 0,
+            "net": -44.62670581119703,
+            "gross": -44.62670581119703,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9470598589630386,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 414,
+            "wins": 151,
+            "losses": 263,
+            "adds": 0,
+            "net": -300.5323156432767,
+            "gross": -300.5323156432767,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.5964210354354769,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 36
+      },
+      "original_or_rsi_or_divergence": {
+        "return_pct": -87.35670365757599,
+        "max_drawdown_pct": 90.53965214271985,
+        "trades": 889,
+        "ending_equity_usdt": 63.21648171212002,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 814,
+            "wins": 279,
+            "losses": 535,
+            "adds": 0,
+            "net": -335.00489058864366,
+            "gross": -335.00489058864366,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.666925775032086,
+            "medianHours": 0.25
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 22,
+            "wins": 9,
+            "losses": 13,
+            "adds": 0,
+            "net": 80.20592546277109,
+            "gross": 80.20592546277109,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 2.3153860735827836,
+            "medianHours": 4.25
+          },
+          "rsi_1h_extreme": {
+            "trades": 46,
+            "wins": 18,
+            "losses": 28,
+            "adds": 0,
+            "net": -182.4279411205346,
+            "gross": -182.4279411205346,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.16153190768326955,
+            "medianHours": 0.25
+          },
+          "rsi_and_divergence": {
+            "trades": 2,
+            "wins": 0,
+            "losses": 2,
+            "adds": 0,
+            "net": -18.065544120000055,
+            "gross": -18.065544120000055,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0,
+            "medianHours": 0.5
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 5,
+            "wins": 3,
+            "losses": 2,
+            "adds": 0,
+            "net": 18.50893207852707,
+            "gross": 18.50893207852707,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 17.45435667836209,
+            "medianHours": 3.75
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 448,
+            "wins": 149,
+            "losses": 299,
+            "adds": 0,
+            "net": -29.731517228853615,
+            "gross": -29.731517228853615,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9509246192564387,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 441,
+            "wins": 160,
+            "losses": 281,
+            "adds": 0,
+            "net": -407.0520010590259,
+            "gross": -407.0520010590259,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.4165813306545646,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 36
+      },
+      "only_rsi": {
+        "return_pct": -58.29295640621973,
+        "max_drawdown_pct": 61.72129113428092,
+        "trades": 58,
+        "ending_equity_usdt": 208.53521796890135,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_1h_extreme": {
+            "trades": 58,
+            "wins": 25,
+            "losses": 33,
+            "adds": 0,
+            "net": -291.4647820310989,
+            "gross": -291.4647820310989,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.3358212194257569,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "SHORT": {
+            "trades": 41,
+            "wins": 17,
+            "losses": 24,
+            "adds": 0,
+            "net": -237.1707613594709,
+            "gross": -237.1707613594709,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.3061226690072977,
+            "medianHours": 0.5
+          },
+          "LONG": {
+            "trades": 17,
+            "wins": 8,
+            "losses": 9,
+            "adds": 0,
+            "net": -54.294020671627756,
+            "gross": -54.294020671627756,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.4404397370522528,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 0
+      },
+      "only_divergence": {
+        "return_pct": -80.18813070250717,
+        "max_drawdown_pct": 85.91818677415576,
+        "trades": 840,
+        "ending_equity_usdt": 99.05934648746415,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 840,
+            "wins": 292,
+            "losses": 548,
+            "adds": 0,
+            "net": -400.9406535125354,
+            "gross": -400.9406535125354,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6709515982318429,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 418,
+            "wins": 138,
+            "losses": 280,
+            "adds": 0,
+            "net": -90.77108060086536,
+            "gross": -90.77108060086536,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.8495032419022526,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 422,
+            "wins": 154,
+            "losses": 268,
+            "adds": 0,
+            "net": -310.1695729116704,
+            "gross": -310.1695729116704,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.4959397373143373,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 36
+      }
+    },
+    "2024": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "ending_equity_usdt": 1154.6536910713296,
+        "rejected_entries": 0,
+        "by_setup": {
+          "squeeze_triangle_macd_zero": {
+            "trades": 33,
+            "wins": 11,
+            "losses": 22,
+            "adds": 0,
+            "net": 83.15390376541647,
+            "gross": 83.15390376541647,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.1548481693842845,
+            "medianHours": 4.75
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 18,
+            "wins": 11,
+            "losses": 7,
+            "adds": 0,
+            "net": 571.4997873059131,
+            "gross": 571.4997873059131,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 4.070763258965218,
+            "medianHours": 5.75
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 33,
+            "wins": 11,
+            "losses": 22,
+            "adds": 0,
+            "net": 83.15390376541647,
+            "gross": 83.15390376541647,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.1548481693842845,
+            "medianHours": 4.75
+          },
+          "SHORT": {
+            "trades": 18,
+            "wins": 11,
+            "losses": 7,
+            "adds": 0,
+            "net": 571.4997873059131,
+            "gross": 571.4997873059131,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 4.070763258965218,
+            "medianHours": 5.75
+          }
+        },
+        "timeout_exits": 3
+      },
+      "original_or_rsi": {
+        "return_pct": 153.14491635619726,
+        "max_drawdown_pct": 25.34067993672069,
+        "trades": 97,
+        "ending_equity_usdt": 1265.7245817809865,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_1h_extreme": {
+            "trades": 46,
+            "wins": 32,
+            "losses": 14,
+            "adds": 0,
+            "net": 74.49112313855284,
+            "gross": 74.49112313855284,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.1689758923508289,
+            "medianHours": 0.25
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 33,
+            "wins": 11,
+            "losses": 22,
+            "adds": 0,
+            "net": 80.17681673434973,
+            "gross": 80.17681673434973,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.1374177014117863,
+            "medianHours": 4.75
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 18,
+            "wins": 11,
+            "losses": 7,
+            "adds": 0,
+            "net": 611.056641908084,
+            "gross": 611.056641908084,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 3.9942469024339378,
+            "medianHours": 5.75
+          }
+        },
+        "by_side": {
+          "SHORT": {
+            "trades": 46,
+            "wins": 31,
+            "losses": 15,
+            "adds": 0,
+            "net": 660.0710312398691,
+            "gross": 660.0710312398691,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 2.5179626401351727,
+            "medianHours": 1
+          },
+          "LONG": {
+            "trades": 51,
+            "wins": 23,
+            "losses": 28,
+            "adds": 0,
+            "net": 105.65355054111743,
+            "gross": 105.65355054111743,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.1331439222439934,
+            "medianHours": 2.75
+          }
+        },
+        "timeout_exits": 3
+      },
+      "original_or_divergence": {
+        "return_pct": -75.07744843057588,
+        "max_drawdown_pct": 82.21218907017084,
+        "trades": 862,
+        "ending_equity_usdt": 124.61275784712059,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 817,
+            "wins": 326,
+            "losses": 491,
+            "adds": 0,
+            "net": -672.9626290444547,
+            "gross": -672.9626290444547,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.734272036630699,
+            "medianHours": 0.25
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 29,
+            "wins": 9,
+            "losses": 20,
+            "adds": 0,
+            "net": 121.52119113621976,
+            "gross": 121.52119113621976,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.8457296590842602,
+            "medianHours": 4.75
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 16,
+            "wins": 10,
+            "losses": 6,
+            "adds": 0,
+            "net": 176.05419575535493,
+            "gross": 176.05419575535493,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 5.27825651303,
+            "medianHours": 5.75
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 421,
+            "wins": 168,
+            "losses": 253,
+            "adds": 0,
+            "net": -257.9805908434635,
+            "gross": -257.9805908434635,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.8131606267540191,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 441,
+            "wins": 177,
+            "losses": 264,
+            "adds": 0,
+            "net": -117.4066513094161,
+            "gross": -117.4066513094161,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9121603649014681,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 31
+      },
+      "original_or_rsi_or_divergence": {
+        "return_pct": -73.93267647001515,
+        "max_drawdown_pct": 82.47558204724987,
+        "trades": 899,
+        "ending_equity_usdt": 130.3366176499242,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 813,
+            "wins": 324,
+            "losses": 489,
+            "adds": 0,
+            "net": -707.3264001662943,
+            "gross": -707.3264001662943,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.7336172068033471,
+            "medianHours": 0.25
+          },
+          "rsi_1h_extreme": {
+            "trades": 40,
+            "wins": 28,
+            "losses": 12,
+            "adds": 0,
+            "net": 25.319556269177397,
+            "gross": 25.319556269177397,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.2058803901418453,
+            "medianHours": 0.25
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 29,
+            "wins": 9,
+            "losses": 20,
+            "adds": 0,
+            "net": 118.61082987760108,
+            "gross": 118.61082987760108,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.781453054954541,
+            "medianHours": 4.75
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 16,
+            "wins": 10,
+            "losses": 6,
+            "adds": 0,
+            "net": 189.22261598943973,
+            "gross": 189.22261598943973,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 5.4692949369638,
+            "medianHours": 5.75
+          },
+          "rsi_and_divergence": {
+            "trades": 1,
+            "wins": 1,
+            "losses": 0,
+            "adds": 0,
+            "net": 4.510015680000186,
+            "gross": 4.510015680000186,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": null,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 437,
+            "wins": 179,
+            "losses": 258,
+            "adds": 0,
+            "net": -264.73800710627313,
+            "gross": -264.73800710627313,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.8262603874985998,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 462,
+            "wins": 193,
+            "losses": 269,
+            "adds": 0,
+            "net": -104.92537524380225,
+            "gross": -104.92537524380225,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9275697477526108,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 31
+      },
+      "only_rsi": {
+        "return_pct": 14.899623083359504,
+        "max_drawdown_pct": 15.568172749084031,
+        "trades": 50,
+        "ending_equity_usdt": 574.4981154167975,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_1h_extreme": {
+            "trades": 50,
+            "wins": 35,
+            "losses": 15,
+            "adds": 0,
+            "net": 74.49811541679766,
+            "gross": 74.49811541679766,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.3305188905709113,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "SHORT": {
+            "trades": 31,
+            "wins": 22,
+            "losses": 9,
+            "adds": 0,
+            "net": 25.741477423340402,
+            "gross": 25.741477423340402,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.1902392727662272,
+            "medianHours": 0.25
+          },
+          "LONG": {
+            "trades": 19,
+            "wins": 13,
+            "losses": 6,
+            "adds": 0,
+            "net": 48.75663799345726,
+            "gross": 48.75663799345726,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.5412208974528996,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 0
+      },
+      "only_divergence": {
+        "return_pct": -89.27839257401257,
+        "max_drawdown_pct": 90.38009345768914,
+        "trades": 840,
+        "ending_equity_usdt": 53.60803712993709,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 840,
+            "wins": 330,
+            "losses": 510,
+            "adds": 0,
+            "net": -446.3919628700629,
+            "gross": -446.3919628700629,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.7120901159862953,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 398,
+            "wins": 159,
+            "losses": 239,
+            "adds": 0,
+            "net": -200.91795590025254,
+            "gross": -200.91795590025254,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.7095136869014201,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 442,
+            "wins": 171,
+            "losses": 271,
+            "adds": 0,
+            "net": -245.47400696981035,
+            "gross": -245.47400696981035,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.7141651296807072,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 28
+      }
+    },
+    "2025": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "ending_equity_usdt": 477.38039278569516,
+        "rejected_entries": 0,
+        "by_setup": {
+          "squeeze_triangle_macd_zero": {
+            "trades": 20,
+            "wins": 7,
+            "losses": 13,
+            "adds": 0,
+            "net": -13.694851903003343,
+            "gross": -13.694851903003343,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.8615619931274823,
+            "medianHours": 4.25
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 25,
+            "wins": 12,
+            "losses": 13,
+            "adds": 0,
+            "net": -8.92475531130142,
+            "gross": -8.92475531130142,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9473489329944599,
+            "medianHours": 3
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 20,
+            "wins": 7,
+            "losses": 13,
+            "adds": 0,
+            "net": -13.694851903003343,
+            "gross": -13.694851903003343,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.8615619931274823,
+            "medianHours": 4.25
+          },
+          "SHORT": {
+            "trades": 25,
+            "wins": 12,
+            "losses": 13,
+            "adds": 0,
+            "net": -8.92475531130142,
+            "gross": -8.92475531130142,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9473489329944599,
+            "medianHours": 3
+          }
+        },
+        "timeout_exits": 7
+      },
+      "original_or_rsi": {
+        "return_pct": -13.276033152092715,
+        "max_drawdown_pct": 29.229618066182937,
+        "trades": 88,
+        "ending_equity_usdt": 433.61983423953643,
+        "rejected_entries": 0,
+        "by_setup": {
+          "squeeze_triangle_macd_zero": {
+            "trades": 20,
+            "wins": 7,
+            "losses": 13,
+            "adds": 0,
+            "net": -15.460108283003295,
+            "gross": -15.460108283003295,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.8527418241309289,
+            "medianHours": 4.25
+          },
+          "rsi_1h_extreme": {
+            "trades": 43,
+            "wins": 22,
+            "losses": 21,
+            "adds": 0,
+            "net": -37.50194406490861,
+            "gross": -37.50194406490861,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.8015450473801563,
+            "medianHours": 0.25
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 25,
+            "wins": 12,
+            "losses": 13,
+            "adds": 0,
+            "net": -13.41811341255153,
+            "gross": -13.41811341255153,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9239210010097197,
+            "medianHours": 3
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 42,
+            "wins": 22,
+            "losses": 20,
+            "adds": 0,
+            "net": 20.47897583711804,
+            "gross": 20.47897583711804,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.1138155949582695,
+            "medianHours": 1
+          },
+          "SHORT": {
+            "trades": 46,
+            "wins": 19,
+            "losses": 27,
+            "adds": 0,
+            "net": -86.8591415975815,
+            "gross": -86.8591415975815,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.700893711969611,
+            "medianHours": 1
+          }
+        },
+        "timeout_exits": 7
+      },
+      "original_or_divergence": {
+        "return_pct": -88.17611524135127,
+        "max_drawdown_pct": 89.89808735988798,
+        "trades": 906,
+        "ending_equity_usdt": 59.11942379324362,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 877,
+            "wins": 303,
+            "losses": 574,
+            "adds": 0,
+            "net": -426.18280064283573,
+            "gross": -426.18280064283573,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6634147717847338,
+            "medianHours": 0.25
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 15,
+            "wins": 4,
+            "losses": 11,
+            "adds": 0,
+            "net": -12.742751569353127,
+            "gross": -12.742751569353127,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.5394913673318126,
+            "medianHours": 3.5
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 14,
+            "wins": 6,
+            "losses": 8,
+            "adds": 0,
+            "net": -1.9550239945680372,
+            "gross": -1.9550239945680372,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.9618170073754748,
+            "medianHours": 3.25
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 462,
+            "wins": 149,
+            "losses": 313,
+            "adds": 0,
+            "net": -227.11013268185337,
+            "gross": -227.11013268185337,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.656345870215692,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 444,
+            "wins": 164,
+            "losses": 280,
+            "adds": 0,
+            "net": -213.77044352490313,
+            "gross": -213.77044352490313,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6875614368306089,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 42
+      },
+      "original_or_rsi_or_divergence": {
+        "return_pct": -88.44241080539554,
+        "max_drawdown_pct": 90.28541251993225,
+        "trades": 938,
+        "ending_equity_usdt": 57.787945973022275,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 873,
+            "wins": 304,
+            "losses": 569,
+            "adds": 0,
+            "net": -442.2374314554266,
+            "gross": -442.2374314554266,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6648148585540355,
+            "medianHours": 0.25
+          },
+          "squeeze_triangle_macd_zero": {
+            "trades": 15,
+            "wins": 4,
+            "losses": 11,
+            "adds": 0,
+            "net": -15.1777692293531,
+            "gross": -15.1777692293531,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.4971771087721168,
+            "medianHours": 3.5
+          },
+          "rsi_1h_extreme": {
+            "trades": 35,
+            "wins": 19,
+            "losses": 16,
+            "adds": 0,
+            "net": 20.67148601236951,
+            "gross": 20.67148601236951,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.4521467976853233,
+            "medianHours": 0.25
+          },
+          "peak_ma5_ma20_macd_death": {
+            "trades": 14,
+            "wins": 6,
+            "losses": 8,
+            "adds": 0,
+            "net": -5.062504934568034,
+            "gross": -5.062504934568034,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.906837835245086,
+            "medianHours": 3.25
+          },
+          "rsi_and_divergence": {
+            "trades": 1,
+            "wins": 0,
+            "losses": 1,
+            "adds": 0,
+            "net": -0.4058344199999847,
+            "gross": -0.4058344199999847,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 479,
+            "wins": 162,
+            "losses": 317,
+            "adds": 0,
+            "net": -208.52736550466142,
+            "gross": -208.52736550466142,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.7048564333948363,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 459,
+            "wins": 171,
+            "losses": 288,
+            "adds": 0,
+            "net": -233.68468852231612,
+            "gross": -233.68468852231612,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6856982467396365,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 42
+      },
+      "only_rsi": {
+        "return_pct": -8.858581628506467,
+        "max_drawdown_pct": 18.980571778151567,
+        "trades": 45,
+        "ending_equity_usdt": 455.7070918574677,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_1h_extreme": {
+            "trades": 45,
+            "wins": 23,
+            "losses": 22,
+            "adds": 0,
+            "net": -44.29290814253233,
+            "gross": -44.29290814253233,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.7750230278635852,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "SHORT": {
+            "trades": 23,
+            "wins": 8,
+            "losses": 15,
+            "adds": 0,
+            "net": -74.85225964502968,
+            "gross": -74.85225964502968,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.3775639631389172,
+            "medianHours": 0.25
+          },
+          "LONG": {
+            "trades": 22,
+            "wins": 15,
+            "losses": 7,
+            "adds": 0,
+            "net": 30.559351502497353,
+            "gross": 30.559351502497353,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 1.3988400506275056,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 0
+      },
+      "only_divergence": {
+        "return_pct": -88.46932309127683,
+        "max_drawdown_pct": 90.19129520981353,
+        "trades": 885,
+        "ending_equity_usdt": 57.65338454361578,
+        "rejected_entries": 0,
+        "by_setup": {
+          "rsi_divergence_15m": {
+            "trades": 885,
+            "wins": 303,
+            "losses": 582,
+            "adds": 0,
+            "net": -442.34661545638426,
+            "gross": -442.34661545638426,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6468981658550956,
+            "medianHours": 0.25
+          }
+        },
+        "by_side": {
+          "LONG": {
+            "trades": 451,
+            "wins": 145,
+            "losses": 306,
+            "adds": 0,
+            "net": -214.9905143026617,
+            "gross": -214.9905143026617,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.6544003364369944,
+            "medianHours": 0.25
+          },
+          "SHORT": {
+            "trades": 434,
+            "wins": 158,
+            "losses": 276,
+            "adds": 0,
+            "net": -227.35610115372222,
+            "gross": -227.35610115372222,
+            "fees": 0,
+            "funding": 0,
+            "profitFactor": 0.639498129876192,
+            "medianHours": 0.25
+          }
+        },
+        "timeout_exits": 39
+      }
+    }
+  },
+  "logic": {
+    "rsi_period": 14,
+    "rsi_1h_long_cross_below": 20,
+    "rsi_1h_short_cross_above": 80,
+    "divergence_pivot_confirmation_bars": 2,
+    "divergence_max_pivot_separation_bars": 32,
+    "existing_signal_priority": true,
+    "opposing_new_signals_cancel": true
+  }
+}

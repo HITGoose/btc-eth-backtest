@@ -1,0 +1,693 @@
+{
+  "starting_equity_usdt": 500,
+  "short_entry_rules_unchanged": true,
+  "long_zero_zone_distance_unchanged_atr_multiple": 0.2,
+  "results": {
+    "2019": {
+      "since_utc": "2019-09-23T17:45:00.000Z",
+      "until_utc": "2019-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": -5.621359060369224,
+          "max_drawdown_pct": 12.814108865533736,
+          "trades": 10,
+          "long_trades": 5,
+          "short_trades": 5,
+          "long_net_usdt": -36.47401414404554,
+          "short_net_usdt": 8.367218842199478,
+          "long_wins": 2,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 5,
+              "net_usdt": -36.47401414404554
+            }
+          }
+        },
+        "long_without_high_breakout": {
+          "return_pct": -9.994773562261683,
+          "max_drawdown_pct": 14.927638374072638,
+          "trades": 17,
+          "long_trades": 12,
+          "short_trades": 5,
+          "long_net_usdt": -58.1364463433532,
+          "short_net_usdt": 8.162578532044948,
+          "long_wins": 4,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 4,
+              "net_usdt": -26.198193205725545
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 8,
+              "net_usdt": -31.938253137627658
+            }
+          }
+        },
+        "long_macd_before_squeeze": {
+          "return_pct": 75.3511766606371,
+          "max_drawdown_pct": 23.092098794124738,
+          "trades": 13,
+          "long_trades": 8,
+          "short_trades": 5,
+          "long_net_usdt": 361.19534012604123,
+          "short_net_usdt": 15.560543177144329,
+          "long_wins": 3,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 5,
+              "net_usdt": -23.418356975325647
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 3,
+              "net_usdt": 384.6136971013669
+            }
+          }
+        },
+        "long_both_relaxed": {
+          "return_pct": 78.6889548756069,
+          "max_drawdown_pct": 27.525224790423984,
+          "trades": 24,
+          "long_trades": 19,
+          "short_trades": 5,
+          "long_net_usdt": 377.61472816749875,
+          "short_net_usdt": 15.830046210536013,
+          "long_wins": 6,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 4,
+              "net_usdt": -12.819917847235848
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 8,
+              "net_usdt": -36.02595244943874
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 1,
+              "net_usdt": -8.203835600000174
+            },
+            "cross_at_or_before=True,no_high_breakout=True": {
+              "trades": 6,
+              "net_usdt": 434.6644340641734
+            }
+          }
+        }
+      }
+    },
+    "2020": {
+      "since_utc": "2020-04-09T10:30:00.000Z",
+      "until_utc": "2020-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 2.9019827014417077,
+          "max_drawdown_pct": 14.574023260738766,
+          "trades": 17,
+          "long_trades": 10,
+          "short_trades": 7,
+          "long_net_usdt": 72.03813141216042,
+          "short_net_usdt": -57.52821790495183,
+          "long_wins": 5,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 10,
+              "net_usdt": 72.03813141216042
+            }
+          }
+        },
+        "long_without_high_breakout": {
+          "return_pct": -3.4413041406026634,
+          "max_drawdown_pct": 14.549905493600479,
+          "trades": 18,
+          "long_trades": 11,
+          "short_trades": 7,
+          "long_net_usdt": 36.50371576219199,
+          "short_net_usdt": -53.71023646520531,
+          "long_wins": 5,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 7,
+              "net_usdt": 74.14675816219153
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 4,
+              "net_usdt": -37.64304239999955
+            }
+          }
+        },
+        "long_macd_before_squeeze": {
+          "return_pct": -17.492894654192526,
+          "max_drawdown_pct": 24.691040355585024,
+          "trades": 31,
+          "long_trades": 24,
+          "short_trades": 7,
+          "long_net_usdt": -39.7413439855995,
+          "short_net_usdt": -47.72312928536308,
+          "long_wins": 9,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 14,
+              "net_usdt": -97.84705524117713
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 10,
+              "net_usdt": 58.10571125557762
+            }
+          }
+        },
+        "long_both_relaxed": {
+          "return_pct": -18.760960749226196,
+          "max_drawdown_pct": 24.96495352493584,
+          "trades": 42,
+          "long_trades": 35,
+          "short_trades": 7,
+          "long_net_usdt": -47.6257776734965,
+          "short_net_usdt": -46.17902607263446,
+          "long_wins": 11,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=True,no_high_breakout=True": {
+              "trades": 16,
+              "net_usdt": -51.889208018948906
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 7,
+              "net_usdt": 64.34006912998474
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 8,
+              "net_usdt": -24.00029788453277
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 4,
+              "net_usdt": -36.07634089999957
+            }
+          }
+        }
+      }
+    },
+    "2021": {
+      "since_utc": "2020-12-31T16:00:00.000Z",
+      "until_utc": "2021-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 56.42903419783054,
+          "max_drawdown_pct": 30.211671814809137,
+          "trades": 37,
+          "long_trades": 23,
+          "short_trades": 14,
+          "long_net_usdt": -90.52905402636051,
+          "short_net_usdt": 372.67422501551323,
+          "long_wins": 8,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 23,
+              "net_usdt": -90.52905402636051
+            }
+          }
+        },
+        "long_without_high_breakout": {
+          "return_pct": 10.970416236602976,
+          "max_drawdown_pct": 42.03319459924016,
+          "trades": 42,
+          "long_trades": 28,
+          "short_trades": 14,
+          "long_net_usdt": -229.0556968802661,
+          "short_net_usdt": 283.9077780632809,
+          "long_wins": 9,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 17,
+              "net_usdt": -203.67530990963402
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 11,
+              "net_usdt": -25.38038697063203
+            }
+          }
+        },
+        "long_macd_before_squeeze": {
+          "return_pct": -2.8721155801902376,
+          "max_drawdown_pct": 43.75022203498642,
+          "trades": 63,
+          "long_trades": 49,
+          "short_trades": 14,
+          "long_net_usdt": -258.29714754987504,
+          "short_net_usdt": 243.9365696489239,
+          "long_wins": 15,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 26,
+              "net_usdt": -189.55699684064302
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 23,
+              "net_usdt": -68.740150709232
+            }
+          }
+        },
+        "long_both_relaxed": {
+          "return_pct": -18.228210223294028,
+          "max_drawdown_pct": 48.02186767010519,
+          "trades": 74,
+          "long_trades": 60,
+          "short_trades": 14,
+          "long_net_usdt": -304.34856763289537,
+          "short_net_usdt": 213.20751651642496,
+          "long_wins": 19,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=True,no_high_breakout=True": {
+              "trades": 18,
+              "net_usdt": -80.33667391125884
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 17,
+              "net_usdt": -171.02931717071513
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 11,
+              "net_usdt": -23.74596672499815
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 14,
+              "net_usdt": -29.236609825923196
+            }
+          }
+        }
+      }
+    },
+    "2022": {
+      "since_utc": "2021-12-31T16:00:00.000Z",
+      "until_utc": "2022-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 39.78062002990623,
+          "max_drawdown_pct": 27.806620754590526,
+          "trades": 24,
+          "long_trades": 14,
+          "short_trades": 10,
+          "long_net_usdt": 39.51012396599913,
+          "short_net_usdt": 159.39297618353208,
+          "long_wins": 5,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 14,
+              "net_usdt": 39.51012396599912
+            }
+          }
+        },
+        "long_without_high_breakout": {
+          "return_pct": 34.82183515532085,
+          "max_drawdown_pct": 22.83848941532923,
+          "trades": 37,
+          "long_trades": 27,
+          "short_trades": 10,
+          "long_net_usdt": 3.6326647715429656,
+          "short_net_usdt": 170.47651100506116,
+          "long_wins": 6,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 9,
+              "net_usdt": 214.68897671291236
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 18,
+              "net_usdt": -211.0563119413694
+            }
+          }
+        },
+        "long_macd_before_squeeze": {
+          "return_pct": 23.116619353701218,
+          "max_drawdown_pct": 25.10535460064237,
+          "trades": 44,
+          "long_trades": 34,
+          "short_trades": 10,
+          "long_net_usdt": -33.157999412509945,
+          "short_net_usdt": 148.74109618101622,
+          "long_wins": 15,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 20,
+              "net_usdt": -74.33011085797553
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 14,
+              "net_usdt": 41.1721114454656
+            }
+          }
+        },
+        "long_both_relaxed": {
+          "return_pct": 35.99542716932955,
+          "max_drawdown_pct": 32.05081966417074,
+          "trades": 67,
+          "long_trades": 57,
+          "short_trades": 10,
+          "long_net_usdt": -2.358856102480928,
+          "short_net_usdt": 182.33599194912847,
+          "long_wins": 19,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 8,
+              "net_usdt": -15.175435731740869
+            },
+            "cross_at_or_before=True,no_high_breakout=True": {
+              "trades": 22,
+              "net_usdt": 9.41027123954808
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 9,
+              "net_usdt": 235.48562060352967
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 18,
+              "net_usdt": -232.07931221381784
+            }
+          }
+        }
+      }
+    },
+    "2023": {
+      "since_utc": "2022-12-31T16:00:00.000Z",
+      "until_utc": "2023-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 73.31043931056973,
+          "max_drawdown_pct": 12.669174614288082,
+          "trades": 34,
+          "long_trades": 26,
+          "short_trades": 8,
+          "long_net_usdt": 318.1803060101906,
+          "short_net_usdt": 48.371890542657944,
+          "long_wins": 10,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 26,
+              "net_usdt": 318.1803060101906
+            }
+          }
+        },
+        "long_without_high_breakout": {
+          "return_pct": 96.79440135038935,
+          "max_drawdown_pct": 15.74665355374819,
+          "trades": 41,
+          "long_trades": 33,
+          "short_trades": 8,
+          "long_net_usdt": 431.71037933675626,
+          "short_net_usdt": 52.261627415190375,
+          "long_wins": 15,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 19,
+              "net_usdt": 206.71417259639486
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 14,
+              "net_usdt": 224.99620674036146
+            }
+          }
+        },
+        "long_macd_before_squeeze": {
+          "return_pct": 164.68327906093393,
+          "max_drawdown_pct": 16.587578915481338,
+          "trades": 59,
+          "long_trades": 51,
+          "short_trades": 8,
+          "long_net_usdt": 764.1204637297425,
+          "short_net_usdt": 59.29593157492699,
+          "long_wins": 24,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 26,
+              "net_usdt": 394.08063752472117
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 25,
+              "net_usdt": 370.03982620502114
+            }
+          }
+        },
+        "long_both_relaxed": {
+          "return_pct": 214.73022929775522,
+          "max_drawdown_pct": 20.045661285796513,
+          "trades": 81,
+          "long_trades": 73,
+          "short_trades": 8,
+          "long_net_usdt": 1004.5557567087831,
+          "short_net_usdt": 69.09538977999176,
+          "long_wins": 32,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 19,
+              "net_usdt": 219.25591632282362
+            },
+            "cross_at_or_before=True,no_high_breakout=True": {
+              "trades": 26,
+              "net_usdt": 240.2648081499307
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 14,
+              "net_usdt": 330.15844631928826
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 14,
+              "net_usdt": 214.8765859167408
+            }
+          }
+        }
+      }
+    },
+    "2024": {
+      "since_utc": "2023-12-31T16:00:00.000Z",
+      "until_utc": "2024-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 152.4150569247639,
+          "max_drawdown_pct": 21.023587087242923,
+          "trades": 47,
+          "long_trades": 31,
+          "short_trades": 16,
+          "long_net_usdt": 139.40752966994506,
+          "short_net_usdt": 622.667754953875,
+          "long_wins": 11,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 31,
+              "net_usdt": 139.40752966994498
+            }
+          }
+        },
+        "long_without_high_breakout": {
+          "return_pct": 167.1449501325382,
+          "max_drawdown_pct": 19.66630462662048,
+          "trades": 55,
+          "long_trades": 39,
+          "short_trades": 16,
+          "long_net_usdt": 226.2956095735544,
+          "short_net_usdt": 609.4291410891362,
+          "long_wins": 14,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 20,
+              "net_usdt": 129.97357851870572
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 19,
+              "net_usdt": 96.32203105484875
+            }
+          }
+        },
+        "long_macd_before_squeeze": {
+          "return_pct": 94.1816660111407,
+          "max_drawdown_pct": 28.995760770874867,
+          "trades": 77,
+          "long_trades": 61,
+          "short_trades": 16,
+          "long_net_usdt": -2.6409787817531836,
+          "short_net_usdt": 473.5493088374563,
+          "long_wins": 18,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 31,
+              "net_usdt": 152.82555014342054
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 30,
+              "net_usdt": -155.46652892517372
+            }
+          }
+        },
+        "long_both_relaxed": {
+          "return_pct": 175.2174067614889,
+          "max_drawdown_pct": 24.52498827564994,
+          "trades": 93,
+          "long_trades": 77,
+          "short_trades": 16,
+          "long_net_usdt": 342.1396178864603,
+          "short_net_usdt": 533.9474159209834,
+          "long_wins": 29,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 20,
+              "net_usdt": 118.38812988464176
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 17,
+              "net_usdt": -50.68753149401547
+            },
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 19,
+              "net_usdt": 92.42064827100047
+            },
+            "cross_at_or_before=True,no_high_breakout=True": {
+              "trades": 21,
+              "net_usdt": 182.01837122483352
+            }
+          }
+        }
+      }
+    },
+    "2025": {
+      "since_utc": "2024-12-31T16:00:00.000Z",
+      "until_utc": "2025-12-31T16:00:00.000Z",
+      "scenarios": {
+        "both_sides_volume": {
+          "return_pct": 3.6266876970746376,
+          "max_drawdown_pct": 18.828201360691267,
+          "trades": 43,
+          "long_trades": 20,
+          "short_trades": 23,
+          "long_net_usdt": -14.360780463325067,
+          "short_net_usdt": 32.494218948698624,
+          "long_wins": 7,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 20,
+              "net_usdt": -14.360780463325066
+            }
+          }
+        },
+        "long_without_high_breakout": {
+          "return_pct": -3.07801485800554,
+          "max_drawdown_pct": 20.05684942097936,
+          "trades": 54,
+          "long_trades": 31,
+          "short_trades": 23,
+          "long_net_usdt": -46.772525518726184,
+          "short_net_usdt": 31.38245122869869,
+          "long_wins": 9,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 21,
+              "net_usdt": -112.49744039632499
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 10,
+              "net_usdt": 65.72491487759882
+            }
+          }
+        },
+        "long_macd_before_squeeze": {
+          "return_pct": -9.96553534364628,
+          "max_drawdown_pct": 24.875213903200333,
+          "trades": 65,
+          "long_trades": 42,
+          "short_trades": 23,
+          "long_net_usdt": -79.48472906920551,
+          "short_net_usdt": 29.65705235097414,
+          "long_wins": 11,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 20,
+              "net_usdt": -11.335760966361326
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 22,
+              "net_usdt": -68.14896810284417
+            }
+          }
+        },
+        "long_both_relaxed": {
+          "return_pct": -13.848659632479698,
+          "max_drawdown_pct": 29.52007686962356,
+          "trades": 84,
+          "long_trades": 61,
+          "short_trades": 23,
+          "long_net_usdt": -99.98257435109669,
+          "short_net_usdt": 30.739276188698636,
+          "long_wins": 16,
+          "short_entries_only_in_baseline": 0,
+          "short_entries_only_in_this_scenario": 0,
+          "long_entry_cohorts": {
+            "cross_at_or_before=False,no_high_breakout=True": {
+              "trades": 21,
+              "net_usdt": -107.41236975632503
+            },
+            "cross_at_or_before=True,no_high_breakout=True": {
+              "trades": 20,
+              "net_usdt": -37.21076157419193
+            },
+            "cross_at_or_before=False,no_high_breakout=False": {
+              "trades": 10,
+              "net_usdt": 67.15164253219056
+            },
+            "cross_at_or_before=True,no_high_breakout=False": {
+              "trades": 10,
+              "net_usdt": -22.511085552770307
+            }
+          }
+        }
+      }
+    }
+  }
+}

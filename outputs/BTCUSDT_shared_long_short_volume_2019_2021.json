@@ -1,0 +1,433 @@
+{
+  "starting_equity_usdt": 500,
+  "max_leverage": 5,
+  "stop_pct": 2,
+  "fees_and_funding": 0,
+  "slippage_pct_per_side": 0.02,
+  "cases": {
+    "2019_futures": {
+      "market": "Binance BTCUSDT USD-M perpetual",
+      "since": "2019-09-23T17:45:00.000Z",
+      "until": "2019-12-31T16:00:00.000Z",
+      "observedCandles": 9497,
+      "expectedCandles": 9497,
+      "continuous": true,
+      "scenarios": {
+        "combined_short_timeout_atr_half_capped": {
+          "return_pct": -4.0850581422752,
+          "ending_equity_usdt": 479.574709288624,
+          "max_drawdown_pct": 12.814108865533736,
+          "trades": 11,
+          "long_trades": 5,
+          "short_trades": 6,
+          "long_net_usdt": -36.47401414404554,
+          "short_net_usdt": 16.048723432669554,
+          "short_timeout_exits": 0,
+          "simulated_candles": 9497,
+          "segments": [
+            [
+              "2019-09-23T17:45:00.000Z",
+              "2019-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "support_1pct_or_volume_1h": {
+          "return_pct": -5.621359060369224,
+          "ending_equity_usdt": 471.89320469815385,
+          "max_drawdown_pct": 12.814108865533736,
+          "trades": 10,
+          "long_trades": 5,
+          "short_trades": 5,
+          "long_net_usdt": -36.47401414404554,
+          "short_net_usdt": 8.367218842199478,
+          "short_timeout_exits": 0,
+          "simulated_candles": 9497,
+          "segments": [
+            [
+              "2019-09-23T17:45:00.000Z",
+              "2019-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "both_sides_volume": {
+          "return_pct": -5.621359060369224,
+          "ending_equity_usdt": 471.89320469815385,
+          "max_drawdown_pct": 12.814108865533736,
+          "trades": 10,
+          "long_trades": 5,
+          "short_trades": 5,
+          "long_net_usdt": -36.47401414404554,
+          "short_net_usdt": 8.367218842199478,
+          "short_timeout_exits": 0,
+          "simulated_candles": 9497,
+          "segments": [
+            [
+              "2019-09-23T17:45:00.000Z",
+              "2019-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "both_sides_volume_and_weak_down": {
+          "return_pct": -5.621359060369224,
+          "ending_equity_usdt": 471.89320469815385,
+          "max_drawdown_pct": 12.814108865533736,
+          "trades": 10,
+          "long_trades": 5,
+          "short_trades": 5,
+          "long_net_usdt": -36.47401414404554,
+          "short_net_usdt": 8.367218842199478,
+          "short_timeout_exits": 0,
+          "simulated_candles": 9497,
+          "segments": [
+            [
+              "2019-09-23T17:45:00.000Z",
+              "2019-12-31T16:00:00.000Z"
+            ]
+          ]
+        }
+      }
+    },
+    "2019_spot_proxy": {
+      "market": "Binance BTCUSDT spot, synthetic linear execution, gaps unfilled",
+      "since": "2018-12-31T16:00:00.000Z",
+      "until": "2019-12-31T16:00:00.000Z",
+      "observedCandles": 34923,
+      "expectedCandles": 35040,
+      "continuous": false,
+      "scenarios": {
+        "combined_short_timeout_atr_half_capped": {
+          "return_pct": -30.162384022973733,
+          "ending_equity_usdt": 349.18807988513134,
+          "max_drawdown_pct": 47.14636105869656,
+          "trades": 45,
+          "long_trades": 26,
+          "short_trades": 19,
+          "long_net_usdt": -96.58932117292609,
+          "short_net_usdt": -54.222598941942586,
+          "short_timeout_exits": 5,
+          "simulated_candles": 32043,
+          "segments": [
+            [
+              "2018-12-31T16:00:00.000Z",
+              "2019-03-12T02:00:00.000Z"
+            ],
+            [
+              "2019-03-17T08:00:00.000Z",
+              "2019-05-15T03:00:00.000Z"
+            ],
+            [
+              "2019-05-20T13:00:00.000Z",
+              "2019-06-07T21:15:00.000Z"
+            ],
+            [
+              "2019-06-12T22:15:00.000Z",
+              "2019-08-15T02:00:00.000Z"
+            ],
+            [
+              "2019-08-20T10:00:00.000Z",
+              "2019-11-13T02:00:00.000Z"
+            ],
+            [
+              "2019-11-18T04:15:00.000Z",
+              "2019-11-25T02:00:00.000Z"
+            ],
+            [
+              "2019-11-30T04:00:00.000Z",
+              "2019-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "support_1pct_or_volume_1h": {
+          "return_pct": -31.315876721629966,
+          "ending_equity_usdt": 343.42061639185016,
+          "max_drawdown_pct": 47.396708848312784,
+          "trades": 42,
+          "long_trades": 26,
+          "short_trades": 16,
+          "long_net_usdt": -96.7676237643113,
+          "short_net_usdt": -59.81175984383837,
+          "short_timeout_exits": 4,
+          "simulated_candles": 32043,
+          "segments": [
+            [
+              "2018-12-31T16:00:00.000Z",
+              "2019-03-12T02:00:00.000Z"
+            ],
+            [
+              "2019-03-17T08:00:00.000Z",
+              "2019-05-15T03:00:00.000Z"
+            ],
+            [
+              "2019-05-20T13:00:00.000Z",
+              "2019-06-07T21:15:00.000Z"
+            ],
+            [
+              "2019-06-12T22:15:00.000Z",
+              "2019-08-15T02:00:00.000Z"
+            ],
+            [
+              "2019-08-20T10:00:00.000Z",
+              "2019-11-13T02:00:00.000Z"
+            ],
+            [
+              "2019-11-18T04:15:00.000Z",
+              "2019-11-25T02:00:00.000Z"
+            ],
+            [
+              "2019-11-30T04:00:00.000Z",
+              "2019-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "both_sides_volume": {
+          "return_pct": -28.256421195485537,
+          "ending_equity_usdt": 358.7178940225723,
+          "max_drawdown_pct": 43.836788918437044,
+          "trades": 39,
+          "long_trades": 23,
+          "short_trades": 16,
+          "long_net_usdt": -81.64370704176503,
+          "short_net_usdt": -59.63839893566258,
+          "short_timeout_exits": 4,
+          "simulated_candles": 32043,
+          "segments": [
+            [
+              "2018-12-31T16:00:00.000Z",
+              "2019-03-12T02:00:00.000Z"
+            ],
+            [
+              "2019-03-17T08:00:00.000Z",
+              "2019-05-15T03:00:00.000Z"
+            ],
+            [
+              "2019-05-20T13:00:00.000Z",
+              "2019-06-07T21:15:00.000Z"
+            ],
+            [
+              "2019-06-12T22:15:00.000Z",
+              "2019-08-15T02:00:00.000Z"
+            ],
+            [
+              "2019-08-20T10:00:00.000Z",
+              "2019-11-13T02:00:00.000Z"
+            ],
+            [
+              "2019-11-18T04:15:00.000Z",
+              "2019-11-25T02:00:00.000Z"
+            ],
+            [
+              "2019-11-30T04:00:00.000Z",
+              "2019-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "both_sides_volume_and_weak_down": {
+          "return_pct": -30.150028488932744,
+          "ending_equity_usdt": 349.2498575553363,
+          "max_drawdown_pct": 45.31806231770089,
+          "trades": 40,
+          "long_trades": 24,
+          "short_trades": 16,
+          "long_net_usdt": -91.85377473423117,
+          "short_net_usdt": -58.8963677104326,
+          "short_timeout_exits": 4,
+          "simulated_candles": 32043,
+          "segments": [
+            [
+              "2018-12-31T16:00:00.000Z",
+              "2019-03-12T02:00:00.000Z"
+            ],
+            [
+              "2019-03-17T08:00:00.000Z",
+              "2019-05-15T03:00:00.000Z"
+            ],
+            [
+              "2019-05-20T13:00:00.000Z",
+              "2019-06-07T21:15:00.000Z"
+            ],
+            [
+              "2019-06-12T22:15:00.000Z",
+              "2019-08-15T02:00:00.000Z"
+            ],
+            [
+              "2019-08-20T10:00:00.000Z",
+              "2019-11-13T02:00:00.000Z"
+            ],
+            [
+              "2019-11-18T04:15:00.000Z",
+              "2019-11-25T02:00:00.000Z"
+            ],
+            [
+              "2019-11-30T04:00:00.000Z",
+              "2019-12-31T16:00:00.000Z"
+            ]
+          ]
+        }
+      }
+    },
+    "2020_bybit": {
+      "market": "Bybit BTCUSDT linear perpetual",
+      "since": "2020-04-09T10:30:00.000Z",
+      "until": "2020-12-31T16:00:00.000Z",
+      "observedCandles": 25558,
+      "expectedCandles": 25558,
+      "continuous": true,
+      "scenarios": {
+        "combined_short_timeout_atr_half_capped": {
+          "return_pct": -7.556926406725317,
+          "ending_equity_usdt": 462.21536796637344,
+          "max_drawdown_pct": 21.783893553217105,
+          "trades": 20,
+          "long_trades": 10,
+          "short_trades": 10,
+          "long_net_usdt": 70.55496864478218,
+          "short_net_usdt": -108.33960067840883,
+          "short_timeout_exits": 1,
+          "simulated_candles": 25558,
+          "segments": [
+            [
+              "2020-04-09T10:30:00.000Z",
+              "2020-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "support_1pct_or_volume_1h": {
+          "return_pct": 2.9019827014417077,
+          "ending_equity_usdt": 514.5099135072086,
+          "max_drawdown_pct": 14.574023260738766,
+          "trades": 17,
+          "long_trades": 10,
+          "short_trades": 7,
+          "long_net_usdt": 72.03813141216042,
+          "short_net_usdt": -57.52821790495183,
+          "short_timeout_exits": 0,
+          "simulated_candles": 25558,
+          "segments": [
+            [
+              "2020-04-09T10:30:00.000Z",
+              "2020-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "both_sides_volume": {
+          "return_pct": 2.9019827014417077,
+          "ending_equity_usdt": 514.5099135072086,
+          "max_drawdown_pct": 14.574023260738766,
+          "trades": 17,
+          "long_trades": 10,
+          "short_trades": 7,
+          "long_net_usdt": 72.03813141216042,
+          "short_net_usdt": -57.52821790495183,
+          "short_timeout_exits": 0,
+          "simulated_candles": 25558,
+          "segments": [
+            [
+              "2020-04-09T10:30:00.000Z",
+              "2020-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "both_sides_volume_and_weak_down": {
+          "return_pct": 2.9019827014417077,
+          "ending_equity_usdt": 514.5099135072086,
+          "max_drawdown_pct": 14.574023260738766,
+          "trades": 17,
+          "long_trades": 10,
+          "short_trades": 7,
+          "long_net_usdt": 72.03813141216042,
+          "short_net_usdt": -57.52821790495183,
+          "short_timeout_exits": 0,
+          "simulated_candles": 25558,
+          "segments": [
+            [
+              "2020-04-09T10:30:00.000Z",
+              "2020-12-31T16:00:00.000Z"
+            ]
+          ]
+        }
+      }
+    },
+    "2021_bybit": {
+      "market": "Bybit BTCUSDT linear perpetual",
+      "since": "2020-12-31T16:00:00.000Z",
+      "until": "2021-12-31T16:00:00.000Z",
+      "observedCandles": 35040,
+      "expectedCandles": 35040,
+      "continuous": true,
+      "scenarios": {
+        "combined_short_timeout_atr_half_capped": {
+          "return_pct": 69.78779734589635,
+          "ending_equity_usdt": 848.9389867294817,
+          "max_drawdown_pct": 30.083301649006245,
+          "trades": 41,
+          "long_trades": 24,
+          "short_trades": 17,
+          "long_net_usdt": -72.75565383042833,
+          "short_net_usdt": 421.69464055991,
+          "short_timeout_exits": 3,
+          "simulated_candles": 35040,
+          "segments": [
+            [
+              "2020-12-31T16:00:00.000Z",
+              "2021-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "support_1pct_or_volume_1h": {
+          "return_pct": 64.34490307001678,
+          "ending_equity_usdt": 821.724515350084,
+          "max_drawdown_pct": 30.211671814809137,
+          "trades": 38,
+          "long_trades": 24,
+          "short_trades": 14,
+          "long_net_usdt": -68.73116586542935,
+          "short_net_usdt": 390.4556812155132,
+          "short_timeout_exits": 3,
+          "simulated_candles": 35040,
+          "segments": [
+            [
+              "2020-12-31T16:00:00.000Z",
+              "2021-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "both_sides_volume": {
+          "return_pct": 56.42903419783054,
+          "ending_equity_usdt": 782.1451709891527,
+          "max_drawdown_pct": 30.211671814809137,
+          "trades": 37,
+          "long_trades": 23,
+          "short_trades": 14,
+          "long_net_usdt": -90.52905402636051,
+          "short_net_usdt": 372.67422501551323,
+          "short_timeout_exits": 3,
+          "simulated_candles": 35040,
+          "segments": [
+            [
+              "2020-12-31T16:00:00.000Z",
+              "2021-12-31T16:00:00.000Z"
+            ]
+          ]
+        },
+        "both_sides_volume_and_weak_down": {
+          "return_pct": 64.34490307001678,
+          "ending_equity_usdt": 821.724515350084,
+          "max_drawdown_pct": 30.211671814809137,
+          "trades": 38,
+          "long_trades": 24,
+          "short_trades": 14,
+          "long_net_usdt": -68.73116586542935,
+          "short_net_usdt": 390.4556812155132,
+          "short_timeout_exits": 3,
+          "simulated_candles": 35040,
+          "segments": [
+            [
+              "2020-12-31T16:00:00.000Z",
+              "2021-12-31T16:00:00.000Z"
+            ]
+          ]
+        }
+      }
+    }
+  }
+}

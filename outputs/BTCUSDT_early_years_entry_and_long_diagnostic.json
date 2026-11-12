@@ -1,0 +1,626 @@
+{
+  "starting_equity_usdt": 500,
+  "cases": {
+    "2019_futures": {
+      "market_return_pct": -26.614707854127563,
+      "candles": 9497,
+      "base_trades": 11,
+      "candidate_trades": 10,
+      "funnel": {
+        "long": {
+          "histogramCrosses": 360,
+          "belowZeroCrosses": 249,
+          "nearZeroBelowCrosses": 49,
+          "zone": 2398,
+          "bullishTrigger": 618,
+          "goldenTriangle": 518,
+          "macdConfirmed": 31,
+          "priceBreakout": 5,
+          "distanceOrVolume": 5
+        },
+        "short": {
+          "flatDecisionBars": 9331,
+          "peakSetup": 117,
+          "macdConfirmed": 96,
+          "wider": 11,
+          "maSpreadDown": 6,
+          "distanceOrVolume": 5
+        }
+      },
+      "long_by_group": {
+        "exit stop": {
+          "trades": 1,
+          "wins": 0,
+          "net_usdt": -50.38831098306717
+        },
+        "q4": {
+          "trades": 5,
+          "wins": 2,
+          "net_usdt": -36.47401414404554
+        },
+        "partial False": {
+          "trades": 2,
+          "wins": 0,
+          "net_usdt": -60.408576205066964
+        },
+        "exit 15m_structure_flip": {
+          "trades": 1,
+          "wins": 1,
+          "net_usdt": 21.763723539719454
+        },
+        "partial True": {
+          "trades": 3,
+          "wins": 2,
+          "net_usdt": 23.934562061021424
+        },
+        "exit ma5_ma30_cross": {
+          "trades": 3,
+          "wins": 1,
+          "net_usdt": -7.849426700697826
+        }
+      },
+      "long_trades": [
+        {
+          "opened_utc": "2019-10-01T16:45:00.000Z",
+          "opened_local": "2019-10-02T00:45:00+08:00",
+          "closed_utc": "2019-10-01T18:00:00.000Z",
+          "net_usdt": -50.38831098306717,
+          "reason": "stop",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.7777322579923363,
+          "hours": 1.25,
+          "prior_4h_return_pct": 1.4213072176903596
+        },
+        {
+          "opened_utc": "2019-10-02T20:00:00.000Z",
+          "opened_local": "2019-10-03T04:00:00+08:00",
+          "closed_utc": "2019-10-03T03:00:00.000Z",
+          "net_usdt": 21.763723539719454,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.6184284822777562,
+          "hours": 7.0,
+          "prior_4h_return_pct": 0.24774008553656302
+        },
+        {
+          "opened_utc": "2019-10-13T11:30:00.000Z",
+          "opened_local": "2019-10-13T19:30:00+08:00",
+          "closed_utc": "2019-10-13T20:15:00.000Z",
+          "net_usdt": -10.604777011648142,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.2813544199340665,
+          "hours": 8.75,
+          "prior_4h_return_pct": 0.23873284257804883
+        },
+        {
+          "opened_utc": "2019-10-19T08:30:00.000Z",
+          "opened_local": "2019-10-19T16:30:00+08:00",
+          "closed_utc": "2019-10-19T11:00:00.000Z",
+          "net_usdt": -10.020265221999797,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.134528721736471,
+          "hours": 2.5,
+          "prior_4h_return_pct": 0.4157008969061682
+        },
+        {
+          "opened_utc": "2019-11-02T11:15:00.000Z",
+          "opened_local": "2019-11-02T19:15:00+08:00",
+          "closed_utc": "2019-11-02T18:30:00.000Z",
+          "net_usdt": 12.775615532950113,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.529754166802233,
+          "hours": 7.25,
+          "prior_4h_return_pct": 0.29186249985064805
+        }
+      ]
+    },
+    "2020_bybit": {
+      "market_return_pct": 293.50907223553577,
+      "candles": 25558,
+      "base_trades": 20,
+      "candidate_trades": 17,
+      "funnel": {
+        "long": {
+          "histogramCrosses": 983,
+          "belowZeroCrosses": 574,
+          "nearZeroBelowCrosses": 90,
+          "zone": 3739,
+          "bullishTrigger": 1055,
+          "goldenTriangle": 915,
+          "macdConfirmed": 19,
+          "priceBreakout": 10,
+          "distanceOrVolume": 10
+        },
+        "short": {
+          "flatDecisionBars": 25206,
+          "peakSetup": 135,
+          "macdConfirmed": 92,
+          "wider": 13,
+          "maSpreadDown": 10,
+          "distanceOrVolume": 7
+        }
+      },
+      "long_by_group": {
+        "exit 15m_structure_flip": {
+          "trades": 5,
+          "wins": 3,
+          "net_usdt": 92.17224513253647
+        },
+        "q2": {
+          "trades": 5,
+          "wins": 1,
+          "net_usdt": -20.04918350152808
+        },
+        "partial True": {
+          "trades": 4,
+          "wins": 4,
+          "net_usdt": 121.9685529121599
+        },
+        "exit ma5_ma30_cross": {
+          "trades": 5,
+          "wins": 2,
+          "net_usdt": -20.134113720376053
+        },
+        "partial False": {
+          "trades": 6,
+          "wins": 1,
+          "net_usdt": -49.93042149999947
+        },
+        "q3": {
+          "trades": 3,
+          "wins": 2,
+          "net_usdt": 3.947694805248343
+        },
+        "q4": {
+          "trades": 2,
+          "wins": 2,
+          "net_usdt": 88.13962010844017
+        }
+      },
+      "long_trades": [
+        {
+          "opened_utc": "2020-04-13T16:00:00.000Z",
+          "opened_local": "2020-04-14T00:00:00+08:00",
+          "closed_utc": "2020-04-14T01:45:00.000Z",
+          "net_usdt": 23.02542059847163,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.8135498833827812,
+          "hours": 9.75,
+          "prior_4h_return_pct": -0.19189608089157373
+        },
+        {
+          "opened_utc": "2020-04-28T09:45:00.000Z",
+          "opened_local": "2020-04-28T17:45:00+08:00",
+          "closed_utc": "2020-04-28T15:00:00.000Z",
+          "net_usdt": -15.744952599999978,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.387504824195295,
+          "hours": 5.25,
+          "prior_4h_return_pct": 0.48758288909114267
+        },
+        {
+          "opened_utc": "2020-04-28T23:00:00.000Z",
+          "opened_local": "2020-04-29T07:00:00+08:00",
+          "closed_utc": "2020-04-29T01:30:00.000Z",
+          "net_usdt": -0.6863075999999201,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.2252270129463385,
+          "hours": 2.5,
+          "prior_4h_return_pct": 0.16162399793120397
+        },
+        {
+          "opened_utc": "2020-05-18T01:30:00.000Z",
+          "opened_local": "2020-05-18T09:30:00+08:00",
+          "closed_utc": "2020-05-18T04:15:00.000Z",
+          "net_usdt": -7.767886499999804,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.36807035205521643,
+          "hours": 2.75,
+          "prior_4h_return_pct": 1.5666598402621412
+        },
+        {
+          "opened_utc": "2020-06-13T15:15:00.000Z",
+          "opened_local": "2020-06-13T23:15:00+08:00",
+          "closed_utc": "2020-06-13T20:15:00.000Z",
+          "net_usdt": -18.87545740000001,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.3552527322943755,
+          "hours": 5.0,
+          "prior_4h_return_pct": 0.4513593882752742
+        },
+        {
+          "opened_utc": "2020-07-23T16:15:00.000Z",
+          "opened_local": "2020-07-24T00:15:00+08:00",
+          "closed_utc": "2020-07-23T16:45:00.000Z",
+          "net_usdt": 5.339073600000331,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.368561338412432,
+          "hours": 0.5,
+          "prior_4h_return_pct": 0.27912365704656494
+        },
+        {
+          "opened_utc": "2020-08-14T12:00:00.000Z",
+          "opened_local": "2020-08-14T20:00:00+08:00",
+          "closed_utc": "2020-08-14T14:00:00.000Z",
+          "net_usdt": -12.194891000000087,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.0,
+          "hours": 2.0,
+          "prior_4h_return_pct": 0.5809234975011845
+        },
+        {
+          "opened_utc": "2020-08-20T09:30:00.000Z",
+          "opened_local": "2020-08-20T17:30:00+08:00",
+          "closed_utc": "2020-08-20T22:15:00.000Z",
+          "net_usdt": 10.803512205248099,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 0.9562468741658225,
+          "hours": 12.75,
+          "prior_4h_return_pct": 0.4691831947110314
+        },
+        {
+          "opened_utc": "2020-10-17T19:30:00.000Z",
+          "opened_local": "2020-10-18T03:30:00+08:00",
+          "closed_utc": "2020-10-18T20:00:00.000Z",
+          "net_usdt": 15.877675074375922,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.1248468178292503,
+          "hours": 24.5,
+          "prior_4h_return_pct": 0.017619592987405674
+        },
+        {
+          "opened_utc": "2020-11-24T09:00:00.000Z",
+          "opened_local": "2020-11-24T17:00:00+08:00",
+          "closed_utc": "2020-11-24T17:45:00.000Z",
+          "net_usdt": 72.26194503406424,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 4.1876815591385785,
+          "hours": 8.75,
+          "prior_4h_return_pct": 0.8614151045617024
+        }
+      ]
+    },
+    "2021_bybit": {
+      "market_return_pct": 66.94390311804008,
+      "candles": 35040,
+      "base_trades": 41,
+      "candidate_trades": 37,
+      "funnel": {
+        "long": {
+          "histogramCrosses": 1395,
+          "belowZeroCrosses": 886,
+          "nearZeroBelowCrosses": 149,
+          "zone": 5392,
+          "bullishTrigger": 1640,
+          "goldenTriangle": 1466,
+          "macdConfirmed": 59,
+          "priceBreakout": 24,
+          "distanceOrVolume": 23
+        },
+        "short": {
+          "flatDecisionBars": 34304,
+          "peakSetup": 340,
+          "macdConfirmed": 223,
+          "wider": 23,
+          "maSpreadDown": 17,
+          "distanceOrVolume": 14
+        }
+      },
+      "long_by_group": {
+        "exit stop": {
+          "trades": 2,
+          "wins": 0,
+          "net_usdt": -95.20467699397341
+        },
+        "q1": {
+          "trades": 6,
+          "wins": 2,
+          "net_usdt": -29.895006603492718
+        },
+        "partial True": {
+          "trades": 12,
+          "wins": 8,
+          "net_usdt": 177.91064284627066
+        },
+        "exit 15m_structure_flip": {
+          "trades": 9,
+          "wins": 4,
+          "net_usdt": -1.2050008129550651
+        },
+        "exit ma5_ma30_cross": {
+          "trades": 12,
+          "wins": 4,
+          "net_usdt": 5.880623780567966
+        },
+        "partial False": {
+          "trades": 11,
+          "wins": 0,
+          "net_usdt": -268.43969687263115
+        },
+        "q2": {
+          "trades": 6,
+          "wins": 3,
+          "net_usdt": -19.249527952618692
+        },
+        "q3": {
+          "trades": 4,
+          "wins": 1,
+          "net_usdt": 58.60036639446206
+        },
+        "q4": {
+          "trades": 7,
+          "wins": 2,
+          "net_usdt": -99.98488586471115
+        }
+      },
+      "long_trades": [
+        {
+          "opened_utc": "2021-01-04T23:30:00.000Z",
+          "opened_local": "2021-01-05T07:30:00+08:00",
+          "closed_utc": "2021-01-05T04:15:00.000Z",
+          "net_usdt": -36.73142152134119,
+          "reason": "stop",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 3.3204820236814703,
+          "hours": 4.75,
+          "prior_4h_return_pct": 1.2196481171881324
+        },
+        {
+          "opened_utc": "2021-02-02T06:00:00.000Z",
+          "opened_local": "2021-02-02T14:00:00+08:00",
+          "closed_utc": "2021-02-02T13:00:00.000Z",
+          "net_usdt": 49.467091482753204,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 4.953709187557642,
+          "hours": 7.0,
+          "prior_4h_return_pct": 0.6156760596732092
+        },
+        {
+          "opened_utc": "2021-02-12T21:45:00.000Z",
+          "opened_local": "2021-02-13T05:45:00+08:00",
+          "closed_utc": "2021-02-13T00:15:00.000Z",
+          "net_usdt": -17.917879599999942,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.24227061365174052,
+          "hours": 2.5,
+          "prior_4h_return_pct": 0.19371727748691558
+        },
+        {
+          "opened_utc": "2021-02-14T22:30:00.000Z",
+          "opened_local": "2021-02-15T06:30:00+08:00",
+          "closed_utc": "2021-02-15T00:15:00.000Z",
+          "net_usdt": -24.281149999999982,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.04288386700379565,
+          "hours": 1.75,
+          "prior_4h_return_pct": 0.9730515922196759
+        },
+        {
+          "opened_utc": "2021-02-21T10:30:00.000Z",
+          "opened_local": "2021-02-21T18:30:00+08:00",
+          "closed_utc": "2021-02-21T21:45:00.000Z",
+          "net_usdt": 10.29240304038144,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.475225345625808,
+          "hours": 11.25,
+          "prior_4h_return_pct": 1.8101228866417074
+        },
+        {
+          "opened_utc": "2021-03-16T20:45:00.000Z",
+          "opened_local": "2021-03-17T04:45:00+08:00",
+          "closed_utc": "2021-03-17T02:30:00.000Z",
+          "net_usdt": -10.72405000528625,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.3245260232149114,
+          "hours": 5.75,
+          "prior_4h_return_pct": 1.2413001363277498
+        },
+        {
+          "opened_utc": "2021-05-05T09:15:00.000Z",
+          "opened_local": "2021-05-05T17:15:00+08:00",
+          "closed_utc": "2021-05-05T13:00:00.000Z",
+          "net_usdt": 14.322612973560405,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.0428416166926358,
+          "hours": 3.75,
+          "prior_4h_return_pct": 1.3330032912529655
+        },
+        {
+          "opened_utc": "2021-05-11T15:30:00.000Z",
+          "opened_local": "2021-05-11T23:30:00+08:00",
+          "closed_utc": "2021-05-11T23:30:00.000Z",
+          "net_usdt": 10.32709479841651,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.2707639606642118,
+          "hours": 8.0,
+          "prior_4h_return_pct": 0.2733827089903551
+        },
+        {
+          "opened_utc": "2021-05-14T08:15:00.000Z",
+          "opened_local": "2021-05-14T16:15:00+08:00",
+          "closed_utc": "2021-05-14T18:15:00.000Z",
+          "net_usdt": 18.36246335149069,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 2.331983491943035,
+          "hours": 10.0,
+          "prior_4h_return_pct": 1.5960240817810778
+        },
+        {
+          "opened_utc": "2021-05-25T22:45:00.000Z",
+          "opened_local": "2021-05-26T06:45:00+08:00",
+          "closed_utc": "2021-05-26T01:15:00.000Z",
+          "net_usdt": -0.48122170345432114,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 0.9259773724576315,
+          "hours": 2.5,
+          "prior_4h_return_pct": 1.0376203205035406
+        },
+        {
+          "opened_utc": "2021-06-12T19:15:00.000Z",
+          "opened_local": "2021-06-13T03:15:00+08:00",
+          "closed_utc": "2021-06-12T23:15:00.000Z",
+          "net_usdt": -3.3072218999997567,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.6328116596670652,
+          "hours": 4.0,
+          "prior_4h_return_pct": 0.8824895494658591
+        },
+        {
+          "opened_utc": "2021-06-26T18:15:00.000Z",
+          "opened_local": "2021-06-27T02:15:00+08:00",
+          "closed_utc": "2021-06-26T20:30:00.000Z",
+          "net_usdt": -58.47325547263222,
+          "reason": "stop",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.07272358794510048,
+          "hours": 2.25,
+          "prior_4h_return_pct": 4.0766915325219255
+        },
+        {
+          "opened_utc": "2021-07-10T12:45:00.000Z",
+          "opened_local": "2021-07-10T20:45:00+08:00",
+          "closed_utc": "2021-07-10T13:45:00.000Z",
+          "net_usdt": -8.123946599999924,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.12785748258432594,
+          "hours": 1.0,
+          "prior_4h_return_pct": 0.13772064921218075
+        },
+        {
+          "opened_utc": "2021-07-21T04:15:00.000Z",
+          "opened_local": "2021-07-21T12:15:00+08:00",
+          "closed_utc": "2021-07-21T19:45:00.000Z",
+          "net_usdt": 124.6163654944617,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 9.71724219591097,
+          "hours": 15.5,
+          "prior_4h_return_pct": 0.3773521618086084
+        },
+        {
+          "opened_utc": "2021-08-25T06:00:00.000Z",
+          "opened_local": "2021-08-25T14:00:00+08:00",
+          "closed_utc": "2021-08-25T08:30:00.000Z",
+          "net_usdt": -40.30639999999991,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.15307959758308343,
+          "hours": 2.5,
+          "prior_4h_return_pct": 0.6795099229197188
+        },
+        {
+          "opened_utc": "2021-09-25T18:15:00.000Z",
+          "opened_local": "2021-09-26T02:15:00+08:00",
+          "closed_utc": "2021-09-26T00:30:00.000Z",
+          "net_usdt": -17.585652499999814,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.08408162102959693,
+          "hours": 6.25,
+          "prior_4h_return_pct": 0.46415435776312464
+        },
+        {
+          "opened_utc": "2021-10-20T08:30:00.000Z",
+          "opened_local": "2021-10-20T16:30:00+08:00",
+          "closed_utc": "2021-10-20T11:00:00.000Z",
+          "net_usdt": -12.437027400000124,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.14122564015579542,
+          "hours": 2.5,
+          "prior_4h_return_pct": 0.4279388524667027
+        },
+        {
+          "opened_utc": "2021-11-21T15:45:00.000Z",
+          "opened_local": "2021-11-21T23:45:00+08:00",
+          "closed_utc": "2021-11-21T20:00:00.000Z",
+          "net_usdt": 6.0645204938038075,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.3548071200508494,
+          "hours": 4.25,
+          "prior_4h_return_pct": 0.8590377755263612
+        },
+        {
+          "opened_utc": "2021-12-01T13:30:00.000Z",
+          "opened_local": "2021-12-01T21:30:00+08:00",
+          "closed_utc": "2021-12-01T18:45:00.000Z",
+          "net_usdt": 15.995603685566042,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 2.9676036235769754,
+          "hours": 5.25,
+          "prior_4h_return_pct": 0.6077614558210875
+        },
+        {
+          "opened_utc": "2021-12-02T19:15:00.000Z",
+          "opened_local": "2021-12-03T03:15:00+08:00",
+          "closed_utc": "2021-12-03T00:00:00.000Z",
+          "net_usdt": -16.56792479999957,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.6415639299283571,
+          "hours": 4.75,
+          "prior_4h_return_pct": -0.06331340133661767
+        },
+        {
+          "opened_utc": "2021-12-05T21:45:00.000Z",
+          "opened_local": "2021-12-06T05:45:00+08:00",
+          "closed_utc": "2021-12-05T22:15:00.000Z",
+          "net_usdt": -21.14495820000003,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.24081165608589306,
+          "hours": 0.5,
+          "prior_4h_return_pct": -0.15363014813608578
+        },
+        {
+          "opened_utc": "2021-12-21T21:45:00.000Z",
+          "opened_local": "2021-12-22T05:45:00+08:00",
+          "closed_utc": "2021-12-22T01:00:00.000Z",
+          "net_usdt": -48.29428039999989,
+          "reason": "15m_structure_flip",
+          "reduced_at_0_8_pct": false,
+          "mfe_pct": 0.23516654283353144,
+          "hours": 3.25,
+          "prior_4h_return_pct": 1.055259859024682
+        },
+        {
+          "opened_utc": "2021-12-24T18:45:00.000Z",
+          "opened_local": "2021-12-25T02:45:00+08:00",
+          "closed_utc": "2021-12-24T21:45:00.000Z",
+          "net_usdt": -23.600819244081386,
+          "reason": "ma5_ma30_cross",
+          "reduced_at_0_8_pct": true,
+          "mfe_pct": 1.2470530178245287,
+          "hours": 3.0,
+          "prior_4h_return_pct": 0.3509286412512136
+        }
+      ]
+    }
+  }
+}

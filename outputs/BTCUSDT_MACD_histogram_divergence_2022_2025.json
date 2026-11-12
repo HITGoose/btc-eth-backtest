@@ -1,0 +1,232 @@
+{
+  "sample_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "starting_equity_usdt": 500,
+  "logic": {
+    "macd": [
+      12,
+      26,
+      9
+    ],
+    "timeframe_minutes": 15,
+    "pivot_bars_on_each_side": 2,
+    "max_bars_between_pivots": 32,
+    "max_bars_since_confirmation": 32,
+    "histogram_value_at_price_pivot": true,
+    "require_histogram_same_sign": false
+  },
+  "results": {
+    "combined_selected_long_and_8h_short": {
+      "2022": {
+        "return_pct": 34.88162136988715,
+        "max_drawdown_pct": 27.893121985672455,
+        "trades": 24,
+        "long_trades": 14,
+        "short_trades": 10,
+        "long_net_usdt": 40.303452665999096,
+        "short_net_usdt": 134.10465418343657,
+        "timeout_exits": 0,
+        "blocked_by_macd_divergence": null
+      },
+      "2023": {
+        "return_pct": 71.33074825274521,
+        "max_drawdown_pct": 13.334547139477337,
+        "trades": 34,
+        "long_trades": 26,
+        "short_trades": 8,
+        "long_net_usdt": 317.7707407501905,
+        "short_net_usdt": 38.883000513535364,
+        "timeout_exits": 0,
+        "blocked_by_macd_divergence": null
+      },
+      "2024": {
+        "return_pct": 125.28931587431691,
+        "max_drawdown_pct": 24.38046467803169,
+        "trades": 51,
+        "long_trades": 33,
+        "short_trades": 18,
+        "long_net_usdt": 91.49385112881482,
+        "short_net_usdt": 534.9527282427696,
+        "timeout_exits": 0,
+        "blocked_by_macd_divergence": null
+      },
+      "2025": {
+        "return_pct": -12.325280707161534,
+        "max_drawdown_pct": 28.854598452726943,
+        "trades": 45,
+        "long_trades": 20,
+        "short_trades": 25,
+        "long_net_usdt": -12.40819374300343,
+        "short_net_usdt": -49.21820979280409,
+        "timeout_exits": 0,
+        "blocked_by_macd_divergence": null
+      }
+    },
+    "combined_selected_long_and_8h_short_macd_divergence": {
+      "2022": {
+        "return_pct": 14.638074634009746,
+        "max_drawdown_pct": 8.464745259548778,
+        "trades": 5,
+        "long_trades": 1,
+        "short_trades": 4,
+        "long_net_usdt": -1.6551539999998932,
+        "short_net_usdt": 74.84552717004865,
+        "timeout_exits": 0,
+        "blocked_by_macd_divergence": {
+          "LONG": 13,
+          "SHORT": 6
+        }
+      },
+      "2023": {
+        "return_pct": 13.54538230150808,
+        "max_drawdown_pct": 6.972575893988853,
+        "trades": 7,
+        "long_trades": 1,
+        "short_trades": 6,
+        "long_net_usdt": 45.81419996746264,
+        "short_net_usdt": 21.91271154007772,
+        "timeout_exits": 0,
+        "blocked_by_macd_divergence": {
+          "LONG": 25,
+          "SHORT": 2
+        }
+      },
+      "2024": {
+        "return_pct": 19.83195457089524,
+        "max_drawdown_pct": 11.726299315405287,
+        "trades": 8,
+        "long_trades": 2,
+        "short_trades": 6,
+        "long_net_usdt": -5.693058222571789,
+        "short_net_usdt": 104.85283107704792,
+        "timeout_exits": 0,
+        "blocked_by_macd_divergence": {
+          "LONG": 31,
+          "SHORT": 12
+        }
+      },
+      "2025": {
+        "return_pct": -16.560539892738824,
+        "max_drawdown_pct": 22.952809844625577,
+        "trades": 14,
+        "long_trades": 0,
+        "short_trades": 14,
+        "long_net_usdt": 0,
+        "short_net_usdt": -82.80269946369414,
+        "timeout_exits": 0,
+        "blocked_by_macd_divergence": {
+          "LONG": 21,
+          "SHORT": 11
+        }
+      }
+    },
+    "combined_short_timeout_atr_half_capped": {
+      "2022": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "long_trades": 14,
+        "short_trades": 10,
+        "long_net_usdt": 39.51012396599913,
+        "short_net_usdt": 159.39297618353208,
+        "timeout_exits": 3,
+        "blocked_by_macd_divergence": null
+      },
+      "2023": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "long_trades": 26,
+        "short_trades": 8,
+        "long_net_usdt": 318.1803060101906,
+        "short_net_usdt": 48.371890542657944,
+        "timeout_exits": 2,
+        "blocked_by_macd_divergence": null
+      },
+      "2024": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "long_trades": 33,
+        "short_trades": 18,
+        "long_net_usdt": 83.15390376541647,
+        "short_net_usdt": 571.4997873059131,
+        "timeout_exits": 3,
+        "blocked_by_macd_divergence": null
+      },
+      "2025": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "long_trades": 20,
+        "short_trades": 25,
+        "long_net_usdt": -13.694851903003343,
+        "short_net_usdt": -8.92475531130142,
+        "timeout_exits": 7,
+        "blocked_by_macd_divergence": null
+      }
+    },
+    "combined_short_timeout_atr_half_capped_macd_divergence": {
+      "2022": {
+        "return_pct": 18.174747574009764,
+        "max_drawdown_pct": 8.464745259548778,
+        "trades": 5,
+        "long_trades": 1,
+        "short_trades": 4,
+        "long_net_usdt": -1.70383499999989,
+        "short_net_usdt": 92.57757287004875,
+        "timeout_exits": 1,
+        "blocked_by_macd_divergence": {
+          "LONG": 13,
+          "SHORT": 6
+        }
+      },
+      "2023": {
+        "return_pct": 13.925618333508162,
+        "max_drawdown_pct": 6.972575893988853,
+        "trades": 7,
+        "long_trades": 1,
+        "short_trades": 6,
+        "long_net_usdt": 45.81419996746264,
+        "short_net_usdt": 23.813891700078173,
+        "timeout_exits": 1,
+        "blocked_by_macd_divergence": {
+          "LONG": 25,
+          "SHORT": 2
+        }
+      },
+      "2024": {
+        "return_pct": 22.64175932588546,
+        "max_drawdown_pct": 11.488506672050857,
+        "trades": 8,
+        "long_trades": 2,
+        "short_trades": 6,
+        "long_net_usdt": -5.693058222571789,
+        "short_net_usdt": 118.90185485199909,
+        "timeout_exits": 1,
+        "blocked_by_macd_divergence": {
+          "LONG": 31,
+          "SHORT": 12
+        }
+      },
+      "2025": {
+        "return_pct": -11.559048392435034,
+        "max_drawdown_pct": 19.0845059222702,
+        "trades": 14,
+        "long_trades": 0,
+        "short_trades": 14,
+        "long_net_usdt": 0,
+        "short_net_usdt": -57.79524196217522,
+        "timeout_exits": 4,
+        "blocked_by_macd_divergence": {
+          "LONG": 21,
+          "SHORT": 11
+        }
+      }
+    }
+  }
+}

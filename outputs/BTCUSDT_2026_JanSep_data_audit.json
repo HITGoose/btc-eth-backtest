@@ -1,0 +1,59 @@
+{
+  "source": "https://api.bybit.com/v5/market/kline",
+  "category": "linear",
+  "symbol": "BTCUSDT",
+  "interval_minutes": 15,
+  "official_pages": 62,
+  "warmup_start_utc": "2025-12-16T16:00:00+00:00",
+  "test_start_utc": "2025-12-31T16:00:00+00:00",
+  "test_end_exclusive_utc": "2026-09-30T16:00:00+00:00",
+  "warmup_candles": 1440,
+  "test_candles": 26208,
+  "input_missing_candles": 0,
+  "input_duplicate_timestamps": 0,
+  "last_warmup_close": 87911.8,
+  "first_test_open": 87911.8,
+  "input_sha256": "d92696123f4b14e24d5141d9f86ae72cbd6ea03be1c66c74aeee6f23839130ec",
+  "comparisons": {
+    "old_csv_vs_parquet_2025": {
+      "candles": 35040,
+      "different_candles": 0,
+      "max_abs_difference_usdt": {
+        "open": 0.0,
+        "high": 0.0,
+        "low": 0.0,
+        "close": 0.0
+      }
+    },
+    "old_csv_vs_official_2025": {
+      "candles": 35040,
+      "different_candles": 0,
+      "max_abs_difference_usdt": {
+        "open": 0.0,
+        "high": 0.0,
+        "low": 0.0,
+        "close": 0.0
+      }
+    },
+    "parquet_vs_official_warmup": {
+      "candles": 1440,
+      "different_candles": 0,
+      "max_abs_difference_usdt": {
+        "open": 0.0,
+        "high": 0.0,
+        "low": 0.0,
+        "close": 0.0
+      }
+    },
+    "parquet_vs_official_test": {
+      "candles": 26208,
+      "different_candles": 0,
+      "max_abs_difference_usdt": {
+        "open": 0.0,
+        "high": 0.0,
+        "low": 0.0,
+        "close": 0.0
+      }
+    }
+  }
+}

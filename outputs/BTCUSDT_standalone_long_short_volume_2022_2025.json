@@ -1,0 +1,153 @@
+{
+  "starting_equity_usdt_per_direction": 500,
+  "results": {
+    "2022": {
+      "standalone_short_original": {
+        "return_pct": 28.386843208005953,
+        "max_drawdown_pct": 8.466692599713044,
+        "trades": 10,
+        "net_usdt": 141.9342160400298,
+        "ending_equity_usdt": 641.9342160400298
+      },
+      "standalone_short_support_volume": {
+        "return_pct": 28.386843208005953,
+        "max_drawdown_pct": 8.466692599713044,
+        "trades": 10,
+        "net_usdt": 141.9342160400298,
+        "ending_equity_usdt": 641.9342160400298
+      },
+      "standalone_long_original": {
+        "return_pct": 8.638940424084328,
+        "max_drawdown_pct": 26.985859426435642,
+        "trades": 14,
+        "net_usdt": 43.19470212042165,
+        "ending_equity_usdt": 543.1947021204217
+      },
+      "standalone_long_both_sides_volume": {
+        "return_pct": 8.638940424084328,
+        "max_drawdown_pct": 26.985859426435642,
+        "trades": 14,
+        "net_usdt": 43.19470212042165,
+        "ending_equity_usdt": 543.1947021204217
+      },
+      "standalone_long_both_sides_volume_and_weak_down": {
+        "return_pct": 8.638940424084328,
+        "max_drawdown_pct": 26.985859426435642,
+        "trades": 14,
+        "net_usdt": 43.19470212042165,
+        "ending_equity_usdt": 543.1947021204217
+      }
+    },
+    "2023": {
+      "standalone_short_original": {
+        "return_pct": 7.509008782336157,
+        "max_drawdown_pct": 8.69821643082782,
+        "trades": 8,
+        "net_usdt": 37.54504391168075,
+        "ending_equity_usdt": 537.5450439116808
+      },
+      "standalone_short_support_volume": {
+        "return_pct": 7.509008782336157,
+        "max_drawdown_pct": 8.69821643082782,
+        "trades": 8,
+        "net_usdt": 37.54504391168075,
+        "ending_equity_usdt": 537.5450439116808
+      },
+      "standalone_long_original": {
+        "return_pct": 60.883995089832645,
+        "max_drawdown_pct": 13.793955648408652,
+        "trades": 26,
+        "net_usdt": 304.4199754491632,
+        "ending_equity_usdt": 804.4199754491632
+      },
+      "standalone_long_both_sides_volume": {
+        "return_pct": 60.883995089832645,
+        "max_drawdown_pct": 13.793955648408652,
+        "trades": 26,
+        "net_usdt": 304.4199754491632,
+        "ending_equity_usdt": 804.4199754491632
+      },
+      "standalone_long_both_sides_volume_and_weak_down": {
+        "return_pct": 60.883995089832645,
+        "max_drawdown_pct": 13.793955648408652,
+        "trades": 26,
+        "net_usdt": 304.4199754491632,
+        "ending_equity_usdt": 804.4199754491632
+      }
+    },
+    "2024": {
+      "standalone_short_original": {
+        "return_pct": 84.60476580339164,
+        "max_drawdown_pct": 20.076802533282855,
+        "trades": 18,
+        "net_usdt": 423.0238290169582,
+        "ending_equity_usdt": 923.0238290169582
+      },
+      "standalone_short_support_volume": {
+        "return_pct": 88.33854360312739,
+        "max_drawdown_pct": 19.116762828299848,
+        "trades": 16,
+        "net_usdt": 441.69271801563696,
+        "ending_equity_usdt": 941.692718015637
+      },
+      "standalone_long_original": {
+        "return_pct": 24.978520687474926,
+        "max_drawdown_pct": 25.185717703332834,
+        "trades": 33,
+        "net_usdt": 124.89260343737465,
+        "ending_equity_usdt": 624.8926034373746
+      },
+      "standalone_long_both_sides_volume": {
+        "return_pct": 34.09112777345429,
+        "max_drawdown_pct": 23.28992420759691,
+        "trades": 31,
+        "net_usdt": 170.45563886727143,
+        "ending_equity_usdt": 670.4556388672714
+      },
+      "standalone_long_both_sides_volume_and_weak_down": {
+        "return_pct": 30.7358902614544,
+        "max_drawdown_pct": 25.20178128189231,
+        "trades": 32,
+        "net_usdt": 153.67945130727196,
+        "ending_equity_usdt": 653.679451307272
+      }
+    },
+    "2025": {
+      "standalone_short_original": {
+        "return_pct": -2.2441020222602637,
+        "max_drawdown_pct": 16.354526682129578,
+        "trades": 25,
+        "net_usdt": -11.220510111301337,
+        "ending_equity_usdt": 488.77948988869866
+      },
+      "standalone_short_support_volume": {
+        "return_pct": 5.864226418846963,
+        "max_drawdown_pct": 9.922164368052167,
+        "trades": 23,
+        "net_usdt": 29.321132094234827,
+        "ending_equity_usdt": 529.3211320942348
+      },
+      "standalone_long_original": {
+        "return_pct": -3.1087663356534567,
+        "max_drawdown_pct": 13.304135070029133,
+        "trades": 21,
+        "net_usdt": -15.543831678267281,
+        "ending_equity_usdt": 484.4561683217327
+      },
+      "standalone_long_both_sides_volume": {
+        "return_pct": -3.1087663356534567,
+        "max_drawdown_pct": 13.304135070029133,
+        "trades": 21,
+        "net_usdt": -15.543831678267281,
+        "ending_equity_usdt": 484.4561683217327
+      },
+      "standalone_long_both_sides_volume_and_weak_down": {
+        "return_pct": -3.1087663356534567,
+        "max_drawdown_pct": 13.304135070029133,
+        "trades": 21,
+        "net_usdt": -15.543831678267281,
+        "ending_equity_usdt": 484.4561683217327
+      }
+    }
+  }
+}

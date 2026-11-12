@@ -1,0 +1,459 @@
+{
+  "sample_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "starting_equity_usdt": 500,
+  "long_leverage_cap": 5,
+  "regular_short_leverage_cap": 4,
+  "boosted_short_leverage_cap": 5,
+  "confirmation_window_hours": 8,
+  "invalidated_when_price_breaks_last_peak": true,
+  "results": {
+    "2022": {
+      "short_fixed_5x": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 698.9031001495312,
+        "long_net_usdt": 39.51012396599913,
+        "short_net_usdt": 159.39297618353208,
+        "boosted_trades": []
+      },
+      "short_fixed_4x": {
+        "return_pct": 33.36549607688053,
+        "max_drawdown_pct": 26.760060002618367,
+        "trades": 24,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 666.8274803844026,
+        "long_net_usdt": 40.20823836386791,
+        "short_net_usdt": 126.61924202053468,
+        "boosted_trades": []
+      },
+      "short_boost_doubleTop": {
+        "return_pct": 33.36549607688053,
+        "max_drawdown_pct": 26.760060002618367,
+        "trades": 24,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 666.8274803844026,
+        "long_net_usdt": 40.20823836386791,
+        "short_net_usdt": 126.61924202053468,
+        "boosted_trades": []
+      },
+      "short_boost_tripleTop": {
+        "return_pct": 33.36549607688053,
+        "max_drawdown_pct": 26.760060002618367,
+        "trades": 24,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 666.8274803844026,
+        "long_net_usdt": 40.20823836386791,
+        "short_net_usdt": 126.61924202053468,
+        "boosted_trades": []
+      },
+      "short_boost_activeDoubleTop": {
+        "return_pct": 36.99572979644756,
+        "max_drawdown_pct": 27.861201034666927,
+        "trades": 24,
+        "boosted_shorts": 5,
+        "ending_equity_usdt": 684.9786489822378,
+        "long_net_usdt": 37.56566568984391,
+        "short_net_usdt": 147.4129832923941,
+        "boosted_trades": [
+          {
+            "opened_utc": "2022-03-31T14:30:00.000Z",
+            "boosted_qty_btc": 0.057,
+            "fixed_4x_qty_btc": 0.045,
+            "net_usdt": 31.05294263957769,
+            "fixed_4x_net_usdt": 24.44383295965447
+          },
+          {
+            "opened_utc": "2022-07-13T13:30:00.000Z",
+            "boosted_qty_btc": 0.11900000000000001,
+            "fixed_4x_qty_btc": 0.094,
+            "net_usdt": -32.209039799999914,
+            "fixed_4x_net_usdt": -25.44243479999993
+          },
+          {
+            "opened_utc": "2022-09-13T13:15:00.000Z",
+            "boosted_qty_btc": 0.146,
+            "fixed_4x_qty_btc": 0.117,
+            "net_usdt": 137.77022341102423,
+            "fixed_4x_net_usdt": 110.6372836190882
+          },
+          {
+            "opened_utc": "2022-09-21T07:15:00.000Z",
+            "boosted_qty_btc": 0.202,
+            "fixed_4x_qty_btc": 0.156,
+            "net_usdt": -8.796211199999526,
+            "fixed_4x_net_usdt": -6.793113599999633
+          },
+          {
+            "opened_utc": "2022-12-14T20:45:00.000Z",
+            "boosted_qty_btc": 0.2,
+            "fixed_4x_qty_btc": 0.155,
+            "net_usdt": -18.020799999999873,
+            "fixed_4x_net_usdt": -13.9661199999999
+          }
+        ]
+      },
+      "short_boost_activeTripleTop": {
+        "return_pct": 33.36549607688053,
+        "max_drawdown_pct": 26.760060002618367,
+        "trades": 24,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 666.8274803844026,
+        "long_net_usdt": 40.20823836386791,
+        "short_net_usdt": 126.61924202053468,
+        "boosted_trades": []
+      }
+    },
+    "2023": {
+      "short_fixed_5x": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 866.5521965528486,
+        "long_net_usdt": 318.1803060101906,
+        "short_net_usdt": 48.371890542657944,
+        "boosted_trades": []
+      },
+      "short_fixed_4x": {
+        "return_pct": 71.31248667549224,
+        "max_drawdown_pct": 12.579304201064067,
+        "trades": 34,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 856.5624333774612,
+        "long_net_usdt": 317.9159065843075,
+        "short_net_usdt": 38.646526793153726,
+        "boosted_trades": []
+      },
+      "short_boost_doubleTop": {
+        "return_pct": 71.31248667549224,
+        "max_drawdown_pct": 12.579304201064067,
+        "trades": 34,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 856.5624333774612,
+        "long_net_usdt": 317.9159065843075,
+        "short_net_usdt": 38.646526793153726,
+        "boosted_trades": []
+      },
+      "short_boost_tripleTop": {
+        "return_pct": 71.31248667549224,
+        "max_drawdown_pct": 12.579304201064067,
+        "trades": 34,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 856.5624333774612,
+        "long_net_usdt": 317.9159065843075,
+        "short_net_usdt": 38.646526793153726,
+        "boosted_trades": []
+      },
+      "short_boost_activeDoubleTop": {
+        "return_pct": 72.64705901360546,
+        "max_drawdown_pct": 12.530739885119823,
+        "trades": 34,
+        "boosted_shorts": 4,
+        "ending_equity_usdt": 863.2352950680273,
+        "long_net_usdt": 318.9189277215143,
+        "short_net_usdt": 44.31636734651295,
+        "boosted_trades": [
+          {
+            "opened_utc": "2023-05-18T13:45:00.000Z",
+            "boosted_qty_btc": 0.14300000000000002,
+            "fixed_4x_qty_btc": 0.114,
+            "net_usdt": 42.71308349617341,
+            "fixed_4x_net_usdt": 34.08544542842196
+          },
+          {
+            "opened_utc": "2023-10-11T03:00:00.000Z",
+            "boosted_qty_btc": 0.148,
+            "fixed_4x_qty_btc": 0.117,
+            "net_usdt": 3.517344320000542,
+            "fixed_4x_net_usdt": 2.780603280000429
+          },
+          {
+            "opened_utc": "2023-11-14T11:00:00.000Z",
+            "boosted_qty_btc": 0.115,
+            "fixed_4x_qty_btc": 0.091,
+            "net_usdt": -5.871201510204868,
+            "fixed_4x_net_usdt": -4.729885515812506
+          },
+          {
+            "opened_utc": "2023-12-10T09:45:00.000Z",
+            "boosted_qty_btc": 0.099,
+            "fixed_4x_qty_btc": 0.078,
+            "net_usdt": -12.364652519999924,
+            "fixed_4x_net_usdt": -9.741847439999939
+          }
+        ]
+      },
+      "short_boost_activeTripleTop": {
+        "return_pct": 71.31248667549224,
+        "max_drawdown_pct": 12.579304201064067,
+        "trades": 34,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 856.5624333774612,
+        "long_net_usdt": 317.9159065843075,
+        "short_net_usdt": 38.646526793153726,
+        "boosted_trades": []
+      }
+    },
+    "2024": {
+      "short_fixed_5x": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 1154.6536910713296,
+        "long_net_usdt": 83.15390376541647,
+        "short_net_usdt": 571.4997873059131,
+        "boosted_trades": []
+      },
+      "short_fixed_4x": {
+        "return_pct": 104.87335573714356,
+        "max_drawdown_pct": 22.82722382882396,
+        "trades": 51,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 1024.3667786857177,
+        "long_net_usdt": 93.69639490283599,
+        "short_net_usdt": 430.6703837828809,
+        "boosted_trades": []
+      },
+      "short_boost_doubleTop": {
+        "return_pct": 104.87335573714356,
+        "max_drawdown_pct": 22.82722382882396,
+        "trades": 51,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 1024.3667786857177,
+        "long_net_usdt": 93.69639490283599,
+        "short_net_usdt": 430.6703837828809,
+        "boosted_trades": []
+      },
+      "short_boost_tripleTop": {
+        "return_pct": 104.87335573714356,
+        "max_drawdown_pct": 22.82722382882396,
+        "trades": 51,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 1024.3667786857177,
+        "long_net_usdt": 93.69639490283599,
+        "short_net_usdt": 430.6703837828809,
+        "boosted_trades": []
+      },
+      "short_boost_activeDoubleTop": {
+        "return_pct": 109.22805709204826,
+        "max_drawdown_pct": 23.001432073630546,
+        "trades": 51,
+        "boosted_shorts": 4,
+        "ending_equity_usdt": 1046.1402854602413,
+        "long_net_usdt": 93.48204989470547,
+        "short_net_usdt": 452.6582355655353,
+        "boosted_trades": [
+          {
+            "opened_utc": "2024-03-19T01:45:00.000Z",
+            "boosted_qty_btc": 0.047,
+            "fixed_4x_qty_btc": 0.037,
+            "net_usdt": 81.03565225505986,
+            "fixed_4x_net_usdt": 63.921221407268774
+          },
+          {
+            "opened_utc": "2024-11-26T08:15:00.000Z",
+            "boosted_qty_btc": 0.053,
+            "fixed_4x_qty_btc": 0.041,
+            "net_usdt": 51.22635861473522,
+            "fixed_4x_net_usdt": 39.550148851788144
+          },
+          {
+            "opened_utc": "2024-12-04T03:00:00.000Z",
+            "boosted_qty_btc": 0.054,
+            "fixed_4x_qty_btc": 0.042,
+            "net_usdt": -2.3461412399995316,
+            "fixed_4x_net_usdt": -1.8247765199996357
+          },
+          {
+            "opened_utc": "2024-12-30T14:00:00.000Z",
+            "boosted_qty_btc": 0.06,
+            "fixed_4x_qty_btc": 0.047,
+            "net_usdt": -81.13025172395602,
+            "fixed_4x_net_usdt": -64.5893151156075
+          }
+        ]
+      },
+      "short_boost_activeTripleTop": {
+        "return_pct": 109.54579788486444,
+        "max_drawdown_pct": 22.866471480093043,
+        "trades": 51,
+        "boosted_shorts": 1,
+        "ending_equity_usdt": 1047.7289894243222,
+        "long_net_usdt": 93.78821731470546,
+        "short_net_usdt": 453.9407721096162,
+        "boosted_trades": [
+          {
+            "opened_utc": "2024-03-19T01:45:00.000Z",
+            "boosted_qty_btc": 0.047,
+            "fixed_4x_qty_btc": 0.037,
+            "net_usdt": 81.03565225505986,
+            "fixed_4x_net_usdt": 63.921221407268774
+          }
+        ]
+      }
+    },
+    "2025": {
+      "short_fixed_5x": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 477.38039278569516,
+        "long_net_usdt": -13.694851903003343,
+        "short_net_usdt": -8.92475531130142,
+        "boosted_trades": []
+      },
+      "short_fixed_4x": {
+        "return_pct": -3.843829160742418,
+        "max_drawdown_pct": 21.869506861523725,
+        "trades": 45,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 480.7808541962879,
+        "long_net_usdt": -13.770895803003347,
+        "short_net_usdt": -5.448250000708564,
+        "boosted_trades": []
+      },
+      "short_boost_doubleTop": {
+        "return_pct": -3.843829160742418,
+        "max_drawdown_pct": 21.869506861523725,
+        "trades": 45,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 480.7808541962879,
+        "long_net_usdt": -13.770895803003347,
+        "short_net_usdt": -5.448250000708564,
+        "boosted_trades": []
+      },
+      "short_boost_tripleTop": {
+        "return_pct": -3.843829160742418,
+        "max_drawdown_pct": 21.869506861523725,
+        "trades": 45,
+        "boosted_shorts": 0,
+        "ending_equity_usdt": 480.7808541962879,
+        "long_net_usdt": -13.770895803003347,
+        "short_net_usdt": -5.448250000708564,
+        "boosted_trades": []
+      },
+      "short_boost_activeDoubleTop": {
+        "return_pct": -5.395742961593985,
+        "max_drawdown_pct": 23.499562463113765,
+        "trades": 45,
+        "boosted_shorts": 12,
+        "ending_equity_usdt": 473.02128519203006,
+        "long_net_usdt": -11.673498463003382,
+        "short_net_usdt": -15.305216344966414,
+        "boosted_trades": [
+          {
+            "opened_utc": "2025-02-18T16:30:00.000Z",
+            "boosted_qty_btc": 0.026000000000000002,
+            "fixed_4x_qty_btc": 0.02,
+            "net_usdt": 6.738679972064972,
+            "fixed_4x_net_usdt": 5.275705913651967
+          },
+          {
+            "opened_utc": "2025-03-03T15:30:00.000Z",
+            "boosted_qty_btc": 0.027,
+            "fixed_4x_qty_btc": 0.021,
+            "net_usdt": 25.115954550589695,
+            "fixed_4x_net_usdt": 19.50466125647175
+          },
+          {
+            "opened_utc": "2025-04-04T11:45:00.000Z",
+            "boosted_qty_btc": 0.033,
+            "fixed_4x_qty_btc": 0.026000000000000002,
+            "net_usdt": -29.50275834000029,
+            "fixed_4x_net_usdt": -23.24459748000023
+          },
+          {
+            "opened_utc": "2025-04-16T13:45:00.000Z",
+            "boosted_qty_btc": 0.032,
+            "fixed_4x_qty_btc": 0.025,
+            "net_usdt": -37.21671040000022,
+            "fixed_4x_net_usdt": -29.07555500000017
+          },
+          {
+            "opened_utc": "2025-04-27T23:30:00.000Z",
+            "boosted_qty_btc": 0.025,
+            "fixed_4x_qty_btc": 0.02,
+            "net_usdt": 0.817649000000165,
+            "fixed_4x_net_usdt": 0.654119200000132
+          },
+          {
+            "opened_utc": "2025-05-15T02:30:00.000Z",
+            "boosted_qty_btc": 0.022,
+            "fixed_4x_qty_btc": 0.018000000000000002,
+            "net_usdt": 15.077227462144684,
+            "fixed_4x_net_usdt": 12.296653396608527
+          },
+          {
+            "opened_utc": "2025-06-10T14:45:00.000Z",
+            "boosted_qty_btc": 0.021,
+            "fixed_4x_qty_btc": 0.017,
+            "net_usdt": -5.728215779999999,
+            "fixed_4x_net_usdt": -4.637127059999999
+          },
+          {
+            "opened_utc": "2025-07-24T05:15:00.000Z",
+            "boosted_qty_btc": 0.019,
+            "fixed_4x_qty_btc": 0.015,
+            "net_usdt": -20.543623840000144,
+            "fixed_4x_net_usdt": -16.218650400000115
+          },
+          {
+            "opened_utc": "2025-08-19T14:45:00.000Z",
+            "boosted_qty_btc": 0.021,
+            "fixed_4x_qty_btc": 0.017,
+            "net_usdt": 9.749417950700561,
+            "fixed_4x_net_usdt": 7.767739613025421
+          },
+          {
+            "opened_utc": "2025-09-14T04:15:00.000Z",
+            "boosted_qty_btc": 0.022,
+            "fixed_4x_qty_btc": 0.017,
+            "net_usdt": -6.051809280000073,
+            "fixed_4x_net_usdt": -4.676398080000058
+          },
+          {
+            "opened_utc": "2025-10-14T20:30:00.000Z",
+            "boosted_qty_btc": 0.021,
+            "fixed_4x_qty_btc": 0.017,
+            "net_usdt": -4.752928319999774,
+            "fixed_4x_net_usdt": -3.847608639999817
+          },
+          {
+            "opened_utc": "2025-12-31T15:45:00.000Z",
+            "boosted_qty_btc": 0.026000000000000002,
+            "fixed_4x_qty_btc": 0.021,
+            "net_usdt": 1.2432856799999137,
+            "fixed_4x_net_usdt": 1.0041922799999303
+          }
+        ]
+      },
+      "short_boost_activeTripleTop": {
+        "return_pct": -4.02489309674241,
+        "max_drawdown_pct": 21.869506861523725,
+        "trades": 45,
+        "boosted_shorts": 1,
+        "ending_equity_usdt": 479.8755345162879,
+        "long_net_usdt": -13.770895803003347,
+        "short_net_usdt": -6.353569680708521,
+        "boosted_trades": [
+          {
+            "opened_utc": "2025-10-14T20:30:00.000Z",
+            "boosted_qty_btc": 0.021,
+            "fixed_4x_qty_btc": 0.017,
+            "net_usdt": -4.752928319999774,
+            "fixed_4x_net_usdt": -3.847608639999817
+          }
+        ]
+      }
+    }
+  }
+}

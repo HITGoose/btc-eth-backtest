@@ -1,0 +1,547 @@
+{
+  "sample_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "starting_equity_usdt": 500,
+  "market_ranges": {
+    "15min": {
+      "median_high_low_pct": 0.26413811033639756,
+      "p90_high_low_pct": 0.6855836807497502,
+      "pct_at_least_3": 0.1347535934291581,
+      "n": 140256
+    },
+    "1h": {
+      "median_high_low_pct": 0.5639158524398424,
+      "p90_high_low_pct": 1.4213640745167746,
+      "pct_at_least_3": 1.2462924937257587,
+      "n": 35064
+    },
+    "4h": {
+      "median_high_low_pct": 1.222170203199128,
+      "p90_high_low_pct": 2.92217292529637,
+      "pct_at_least_3": 9.320100387862194,
+      "n": 8766
+    },
+    "1D": {
+      "median_high_low_pct": 3.3318641993987512,
+      "p90_high_low_pct": 6.785339693532273,
+      "pct_at_least_3": 58.17932922655715,
+      "n": 1461
+    }
+  },
+  "baseline_short_distance": {
+    "2022": {
+      "trades": 10,
+      "within_1_pct": 7,
+      "within_3_pct": 9
+    },
+    "2023": {
+      "trades": 8,
+      "within_1_pct": 8,
+      "within_3_pct": 8
+    },
+    "2024": {
+      "trades": 18,
+      "within_1_pct": 12,
+      "within_3_pct": 18
+    },
+    "2025": {
+      "trades": 25,
+      "within_1_pct": 21,
+      "within_3_pct": 25
+    }
+  },
+  "results": {
+    "2022": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": 0
+      },
+      "original_short_either_side_of_support": {
+        "return_pct": 16.534279841327116,
+        "max_drawdown_pct": 25.40935666147872,
+        "trades": 21,
+        "short_trades": 7,
+        "short_net_usdt": 25.638767120710465,
+        "volume_exception_trades": 0
+      },
+      "support_1pct": {
+        "return_pct": 16.534279841327116,
+        "max_drawdown_pct": 25.40935666147872,
+        "trades": 21,
+        "short_trades": 7,
+        "short_net_usdt": 25.638767120710465,
+        "volume_exception_trades": 0
+      },
+      "support_1pct_or_volume_15m": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": 3
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": 3
+      },
+      "support_distance_50": {
+        "return_pct": 11.071626597251027,
+        "max_drawdown_pct": 25.400576872593383,
+        "trades": 19,
+        "short_trades": 5,
+        "short_net_usdt": -0.47332751995082045,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_50": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": 5
+      },
+      "support_distance_150": {
+        "return_pct": 23.115941330914147,
+        "max_drawdown_pct": 22.323465332170922,
+        "trades": 22,
+        "short_trades": 8,
+        "short_net_usdt": 56.823338748068664,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_150": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": 2
+      },
+      "support_distance_200": {
+        "return_pct": 23.115941330914147,
+        "max_drawdown_pct": 22.323465332170922,
+        "trades": 22,
+        "short_trades": 8,
+        "short_net_usdt": 56.823338748068664,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_200": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": 2
+      },
+      "support_distance_300": {
+        "return_pct": 14.49155188770137,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 23,
+        "short_trades": 9,
+        "short_net_usdt": 24.422619072507757,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_300": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": 1
+      },
+      "support_distance_400": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_400": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "trades": 24,
+        "short_trades": 10,
+        "short_net_usdt": 159.39297618353208,
+        "volume_exception_trades": 0
+      }
+    },
+    "2023": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "original_short_either_side_of_support": {
+        "return_pct": 77.0799798206107,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 32,
+        "short_trades": 6,
+        "short_net_usdt": 66.82658325286275,
+        "volume_exception_trades": 0
+      },
+      "support_1pct": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_1pct_or_volume_15m": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_distance_50": {
+        "return_pct": 70.68531706129212,
+        "max_drawdown_pct": 12.650080938771879,
+        "trades": 30,
+        "short_trades": 4,
+        "short_net_usdt": 46.40335435488218,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_50": {
+        "return_pct": 71.42976325729225,
+        "max_drawdown_pct": 12.650080938771879,
+        "trades": 31,
+        "short_trades": 5,
+        "short_net_usdt": 49.80186947488271,
+        "volume_exception_trades": 1
+      },
+      "support_distance_150": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_150": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_distance_200": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_200": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_distance_300": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_300": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_distance_400": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_400": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "trades": 34,
+        "short_trades": 8,
+        "short_net_usdt": 48.371890542657944,
+        "volume_exception_trades": 0
+      }
+    },
+    "2024": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "short_trades": 18,
+        "short_net_usdt": 571.4997873059131,
+        "volume_exception_trades": 0
+      },
+      "original_short_either_side_of_support": {
+        "return_pct": 85.8394084345597,
+        "max_drawdown_pct": 29.23671949459311,
+        "trades": 43,
+        "short_trades": 10,
+        "short_net_usdt": 330.75267652163325,
+        "volume_exception_trades": 0
+      },
+      "support_1pct": {
+        "return_pct": 126.5228480134037,
+        "max_drawdown_pct": 22.93519820309795,
+        "trades": 45,
+        "short_trades": 12,
+        "short_net_usdt": 537.7085693958533,
+        "volume_exception_trades": 0
+      },
+      "support_1pct_or_volume_15m": {
+        "return_pct": 125.58408032098778,
+        "max_drawdown_pct": 23.00220377699318,
+        "trades": 47,
+        "short_trades": 14,
+        "short_net_usdt": 532.0359757063655,
+        "volume_exception_trades": 2
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 135.64001808200166,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 49,
+        "short_trades": 16,
+        "short_net_usdt": 595.3523540645916,
+        "volume_exception_trades": 4
+      },
+      "support_distance_50": {
+        "return_pct": 39.854161720912984,
+        "max_drawdown_pct": 25.02013483181048,
+        "trades": 38,
+        "short_trades": 5,
+        "short_net_usdt": 75.54558393531646,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_50": {
+        "return_pct": 104.84067940238559,
+        "max_drawdown_pct": 22.86333997959542,
+        "trades": 48,
+        "short_trades": 15,
+        "short_net_usdt": 419.5859310802222,
+        "volume_exception_trades": 10
+      },
+      "support_distance_150": {
+        "return_pct": 138.26484337278907,
+        "max_drawdown_pct": 22.93475147784495,
+        "trades": 49,
+        "short_trades": 16,
+        "short_net_usdt": 609.1981435639809,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_150": {
+        "return_pct": 132.15099973426584,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 50,
+        "short_trades": 17,
+        "short_net_usdt": 577.6010949059125,
+        "volume_exception_trades": 1
+      },
+      "support_distance_200": {
+        "return_pct": 138.26484337278907,
+        "max_drawdown_pct": 22.93475147784495,
+        "trades": 49,
+        "short_trades": 16,
+        "short_net_usdt": 609.1981435639809,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_200": {
+        "return_pct": 132.15099973426584,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 50,
+        "short_trades": 17,
+        "short_net_usdt": 577.6010949059125,
+        "volume_exception_trades": 1
+      },
+      "support_distance_300": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "short_trades": 18,
+        "short_net_usdt": 571.4997873059131,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_300": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "short_trades": 18,
+        "short_net_usdt": 571.4997873059131,
+        "volume_exception_trades": 0
+      },
+      "support_distance_400": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "short_trades": 18,
+        "short_net_usdt": 571.4997873059131,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_400": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "trades": 51,
+        "short_trades": 18,
+        "short_net_usdt": 571.4997873059131,
+        "volume_exception_trades": 0
+      }
+    },
+    "2025": {
+      "combined_short_timeout_atr_half_capped": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "short_trades": 25,
+        "short_net_usdt": -8.92475531130142,
+        "volume_exception_trades": 0
+      },
+      "original_short_either_side_of_support": {
+        "return_pct": 2.850772883658781,
+        "max_drawdown_pct": 19.04670784528144,
+        "trades": 39,
+        "short_trades": 19,
+        "short_net_usdt": 28.08082415637026,
+        "volume_exception_trades": 0
+      },
+      "support_1pct": {
+        "return_pct": 0.05814087597870721,
+        "max_drawdown_pct": 19.12117627036931,
+        "trades": 41,
+        "short_trades": 21,
+        "short_net_usdt": 12.610267502897214,
+        "volume_exception_trades": 0
+      },
+      "support_1pct_or_volume_15m": {
+        "return_pct": 3.6266876970746376,
+        "max_drawdown_pct": 18.828201360691267,
+        "trades": 43,
+        "short_trades": 23,
+        "short_net_usdt": 32.494218948698624,
+        "volume_exception_trades": 2
+      },
+      "support_1pct_or_volume_1h": {
+        "return_pct": 3.6266876970746376,
+        "max_drawdown_pct": 18.828201360691267,
+        "trades": 43,
+        "short_trades": 23,
+        "short_net_usdt": 32.494218948698624,
+        "volume_exception_trades": 2
+      },
+      "support_distance_50": {
+        "return_pct": 0.5821491815186652,
+        "max_drawdown_pct": 19.04670784528144,
+        "trades": 38,
+        "short_trades": 18,
+        "short_net_usdt": 16.7377056456697,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_50": {
+        "return_pct": 0.5001523039068534,
+        "max_drawdown_pct": 18.828201360691267,
+        "trades": 42,
+        "short_trades": 22,
+        "short_net_usdt": 16.93011356285981,
+        "volume_exception_trades": 4
+      },
+      "support_distance_150": {
+        "return_pct": -3.784476958861005,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 44,
+        "short_trades": 24,
+        "short_net_usdt": -5.296104471301652,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_150": {
+        "return_pct": -3.784476958861005,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 44,
+        "short_trades": 24,
+        "short_net_usdt": -5.296104471301652,
+        "volume_exception_trades": 0
+      },
+      "support_distance_200": {
+        "return_pct": -3.784476958861005,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 44,
+        "short_trades": 24,
+        "short_net_usdt": -5.296104471301652,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_200": {
+        "return_pct": -3.784476958861005,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 44,
+        "short_trades": 24,
+        "short_net_usdt": -5.296104471301652,
+        "volume_exception_trades": 0
+      },
+      "support_distance_300": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "short_trades": 25,
+        "short_net_usdt": -8.92475531130142,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_300": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "short_trades": 25,
+        "short_net_usdt": -8.92475531130142,
+        "volume_exception_trades": 0
+      },
+      "support_distance_400": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "short_trades": 25,
+        "short_net_usdt": -8.92475531130142,
+        "volume_exception_trades": 0
+      },
+      "support_volume_distance_400": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "trades": 45,
+        "short_trades": 25,
+        "short_net_usdt": -8.92475531130142,
+        "volume_exception_trades": 0
+      }
+    }
+  }
+}

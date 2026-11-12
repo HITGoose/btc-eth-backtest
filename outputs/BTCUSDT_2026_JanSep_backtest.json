@@ -1,0 +1,124 @@
+{
+  "since": "2025-12-31T16:00:00.000Z",
+  "until": "2026-09-30T16:00:00.000Z",
+  "observedCandles": 26208,
+  "expectedCandles": 26208,
+  "continuous": true,
+  "starting_equity_usdt": 100,
+  "scenarios": {
+    "combined_selected_long_and_8h_short": {
+      "return_pct": -6.553737217548914,
+      "ending_equity_usdt": 93.44626278245109,
+      "max_drawdown_pct": 19.22129446572669,
+      "trades": 28,
+      "long_trades": 18,
+      "long_net_usdt": -9.777103435568948,
+      "short_trades": 10,
+      "short_net_usdt": 3.2233662180199962,
+      "timeout_exits": 0,
+      "config": {
+        "mode": "15m",
+        "squeeze": 0.75,
+        "fee": 0,
+        "slip": 0.0002,
+        "minOrder": true,
+        "funding": 0,
+        "leverage": 5,
+        "histBars": 2,
+        "stopPercent": 0.02,
+        "squeezeRisk": 0.5,
+        "calendarOffsetHours": 8,
+        "diagnose": true,
+        "longOnly": false,
+        "crossoverOnly": true,
+        "exitOnTrendFlip": true,
+        "takeProfitFraction": 0.2,
+        "takeProfitSteps": [
+          0.4
+        ],
+        "useLeverageCap": true,
+        "reportWindow": true,
+        "zeroEntry": "histogram",
+        "macdNearZeroAtr": 0.2,
+        "macdAboveZero": false,
+        "macdBelowZero": true,
+        "shortPeakHours": 8,
+        "shortPeakMacdSide": "above"
+      }
+    },
+    "combined_selected_long_and_8h_short_timeout_shorts_only": {
+      "return_pct": -2.9598820070866623,
+      "ending_equity_usdt": 97.04011799291334,
+      "max_drawdown_pct": 16.088566398181914,
+      "trades": 28,
+      "long_trades": 18,
+      "long_net_usdt": -10.619558715568914,
+      "short_trades": 10,
+      "short_net_usdt": 7.659676708482236,
+      "timeout_exits": 4,
+      "config": {
+        "mode": "15m",
+        "squeeze": 0.75,
+        "fee": 0,
+        "slip": 0.0002,
+        "minOrder": true,
+        "funding": 0,
+        "leverage": 5,
+        "histBars": 2,
+        "stopPercent": 0.02,
+        "squeezeRisk": 0.5,
+        "calendarOffsetHours": 8,
+        "diagnose": true,
+        "longOnly": false,
+        "crossoverOnly": true,
+        "exitOnTrendFlip": true,
+        "takeProfitFraction": 0.2,
+        "takeProfitSteps": [
+          0.4
+        ],
+        "useLeverageCap": true,
+        "reportWindow": true,
+        "zeroEntry": "histogram",
+        "macdNearZeroAtr": 0.2,
+        "macdAboveZero": false,
+        "macdBelowZero": true,
+        "shortPeakHours": 8,
+        "shortPeakMacdSide": "above",
+        "rangeReview": true,
+        "rangeTimeout": true,
+        "timeoutShortOnly": true
+      }
+    }
+  },
+  "timeout_exit_trades": [
+    {
+      "opened_utc": "2026-04-01T18:45:00.000Z",
+      "timeout_exit_utc": "2026-04-01T19:45:00.000Z",
+      "timeout_net_usdt": 0.33070784000016284,
+      "baseline_exit_utc": "2026-04-01T22:00:00.000Z",
+      "baseline_net_usdt": -1.2824147199998843
+    },
+    {
+      "opened_utc": "2026-04-08T15:15:00.000Z",
+      "timeout_exit_utc": "2026-04-08T16:15:00.000Z",
+      "timeout_net_usdt": -1.7841233200000424,
+      "baseline_exit_utc": "2026-04-08T17:15:00.000Z",
+      "baseline_net_usdt": -4.93405317999993
+    },
+    {
+      "opened_utc": "2026-09-08T04:00:00.000Z",
+      "timeout_exit_utc": "2026-09-08T05:00:00.000Z",
+      "timeout_net_usdt": 1.1681848800000152,
+      "baseline_exit_utc": "2026-09-08T10:15:00.000Z",
+      "baseline_net_usdt": 1.2841109495378187
+    },
+    {
+      "opened_utc": "2026-09-25T04:15:00.000Z",
+      "timeout_exit_utc": "2026-09-25T05:15:00.000Z",
+      "timeout_net_usdt": -0.6831343999999808,
+      "baseline_exit_utc": "2026-09-25T06:15:00.000Z",
+      "baseline_net_usdt": -0.485094800000079
+    }
+  ],
+  "prior_year_full_summary_and_trade_export_match": true
+}

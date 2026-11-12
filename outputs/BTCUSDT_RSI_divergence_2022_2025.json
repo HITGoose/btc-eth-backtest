@@ -1,0 +1,834 @@
+{
+  "sample_years": [
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "starting_equity_usdt": 500,
+  "rsi_period": 14,
+  "rsi_smoothing": "Wilder",
+  "rsi_long_below": 20,
+  "rsi_short_above": 80,
+  "divergence_pivot_bars_on_each_side": 2,
+  "divergence_max_bars_since_confirmation": 32,
+  "divergence_max_pivot_separation_bars": 32,
+  "results": {
+    "combined_selected_long_and_8h_short": {
+      "2022": {
+        "return_pct": 34.88162136988715,
+        "max_drawdown_pct": 27.893121985672455,
+        "ending_equity_usdt": 674.4081068494357,
+        "trades": 24,
+        "long_trades": 14,
+        "short_trades": 10,
+        "long_net_usdt": 40.303452665999096,
+        "short_net_usdt": 134.10465418343657,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 14,
+            "blockedByRsi": 14,
+            "blockedByDivergence": 13,
+            "allowed": 14
+          },
+          "SHORT": {
+            "signals": 10,
+            "blockedByRsi": 10,
+            "blockedByDivergence": 5,
+            "allowed": 10
+          }
+        }
+      },
+      "2023": {
+        "return_pct": 71.33074825274521,
+        "max_drawdown_pct": 13.334547139477337,
+        "ending_equity_usdt": 856.653741263726,
+        "trades": 34,
+        "long_trades": 26,
+        "short_trades": 8,
+        "long_net_usdt": 317.7707407501905,
+        "short_net_usdt": 38.883000513535364,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 26,
+            "blockedByRsi": 26,
+            "blockedByDivergence": 24,
+            "allowed": 26
+          },
+          "SHORT": {
+            "signals": 8,
+            "blockedByRsi": 8,
+            "blockedByDivergence": 5,
+            "allowed": 8
+          }
+        }
+      },
+      "2024": {
+        "return_pct": 125.28931587431691,
+        "max_drawdown_pct": 24.38046467803169,
+        "ending_equity_usdt": 1126.4465793715844,
+        "trades": 51,
+        "long_trades": 33,
+        "short_trades": 18,
+        "long_net_usdt": 91.49385112881482,
+        "short_net_usdt": 534.9527282427696,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 33,
+            "blockedByRsi": 33,
+            "blockedByDivergence": 31,
+            "allowed": 33
+          },
+          "SHORT": {
+            "signals": 18,
+            "blockedByRsi": 18,
+            "blockedByDivergence": 14,
+            "allowed": 18
+          }
+        }
+      },
+      "2025": {
+        "return_pct": -12.325280707161534,
+        "max_drawdown_pct": 28.854598452726943,
+        "ending_equity_usdt": 438.3735964641923,
+        "trades": 45,
+        "long_trades": 20,
+        "short_trades": 25,
+        "long_net_usdt": -12.40819374300343,
+        "short_net_usdt": -49.21820979280409,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 20,
+            "blockedByRsi": 20,
+            "blockedByDivergence": 17,
+            "allowed": 20
+          },
+          "SHORT": {
+            "signals": 25,
+            "blockedByRsi": 25,
+            "blockedByDivergence": 15,
+            "allowed": 25
+          }
+        }
+      }
+    },
+    "combined_selected_long_and_8h_short_rsi": {
+      "2022": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 14,
+            "blockedByRsi": 14,
+            "blockedByDivergence": 13,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 10,
+            "blockedByRsi": 10,
+            "blockedByDivergence": 5,
+            "allowed": 0
+          }
+        }
+      },
+      "2023": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 26,
+            "blockedByRsi": 26,
+            "blockedByDivergence": 24,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 8,
+            "blockedByRsi": 8,
+            "blockedByDivergence": 5,
+            "allowed": 0
+          }
+        }
+      },
+      "2024": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 33,
+            "blockedByRsi": 33,
+            "blockedByDivergence": 31,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 18,
+            "blockedByRsi": 18,
+            "blockedByDivergence": 14,
+            "allowed": 0
+          }
+        }
+      },
+      "2025": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 21,
+            "blockedByRsi": 21,
+            "blockedByDivergence": 18,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 25,
+            "blockedByRsi": 25,
+            "blockedByDivergence": 15,
+            "allowed": 0
+          }
+        }
+      }
+    },
+    "combined_selected_long_and_8h_short_divergence": {
+      "2022": {
+        "return_pct": 14.721343434009748,
+        "max_drawdown_pct": 8.464745259548778,
+        "ending_equity_usdt": 573.6067171700488,
+        "trades": 6,
+        "long_trades": 1,
+        "short_trades": 5,
+        "long_net_usdt": -1.6551539999998932,
+        "short_net_usdt": 75.26187117004875,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 14,
+            "blockedByRsi": 14,
+            "blockedByDivergence": 13,
+            "allowed": 1
+          },
+          "SHORT": {
+            "signals": 10,
+            "blockedByRsi": 10,
+            "blockedByDivergence": 5,
+            "allowed": 5
+          }
+        }
+      },
+      "2023": {
+        "return_pct": 38.309558516221955,
+        "max_drawdown_pct": 7.399029326723161,
+        "ending_equity_usdt": 691.5477925811098,
+        "trades": 5,
+        "long_trades": 2,
+        "short_trades": 3,
+        "long_net_usdt": 195.79559698110972,
+        "short_net_usdt": -4.247804399999886,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 26,
+            "blockedByRsi": 26,
+            "blockedByDivergence": 24,
+            "allowed": 2
+          },
+          "SHORT": {
+            "signals": 8,
+            "blockedByRsi": 8,
+            "blockedByDivergence": 5,
+            "allowed": 3
+          }
+        }
+      },
+      "2024": {
+        "return_pct": 4.034128535483572,
+        "max_drawdown_pct": 10.948220759263094,
+        "ending_equity_usdt": 520.1706426774178,
+        "trades": 6,
+        "long_trades": 2,
+        "short_trades": 4,
+        "long_net_usdt": -7.794548173397118,
+        "short_net_usdt": 27.965190850815038,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 33,
+            "blockedByRsi": 33,
+            "blockedByDivergence": 31,
+            "allowed": 2
+          },
+          "SHORT": {
+            "signals": 18,
+            "blockedByRsi": 18,
+            "blockedByDivergence": 14,
+            "allowed": 4
+          }
+        }
+      },
+      "2025": {
+        "return_pct": -2.7812982333803804,
+        "max_drawdown_pct": 16.26876593547274,
+        "ending_equity_usdt": 486.0935088330981,
+        "trades": 13,
+        "long_trades": 3,
+        "short_trades": 10,
+        "long_net_usdt": -26.064463079999566,
+        "short_net_usdt": 12.15797191309776,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 21,
+            "blockedByRsi": 21,
+            "blockedByDivergence": 18,
+            "allowed": 3
+          },
+          "SHORT": {
+            "signals": 25,
+            "blockedByRsi": 25,
+            "blockedByDivergence": 15,
+            "allowed": 10
+          }
+        }
+      }
+    },
+    "combined_selected_long_and_8h_short_rsi_and_divergence": {
+      "2022": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 14,
+            "blockedByRsi": 14,
+            "blockedByDivergence": 13,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 10,
+            "blockedByRsi": 10,
+            "blockedByDivergence": 5,
+            "allowed": 0
+          }
+        }
+      },
+      "2023": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 26,
+            "blockedByRsi": 26,
+            "blockedByDivergence": 24,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 8,
+            "blockedByRsi": 8,
+            "blockedByDivergence": 5,
+            "allowed": 0
+          }
+        }
+      },
+      "2024": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 33,
+            "blockedByRsi": 33,
+            "blockedByDivergence": 31,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 18,
+            "blockedByRsi": 18,
+            "blockedByDivergence": 14,
+            "allowed": 0
+          }
+        }
+      },
+      "2025": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 21,
+            "blockedByRsi": 21,
+            "blockedByDivergence": 18,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 25,
+            "blockedByRsi": 25,
+            "blockedByDivergence": 15,
+            "allowed": 0
+          }
+        }
+      }
+    },
+    "combined_short_timeout_atr_half_capped": {
+      "2022": {
+        "return_pct": 39.78062002990623,
+        "max_drawdown_pct": 27.806620754590526,
+        "ending_equity_usdt": 698.9031001495312,
+        "trades": 24,
+        "long_trades": 14,
+        "short_trades": 10,
+        "long_net_usdt": 39.51012396599913,
+        "short_net_usdt": 159.39297618353208,
+        "timeout_exits": 3,
+        "entry_checks": {
+          "LONG": {
+            "signals": 14,
+            "blockedByRsi": 14,
+            "blockedByDivergence": 13,
+            "allowed": 14
+          },
+          "SHORT": {
+            "signals": 10,
+            "blockedByRsi": 10,
+            "blockedByDivergence": 5,
+            "allowed": 10
+          }
+        }
+      },
+      "2023": {
+        "return_pct": 73.31043931056973,
+        "max_drawdown_pct": 12.669174614288082,
+        "ending_equity_usdt": 866.5521965528486,
+        "trades": 34,
+        "long_trades": 26,
+        "short_trades": 8,
+        "long_net_usdt": 318.1803060101906,
+        "short_net_usdt": 48.371890542657944,
+        "timeout_exits": 2,
+        "entry_checks": {
+          "LONG": {
+            "signals": 26,
+            "blockedByRsi": 26,
+            "blockedByDivergence": 24,
+            "allowed": 26
+          },
+          "SHORT": {
+            "signals": 8,
+            "blockedByRsi": 8,
+            "blockedByDivergence": 5,
+            "allowed": 8
+          }
+        }
+      },
+      "2024": {
+        "return_pct": 130.93073821426594,
+        "max_drawdown_pct": 22.937111969664713,
+        "ending_equity_usdt": 1154.6536910713296,
+        "trades": 51,
+        "long_trades": 33,
+        "short_trades": 18,
+        "long_net_usdt": 83.15390376541647,
+        "short_net_usdt": 571.4997873059131,
+        "timeout_exits": 3,
+        "entry_checks": {
+          "LONG": {
+            "signals": 33,
+            "blockedByRsi": 33,
+            "blockedByDivergence": 31,
+            "allowed": 33
+          },
+          "SHORT": {
+            "signals": 18,
+            "blockedByRsi": 18,
+            "blockedByDivergence": 14,
+            "allowed": 18
+          }
+        }
+      },
+      "2025": {
+        "return_pct": -4.523921442860967,
+        "max_drawdown_pct": 24.371079529256733,
+        "ending_equity_usdt": 477.38039278569516,
+        "trades": 45,
+        "long_trades": 20,
+        "short_trades": 25,
+        "long_net_usdt": -13.694851903003343,
+        "short_net_usdt": -8.92475531130142,
+        "timeout_exits": 7,
+        "entry_checks": {
+          "LONG": {
+            "signals": 20,
+            "blockedByRsi": 20,
+            "blockedByDivergence": 17,
+            "allowed": 20
+          },
+          "SHORT": {
+            "signals": 25,
+            "blockedByRsi": 25,
+            "blockedByDivergence": 15,
+            "allowed": 25
+          }
+        }
+      }
+    },
+    "combined_short_timeout_atr_half_capped_rsi": {
+      "2022": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 14,
+            "blockedByRsi": 14,
+            "blockedByDivergence": 13,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 10,
+            "blockedByRsi": 10,
+            "blockedByDivergence": 5,
+            "allowed": 0
+          }
+        }
+      },
+      "2023": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 26,
+            "blockedByRsi": 26,
+            "blockedByDivergence": 24,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 8,
+            "blockedByRsi": 8,
+            "blockedByDivergence": 5,
+            "allowed": 0
+          }
+        }
+      },
+      "2024": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 33,
+            "blockedByRsi": 33,
+            "blockedByDivergence": 31,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 18,
+            "blockedByRsi": 18,
+            "blockedByDivergence": 14,
+            "allowed": 0
+          }
+        }
+      },
+      "2025": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 21,
+            "blockedByRsi": 21,
+            "blockedByDivergence": 18,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 25,
+            "blockedByRsi": 25,
+            "blockedByDivergence": 15,
+            "allowed": 0
+          }
+        }
+      }
+    },
+    "combined_short_timeout_atr_half_capped_divergence": {
+      "2022": {
+        "return_pct": 18.258414734009776,
+        "max_drawdown_pct": 8.464745259548778,
+        "ending_equity_usdt": 591.2920736700489,
+        "trades": 6,
+        "long_trades": 1,
+        "short_trades": 5,
+        "long_net_usdt": -1.7135711999998893,
+        "short_net_usdt": 93.00564487004885,
+        "timeout_exits": 1,
+        "entry_checks": {
+          "LONG": {
+            "signals": 14,
+            "blockedByRsi": 14,
+            "blockedByDivergence": 13,
+            "allowed": 1
+          },
+          "SHORT": {
+            "signals": 10,
+            "blockedByRsi": 10,
+            "blockedByDivergence": 5,
+            "allowed": 5
+          }
+        }
+      },
+      "2023": {
+        "return_pct": 38.77297118022207,
+        "max_drawdown_pct": 7.399029326723161,
+        "ending_equity_usdt": 693.8648559011103,
+        "trades": 5,
+        "long_trades": 2,
+        "short_trades": 3,
+        "long_net_usdt": 195.79559698110972,
+        "short_net_usdt": -1.930741079999331,
+        "timeout_exits": 1,
+        "entry_checks": {
+          "LONG": {
+            "signals": 26,
+            "blockedByRsi": 26,
+            "blockedByDivergence": 24,
+            "allowed": 2
+          },
+          "SHORT": {
+            "signals": 8,
+            "blockedByRsi": 8,
+            "blockedByDivergence": 5,
+            "allowed": 3
+          }
+        }
+      },
+      "2024": {
+        "return_pct": 6.04590962348357,
+        "max_drawdown_pct": 9.752457480614474,
+        "ending_equity_usdt": 530.2295481174178,
+        "trades": 6,
+        "long_trades": 2,
+        "short_trades": 4,
+        "long_net_usdt": -7.794548173397118,
+        "short_net_usdt": 38.02409629081489,
+        "timeout_exits": 1,
+        "entry_checks": {
+          "LONG": {
+            "signals": 33,
+            "blockedByRsi": 33,
+            "blockedByDivergence": 31,
+            "allowed": 2
+          },
+          "SHORT": {
+            "signals": 18,
+            "blockedByRsi": 18,
+            "blockedByDivergence": 14,
+            "allowed": 4
+          }
+        }
+      },
+      "2025": {
+        "return_pct": -4.023988821380442,
+        "max_drawdown_pct": 17.43369837727239,
+        "ending_equity_usdt": 479.8800558930978,
+        "trades": 13,
+        "long_trades": 3,
+        "short_trades": 10,
+        "long_net_usdt": -26.064463079999566,
+        "short_net_usdt": 5.944518973097466,
+        "timeout_exits": 2,
+        "entry_checks": {
+          "LONG": {
+            "signals": 21,
+            "blockedByRsi": 21,
+            "blockedByDivergence": 18,
+            "allowed": 3
+          },
+          "SHORT": {
+            "signals": 25,
+            "blockedByRsi": 25,
+            "blockedByDivergence": 15,
+            "allowed": 10
+          }
+        }
+      }
+    },
+    "combined_short_timeout_atr_half_capped_rsi_and_divergence": {
+      "2022": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 14,
+            "blockedByRsi": 14,
+            "blockedByDivergence": 13,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 10,
+            "blockedByRsi": 10,
+            "blockedByDivergence": 5,
+            "allowed": 0
+          }
+        }
+      },
+      "2023": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 26,
+            "blockedByRsi": 26,
+            "blockedByDivergence": 24,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 8,
+            "blockedByRsi": 8,
+            "blockedByDivergence": 5,
+            "allowed": 0
+          }
+        }
+      },
+      "2024": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 33,
+            "blockedByRsi": 33,
+            "blockedByDivergence": 31,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 18,
+            "blockedByRsi": 18,
+            "blockedByDivergence": 14,
+            "allowed": 0
+          }
+        }
+      },
+      "2025": {
+        "return_pct": 0.0,
+        "max_drawdown_pct": 0,
+        "ending_equity_usdt": 500,
+        "trades": 0,
+        "long_trades": 0,
+        "short_trades": 0,
+        "long_net_usdt": 0,
+        "short_net_usdt": 0,
+        "timeout_exits": 0,
+        "entry_checks": {
+          "LONG": {
+            "signals": 21,
+            "blockedByRsi": 21,
+            "blockedByDivergence": 18,
+            "allowed": 0
+          },
+          "SHORT": {
+            "signals": 25,
+            "blockedByRsi": 25,
+            "blockedByDivergence": 15,
+            "allowed": 0
+          }
+        }
+      }
+    }
+  }
+}

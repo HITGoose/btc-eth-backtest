@@ -1,0 +1,1043 @@
+{
+  "rules": {
+    "bar_minutes": 15,
+    "use_closed_candles": true,
+    "moving_average_periods": [
+      20,
+      60,
+      120
+    ],
+    "moving_average_types": [
+      "SMA",
+      "EMA"
+    ],
+    "slope_bars": 3,
+    "squeeze_lookback_bars": 96,
+    "squeeze_threshold_pct": 0.25,
+    "minimum_aligned_slopes": 5,
+    "condition": "V1: close outside the entire band and DIF on the same side of DEA as the signal",
+    "resubmit_when_flat_and_conditions_still_hold": true,
+    "require_current_bar_to_widen": false,
+    "max_entry_bandwidth_multiple": 0,
+    "limit_offset_pct_proxy": 0.2,
+    "order_expiry_minutes": 60,
+    "hard_stop_pct": 2.0,
+    "ladder_trigger_initial_profit_pct": 2,
+    "ladder_first_lock_profit_pct": 1,
+    "ladder_step_pct": 1,
+    "ladder_cap_candidate": 5
+  },
+  "fills": [
+    {
+      "fill": {
+        "asset": "BTC",
+        "signal_time": "2026-11-09T01:30:00+08:00",
+        "signal_inferred": true,
+        "opened": "2026-11-09T02:06:49+08:00",
+        "closed": "2026-11-09T05:56:28+08:00",
+        "entry": 75820.3,
+        "exit": 74293.4,
+        "quantity": 0.002,
+        "prior_sleeve_balance": 50.56,
+        "net_usdt": 2.95,
+        "rung": 2,
+        "archive_tail_utc_day": null
+      },
+      "new_trade_used_for_frozen_rule_check": false,
+      "signal_check": {
+        "eligible_short": true,
+        "was_already_eligible_previous_bar": true,
+        "six_sma_ema_lines_declining": 6,
+        "last_closed_15m_price": 75668.9,
+        "band_low": 75840.18416666711,
+        "macd_dif_less_dea": -42.02619398640288,
+        "previous_macd_dif_less_dea": -34.420423164353195,
+        "recent_minimum_bandwidth_pct": 0.0919855590039965,
+        "recent_minimum_bandwidth_close_local": "2026-11-08T21:00:00+08:00",
+        "signal_bandwidth_pct": 0.13359627711665606,
+        "previous_bandwidth_pct": 0.14955864186269777,
+        "regime": "range",
+        "signed_er_24h": 0.021846019792115496,
+        "signed_er_120h": -0.08409074274200147
+      },
+      "limit_check": {
+        "limit_offset_from_bar_open_bp": 20.008220021701106,
+        "limit_using_next_bar_open": 75820.2,
+        "bar_open": 75668.9,
+        "candidate_reference_price": 75669.0,
+        "candidate_reference_local": "2026-11-09T01:30:03.098+08:00",
+        "limit_from_nearest_candidate_in_first_15_seconds": 75820.3,
+        "observed_limit_first_touch_local": "2026-11-09T02:06:49.858+08:00",
+        "observed_limit_touch_vs_fill_seconds": 0.858,
+        "proxy_limit_first_touch_local": "2026-11-09T02:06:49.858+08:00",
+        "proxy_limit_touch_vs_fill_seconds": 0.858,
+        "order_to_observed_fill_seconds": 2209.0,
+        "quantity_at_3x": 0.002,
+        "quantity_at_5x": 0.0033
+      },
+      "initial_stop": 77336.7,
+      "recorded_rung_stop": 74303.9,
+      "observed_hold_minutes": 229.65,
+      "observed_price_profit_pct": 2.0138406205198467,
+      "raw_tick_replay": {
+        "first_armed_local": "2026-11-09T05:55:18.536+08:00",
+        "trigger_local": "2026-11-09T05:56:24.297+08:00",
+        "rung": 2,
+        "stop": 74303.9,
+        "sampled_quote": 74304.0,
+        "seconds_vs_recorded_close": -3.702
+      },
+      "three_second_replay": {
+        "first_armed_local": "2026-11-09T05:55:21.000+08:00",
+        "trigger_local": "2026-11-09T05:56:27.000+08:00",
+        "rung": 2,
+        "stop": 74303.9,
+        "sampled_quote": 74321.7,
+        "seconds_vs_recorded_close": -1.0
+      },
+      "three_second_uncapped_replay": {
+        "first_armed_local": "2026-11-09T05:55:21.000+08:00",
+        "trigger_local": "2026-11-09T05:56:27.000+08:00",
+        "rung": 2,
+        "stop": 74303.9,
+        "sampled_quote": 74321.7,
+        "seconds_vs_recorded_close": -1.0
+      },
+      "bar_open_proxy_entry_three_second_exit": {
+        "first_armed_local": "2026-11-09T05:55:21.000+08:00",
+        "trigger_local": "2026-11-09T05:56:27.000+08:00",
+        "rung": 2,
+        "stop": 74303.8,
+        "sampled_quote": 74321.7,
+        "seconds_vs_recorded_close": -1.0
+      },
+      "official_candle_checks": {
+        "trade": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:56:00+08:00",
+            "rung": 2,
+            "stop": 74303.9
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 2,
+            "stop": 74303.9
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:56:00+08:00",
+            "rung": 2,
+            "stop": 74303.9
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 2,
+            "stop": 74303.9
+          }
+        },
+        "mark": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:56:00+08:00",
+            "rung": 2,
+            "stop": 74303.9
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 2,
+            "stop": 74303.9
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:56:00+08:00",
+            "rung": 2,
+            "stop": 74303.9
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 2,
+            "stop": 74303.9
+          }
+        },
+        "index": {
+          "fixed_adverse_first": null,
+          "fixed_favorable_first": null,
+          "uncapped_adverse_first": null,
+          "uncapped_favorable_first": null
+        }
+      },
+      "observed_hold_quote_extremes_including_boundary_minutes": {
+        "trade": {
+          "high": 75940.0,
+          "high_minute_local": "2026-11-09T02:33:00+08:00",
+          "low": 73400.0,
+          "low_minute_local": "2026-11-09T05:55:00+08:00"
+        },
+        "mark": {
+          "high": 75941.31,
+          "high_minute_local": "2026-11-09T02:34:00+08:00",
+          "low": 73512.12,
+          "low_minute_local": "2026-11-09T05:55:00+08:00"
+        },
+        "index": {
+          "high": 75969.28,
+          "high_minute_local": "2026-11-09T02:34:00+08:00",
+          "low": 73558.63,
+          "low_minute_local": "2026-11-09T05:55:00+08:00"
+        }
+      },
+      "sources": {
+        "trade": [
+          "https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=1&start=1794158940000&end=1794175079999&limit=1000"
+        ],
+        "mark": [
+          "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=BTCUSDT&interval=1&start=1794158940000&end=1794175079999&limit=1000"
+        ],
+        "index": [
+          "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=BTCUSDT&interval=1&start=1794158940000&end=1794175079999&limit=1000"
+        ]
+      },
+      "extended_archive_validation": null
+    },
+    {
+      "fill": {
+        "asset": "ETH",
+        "signal_time": "2026-11-09T01:30:00+08:00",
+        "signal_inferred": false,
+        "opened": "2026-11-09T01:43:07+08:00",
+        "closed": "2026-11-09T05:56:02+08:00",
+        "entry": 2229.45,
+        "exit": 2121.89,
+        "quantity": 0.06,
+        "prior_sleeve_balance": 50.55,
+        "net_usdt": 6.36,
+        "rung": 5,
+        "archive_tail_utc_day": null
+      },
+      "new_trade_used_for_frozen_rule_check": false,
+      "signal_check": {
+        "eligible_short": true,
+        "was_already_eligible_previous_bar": true,
+        "six_sma_ema_lines_declining": 6,
+        "last_closed_15m_price": 2225.52,
+        "band_low": 2235.5297216445947,
+        "macd_dif_less_dea": -1.6933007889221463,
+        "previous_macd_dif_less_dea": -1.4036925864604362,
+        "recent_minimum_bandwidth_pct": 0.06989371388107857,
+        "recent_minimum_bandwidth_close_local": "2026-11-09T01:15:00+08:00",
+        "signal_bandwidth_pct": 0.10321862291830038,
+        "previous_bandwidth_pct": 0.06989371388107857,
+        "regime": "range",
+        "signed_er_24h": -0.03898506673715194,
+        "signed_er_120h": -0.0729126087521101
+      },
+      "limit_check": {
+        "limit_offset_from_bar_open_bp": 17.658794349184603,
+        "limit_using_next_bar_open": 2229.97,
+        "bar_open": 2225.52,
+        "candidate_reference_price": 2225.52,
+        "candidate_reference_local": "2026-11-09T01:30:00.995+08:00",
+        "limit_from_nearest_candidate_in_first_15_seconds": 2229.97,
+        "observed_limit_first_touch_local": "2026-11-09T01:43:14.578+08:00",
+        "observed_limit_touch_vs_fill_seconds": 7.578,
+        "proxy_limit_first_touch_local": "2026-11-09T01:52:21.104+08:00",
+        "proxy_limit_touch_vs_fill_seconds": 554.105,
+        "order_to_observed_fill_seconds": 787.0,
+        "quantity_at_3x": 0.06,
+        "quantity_at_5x": 0.11
+      },
+      "initial_stop": 2274.04,
+      "recorded_rung_stop": 2117.98,
+      "observed_hold_minutes": 252.91666666666666,
+      "observed_price_profit_pct": 4.824508286797191,
+      "raw_tick_replay": {
+        "first_armed_local": "2026-11-09T05:52:38.185+08:00",
+        "trigger_local": "2026-11-09T05:55:57.715+08:00",
+        "rung": 5,
+        "stop": 2117.98,
+        "sampled_quote": 2118.0,
+        "seconds_vs_recorded_close": -4.284
+      },
+      "three_second_replay": {
+        "first_armed_local": "2026-11-09T05:52:39.000+08:00",
+        "trigger_local": "2026-11-09T05:56:03.000+08:00",
+        "rung": 5,
+        "stop": 2117.98,
+        "sampled_quote": 2119.74,
+        "seconds_vs_recorded_close": 1.0
+      },
+      "three_second_uncapped_replay": {
+        "first_armed_local": "2026-11-09T05:52:39.000+08:00",
+        "trigger_local": "2026-11-09T05:55:57.000+08:00",
+        "rung": 6,
+        "stop": 2095.68,
+        "sampled_quote": 2099.7,
+        "seconds_vs_recorded_close": -5.0
+      },
+      "bar_open_proxy_entry_three_second_exit": {
+        "first_armed_local": "2026-11-09T05:52:39.000+08:00",
+        "trigger_local": "2026-11-09T05:56:03.000+08:00",
+        "rung": 5,
+        "stop": 2118.47,
+        "sampled_quote": 2119.74,
+        "seconds_vs_recorded_close": 1.0
+      },
+      "official_candle_checks": {
+        "trade": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:56:00+08:00",
+            "rung": 5,
+            "stop": 2117.98
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 5,
+            "stop": 2117.98
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 6,
+            "stop": 2095.68
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 6,
+            "stop": 2095.68
+          }
+        },
+        "mark": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 5,
+            "stop": 2117.98
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 5,
+            "stop": 2117.98
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 6,
+            "stop": 2095.68
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 6,
+            "stop": 2095.68
+          }
+        },
+        "index": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:56:00+08:00",
+            "rung": 5,
+            "stop": 2117.98
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 5,
+            "stop": 2117.98
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-09T05:56:00+08:00",
+            "rung": 5,
+            "stop": 2117.98
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-09T05:55:00+08:00",
+            "rung": 5,
+            "stop": 2117.98
+          }
+        }
+      },
+      "observed_hold_quote_extremes_including_boundary_minutes": {
+        "trade": {
+          "high": 2236.62,
+          "high_minute_local": "2026-11-09T02:20:00+08:00",
+          "low": 2057.71,
+          "low_minute_local": "2026-11-09T05:55:00+08:00"
+        },
+        "mark": {
+          "high": 2236.62,
+          "high_minute_local": "2026-11-09T02:20:00+08:00",
+          "low": 2070.73,
+          "low_minute_local": "2026-11-09T05:55:00+08:00"
+        },
+        "index": {
+          "high": 2237.42,
+          "high_minute_local": "2026-11-09T02:20:00+08:00",
+          "low": 2074.82,
+          "low_minute_local": "2026-11-09T05:55:00+08:00"
+        }
+      },
+      "sources": {
+        "trade": [
+          "https://api.bybit.com/v5/market/kline?category=linear&symbol=ETHUSDT&interval=1&start=1794158940000&end=1794175079999&limit=1000"
+        ],
+        "mark": [
+          "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=ETHUSDT&interval=1&start=1794158940000&end=1794175079999&limit=1000"
+        ],
+        "index": [
+          "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=ETHUSDT&interval=1&start=1794158940000&end=1794175079999&limit=1000"
+        ]
+      },
+      "extended_archive_validation": null
+    },
+    {
+      "fill": {
+        "asset": "ETH",
+        "signal_time": "2026-11-09T06:00:00+08:00",
+        "signal_inferred": false,
+        "opened": "2026-11-09T06:00:21+08:00",
+        "closed": "2026-11-09T16:24:42+08:00",
+        "entry": 2131.13,
+        "exit": 2110.0,
+        "quantity": 0.08,
+        "prior_sleeve_balance": 56.92,
+        "net_usdt": 1.56,
+        "rung": 1,
+        "archive_tail_utc_day": null
+      },
+      "new_trade_used_for_frozen_rule_check": false,
+      "signal_check": {
+        "eligible_short": true,
+        "was_already_eligible_previous_bar": true,
+        "six_sma_ema_lines_declining": 6,
+        "last_closed_15m_price": 2126.5,
+        "band_low": 2219.599586073333,
+        "macd_dif_less_dea": -6.971630261895401,
+        "previous_macd_dif_less_dea": -0.9003844016449802,
+        "recent_minimum_bandwidth_pct": 0.06989371388107857,
+        "recent_minimum_bandwidth_close_local": "2026-11-09T01:15:00+08:00",
+        "signal_bandwidth_pct": 0.674774809039636,
+        "previous_bandwidth_pct": 0.29351789408464674,
+        "regime": "down",
+        "signed_er_24h": -0.596881579696124,
+        "signed_er_120h": -0.16345607399713868
+      },
+      "limit_check": {
+        "limit_offset_from_bar_open_bp": 21.772866212086406,
+        "limit_using_next_bar_open": 2130.75,
+        "bar_open": 2126.5,
+        "candidate_reference_price": 2126.88,
+        "candidate_reference_local": "2026-11-09T06:00:00.560+08:00",
+        "limit_from_nearest_candidate_in_first_15_seconds": 2131.13,
+        "observed_limit_first_touch_local": "2026-11-09T06:00:22.120+08:00",
+        "observed_limit_touch_vs_fill_seconds": 1.12,
+        "proxy_limit_first_touch_local": "2026-11-09T06:00:20.146+08:00",
+        "proxy_limit_touch_vs_fill_seconds": -0.853,
+        "order_to_observed_fill_seconds": 21.0,
+        "quantity_at_3x": 0.08,
+        "quantity_at_5x": 0.13
+      },
+      "initial_stop": 2173.75,
+      "recorded_rung_stop": 2109.82,
+      "observed_hold_minutes": 624.35,
+      "observed_price_profit_pct": 0.9914927761328518,
+      "raw_tick_replay": {
+        "first_armed_local": "2026-11-09T15:12:35.259+08:00",
+        "trigger_local": "2026-11-09T16:24:42.888+08:00",
+        "rung": 1,
+        "stop": 2109.82,
+        "sampled_quote": 2109.82,
+        "seconds_vs_recorded_close": 0.888
+      },
+      "three_second_replay": {
+        "first_armed_local": "2026-11-09T15:12:36.000+08:00",
+        "trigger_local": "2026-11-09T16:24:48.000+08:00",
+        "rung": 1,
+        "stop": 2109.82,
+        "sampled_quote": 2109.89,
+        "seconds_vs_recorded_close": 6.0
+      },
+      "three_second_uncapped_replay": {
+        "first_armed_local": "2026-11-09T15:12:36.000+08:00",
+        "trigger_local": "2026-11-09T16:24:48.000+08:00",
+        "rung": 1,
+        "stop": 2109.82,
+        "sampled_quote": 2109.89,
+        "seconds_vs_recorded_close": 6.0
+      },
+      "bar_open_proxy_entry_three_second_exit": {
+        "first_armed_local": "2026-11-09T15:12:36.000+08:00",
+        "trigger_local": "2026-11-09T16:24:39.000+08:00",
+        "rung": 1,
+        "stop": 2109.44,
+        "sampled_quote": 2109.56,
+        "seconds_vs_recorded_close": -3.0
+      },
+      "official_candle_checks": {
+        "trade": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          }
+        },
+        "mark": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          }
+        },
+        "index": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-09T16:24:00+08:00",
+            "rung": 1,
+            "stop": 2109.82
+          }
+        }
+      },
+      "observed_hold_quote_extremes_including_boundary_minutes": {
+        "trade": {
+          "high": 2166.94,
+          "high_minute_local": "2026-11-09T07:15:00+08:00",
+          "low": 2081.75,
+          "low_minute_local": "2026-11-09T15:13:00+08:00"
+        },
+        "mark": {
+          "high": 2166.23,
+          "high_minute_local": "2026-11-09T07:15:00+08:00",
+          "low": 2082.3,
+          "low_minute_local": "2026-11-09T15:29:00+08:00"
+        },
+        "index": {
+          "high": 2167.99,
+          "high_minute_local": "2026-11-09T07:15:00+08:00",
+          "low": 2083.18,
+          "low_minute_local": "2026-11-09T15:13:00+08:00"
+        }
+      },
+      "sources": {
+        "trade": [
+          "https://api.bybit.com/v5/market/kline?category=linear&symbol=ETHUSDT&interval=1&start=1794175140000&end=1794212759999&limit=1000"
+        ],
+        "mark": [
+          "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=ETHUSDT&interval=1&start=1794175140000&end=1794212759999&limit=1000"
+        ],
+        "index": [
+          "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=ETHUSDT&interval=1&start=1794175140000&end=1794212759999&limit=1000"
+        ]
+      },
+      "extended_archive_validation": null
+    },
+    {
+      "fill": {
+        "asset": "ETH",
+        "signal_time": "2026-11-09T16:30:00+08:00",
+        "signal_inferred": false,
+        "opened": "2026-11-09T16:43:18+08:00",
+        "closed": "2026-11-10T21:36:18+08:00",
+        "entry": 2112.07,
+        "exit": 2069.95,
+        "quantity": 0.08,
+        "prior_sleeve_balance": 58.49,
+        "net_usdt": 3.27,
+        "rung": 2,
+        "archive_tail_utc_day": "2026-11-10"
+      },
+      "new_trade_used_for_frozen_rule_check": false,
+      "signal_check": {
+        "eligible_short": true,
+        "was_already_eligible_previous_bar": true,
+        "six_sma_ema_lines_declining": 6,
+        "last_closed_15m_price": 2107.76,
+        "band_low": 2115.418932003518,
+        "macd_dif_less_dea": -0.898991962555522,
+        "previous_macd_dif_less_dea": -2.4407749621202157,
+        "recent_minimum_bandwidth_pct": 0.06989371388107857,
+        "recent_minimum_bandwidth_close_local": "2026-11-09T01:15:00+08:00",
+        "signal_bandwidth_pct": 3.879520659998103,
+        "previous_bandwidth_pct": 3.915453788319819,
+        "regime": "down",
+        "signed_er_24h": -0.6617858426158811,
+        "signed_er_120h": -0.2123605289269581
+      },
+      "limit_check": {
+        "limit_offset_from_bar_open_bp": 20.44824837742487,
+        "limit_using_next_bar_open": 2111.97,
+        "bar_open": 2107.76,
+        "candidate_reference_price": 2107.86,
+        "candidate_reference_local": "2026-11-09T16:30:00.181+08:00",
+        "limit_from_nearest_candidate_in_first_15_seconds": 2112.07,
+        "observed_limit_first_touch_local": "2026-11-09T16:43:14.835+08:00",
+        "observed_limit_touch_vs_fill_seconds": -3.165,
+        "proxy_limit_first_touch_local": "2026-11-09T16:39:17.964+08:00",
+        "proxy_limit_touch_vs_fill_seconds": -240.035,
+        "order_to_observed_fill_seconds": 798.0,
+        "quantity_at_3x": 0.08,
+        "quantity_at_5x": 0.13
+      },
+      "initial_stop": 2154.31,
+      "recorded_rung_stop": 2069.83,
+      "observed_hold_minutes": 1733.0,
+      "observed_price_profit_pct": 1.9942520844479783,
+      "raw_tick_replay": {
+        "first_armed_local": "2026-11-10T21:30:06.339+08:00",
+        "trigger_local": "2026-11-10T21:30:31.656+08:00",
+        "rung": 3,
+        "stop": 2048.71,
+        "sampled_quote": 2048.71,
+        "seconds_vs_recorded_close": -346.344
+      },
+      "three_second_replay": {
+        "first_armed_local": "2026-11-10T21:30:24.000+08:00",
+        "trigger_local": "2026-11-10T21:36:27.000+08:00",
+        "rung": 2,
+        "stop": 2069.83,
+        "sampled_quote": 2070.34,
+        "seconds_vs_recorded_close": 9.0
+      },
+      "three_second_uncapped_replay": {
+        "first_armed_local": "2026-11-10T21:30:24.000+08:00",
+        "trigger_local": "2026-11-10T21:36:27.000+08:00",
+        "rung": 2,
+        "stop": 2069.83,
+        "sampled_quote": 2070.34,
+        "seconds_vs_recorded_close": 9.0
+      },
+      "bar_open_proxy_entry_three_second_exit": {
+        "first_armed_local": "2026-11-10T21:30:24.000+08:00",
+        "trigger_local": "2026-11-10T21:36:18.000+08:00",
+        "rung": 2,
+        "stop": 2069.73,
+        "sampled_quote": 2069.76,
+        "seconds_vs_recorded_close": 0.0
+      },
+      "official_candle_checks": {
+        "trade": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-10T21:30:00+08:00",
+            "rung": 3,
+            "stop": 2048.71
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-10T21:30:00+08:00",
+            "rung": 3,
+            "stop": 2048.71
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-10T21:30:00+08:00",
+            "rung": 3,
+            "stop": 2048.71
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-10T21:30:00+08:00",
+            "rung": 3,
+            "stop": 2048.71
+          }
+        },
+        "mark": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-10T21:36:00+08:00",
+            "rung": 2,
+            "stop": 2069.83
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-10T21:30:00+08:00",
+            "rung": 2,
+            "stop": 2069.83
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-10T21:36:00+08:00",
+            "rung": 2,
+            "stop": 2069.83
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-10T21:30:00+08:00",
+            "rung": 2,
+            "stop": 2069.83
+          }
+        },
+        "index": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-10T21:36:00+08:00",
+            "rung": 2,
+            "stop": 2069.83
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-10T21:30:00+08:00",
+            "rung": 2,
+            "stop": 2069.83
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-10T21:36:00+08:00",
+            "rung": 2,
+            "stop": 2069.83
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-10T21:30:00+08:00",
+            "rung": 2,
+            "stop": 2069.83
+          }
+        }
+      },
+      "observed_hold_quote_extremes_including_boundary_minutes": {
+        "trade": {
+          "high": 2151.3,
+          "high_minute_local": "2026-11-09T23:47:00+08:00",
+          "low": 2025.51,
+          "low_minute_local": "2026-11-10T21:30:00+08:00"
+        },
+        "mark": {
+          "high": 2151.06,
+          "high_minute_local": "2026-11-09T23:47:00+08:00",
+          "low": 2037.46,
+          "low_minute_local": "2026-11-10T21:30:00+08:00"
+        },
+        "index": {
+          "high": 2151.67,
+          "high_minute_local": "2026-11-09T23:47:00+08:00",
+          "low": 2036.44,
+          "low_minute_local": "2026-11-10T21:30:00+08:00"
+        }
+      },
+      "sources": {
+        "trade": [
+          "https://api.bybit.com/v5/market/kline?category=linear&symbol=ETHUSDT&interval=1&start=1794212940000&end=1794213779999&limit=1000",
+          "work/eth_2112_extended_exit_quotes.json::trade"
+        ],
+        "mark": [
+          "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=ETHUSDT&interval=1&start=1794212940000&end=1794213779999&limit=1000",
+          "work/eth_2112_extended_exit_quotes.json::mark-price-"
+        ],
+        "index": [
+          "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=ETHUSDT&interval=1&start=1794212940000&end=1794213779999&limit=1000",
+          "work/eth_2112_extended_exit_quotes.json::index-price-"
+        ]
+      },
+      "extended_archive_validation": {
+        "verified_minutes": 13,
+        "official_open_carrying_previous_print_minutes": 9,
+        "prior_max_price": 2151.3,
+        "prior_min_price": 2083.09,
+        "four_percent_threshold_crossing": {
+          "four_percent_threshold": 2027.5872000000002,
+          "prints_at_or_below_threshold": 274,
+          "first_below_local": "2026-11-10T21:30:28.104+08:00",
+          "last_below_local": "2026-11-10T21:30:28.119+08:00",
+          "first_to_last_below_ms": 14.7
+        }
+      }
+    },
+    {
+      "fill": {
+        "asset": "BTC",
+        "signal_time": "2026-11-09T06:00:00+08:00",
+        "signal_inferred": false,
+        "opened": "2026-11-09T06:00:24+08:00",
+        "closed": "2026-11-11T02:33:07+08:00",
+        "entry": 74217.1,
+        "exit": 73479.0,
+        "quantity": 0.0021,
+        "prior_sleeve_balance": 53.51,
+        "net_usdt": 1.51,
+        "rung": null,
+        "archive_tail_utc_day": "2026-11-10"
+      },
+      "new_trade_used_for_frozen_rule_check": true,
+      "signal_check": {
+        "eligible_short": true,
+        "was_already_eligible_previous_bar": true,
+        "six_sma_ema_lines_declining": 6,
+        "last_closed_15m_price": 74096.5,
+        "band_low": 75637.26400081631,
+        "macd_dif_less_dea": -122.8831190068828,
+        "previous_macd_dif_less_dea": -25.195536323615684,
+        "recent_minimum_bandwidth_pct": 0.07812526221623695,
+        "recent_minimum_bandwidth_close_local": "2026-11-09T03:45:00+08:00",
+        "signal_bandwidth_pct": 0.29513899556794304,
+        "previous_bandwidth_pct": 0.12629073003433708,
+        "regime": "down",
+        "signed_er_24h": -0.48728089887640746,
+        "signed_er_120h": -0.15245036157503872
+      },
+      "limit_check": {
+        "limit_offset_from_bar_open_bp": 16.276072419076915,
+        "limit_using_next_bar_open": 74244.6,
+        "bar_open": 74096.5,
+        "candidate_reference_price": 74069.0,
+        "candidate_reference_local": "2026-11-09T06:00:09.450+08:00",
+        "limit_from_nearest_candidate_in_first_15_seconds": 74217.1,
+        "observed_limit_first_touch_local": "2026-11-09T06:00:21.805+08:00",
+        "observed_limit_touch_vs_fill_seconds": -2.195,
+        "proxy_limit_first_touch_local": "2026-11-09T06:00:23.638+08:00",
+        "proxy_limit_touch_vs_fill_seconds": -0.361,
+        "order_to_observed_fill_seconds": 24.0,
+        "quantity_at_3x": 0.0021000000000000003,
+        "quantity_at_5x": 0.0036000000000000003
+      },
+      "initial_stop": 75701.4,
+      "recorded_rung_stop": null,
+      "observed_hold_minutes": 2672.7166666666667,
+      "observed_price_profit_pct": 0.9945147412119382,
+      "raw_tick_replay": {
+        "first_armed_local": "2026-11-11T00:37:18.850+08:00",
+        "trigger_local": "2026-11-11T02:33:07.423+08:00",
+        "rung": 1,
+        "stop": 73474.9,
+        "sampled_quote": 73475.0,
+        "seconds_vs_recorded_close": 0.423
+      },
+      "three_second_replay": {
+        "first_armed_local": "2026-11-11T00:37:24.000+08:00",
+        "trigger_local": "2026-11-11T02:33:09.000+08:00",
+        "rung": 1,
+        "stop": 73474.9,
+        "sampled_quote": 73492.0,
+        "seconds_vs_recorded_close": 2.0
+      },
+      "three_second_uncapped_replay": {
+        "first_armed_local": "2026-11-11T00:37:24.000+08:00",
+        "trigger_local": "2026-11-11T02:33:09.000+08:00",
+        "rung": 1,
+        "stop": 73474.9,
+        "sampled_quote": 73492.0,
+        "seconds_vs_recorded_close": 2.0
+      },
+      "bar_open_proxy_entry_three_second_exit": {
+        "first_armed_local": "2026-11-11T00:37:21.000+08:00",
+        "trigger_local": "2026-11-11T02:33:21.000+08:00",
+        "rung": 1,
+        "stop": 73502.2,
+        "sampled_quote": 73511.5,
+        "seconds_vs_recorded_close": 14.0
+      },
+      "official_candle_checks": {
+        "trade": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-11T02:33:00+08:00",
+            "rung": 1,
+            "stop": 73474.9
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-11T02:33:00+08:00",
+            "rung": 1,
+            "stop": 73474.9
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-11T02:33:00+08:00",
+            "rung": 1,
+            "stop": 73474.9
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-11T02:33:00+08:00",
+            "rung": 1,
+            "stop": 73474.9
+          }
+        },
+        "mark": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-11T02:33:00+08:00",
+            "rung": 1,
+            "stop": 73474.9
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-11T02:33:00+08:00",
+            "rung": 1,
+            "stop": 73474.9
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-11T02:33:00+08:00",
+            "rung": 1,
+            "stop": 73474.9
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-11T02:33:00+08:00",
+            "rung": 1,
+            "stop": 73474.9
+          }
+        },
+        "index": {
+          "fixed_adverse_first": {
+            "trigger_minute_local": "2026-11-09T07:15:00+08:00",
+            "rung": 0,
+            "stop": 75701.4
+          },
+          "fixed_favorable_first": {
+            "trigger_minute_local": "2026-11-09T07:15:00+08:00",
+            "rung": 0,
+            "stop": 75701.4
+          },
+          "uncapped_adverse_first": {
+            "trigger_minute_local": "2026-11-09T07:15:00+08:00",
+            "rung": 0,
+            "stop": 75701.4
+          },
+          "uncapped_favorable_first": {
+            "trigger_minute_local": "2026-11-09T07:15:00+08:00",
+            "rung": 0,
+            "stop": 75701.4
+          }
+        }
+      },
+      "observed_hold_quote_extremes_including_boundary_minutes": {
+        "trade": {
+          "high": 75700.0,
+          "high_minute_local": "2026-11-09T07:15:00+08:00",
+          "low": 72686.6,
+          "low_minute_local": "2026-11-11T00:37:00+08:00"
+        },
+        "mark": {
+          "high": 75678.09,
+          "high_minute_local": "2026-11-09T07:15:00+08:00",
+          "low": 72715.61,
+          "low_minute_local": "2026-11-11T00:37:00+08:00"
+        },
+        "index": {
+          "high": 75721.18,
+          "high_minute_local": "2026-11-09T07:15:00+08:00",
+          "low": 72733.3,
+          "low_minute_local": "2026-11-11T00:37:00+08:00"
+        }
+      },
+      "sources": {
+        "trade": [
+          "https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=1&start=1794175140000&end=1794235139999&limit=1000",
+          "https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=1&start=1794235140000&end=1794295139999&limit=1000",
+          "https://api.bybit.com/v5/market/kline?category=linear&symbol=BTCUSDT&interval=1&start=1794295140000&end=1794335759999&limit=1000"
+        ],
+        "mark": [
+          "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=BTCUSDT&interval=1&start=1794175140000&end=1794235139999&limit=1000",
+          "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=BTCUSDT&interval=1&start=1794235140000&end=1794295139999&limit=1000",
+          "https://api.bybit.com/v5/market/mark-price-kline?category=linear&symbol=BTCUSDT&interval=1&start=1794295140000&end=1794335759999&limit=1000"
+        ],
+        "index": [
+          "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=BTCUSDT&interval=1&start=1794175140000&end=1794235139999&limit=1000",
+          "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=BTCUSDT&interval=1&start=1794235140000&end=1794295139999&limit=1000",
+          "https://api.bybit.com/v5/market/index-price-kline?category=linear&symbol=BTCUSDT&interval=1&start=1794295140000&end=1794335759999&limit=1000"
+        ]
+      },
+      "extended_archive_validation": {
+        "verified_minutes": 124,
+        "official_open_carrying_previous_print_minutes": 71,
+        "prior_max_price": 75700.0,
+        "prior_min_price": 72816.9,
+        "four_percent_threshold_crossing": null
+      }
+    }
+  ],
+  "same_minute_and_rung_poll_phases_by_period_seconds": {
+    "1": [],
+    "2": [],
+    "3": [
+      0
+    ],
+    "4": [
+      0
+    ],
+    "5": [],
+    "6": [
+      0
+    ],
+    "10": [],
+    "15": [],
+    "20": [
+      8
+    ],
+    "30": [],
+    "60": []
+  },
+  "new_trade_replay_for_periods_compatible_with_first_four": [
+    {
+      "period_seconds": 3,
+      "phase_seconds": 0,
+      "result": {
+        "first_armed_local": "2026-11-11T00:37:24.000+08:00",
+        "trigger_local": "2026-11-11T02:33:09.000+08:00",
+        "rung": 1,
+        "stop": 73474.9,
+        "sampled_quote": 73492.0,
+        "seconds_vs_recorded_close": 2.0
+      }
+    },
+    {
+      "period_seconds": 4,
+      "phase_seconds": 0,
+      "result": {
+        "first_armed_local": "2026-11-11T00:37:24.000+08:00",
+        "trigger_local": "2026-11-11T02:33:08.000+08:00",
+        "rung": 1,
+        "stop": 73474.9,
+        "sampled_quote": 73489.4,
+        "seconds_vs_recorded_close": 1.0
+      }
+    },
+    {
+      "period_seconds": 6,
+      "phase_seconds": 0,
+      "result": {
+        "first_armed_local": "2026-11-11T00:37:24.000+08:00",
+        "trigger_local": "2026-11-11T02:33:12.000+08:00",
+        "rung": 1,
+        "stop": 73474.9,
+        "sampled_quote": 73494.2,
+        "seconds_vs_recorded_close": 5.0
+      }
+    },
+    {
+      "period_seconds": 20,
+      "phase_seconds": 8,
+      "result": {
+        "first_armed_local": "2026-11-11T00:37:28.000+08:00",
+        "trigger_local": "2026-11-11T02:33:08.000+08:00",
+        "rung": 1,
+        "stop": 73474.9,
+        "sampled_quote": 73489.4,
+        "seconds_vs_recorded_close": 1.0
+      }
+    }
+  ],
+  "archived_trade_sources": [
+    "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2026-11-08.csv.gz",
+    "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2026-11-09.csv.gz",
+    "https://public.bybit.com/trading/BTCUSDT/BTCUSDT2026-11-10.csv.gz",
+    "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2026-11-08.csv.gz",
+    "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2026-11-09.csv.gz",
+    "https://public.bybit.com/trading/ETHUSDT/ETHUSDT2026-11-10.csv.gz"
+  ],
+  "scope": "Four full-sized short fills used to compare rules and one later BTC closure for frozen-rule validation. The early BTC signal time is inferred. The later BTC screenshot shows fill prices but no ladder label. Exit reproduction starts from the observed filled entry; the bar-open order proxy is evaluated separately. Sampling starts on a wall-clock grid. A sampled quote is a trigger proxy, not the actual market execution. The archive provides prints, not the bot's quote subscription or exchange configuration."
+}
