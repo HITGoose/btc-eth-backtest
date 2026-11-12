@@ -17,6 +17,7 @@ node_modules/
 *.tmp
 *.part
 /work/*.json
+!/work/btc_eth_extended_asof.json
 !/work/gate_12h_fit_difference_checks.json
 !/work/gate_12h_2023_timing_trace.json
 !/work/gate_12h_2023_archived_exit_checks.json
