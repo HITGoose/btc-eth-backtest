@@ -1,0 +1,23 @@
+{
+  "locked_commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+  "branch": "codex/eth-core-priority-btc-confirm-20261114",
+  "groups": {
+    "B": "0.25 V2",
+    "D": "0.30 V2",
+    "G": "0.30 V2 EXTRA BTC confirmation",
+    "H": "0.30 V2 CORE priority",
+    "I": "0.30 V2 both"
+  },
+  "fees": {
+    "ZERO": 0,
+    "ASSUMED_005_SIDE": 0.0005
+  },
+  "funding": "NOT_INCLUDED",
+  "code_SHA256": {
+    "strategy.py": "eaf3beeaad9f4116b60526dde4d73f2bc8f806b64de15ede8ac8625ff09c7d58",
+    "priority_engine.py": "0b61cefcda814b97b47251ce86406ca98514557f6361e087f4ba33fa3179e369",
+    "worker.py": "d5e8207b2e44fb72254e5c669f19eab567fa991f802be3b5d317458565d63e70"
+  },
+  "combined_worker_fingerprint": "fda92bd02091def33bcb6eefa9466e0f22e1447397bbb5975ca6159bace396bc",
+  "no_parameter_search": true
+}
