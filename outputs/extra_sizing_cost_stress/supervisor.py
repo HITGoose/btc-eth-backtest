@@ -1,5 +1,6 @@
 """Fixed per-period baseline gate and complete cost schedule, independent of PnL."""
 from pathlib import Path
+from task_guard import memory_guard
 import subprocess,sys,json,concurrent.futures,time,threading
 O=Path(__file__).resolve().parent
 PERIODS=['NOV','2024','2020','2021','2022','2023','2026','2025'];LOCK=threading.Lock();ROWS=[]
@@ -7,7 +8,7 @@ def task(period,asset,stage):
  log=O/f'{period}_{asset}_{stage}.log'
  with log.open('a')as f:
   f.write('\n# RUN '+str(time.time())+'\n');f.flush();runner='sizing_only_replay.py'if period in ('2024','2025','2026')and asset=='ETH'and stage=='experiment'else'replay.py'
-  p=subprocess.run([sys.executable,'-u',str(O/runner),period,asset,stage],stdout=f,stderr=subprocess.STDOUT)
+  with memory_guard(period,asset):p=subprocess.run([sys.executable,'-u',str(O/runner),period,asset,stage],stdout=f,stderr=subprocess.STDOUT)
  row=dict(period=period,asset=asset,stage=stage,returncode=p.returncode,log=str(log.relative_to(O)))
  with LOCK:
   ROWS.append(row);tmp=O/'execution_status.tmp';tmp.write_text(json.dumps(ROWS,indent=2));tmp.replace(O/'execution_status.json');print(json.dumps(row),flush=True)

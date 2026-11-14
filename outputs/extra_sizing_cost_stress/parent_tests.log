@@ -1,0 +1,6 @@
+PARENT_TEST validation32/tests.py 0
+PARENT_TEST tests.py 0
+PARENT_TEST analysis_tests.py 0
+PARENT_TEST shadow_tests.py 0
+PARENT_TEST boundary_tests.py 0
+PARENT_TEST checkpoint_tests.py 0

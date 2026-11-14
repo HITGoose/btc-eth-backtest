@@ -1,0 +1,11 @@
+{
+  "commit": "602476b77c1b137c79fe492cc4a422c916a7ede7",
+  "tree": "cfa19ec10335c9522ac8882c37162f2324a68fae",
+  "branch": "codex/extra-sizing-cost-stress-20261114",
+  "status": "RUNNING_NOT_FINAL_DELIVERY",
+  "main_untouched": true,
+  "checkpoint_is_historical": true,
+  "final_execution_status": "ALL_EXECUTABLE_CONFIGURATIONS_COMPLETED_WITH_DECLARED_DATA_GAPS",
+  "final_validation": "final_validation.json",
+  "final_commit": "use commit containing the final root review; this historical checkpoint predates final delivery"
+}

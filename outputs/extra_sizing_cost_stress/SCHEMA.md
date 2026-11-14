@@ -13,3 +13,5 @@ trade_attribution：按asset、方向、signal_close_ms匹配，RETAINED/ADDED/D
 availability：缺数据/费用记录/全年完成状态记UNVERIFIED；不能从进度或旧收益补值。C3_NO_FUNDING/C4_NO_FUNDING不等于C3/C4。资金费缺失的F_THROUGH明确使用C1退路。触价和越价均为模拟全量代理。
 
 F_THROUGH最终仅使用through_exact_clock结果；早期原型额外激活等待结果保留为诊断，不纳入主矩阵。matching的comparison_base区分B、I100及同版本F_TOUCH，不能混加不同比较基准。资金费模型计价与现金保持原float64账本，不宣称已核对用户真实账户逐分精度。
+
+analysis.json的complete_portfolio_cases为手机简表STRICT/S_ALL代表行数，不是把2025九视图当独立样本。全部情景覆盖总数以coverage_audit.json及availability.csv为准。大CSV.gz逐笔表直接交付，不重复嵌入audit_source_logs.zip，以减少手机重复下载；ZIP内保留源代码、配置、核算、输入来源和日志。

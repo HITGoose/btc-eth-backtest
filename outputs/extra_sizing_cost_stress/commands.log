@@ -1,0 +1,40 @@
+# 仓库根目录 Python3.12.14
+/workspace/.venv-btc-eth-original/bin/python outputs/extra_sizing_cost_stress/run_parent_tests.py > outputs/extra_sizing_cost_stress/parent_tests.log 2>&1
+/workspace/.venv-btc-eth-original/bin/python outputs/extra_sizing_cost_stress/tests.py > outputs/extra_sizing_cost_stress/tests.log 2>&1
+/workspace/.venv-btc-eth-original/bin/python -u outputs/extra_sizing_cost_stress/supervisor.py >> outputs/extra_sizing_cost_stress/supervisor.log 2>&1
+/workspace/.venv-btc-eth-original/bin/python outputs/extra_sizing_cost_stress/report.py > outputs/extra_sizing_cost_stress/report.log 2>&1
+# 恢复同配置：同supervisor命令，已完成跳过，未完成日末断点恢复，代码或输入指纹不同拒绝。
+# 单任务：python outputs/extra_sizing_cost_stress/replay.py 2024 ETH baseline
+# 基准完整通过后：python outputs/extra_sizing_cost_stress/replay.py 2024 ETH experiment
+
+# Additional commands actually executed during this round; original per-task logs retain timestamps, errors and progress.
+python -u outputs/extra_sizing_cost_stress/funding_fetch.py
+python outputs/extra_sizing_cost_stress/funding_tests.py
+python -u outputs/extra_sizing_cost_stress/funded_supervisor.py
+python -u outputs/extra_sizing_cost_stress/through_supervisor.py
+python -u outputs/extra_sizing_cost_stress/recover_2025_memory.py
+# Actual Python executable: /workspace/.venv-btc-eth-original/bin/python (3.12.14). Official data network calls used authorized network sessions.
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/validate_cache.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/report.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/audit_finances.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/fill_sensitivity.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/fill_sensitivity.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funding_blockers.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/scenario_audit.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/cost_decomposition.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/raw_source_consistency.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/conclude.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/coverage_audit.py
+
+/workspace/.venv-btc-eth-original/bin/python -u /workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/package.py

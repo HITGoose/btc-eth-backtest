@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/fill_sensitivity.py", line 24, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/fill_sensitivity.py", line 7, in main
+    for period in r.PERIODS:
+                  ^^^^^^^^^
+AttributeError: module 'report' has no attribute 'PERIODS'

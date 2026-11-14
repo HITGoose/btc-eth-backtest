@@ -1,0 +1,1192 @@
+{
+  "rows": [
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_I100_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C4_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C3_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C4_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_I50_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C4_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C3_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C3_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_B_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C3_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C4_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C4_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C3_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C4_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C2_I25_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_011/C3_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_I100_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C4_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C3_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C4_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_I50_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C4_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C3_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C3_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_B_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C3_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C4_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C4_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C3_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C4_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C2_I25_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_110/C3_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_I100_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C4_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C3_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C4_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_I50_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C4_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C3_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C3_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_B_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C3_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C4_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C4_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C3_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C4_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C2_I25_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_ALL/C3_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_I100_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C4_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C3_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C4_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_I50_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C4_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C3_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C3_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_B_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C3_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C4_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C4_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C3_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C4_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C2_I25_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_001/C3_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_I100_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C4_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C3_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C4_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_I50_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C4_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C3_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C3_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_B_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C3_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C4_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C4_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C3_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C4_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C2_I25_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_000/C3_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_I100_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C4_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C3_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C4_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_I50_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C4_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C3_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C3_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_B_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C3_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C4_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C4_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C3_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C4_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C2_I25_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_101/C3_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_I100_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C4_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C3_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C4_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_I50_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C4_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C3_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C3_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_B_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C3_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C4_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C4_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C3_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C4_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C2_I25_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_010/C3_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_I100_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C4_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C3_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C4_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_I50_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C4_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C3_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C3_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_B_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C3_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C4_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C4_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C3_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C4_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C2_I25_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_100/C3_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_I100_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C4_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C3_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C4_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_I50_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C4_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C3_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C3_B_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_G_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_B_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C3_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C4_I25_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C4_I100_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C3_I50_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C4_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C2_I25_F_THROUGH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    },
+    {
+      "path": "funded/runs/2025/ETH/funded/results/S_111/C3_H_F_TOUCH_result.json",
+      "open_us": 1767192329544000,
+      "settlement_events_after_open": 0,
+      "funding_field": null
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/reuse_btc_baseline.py", line 29, in <module>
+    if e['event']=='order_sent':q['sizing_audit'].append(dict(signal_close_ms=e['signal_close_ms'],origin='CORE',accepted=True,actual_quantity=e.get('quantity'),actual_notional=None))
+                                                                              ~^^^^^^^^^^^^^^^^^^^
+KeyError: 'signal_close_ms'

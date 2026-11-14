@@ -1,0 +1,73 @@
+{
+  "completed_at_UTC": "2026-11-14T18:29:04.673744+00:00",
+  "status": "ALL_EXECUTABLE_CONFIGURATIONS_COMPLETED_WITH_DECLARED_DATA_GAPS",
+  "source_commit": "87f94d2e29b9832526e0aa35c0400c7ed7496805",
+  "test_suites": [
+    {
+      "path": "parent_tests.json",
+      "passed": true,
+      "total": 107
+    },
+    {
+      "path": "anomaly_validation/tests.json",
+      "passed": true,
+      "total": 24
+    },
+    {
+      "path": "tests.json",
+      "passed": true,
+      "total": 26
+    },
+    {
+      "path": "funding_tests.json",
+      "passed": true,
+      "total": 12
+    },
+    {
+      "path": "subset_tests.json",
+      "passed": true,
+      "total": 6
+    },
+    {
+      "path": "through_tests.json",
+      "passed": true,
+      "total": 6
+    }
+  ],
+  "synthetic_and_regression_checks": 181,
+  "financial_account_audits": 655,
+  "baseline_comparison_rows": 320,
+  "baseline_comparisons_not_independent_samples": true,
+  "coverage": {
+    "all_executable_cases_completed": true,
+    "portfolio_cases_completed": 532,
+    "primary_planned": 544,
+    "primary_completed": 456,
+    "primary_UNVERIFIED_official_funding_missing": 88,
+    "supplemental_completed": 76,
+    "conditional2025_completed": 306,
+    "other_strict_completed": 226,
+    "unexpected_incomplete": [],
+    "original_strict_failures_untouched": true,
+    "all_history_strict_verified": false,
+    "unverified2019": true,
+    "year2020_window": "02-16 to12-31",
+    "year2026_window": "01-01 to10-31",
+    "NOV": "independent2026-11-01 to11-13 08:00 UTC+8",
+    "original_financial_source_unchanged": true
+  },
+  "year2025": {
+    "primary_own_history_checks": 306,
+    "annual_metric_rows": 238,
+    "nonzero_annual_ranges": [],
+    "primary_minute_difference_rows": 532,
+    "max_absolute_primary_minute_difference_USDT": 0.005700000000047112,
+    "first_primary_different_minute_end_us": 1756448340000000,
+    "changed_ledger_fields": [],
+    "official_data_repaired": false
+  },
+  "original_data_and_financial_source_unchanged": true,
+  "BTC_original_C0_C1_reuse_count": 14,
+  "recovery_successful": true,
+  "main_not_merged": true
+}

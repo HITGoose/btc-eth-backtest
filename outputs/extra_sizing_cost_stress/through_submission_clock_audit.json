@@ -1,0 +1,2448 @@
+{
+  "files": 32,
+  "delayed_activation_orders": [
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1642301100000,
+      "scheduled": 1642301110000000,
+      "observed": 1642301110441000,
+      "gap_us": 441000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1650807900000,
+      "scheduled": 1650807910000000,
+      "observed": 1650807910001000,
+      "gap_us": 1000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1650873600000,
+      "scheduled": 1650873610000000,
+      "observed": 1650873610134000,
+      "gap_us": 134000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1653518700000,
+      "scheduled": 1653518710000000,
+      "observed": 1653518710207000,
+      "gap_us": 207000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1653808500000,
+      "scheduled": 1653808510000000,
+      "observed": 1653808510367000,
+      "gap_us": 367000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1653812100000,
+      "scheduled": 1653812110000000,
+      "observed": 1653812110192000,
+      "gap_us": 192000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1653815700000,
+      "scheduled": 1653815710000000,
+      "observed": 1653815710151000,
+      "gap_us": 151000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1662304500000,
+      "scheduled": 1662304510000000,
+      "observed": 1662304510360000,
+      "gap_us": 360000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1664526600000,
+      "scheduled": 1664526610000000,
+      "observed": 1664526610116000,
+      "gap_us": 116000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1665607500000,
+      "scheduled": 1665607510000000,
+      "observed": 1665607510247000,
+      "gap_us": 247000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1665611100000,
+      "scheduled": 1665611110000000,
+      "observed": 1665611110005000,
+      "gap_us": 5000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1665614700000,
+      "scheduled": 1665614710000000,
+      "observed": 1665614710039000,
+      "gap_us": 39000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1665651600000,
+      "scheduled": 1665651610000000,
+      "observed": 1665651610198000,
+      "gap_us": 198000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1665655200000,
+      "scheduled": 1665655210000000,
+      "observed": 1665655210040000,
+      "gap_us": 40000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1665658800000,
+      "scheduled": 1665658810000000,
+      "observed": 1665658810002000,
+      "gap_us": 2000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1666444500000,
+      "scheduled": 1666444510000000,
+      "observed": 1666444510242000,
+      "gap_us": 242000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1666448100000,
+      "scheduled": 1666448110000000,
+      "observed": 1666448110256000,
+      "gap_us": 256000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1666478700000,
+      "scheduled": 1666478710000000,
+      "observed": 1666478710207000,
+      "gap_us": 207000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1666482300000,
+      "scheduled": 1666482310000000,
+      "observed": 1666482310379000,
+      "gap_us": 379000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1666547100000,
+      "scheduled": 1666547110000000,
+      "observed": 1666547110034000,
+      "gap_us": 34000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1670205600000,
+      "scheduled": 1670205610000000,
+      "observed": 1670205610065000,
+      "gap_us": 65000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1670713200000,
+      "scheduled": 1670713210000000,
+      "observed": 1670713210339000,
+      "gap_us": 339000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1670716800000,
+      "scheduled": 1670716810000000,
+      "observed": 1670716810113000,
+      "gap_us": 113000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1670738400000,
+      "scheduled": 1670738410000000,
+      "observed": 1670738410335000,
+      "gap_us": 335000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1670782500000,
+      "scheduled": 1670782510000000,
+      "observed": 1670782510221000,
+      "gap_us": 221000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1670884200000,
+      "scheduled": 1670884210000000,
+      "observed": 1670884210060000,
+      "gap_us": 60000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1671382800000,
+      "scheduled": 1671382810000000,
+      "observed": 1671382810227000,
+      "gap_us": 227000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1671616800000,
+      "scheduled": 1671616810000000,
+      "observed": 1671616810318000,
+      "gap_us": 318000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1671647400000,
+      "scheduled": 1671647410000000,
+      "observed": 1671647410051000,
+      "gap_us": 51000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1671651000000,
+      "scheduled": 1671651010000000,
+      "observed": 1671651010001000,
+      "gap_us": 1000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1671654600000,
+      "scheduled": 1671654610000000,
+      "observed": 1671654610493000,
+      "gap_us": 493000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1672498800000,
+      "scheduled": 1672498810000000,
+      "observed": 1672498810087000,
+      "gap_us": 87000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1647139500000,
+      "scheduled": 1647139510000000,
+      "observed": 1647139510219000,
+      "gap_us": 219000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1647143100000,
+      "scheduled": 1647143110000000,
+      "observed": 1647143110337000,
+      "gap_us": 337000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1650112200000,
+      "scheduled": 1650112210000000,
+      "observed": 1650112210043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1657412100000,
+      "scheduled": 1657412110000000,
+      "observed": 1657412110034000,
+      "gap_us": 34000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1662313500000,
+      "scheduled": 1662313510000000,
+      "observed": 1662313510054000,
+      "gap_us": 54000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1666706400000,
+      "scheduled": 1666706410000000,
+      "observed": 1666706410003000,
+      "gap_us": 3000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1667510100000,
+      "scheduled": 1667510110000000,
+      "observed": 1667510111090000,
+      "gap_us": 1090000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1670733900000,
+      "scheduled": 1670733910000000,
+      "observed": 1670733910961000,
+      "gap_us": 961000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1670737500000,
+      "scheduled": 1670737510000000,
+      "observed": 1670737510189000,
+      "gap_us": 189000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1671752700000,
+      "scheduled": 1671752710000000,
+      "observed": 1671752710107000,
+      "gap_us": 107000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1672101000000,
+      "scheduled": 1672101010000000,
+      "observed": 1672101010033000,
+      "gap_us": 33000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1672203600000,
+      "scheduled": 1672203610000000,
+      "observed": 1672203610006000,
+      "gap_us": 6000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1672207200000,
+      "scheduled": 1672207210000000,
+      "observed": 1672207210031000,
+      "gap_us": 31000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1647139500000,
+      "scheduled": 1647139510000000,
+      "observed": 1647139510219000,
+      "gap_us": 219000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1647143100000,
+      "scheduled": 1647143110000000,
+      "observed": 1647143110337000,
+      "gap_us": 337000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1650112200000,
+      "scheduled": 1650112210000000,
+      "observed": 1650112210043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1657412100000,
+      "scheduled": 1657412110000000,
+      "observed": 1657412110034000,
+      "gap_us": 34000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1662313500000,
+      "scheduled": 1662313510000000,
+      "observed": 1662313510054000,
+      "gap_us": 54000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1666706400000,
+      "scheduled": 1666706410000000,
+      "observed": 1666706410003000,
+      "gap_us": 3000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1667510100000,
+      "scheduled": 1667510110000000,
+      "observed": 1667510111090000,
+      "gap_us": 1090000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1670733900000,
+      "scheduled": 1670733910000000,
+      "observed": 1670733910961000,
+      "gap_us": 961000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1670737500000,
+      "scheduled": 1670737510000000,
+      "observed": 1670737510189000,
+      "gap_us": 189000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1671752700000,
+      "scheduled": 1671752710000000,
+      "observed": 1671752710107000,
+      "gap_us": 107000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1672101000000,
+      "scheduled": 1672101010000000,
+      "observed": 1672101010033000,
+      "gap_us": 33000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1672203600000,
+      "scheduled": 1672203610000000,
+      "observed": 1672203610006000,
+      "gap_us": 6000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1672207200000,
+      "scheduled": 1672207210000000,
+      "observed": 1672207210031000,
+      "gap_us": 31000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1647139500000,
+      "scheduled": 1647139510000000,
+      "observed": 1647139510219000,
+      "gap_us": 219000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1647143100000,
+      "scheduled": 1647143110000000,
+      "observed": 1647143110337000,
+      "gap_us": 337000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1650112200000,
+      "scheduled": 1650112210000000,
+      "observed": 1650112210043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1657412100000,
+      "scheduled": 1657412110000000,
+      "observed": 1657412110034000,
+      "gap_us": 34000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1662313500000,
+      "scheduled": 1662313510000000,
+      "observed": 1662313510054000,
+      "gap_us": 54000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1666706400000,
+      "scheduled": 1666706410000000,
+      "observed": 1666706410003000,
+      "gap_us": 3000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1667510100000,
+      "scheduled": 1667510110000000,
+      "observed": 1667510111090000,
+      "gap_us": 1090000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1670733900000,
+      "scheduled": 1670733910000000,
+      "observed": 1670733910961000,
+      "gap_us": 961000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1670737500000,
+      "scheduled": 1670737510000000,
+      "observed": 1670737510189000,
+      "gap_us": 189000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1671752700000,
+      "scheduled": 1671752710000000,
+      "observed": 1671752710107000,
+      "gap_us": 107000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1672101000000,
+      "scheduled": 1672101010000000,
+      "observed": 1672101010033000,
+      "gap_us": 33000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1672203600000,
+      "scheduled": 1672203610000000,
+      "observed": 1672203610006000,
+      "gap_us": 6000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1672207200000,
+      "scheduled": 1672207210000000,
+      "observed": 1672207210031000,
+      "gap_us": 31000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1647139500000,
+      "scheduled": 1647139510000000,
+      "observed": 1647139510219000,
+      "gap_us": 219000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1647143100000,
+      "scheduled": 1647143110000000,
+      "observed": 1647143110337000,
+      "gap_us": 337000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1650112200000,
+      "scheduled": 1650112210000000,
+      "observed": 1650112210043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1657412100000,
+      "scheduled": 1657412110000000,
+      "observed": 1657412110034000,
+      "gap_us": 34000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1662313500000,
+      "scheduled": 1662313510000000,
+      "observed": 1662313510054000,
+      "gap_us": 54000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1666706400000,
+      "scheduled": 1666706410000000,
+      "observed": 1666706410003000,
+      "gap_us": 3000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1667510100000,
+      "scheduled": 1667510110000000,
+      "observed": 1667510111090000,
+      "gap_us": 1090000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1670733900000,
+      "scheduled": 1670733910000000,
+      "observed": 1670733910961000,
+      "gap_us": 961000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1670737500000,
+      "scheduled": 1670737510000000,
+      "observed": 1670737510189000,
+      "gap_us": 189000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1671752700000,
+      "scheduled": 1671752710000000,
+      "observed": 1671752710107000,
+      "gap_us": 107000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1672101000000,
+      "scheduled": 1672101010000000,
+      "observed": 1672101010033000,
+      "gap_us": 33000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1672203600000,
+      "scheduled": 1672203610000000,
+      "observed": 1672203610006000,
+      "gap_us": 6000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1672207200000,
+      "scheduled": 1672207210000000,
+      "observed": 1672207210031000,
+      "gap_us": 31000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/NOV/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1794069000000,
+      "scheduled": 1794069010000000,
+      "observed": 1794069010042000,
+      "gap_us": 42000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/NOV/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1794072600000,
+      "scheduled": 1794072610000000,
+      "observed": 1794072610016000,
+      "gap_us": 16000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/NOV/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1794121200000,
+      "scheduled": 1794121210000000,
+      "observed": 1794121210234000,
+      "gap_us": 234000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/NOV/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1794121200000,
+      "scheduled": 1794121210000000,
+      "observed": 1794121210234000,
+      "gap_us": 234000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/NOV/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1794121200000,
+      "scheduled": 1794121210000000,
+      "observed": 1794121210234000,
+      "gap_us": 234000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/NOV/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1794121200000,
+      "scheduled": 1794121210000000,
+      "observed": 1794121210234000,
+      "gap_us": 234000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2021/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1618524000000,
+      "scheduled": 1618524010000000,
+      "observed": 1618524010017000,
+      "gap_us": 17000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2021/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1618310700000,
+      "scheduled": 1618310710000000,
+      "observed": 1618310710001000,
+      "gap_us": 1000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2021/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1618310700000,
+      "scheduled": 1618310710000000,
+      "observed": 1618310710001000,
+      "gap_us": 1000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2021/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1618310700000,
+      "scheduled": 1618310710000000,
+      "observed": 1618310710001000,
+      "gap_us": 1000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2021/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1618310700000,
+      "scheduled": 1618310710000000,
+      "observed": 1618310710001000,
+      "gap_us": 1000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1587376800000,
+      "scheduled": 1587376810000000,
+      "observed": 1587376810425000,
+      "gap_us": 425000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1587898800000,
+      "scheduled": 1587898810000000,
+      "observed": 1587898810022000,
+      "gap_us": 22000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1588431600000,
+      "scheduled": 1588431610000000,
+      "observed": 1588431610228000,
+      "gap_us": 228000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1589721300000,
+      "scheduled": 1589721310000000,
+      "observed": 1589721310068000,
+      "gap_us": 68000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1589724900000,
+      "scheduled": 1589724910000000,
+      "observed": 1589724910322000,
+      "gap_us": 322000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1589728500000,
+      "scheduled": 1589728510000000,
+      "observed": 1589728510015000,
+      "gap_us": 15000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1590301800000,
+      "scheduled": 1590301810000000,
+      "observed": 1590301810229000,
+      "gap_us": 229000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1590572700000,
+      "scheduled": 1590572710000000,
+      "observed": 1590572710368000,
+      "gap_us": 368000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1592863200000,
+      "scheduled": 1592863210000000,
+      "observed": 1592863210143000,
+      "gap_us": 143000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1594216800000,
+      "scheduled": 1594216810000000,
+      "observed": 1594216810008000,
+      "gap_us": 8000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1594978200000,
+      "scheduled": 1594978210000000,
+      "observed": 1594978211423000,
+      "gap_us": 1423000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1597180500000,
+      "scheduled": 1597180510000000,
+      "observed": 1597180510061000,
+      "gap_us": 61000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1598212800000,
+      "scheduled": 1598212810000000,
+      "observed": 1598212810039000,
+      "gap_us": 39000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1598243400000,
+      "scheduled": 1598243410000000,
+      "observed": 1598243410138000,
+      "gap_us": 138000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1598247000000,
+      "scheduled": 1598247010000000,
+      "observed": 1598247011510000,
+      "gap_us": 1510000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1598367600000,
+      "scheduled": 1598367610000000,
+      "observed": 1598367610244000,
+      "gap_us": 244000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1598720400000,
+      "scheduled": 1598720410000000,
+      "observed": 1598720410070000,
+      "gap_us": 70000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1598724000000,
+      "scheduled": 1598724010000000,
+      "observed": 1598724010756000,
+      "gap_us": 756000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1598727600000,
+      "scheduled": 1598727610000000,
+      "observed": 1598727610747000,
+      "gap_us": 747000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1598731200000,
+      "scheduled": 1598731210000000,
+      "observed": 1598731210394000,
+      "gap_us": 394000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1598947200000,
+      "scheduled": 1598947210000000,
+      "observed": 1598947210043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1602244800000,
+      "scheduled": 1602244810000000,
+      "observed": 1602244810008000,
+      "gap_us": 8000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1602248400000,
+      "scheduled": 1602248410000000,
+      "observed": 1602248410385000,
+      "gap_us": 385000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1602522000000,
+      "scheduled": 1602522010000000,
+      "observed": 1602522010480000,
+      "gap_us": 480000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1603098000000,
+      "scheduled": 1603098010000000,
+      "observed": 1603098010244000,
+      "gap_us": 244000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1603101600000,
+      "scheduled": 1603101610000000,
+      "observed": 1603101610134000,
+      "gap_us": 134000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1603544400000,
+      "scheduled": 1603544410000000,
+      "observed": 1603544410135000,
+      "gap_us": 135000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1603555200000,
+      "scheduled": 1603555210000000,
+      "observed": 1603555210084000,
+      "gap_us": 84000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1603759500000,
+      "scheduled": 1603759510000000,
+      "observed": 1603759510006000,
+      "gap_us": 6000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/BTC/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1604143800000,
+      "scheduled": 1604143810000000,
+      "observed": 1604143810134000,
+      "gap_us": 134000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1593801000000,
+      "scheduled": 1593801010000000,
+      "observed": 1593801010375000,
+      "gap_us": 375000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1593804600000,
+      "scheduled": 1593804610000000,
+      "observed": 1593804610098000,
+      "gap_us": 98000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1594517400000,
+      "scheduled": 1594517410000000,
+      "observed": 1594517410425000,
+      "gap_us": 425000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1594521000000,
+      "scheduled": 1594521010000000,
+      "observed": 1594521010389000,
+      "gap_us": 389000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1595025000000,
+      "scheduled": 1595025010000000,
+      "observed": 1595025010386000,
+      "gap_us": 386000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1595321100000,
+      "scheduled": 1595321110000000,
+      "observed": 1595321110367000,
+      "gap_us": 367000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1595324700000,
+      "scheduled": 1595324710000000,
+      "observed": 1595324710410000,
+      "gap_us": 410000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I50_F_THROUGH_result.json",
+      "signal": 1601546400000,
+      "scheduled": 1601546410000000,
+      "observed": 1601546410926000,
+      "gap_us": 926000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1593801000000,
+      "scheduled": 1593801010000000,
+      "observed": 1593801010375000,
+      "gap_us": 375000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1593804600000,
+      "scheduled": 1593804610000000,
+      "observed": 1593804610098000,
+      "gap_us": 98000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1594517400000,
+      "scheduled": 1594517410000000,
+      "observed": 1594517410425000,
+      "gap_us": 425000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1594521000000,
+      "scheduled": 1594521010000000,
+      "observed": 1594521010389000,
+      "gap_us": 389000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1595025000000,
+      "scheduled": 1595025010000000,
+      "observed": 1595025010386000,
+      "gap_us": 386000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1595321100000,
+      "scheduled": 1595321110000000,
+      "observed": 1595321110367000,
+      "gap_us": 367000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1595324700000,
+      "scheduled": 1595324710000000,
+      "observed": 1595324710410000,
+      "gap_us": 410000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I25_F_THROUGH_result.json",
+      "signal": 1601546400000,
+      "scheduled": 1601546410000000,
+      "observed": 1601546410926000,
+      "gap_us": 926000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1593801000000,
+      "scheduled": 1593801010000000,
+      "observed": 1593801010375000,
+      "gap_us": 375000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1593804600000,
+      "scheduled": 1593804610000000,
+      "observed": 1593804610098000,
+      "gap_us": 98000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1594517400000,
+      "scheduled": 1594517410000000,
+      "observed": 1594517410425000,
+      "gap_us": 425000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1594521000000,
+      "scheduled": 1594521010000000,
+      "observed": 1594521010389000,
+      "gap_us": 389000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1595025000000,
+      "scheduled": 1595025010000000,
+      "observed": 1595025010386000,
+      "gap_us": 386000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_B_F_THROUGH_result.json",
+      "signal": 1601546400000,
+      "scheduled": 1601546410000000,
+      "observed": 1601546410926000,
+      "gap_us": 926000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1593801000000,
+      "scheduled": 1593801010000000,
+      "observed": 1593801010375000,
+      "gap_us": 375000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1593804600000,
+      "scheduled": 1593804610000000,
+      "observed": 1593804610098000,
+      "gap_us": 98000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1594517400000,
+      "scheduled": 1594517410000000,
+      "observed": 1594517410425000,
+      "gap_us": 425000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1594521000000,
+      "scheduled": 1594521010000000,
+      "observed": 1594521010389000,
+      "gap_us": 389000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1595025000000,
+      "scheduled": 1595025010000000,
+      "observed": 1595025010386000,
+      "gap_us": 386000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1595321100000,
+      "scheduled": 1595321110000000,
+      "observed": 1595321110367000,
+      "gap_us": 367000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1595324700000,
+      "scheduled": 1595324710000000,
+      "observed": 1595324710410000,
+      "gap_us": 410000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C1_I100_F_THROUGH_result.json",
+      "signal": 1601546400000,
+      "scheduled": 1601546410000000,
+      "observed": 1601546410926000,
+      "gap_us": 926000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/NOV/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1794069000000,
+      "scheduled": 1794069010000000,
+      "observed": 1794069010042000,
+      "gap_us": 42000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/NOV/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1794072600000,
+      "scheduled": 1794072610000000,
+      "observed": 1794072610016000,
+      "gap_us": 16000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/NOV/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1794121200000,
+      "scheduled": 1794121210000000,
+      "observed": 1794121210234000,
+      "gap_us": 234000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/NOV/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1794121200000,
+      "scheduled": 1794121210000000,
+      "observed": 1794121210234000,
+      "gap_us": 234000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/NOV/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1794121200000,
+      "scheduled": 1794121210000000,
+      "observed": 1794121210234000,
+      "gap_us": 234000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/NOV/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1794121200000,
+      "scheduled": 1794121210000000,
+      "observed": 1794121210234000,
+      "gap_us": 234000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1736679600000,
+      "scheduled": 1736679610000000,
+      "observed": 1736679610033000,
+      "gap_us": 33000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1739625300000,
+      "scheduled": 1739625310000000,
+      "observed": 1739625310108000,
+      "gap_us": 108000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1739628900000,
+      "scheduled": 1739628910000000,
+      "observed": 1739628910001000,
+      "gap_us": 1000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1740372300000,
+      "scheduled": 1740372310000000,
+      "observed": 1740372310047000,
+      "gap_us": 47000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1740474900000,
+      "scheduled": 1740474910000000,
+      "observed": 1740474910112000,
+      "gap_us": 112000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1740478500000,
+      "scheduled": 1740478510000000,
+      "observed": 1740478510017000,
+      "gap_us": 17000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1742623200000,
+      "scheduled": 1742623210000000,
+      "observed": 1742623210187000,
+      "gap_us": 187000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1743939000000,
+      "scheduled": 1743939010000000,
+      "observed": 1743939010019000,
+      "gap_us": 19000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1744909200000,
+      "scheduled": 1744909210000000,
+      "observed": 1744909210150000,
+      "gap_us": 150000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1744912800000,
+      "scheduled": 1744912810000000,
+      "observed": 1744912810010000,
+      "gap_us": 10000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1746318600000,
+      "scheduled": 1746318610000000,
+      "observed": 1746318610795000,
+      "gap_us": 795000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1746322200000,
+      "scheduled": 1746322210000000,
+      "observed": 1746322210016000,
+      "gap_us": 16000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1747245600000,
+      "scheduled": 1747245610000000,
+      "observed": 1747245610104000,
+      "gap_us": 104000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1748342700000,
+      "scheduled": 1748342710000000,
+      "observed": 1748342710042000,
+      "gap_us": 42000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1748864700000,
+      "scheduled": 1748864710000000,
+      "observed": 1748864710011000,
+      "gap_us": 11000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1749042000000,
+      "scheduled": 1749042010000000,
+      "observed": 1749042010013000,
+      "gap_us": 13000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1749397500000,
+      "scheduled": 1749397510000000,
+      "observed": 1749397510091000,
+      "gap_us": 91000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1750308300000,
+      "scheduled": 1750308310000000,
+      "observed": 1750308310037000,
+      "gap_us": 37000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1750342500000,
+      "scheduled": 1750342510000000,
+      "observed": 1750342510005000,
+      "gap_us": 5000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1750536000000,
+      "scheduled": 1750536010000000,
+      "observed": 1750536010054000,
+      "gap_us": 54000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1751094000000,
+      "scheduled": 1751094010000000,
+      "observed": 1751094010093000,
+      "gap_us": 93000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1751097600000,
+      "scheduled": 1751097610000000,
+      "observed": 1751097610101000,
+      "gap_us": 101000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1751191200000,
+      "scheduled": 1751191210000000,
+      "observed": 1751191210034000,
+      "gap_us": 34000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1751194800000,
+      "scheduled": 1751194810000000,
+      "observed": 1751194810298000,
+      "gap_us": 298000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1751198400000,
+      "scheduled": 1751198410000000,
+      "observed": 1751198410022000,
+      "gap_us": 22000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1751780700000,
+      "scheduled": 1751780710000000,
+      "observed": 1751780710519000,
+      "gap_us": 519000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1752089400000,
+      "scheduled": 1752089410000000,
+      "observed": 1752089410039000,
+      "gap_us": 39000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1752093000000,
+      "scheduled": 1752093010000000,
+      "observed": 1752093010090000,
+      "gap_us": 90000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1752382800000,
+      "scheduled": 1752382810000000,
+      "observed": 1752382810067000,
+      "gap_us": 67000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1752411600000,
+      "scheduled": 1752411610000000,
+      "observed": 1752411610008000,
+      "gap_us": 8000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1752948900000,
+      "scheduled": 1752948910000000,
+      "observed": 1752948910020000,
+      "gap_us": 20000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1752952500000,
+      "scheduled": 1752952510000000,
+      "observed": 1752952511313000,
+      "gap_us": 1313000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1753626600000,
+      "scheduled": 1753626610000000,
+      "observed": 1753626610056000,
+      "gap_us": 56000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1755409500000,
+      "scheduled": 1755409510000000,
+      "observed": 1755409510519000,
+      "gap_us": 519000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1755413100000,
+      "scheduled": 1755413110000000,
+      "observed": 1755413110886000,
+      "gap_us": 886000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1755461700000,
+      "scheduled": 1755461710000000,
+      "observed": 1755461710112000,
+      "gap_us": 112000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1755486000000,
+      "scheduled": 1755486010000000,
+      "observed": 1755486010047000,
+      "gap_us": 47000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1755489600000,
+      "scheduled": 1755489610000000,
+      "observed": 1755489610025000,
+      "gap_us": 25000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1755493200000,
+      "scheduled": 1755493210000000,
+      "observed": 1755493210048000,
+      "gap_us": 48000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1755774900000,
+      "scheduled": 1755774910000000,
+      "observed": 1755774910411000,
+      "gap_us": 411000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1755778500000,
+      "scheduled": 1755778510000000,
+      "observed": 1755778510229000,
+      "gap_us": 229000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1756026900000,
+      "scheduled": 1756026910000000,
+      "observed": 1756026910298000,
+      "gap_us": 298000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1756699200000,
+      "scheduled": 1756699210000000,
+      "observed": 1756699210017000,
+      "gap_us": 17000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1756702800000,
+      "scheduled": 1756702810000000,
+      "observed": 1756702810175000,
+      "gap_us": 175000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1756719000000,
+      "scheduled": 1756719010000000,
+      "observed": 1756719010009000,
+      "gap_us": 9000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1758009600000,
+      "scheduled": 1758009610000000,
+      "observed": 1758009610193000,
+      "gap_us": 193000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1758525300000,
+      "scheduled": 1758525310000000,
+      "observed": 1758525310046000,
+      "gap_us": 46000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1760872500000,
+      "scheduled": 1760872510000000,
+      "observed": 1760872510303000,
+      "gap_us": 303000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1761467400000,
+      "scheduled": 1761467410000000,
+      "observed": 1761467410508000,
+      "gap_us": 508000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1762146000000,
+      "scheduled": 1762146010000000,
+      "observed": 1762146010145000,
+      "gap_us": 145000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1763124300000,
+      "scheduled": 1763124310000000,
+      "observed": 1763124310015000,
+      "gap_us": 15000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1764181800000,
+      "scheduled": 1764181810000000,
+      "observed": 1764181810066000,
+      "gap_us": 66000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1765102500000,
+      "scheduled": 1765102510000000,
+      "observed": 1765102510059000,
+      "gap_us": 59000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1765106100000,
+      "scheduled": 1765106110000000,
+      "observed": 1765106110246000,
+      "gap_us": 246000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1765708200000,
+      "scheduled": 1765708210000000,
+      "observed": 1765708210101000,
+      "gap_us": 101000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1766276100000,
+      "scheduled": 1766276110000000,
+      "observed": 1766276110036000,
+      "gap_us": 36000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1766279700000,
+      "scheduled": 1766279710000000,
+      "observed": 1766279711081000,
+      "gap_us": 1081000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1766710800000,
+      "scheduled": 1766710810000000,
+      "observed": 1766710810039000,
+      "gap_us": 39000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1766915100000,
+      "scheduled": 1766915110000000,
+      "observed": 1766915110497000,
+      "gap_us": 497000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1766918700000,
+      "scheduled": 1766918710000000,
+      "observed": 1766918710739000,
+      "gap_us": 739000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1766934900000,
+      "scheduled": 1766934910000000,
+      "observed": 1766934910307000,
+      "gap_us": 307000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1766980800000,
+      "scheduled": 1766980810000000,
+      "observed": 1766980810028000,
+      "gap_us": 28000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1705782600000,
+      "scheduled": 1705782610000000,
+      "observed": 1705782610283000,
+      "gap_us": 283000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1705833000000,
+      "scheduled": 1705833010000000,
+      "observed": 1705833010089000,
+      "gap_us": 89000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1705836600000,
+      "scheduled": 1705836610000000,
+      "observed": 1705836610262000,
+      "gap_us": 262000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1706919300000,
+      "scheduled": 1706919310000000,
+      "observed": 1706919310952000,
+      "gap_us": 952000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1706922900000,
+      "scheduled": 1706922910000000,
+      "observed": 1706922910074000,
+      "gap_us": 74000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1708471800000,
+      "scheduled": 1708471810000000,
+      "observed": 1708471810353000,
+      "gap_us": 353000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1708978500000,
+      "scheduled": 1708978510000000,
+      "observed": 1708978510011000,
+      "gap_us": 11000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1710824400000,
+      "scheduled": 1710824410000000,
+      "observed": 1710824410025000,
+      "gap_us": 25000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1716467400000,
+      "scheduled": 1716467410000000,
+      "observed": 1716467410115000,
+      "gap_us": 115000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1716712200000,
+      "scheduled": 1716712210000000,
+      "observed": 1716712210158000,
+      "gap_us": 158000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1717162200000,
+      "scheduled": 1717162210000000,
+      "observed": 1717162210804000,
+      "gap_us": 804000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1717324200000,
+      "scheduled": 1717324210000000,
+      "observed": 1717324210784000,
+      "gap_us": 784000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1717327800000,
+      "scheduled": 1717327810000000,
+      "observed": 1717327810638000,
+      "gap_us": 638000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1717552800000,
+      "scheduled": 1717552810000000,
+      "observed": 1717552810040000,
+      "gap_us": 40000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1718580600000,
+      "scheduled": 1718580610000000,
+      "observed": 1718580610084000,
+      "gap_us": 84000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1718584200000,
+      "scheduled": 1718584210000000,
+      "observed": 1718584210064000,
+      "gap_us": 64000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1719187200000,
+      "scheduled": 1719187210000000,
+      "observed": 1719187210004000,
+      "gap_us": 4000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1719190800000,
+      "scheduled": 1719190810000000,
+      "observed": 1719190810057000,
+      "gap_us": 57000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1728189900000,
+      "scheduled": 1728189910000000,
+      "observed": 1728189910255000,
+      "gap_us": 255000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1728463500000,
+      "scheduled": 1728463510000000,
+      "observed": 1728463510072000,
+      "gap_us": 72000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1728467100000,
+      "scheduled": 1728467110000000,
+      "observed": 1728467110288000,
+      "gap_us": 288000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1729392300000,
+      "scheduled": 1729392310000000,
+      "observed": 1729392310047000,
+      "gap_us": 47000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1729395900000,
+      "scheduled": 1729395910000000,
+      "observed": 1729395910288000,
+      "gap_us": 288000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1729654200000,
+      "scheduled": 1729654210000000,
+      "observed": 1729654210065000,
+      "gap_us": 65000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1730113200000,
+      "scheduled": 1730113210000000,
+      "observed": 1730113210231000,
+      "gap_us": 231000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1731990600000,
+      "scheduled": 1731990610000000,
+      "observed": 1731990610058000,
+      "gap_us": 58000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1732515300000,
+      "scheduled": 1732515310000000,
+      "observed": 1732515310009000,
+      "gap_us": 9000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1733214600000,
+      "scheduled": 1733214610000000,
+      "observed": 1733214610227000,
+      "gap_us": 227000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1734229800000,
+      "scheduled": 1734229810000000,
+      "observed": 1734229810164000,
+      "gap_us": 164000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1735492500000,
+      "scheduled": 1735492510000000,
+      "observed": 1735492510205000,
+      "gap_us": 205000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1735496100000,
+      "scheduled": 1735496110000000,
+      "observed": 1735496110036000,
+      "gap_us": 36000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1735499700000,
+      "scheduled": 1735499710000000,
+      "observed": 1735499710264000,
+      "gap_us": 264000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1735503300000,
+      "scheduled": 1735503310000000,
+      "observed": 1735503310273000,
+      "gap_us": 273000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1704084300000,
+      "scheduled": 1704084310000000,
+      "observed": 1704084310323000,
+      "gap_us": 323000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1705901400000,
+      "scheduled": 1705901410000000,
+      "observed": 1705901410131000,
+      "gap_us": 131000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1705959000000,
+      "scheduled": 1705959010000000,
+      "observed": 1705959010032000,
+      "gap_us": 32000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1705962600000,
+      "scheduled": 1705962610000000,
+      "observed": 1705962610584000,
+      "gap_us": 584000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1705966200000,
+      "scheduled": 1705966210000000,
+      "observed": 1705966210349000,
+      "gap_us": 349000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1714210200000,
+      "scheduled": 1714210210000000,
+      "observed": 1714210210118000,
+      "gap_us": 118000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1716292800000,
+      "scheduled": 1716292810000000,
+      "observed": 1716292810007000,
+      "gap_us": 7000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1718006400000,
+      "scheduled": 1718006410000000,
+      "observed": 1718006410012000,
+      "gap_us": 12000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1719682200000,
+      "scheduled": 1719682210000000,
+      "observed": 1719682210281000,
+      "gap_us": 281000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1727592300000,
+      "scheduled": 1727592310000000,
+      "observed": 1727592310209000,
+      "gap_us": 209000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1729241100000,
+      "scheduled": 1729241110000000,
+      "observed": 1729241110009000,
+      "gap_us": 9000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1729441800000,
+      "scheduled": 1729441810000000,
+      "observed": 1729441810391000,
+      "gap_us": 391000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I100_F_THROUGH_result.json",
+      "signal": 1734250500000,
+      "scheduled": 1734250510000000,
+      "observed": 1734250510043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1704084300000,
+      "scheduled": 1704084310000000,
+      "observed": 1704084310323000,
+      "gap_us": 323000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1705901400000,
+      "scheduled": 1705901410000000,
+      "observed": 1705901410131000,
+      "gap_us": 131000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1705959000000,
+      "scheduled": 1705959010000000,
+      "observed": 1705959010032000,
+      "gap_us": 32000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1705962600000,
+      "scheduled": 1705962610000000,
+      "observed": 1705962610584000,
+      "gap_us": 584000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1705966200000,
+      "scheduled": 1705966210000000,
+      "observed": 1705966210349000,
+      "gap_us": 349000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1714210200000,
+      "scheduled": 1714210210000000,
+      "observed": 1714210210118000,
+      "gap_us": 118000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1716292800000,
+      "scheduled": 1716292810000000,
+      "observed": 1716292810007000,
+      "gap_us": 7000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1718006400000,
+      "scheduled": 1718006410000000,
+      "observed": 1718006410012000,
+      "gap_us": 12000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1719682200000,
+      "scheduled": 1719682210000000,
+      "observed": 1719682210281000,
+      "gap_us": 281000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1727592300000,
+      "scheduled": 1727592310000000,
+      "observed": 1727592310209000,
+      "gap_us": 209000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1729241100000,
+      "scheduled": 1729241110000000,
+      "observed": 1729241110009000,
+      "gap_us": 9000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1729441800000,
+      "scheduled": 1729441810000000,
+      "observed": 1729441810391000,
+      "gap_us": 391000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I50_F_THROUGH_result.json",
+      "signal": 1734250500000,
+      "scheduled": 1734250510000000,
+      "observed": 1734250510043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1704084300000,
+      "scheduled": 1704084310000000,
+      "observed": 1704084310323000,
+      "gap_us": 323000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1705901400000,
+      "scheduled": 1705901410000000,
+      "observed": 1705901410131000,
+      "gap_us": 131000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1705959000000,
+      "scheduled": 1705959010000000,
+      "observed": 1705959010032000,
+      "gap_us": 32000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1705962600000,
+      "scheduled": 1705962610000000,
+      "observed": 1705962610584000,
+      "gap_us": 584000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1714210200000,
+      "scheduled": 1714210210000000,
+      "observed": 1714210210118000,
+      "gap_us": 118000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1716292800000,
+      "scheduled": 1716292810000000,
+      "observed": 1716292810007000,
+      "gap_us": 7000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1718006400000,
+      "scheduled": 1718006410000000,
+      "observed": 1718006410012000,
+      "gap_us": 12000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1719682200000,
+      "scheduled": 1719682210000000,
+      "observed": 1719682210281000,
+      "gap_us": 281000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1727592300000,
+      "scheduled": 1727592310000000,
+      "observed": 1727592310209000,
+      "gap_us": 209000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1729241100000,
+      "scheduled": 1729241110000000,
+      "observed": 1729241110009000,
+      "gap_us": 9000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1729441800000,
+      "scheduled": 1729441810000000,
+      "observed": 1729441810391000,
+      "gap_us": 391000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1734250500000,
+      "scheduled": 1734250510000000,
+      "observed": 1734250510043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1704084300000,
+      "scheduled": 1704084310000000,
+      "observed": 1704084310323000,
+      "gap_us": 323000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1705901400000,
+      "scheduled": 1705901410000000,
+      "observed": 1705901410131000,
+      "gap_us": 131000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1705959000000,
+      "scheduled": 1705959010000000,
+      "observed": 1705959010032000,
+      "gap_us": 32000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1705962600000,
+      "scheduled": 1705962610000000,
+      "observed": 1705962610584000,
+      "gap_us": 584000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1705966200000,
+      "scheduled": 1705966210000000,
+      "observed": 1705966210349000,
+      "gap_us": 349000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1714210200000,
+      "scheduled": 1714210210000000,
+      "observed": 1714210210118000,
+      "gap_us": 118000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1716292800000,
+      "scheduled": 1716292810000000,
+      "observed": 1716292810007000,
+      "gap_us": 7000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1718006400000,
+      "scheduled": 1718006410000000,
+      "observed": 1718006410012000,
+      "gap_us": 12000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1719682200000,
+      "scheduled": 1719682210000000,
+      "observed": 1719682210281000,
+      "gap_us": 281000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1727592300000,
+      "scheduled": 1727592310000000,
+      "observed": 1727592310209000,
+      "gap_us": 209000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1729241100000,
+      "scheduled": 1729241110000000,
+      "observed": 1729241110009000,
+      "gap_us": 9000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1729441800000,
+      "scheduled": 1729441810000000,
+      "observed": 1729441810391000,
+      "gap_us": 391000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2024/ETH/funded/results/STRICT/C2_I25_F_THROUGH_result.json",
+      "signal": 1734250500000,
+      "scheduled": 1734250510000000,
+      "observed": 1734250510043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1767202200000,
+      "scheduled": 1767202210000000,
+      "observed": 1767202210001000,
+      "gap_us": 1000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1768765500000,
+      "scheduled": 1768765510000000,
+      "observed": 1768765510309000,
+      "gap_us": 309000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1769227200000,
+      "scheduled": 1769227210000000,
+      "observed": 1769227210034000,
+      "gap_us": 34000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1769230800000,
+      "scheduled": 1769230810000000,
+      "observed": 1769230810097000,
+      "gap_us": 97000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1769313600000,
+      "scheduled": 1769313610000000,
+      "observed": 1769313610082000,
+      "gap_us": 82000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1771425000000,
+      "scheduled": 1771425010000000,
+      "observed": 1771425010043000,
+      "gap_us": 43000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1775934000000,
+      "scheduled": 1775934010000000,
+      "observed": 1775934010001000,
+      "gap_us": 1000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1775937600000,
+      "scheduled": 1775937610000000,
+      "observed": 1775937610222000,
+      "gap_us": 222000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1776371400000,
+      "scheduled": 1776371410000000,
+      "observed": 1776371410015000,
+      "gap_us": 15000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1777801500000,
+      "scheduled": 1777801510000000,
+      "observed": 1777801510127000,
+      "gap_us": 127000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1777843800000,
+      "scheduled": 1777843810000000,
+      "observed": 1777843810101000,
+      "gap_us": 101000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1778278500000,
+      "scheduled": 1778278510000000,
+      "observed": 1778278510009000,
+      "gap_us": 9000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1779669900000,
+      "scheduled": 1779669910000000,
+      "observed": 1779669910724000,
+      "gap_us": 724000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1779673500000,
+      "scheduled": 1779673510000000,
+      "observed": 1779673510154000,
+      "gap_us": 154000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1783292400000,
+      "scheduled": 1783292410000000,
+      "observed": 1783292410025000,
+      "gap_us": 25000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1784896200000,
+      "scheduled": 1784896210000000,
+      "observed": 1784896210507000,
+      "gap_us": 507000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1784899800000,
+      "scheduled": 1784899810000000,
+      "observed": 1784899810178000,
+      "gap_us": 178000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1785195000000,
+      "scheduled": 1785195010000000,
+      "observed": 1785195010032000,
+      "gap_us": 32000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1785198600000,
+      "scheduled": 1785198610000000,
+      "observed": 1785198610063000,
+      "gap_us": 63000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1785202200000,
+      "scheduled": 1785202210000000,
+      "observed": 1785202210108000,
+      "gap_us": 108000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1785205800000,
+      "scheduled": 1785205810000000,
+      "observed": 1785205810587000,
+      "gap_us": 587000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1786287600000,
+      "scheduled": 1786287610000000,
+      "observed": 1786287610026000,
+      "gap_us": 26000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1786291200000,
+      "scheduled": 1786291210000000,
+      "observed": 1786291210003000,
+      "gap_us": 3000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1787523300000,
+      "scheduled": 1787523310000000,
+      "observed": 1787523310134000,
+      "gap_us": 134000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1787882400000,
+      "scheduled": 1787882410000000,
+      "observed": 1787882410089000,
+      "gap_us": 89000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1788093900000,
+      "scheduled": 1788093910000000,
+      "observed": 1788093910246000,
+      "gap_us": 246000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1788403500000,
+      "scheduled": 1788403510000000,
+      "observed": 1788403510006000,
+      "gap_us": 6000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1788660000000,
+      "scheduled": 1788660010000000,
+      "observed": 1788660010236000,
+      "gap_us": 236000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1788663600000,
+      "scheduled": 1788663610000000,
+      "observed": 1788663610735000,
+      "gap_us": 735000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1788667200000,
+      "scheduled": 1788667210000000,
+      "observed": 1788667211009000,
+      "gap_us": 1009000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1789242300000,
+      "scheduled": 1789242310000000,
+      "observed": 1789242310392000,
+      "gap_us": 392000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1789245900000,
+      "scheduled": 1789245910000000,
+      "observed": 1789245912000000,
+      "gap_us": 2000000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1789286400000,
+      "scheduled": 1789286410000000,
+      "observed": 1789286410356000,
+      "gap_us": 356000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1790434800000,
+      "scheduled": 1790434810000000,
+      "observed": 1790434810463000,
+      "gap_us": 463000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1791095400000,
+      "scheduled": 1791095410000000,
+      "observed": 1791095410310000,
+      "gap_us": 310000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1791099000000,
+      "scheduled": 1791099010000000,
+      "observed": 1791099010568000,
+      "gap_us": 568000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1791136800000,
+      "scheduled": 1791136810000000,
+      "observed": 1791136810376000,
+      "gap_us": 376000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1791151200000,
+      "scheduled": 1791151210000000,
+      "observed": 1791151210248000,
+      "gap_us": 248000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1791154800000,
+      "scheduled": 1791154810000000,
+      "observed": 1791154810048000,
+      "gap_us": 48000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1791158400000,
+      "scheduled": 1791158410000000,
+      "observed": 1791158410044000,
+      "gap_us": 44000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1791951300000,
+      "scheduled": 1791951310000000,
+      "observed": 1791951311313000,
+      "gap_us": 1313000
+    },
+    {
+      "file": "outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded/results/STRICT/C2_B_F_THROUGH_result.json",
+      "signal": 1792204200000,
+      "scheduled": 1792204210000000,
+      "observed": 1792204210387000,
+      "gap_us": 387000
+    }
+  ]
+}

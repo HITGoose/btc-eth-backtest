@@ -1,0 +1,2 @@
+{"script": "sizing_only_replay.py", "stage": "experiment", "returncode": 0, "command": ["/workspace/.venv-btc-eth-original/bin/python", "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only_replay.py", "2025", "ETH", "experiment"]}
+{"script": "funded_replay.py", "stage": "funded", "returncode": 0, "command": ["/workspace/.venv-btc-eth-original/bin/python", "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded_replay.py", "2025", "ETH", "funded"]}

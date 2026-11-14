@@ -1,0 +1,1378 @@
+{
+  "source_commit": "87f94d2e29b9832526e0aa35c0400c7ed7496805",
+  "branch": "codex/extra-sizing-cost-stress-20261114",
+  "parent_commit": "602476b77c1b137c79fe492cc4a422c916a7ede7",
+  "files": [
+    {
+      "path": "EXTRA_SIZING_COST_STRESS.md",
+      "bytes": 3272,
+      "git_blob_SHA": "7e5aa12d285f05f93e658d8d3c6188bb9477cb78",
+      "SHA256": "d48b3ac1d17e94633a5aa7b01bd686e08b497ebfecee8d21db600f77a0e93455"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2020_BTC_baseline.log",
+      "bytes": 52,
+      "git_blob_SHA": "122131f51f295ac1a5134585c96a0e8ad69012e3",
+      "SHA256": "aa5a8860eaa06597bc0180e374a1e83b43247d55116a310741da51fa09f45424"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2020_BTC_experiment.log",
+      "bytes": 16241,
+      "git_blob_SHA": "89a016acb2fca815092c1a18547a63f11d196e51",
+      "SHA256": "e6f4d2f6c6a381f96b93770a20f371342a1e71adf7e89c63653dff1b2f49a7a0"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2020_ETH_baseline.log",
+      "bytes": 16398,
+      "git_blob_SHA": "a299dd47b47299ba466bfdd7d7d085893e98682a",
+      "SHA256": "0382eeeadf312b3600f3eab5fd442c8743775ad6ba44c6b0b46c2a290ef12f92"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2020_ETH_experiment.log",
+      "bytes": 17240,
+      "git_blob_SHA": "e71f66365b302e3d6c5324390bcfb1460c5ea2e2",
+      "SHA256": "d3d2b9b8fd670a59946c8f941eb9c5a8f8ce3869e610862a74fcfe430afbb2f2"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2021_BTC_baseline.log",
+      "bytes": 26,
+      "git_blob_SHA": "66a18fe133379282dbf762e827e0e84212343c6d",
+      "SHA256": "a2fa9c40ce83b3d001343cad7c41189e93b885a87f040053c4ff6a9cb311c630"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2021_BTC_experiment.log",
+      "bytes": 18248,
+      "git_blob_SHA": "901b3f2745f6f95a260958ed1a4c8dad4181c8d4",
+      "SHA256": "84560037c902ce29b002a5c363d27373ffd02411e2dc0c6e1a74bae85112603c"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2021_ETH_baseline.log",
+      "bytes": 18687,
+      "git_blob_SHA": "3b3f9263d9454d083cb104e222d9cd785c31d57d",
+      "SHA256": "9d507c40494acc1643f1d0b87cb221ce3b7d5f2cb4deaeb2c32d2993db0d38ed"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2021_ETH_experiment.log",
+      "bytes": 19346,
+      "git_blob_SHA": "1ebe6021c582f5d1c5e65ac36d456cb5288b2f09",
+      "SHA256": "c41469c6af36798fcf4545a8d51c6ada079c0f8d2c735508526dd174bd9a42dd"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2022_BTC_baseline.log",
+      "bytes": 25,
+      "git_blob_SHA": "2908dab49dc9db63d92a3f549994d711a7a24f63",
+      "SHA256": "5e49cd7dcf35230f0b5be9bce4a648dd63562ed36423986f0600b96a097f838e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2022_BTC_experiment.log",
+      "bytes": 18386,
+      "git_blob_SHA": "9fc61bfce978d8843d89d62a4e67e4e08de9c732",
+      "SHA256": "249823d3e4926780bb088d8c3f476515b484fb32dbc26305869c6f716aba2f7e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2022_ETH_baseline.log",
+      "bytes": 18574,
+      "git_blob_SHA": "bdba6138f5d626d8141523ed232eeba40221645c",
+      "SHA256": "8c80dd1619e8c51e54250cc8220d9714feca27a75864eca55988a45f973de7a2"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2022_ETH_experiment.log",
+      "bytes": 19412,
+      "git_blob_SHA": "ef2f5fd9814b4e80ae10900465a241f79a31a8ef",
+      "SHA256": "d397e02fbd4a72bc6565628bce52d527082572a60bd5cf2204f12e1c5408456a"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2023_BTC_baseline.log",
+      "bytes": 26,
+      "git_blob_SHA": "f21e1b85b3a14e74a200fb914ee4c99cf1439616",
+      "SHA256": "5be6b29f5de338b1f606377ea4a5c8c5228a3b1781055b08543976f878a4a92b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2023_BTC_experiment.log",
+      "bytes": 18562,
+      "git_blob_SHA": "f513291fef5f7cc9ddf131b8a354b63469534c8f",
+      "SHA256": "5fa9070ee344df2597811b72e709743b0559daaadc82db9de107e273ee798325"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2023_ETH_baseline.log",
+      "bytes": 18785,
+      "git_blob_SHA": "aeae43f756d54f4c057cd0c29d7b4bf0133238a5",
+      "SHA256": "b3e8c942461f7228c03147af0772c2137fe90e69714141cc0ae4fe1bd2e4b8e5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2023_ETH_experiment.log",
+      "bytes": 19624,
+      "git_blob_SHA": "9060f1c4899bb4d6e7887d1931b6d0b951517a56",
+      "SHA256": "b07394566a9a4a1bc05567b25becd1ae7c316052e43b5fe80bd8e215f308e29b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2024_BTC_baseline.log",
+      "bytes": 1702,
+      "git_blob_SHA": "a46a2e99efd99b4ced5f70bcf3347d0d1cd04a01",
+      "SHA256": "8bf31cabd7f8d57ac72f30db901b4f6ce175d49233cc523ce0b906ef671d58f6"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2024_ETH_baseline.log",
+      "bytes": 21093,
+      "git_blob_SHA": "2a310557736c2f916346d85b135d303985b870ef",
+      "SHA256": "324c54a8f043f96d3834d2a6b71fff9161dc43b4733883592e7cd230bf68a77c"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2024_ETH_experiment.log",
+      "bytes": 18668,
+      "git_blob_SHA": "c57b912c5529bef6f22c76ff3ea6ede594e0f5eb",
+      "SHA256": "157533cc6b733910a145e07788b4ba95b92c0d0f4624ff45fda02257741d510f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2025_BTC_baseline.log",
+      "bytes": 26,
+      "git_blob_SHA": "4b17666f5b20fcc7151bd1e41d1da09271fbef27",
+      "SHA256": "2c18d9368a337d0a8f9a28c9aac1e210208fcc6a0643c755bdb48151f529419f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2025_ETH_baseline.log",
+      "bytes": 22671,
+      "git_blob_SHA": "e3706611abe49c73f5bd591a8e5969681c349f3c",
+      "SHA256": "9f14640a4e6a2897c9880a2addfc3049288a53dd314bef2cebd82d156ba33d0d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2025_ETH_experiment.log",
+      "bytes": 21226,
+      "git_blob_SHA": "732e34bcaad4084c02108d693a52f10b0d245437",
+      "SHA256": "746000a660f1cce7073ebd1f188efc8263d7c5ba34d3f707eaade752550149eb"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2025_scenario_ranges.csv",
+      "bytes": 22969,
+      "git_blob_SHA": "5fbd17e0a3d52364ebebaaae6b6d19493c3033b3",
+      "SHA256": "47f24145ba4e0a2f5bc9c2f644462596723739b34ca414e82cbcb14ab0d07d93"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2026_BTC_baseline.log",
+      "bytes": 25,
+      "git_blob_SHA": "10dd0e7d2161a5dd06f286546c1d654c3864c5f7",
+      "SHA256": "19a48d1e8c8316e91342048356fae8d597bcafef5f856210569d6e60066d77f1"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2026_ETH_baseline.log",
+      "bytes": 15695,
+      "git_blob_SHA": "d20db840abe4d1a2dd8a385e5d6923a657971ca2",
+      "SHA256": "6f20e3a14a55e3696fec6c9beab2de8c394ad196c07020bafccbc742a7d36191"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/2026_ETH_experiment.log",
+      "bytes": 15439,
+      "git_blob_SHA": "64eb0bf913f5a2b4cd78b4feb9a5e67bf7d7b604",
+      "SHA256": "493b2fc2f0378aa81b5466d23b8fd0e65c84fc6ded3d80e208465ec1b03e1d89"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/BTC_reuse_proof.json",
+      "bytes": 10985,
+      "git_blob_SHA": "b9bec910c382a302a26e783aff8f51b52eadc6b7",
+      "SHA256": "c95d607e3dab1cb80071efe5dffb1546fdf6a30d69e939f4941ff3f7deb44ad3"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/CONCLUSION.md",
+      "bytes": 7452,
+      "git_blob_SHA": "9e2bada0bc26ebc471349bb4414ed3ff979b81c8",
+      "SHA256": "86602f3d54829cdfaa14695e29dbf0cb9c0b9b6aed0d6aa40fb2bcd339813c62"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/DECISION_NOTES.md",
+      "bytes": 8537,
+      "git_blob_SHA": "108a74c6cf993dedb9d0e336a8f6832ed31c663d",
+      "SHA256": "41219f2ccbcfc923abdacc008a4b6651321c0530fbf642cf2646e00c9f34892d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/EXPERIMENT.md",
+      "bytes": 5110,
+      "git_blob_SHA": "52ad931e89c916949dd8a0344c61d9e5fd0ef233",
+      "SHA256": "7def0db69dc5865333094b44a43ab751fb654d526b5ea74eb3a645bb385b201f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/FUNDING.md",
+      "bytes": 2013,
+      "git_blob_SHA": "ebee4d4e2221ebc8948daed97a446cfcce28e368",
+      "SHA256": "d349839e57c92f68fef378273fe19c3943bf0d14634721a2f19dfdf2f0685981"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/ISSUES.md",
+      "bytes": 5432,
+      "git_blob_SHA": "8de7c2563e22d0b11fcf392c706253e762ea23f5",
+      "SHA256": "4d8742137a70b008de69303514b69ef8860d738ff602ecbed99c2e7e03698c7b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/NOV_BTC_baseline.log",
+      "bytes": 1621,
+      "git_blob_SHA": "bfdb62a10a39c19c600fd18913428589e4695e1b",
+      "SHA256": "92a34b53132f16edad384a01eb3b10296c4feaa88aa59d6380801596b3c8a9b1"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/NOV_BTC_experiment.log",
+      "bytes": 890,
+      "git_blob_SHA": "2e4e8558569936fd9a21f98baa78f5fc1c6e1a8b",
+      "SHA256": "34ba6e48be4957a3cae7b6ae612804a3ae4f4c72e43a8c9cf6e42d229e99e447"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/NOV_ETH_baseline.log",
+      "bytes": 2292,
+      "git_blob_SHA": "0be5540c68367d7a3678231c5f9be70445d24757",
+      "SHA256": "e1da058f2e5148d73d235d88dc20ed8e7ccf50f014b1581eb15533af1feeac28"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/NOV_ETH_experiment.log",
+      "bytes": 1973,
+      "git_blob_SHA": "67f41c4f6b2a632ad1e038287e3cfe7416b41502",
+      "SHA256": "b1574a0b26a9edc8dc7f943deb5d67a0717d57b51b6ccc55185f475b08c2b2db"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/RERUN.md",
+      "bytes": 3230,
+      "git_blob_SHA": "82dd9d1b36628b694e099b32df5d397b870dc331",
+      "SHA256": "d33e71abdb111d403355bd8d1e6fabfe08a6d324d4b48a2fa3da4e8c9786c2fc"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/SCENARIO_RECHECK.md",
+      "bytes": 1007,
+      "git_blob_SHA": "11599c6a87faf5ef530df7b0c522a6e090d89416",
+      "SHA256": "8fbfa31bda325b938c587d7f80c2b8effa5bc0fef5d207bbe5d3c540a117f911"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/SCHEMA.md",
+      "bytes": 2655,
+      "git_blob_SHA": "a08fc1d96a29fe80ee5cac3231e70a19e5e13434",
+      "SHA256": "67de9cc25b3df848d7786b7f088de776bb802739a1c200b3761c87632285099a"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/TEST_RESULTS.md",
+      "bytes": 1826,
+      "git_blob_SHA": "824faaecb37929e4156702781441c64d5d045bc4",
+      "SHA256": "1645f74c421f46d4a8f3a630606b66a1cca2aaefa46a3ce4ec47755db2d8a995"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/V2_events.csv.gz",
+      "bytes": 1864996,
+      "git_blob_SHA": "1e6ff71d83648a1a94704f75f40f2cc277ffc4f0",
+      "SHA256": "a2c4be9b5c3a6e9dc6c130d77d8073e5bf9c7f5a760215ca561144f4af4f9151"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/advantage_retention.csv",
+      "bytes": 42389,
+      "git_blob_SHA": "008f1f0a7caa482892b73bb8557388e50364c8c5",
+      "SHA256": "b7d1f6f9961d5978fa865521c54d50c567880ae9f4a0b10704875d5b9c31f43a"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/analysis.json",
+      "bytes": 442,
+      "git_blob_SHA": "0e0d46ec67ccbea7a465441e6bdc79eeb714c8bf",
+      "SHA256": "11b3b6b7df262b6040fa1825ac200ab7c0d170b0b97679182cc2026b14fb8b15"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/annual_matrix.csv",
+      "bytes": 2008458,
+      "git_blob_SHA": "c36ce88f3fdf141b00e78c67a8bccca75e78dc4e",
+      "SHA256": "3c67f7399076a6a6e86aeedda180ec7b1a62527e2546e032b2f9c3564e24cc70"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/anomaly_validation.log",
+      "bytes": 1634,
+      "git_blob_SHA": "5f3d3c6226b649633503c12715095821ad5b1bb8",
+      "SHA256": "ab81bde939d5acce5f48fe8a7d6d105f9f92154dcb68905efd7e85c5808ddbe9"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifact_index.json",
+      "bytes": 3728,
+      "git_blob_SHA": "e0b4d622a149806916f2317173f00b197f67fe9d",
+      "SHA256": "ee3d1dd53eec9568061bc7e552b1c27c14d9cf23ec06a6a182290b67abb8582e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/audit_source_logs.zip",
+      "bytes": 1551068,
+      "git_blob_SHA": "ecc19bc770f3832615c481d588b10385284e3719",
+      "SHA256": "ee2c7a0fde371e793cb5f2966103249969fd06d3ec954ae8c51944ba897070d9"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2020_ALL.zip",
+      "bytes": 1370407,
+      "git_blob_SHA": "5ee4da15f98717033cc3e5ce10f553bb3402752e",
+      "SHA256": "c60dae30e82806467dd5c8af74617b50d13c5670d9487f793a5316ee7cf6a450"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2021_ALL.zip",
+      "bytes": 522770,
+      "git_blob_SHA": "f5a41598f9be75dc1d8e20cb870ebe60198b1008",
+      "SHA256": "abae2c43a6d2ddd8c07f03477411ba1439349830a69728b92e518544c4d339e8"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2022_ALL.zip",
+      "bytes": 1300134,
+      "git_blob_SHA": "fd7a49062c1c2d6164a7587a7f86cd6fb1d68dab",
+      "SHA256": "dea884b172f04dc77fe1699dbefef6beea94fbeb13b9693cf8f1c7fe64f0a4e1"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2023_ALL.zip",
+      "bytes": 2093778,
+      "git_blob_SHA": "db90a63ad843a9b95e72f9d35a21aeeef557bc36",
+      "SHA256": "d22e0a38991e99d5f0a34b398174a0704d84802008a8d1555a85e66243cb3c0f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2024_ALL.zip",
+      "bytes": 2494639,
+      "git_blob_SHA": "5af81c065caa526c73698597a7d334769e6f4fce",
+      "SHA256": "67fdca443b310468dc9b59abb0cd46216c8b4cc3a2ab0f470d11c3957c4e9224"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_S_000.zip",
+      "bytes": 2089096,
+      "git_blob_SHA": "e53ec18cdd1ea42bf5c12e3a92a2ef881a7e109f",
+      "SHA256": "cb9f7b4502ef0317519ffecb09e87cf674e53ae92df40281e61e877f22cb0497"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_S_001.zip",
+      "bytes": 2089126,
+      "git_blob_SHA": "14884433f2e9acb8672f72c17d53d2815a348b9e",
+      "SHA256": "098bf7d9e686be36933e2ae6997c1fd543624df43c24cd90e488c98c5124bf88"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_S_010.zip",
+      "bytes": 2089121,
+      "git_blob_SHA": "4527e99f3375ac5af2e4dd68e65b1ab94743c0cd",
+      "SHA256": "3ee714f81745e00122ffb494bd382d21d70c62e7d9d5e4cf4f3ee40915732248"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_S_011.zip",
+      "bytes": 2089137,
+      "git_blob_SHA": "28df19065fd0a5ae8210249a651659092c8713f9",
+      "SHA256": "f8f88375b53f20dbe18449c97023e3a8d7c3e55ed4e40a2a85b13f85c8385a7d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_S_100.zip",
+      "bytes": 2089093,
+      "git_blob_SHA": "1e69014fda1a6acd4b54949717f30e9f82f40857",
+      "SHA256": "79fb422e108d78866fb5b46e4d61a865726180be87a8e4035afa93f0940a90e7"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_S_101.zip",
+      "bytes": 2089123,
+      "git_blob_SHA": "fbd71abed696145647219e18c846b04fe71f46f4",
+      "SHA256": "7ab8fdd631c654713090cfe0e28f60c793cbff69bde1701f40cbe847312db55a"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_S_110.zip",
+      "bytes": 2089109,
+      "git_blob_SHA": "80c8d105ef589b5dc2489f6233b1cf99f1f7060e",
+      "SHA256": "933df06ff3a32b352bab7b0f47a04f6c0710752484981b02a06ffdd3ea2826d9"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_S_111.zip",
+      "bytes": 2089128,
+      "git_blob_SHA": "6760c6cc2c15a33b9bdd6b89f29444f074104f3a",
+      "SHA256": "f37be2c91f1e813ae8c987ac1a541bada20fb30628c1541a241f5bc26631e798"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_S_ALL.zip",
+      "bytes": 2089221,
+      "git_blob_SHA": "2273eb242f4e16120dcf8f97a319ba64cf18bfe5",
+      "SHA256": "b4344ab339140e5eebad06ba5e944506433a9b440b35d71b6dca26f075a47ae5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2025_shared_BTC.zip",
+      "bytes": 444337,
+      "git_blob_SHA": "6f8e787e5c75f434ac573d8864fffe82a39bc4c1",
+      "SHA256": "6f0205db46a9fd635df7d1f2ef822c5191c4b424a4d1488b41df07b5edb5be01"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_2026_ALL.zip",
+      "bytes": 2512042,
+      "git_blob_SHA": "784e19956b1ffebdc0ee8384a47e7a2a3a460a87",
+      "SHA256": "5cb745567d1e631b8d0a9f6018bce4dd7e16ea0940d2624c4111c72dbc58b4e3"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/ledgers_NOV_ALL.zip",
+      "bytes": 239214,
+      "git_blob_SHA": "529e42fc06513de08e42719582aad0669e61d3bd",
+      "SHA256": "b5bdb2075b2e8e15b7b41ddaa3249f7447ee0bd6f8d98a26e54f9a1f76f6bb98"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/mobile_report.zip",
+      "bytes": 52661,
+      "git_blob_SHA": "a4af995f199a0a8bd928d71a1d1f3dc8902b1fa7",
+      "SHA256": "38cf48c7e4248591a37378158979690bf40fa3d5ebf4cefee5e8c3b95e18d3df"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/artifacts/official_funding_sources.zip",
+      "bytes": 586768,
+      "git_blob_SHA": "c48f09afd3bd747c948e1faf12c516c8b98cae07",
+      "SHA256": "bb4650145d3448025d777dc2f481100b4ee9f629126b8746b6dbac9256fb1478"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/audit_finances.initial_final_failure.log",
+      "bytes": 1020,
+      "git_blob_SHA": "5be5523712bfdc88f394eebd21403b80afeff5f2",
+      "SHA256": "fa2a5105b4ef8ed0d11958022134daabeeb58b4466393a0eb86cf9e09655535d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/audit_finances.py",
+      "bytes": 7222,
+      "git_blob_SHA": "fdfd36327b159a7cda4ab3766d5022b496b1624a",
+      "SHA256": "0323db0dcf0672c9d23ddbdb224b0aaa2af7d6ec36fa862682ce45ee83e98d6d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/audit_finances.py.final.log",
+      "bytes": 1020,
+      "git_blob_SHA": "5be5523712bfdc88f394eebd21403b80afeff5f2",
+      "SHA256": "fa2a5105b4ef8ed0d11958022134daabeeb58b4466393a0eb86cf9e09655535d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/audit_finances.retry.log",
+      "bytes": 27,
+      "git_blob_SHA": "62f55cb6399b4b8ac4b4cc6e7ff65b8806ca2cfe",
+      "SHA256": "19f5ee70b614f65ade52a3e42ac18eaca188890593dc462cf37ed97bee58d27a"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/availability.csv",
+      "bytes": 45806,
+      "git_blob_SHA": "38897e327b748af4876802464b1da5c66a498089",
+      "SHA256": "45e3b49cef2b1b1d9faed89edca9d00866db582ca108493fb6cb3c781a028b2e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/baseline_regression.csv",
+      "bytes": 13119,
+      "git_blob_SHA": "63b21447e2e17cff64b5904e4e496b171109ee23",
+      "SHA256": "abbac4837bbedcbbbd83b7ff11c98e54e56116a7a7506028e58e6e0f5cb3bdf0"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/cache_validation.json",
+      "bytes": 9152,
+      "git_blob_SHA": "3a4b3b00ccf6a6094004784fb3d33ed9fa75d9b4",
+      "SHA256": "03fcaed0b8d6089a15f67b46849562a64d329a115f687c7d072428f5a9f6bb9e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/cache_validation.log",
+      "bytes": 19,
+      "git_blob_SHA": "d1fff61e8ddf15c11bef8633af8950d3c8baf92b",
+      "SHA256": "783a7ca2ad46cfc3df5f1e0019ca141d490d2435400e267641c24cec6b009520"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/cash_cost_reconciliation.csv",
+      "bytes": 223605,
+      "git_blob_SHA": "910b8ea57b505f794314001a1cb434156401399c",
+      "SHA256": "b0e684a4ac5fa5b6c176d5998b63323d370ffe5f53e1e10a01f0ef3908ac1366"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/commands.log",
+      "bytes": 3033,
+      "git_blob_SHA": "41cc25fca8e44e7c577cacd931bed14370853fc1",
+      "SHA256": "a0419e28090d30be4ccc91a9fed8a6532762496488ae7ec281df9e0e97170bcc"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/concentration.csv",
+      "bytes": 21531,
+      "git_blob_SHA": "37f8cf59fd5b5ddb45428753d200f0487d91dae3",
+      "SHA256": "60f07a46543adcdbe34633e4b62d31478c2fc4852871786a6cfbe9d54f7a4d12"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/conclude.py",
+      "bytes": 9908,
+      "git_blob_SHA": "67660b23c1563c1a9811b74242428aeade70e463",
+      "SHA256": "edf980acd2466adcce6af4fe034ef525bc2f4f9fe87cdab455f3045540acd519"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/conclude.py.final.log",
+      "bytes": 101,
+      "git_blob_SHA": "5a929871a56841c8603a7e0b8bc6445cbbc56d2e",
+      "SHA256": "e54a058bcc2e029facd506421a356738ccc80e58a9443fe60081c5a694430fb0"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/conclusion_summary.json",
+      "bytes": 258,
+      "git_blob_SHA": "daab44c7d388ffd41cb19c15950887027d1c38ee",
+      "SHA256": "25f8e1bf0233c00561c30d91464e76a30baacbf48802bcd4a45136ffb26931ba"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/configuration.json",
+      "bytes": 1917,
+      "git_blob_SHA": "7d44ec49c2370690d37ddc4fcd419a2cf791002c",
+      "SHA256": "49d42bc8e8d4faa6577609642074ecc68ac3a534d10cc591a57ba112e7cacde5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/core_extra.csv",
+      "bytes": 363604,
+      "git_blob_SHA": "66be67a29f0fcae4c126618c718c14ef5d338127",
+      "SHA256": "466bf1e97cd09841e718dbea966d6c77732bcc2c3e0bb33c45de2848c030baab"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/cost_decomposition.csv",
+      "bytes": 800166,
+      "git_blob_SHA": "a24b86a4dc4e29d3fa012fbe5f5e4a3d4eb07d54",
+      "SHA256": "17a0018aeba0dfa58d2b6dc4f2667f22e0d35ca63261fe6b2098619f2bbb37b0"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/cost_decomposition.py",
+      "bytes": 2116,
+      "git_blob_SHA": "da8dee37ff357cf948e9f093d4e4dafae72a63f6",
+      "SHA256": "f48391a918b54d95a8943b89e4fc7ee4ce09a68281d615c9e91d2ec077816d8f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/cost_decomposition.py.final.log",
+      "bytes": 24,
+      "git_blob_SHA": "7a1bb91452189fd652352ffe6c56ad794619ecb7",
+      "SHA256": "526147f2d7ab73d1f88f0c0b1146884cbdf16f9fe30d0b8e55caf136e222a643"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/cost_engine.py",
+      "bytes": 4213,
+      "git_blob_SHA": "25c9f2c19ebf3e256d679ff2302ce8459cbae2ad",
+      "SHA256": "f79666b00f90a6ed0bc00170c13e5de0227c9c5531ee0960a1eb627114fa328b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/coverage_audit.json",
+      "bytes": 575,
+      "git_blob_SHA": "8f32526cacab96ac61658dc8fdc926b26b7c1854",
+      "SHA256": "c8e3429d5248be3a522128c3ed4da135c0aaf6ca4f36bd2e03f2078cbcfaa434"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/coverage_audit.py",
+      "bytes": 2005,
+      "git_blob_SHA": "8cbeea7fd08acca49c9740d0cb3392a4892d94ce",
+      "SHA256": "67d4dba2cba827e83a5dd012da5b1d9415b095a31e0bd5817a9b5d7d3b06039d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/coverage_audit.py.final.log",
+      "bytes": 546,
+      "git_blob_SHA": "5933be313e9f5360edf7d5c275977fc70367a9f3",
+      "SHA256": "4379c289c7f088de7e3d0fa8844c295c79fb50e1c07bebd90846332f1f224e4f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/decision_notes.json",
+      "bytes": 8996,
+      "git_blob_SHA": "29a479f7c6d190fbc8c36b39866ad1117feac430",
+      "SHA256": "af6c388d367f2945a992d4530ae9e39b8c5ca5b4d38c70c5f8773dabad4b2fb2"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/decision_notes.py",
+      "bytes": 8164,
+      "git_blob_SHA": "ed8cc6ea902d3977288de14b2eb9983ae1f83f6d",
+      "SHA256": "df6453ba1ace6a0153088b6653974dc5aec7c5517f470dbbe125044333819842"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/development_subset_compatibility_before_scheduler_stopped.json",
+      "bytes": 1842,
+      "git_blob_SHA": "76bf376e5e1cdbc064916b963edb01641798863c",
+      "SHA256": "0ce0e4c26854e00964b1d2fe649370ac2afad5f8dabb7a40879245aefe6455a5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/drawdown_extremes.csv",
+      "bytes": 122492,
+      "git_blob_SHA": "bbe0b55b7f10a2291fa82166d513d7f96c4d952d",
+      "SHA256": "58b59345c8571efc721ccfeec376fef4a425f77c5d701226364bb7b5361cacf5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/environment.json",
+      "bytes": 394,
+      "git_blob_SHA": "26eeb3cf01850572cdb926a57324a66ceacc3bdf",
+      "SHA256": "a21bbe57681f7931a5040468844062aa1d334ba03dd86dfc3a26d0bc449f0cf1"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/equity_array_manifest.json",
+      "bytes": 340556,
+      "git_blob_SHA": "fbb81b5eefba414b2d7e00f0178e9052f92e8582",
+      "SHA256": "6b98375441570f0463b01f98b8a70658f7ea8665601f181d81e2a8a43f032aa9"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/event_export_summary.json",
+      "bytes": 155,
+      "git_blob_SHA": "920f57bb226c039a85982d82ab24bfd1a5ac4670",
+      "SHA256": "6a189055fcda000268732ed7042076da0801b841adc0a64f8d3fc18c0795f74b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/event_exports.py",
+      "bytes": 1649,
+      "git_blob_SHA": "a7cbf8ba62712c7a2b02446e8e6faa8fcee2df06",
+      "SHA256": "2c1e9fcd11cfe653e264f2a7cbecaa6ff77740c54c574fe5fd0e95c2320beeac"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/execution_status.json",
+      "bytes": 3875,
+      "git_blob_SHA": "089625b57e5657f37453a6880d38dcef29379894",
+      "SHA256": "a17fd5d3cebc5c013fdc5fbcd96e2d6e89a2d297ee038e17c58dc4d019523c4e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/fill_sensitivity.csv",
+      "bytes": 40423,
+      "git_blob_SHA": "c8b9109c7041bf8901e6cccc5915e6831f92bd3b",
+      "SHA256": "040dfc7e53bf0ce0d40fdcaf900d3ad1b60162c54b36c8141a45a207d0b800f9"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/fill_sensitivity.initial_import_failure.log",
+      "bytes": 440,
+      "git_blob_SHA": "96e0fdd8b4c1c64d0722e8ccb7d9b50f87231664",
+      "SHA256": "638dcd9b0de8a84d09c08d7b5cdd831712bc3d665d97a5924251157db01cd8d7"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/fill_sensitivity.py",
+      "bytes": 2472,
+      "git_blob_SHA": "b59a035d589c18981775274a37f7fa295ba071cf",
+      "SHA256": "9bb99f75ea1863dda545bc5a82170f4ac35eb52b82a5743bf9642ccfb53e24b8"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/fill_sensitivity.py.final.log",
+      "bytes": 26,
+      "git_blob_SHA": "655b760bc708464ffec154bafed359d798ede013",
+      "SHA256": "4d53767c8f760a4e46cccefd1227adde19589e6f7eae8a2a4f74b84ac37bb7a4"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/fill_trade_attribution.csv.gz",
+      "bytes": 1040003,
+      "git_blob_SHA": "c50222e695875de26234279b9c066aacde3d3499",
+      "SHA256": "f8b5e32507d7b408edcb3ad6134d81ba8ec577c7c4b83c88e9fdce159317d4e5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/final_validation.json",
+      "bytes": 2111,
+      "git_blob_SHA": "92ee2e4abd089452ac96101c0b9b8b602d9f3326",
+      "SHA256": "595cc2337c0deeb43666dfdb91f214d4e07325a06bf96fc75ba2f516a8f7f37e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/financial_audit.json",
+      "bytes": 211725,
+      "git_blob_SHA": "c8796ccad48c41d902e7d477c0e58b87322fbf94",
+      "SHA256": "08cd322cb66a746e34f12ef7ea6cc230eb012f8784c8e5c4ea5d941341b1801b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/financial_audit.log",
+      "bytes": 27,
+      "git_blob_SHA": "b3e491e7b61119509afe76994bd64a6784f48b02",
+      "SHA256": "11e082d240e1752b37be7b8ac6cdc1476a4891191afbf1fa1ed7d1107d464ca5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/frozen_code.json",
+      "bytes": 256,
+      "git_blob_SHA": "d203534855994e40c67731a90c98a7f506ffc95f",
+      "SHA256": "3d80d49799bfd3c264528aed30f5c76e62518b5f112b0b911247969ab68306b1"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/frozen_funding_code.json",
+      "bytes": 183,
+      "git_blob_SHA": "20a916d7ac09ce0e31e08bc3aedcb8e092717577",
+      "SHA256": "a51131f92e762c4faabc84a8e285dd042bf777ead6feb6bf06bcd3b194a5dad4"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_2024_BTC.log",
+      "bytes": 18475,
+      "git_blob_SHA": "400710ae46f1c0189ae696a41801be6f0b53c40e",
+      "SHA256": "308533203506975226eecf005468b1bbac3d532168078071914f72b90bbc96d8"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_2024_ETH.log",
+      "bytes": 19485,
+      "git_blob_SHA": "533237f021285638d371c37582a68300622ccbd9",
+      "SHA256": "54d42182448c5ba4b2d95e4e946b0c568c896e38a9c900fba22d62a16a3f1a5c"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_2025_BTC.log",
+      "bytes": 18461,
+      "git_blob_SHA": "5275854686521d16eb014b506316293d8ce2fd63",
+      "SHA256": "c28d998cf3813413a788fd96d654007d509d13577ac9eb78520013ab2861f31c"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_2025_ETH.log",
+      "bytes": 30020,
+      "git_blob_SHA": "9d804ce23faedf9ed094ca4c5452cd715c0a4bae",
+      "SHA256": "11055c100663c677e95e3e7cc90b5157200dc302dee71845eba25732870953a5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_2026_BTC.log",
+      "bytes": 15471,
+      "git_blob_SHA": "be2c90f545518f0ebe90face350239cd25639f81",
+      "SHA256": "1808c49df56d99482e619b51cda31201346dc73c49d2f1d01a9324dc66249b41"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_2026_ETH.log",
+      "bytes": 16476,
+      "git_blob_SHA": "e0dc01446c6c2aeae9936312cc376efd1817f4af",
+      "SHA256": "b0ee8b7abead9824a721021078d4bb9083a740ecab3783a858736c5c7c2d35f2"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_NOV_BTC.log",
+      "bytes": 869,
+      "git_blob_SHA": "325c147c97da6fb2bbf233617c171414c8c64ab7",
+      "SHA256": "571c95a7bcb0a17a596cd36b62385394d0e08b24d836e8aceb4ed859ca5ee9bb"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_NOV_ETH.log",
+      "bytes": 1894,
+      "git_blob_SHA": "0ecc5f80e884aacb8fd82888bc7221b4cd55e389",
+      "SHA256": "a90c4f29f0176229d03000beceb4172a8c433933f71d37b80cfc4dd414fae1e5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_execution_status.json",
+      "bytes": 1618,
+      "git_blob_SHA": "c1c3add172d0efc82beb8b8f65b74f9870c255ef",
+      "SHA256": "df2a3afffd81bca9ae3a3b0fbbeacb6f8e7056452a68cb45540291fd661a3528"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_replay.py",
+      "bytes": 10325,
+      "git_blob_SHA": "0c35d1a0d31872335faf2d1ea10bd69d3eced1a4",
+      "SHA256": "218ccf81fda1e132ce8677f29549611bfb577fb4f5ba838d255dee728f1215e8"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_supervisor.log",
+      "bytes": 415,
+      "git_blob_SHA": "c298ec33c4754a9cea017207503635038b6b7b33",
+      "SHA256": "777d5b2458bdb507b32ed93ebf67bf6dbcf9640346730507cb8d1b96e1d3e4da"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funded_supervisor.py",
+      "bytes": 1959,
+      "git_blob_SHA": "26c09f9427d84f2826d1bf352949008388f61bde",
+      "SHA256": "4ff9485140ecfdad563141fd960a84b501c442624b765325ece9aab5246a35bf"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_api_retry.json",
+      "bytes": 207,
+      "git_blob_SHA": "f81ef80010f2fe9db758cbcca60c33ee034ad5ac",
+      "SHA256": "0c184a5dcc602f02a9b65e0769a0df7f730a92e2352d93bffa63145dc634ac01"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_blockers.py",
+      "bytes": 1999,
+      "git_blob_SHA": "3c3c420865b37c366c565e0e86df931362e3b417",
+      "SHA256": "f0f39056fe92e3b93691b120bc5e167e0154afd6b8e1c5f0beed37fa32c51577"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_blockers.py.final.log",
+      "bytes": 34,
+      "git_blob_SHA": "95dbacc7e8b52f05653ee2158f8f383ce52f2e3b",
+      "SHA256": "20179311bf76dc118c2f662982f1561285b85995bfda9e206fb33810ee19db2c"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_blocking_events.csv",
+      "bytes": 27818,
+      "git_blob_SHA": "44f6e234c4cc09d6a4d98f9ac1bbdb3904bf6e6b",
+      "SHA256": "df0d958f20e5075d27757b3e149079aa002458801821582ea528ad388dff5cc6"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_cash_events.csv.gz",
+      "bytes": 1697981,
+      "git_blob_SHA": "6cfcb4fb52262e46ade7ab2811627354635a6758",
+      "SHA256": "724a1cccff905b364c6b2bc1746250dc77f0837f99ef48d82a8aa7e104c507da"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_coverage.csv",
+      "bytes": 1224,
+      "git_blob_SHA": "87035459ea5b683771ff930483e67b16762c56e6",
+      "SHA256": "8e5b7481728ce387fbcd2b9bb0dc2ad15926582a792c74796553f4a68e964cbe"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_engine.py",
+      "bytes": 2565,
+      "git_blob_SHA": "7e8e413127c288162c3b38d0635e49360df6a0a8",
+      "SHA256": "4d8cf2bad8e90919302bbf47bd3d1d976511c0d2f2424ce1e6373293c069656b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_fetch.log",
+      "bytes": 624,
+      "git_blob_SHA": "59f1fd489504bfb528a9c46f44b5bb698da30c16",
+      "SHA256": "ad07a5f241175190e52efd15272861e52a68e42573216e9b0732b4f535060df8"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_fetch.py",
+      "bytes": 3391,
+      "git_blob_SHA": "06267253232374eab559df4738b3ce541f2139b1",
+      "SHA256": "04a31b19790e36f3d5fdefc3c6430f02436c2f2e0768f5e1ffa8c39d8baa9c33"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_official_fallbacks.json",
+      "bytes": 4617,
+      "git_blob_SHA": "3af4470f783b03c8513a3bc11d8c82489d994810",
+      "SHA256": "f26d51552fd9429c27837be8c785e8e393800b78dc5076d9cd6252e87a0bae62"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_source_probe.json",
+      "bytes": 4436,
+      "git_blob_SHA": "db2260d1e971f83ffeef8d16c52e1bcbc8494b05",
+      "SHA256": "488af822d07562f554ea8c327efe0014c4abbe4b95a31fbc7d4c774d053cccaa"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_tests.json",
+      "bytes": 1173,
+      "git_blob_SHA": "ff827703c2a0533694012a7af38dbb1db1007bc8",
+      "SHA256": "7aa85dbf781254945bc0e3f4727cebbebc167896858499f583d34c1919cd31cb"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_tests.log",
+      "bytes": 826,
+      "git_blob_SHA": "e417592788996777df76b18b41ed83b749b2fcc6",
+      "SHA256": "fb026b2dcb84d9732d59446d73b4f5b1b0451527898df1182575f20ee21a1818"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/funding_tests.py",
+      "bytes": 6405,
+      "git_blob_SHA": "a88a81b86c1635a96f8c538e5213897d48a942d7",
+      "SHA256": "6d1eac068b36c9ee6792c6cca6bc4a9b5e2eef3cc53ab825e1d03b931f4883a2"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/git_checkpoint.json",
+      "bytes": 530,
+      "git_blob_SHA": "2dde6b6961e1e57e9eed758c7112273ceb725f69",
+      "SHA256": "a4a097eca79695c66259d2a6d128dfc7e837719b18c8650c82091a1d0a898559"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/loss_amplification.csv.gz",
+      "bytes": 2090899,
+      "git_blob_SHA": "9329940961441041669e79613463dc3053d7d11e",
+      "SHA256": "80f750142e8546b110f736b0318d10db9dd52952088304bfd36d068424693288"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/make_input_manifest.py",
+      "bytes": 935,
+      "git_blob_SHA": "c3ac4320c861a8bca3a7917f04fdaea66cb018c8",
+      "SHA256": "d69d9157c1112e9ed1c8692b3cb8bdfb039299d40d83d5935940822f53afb513"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/migrate_sizing_subset.py",
+      "bytes": 2911,
+      "git_blob_SHA": "8d4274c4cc9d6e118da5fbb2de172fb3f0e56b05",
+      "SHA256": "a1308d53d79e0754d83b25aefc4ece2f785de14187c8275237e2565e61485975"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/mobile_annual.csv",
+      "bytes": 105505,
+      "git_blob_SHA": "480a6a4f73cbce741c2b5a69bc3b9571b47b0de6",
+      "SHA256": "7c94bc7e82cddd7d2d493012ea03fc342a2285a3873b25653943ebca3d70a664"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/monthly_matrix.csv",
+      "bytes": 3693695,
+      "git_blob_SHA": "684525fdb9601bb3a4a773a313f725272155de11",
+      "SHA256": "d02be43973f5578b91ee3b97b6d173e513846bb6864c873dd6d2b2c900f95716"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/native_input_manifest.json",
+      "bytes": 7932,
+      "git_blob_SHA": "6820b3bf5ef87bedd312344f39581eb8802dd688",
+      "SHA256": "d1411d9e5d9cc06dfc17b280e8ea218e51d047b4777c2aa7806b68fea26c19f3"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/network_probe.json",
+      "bytes": 609,
+      "git_blob_SHA": "6258206d6fab79947753ebe9f725fef9e4aacbf1",
+      "SHA256": "6e0d4b31285f7159ff753ea3e492c3f599395119f145eab714ec5c90b651e92c"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/network_probe_escalated.json",
+      "bytes": 1819,
+      "git_blob_SHA": "217adc68ecdc550dc058cc1e5ef0ff00e66a933f",
+      "SHA256": "b17b5dc8ee49c02ce74e4fe8cdf35e75ff566e26408e9af7779438d60583b930"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/open_none_funding_audit.json",
+      "bytes": 40140,
+      "git_blob_SHA": "cd86b1753e2af46d2476a17874ecdac2c87ff1d5",
+      "SHA256": "8741470463fb3d5d685f3db83635ce6926d0ad9b852bd11516024ff48919181e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/overlapping_exposure.csv",
+      "bytes": 49579,
+      "git_blob_SHA": "32701954ca30bc6900715247947168e332dde038",
+      "SHA256": "58c43b87f33072b26efbe97e84af0c68ca98fd506e456cd036f2e3640d061407"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/package.py",
+      "bytes": 4575,
+      "git_blob_SHA": "fd2084b249139c71774a931a16aa66e5cc90a36f",
+      "SHA256": "f7b840490662a53a2784a29200af32a4f0b0932ef459de04b24e811d026b98ef"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/package.py.final.log",
+      "bytes": 32,
+      "git_blob_SHA": "da0536945d019619a0efe874786b81da917f6d2a",
+      "SHA256": "f3b0f0deb274fc73bfa1a98ccb56763fef578a7f14134e0eb72e65a409bc6db0"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/parent_tests.json",
+      "bytes": 778,
+      "git_blob_SHA": "d78be0919e7b356a84832f9f62bf84c004e09a80",
+      "SHA256": "297bd4476d3eba57a289039ab8d6ac4c0a3cb5ca75c0de0f8a5137696a67a3e8"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/parent_tests.log",
+      "bytes": 187,
+      "git_blob_SHA": "3c2d91fb613d369003afa0d8f2dddd2c1acc621b",
+      "SHA256": "d634578ef97cf055a15b2e947fe99a9f060af65eaa8e54290479f6f3bb84c7ea"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/postprocess_initial_failure.json",
+      "bytes": 313,
+      "git_blob_SHA": "3718f88ee21991c686db1452f2094e5bb646fd88",
+      "SHA256": "f28b488a9cc22de42f3688fda1d7779cdc1c747ed8f078330137123932063e5c"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/postprocess_status.json",
+      "bytes": 1242,
+      "git_blob_SHA": "207217f5ec9e3015896f539986b5eb2ab81a792b",
+      "SHA256": "7408dac4980ca3bc9ec63f192f198af0b6cbaa77cc133f48b5b84e1486f54cb2"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/priority_events.csv.gz",
+      "bytes": 35884,
+      "git_blob_SHA": "14f4e7b96c2f1fcd3eedaeb4bc6e0337ce4af827",
+      "SHA256": "17c5883db2faea2f1bb7c17097b488cb4041f0433dad56541b1f4566cdafc231"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/publish_github.py",
+      "bytes": 4314,
+      "git_blob_SHA": "75ecf8381a257ef0fe63dd97212bfb04d17f2bc0",
+      "SHA256": "3c67abf22204430aef0a1f1d0e0e2d5c53da58a76345cabd150aa39437aaab56"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/raw_source_consistency.json",
+      "bytes": 328,
+      "git_blob_SHA": "d0c9229b43ec54a9a81476aa312198ebf805133f",
+      "SHA256": "8a1d949db7e9574d73bd9d393143d3224771b410b5dcadeddad17ad311a6e413"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/raw_source_consistency.log",
+      "bytes": 52,
+      "git_blob_SHA": "d4791e46f1ed1136205ef596237363b5290a7cb7",
+      "SHA256": "3951cb4df740705cae03194d4760707b16b1aea2e824b53db8693dd36f26c5a7"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/raw_source_consistency.py",
+      "bytes": 1307,
+      "git_blob_SHA": "e7c599c1e764097665cd2919a9973cdd6ef7b292",
+      "SHA256": "f5f714d51c34a25468d8847ac238cd5da86c3132d443121bfd5bd9461a7a3fa1"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/raw_source_consistency.py.final.log",
+      "bytes": 52,
+      "git_blob_SHA": "d4791e46f1ed1136205ef596237363b5290a7cb7",
+      "SHA256": "3951cb4df740705cae03194d4760707b16b1aea2e824b53db8693dd36f26c5a7"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/recover_2025_memory.py",
+      "bytes": 1097,
+      "git_blob_SHA": "14a193fc5985ebeb43ee0912de5b77dd519690c5",
+      "SHA256": "bb95868666ef4a67a6c2baf1a5289e99cee152b3733932c8816ceafa9bbe999a"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/relative_B.csv",
+      "bytes": 16673,
+      "git_blob_SHA": "bdbb524f48d8275e899a3feb7f7d06ec0f3fa43c",
+      "SHA256": "8c306c87034297ea3c55d037f4d0f33124e1856859591211211899619e340422"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/replay.py",
+      "bytes": 9976,
+      "git_blob_SHA": "01a7a54ac4c94f5352e4f052db35fd60eddfcba7",
+      "SHA256": "f2a1f28acbf8a400c94ea0cefe5952ae495d5db5579ffd6531dccdab9961d4d3"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/report.log",
+      "bytes": 43,
+      "git_blob_SHA": "54ad8ff413dbb5c2188298fcfc1899fb209b551b",
+      "SHA256": "037ae273ec9981c355b3293f9c9f2df29eb35fd3cbb27c38d50eeb87777b0281"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/report.md",
+      "bytes": 13901,
+      "git_blob_SHA": "e2a70971e15db1ccdee7f1481a9f6575c10c0ff9",
+      "SHA256": "51f2bad5b0e2ba3249024b8d1c59bf20a19d53655d007bdbfceff63957750b68"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/report.py",
+      "bytes": 20274,
+      "git_blob_SHA": "170647c633b4c1d7ae5b4defba9f0e1ff3ec200b",
+      "SHA256": "af72efb253d34cd82de27647f483b7ce53e21337c9fd49137fc9eec58070af1f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/report.py.final.log",
+      "bytes": 44,
+      "git_blob_SHA": "0b439f4dd6800c564b080050786af0fab0f72a8d",
+      "SHA256": "385ccc8530332406d2cd9b1ca03a8a287247dac31fc3320681f117e6745c5bf0"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/resource_recovery.json",
+      "bytes": 864,
+      "git_blob_SHA": "1764ea8e167edf90cad0ec9dfd8a05f9ef528a61",
+      "SHA256": "d17ed605a9a8a26fe6b521593ac51235d819186e790b1e87cceaef5afcd87f8b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/resource_recovery.log",
+      "bytes": 486,
+      "git_blob_SHA": "a08e61a2ead718cb1df2989e71d7ee636448fa88",
+      "SHA256": "703fa66518850b6f6de29fe991ca5ca60fd4e43d6ce6b48f35a3cc4c58581925"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/reuse_btc_baseline.log",
+      "bytes": 554,
+      "git_blob_SHA": "49ebaf683f7abaff14914256b7f30488660ae227",
+      "SHA256": "bda653a63b901f1f4a4d7c63e0e1f2caf2f0df293cde28ddacdc93a8813ed21d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/reuse_btc_baseline.py",
+      "bytes": 3624,
+      "git_blob_SHA": "cec62e0eb233be0c15bcfe89c663d424cc2029ad",
+      "SHA256": "2d4fd822644c6565cbd0ca67b635f00823e60dd1a78bb331cb4c43f7f844fff1"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/reuse_btc_baseline_retry.log",
+      "bytes": 460,
+      "git_blob_SHA": "48f51b11989bbffbf812f294e352c46ff2c59bbc",
+      "SHA256": "a09ddcf1b753e6032cfefda30f40c448cc6de5286b083216b0c1a3df42dccb3b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/reuse_btc_baseline_retry2.log",
+      "bytes": 36,
+      "git_blob_SHA": "d60dbdf3cf4c8a7dd4c974357fe943426c0afefc",
+      "SHA256": "e79f8750a5b44e72c8ecd2710c12c86b085ff0f25dcfd331f52f50914123b45b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/run_all.py",
+      "bytes": 1164,
+      "git_blob_SHA": "61a1b499fcc13e5894ca7ae180b1edfe9d74600b",
+      "SHA256": "d62bdbb581548c65f5f2e29a86a1bda6dc4807f82ec1f77ae4af5b5c3ed7266b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/run_parent_tests.py",
+      "bytes": 817,
+      "git_blob_SHA": "67f6ac74ec5abf5b99b1078dcbbda69644a3faae",
+      "SHA256": "294f885aa182841e8610d1d3cd01fc05faadebb3f8236ca22f1a4e6ab9527693"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/scenario_audit.json",
+      "bytes": 270,
+      "git_blob_SHA": "1ed1a1211d4a04b68c304e6819c1cd0a2876f3c9",
+      "SHA256": "c36de83ca107db8a049307fb0363a0177b82aa3ddf01b4622d029ecc804bd05b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/scenario_audit.py",
+      "bytes": 3515,
+      "git_blob_SHA": "9bb97f2f59d948d26a45672dc8514b35e53c04e2",
+      "SHA256": "f7209866e60e742b3587594ce2df5701c8a5c482b1e7f6c801d73dfc501355b4"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/scenario_audit.py.final.log",
+      "bytes": 23,
+      "git_blob_SHA": "c65b381440b7c79743b74b7444b7b6925a968307",
+      "SHA256": "39e56a8c9ff9170b104651bf10e6129446051c4786305747c448293b0dfa1623"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/scenario_history_checks.csv",
+      "bytes": 90524,
+      "git_blob_SHA": "aabb329223554f156ce7f05b06a47113272ed3f6",
+      "SHA256": "7df932888f16b3a6e8ea883e52457c554b829fcb39ef646a97feb1a7366fa82a"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/scenario_minute_equity_differences.csv.gz",
+      "bytes": 2868,
+      "git_blob_SHA": "ae370564d4130082283eddbe938f8b16ba2d0995",
+      "SHA256": "56b575434dca49e2df6674d79a4fc354d6bbe29ddb81fd5ec6ec4f326babcd8d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/scenario_own_equity_ranges.csv",
+      "bytes": 7327,
+      "git_blob_SHA": "ca45be0003098cd7fe76cc06198137438e670495",
+      "SHA256": "d2c516b3ce9de7a3a1e22b486fb3f2f1b569ae18c788da6d39200025a175176e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/scenario_summary.json",
+      "bytes": 321,
+      "git_blob_SHA": "e2d415f89a0fb1b55ba3eec2f602d3c2918f359d",
+      "SHA256": "479da1375ab2597fec27b9fa81616c143ede37b13fdf4a1cf021d38bff9cd3a6"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/scenario_summary.py",
+      "bytes": 2875,
+      "git_blob_SHA": "95e7340dc3f3081e3770aac5c3e89c2c88644449",
+      "SHA256": "0c5801af80f3908c41bcef981e4f5f278fccf109608a00c57b149b129eafaadc"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/shared.py",
+      "bytes": 913,
+      "git_blob_SHA": "105fb4cf00e9423a89339f21c2130ae933e4fb88",
+      "SHA256": "3f7398117f9f2f94b1a715e601f22252976774243bae52053dfdcb22fbfa2b1f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/sizing_attempts.csv.gz",
+      "bytes": 1771795,
+      "git_blob_SHA": "0473119dba8bb171ee8ee68e2f02a8bda48aa448",
+      "SHA256": "cf79ef1d3acbcdfe87a4d3a5b59b822ab824f0adafd66ebc780ea72ef3aed06d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/sizing_only_replay.py",
+      "bytes": 9785,
+      "git_blob_SHA": "db278635adca835b7002784a776b055a593b2da8",
+      "SHA256": "78469c44b734aa7df0e493c15aa3b00ca5910ad67682d80807f4b8d43b6aa1a2"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/sizing_subset_compatibility_2024.json",
+      "bytes": 1842,
+      "git_blob_SHA": "fcfd08389968a8ff616352267376f93b5953c88b",
+      "SHA256": "e55483efc730a88533be7564bf56cc28962c75a7222df216166da2f03e9d516c"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/sizing_subset_migration.log",
+      "bytes": 252,
+      "git_blob_SHA": "660d31d1e724cf346cd8351426be23699217ac3b",
+      "SHA256": "1053af96214662057f9321a8ec576fa674104c5aad2709719acec37bf2e4fa08"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/source_audit.json",
+      "bytes": 24974,
+      "git_blob_SHA": "f0f15cd6ad13bb3417e2d17a686310da37e7a21d",
+      "SHA256": "16296a0e4cbd2e14385373fdd56709b7dbd72ad7ebbbd5cacc6eacfba66ec676"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/subset_tests.json",
+      "bytes": 481,
+      "git_blob_SHA": "193d3ef0102d39fb6b7e74c518d41ed32bd8ea10",
+      "SHA256": "8d9f1e9d0f51e9c08236b3c2af84cbc73ba2121d30637b9a6dc8a3ffa1d981ab"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/subset_tests.log",
+      "bytes": 7,
+      "git_blob_SHA": "57f1802e2bf886cf0827651ea462000d3d214a8b",
+      "SHA256": "e9b83f9776aac3e9bfb44241ab971e477c83792e321ac1a6d247e618c7bbb631"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/subset_tests.py",
+      "bytes": 1189,
+      "git_blob_SHA": "149d76e6f3680881a89473ae2005ef555b9468e9",
+      "SHA256": "d20f9ac2b6d20d4512fc414f00cf792de73ac6e259fb6ebbee46240a158b1f5b"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/supervisor.log",
+      "bytes": 4560,
+      "git_blob_SHA": "5ac86027a66785f863aa1b3da42191a62871dd43",
+      "SHA256": "bad2ac2d6df4ca03126f49b436e7d733464afb1c444b3e4c5fdf9fa7477ce09e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/supervisor.py",
+      "bytes": 1549,
+      "git_blob_SHA": "d066b76f11bbc553ad61662e2eeda0f62c7bb131",
+      "SHA256": "b9b1f53ee0939ca3c18f227b1f1648d8ae5dca58742af6cfa8f5ebf68ed2ee1f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/task_guard.py",
+      "bytes": 471,
+      "git_blob_SHA": "30bdba8937adf064a6985e93d7d34f03b8b07966",
+      "SHA256": "1b3f68035a3e7df6ee34896041efb675acd09886a52435e6cdf26f031fba48b7"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/tests.json",
+      "bytes": 2082,
+      "git_blob_SHA": "7b48388d7731824462e91c95a67f4f9f1e148924",
+      "SHA256": "da34c82e524b372332ef7f213320ea27fd40c777a93086dde3f56498714f18c5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/tests.log",
+      "bytes": 1350,
+      "git_blob_SHA": "7cbba0990a9b36399665bcd2d5d632bf99875eda",
+      "SHA256": "3a3e3f2f01e04c2925630df16d1fecc1062e2ba73d151d0d5d6063ea61ce0097"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/tests.py",
+      "bytes": 8768,
+      "git_blob_SHA": "f6717e3175f00aa8567079749f0675f3fbf3cca7",
+      "SHA256": "cfb6d195b04c61af694151e3b7b7ceeb336e70928df812960bb5fff9da82e0ae"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2020_BTC.log",
+      "bytes": 16054,
+      "git_blob_SHA": "b606e5f9894f0891808ff0ea37f3a6d47f12a78e",
+      "SHA256": "f1c9485df3c3f467d5a25400ed3e40fe655ba934e8e47553cccfa643dc6b8eda"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2020_ETH.log",
+      "bytes": 16129,
+      "git_blob_SHA": "601e83a04e37c2485f7a823f9d9b44cc1c9ce8a4",
+      "SHA256": "d40a6c6ac582081a6dd4ff5b757fcaef8ea0956127a780e17a453f309673c54d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2021_BTC.log",
+      "bytes": 18085,
+      "git_blob_SHA": "cfe49343fc47b75f3299d21347abf1e8dcd601e2",
+      "SHA256": "7c446876f2aafff94ca1e3dd20d18fd1cb8e42e75c59c80b230f8bd2d9ee9a0f"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2021_ETH.log",
+      "bytes": 18232,
+      "git_blob_SHA": "b19b0ea314e12a3c0bdb7a7c07ba4945dcfb0593",
+      "SHA256": "a7d517f58c945484eff1efcce13b2e51c7c9f0ed2abe276a41b5ed23bf41ae54"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2022_BTC.log",
+      "bytes": 18223,
+      "git_blob_SHA": "0862209a3d9bcec0b7987b7d7864413fdc8c6e63",
+      "SHA256": "919a5441586210af1631b740dcfa87d03bf18ca1678082efa8d53b9c6362d172"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2022_ETH.log",
+      "bytes": 18332,
+      "git_blob_SHA": "35c10474d7abccc6748dbd4f9f3894296977c076",
+      "SHA256": "aaa5ba8dbe7b4a3cc7236a35bf9e662a983fa448f2e9c0211d4acfdbf393b7b6"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2023_BTC.log",
+      "bytes": 18398,
+      "git_blob_SHA": "2063d2fffb7cd38bc91401bda530bd8641c88dd9",
+      "SHA256": "fe850dbf8ae201578f2ba67998c064ed54a4da0fc01c1fc91775a59dba171079"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2023_ETH.log",
+      "bytes": 18509,
+      "git_blob_SHA": "248571d3525c8038042309382583934d6e7b41dc",
+      "SHA256": "22b44249d8babb3afa796417bea3c3d2a70a94b349c9026007b82ae509ad6d86"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2024_BTC.log",
+      "bytes": 18307,
+      "git_blob_SHA": "9aa662dcc842268872213efd96d7f42d15b943de",
+      "SHA256": "377b8f648cab67b5b28dca75a331aad2aaecba9de9403924d9d28e83509e6862"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2024_ETH.log",
+      "bytes": 18418,
+      "git_blob_SHA": "022394a0fdf92454295ab256883cbc261e6da2c2",
+      "SHA256": "6f46ad9798131a984fd8181001fc7f057e8863cf0d3a079e44339cb53db53f40"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2025_BTC.log",
+      "bytes": 18293,
+      "git_blob_SHA": "153db8e392f58fbcd98883d1268ad1de69b1edb1",
+      "SHA256": "c841b03d1ea5501a7ad13e97c5089724f42e6dfbb69b904b13ed2fa5218c0a0e"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2025_ETH.log",
+      "bytes": 20709,
+      "git_blob_SHA": "67d802b872963867f57a0f216117ed29f3c5320d",
+      "SHA256": "9439964f7e3a22ef181ab21d42a95f7b50aa70114aa307b1ec0b49bedecfedd1"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2026_BTC.log",
+      "bytes": 15304,
+      "git_blob_SHA": "859dd290c35b532f9930beef5e60f970dcaec264",
+      "SHA256": "26acb1823808589803cdb196aee7ae7a4a63900450cd6beb164e3a4657aef2f5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_2026_ETH.log",
+      "bytes": 15415,
+      "git_blob_SHA": "0a11a5a8ac1b8e4c16b2b4faaa43eba21b8ae3c7",
+      "SHA256": "eb36f2b4bf640a3b58b313a5a49492dacc4507f1d1795c77eb596f8217028dce"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_NOV_BTC.log",
+      "bytes": 705,
+      "git_blob_SHA": "df2d2207a7883509f124500879659801cdee96b9",
+      "SHA256": "42608a82018de4aa10d7a4a8c4c0a80c5a5d4e4e1bd4fd168ab10ebc6e319dfe"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_NOV_ETH.log",
+      "bytes": 883,
+      "git_blob_SHA": "9a04526d0aa8bb2c4f83c11e60397a254b35540c",
+      "SHA256": "c766f697df375c2f0a49461b4c7a0c22aa5a4397a50a7f97936b7031e12ba1bb"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_engine.py",
+      "bytes": 1390,
+      "git_blob_SHA": "6037cb91ef7282d57b9f0ecea753b087c8ca9c07",
+      "SHA256": "3a757559efe6414caa87cb927e62852690328824a0ee1af13ba235862e82bcd3"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_execution_status.json",
+      "bytes": 889,
+      "git_blob_SHA": "3080a52c699c6e03a3ea6b957a12b2b6d4fc9812",
+      "SHA256": "95d0bca712967643ab27bf0a8e60b54bf2dc975de68e7b2400620fef70c3a709"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_replay.py",
+      "bytes": 10101,
+      "git_blob_SHA": "e9211992faaca139711e2e64089724dfd5b00e57",
+      "SHA256": "81330ec02c23e1553cb6387aa0991a3cdebf97aaf765a2bc51a3fb629f6eaa69"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_submission_clock_audit.json",
+      "bytes": 90399,
+      "git_blob_SHA": "c39b79936ecd3eeb4d3aeeef65c4512a5a0805f1",
+      "SHA256": "69baf4e124e3401ad8cf53fa06f06e392d549c16ed7ab86ee62c61e56321eb62"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_supervisor.log",
+      "bytes": 830,
+      "git_blob_SHA": "e42d055dac440681fac1ce9d81fc96be368fe418",
+      "SHA256": "090525614b1f3eabf2864ba76ec072cd06de3681bf724b4a70339fe7718908c3"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_supervisor.py",
+      "bytes": 1390,
+      "git_blob_SHA": "5cbad476106d06e2ce58c385fab358e112da932d",
+      "SHA256": "916099a88ac3e37648c32d32b6725c99f4d11f454c489079339cb66c31957bec"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_tests.json",
+      "bytes": 692,
+      "git_blob_SHA": "44c56c6f32dbb542d5f534c985a3a9569a4a8092",
+      "SHA256": "2164b3b14e210d38aa45400988102af5855b4ff16b9426c9e32b83b9266fbf89"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_tests.log",
+      "bytes": 518,
+      "git_blob_SHA": "7365a2a307358acc0e7d5265ed000daf53e3aeb1",
+      "SHA256": "b3a32a3753f3c1c1e40f511626be661f261b62ccb04a07dfdb8cf577135a2ab5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/through_tests.py",
+      "bytes": 2985,
+      "git_blob_SHA": "bef79c9f023f6aab7fcfd6cb70ee0af4c93ea330",
+      "SHA256": "b9161632e6cb2a451ba0ce9e3d4cef3d0d7ffbe1d9968fee7dc0bd4ef7159d82"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/trade_attribution.csv.gz",
+      "bytes": 11257259,
+      "git_blob_SHA": "c282fbb64e55afc75eb41986c92f7af0e6f7466f",
+      "SHA256": "c74d5cdd993a0f8ec7e71ab14b1e6cc66cc69fd8d4e4648cab92653eb6687504"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/trades_added.csv.gz",
+      "bytes": 97579,
+      "git_blob_SHA": "1b76341171d43aadfb396bd01da24591f2705a4b",
+      "SHA256": "e53cd8f33345b12ee4c2414c7ce749d408f952e8385d01a90e732ac20415808c"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/trades_changed.csv.gz",
+      "bytes": 4311019,
+      "git_blob_SHA": "ebf6960e312b90f5fe9640bff39bd86dbbc23379",
+      "SHA256": "a81905c03d7930c6c2de29556d3c7edc33873aa9d6e027f8cafd31c229f39a66"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/trades_disappeared.csv.gz",
+      "bytes": 9845,
+      "git_blob_SHA": "c6f364d7ae91b9fa73baec6203cf9b6a5059fb98",
+      "SHA256": "ed0436ec956ce85e8edbc34d46cad8e25e23af36727afef13602edf4c5897312"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/trades_retained.csv.gz",
+      "bytes": 6315673,
+      "git_blob_SHA": "62d0aa3e2a8622cd994b725bb7d5bf688ac8b80a",
+      "SHA256": "4f1c81d9f872398d9c740b0ec27757575d7f368bc809bc67936e2862fbc76d96"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/validate_cache.py",
+      "bytes": 2173,
+      "git_blob_SHA": "0f4dc293cbcdb140be53be0d0354ede73ab55645",
+      "SHA256": "d7c35a46c52ac26bc0a58d1b75d5a2e8d48ce14840ab33cdc786839631e6c07d"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/validate_cache.py.final.log",
+      "bytes": 19,
+      "git_blob_SHA": "cffe66b3930b58cf28830d73a31efbf497767b56",
+      "SHA256": "36891a5128b347eecb4cdf8319e11032f8f920647eb69f729b247596deaaa0fa"
+    }
+  ],
+  "raw_market_inputs_in_Git": false,
+  "financial_results_frozen": true,
+  "publication_time_UTC": "2026-11-14T21:10:30.160673+00:00"
+}

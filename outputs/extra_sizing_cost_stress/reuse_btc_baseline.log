@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/reuse_btc_baseline.py", line 16, in <module>
+    op,ep=w.oldpath(period,'BTC',cfg['cost'],'B','STRICT');old=json.loads(op.read_text());prov=json.loads((op.parent/'input_provenance.json').read_text());assert prov['derived_SHA256']==hashes
+                                                                                                                                                                  ~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'derived_SHA256'

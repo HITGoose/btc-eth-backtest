@@ -1,9 +1,11 @@
 from pathlib import Path
+from task_guard import memory_guard
 import subprocess,sys,json,concurrent.futures,time
 import shared as s
 O=s.OUT;PERIODS=['NOV','2024','2026','2025','2020','2021','2022','2023']
 def task(period,asset):
- with (O/f'funded_{period}_{asset}.log').open('a')as f:p=subprocess.run([sys.executable,'-u',str(O/'funded_replay.py'),period,asset,'funded'],stdout=f,stderr=subprocess.STDOUT)
+ with (O/f'funded_{period}_{asset}.log').open('a')as f:
+  with memory_guard(period,asset):p=subprocess.run([sys.executable,'-u',str(O/'funded_replay.py'),period,asset,'funded'],stdout=f,stderr=subprocess.STDOUT)
  return dict(period=period,asset=asset,returncode=p.returncode)
 def main():
  pending=[(p,a)for p in PERIODS for a in ('ETH','BTC')];active={};results=[]

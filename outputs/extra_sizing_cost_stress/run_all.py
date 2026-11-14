@@ -11,6 +11,6 @@ def main():
  for script in ['supervisor.py','funded_supervisor.py','through_supervisor.py']:
   f=(O/(script+'.entry.log')).open('a');active.append((subprocess.Popen([sys.executable,'-u',str(O/script)],stdout=f,stderr=subprocess.STDOUT),f))
  for p,f in active:p.wait();f.close()
- for script in ['report.py','audit_finances.py','fill_sensitivity.py','funding_blockers.py','scenario_audit.py','cost_decomposition.py','conclude.py','package.py']:
+ for script in ['report.py','audit_finances.py','fill_sensitivity.py','funding_blockers.py','scenario_audit.py','cost_decomposition.py','raw_source_consistency.py','conclude.py','coverage_audit.py','package.py']:
   if(O/script).exists():run(script)
 if __name__=='__main__':main()

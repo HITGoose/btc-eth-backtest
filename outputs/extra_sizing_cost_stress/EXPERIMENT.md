@@ -1,7 +1,7 @@
 # 固定EXTRA仓位与成本压力实验
 源提交87f94d2e29b9832526e0aa35c0400c7ed7496805；独立分支codex/extra-sizing-cost-stress-20261114。完整源树无AGENTS.md。B/G/H/I100原策略不变，I50/I25仅ETH EXTRA下单时×.5/.25，CORE及BTC不变。0.25/0.30及全部信号/V2/止损/单账户/资金管理不变，不搜索阈值。
 
-先逐区间重放C0/C1的B/G/H/I100，对照完整原交易、现金、期末权益与分钟回撤；通过后才执行小仓和附加压力。C0零费滑点.0002；C1费.0005滑点.0002。C2/C3/C4必须有完整官方结算费率、实际时点及计价价格才运行并标包含资金费；当前archive仅calc_time/funding_interval_hours/last_funding_rate，无mark_price，官方主API451，备用返回非JSON。不得近似结算时点/计价价格，不补零。单列C3_NO_FUNDING(.0005/.0005)、C4_NO_FUNDING(.00075/.001)；B/I100/I50/I25追加C1 F_THROUGH作为明确获准的资金费缺失退路。C2—C4本身UNVERIFIED。
+先逐区间重放C0/C1的B/G/H/I100，对照完整原交易、现金、期末权益与分钟回撤；通过后才执行小仓和附加压力。C0零费滑点.0002；C1费.0005滑点.0002。C2/C3/C4必须有完整官方结算费率、实际时点及计价价格才运行并标包含资金费；当前archive仅calc_time/funding_interval_hours/last_funding_rate，无mark_price，官方主API451，备用返回非JSON。不得近似结算时点/计价价格，不补零。单列C3_NO_FUNDING(.0005/.0005)、C4_NO_FUNDING(.00075/.001)；B/I100/I50/I25追加C1 F_THROUGH作为明确获准的资金费缺失退路。初次探测时C2—C4本身UNVERIFIED；后续恢复范围与最终状态见本文件“后续官方来源恢复”及availability.csv。
 
 原S_ALL及8组合白名单适配器只读复用，全日原始ZIP及数组先核SHA。2025每个新配置重新分叉窗口；之后比较完整Book及最新实际价及配置，只有全等共享后缀，自己的全年权益前缀独立保留。其余年严格原始逐笔，不能用OHLC兜底。BTC不随ETH版本变化，但成本/成交模型改变需重新执行对应BTC路径。
 
@@ -31,3 +31,6 @@ python outputs/extra_sizing_cost_stress/through_supervisor.py
 python outputs/extra_sizing_cost_stress/through_replay.py 2024 ETH through
 ```
 2024/25/26/NOV自动C2实际资金费，早年缺价自动明确C1退路；不是给C2缺失补零。全部四版本和BTC独立路径重放。2025 ETH在资金费主矩阵结束后执行，避免同时创建三份大异常视图。6项新边界覆盖原提交时钟与观测时钟区别、首笔越价、同毫秒事件、CORE替换及缺价模式。
+
+## 8GiB恢复与以后重跑
+实际OOM后恢复入口：`python outputs/extra_sizing_cost_stress/recover_2025_memory.py`，同源码及输入指纹串行恢复原两账户集合。后续run_all的三个supervisor统一task_guard.memory_guard，对2025ETH整任务互斥，其他年份/资产仍按原调度；操作系统文件锁不改变模拟历史时钟、事件顺序、数据或参数。每个情景仍全部执行，旧失败日志保留，不把资源失败当数据失败。

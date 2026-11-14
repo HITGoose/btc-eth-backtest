@@ -1,0 +1,17 @@
+[
+  {
+    "script": "validate_cache.py",
+    "returncode": 0,
+    "elapsed_seconds": 4.9185004234313965
+  },
+  {
+    "script": "report.py",
+    "returncode": 0,
+    "elapsed_seconds": 51.75937557220459
+  },
+  {
+    "script": "audit_finances.py",
+    "returncode": 1,
+    "elapsed_seconds": 3.294248580932617
+  }
+]

@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/audit_finances.py", line 105, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/audit_finances.py", line 103, in main
+    q=json.loads(p.read_text());eq=np.load(p.with_name(p.name.replace('_result.json','_equity.npz')))['marks'];row=check(q,eq);row['legacy_through_not_primary']=q['configuration']['fill']=='F_THROUGH'and root!=O/'through_exact_clock/runs';checks.append(row)
+                                                                                                                   ^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/audit_finances.py", line 82, in check
+    else:assert abs(delta-q['open_partial_state']['funding_pnl'])<1e-7
+                    ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+TypeError: unsupported operand type(s) for -: 'float' and 'NoneType'

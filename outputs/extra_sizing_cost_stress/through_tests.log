@@ -1,0 +1,7 @@
+PASS first eligible raw print after original+10 clock, no extra activation-print delay 1
+PASS first eligible raw print after original+10 clock, no extra activation-print delay -1
+PASS same timestamp new event allowed, submission/exit event itself rejected
+PASS strict through threshold preserves original limit execution price
+PASS CORE exit first, newly submitted limit uses a distinct real event at same timestamp
+PASS funded C2 versus explicit missing-price C1 fallback never silently zero-fills funding
+ALL 6 PASS

@@ -117,5 +117,89 @@
     "stage": "baseline",
     "returncode": 0,
     "log": "2022_BTC_baseline.log"
+  },
+  {
+    "period": "2022",
+    "asset": "ETH",
+    "stage": "experiment",
+    "returncode": 0,
+    "log": "2022_ETH_experiment.log"
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "stage": "baseline",
+    "returncode": 0,
+    "log": "2023_ETH_baseline.log"
+  },
+  {
+    "period": "2023",
+    "asset": "BTC",
+    "stage": "baseline",
+    "returncode": 0,
+    "log": "2023_BTC_baseline.log"
+  },
+  {
+    "period": "2022",
+    "asset": "BTC",
+    "stage": "experiment",
+    "returncode": 0,
+    "log": "2022_BTC_experiment.log"
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "stage": "baseline",
+    "returncode": 0,
+    "log": "2026_ETH_baseline.log"
+  },
+  {
+    "period": "2026",
+    "asset": "BTC",
+    "stage": "baseline",
+    "returncode": 0,
+    "log": "2026_BTC_baseline.log"
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "stage": "experiment",
+    "returncode": 0,
+    "log": "2023_ETH_experiment.log"
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "stage": "experiment",
+    "returncode": 0,
+    "log": "2026_ETH_experiment.log"
+  },
+  {
+    "period": "2023",
+    "asset": "BTC",
+    "stage": "experiment",
+    "returncode": 0,
+    "log": "2023_BTC_experiment.log"
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "stage": "baseline",
+    "returncode": 0,
+    "log": "2025_ETH_baseline.log"
+  },
+  {
+    "period": "2025",
+    "asset": "BTC",
+    "stage": "baseline",
+    "returncode": 0,
+    "log": "2025_BTC_baseline.log"
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "stage": "experiment",
+    "returncode": -9,
+    "log": "2025_ETH_experiment.log"
   }
 ]

@@ -1,0 +1,29 @@
+PASS BTC CORE correct initial scale
+PASS BTC EXTRA correct initial scale
+PASS ETH CORE correct initial scale
+PASS ETH EXTRA correct initial scale
+PASS floor lots and never round minimum upward
+PASS through one tick, original limit and strict submission 1
+PASS through one tick, original limit and strict submission -1
+PASS slippage/fees 0.0002 hard_stop
+PASS slippage/fees 0.0002 ladder_exit
+PASS slippage/fees 0.0002 core_priority_exit
+PASS slippage/fees 0.0005 hard_stop
+PASS slippage/fees 0.0005 ladder_exit
+PASS slippage/fees 0.0005 core_priority_exit
+PASS slippage/fees 0.001 hard_stop
+PASS slippage/fees 0.001 ladder_exit
+PASS slippage/fees 0.001 core_priority_exit
+PASS V2 partial then replacement full cash and turnover fee
+PASS funding sign exact event cash 1
+PASS funding sign exact event cash -1
+PASS funding before same-time exit uses already reduced quantity
+PASS C0 C1 normal proxy financial equivalence
+PASS original source and anomaly whitelist unchanged
+ALL 22 PASS
+PASS same timestamp different new trade allowed; submission event itself forbidden
+PASS optimized real-event selector preserves first through fill in both directions
+FINAL 24 PASS
+PASS CORE exit first then re-quantity full size from updated cash, original EXTRA tag retained
+PASS small size keeps original V2 balance budget and25pct cap/no-request rule
+FINAL 26 PASS
