@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&startTime=1581840000000&endTime=1581926400000&limit=10",
+    "status": 200,
+    "received_UTC": "2026-11-14T22:10:29.324250+00:00",
+    "SHA256": "5b6e2585fb120ac470c0fefc975ed16316c9757a59803b129563a78abb209156",
+    "path": "probe_0.raw",
+    "preview": "[{\"symbol\":\"BTCUSDT\",\"fundingTime\":1581840000000,\"fundingRate\":\"0.00036973\",\"markPrice\":\"\",\"rateType\":\"Regular\"},{\"symbol\":\"BTCUSDT\",\"fundingTime\":1581868800000,\"fundingRate\":\"0.00060847\",\"markPrice\":\"\",\"rateType\":\"Regular\"},{\"symbol\":\"BTCUSDT\",\"fundingTime\":1581897600000,\"fundingRate\":\"0.00043179\",\"markPrice\":\"\",\"rateType\":\"Regular\"},{\"symbol\":\"BTCUSDT\",\"fundingTime\":1581926400000,\"fundingRate\":\"0.00060960\",\"markPrice\":\"\",\"rateType\":\"Regular\"}]"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/monthly/markPriceKlines/BTCUSDT/1m/BTCUSDT-1m-2020-02.zip.CHECKSUM",
+    "status": 200,
+    "received_UTC": "2026-11-14T22:10:29.712500+00:00",
+    "SHA256": "ee415b7a031d83445404157871e2e279872ac2ae981df320862833ac8a7cff2b",
+    "path": "probe_1.raw",
+    "preview": "8e99768235c8bd120ee25e7020ad3106488440eb41bbabe2935324dc1632a3db  BTCUSDT-1m-2020-02.zip\n"
+  },
+  {
+    "url": "https://www.binance.com/fapi/v1/markPriceKlines?symbol=BTCUSDT&interval=1m&startTime=1581840000000&limit=1",
+    "status": 200,
+    "received_UTC": "2026-11-14T22:10:30.042340+00:00",
+    "SHA256": "129ca0bf36651343a1ac9ea6a36d609820f617d39f989700cecbb7d076c20ce5",
+    "path": "probe_2.raw",
+    "preview": "[[1581840000000,\"9962.48203855\",\"9974.21223962\",\"9962.48203855\",\"9973.43594310\",\"0\",1581840059999,\"0\",60,\"0\",\"0\",\"0\"]]"
+  },
+  {
+    "url": "https://fapi.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&startTime=1581840000000&limit=1",
+    "status": "ERROR",
+    "received_UTC": "2026-11-14T22:10:30.243136+00:00",
+    "SHA256": "7c1c5fe0e95a853a542b68ab6863928a17442fcf12ec64441591841c8c48508e",
+    "path": "probe_3.raw",
+    "preview": "HTTP Error 451: Unknown"
+  },
+  {
+    "url": "https://www.binance.com/fapi/v1/time",
+    "status": 200,
+    "received_UTC": "2026-11-14T22:10:30.464970+00:00",
+    "SHA256": "8c4f963bb21c86e9239db11f0e5ae7cad6a3017b81cffcfd1f4cdc4d486fd0fb",
+    "path": "probe_4.raw",
+    "preview": "{\"serverTime\":1794694230393}"
+  }
+]

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/preflight.py", line 13, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/preflight.py", line 8, in main
+    e=n.Engine(manifest,legs);e.audit();e.save(folder)
+                                        ^^^^^^
+AttributeError: 'Engine' object has no attribute 'save'

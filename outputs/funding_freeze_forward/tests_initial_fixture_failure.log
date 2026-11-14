@@ -1,0 +1,28 @@
+PASS all8 feeds: exact values preserved; approximate minute covers actual integer settlement
+PASS closed-prefix parity and future independence BTC/0.25/1.0
+PASS closed-prefix parity and future independence BTC/0.25/1000000.0
+PASS closed-prefix parity and future independence BTC/0.3/1.0
+PASS closed-prefix parity and future independence BTC/0.3/1000000.0
+PASS closed-prefix parity and future independence ETH/0.25/1.0
+PASS closed-prefix parity and future independence ETH/0.25/1000000.0
+PASS closed-prefix parity and future independence ETH/0.3/1.0
+PASS closed-prefix parity and future independence ETH/0.3/1000000.0
+PASS unclosed candle cannot enter indicators
+PASS four versions two proxies two independently flat500 coin books
+PASS preT0 cannot trade and exact duplicate id is idempotent
+PASS conflicting duplicate is rejected, not silently deduplicated
+PASS raw ID gap halts financial path
+PASS non-grid actual settlement deadline cannot be filled zero
+PASS funding direction fee/slippage cash reconcile 1
+PASS funding direction fee/slippage cash reconcile -1
+PASS unchanged3pct V2 budget; small EXTRA need not reduce I100
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/tests.py", line 66, in <module>
+    test('unchanged3pct V2 budget; small EXTRA need not reduce '+g,v2)
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/tests.py", line 8, in test
+    def test(name,fn):fn();checks.append(dict(name=name,passed=True));print('PASS',name,flush=True)
+                      ^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/tests.py", line 64, in v2
+    x=make(g);t=(sg.t0//1000//900+1)*900;x.leg=SimpleNamespace(first=t*1000-1800000,up=[3,3],down=[3,3],histogram=[-1,-1],bars={t*1000-900000:SimpleNamespace(c=2000.)});before=len(x.events);n.F.original_check(x,t);requests=[e for e in x.events[before:]if e['event']=='adaptive_v2_request'];assert bool(requests)==expect
+                                                                                                                                                                                                                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

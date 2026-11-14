@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/preflight.py", line 13, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/preflight.py", line 7, in main
+    sg=n.Signals(t0,folder);sg.warm(events.append);legs=sg.calculate();manifest=dict(T0_ms=t0,run_id='PRE_FLIGHT_NOT_FORWARD')
+                                                        ^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/online.py", line 59, in calculate
+    ns=dict(fn.__globals__);exec(src,ns);schedule,ctx=ns['market_schedules'](a,leg,price_file=path,include_gate_confirmation=True,regime_thresholds=pair,use_entry_crosses=False)
+                                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 16, in market_schedules
+  File "/workspace/btc-eth-backtest/work/gate_october_regime_entries.py", line 86, in hourly_context
+    assert first % HOUR == 0
+           ^^^^^^^^^^^^^^^^^
+AssertionError

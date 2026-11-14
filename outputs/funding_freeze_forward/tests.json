@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "total": 22,
+  "checks": [
+    {
+      "name": "all8 feeds: exact values preserved; approximate minute covers actual integer settlement",
+      "passed": true
+    },
+    {
+      "name": "closed-prefix parity and future independence BTC/0.25/1.0",
+      "passed": true
+    },
+    {
+      "name": "closed-prefix parity and future independence BTC/0.25/1000000.0",
+      "passed": true
+    },
+    {
+      "name": "closed-prefix parity and future independence BTC/0.3/1.0",
+      "passed": true
+    },
+    {
+      "name": "closed-prefix parity and future independence BTC/0.3/1000000.0",
+      "passed": true
+    },
+    {
+      "name": "closed-prefix parity and future independence ETH/0.25/1.0",
+      "passed": true
+    },
+    {
+      "name": "closed-prefix parity and future independence ETH/0.25/1000000.0",
+      "passed": true
+    },
+    {
+      "name": "closed-prefix parity and future independence ETH/0.3/1.0",
+      "passed": true
+    },
+    {
+      "name": "closed-prefix parity and future independence ETH/0.3/1000000.0",
+      "passed": true
+    },
+    {
+      "name": "unclosed candle cannot enter indicators",
+      "passed": true
+    },
+    {
+      "name": "four versions two proxies two independently flat500 coin books",
+      "passed": true
+    },
+    {
+      "name": "preT0 cannot trade and exact duplicate id is idempotent",
+      "passed": true
+    },
+    {
+      "name": "conflicting duplicate is rejected, not silently deduplicated",
+      "passed": true
+    },
+    {
+      "name": "raw ID gap halts financial path",
+      "passed": true
+    },
+    {
+      "name": "non-grid actual settlement deadline cannot be filled zero",
+      "passed": true
+    },
+    {
+      "name": "CORE sizing unchanged by EXTRA ratio",
+      "passed": true
+    },
+    {
+      "name": "funding direction fee/slippage cash reconcile 1",
+      "passed": true
+    },
+    {
+      "name": "funding direction fee/slippage cash reconcile -1",
+      "passed": true
+    },
+    {
+      "name": "unchanged3pct V2 budget; small EXTRA need not reduce I100",
+      "passed": true
+    },
+    {
+      "name": "unchanged3pct V2 budget; small EXTRA need not reduce I25",
+      "passed": true
+    },
+    {
+      "name": "checkpoint roundtrip code state and cash",
+      "passed": true
+    },
+    {
+      "name": "compressed tape hash-chain verifies repeated restart",
+      "passed": true
+    }
+  ],
+  "synthetic_or_prefix_checks_not_forward_performance": true
+}

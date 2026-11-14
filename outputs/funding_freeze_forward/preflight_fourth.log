@@ -1,0 +1,5 @@
+BTC trades [{'id': 8274405948, 'price': '64107.70', 'qty': '0.001', 'quoteQty': '64.10', 'time': 1794695452577, 'isBuyerMaker': True, 'isRPITrade': False}, {'id': 8274405949, 'price': '64107.70', 'qty': '0.004',
+ETH trades [{'id': 8991011503, 'price': '1764.54', 'qty': '0.085', 'quoteQty': '149.98', 'time': 1794695457239, 'isBuyerMaker': False, 'isRPITrade': False}, {'id': 8991011504, 'price': '1764.54', 'qty': '0.001',
+BTC premiumIndex {'symbol': 'BTCUSDT', 'markPrice': '64106.62836310', 'indexPrice': '64106.16826087', 'estimatedSettlePrice': '64001.54764481', 'lastFundingRate': '0.00003005', 'interestRate': '0.00010000', 'nextFundi
+BTC fundingRate [{'symbol': 'BTCUSDT', 'fundingTime': 1791820800006, 'fundingRate': '0.00001944', 'markPrice': '82681.27792029', 'rateType': 'Regular'}, {'symbol': 'BTCUSDT', 'fundingTime': 1791849600002, 'fundingRat
+PREFLIGHT_OK 1794696300000

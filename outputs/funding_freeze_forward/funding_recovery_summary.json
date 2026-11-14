@@ -1,0 +1,98 @@
+[
+  {
+    "period": "2020",
+    "asset": "BTC",
+    "status": "APPROXIMATE_FUNDING",
+    "strict_exact_status": "UNVERIFIED",
+    "exact_price_records": 0,
+    "estimated_price_records": 960,
+    "missing": [],
+    "original_rate_source_SHA256": "5368d5d2b8c286f92b1b6c9601f557920754fd62b2a0aa6e9eef0766fd245eab",
+    "minute_extremes_are_not_account_bounds": true,
+    "signals_never_use_estimated_mark_prices": true
+  },
+  {
+    "period": "2020",
+    "asset": "ETH",
+    "status": "APPROXIMATE_FUNDING",
+    "strict_exact_status": "UNVERIFIED",
+    "exact_price_records": 0,
+    "estimated_price_records": 960,
+    "missing": [],
+    "original_rate_source_SHA256": "99d5df68034bc556803aaa810a9cc5575b82a9e9743fbc39212b922848885af8",
+    "minute_extremes_are_not_account_bounds": true,
+    "signals_never_use_estimated_mark_prices": true
+  },
+  {
+    "period": "2021",
+    "asset": "BTC",
+    "status": "APPROXIMATE_FUNDING",
+    "strict_exact_status": "UNVERIFIED",
+    "exact_price_records": 0,
+    "estimated_price_records": 1095,
+    "missing": [],
+    "original_rate_source_SHA256": "3b635b9efd9aba67237807abdf0e6c19480614525f78a517e0e310481a929aa2",
+    "minute_extremes_are_not_account_bounds": true,
+    "signals_never_use_estimated_mark_prices": true
+  },
+  {
+    "period": "2021",
+    "asset": "ETH",
+    "status": "APPROXIMATE_FUNDING",
+    "strict_exact_status": "UNVERIFIED",
+    "exact_price_records": 0,
+    "estimated_price_records": 1095,
+    "missing": [],
+    "original_rate_source_SHA256": "e08690407de5c754c7cc6e7d42b2b2a72d31fe222a7d88dae256d456ab2a97a5",
+    "minute_extremes_are_not_account_bounds": true,
+    "signals_never_use_estimated_mark_prices": true
+  },
+  {
+    "period": "2022",
+    "asset": "BTC",
+    "status": "APPROXIMATE_FUNDING",
+    "strict_exact_status": "UNVERIFIED",
+    "exact_price_records": 0,
+    "estimated_price_records": 1095,
+    "missing": [],
+    "original_rate_source_SHA256": "ba5d4f110e20c88f62df8fc283e57ca1eb9d8cd57e050a0dec6bfac6190c02f0",
+    "minute_extremes_are_not_account_bounds": true,
+    "signals_never_use_estimated_mark_prices": true
+  },
+  {
+    "period": "2022",
+    "asset": "ETH",
+    "status": "APPROXIMATE_FUNDING",
+    "strict_exact_status": "UNVERIFIED",
+    "exact_price_records": 0,
+    "estimated_price_records": 1095,
+    "missing": [],
+    "original_rate_source_SHA256": "daba371d979ae33ec7b2bf160114198516851513371bba6fafea1cb9bf1b8ea5",
+    "minute_extremes_are_not_account_bounds": true,
+    "signals_never_use_estimated_mark_prices": true
+  },
+  {
+    "period": "2023",
+    "asset": "BTC",
+    "status": "APPROXIMATE_FUNDING",
+    "strict_exact_status": "UNVERIFIED",
+    "exact_price_records": 184,
+    "estimated_price_records": 911,
+    "missing": [],
+    "original_rate_source_SHA256": "1a3e202c0c243b00cab40fdf7a0b046a2b5c981a3ce641d5fa89689f1df6decb",
+    "minute_extremes_are_not_account_bounds": true,
+    "signals_never_use_estimated_mark_prices": true
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "status": "APPROXIMATE_FUNDING",
+    "strict_exact_status": "UNVERIFIED",
+    "exact_price_records": 184,
+    "estimated_price_records": 911,
+    "missing": [],
+    "original_rate_source_SHA256": "ee31182cb8633b69cea55329b598ffe2e1f96d9b2410880ae9d8d8f05f662019",
+    "minute_extremes_are_not_account_bounds": true,
+    "signals_never_use_estimated_mark_prices": true
+  }
+]

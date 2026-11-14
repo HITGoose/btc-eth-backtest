@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/preflight.py", line 13, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/preflight.py", line 7, in main
+    sg=n.Signals(t0,folder);sg.warm(events.append);legs=sg.calculate();manifest=dict(T0_ms=t0,run_id='PRE_FLIGHT_NOT_FORWARD')
+                                                        ^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/online.py", line 48, in calculate
+    ns=dict(type(leg).signals.__globals__);exec(source,ns);leg.signals=types.MethodType(ns['signals'],leg)
+                                                           ^^^^^^^^^^^
+  File "<string>", line 4, in __setattr__
+dataclasses.FrozenInstanceError: cannot assign to field 'signals'

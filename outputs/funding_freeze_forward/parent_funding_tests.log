@@ -1,0 +1,14 @@
+PASS funded closed net and cash direction 1
+PASS funded closed net and cash direction -1
+PASS funding uses actual remainder after V2 partial; complete net reconciles
+PASS actual settlement is before same-time stop print
+PASS same-time new entry is not retrospectively charged
+PASS microsecond raw before settlement cannot be rounded into future funding
+PASS settlement after last poll is included before minute mark
+PASS minute-boundary funding precedes closed15m V2 check
+PASS empty feed leaves execution finances identical; never used to fill missing history
+ALL 9 PASS
+PASS actual original generator wires funding before V2, partial quantity and last-minute mark
+PASS future funding values cannot change current account decisions
+PASS incomplete official historical prices cannot enable funded full-year mode
+FINAL 12 PASS
