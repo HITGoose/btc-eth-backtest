@@ -1,9 +1,9 @@
 {
-  "commit": "b6f8f5f536aa97b1e79d9d4f333792928fff3fad",
-  "tree": "ec468b0094436bf5db5e8552b1f97e994d2d398b",
-  "parent": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+  "commit": "52f6cfea62d6078532141b2f804cbf98edde9277",
+  "tree": "e340d278bc2816ba292547ef3b5ce97fb5af188e",
+  "parent": "3a4fbcff8fbb2e51eb336465a49ac3a860860c1d",
   "branch": "codex/funding-freeze-forward-20261114",
-  "files": 47,
+  "files": 77,
   "main_unchanged": "e66859aff89490b9b02c286e59d7d8270802972a",
   "remote_blob_checks": true
 }
