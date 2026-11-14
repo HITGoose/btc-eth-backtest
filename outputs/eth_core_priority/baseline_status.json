@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "jobs": [
+    {
+      "period": "2024",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2024",
+      "asset": "ETH",
+      "groups": "BD",
+      "code": 0
+    },
+    {
+      "period": "2025",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "B",
+      "code": 0
+    }
+  ]
+}

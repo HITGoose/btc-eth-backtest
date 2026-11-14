@@ -1,0 +1,30 @@
+Working directory: /workspace/btc-eth-backtest
+Python: /workspace/.venv-btc-eth-original/bin/python (3.12.14)
+Git: 2.52.0; no local .git metadata; authenticated GitHub connector creates independent branch.
+Read ETH_DENSITY_EXPERIMENT.md, STRATEGY_CURRENT.md, report.md, EXPERIMENT.md, ISSUES.md; no AGENTS in locked complete tree.
+python outputs/eth_core_priority/validation32/tests.py > outputs/eth_core_priority/validation32/run.log 2>&1
+python outputs/eth_core_priority/tests.py > outputs/eth_core_priority/tests.log 2>&1
+python outputs/eth_core_priority/analysis_tests.py > outputs/eth_core_priority/analysis_tests.log 2>&1
+python outputs/eth_core_priority/shadow_tests.py > outputs/eth_core_priority/shadow_tests.log 2>&1
+python outputs/eth_core_priority/boundary_tests.py > outputs/eth_core_priority/boundary_tests.log 2>&1
+python -u outputs/eth_core_priority/supervisor.py > outputs/eth_core_priority/run.log 2>&1
+python outputs/eth_core_priority/reuse_btc.py > outputs/eth_core_priority/reuse_btc.log 2>&1
+Read-only 2024 B/D collection smoke run: outputs/eth_core_priority/analysis_smoke_2024.log
+After original fresh 2024/25 baselines completed: supervisor relaunched with scheduling-only concurrency adjustment. Completed cohorts skipped; same financial fingerprint. First baseline run preserved in baseline_actual_run.log.
+Per-task actual argv is python outputs/eth_core_priority/worker.py PERIOD ASSET --groups GROUPS; stdout/stderr run_attempt_N.log. All attempts, source metadata, checkpoints and failures are under runs.
+python outputs/eth_core_priority/recover_download.py outputs/eth_core_priority/runs/2025/ETH/D/temporary/ETHUSDT-trades-2025-03-25.zip > outputs/eth_core_priority/download_recovery.log 2>&1
+python -u outputs/eth_core_priority/worker.py 2025 ETH --groups D > outputs/eth_core_priority/runs/2025/ETH/D/run_download_recovered.log 2>&1
+python outputs/eth_core_priority/cost_group.py G > outputs/eth_core_priority/cost_group_G.log 2>&1
+python outputs/eth_core_priority/cost_group.py D > outputs/eth_core_priority/cost_group_D.log 2>&1
+python outputs/eth_core_priority/data_check.py > outputs/eth_core_priority/data_check.log 2>&1
+python outputs/eth_core_priority/shadows.py --period 2024 --group H --cost ZERO > outputs/eth_core_priority/shadow_smoke_2024_H_ZERO.log 2>&1
+python -u outputs/eth_core_priority/finalize.py > outputs/eth_core_priority/finalize.log 2>&1
+finalize executed independent2025 H/I cost attempts, export_incomplete.py, collect.py, extra_analysis.py, shadows.py, audit.py; per-command *_final.log.
+python outputs/eth_core_priority/collect.py > outputs/eth_core_priority/collect_final.log 2>&1 (read-only export rerun after adding explicit failure/cutoff evidence)
+python outputs/eth_core_priority/extra_analysis.py > outputs/eth_core_priority/extra_analysis_final.log 2>&1
+python outputs/eth_core_priority/audit.py > outputs/eth_core_priority/audit_final.log 2>&1 (new completed-shadow coverage checks)
+python outputs/eth_core_priority/summary_stats.py > outputs/eth_core_priority/summary_stats.log 2>&1
+python outputs/eth_core_priority/replay.py 2024 ETH --groups BD > outputs/eth_core_priority/replay_wrapper_test.log 2>&1 (uses completed cache, no financial re-replay)
+python outputs/eth_core_priority/archive_reference_tests.py > outputs/eth_core_priority/archive_reference_tests.log 2>&1
+python outputs/eth_core_priority/write_report.py > outputs/eth_core_priority/write_report.log 2>&1
+python outputs/eth_core_priority/package.py > outputs/eth_core_priority/package.log 2>&1

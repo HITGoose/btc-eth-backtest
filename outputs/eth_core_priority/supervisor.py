@@ -6,7 +6,7 @@ OUT=Path(__file__).resolve().parent
 def job(item):
  period,asset,groups=item;folder=OUT/'runs'/period/asset/groups;folder.mkdir(parents=True,exist_ok=True)
  for attempt in range(3):
-  with(folder/f'run_attempt_{attempt}.log').open('w')as log:proc=subprocess.run([sys.executable,str(OUT/'worker.py'),period,asset,'--groups',groups],stdout=log,stderr=subprocess.STDOUT)
+  with(folder/f'run_attempt_{attempt}.log').open('w')as log:proc=subprocess.run([sys.executable,str(OUT/'replay.py'),period,asset,'--groups',groups],stdout=log,stderr=subprocess.STDOUT)
   if proc.returncode==0:print('DONE',*item,flush=True);return dict(period=period,asset=asset,groups=groups,code=0)
   failure=json.loads((folder/'failure.json').read_text())if(folder/'failure.json').exists()else{}
   if not any(x in failure.get('traceback','')for x in ('HTTPError','URLError','TimeoutError','ConnectionResetError','IncompleteRead')):break
@@ -21,7 +21,7 @@ if __name__=='__main__':
  with ThreadPoolExecutor(max_workers=3)as pool:results+=list(pool.map(job,stage0))
  (OUT/'baseline_status.json').write_text(json.dumps(dict(passed=all(x['code']==0 for x in results),jobs=results),indent=2))
  if any(x['code']for x in results):raise SystemExit('B/D baseline alignment not complete; new experiments prohibited')
- stages=[[('2024','ETH','GHI')],[(year,asset,'B'if asset=='BTC'else'BDGHI')for year in ['2020','2021','2022','2023','2026','NOV']for asset in ['BTC','ETH']], [('2025','ETH',group)for group in 'DGHI']]
+ stages=[[('2024','ETH','GHI'),('2025','ETH','D'),('2025','ETH','G')], [('2025','ETH','H'),('2025','ETH','I')]+[(year,asset,'B'if asset=='BTC'else'BDGHI')for year in ['2020','2021','2022','2023','2026','NOV']for asset in ['BTC','ETH']]]
  for stage in stages:
   with ThreadPoolExecutor(max_workers=3)as pool:results+=list(pool.map(job,stage))
   (OUT/'supervisor_status.json').write_text(json.dumps(dict(completed=False,jobs=results),indent=2))

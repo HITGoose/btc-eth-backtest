@@ -1,0 +1,33 @@
+{
+  "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2025-03-25.zip",
+  "checks": [
+    {
+      "quarantined": "/workspace/btc-eth-backtest/outputs/eth_core_priority/download_recovery/ETHUSDT-trades-2025-03-25/990e24c1244292008c444e4a73137cc339d108aba0d9a01dc72299cf268eb143.badzip",
+      "bytes": 29684392,
+      "sha256": "990e24c1244292008c444e4a73137cc339d108aba0d9a01dc72299cf268eb143"
+    },
+    {
+      "attempt": 0,
+      "sha256": "b15192b1bc53f974333c3c3dd430535c5ced2e335e00ef53721b7f306349a2f7",
+      "official_sha256": "b15192b1bc53f974333c3c3dd430535c5ced2e335e00ef53721b7f306349a2f7",
+      "bytes": 29829963,
+      "headers": {
+        "content-type": "application/zip",
+        "content-length": "29829963",
+        "accept-ranges": "bytes",
+        "date": "Sat, 14 Nov 2026 10:26:04 GMT",
+        "server": "envoy",
+        "last-modified": "Wed, 26 Mar 2025 07:10:01 GMT",
+        "etag": "\"badc4c78873778d39dcc79d6be40876f-4\"",
+        "x-amz-server-side-encryption": "AES256",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 fea3bb73170852a6088ac898afbb2522.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "ORD58-P10",
+        "x-amz-cf-id": "U0zUmCJXRy2Qh-0dzu1zuCoxd5Pl437YFLTCfYl5PBoHhxvV209YlA==",
+        "x-envoy-upstream-service-time": "448",
+        "connection": "close"
+      },
+      "match": true
+    }
+  ]
+}

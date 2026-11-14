@@ -1,0 +1,157 @@
+{
+  "completed": true,
+  "jobs": [
+    {
+      "period": "2024",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2024",
+      "asset": "ETH",
+      "groups": "BD",
+      "code": 0
+    },
+    {
+      "period": "2025",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2024",
+      "asset": "ETH",
+      "groups": "GHI",
+      "code": 0
+    },
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "D",
+      "code": 1
+    },
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "G",
+      "code": 1
+    },
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "H",
+      "code": 1
+    },
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "I",
+      "code": 1
+    },
+    {
+      "period": "2020",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2020",
+      "asset": "ETH",
+      "groups": "BDGHI",
+      "code": 0
+    },
+    {
+      "period": "2021",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2021",
+      "asset": "ETH",
+      "groups": "BDGHI",
+      "code": 0
+    },
+    {
+      "period": "2022",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2022",
+      "asset": "ETH",
+      "groups": "BDGHI",
+      "code": 0
+    },
+    {
+      "period": "2023",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2023",
+      "asset": "ETH",
+      "groups": "BDGHI",
+      "code": 0
+    },
+    {
+      "period": "2026",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "2026",
+      "asset": "ETH",
+      "groups": "BDGHI",
+      "code": 0
+    },
+    {
+      "period": "NOV",
+      "asset": "BTC",
+      "groups": "B",
+      "code": 0
+    },
+    {
+      "period": "NOV",
+      "asset": "ETH",
+      "groups": "BDGHI",
+      "code": 0
+    }
+  ],
+  "failures": [
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "D",
+      "code": 1
+    },
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "G",
+      "code": 1
+    },
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "H",
+      "code": 1
+    },
+    {
+      "period": "2025",
+      "asset": "ETH",
+      "groups": "I",
+      "code": 1
+    }
+  ]
+}

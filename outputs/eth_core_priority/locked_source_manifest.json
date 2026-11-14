@@ -1,0 +1,1110 @@
+{
+  "commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+  "tree": [
+    {
+      "path": "bybit_legacy/btc_2026_prepare_scratch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63565eb7111688a9517cda85c8ec831c36bfa68b",
+      "size": 1423,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/63565eb7111688a9517cda85c8ec831c36bfa68b"
+    },
+    {
+      "path": "handoff/astra_20261114/prepare_github_sync.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85b2bcd70bc3a84964e828e617222fe333057dd4",
+      "size": 4913,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/85b2bcd70bc3a84964e828e617222fe333057dd4"
+    },
+    {
+      "path": "handoff/astra_20261114/verify_github.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27c3f4ce92ddcc0a59617af5fa81ab1f0b5a2303",
+      "size": 700,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/27c3f4ce92ddcc0a59617af5fa81ab1f0b5a2303"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/attribution/analyze.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6107707b225abf891511eebbd1f0e35bf6588fb5",
+      "size": 3909,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/6107707b225abf891511eebbd1f0e35bf6588fb5"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/attribution/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "146d7789b8b4a6c11f8a2afdca798ea0c0c72700",
+      "size": 5338,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/146d7789b8b4a6c11f8a2afdca798ea0c0c72700"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc0b5abc9cfa436f9ebe050bd1c3f687d2c70ef1",
+      "size": 4645,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/cc0b5abc9cfa436f9ebe050bd1c3f687d2c70ef1"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/supervisor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19c81a1f1130fbc27d2fb87831b2034e004b3e2f",
+      "size": 504,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/19c81a1f1130fbc27d2fb87831b2034e004b3e2f"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82cc8fe3cdca71bc0a2edeb57c5d5172ac5495e6",
+      "size": 2538,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/82cc8fe3cdca71bc0a2edeb57c5d5172ac5495e6"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ad9f27db7fd9b054f4e4849e912cca9ff920974",
+      "size": 27470,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/0ad9f27db7fd9b054f4e4849e912cca9ff920974"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/supervisor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f82285dd08a9c12bf942c7eae7d153dea48d7c6",
+      "size": 767,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/7f82285dd08a9c12bf942c7eae7d153dea48d7c6"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "069ded6064d0b1c37fe51233cccc9ae22046cfba",
+      "size": 14610,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/069ded6064d0b1c37fe51233cccc9ae22046cfba"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "062d11ab929937fbbc50f04d09ab5bea1679a9c1",
+      "size": 5694,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/062d11ab929937fbbc50f04d09ab5bea1679a9c1"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f749e50fd5f230daebbd86261ffb98ce3f893e8",
+      "size": 3738,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/3f749e50fd5f230daebbd86261ffb98ce3f893e8"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66cdb1e934457f9aee8bc0e45c263f4e7e39e8db",
+      "size": 2531,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/66cdb1e934457f9aee8bc0e45c263f4e7e39e8db"
+    },
+    {
+      "path": "outputs/attribution_2026/attribute.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da340b34a624c0e46a8e9afd0f151c37ff4ce435",
+      "size": 12919,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/da340b34a624c0e46a8e9afd0f151c37ff4ce435"
+    },
+    {
+      "path": "outputs/attribution_2026/binance_inputs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfb857715a2a777328c5a3c2b58296380fbee13d",
+      "size": 4992,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/cfb857715a2a777328c5a3c2b58296380fbee13d"
+    },
+    {
+      "path": "outputs/attribution_2026/make_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c41dd731f8fec1bdeb8879c4d8c7076d80787a3f",
+      "size": 11476,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/c41dd731f8fec1bdeb8879c4d8c7076d80787a3f"
+    },
+    {
+      "path": "outputs/attribution_2026/paired_replay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e9fa65ff5aed2a7a0e43040587125e0f6f62252",
+      "size": 15472,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/6e9fa65ff5aed2a7a0e43040587125e0f6f62252"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbc8c0591bd90d3838c4b515eb0e58377fe67b96",
+      "size": 7206,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/dbc8c0591bd90d3838c4b515eb0e58377fe67b96"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d15c4cdb961250bcb3af2b881cbd0423d6663b56",
+      "size": 6802,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d15c4cdb961250bcb3af2b881cbd0423d6663b56"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/finalize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dea57eddd65b0df1779596062623945bf365e49d",
+      "size": 2596,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/dea57eddd65b0df1779596062623945bf365e49d"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/supervisor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6d61d1e6db5481312a9cb8631818374f7b8c311",
+      "size": 814,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/b6d61d1e6db5481312a9cb8631818374f7b8c311"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/test_engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "185946f9057650260526a93df7ba94b9fc3e6899",
+      "size": 2575,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/185946f9057650260526a93df7ba94b9fc3e6899"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1a7db535904eaa546214bff3bda2905e5217867",
+      "size": 4391,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/f1a7db535904eaa546214bff3bda2905e5217867"
+    },
+    {
+      "path": "outputs/btc_followup_20261113/run_20261113_013231/follow_btc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8df46b9eef5fd1e0f683871a49672d6c67bc7d06",
+      "size": 10753,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/8df46b9eef5fd1e0f683871a49672d6c67bc7d06"
+    },
+    {
+      "path": "outputs/btc_nov12_nov13_comparison/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2193392e9c19ea34b02c2224710464cff9583ece",
+      "size": 9126,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/2193392e9c19ea34b02c2224710464cff9583ece"
+    },
+    {
+      "path": "outputs/btc_nov12_nov13_comparison/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4534e545b4b8243f1a19bdd3039875a8b722e50",
+      "size": 15101,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/c4534e545b4b8243f1a19bdd3039875a8b722e50"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/package.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e0a2c86777705ae3b0ff604529514d738dce5a5",
+      "size": 7302,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/4e0a2c86777705ae3b0ff604529514d738dce5a5"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0588fd77103f488f1aaa0161ec82fd999f828fb0",
+      "size": 10194,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/0588fd77103f488f1aaa0161ec82fd999f828fb0"
+    },
+    {
+      "path": "outputs/dynamic_first10_perpetual/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cbb3ce9376c8d2ec307fbf2468739af62efa738",
+      "size": 16679,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/4cbb3ce9376c8d2ec307fbf2468739af62efa738"
+    },
+    {
+      "path": "outputs/dynamic_first10_perpetual/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0db5aa39cc70a39f8bbec321bdf87303a8120eca",
+      "size": 9375,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/0db5aa39cc70a39f8bbec321bdf87303a8120eca"
+    },
+    {
+      "path": "outputs/er_dynamic_annual_2019_2026/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76de66db133095625def4071054462cddb78fbe0",
+      "size": 6090,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/76de66db133095625def4071054462cddb78fbe0"
+    },
+    {
+      "path": "outputs/er_dynamic_annual_2019_2026/supervisor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccb0a6d42570496a2880f9fda0f3f547f062f4a3",
+      "size": 1027,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/ccb0a6d42570496a2880f9fda0f3f547f062f4a3"
+    },
+    {
+      "path": "outputs/er_dynamic_annual_2019_2026/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cf731b92f04dc9b1d51738e9d8acf0780c89a1a",
+      "size": 2703,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/7cf731b92f04dc9b1d51738e9d8acf0780c89a1a"
+    },
+    {
+      "path": "outputs/er_dynamic_compare/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af7acaa2429165704f69551cba3d3679b5d2bc90",
+      "size": 4903,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/af7acaa2429165704f69551cba3d3679b5d2bc90"
+    },
+    {
+      "path": "outputs/er_dynamic_compare/dynamic.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "625124b60e31975acf89966473f1ba5106e0537e",
+      "size": 5502,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/625124b60e31975acf89966473f1ba5106e0537e"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b07ad16b76e559b00d88b186125b342afd652ee3",
+      "size": 5464,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/b07ad16b76e559b00d88b186125b342afd652ee3"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/finalize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fc70cb5125b78109d9d747976aad03c9f95998",
+      "size": 2249,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/e4fc70cb5125b78109d9d747976aad03c9f95998"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/repair_2020_daily.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d30a7e82e19e21ead1ffe6dcba155b66a5073bd3",
+      "size": 2754,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d30a7e82e19e21ead1ffe6dcba155b66a5073bd3"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/restore_gaps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cd15e0d7462f5e68b276cafb706cf611dc1da21",
+      "size": 3328,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/6cd15e0d7462f5e68b276cafb706cf611dc1da21"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/supervisor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e58d81a898e633b0eddd2b94d70b0353dc23e2a3",
+      "size": 948,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/e58d81a898e633b0eddd2b94d70b0353dc23e2a3"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/test_gap_restore.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e55887918645857404547885dd83292412d71b79",
+      "size": 1360,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/e55887918645857404547885dd83292412d71b79"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22b400d5ad767a70179e3008de8e5f837f1daa76",
+      "size": 4094,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/22b400d5ad767a70179e3008de8e5f837f1daa76"
+    },
+    {
+      "path": "outputs/er_partial_2020/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e12eb3f3c2b00e7ec56fd168a36a702f9b0cdc6b",
+      "size": 4604,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/e12eb3f3c2b00e7ec56fd168a36a702f9b0cdc6b"
+    },
+    {
+      "path": "outputs/er_partial_2020/run_2020.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a7c6bde6dc4df9b883ac14eb67caae6613e206a",
+      "size": 3284,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/5a7c6bde6dc4df9b883ac14eb67caae6613e206a"
+    },
+    {
+      "path": "outputs/er_partial_2026/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "adc433e204ead11d7e3f46b9e689975f79e0896d",
+      "size": 4935,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/adc433e204ead11d7e3f46b9e689975f79e0896d"
+    },
+    {
+      "path": "outputs/er_partial_2026/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18fba901c78273656d24595d900f0f3387cae29b",
+      "size": 9764,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/18fba901c78273656d24595d900f0f3387cae29b"
+    },
+    {
+      "path": "outputs/er_partial_2026/test_engine.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "569b956d775e387697fb2d42cf5a4bc0a6cc7b26",
+      "size": 1966,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/569b956d775e387697fb2d42cf5a4bc0a6cc7b26"
+    },
+    {
+      "path": "outputs/er_partial_variants_2020/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "362bc6e2114a096c870b4b1919c38b90d1b58368",
+      "size": 3320,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/362bc6e2114a096c870b4b1919c38b90d1b58368"
+    },
+    {
+      "path": "outputs/er_partial_variants_2020/run_variants.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c372517b55ca96af578e9775d4f51a62176f11b9",
+      "size": 4225,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/c372517b55ca96af578e9775d4f51a62176f11b9"
+    },
+    {
+      "path": "outputs/er_partial_variants_2020/test_early.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "831d8c802401b13878a40ea7b3d355b53adef560",
+      "size": 1012,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/831d8c802401b13878a40ea7b3d355b53adef560"
+    },
+    {
+      "path": "outputs/eth_density_experiment/analysis_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d581b857ceff4212e1816840d5178f0f8028cfc1",
+      "size": 11816,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d581b857ceff4212e1816840d5178f0f8028cfc1"
+    },
+    {
+      "path": "outputs/eth_density_experiment/analysis_tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61eb610ef38093e6b2e67ec9e79fad6c5024fc64",
+      "size": 2461,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/61eb610ef38093e6b2e67ec9e79fad6c5024fc64"
+    },
+    {
+      "path": "outputs/eth_density_experiment/audit_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "158c955855122501b788e6914ed6f35db0003696",
+      "size": 4228,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/158c955855122501b788e6914ed6f35db0003696"
+    },
+    {
+      "path": "outputs/eth_density_experiment/baseline_driver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "829c1895f407d3251de973544ba0a80d16807172",
+      "size": 1691,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/829c1895f407d3251de973544ba0a80d16807172"
+    },
+    {
+      "path": "outputs/eth_density_experiment/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddb525583876a6a6007d5f4ddb145842a3448cd1",
+      "size": 25549,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/ddb525583876a6a6007d5f4ddb145842a3448cd1"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostic_incomplete.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5c3c156673baf188ca4bf50494e3bb07743f52e",
+      "size": 3319,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/f5c3c156673baf188ca4bf50494e3bb07743f52e"
+    },
+    {
+      "path": "outputs/eth_density_experiment/financial_tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3cbc9ec56b68030d5c5ab1167f284c1a005aeadc",
+      "size": 1916,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/3cbc9ec56b68030d5c5ab1167f284c1a005aeadc"
+    },
+    {
+      "path": "outputs/eth_density_experiment/isolate_2025.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f6d62e78069c603a55e3485138464580a558569",
+      "size": 2788,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/7f6d62e78069c603a55e3485138464580a558569"
+    },
+    {
+      "path": "outputs/eth_density_experiment/launch_after_baseline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5183f5c8e3cf5e08621c734174fc8c8d82ff758",
+      "size": 419,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/a5183f5c8e3cf5e08621c734174fc8c8d82ff758"
+    },
+    {
+      "path": "outputs/eth_density_experiment/pack_results.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9cb3557523e70597f3a24ae4e1e9ad78ff7d9abc",
+      "size": 2223,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/9cb3557523e70597f3a24ae4e1e9ad78ff7d9abc"
+    },
+    {
+      "path": "outputs/eth_density_experiment/prepare_inputs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b349ee39edb71cbd928b0e732964d412072414f7",
+      "size": 2586,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/b349ee39edb71cbd928b0e732964d412072414f7"
+    },
+    {
+      "path": "outputs/eth_density_experiment/prepare_publication.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56c038c86d0ed75d6eda4e90f1987f89267549d2",
+      "size": 2120,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/56c038c86d0ed75d6eda4e90f1987f89267549d2"
+    },
+    {
+      "path": "outputs/eth_density_experiment/recover_month.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21a30f48cdc59173de35af8dc55ba5e426ae31c5",
+      "size": 2469,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/21a30f48cdc59173de35af8dc55ba5e426ae31c5"
+    },
+    {
+      "path": "outputs/eth_density_experiment/strategy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "604de08ad33a98e9ea4118d293d5f3f2903a2fae",
+      "size": 6387,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/604de08ad33a98e9ea4118d293d5f3f2903a2fae"
+    },
+    {
+      "path": "outputs/eth_density_experiment/supervisor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a60264ac3895ce39c02f49eb4f5306b2c958859b",
+      "size": 1683,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/a60264ac3895ce39c02f49eb4f5306b2c958859b"
+    },
+    {
+      "path": "outputs/eth_density_experiment/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0395f6d52fae6275c938f74001735f94643e8a76",
+      "size": 2797,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/0395f6d52fae6275c938f74001735f94643e8a76"
+    },
+    {
+      "path": "outputs/eth_density_experiment/validation32/tests.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "069ded6064d0b1c37fe51233cccc9ae22046cfba",
+      "size": 14610,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/069ded6064d0b1c37fe51233cccc9ae22046cfba"
+    },
+    {
+      "path": "outputs/eth_density_experiment/validation32/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "062d11ab929937fbbc50f04d09ab5bea1679a9c1",
+      "size": 5694,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/062d11ab929937fbbc50f04d09ab5bea1679a9c1"
+    },
+    {
+      "path": "outputs/eth_density_experiment/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d501ba31a3823be321989dd900e2922ca754e6e6",
+      "size": 9003,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d501ba31a3823be321989dd900e2922ca754e6e6"
+    },
+    {
+      "path": "outputs/eth_today_20261113/check_gate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35222544ae45e930d00446953eee8acd1ccc11d0",
+      "size": 6292,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/35222544ae45e930d00446953eee8acd1ccc11d0"
+    },
+    {
+      "path": "outputs/eth_today_20261113/check_old.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b8a9b40c7a185b92fb3df0b7b5b25de1963fba9",
+      "size": 5538,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/5b8a9b40c7a185b92fb3df0b7b5b25de1963fba9"
+    },
+    {
+      "path": "outputs/eth_today_20261113/fetch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69dd14b8d4b342d775da3303aa2fa63855996dc4",
+      "size": 3777,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/69dd14b8d4b342d775da3303aa2fa63855996dc4"
+    },
+    {
+      "path": "outputs/exit_attribution/analyze.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fec0c208672f1843253d34c98cfece781478d75c",
+      "size": 5936,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/fec0c208672f1843253d34c98cfece781478d75c"
+    },
+    {
+      "path": "outputs/exit_attribution/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "143180f7ebce34d679ba0c2d066702aebfc377b3",
+      "size": 6324,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/143180f7ebce34d679ba0c2d066702aebfc377b3"
+    },
+    {
+      "path": "outputs/focus_m30_h4/compare_existing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33533b35978728d7ad1536def821588a1cc9bdaf",
+      "size": 12321,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/33533b35978728d7ad1536def821588a1cc9bdaf"
+    },
+    {
+      "path": "outputs/ma_30m_2026/experiment_30m.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f26943c113e9e9a4ad27d59e63c87cc234711423",
+      "size": 7752,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/f26943c113e9e9a4ad27d59e63c87cc234711423"
+    },
+    {
+      "path": "outputs/ma_multitimeframe_2026/experiment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a79d4e52471e7f2d51e7ee20e22fcf2c5b9cbdc5",
+      "size": 14706,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/a79d4e52471e7f2d51e7ee20e22fcf2c5b9cbdc5"
+    },
+    {
+      "path": "outputs/ma_multitimeframe_2026/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d64e9789718775446a91b4798632dbf4131c74f",
+      "size": 14524,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/3d64e9789718775446a91b4798632dbf4131c74f"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17ea806eb2c6af8c794707dd8440b7809d358502",
+      "size": 5713,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/17ea806eb2c6af8c794707dd8440b7809d358502"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/deliver.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd62a0c7e84f22777a432d4e5791cdd7c8110b34",
+      "size": 5028,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/dd62a0c7e84f22777a432d4e5791cdd7c8110b34"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/late2017.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f6f8c86c5dbcbd60839f891a701fda8a1bb1c47",
+      "size": 1786,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/5f6f8c86c5dbcbd60839f891a701fda8a1bb1c47"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/normalize_early.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d055be28365a11996ddbd53baa27fdca154ea6db",
+      "size": 961,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d055be28365a11996ddbd53baa27fdca154ea6db"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/repair_early.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0465089d0a01d3b2be607f6f36d412d7bfd0317e",
+      "size": 2568,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/0465089d0a01d3b2be607f6f36d412d7bfd0317e"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/restore_early_gaps.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "268cb88e7b06ae512f36528636043a2d9107c301",
+      "size": 3626,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/268cb88e7b06ae512f36528636043a2d9107c301"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/supervisor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2e764ffb2a7aca72f14f6a1c23337b4c42b8181",
+      "size": 958,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/a2e764ffb2a7aca72f14f6a1c23337b4c42b8181"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/worker.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff28bc26ff944061911a8321ac922b51145a8bf4",
+      "size": 4102,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/ff28bc26ff944061911a8321ac922b51145a8bf4"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0abd9cba2367cb2876266ee1f356163286b07462",
+      "size": 3795,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/0abd9cba2367cb2876266ee1f356163286b07462"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea5df504bbc9c9d789be83620d98d4fc0079d1db",
+      "size": 3325,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/ea5df504bbc9c9d789be83620d98d4fc0079d1db"
+    },
+    {
+      "path": "outputs/other_years_050/batch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ab418cabcf33abebeb228d4c6be8a5ca71b3eb1",
+      "size": 3967,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/1ab418cabcf33abebeb228d4c6be8a5ca71b3eb1"
+    },
+    {
+      "path": "outputs/other_years_050/collect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a4569188a523b49f11a2711b5cff1d111b27d03",
+      "size": 3391,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/1a4569188a523b49f11a2711b5cff1d111b27d03"
+    },
+    {
+      "path": "outputs/other_years_050/supervisor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deadd9c3cec37edc19c1f27ae76498fe6e56c417",
+      "size": 1374,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/deadd9c3cec37edc19c1f27ae76498fe6e56c417"
+    },
+    {
+      "path": "outputs/retry_nov9_nov12/finalize.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b73c18bb0062934c5fc138067077e86deb2e51cf",
+      "size": 9791,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/b73c18bb0062934c5fc138067077e86deb2e51cf"
+    },
+    {
+      "path": "outputs/retry_nov9_nov12/follow_btc.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8df46b9eef5fd1e0f683871a49672d6c67bc7d06",
+      "size": 10753,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/8df46b9eef5fd1e0f683871a49672d6c67bc7d06"
+    },
+    {
+      "path": "outputs/retry_nov9_nov12/replay_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dbfcdb7921d622fcb0d906e4cd3f3d9e9ceccf6",
+      "size": 19266,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/9dbfcdb7921d622fcb0d906e4cd3f3d9e9ceccf6"
+    },
+    {
+      "path": "outputs/user_ma_six_2026/experiment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05fdd06949be25cd3755ca05cd83b7c91daf11db",
+      "size": 14780,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/05fdd06949be25cd3755ca05cd83b7c91daf11db"
+    },
+    {
+      "path": "outputs/user_ma_six_2026/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3bf47ff35006e042c6b2fe54dcc55594c41873e",
+      "size": 14438,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d3bf47ff35006e042c6b2fe54dcc55594c41873e"
+    },
+    {
+      "path": "outputs/user_ma_six_higher_2026/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50a147d451d5c74e318a8276a95d96ba4c1026f0",
+      "size": 12015,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/50a147d451d5c74e318a8276a95d96ba4c1026f0"
+    },
+    {
+      "path": "outputs/user_ma_six_higher_2026/run_higher.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "617ce29170184e3916e3e04fabccec8020f4cec6",
+      "size": 10656,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/617ce29170184e3916e3e04fabccec8020f4cec6"
+    },
+    {
+      "path": "outputs/user_ma_squeeze050/report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4533dd073b3ab897e7b17632ad605f0bfb7739d",
+      "size": 16485,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/a4533dd073b3ab897e7b17632ad605f0bfb7739d"
+    },
+    {
+      "path": "outputs/user_ma_squeeze050/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0cab5ae9dc33d0880b5040d7a7caaa3fd2973bb",
+      "size": 14520,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/b0cab5ae9dc33d0880b5040d7a7caaa3fd2973bb"
+    },
+    {
+      "path": "work/analyze_rolling_trades.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d9bbca809ac2857a7035fb7cb9bc0ca757b2fc7",
+      "size": 13623,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/2d9bbca809ac2857a7035fb7cb9bc0ca757b2fc7"
+    },
+    {
+      "path": "work/analyze_squeeze_short_regimes.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d59a84f56721acdbf68707f5cbfa10473696e194",
+      "size": 8334,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d59a84f56721acdbf68707f5cbfa10473696e194"
+    },
+    {
+      "path": "work/audit_bot_formal_rules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "246ffdc2565be3f7585ef71040f7c1e3657def5f",
+      "size": 7546,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/246ffdc2565be3f7585ef71040f7c1e3657def5f"
+    },
+    {
+      "path": "work/audit_gate_12h_fit_differences.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "805707df161172650b4bfb7999d7beb838d24717",
+      "size": 7958,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/805707df161172650b4bfb7999d7beb838d24717"
+    },
+    {
+      "path": "work/audit_gate_october.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6ca2fb79ca7e4216c70992dd98f8686149bec12",
+      "size": 6837,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/e6ca2fb79ca7e4216c70992dd98f8686149bec12"
+    },
+    {
+      "path": "work/backtest_squeeze_short.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e704ef84fd6f769582d974970053ff70b0717aa",
+      "size": 18141,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/6e704ef84fd6f769582d974970053ff70b0717aa"
+    },
+    {
+      "path": "work/combined_crypto_portfolio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bf3be101cf61d15acb655b3a06b2e8c37ee13c9",
+      "size": 14562,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/5bf3be101cf61d15acb655b3a06b2e8c37ee13c9"
+    },
+    {
+      "path": "work/compare_gate_crossover_timing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffaa918343f948ebc4797efecb4ca3d802f90a20",
+      "size": 7116,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/ffaa918343f948ebc4797efecb4ca3d802f90a20"
+    },
+    {
+      "path": "work/compare_gate_fast_windows.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0dc412c3c05a9eb1acee792a8435748e4ba807cf",
+      "size": 7484,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/0dc412c3c05a9eb1acee792a8435748e4ba807cf"
+    },
+    {
+      "path": "work/compare_gate_strategies_by_year.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9902f02b8b2d1fc8f1d89db7daa3a986012257a5",
+      "size": 16519,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/9902f02b8b2d1fc8f1d89db7daa3a986012257a5"
+    },
+    {
+      "path": "work/diagnose_strategy_regime.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d81432c2c542f0b0f80a3ea2b1e96b196269e92",
+      "size": 3395,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/1d81432c2c542f0b0f80a3ea2b1e96b196269e92"
+    },
+    {
+      "path": "work/extended_crypto_portfolio.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7bc346253f32974176b5e0ce513e4b80b7e12ba",
+      "size": 6083,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/e7bc346253f32974176b5e0ce513e4b80b7e12ba"
+    },
+    {
+      "path": "work/fetch_eth_2021_2024.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04853b26fe0457b9f27faee4045ace79bc497b10",
+      "size": 2791,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/04853b26fe0457b9f27faee4045ace79bc497b10"
+    },
+    {
+      "path": "work/fit_bot_execution_audit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97845f5538853eb5d6887584fd77031bc949208a",
+      "size": 12956,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/97845f5538853eb5d6887584fd77031bc949208a"
+    },
+    {
+      "path": "work/fit_gate_entry_overlay.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5612882f1179da3fa9d8f8fe476b9a2ab47bd2d0",
+      "size": 15934,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/5612882f1179da3fa9d8f8fe476b9a2ab47bd2d0"
+    },
+    {
+      "path": "work/fit_squeeze_ladder_bot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "599996640adb2917ec868089191463f98c51a552",
+      "size": 20970,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/599996640adb2917ec868089191463f98c51a552"
+    },
+    {
+      "path": "work/gate_annual_market.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29c99798e6758ce9a46d3b6e876ecf9a549b5d08",
+      "size": 14132,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/29c99798e6758ce9a46d3b6e876ecf9a549b5d08"
+    },
+    {
+      "path": "work/gate_october_regime_entries.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6646705da18fbd9cda342d3122cff604be2b29b",
+      "size": 11311,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/c6646705da18fbd9cda342d3122cff604be2b29b"
+    },
+    {
+      "path": "work/gate_public_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5b0078771bf5488994d389b05fee8876f28f75e",
+      "size": 6803,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d5b0078771bf5488994d389b05fee8876f28f75e"
+    },
+    {
+      "path": "work/gate_v13_targets.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27de79b42024085f3b754d1c5d7d5f76b633d945",
+      "size": 5562,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/27de79b42024085f3b754d1c5d7d5f76b633d945"
+    },
+    {
+      "path": "work/measure_er_horizons.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce1accbdeeea6c5e7888ffb7044d37bb38e9510",
+      "size": 2481,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/2ce1accbdeeea6c5e7888ffb7044d37bb38e9510"
+    },
+    {
+      "path": "work/original_ladder_tick_data.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ca4de446765ec413f8147a1bda1558340f026e7",
+      "size": 5914,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/8ca4de446765ec413f8147a1bda1558340f026e7"
+    },
+    {
+      "path": "work/replay_formal_bot_trades.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf2e840d5fa08d80eb993e67868778dbb3d7973f",
+      "size": 17113,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/bf2e840d5fa08d80eb993e67868778dbb3d7973f"
+    },
+    {
+      "path": "work/replay_gate_annual.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2578ce43b0a227cf01f8d303a3cab951e903a3f",
+      "size": 4828,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/e2578ce43b0a227cf01f8d303a3cab951e903a3f"
+    },
+    {
+      "path": "work/replay_gate_bot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d064cae947d5b7aa10f90360970fe652398b8cc7",
+      "size": 10743,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d064cae947d5b7aa10f90360970fe652398b8cc7"
+    },
+    {
+      "path": "work/replay_gate_october_seconds.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07eda61eee75ad84582b3b57a218a66c7cc649b2",
+      "size": 8021,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/07eda61eee75ad84582b3b57a218a66c7cc649b2"
+    },
+    {
+      "path": "work/replay_gate_regime_october.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f803457bd470d1e65fa2ee7877a83bfdb1c4772e",
+      "size": 10033,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/f803457bd470d1e65fa2ee7877a83bfdb1c4772e"
+    },
+    {
+      "path": "work/replay_gate_selected_3x.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9469f691e8bb7069e31249d67066900c9ea21eb",
+      "size": 6936,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/f9469f691e8bb7069e31249d67066900c9ea21eb"
+    },
+    {
+      "path": "work/review_regime_entry.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d10435f682c3b3d3e958f24c5aa0dc1e67fd3874",
+      "size": 10699,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/d10435f682c3b3d3e958f24c5aa0dc1e67fd3874"
+    },
+    {
+      "path": "work/run_original_ladder_compare.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a7f324f993851a948aadc8f4dc2900ed0504a75",
+      "size": 7851,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/4a7f324f993851a948aadc8f4dc2900ed0504a75"
+    },
+    {
+      "path": "work/summarize_btc_eth_rsi_priority.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd35a38f818f01199233df2f4546d86e415ff6ee",
+      "size": 11617,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/fd35a38f818f01199233df2f4546d86e415ff6ee"
+    },
+    {
+      "path": "work/summarize_btc_rsi_4h.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28e52c561d5aee4a6702492a2c185e346f3d1b5a",
+      "size": 6821,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/28e52c561d5aee4a6702492a2c185e346f3d1b5a"
+    },
+    {
+      "path": "work/summarize_btc_rsi_6h_hold.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd3a84f52bac857c2494f4fdc6a93f947ad15d60",
+      "size": 5257,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/dd3a84f52bac857c2494f4fdc6a93f947ad15d60"
+    },
+    {
+      "path": "work/summarize_btc_rsi_hold_sweep.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b998c63c6cdd87db7c6f89eb7fd26073d0cf7ea",
+      "size": 6303,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/5b998c63c6cdd87db7c6f89eb7fd26073d0cf7ea"
+    },
+    {
+      "path": "work/summarize_ladder_overlay_2019_2025.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ece555f179522a48220a4a11c953ad84e4a95cfb",
+      "size": 10077,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/ece555f179522a48220a4a11c953ad84e4a95cfb"
+    },
+    {
+      "path": "work/summarize_original_ladder_compare.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9938429698a0e39a08e8db2d4960bebf6e2b7d66",
+      "size": 15330,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/9938429698a0e39a08e8db2d4960bebf6e2b7d66"
+    },
+    {
+      "path": "work/verify_bybit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73fe7b3db905e8547b1c3048f67f5231543c8aec",
+      "size": 5118,
+      "url": "https://api.github.com/repos/HITGoose/btc-eth-backtest/git/blobs/73fe7b3db905e8547b1c3048f67f5231543c8aec"
+    }
+  ],
+  "AGENTS": "absent from complete locked tree"
+}

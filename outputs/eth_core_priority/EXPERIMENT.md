@@ -40,3 +40,25 @@ python outputs/eth_core_priority/worker.py 2025 ETH --groups H
 python outputs/eth_core_priority/worker.py 2025 ETH --groups I
 ```
 真实数据冲突未修复前这些命令可能再次失败，不能把重试叫完成验证。
+
+其余2020—23/2026/NOV的BTC完整信号和原生缓存SHA逐一匹配后，只复用不变的上轮BTC逐笔独立对照及权益路径（reuse_btc.py/reuse_manifest），不宣称是本轮重新播放。2024/25 BTC本轮新播放。ETH所有新路径从新账本真实逐笔执行，绝不以旧ETH成交路径替代。
+
+2025若共享两费率任务遇到冲突，两种费用再分别尝试。isolate_cost.py只从同一冻结财务代码指纹的月末断点选出该独立子账户及完整分钟权益前缀，保留来源SHA、费率和subset manifest；没有从旧版本或不同代码指纹恢复，也未重算/拼接单笔收益。两账户没有共享资金或持仓，每次generator.step前恢复该账户费率。每个费率仍由自己的新逐笔路径决定是否再次受阻，不用一个费率的结果填另一个。
+
+## 新Git克隆与当前云端差别
+
+本次当前云端的B/D已逐笔及完整每分钟权益数组与旧实验比较。Git交付不含原始行情、equity.npy或可信pickle执行断点，只含报告、逐笔账本及来源；不能把带status的交付ZIP直接解压成可跳过的运行缓存。新克隆先按prepare_inputs恢复官方原生缓存，supervisor通过replay.py调用同一冻结worker，从旧period_*_ledgers.zip只读取对照JSON验证完整交易、期末现金/权益/状态；若旧参考NPY未提供，明确记为REFERENCE_NPY_NOT_PUBLISHED，不冒充逐分钟数组对齐。档案JSON从不供给新增订单价格。当前云端仍可直接运行原worker.py并享有全数组回归。新的直接单任务入口：
+```sh
+python outputs/eth_core_priority/replay.py 2024 ETH --groups BDGHI
+```
+执行引擎/规则未改；wrapper只补充缺少旧NPY时的独立对照验证。所有可验证年度必须有旧JSON对照，缺失则报错；2025 D旧全年本身UNVERIFIED，不能制造对照。BTC复用只用于当前有效缓存；新克隆无旧NPY时应由supervisor重新播放BTC，不运行reuse_btc.py强行跳过。
+
+完整校验入口（不重新下载历史）：
+```sh
+python outputs/eth_core_priority/analysis_tests.py
+python outputs/eth_core_priority/shadow_tests.py
+python outputs/eth_core_priority/boundary_tests.py
+python outputs/eth_core_priority/checkpoint_tests.py
+python outputs/eth_core_priority/archive_reference_tests.py
+```
+原32＋入场/执行39＋归因8＋影子12＋完整循环边界8＋断点8共107项；另46项交付存档引用检查。合成/边界测试不是历史收益验证。当前云端全部可验证B/D闭仓交易、期末权益与每分钟数组精确对齐；Git新克隆缺参考数组时不冒充数组回归。

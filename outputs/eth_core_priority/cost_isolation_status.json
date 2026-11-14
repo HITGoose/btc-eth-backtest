@@ -1,0 +1,46 @@
+[
+  {
+    "group": "D",
+    "cost": "ZERO",
+    "code": 1,
+    "reused_current_task_completed_strict_failure": true
+  },
+  {
+    "group": "D",
+    "cost": "ASSUMED_005_SIDE",
+    "code": 1,
+    "reused_current_task_completed_strict_failure": true
+  },
+  {
+    "group": "G",
+    "cost": "ZERO",
+    "code": 1,
+    "reused_current_task_completed_strict_failure": true
+  },
+  {
+    "group": "G",
+    "cost": "ASSUMED_005_SIDE",
+    "code": 1,
+    "reused_current_task_completed_strict_failure": true
+  },
+  {
+    "group": "H",
+    "cost": "ZERO",
+    "code": 1
+  },
+  {
+    "group": "H",
+    "cost": "ASSUMED_005_SIDE",
+    "code": 1
+  },
+  {
+    "group": "I",
+    "cost": "ZERO",
+    "code": 1
+  },
+  {
+    "group": "I",
+    "cost": "ASSUMED_005_SIDE",
+    "code": 1
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "path": "outputs/eth_core_priority/artifacts/REPORTS_SMALL.zip",
+    "bytes": 257676,
+    "sha256": "17fdea32de195a32e1b242dec2f0073c15bf9de9fa4923be41061af0e0759bbd"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/TRADE_ATTRIBUTION.zip",
+    "bytes": 3500714,
+    "sha256": "56f9bc4cbc24ac0908e4050235adecc678fe3eaf921284c771efb8144c606459"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/period_2020_ledgers.zip",
+    "bytes": 447089,
+    "sha256": "f8e772bf623eecab4d4c7727ef82470131ca0fbc8386b26fed16e6f21f7ccf34"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/period_2021_ledgers.zip",
+    "bytes": 176222,
+    "sha256": "1d77a6670dc665be3262b7ac37b06a24424f01a8b3df84f736751c4f5b757014"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/period_2022_ledgers.zip",
+    "bytes": 420147,
+    "sha256": "1700f9ec5a6fa71f0a8504fc2c3ef4dac9ce0693f60894db095eab7e689c88ac"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/period_2023_ledgers.zip",
+    "bytes": 749889,
+    "sha256": "0d3b6cb595a386659d0b919ae5d2537c7da831a3e07ed920cef82a463239c804"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/period_2024_ledgers.zip",
+    "bytes": 612960,
+    "sha256": "9dcbc05386133cbeb32e4f8cae7f67718f6c02f1cc7fc77ce3b9a374eef9721a"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/period_2025_ledgers.zip",
+    "bytes": 913903,
+    "sha256": "9e4eaf87c4379852e9887bf4507eef5863ef5d53df297105b79ad430b4ea74d0"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/period_2026_ledgers.zip",
+    "bytes": 563525,
+    "sha256": "2569146332afab06149abd6d568bd080d5235196c08501dea0022b612f6fb7c0"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/period_NOV_ledgers.zip",
+    "bytes": 50683,
+    "sha256": "003e0da023c350baa31afe16aa5c4ca55fe16a4774665711c5f25aa3aacbca36"
+  },
+  {
+    "path": "outputs/eth_core_priority/artifacts/ALL_DERIVED_RESULTS.zip",
+    "bytes": 8454033,
+    "sha256": "96f38806cdfb885c19c762f2dde4d1d6117e44d0c43d2cf4cf334e16245462be"
+  }
+]

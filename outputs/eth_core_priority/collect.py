@@ -22,7 +22,7 @@ def load(period,asset,cost,group):
 def maps(period,asset):
  for f in (OUT/'runs'/period/asset).glob('*/signals.json'):return h.read(f)
  raise FileNotFoundError('signals absent')
-def decision(q,accepted,core,wide,btc,group):
+def decision(q,accepted,core,wide,btc,group,prices):
  trades=h.rows(q);fills={x['signal_close_ms']:x for x in trades};orders=[x for x in q['events']if x['event']=='order_sent'];sent={x['signal_close_ms']:x for x in orders}
  cancelled={x['extra_signal_close_ms']:x['time_us']for x in q['events']if x['event']=='priority_cancel_extra_order'}
  req=[x for x in q['events']if x['event']=='priority_replace_requested'];out={};end=h.us(q['window'][1]);start=h.us(q['window'][0])
@@ -40,12 +40,15 @@ def decision(q,accepted,core,wide,btc,group):
   elif held:status='BLOCKED_POSITION'
   elif pending:status='BLOCKED_PENDING_ORDER'
   else:status='NO_ORDER_CHECK_EVENT_OR_PRIORITY_LOCK'
-  out[stamp]=dict(signal_close_ms=stamp,side=side,origin=origin,BTC_complete_signal=btc.get(stamp,0),execution_status=status,failed_conditions='BTC_SAME_DIRECTION'if status=='BTC_FILTER_REJECTED'else'',occupying_signal_close_ms=held['signal_close_ms']if held else None,pending_signal_close_ms=pending['signal_close_ms']if pending else None)
+  out[stamp]=dict(signal_close_ms=stamp,reference_close=prices.get(stamp,'NOT_EVALUATED'),side=side,origin=origin,BTC_complete_signal=btc.get(stamp,0),execution_status=status,failed_conditions='BTC_SAME_DIRECTION'if status=='BTC_FILTER_REJECTED'else'',occupying_signal_close_ms=held['signal_close_ms']if held else None,pending_signal_close_ms=pending['signal_close_ms']if pending else None)
  return out
 
 def main():
  metrics=[];monthly=[];attr=[];impact=[];priority=[];filters=[];availability=[];cashchecks=[];concentration=[];decisions_all=[];allq={}
  for period in z.PERIODS:
+  price_maps={}
+  for asset in('BTC','ETH'):
+   _,data,_,_,_,_=z.inputs(period,asset);raw=np.loadtxt(data/f'{asset}_15m.csv',delimiter=',',skiprows=1);price_maps[asset]={int(x[0])+900000:float(x[4])for x in raw}
   sm=maps(period,'ETH');core={int(k):v for k,v in sm['core'].items()};wide={int(k):v for k,v in sm['wide'].items()};btc={int(k):v for k,v in sm['BTC'].items()}
   for cost in z.COSTS:
    loaded={};vectors={};decisions={}
@@ -53,9 +56,15 @@ def main():
     try:
      qb,mb=load(period,'BTC',cost,group);qe,me=load(period,'ETH',cost,group)
     except FileNotFoundError as error:
-     availability.append(dict(period=period,cost=cost,group=group,status='UNVERIFIED',error=str(error)));continue
+     missing=dict(period=period,cost=cost,group=group,status='UNVERIFIED',error=str(error))
+     failure=OUT/'cost_isolation'/cost/'runs'/period/'ETH'/group/'failure.json'
+     if not failure.exists():failure=OUT/'runs'/period/'ETH'/group/'failure.json'
+     if failure.exists():missing.update(actual_error=h.read(failure)['error'],evidence_file=str(failure.relative_to(OUT)),blocked_archive='ETHUSDT-trades-2025-08-29.zip'if period=='2025'else'NOT_EVALUATED',resume_command=f'python outputs/eth_core_priority/isolate_cost.py {group} {cost}')
+     subset=OUT/'cost_isolation'/cost/'runs'/period/'ETH'/group/'checkpoint_subset_manifest.json'
+     if subset.exists():missing['checkpoint_cutoff_exclusive']=z.r.local_s(h.read(subset)['next_time'])
+     availability.append(missing);continue
     availability.append(dict(period=period,cost=cost,group=group,status='COMPLETE'));loaded[group]=(qb,mb,qe,me);allq[period,cost,group]=qe
-    accepted=z.classify(core,wide,btc,group)[0];decisions[group]=decision(qe,accepted,core,wide,btc,group)
+    accepted=z.classify(core,wide,btc,group)[0];decisions[group]=decision(qe,accepted,core,wide,btc,group,price_maps['ETH'])
     decisions_all.extend(dict(period=period,cost=cost,group=group,**x)for x in decisions[group].values())
     vb=h.curve(qb,mb);ve=h.curve(qe,me);vectors[group]=(vb,ve)
     for asset,q,marks,vec,initial in [('BTC',qb,mb,vb,500.),('ETH',qe,me,ve,500.),('COMBINED',None,mb+me,None,1000.)]:
@@ -73,7 +82,7 @@ def main():
       assert abs(qq['cash']-500-sum(x['delta']for x in qq['cash_events']))<1e-7
       cashchecks.append(dict(period=period,cost=cost,group=group,asset=qq['asset'],closed_net=sum(t['net']for t in qq['trades']),open_fee_partial_and_MTM_contribution=qq['open_contribution'],ending_equity=qq['ending_equity'],residual=err,cash_event_residual=qq['cash']-500-sum(x['delta']for x in qq['cash_events'])))
     events=qe['events'];fills={x['signal_close_ms']:x for x in h.rows(qe)};ev=lambda n:[x for x in events if x['event']==n]
-    requests=ev('priority_replace_requested');active=[t for t in qe['trades']if t['reason']=='core_priority_exit'];submits=ev('priority_core_submit_result');corekeys={x['core_signal_close_ms']for x in submits if x['accepted']}
+    requests=ev('priority_replace_requested');active=[t for t in qe['trades']if t['reason']=='core_priority_exit'];submits=ev('priority_core_submit_result');triggerkeys={x['core_signal_close_ms']for x in requests+ev('priority_cancel_extra_order')};corekeys={x['core_signal_close_ms']for x in submits if x['accepted']and x['core_signal_close_ms']in triggerkeys}
     priority.append(dict(period=period,cost=cost,group=group,cancelled_EXTRA_orders=len(ev('priority_cancel_extra_order')),replace_requests=len(requests),active_exit_count=len(active),active_exit_same_direction=sum(x['same_direction']for x in ev('priority_position_closed')),active_exit_opposite_direction=sum(not x['same_direction']for x in ev('priority_position_closed')),stop_first_count=len(ev('priority_stop_first')),active_exited_full_trade_net=sum(x['net']for x in active),active_exit_final_leg_cash_credit=sum(x['actual_final_cash_credit']for x in active),active_exit_fees=sum(x['exit']*x['final_exit_quantity']*qe['fee']for x in active),replacement_CORE_submitted=len(corekeys),replacement_CORE_filled=len(corekeys&fills.keys()),replacement_CORE_expired=sum(x in corekeys and row['execution_status']=='EXPIRED_UNFILLED'for x,row in decisions[group].items()),replacement_CORE_unfilled_at_end=sum(x in corekeys and row['execution_status']=='PENDING_AT_END'for x,row in decisions[group].items()),replacement_CORE_entry_fees=sum(fills[x]['entry']*fills[x]['quantity']*qe['fee']for x in corekeys&fills.keys()),extra_turnover_fees_scope='observed active-exit plus replacement-entry fees; incremental total cost is full account fee delta',pending_priority_at_end=bool(qe.get('replacement_at_end'))))
    if 'D'in loaded:
     qd=loaded['D'][2];dt={x['signal_close_ms']:x for x in h.rows(qd)}
@@ -87,7 +96,7 @@ def main():
     if variant not in loaded or base not in loaded:continue
     for asset,index in[('BTC',0),('ETH',2)]:
      old=loaded[base][index];new=loaded[variant][index];rows=h.compare(old,new,decisions[variant]if asset=='ETH'else{})
-     rows=[dict(period=period,cost=cost,variant=variant,base=base,asset=asset,**x)for x in rows];attr.extend(rows)
+     rows=[dict(period=period,cost=cost,variant=variant,base=base,asset=asset,signal_reference_close=price_maps[asset].get(x['signal_close_ms'],'NOT_EVALUATED'),**x)for x in rows];attr.extend(rows)
      for direction in('ALL','LONG','SHORT'):
       use=rows if direction=='ALL'else[x for x in rows if x['side']==direction];added=[x for x in use if x['category']=='ADDED'];lost=[x for x in use if x['category']=='DISAPPEARED'];match=[x for x in use if x['category']in('RETAINED','CHANGED')]
       impact.append(dict(period=period,cost=cost,variant=variant,base=base,asset=asset,direction=direction,actual_USDT_delta=sum(x['actual_USDT_delta']for x in use),normalized_1000_delta=sum(x['normalized_1000_delta']for x in use),added=len(added),disappeared=len(lost),retained=sum(x['category']=='RETAINED'for x in use),changed=sum(x['category']=='CHANGED'for x in use),added_wins=sum(x['new_status']=='CLOSED'and x['new_net']>0 for x in added),added_losses=sum(x['new_status']=='CLOSED'and x['new_net']<0 for x in added),added_closed_net=sum(x['new_net']for x in added if x['new_status']=='CLOSED'),lost_winners=sum(x['old_status']=='CLOSED'and x['old_net']>0 for x in lost),lost_winner_profit=sum(x['old_net']for x in lost if x['old_status']=='CLOSED'and x['old_net']>0),avoided_old_loss=-sum(x['old_net']for x in lost if x['old_status']=='CLOSED'and x['old_net']<0),gross_loss_delta=sum(-min(0,x['new_net'])for x in use if x['new_status']=='CLOSED')-sum(-min(0,x['old_net'])for x in use if x['old_status']=='CLOSED'),old_losing_worsened_actual=sum(x['old_status']=='CLOSED'and x['new_status']=='CLOSED'and x['old_net']<0 and x['new_net']<x['old_net']-1e-8 for x in match),old_losing_worsened_normalized=sum(x['old_status']=='CLOSED'and x['new_status']=='CLOSED'and x['old_net']<0 and x['new_normalized_1000']<x['old_normalized_1000']-1e-8 for x in match),matched_actual_delta=sum(x['actual_USDT_delta']for x in match),matched_normalized_delta=sum(x['normalized_1000_delta']for x in match),fees_delta=new['stats'].get('fees',0)-old['stats'].get('fees',0),disappearance_reasons=json.dumps(Counter(x['variant_reason']for x in lost))))
@@ -99,8 +108,8 @@ def main():
     bkeys={h.trade_key(x):x for x in h.rows(loaded['B'][2])};dkeys={h.trade_key(x)for x in h.rows(loaded['D'][2])}
     for row in priority:
      if row['period']!=period or row['cost']!=cost or row['group']not in loaded:continue
-     vkeys={h.trade_key(x)for x in h.rows(loaded[row['group']][2])};restored=(bkeys.keys()-dkeys)&vkeys;lost=bkeys.keys()-vkeys
-     row.update(restored_B_trades=len(restored),still_missing_B_trades=len(lost),restored_B_winners=sum(bkeys[k]['status']=='CLOSED'and bkeys[k]['net']>0 for k in restored),still_missing_B_winners=sum(bkeys[k]['status']=='CLOSED'and bkeys[k]['net']>0 for k in lost))
+     vtrades={h.trade_key(x):x for x in h.rows(loaded[row['group']][2])};vkeys=set(vtrades);restored=(bkeys.keys()-dkeys)&vkeys;lost=bkeys.keys()-vkeys
+     row.update(restored_B_same_entry_exit_times_prices=sum(all(bkeys[k].get(f)==vtrades[k].get(f)for f in('opened_us','closed_us','entry','exit'))for k in restored),restored_trade_actual_closed_net=sum(vtrades[k]['net']for k in restored if vtrades[k]['status']=='CLOSED'),restored_B_trades=len(restored),still_missing_B_trades=len(lost),restored_B_winners=sum(bkeys[k]['status']=='CLOSED'and bkeys[k]['net']>0 for k in restored),still_missing_B_winners=sum(bkeys[k]['status']=='CLOSED'and bkeys[k]['net']>0 for k in lost))
    del loaded,vectors;gc.collect()
   print('COLLECTED',period,flush=True)
  for name,rows in[('yearly_metrics',metrics),('monthly',monthly),('trade_attribution',attr),('impact',impact),('priority_summary',priority),('btc_filter_audit',filters),('availability',availability),('cash_reconciliation',cashchecks),('concentration',concentration),('signal_execution_diagnostics',decisions_all)]:z.csv_dump(OUT/(name+('.csv.gz'if name=='signal_execution_diagnostics'else'.csv')),rows)

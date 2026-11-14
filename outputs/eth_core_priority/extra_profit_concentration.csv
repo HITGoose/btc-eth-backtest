@@ -1,0 +1,7 @@
+﻿group,cost,EXTRA_closed,EXTRA_winners,EXTRA_gross_profit,top1_profit_share,top5_profit_share,scope
+G,ZERO,27,15,820.3844343200003,0.20606159145391614,0.5617976831094099,actual EXTRA closed trades; no selected-case rule or rerun
+G,ASSUMED_005_SIDE,27,15,724.9733110338802,0.19830768902273602,0.5730629632956717,actual EXTRA closed trades; no selected-case rule or rerun
+H,ZERO,99,49,1534.825940580002,0.09413897574952323,0.39588121392474507,actual EXTRA closed trades; no selected-case rule or rerun
+H,ASSUMED_005_SIDE,99,49,1300.7718800877717,0.10586771139977103,0.426074612346096,actual EXTRA closed trades; no selected-case rule or rerun
+I,ZERO,28,15,688.3539720800005,0.26237762085436134,0.6548020050469257,actual EXTRA closed trades; no selected-case rule or rerun
+I,ASSUMED_005_SIDE,28,15,601.6915923886204,0.2531337385343704,0.6621952787324261,actual EXTRA closed trades; no selected-case rule or rerun

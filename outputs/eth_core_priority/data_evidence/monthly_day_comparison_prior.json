@@ -1,0 +1,21 @@
+{
+  "official_monthly": {
+    "url": "https://data.binance.vision/data/futures/um/monthly/trades/ETHUSDT/ETHUSDT-trades-2025-08.zip",
+    "bytes": 2168800971,
+    "sha256": "464bdf18378ff90fea7cc4e019436f22b954e74a172554aa4b300498142e5cfc",
+    "official_checksum_match": true
+  },
+  "total_rows_scanned": 226053520,
+  "selected_day_rows": 7454972,
+  "nonincreasing_ids": 3,
+  "timestamp_reversals": 2,
+  "sha256_filtered_day": "1149b44ac2927660cea1bda5ab19aac620f50067c12bbf3d841e70fe240f9ed2",
+  "samples": [
+    "6299136398,4451.32,0.31,1379.9092,1756449424472,true",
+    "6299136399,4451.32,0.005,22.2566,1756449424498,true",
+    "6299136400,4451.33,0.031,137.99123,1756449424504,false"
+  ],
+  "usable": false,
+  "daily_uncompressed_sha256": "1149b44ac2927660cea1bda5ab19aac620f50067c12bbf3d841e70fe240f9ed2",
+  "daily_monthly_day_exact_match": true
+}

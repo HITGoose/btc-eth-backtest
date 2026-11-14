@@ -1,0 +1,545 @@
+[
+  {
+    "variant": "G",
+    "base": "D",
+    "cost": "ZERO",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 466.9761030599984,
+    "normalized_1000_delta": 199.78713170136442,
+    "gross_loss_delta": -655.239946259999,
+    "fees_delta": 0.0,
+    "lost_B_or_D_winners": 47,
+    "lost_B_or_D_profit": 1933.0703240800017,
+    "old_losses_worsened_actual": 107,
+    "old_losses_worsened_normalized": 49,
+    "return_improved": [
+      "2024",
+      "2021",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2022",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2022",
+      "2023"
+    ],
+    "tail_USDT_worsened": [
+      "2024",
+      "2021",
+      "2022",
+      "2026"
+    ],
+    "tail_per1000_worsened": []
+  },
+  {
+    "variant": "G",
+    "base": "D",
+    "cost": "ASSUMED_005_SIDE",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 485.3829465875584,
+    "normalized_1000_delta": 256.1037602377549,
+    "gross_loss_delta": -585.2810553116892,
+    "fees_delta": -37.718812227560015,
+    "lost_B_or_D_winners": 47,
+    "lost_B_or_D_profit": 1645.0136230396915,
+    "old_losses_worsened_actual": 106,
+    "old_losses_worsened_normalized": 54,
+    "return_improved": [
+      "2024",
+      "2021",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2021",
+      "2022",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2022",
+      "2023"
+    ],
+    "tail_USDT_worsened": [
+      "2024",
+      "2021",
+      "2022",
+      "2026"
+    ],
+    "tail_per1000_worsened": []
+  },
+  {
+    "variant": "H",
+    "base": "D",
+    "cost": "ZERO",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 430.34317842000075,
+    "normalized_1000_delta": 162.9005097128569,
+    "gross_loss_delta": 270.9403534799998,
+    "fees_delta": 0.0,
+    "lost_B_or_D_winners": 7,
+    "lost_B_or_D_profit": 225.9610715200004,
+    "old_losses_worsened_actual": 98,
+    "old_losses_worsened_normalized": 61,
+    "return_improved": [
+      "2024",
+      "2020",
+      "2023",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2021",
+      "2022",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2024",
+      "2020",
+      "2023",
+      "2026"
+    ],
+    "tail_USDT_worsened": [
+      "2023",
+      "2026"
+    ],
+    "tail_per1000_worsened": []
+  },
+  {
+    "variant": "H",
+    "base": "D",
+    "cost": "ASSUMED_005_SIDE",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 272.91579675478044,
+    "normalized_1000_delta": 140.35461840930918,
+    "gross_loss_delta": 217.1142476605599,
+    "fees_delta": 79.72370276521995,
+    "lost_B_or_D_winners": 7,
+    "lost_B_or_D_profit": 177.1787423005904,
+    "old_losses_worsened_actual": 86,
+    "old_losses_worsened_normalized": 58,
+    "return_improved": [
+      "2024",
+      "2020",
+      "2023",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2021",
+      "2022",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2024",
+      "2020",
+      "2026"
+    ],
+    "tail_USDT_worsened": [
+      "2023",
+      "2026"
+    ],
+    "tail_per1000_worsened": []
+  },
+  {
+    "variant": "I",
+    "base": "D",
+    "cost": "ZERO",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 671.31987422,
+    "normalized_1000_delta": 276.77455944515594,
+    "gross_loss_delta": -636.9327100399994,
+    "fees_delta": 0.0,
+    "lost_B_or_D_winners": 48,
+    "lost_B_or_D_profit": 1950.6680485600018,
+    "old_losses_worsened_actual": 106,
+    "old_losses_worsened_normalized": 46,
+    "return_improved": [
+      "2024",
+      "2021",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2022"
+    ],
+    "worst_month_worsened": [
+      "2022"
+    ],
+    "tail_USDT_worsened": [
+      "2024",
+      "2021",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "tail_per1000_worsened": []
+  },
+  {
+    "variant": "I",
+    "base": "D",
+    "cost": "ASSUMED_005_SIDE",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 623.0092171030296,
+    "normalized_1000_delta": 321.0588775058118,
+    "gross_loss_delta": -566.9571099943591,
+    "fees_delta": -13.90073044302985,
+    "lost_B_or_D_winners": 48,
+    "lost_B_or_D_profit": 1657.4141353120717,
+    "old_losses_worsened_actual": 104,
+    "old_losses_worsened_normalized": 51,
+    "return_improved": [
+      "2024",
+      "2021",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2021",
+      "2022"
+    ],
+    "worst_month_worsened": [
+      "2022",
+      "2023"
+    ],
+    "tail_USDT_worsened": [
+      "2024",
+      "2021",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "tail_per1000_worsened": []
+  },
+  {
+    "variant": "G",
+    "base": "B",
+    "cost": "ZERO",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 197.06744516000134,
+    "normalized_1000_delta": 97.41154330197826,
+    "gross_loss_delta": 817.8575884799986,
+    "fees_delta": 0.0,
+    "lost_B_or_D_winners": 7,
+    "lost_B_or_D_profit": 269.17739612000145,
+    "old_losses_worsened_actual": 115,
+    "old_losses_worsened_normalized": 58,
+    "return_improved": [
+      "2024",
+      "2020",
+      "2022",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2024",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2024",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "tail_USDT_worsened": [
+      "2024",
+      "2022",
+      "2026"
+    ],
+    "tail_per1000_worsened": []
+  },
+  {
+    "variant": "G",
+    "base": "B",
+    "cost": "ASSUMED_005_SIDE",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 131.44696321217114,
+    "normalized_1000_delta": 80.1192676037389,
+    "gross_loss_delta": 719.7516229004186,
+    "fees_delta": 78.29145108782994,
+    "lost_B_or_D_winners": 7,
+    "lost_B_or_D_profit": 224.44081288027118,
+    "old_losses_worsened_actual": 104,
+    "old_losses_worsened_normalized": 41,
+    "return_improved": [
+      "2024",
+      "2020",
+      "2022",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2024",
+      "2022",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2024",
+      "2020",
+      "2022",
+      "2023"
+    ],
+    "tail_USDT_worsened": [
+      "2024",
+      "2022"
+    ],
+    "tail_per1000_worsened": []
+  },
+  {
+    "variant": "H",
+    "base": "B",
+    "cost": "ZERO",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 160.43452052000362,
+    "normalized_1000_delta": 60.52492131347072,
+    "gross_loss_delta": 1744.0378882199975,
+    "fees_delta": 0.0,
+    "lost_B_or_D_winners": 3,
+    "lost_B_or_D_profit": 195.2585581000006,
+    "old_losses_worsened_actual": 70,
+    "old_losses_worsened_normalized": 58,
+    "return_improved": [
+      "2020",
+      "2023"
+    ],
+    "DD_worsened": [
+      "2024",
+      "2020",
+      "2021",
+      "2023",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2024",
+      "2020",
+      "2021",
+      "2023",
+      "2026"
+    ],
+    "tail_USDT_worsened": [
+      "2020",
+      "2023"
+    ],
+    "tail_per1000_worsened": [
+      "2026"
+    ]
+  },
+  {
+    "variant": "H",
+    "base": "B",
+    "cost": "ASSUMED_005_SIDE",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": -81.02018662060686,
+    "normalized_1000_delta": -35.62987422470679,
+    "gross_loss_delta": 1522.1469258726677,
+    "fees_delta": 195.73396608060992,
+    "lost_B_or_D_winners": 3,
+    "lost_B_or_D_profit": 156.4060262358405,
+    "old_losses_worsened_actual": 61,
+    "old_losses_worsened_normalized": 47,
+    "return_improved": [
+      "2020",
+      "2023"
+    ],
+    "DD_worsened": [
+      "2024",
+      "2020",
+      "2021",
+      "2023",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2024",
+      "2020",
+      "2021",
+      "2023",
+      "2026"
+    ],
+    "tail_USDT_worsened": [
+      "2020",
+      "2023"
+    ],
+    "tail_per1000_worsened": [
+      "2026"
+    ]
+  },
+  {
+    "variant": "I",
+    "base": "B",
+    "cost": "ZERO",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 401.41121632000284,
+    "normalized_1000_delta": 174.39897104576983,
+    "gross_loss_delta": 836.1648246999983,
+    "fees_delta": 0.0,
+    "lost_B_or_D_winners": 1,
+    "lost_B_or_D_profit": 30.761552360000223,
+    "old_losses_worsened_actual": 120,
+    "old_losses_worsened_normalized": 53,
+    "return_improved": [
+      "2024",
+      "2020",
+      "2022",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2024",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2024",
+      "2020",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "tail_USDT_worsened": [
+      "2024",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "tail_per1000_worsened": []
+  },
+  {
+    "variant": "I",
+    "base": "B",
+    "cost": "ASSUMED_005_SIDE",
+    "periods": [
+      "2024",
+      "2020",
+      "2021",
+      "2022",
+      "2023",
+      "2026",
+      "NOV"
+    ],
+    "actual_USDT_delta": 269.0732337276424,
+    "normalized_1000_delta": 145.07438487179581,
+    "gross_loss_delta": 738.0755682177486,
+    "fees_delta": 102.1095328723601,
+    "lost_B_or_D_winners": 1,
+    "lost_B_or_D_profit": 22.721450198440184,
+    "old_losses_worsened_actual": 109,
+    "old_losses_worsened_normalized": 49,
+    "return_improved": [
+      "2024",
+      "2020",
+      "2022",
+      "2026"
+    ],
+    "DD_worsened": [
+      "2024",
+      "2022",
+      "2026"
+    ],
+    "worst_month_worsened": [
+      "2024",
+      "2020",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "tail_USDT_worsened": [
+      "2024",
+      "2022",
+      "2023",
+      "2026"
+    ],
+    "tail_per1000_worsened": []
+  }
+]
