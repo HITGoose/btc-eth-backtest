@@ -1,0 +1,641 @@
+{
+  "base_commit": "17366bb41b11ca82e3084f2f042c09e00b160234",
+  "files": [
+    {
+      "path": "ETH_2025_ANOMALY_SENSITIVITY.md",
+      "bytes": 1359,
+      "sha256": "d3ef76276c970e6ef236636c31b640a25e0049480879c4e8b38b88cc2f40ba55",
+      "git_sha": "7bbe895341f8132cb0b4c7a74c963060d5440dc5"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/BTC_reuse_proof.json",
+      "bytes": 1158,
+      "sha256": "277ef578c99c88b2b4912362b6f78d6a1b912b9f45c4ab47697c6c5967f0d067",
+      "git_sha": "131add62ade7b80c5438e0a6929166a1a4b1a728"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/B_exact_comparison.csv",
+      "bytes": 624,
+      "sha256": "7e093280875aa964d8a3084da926291e6049d53d373614c4dc21271e12ed85e5",
+      "git_sha": "0b5321dca80adf7cae25d871018409937911bf04"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/B_original_archive_evidence.json",
+      "bytes": 522,
+      "sha256": "e710bad963f9356f77d9cbae46419da0863796d79826ceff315438977f3655d0",
+      "git_sha": "187935115dbafa43b0dc3c384d6c80d604c2e802"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/EXPERIMENT.md",
+      "bytes": 5699,
+      "sha256": "e3e7dfb5838c51e53253089ee795186d1c973977ad0f85b53e053400b7376b62",
+      "git_sha": "a910e61d397fd4865c6fe404c02342261aca80ca"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/ISSUES.md",
+      "bytes": 1206,
+      "sha256": "3334cdbcea2d5bf8ad886f9a2dbe459c4fc6a6dc87a1e7fa302e7a8ea5e6950a",
+      "git_sha": "9d3b2d5d80b907057c542ddd504aad800ad89de4"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/adapter.py",
+      "bytes": 6313,
+      "sha256": "2b93f33289527fda40c83852a1006464ce6e4af9b012f826823a710ac6c35d5f",
+      "git_sha": "738faba5f19a0cebf0d06d4b0586c8562b394d2c"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/analysis.json",
+      "bytes": 149678,
+      "sha256": "3ee255af22c1d9284f2b7681c00ca0d1d2d9d55c8de5edc1b0435883488a6870",
+      "git_sha": "cda5bec98eef0710b06e55bdad44d63a00b7f652"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/annual_mobile.csv",
+      "bytes": 4081,
+      "sha256": "a1638479c4abad6854ca58ae199e1d424e68ecba6b5c3f9c01a3216228f0dca5",
+      "git_sha": "c9bc23faafee770145993829fcff3a60b3a5271d"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/annual_scenarios.csv",
+      "bytes": 94691,
+      "sha256": "0579456fbaf398ea90a2457b96b9c38e9402a1d0b247237e299d508b70746705",
+      "git_sha": "af1a2157f3fd7e3d5dd5df2207fe984362f99e61"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/anomaly_event_differences.csv.gz",
+      "bytes": 361843,
+      "sha256": "753a0159c558442debe6c2c94bde077e17b8f9e8991f230a0181cbae0c988a82",
+      "git_sha": "7ce8a55822f16e26d011ec297fa3dc01f20a5370"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/anomaly_trace_summary.csv",
+      "bytes": 4692,
+      "sha256": "0bf689811f3d8e357fcc64098fe07183f3ef8fd18baa3239061972823ddd62ce",
+      "git_sha": "7cd150015d22b6875ea3d8de25b2d48c55e9c5a1"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/archive_access_evidence.csv",
+      "bytes": 5260,
+      "sha256": "4af190f0631f0ce0b5c435871357ddc5babd2fd54d0b518e071cb705a80e1d61",
+      "git_sha": "bce445ab1c7910a64462668d1c439d5c90f37d35"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/S_000_full_ledgers.zip",
+      "bytes": 457530,
+      "sha256": "2b32c45346eb3d541f1d6d5e211f66331703d58e2d8cd8a97eca45d69be4f7e7",
+      "git_sha": "fc833dde071d192406ac3bfede5f6b9279ebef2e"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/S_001_full_ledgers.zip",
+      "bytes": 457524,
+      "sha256": "5c6712ee9b6f22cd92735dc8d3ac45d8d356cf3da94e6bbe0193971fdf5ccf2b",
+      "git_sha": "aba2c05a74a49162ad350b656189a398868f387b"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/S_010_full_ledgers.zip",
+      "bytes": 457543,
+      "sha256": "b128cc995a076b02b3530ce65c900170a1580f8e058c91e6956ab18782b020f9",
+      "git_sha": "ca72f9609382c5866871fc3686b8267aaab59aee"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/S_011_full_ledgers.zip",
+      "bytes": 457586,
+      "sha256": "86a3c2523d7a7c71bcddbc52c2899e0ada14b2691d0bdda26cbbb3c32710b629",
+      "git_sha": "535b85fe4ee30a18e2fe3c3c85e2aa4a96bd5dcb"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/S_100_full_ledgers.zip",
+      "bytes": 457561,
+      "sha256": "76a5a92018db04860638185be461aaab6f4a2e238a963d8b83a10ad5d7ad7f33",
+      "git_sha": "125c523cf34ae8981074c589213f2424911287b4"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/S_101_full_ledgers.zip",
+      "bytes": 457487,
+      "sha256": "dd64a14d0aadb86aef3d78e7f23a88db9909702ff282c58320e5a2a52e45b05e",
+      "git_sha": "6956f3be4f3cf8a9175b12ae7a79390053a7ed47"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/S_110_full_ledgers.zip",
+      "bytes": 457538,
+      "sha256": "5ea2d17a6e80fa12167b87262f20facba575dc11dae177cd78eadda229754873",
+      "git_sha": "aa3f5378b72b440e54f29d618bfd842993657a02"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/S_111_full_ledgers.zip",
+      "bytes": 457182,
+      "sha256": "f7e0eae5c7d6ff1478a60064c9dcb8d8918e1448af976e63a53f12c13eabca57",
+      "git_sha": "019c544715333bd1606b4c56acc08543c7fb5ad7"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/S_ALL_full_ledgers.zip",
+      "bytes": 457566,
+      "sha256": "ed5f09ffcfc031b025e1d2b086a63b07662c3332dcf590a8ac39033da683e596",
+      "git_sha": "0299ea9eae5e18ce7607f4a9340456c1120ecf3c"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/audit_source_logs.zip",
+      "bytes": 541158,
+      "sha256": "22f8784908a12ac5e7858b3432cd0be61604e77e21279772cb17846ad0fc9290",
+      "git_sha": "950750132094e7b5905d9017c6ab98fdb6edf838"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/artifacts/mobile_report.zip",
+      "bytes": 18823,
+      "sha256": "3cc962805ee33c4c530555fd34e776ce91534a42cde064ea3c13408b39c94ad5",
+      "git_sha": "c7f10ad461e298ff102e78d075a4d75547129b0e"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/audit.json",
+      "bytes": 1180,
+      "sha256": "a060532c90649544952ff69b07444c7eaba6d5a4ff495709f36c96022426aba0",
+      "git_sha": "3be680de8c6c41669505158ea0401abeb4f72a30"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/audit_raw.py",
+      "bytes": 7119,
+      "sha256": "3977566ed866163a0d70c607a4f843c7a0a99aceeb2b65c24b557e593b513e95",
+      "git_sha": "faf01448164bbf8e23f9589b9006b1f548045ae1"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/audit_results.log",
+      "bytes": 1248,
+      "sha256": "d5f71195a3e2ebf0d181f30140ec80c13435dcd9bb531aca8d88931948367227",
+      "git_sha": "200d3c981d7bbd1493a40986c8124ce8b0bb7cfa"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/audit_results.py",
+      "bytes": 4796,
+      "sha256": "6847319d75988d714334be38744e2fccc0d0c7c780714d28d1c04a7c12fd5674",
+      "git_sha": "05f3f0904599e3143ac0c164fa4730704c91873a"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/bridge.py",
+      "bytes": 1648,
+      "sha256": "43c98b6ecb57070291ed53ae8ad501ada7fc51d0ddcb3e666158f33cf3d88bbc",
+      "git_sha": "ca55bb0dddd2cf1d3e6b6d052f08397e051a9e61"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/cash_reconciliation.csv",
+      "bytes": 13603,
+      "sha256": "5986dbc95d57e9837dbd0103dd47657f964d03fba96bc6739dae7fd58c0190b2",
+      "git_sha": "697e87aa5e37a4644dea25e6940ef3ee41fd221f"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/commands.log",
+      "bytes": 850,
+      "sha256": "560cd102cd79c45e18f098ef08cdcbbfd79ab87c38a216f2ae78de0595b1dfc5",
+      "git_sha": "fb28d402bf9f033d901881996993e6540992208e"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/compatibility_D.json",
+      "bytes": 1440,
+      "sha256": "6142767432b848590d4a4812db1a92fb84a5bc94b5a88369eed521bd061ab731",
+      "git_sha": "ca54bc1c89dfbb2e5719c9f0ccdb5278885190b1"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/compatibility_G.json",
+      "bytes": 1440,
+      "sha256": "e40352ee943abaf4432c4028b99dbd502433dcfe30d8fd5ae80cb810146925c5",
+      "git_sha": "311179b959be1cb7a3f1e88ef0a36f3e1850931a"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/compatibility_H.json",
+      "bytes": 1439,
+      "sha256": "bafb001ed7779768d8fda2bc0b42ef6e54208b585ae044ebed9a410c850818c8",
+      "git_sha": "ceead7575e92a25a93d7666643607c53a5878987"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/compatibility_I.json",
+      "bytes": 1440,
+      "sha256": "c3391163cf5c0b151079942e33e353caf24e98384e5e4c5330ab8c8252dd01f8",
+      "git_sha": "f3233494091f4a06cb594f116d165dade26238c6"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/configuration.json",
+      "bytes": 1555,
+      "sha256": "d38d05f348d593822dc3d579ba16e9927f165fd0def8381331309f13c3525263",
+      "git_sha": "407393bf44183c438fac265b2adfd97c054a51a0"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/financial_event_differences.csv",
+      "bytes": 11,
+      "sha256": "845f8526eb1b99b597a31cb15f2ecd9377e6b73bf5bb40efa7a95131994d4e22",
+      "git_sha": "0ba01d880d4e99eca90b4448546a0b03082ee70c"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/frozen_runtime.json",
+      "bytes": 792,
+      "sha256": "06c14a19372a9ebdbac04df349a72d756a03addc5a9a9e621b390c999301d943",
+      "git_sha": "154f3c93310f581d431c1ccab56406c5844a20f7"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/minute_equity_differences.csv.gz",
+      "bytes": 863,
+      "sha256": "25d74cf98234b0011e306a572857085c576bc94e24d29b80636a9a454e21e851",
+      "git_sha": "17183d5ba8561b53b55c686ea1522d6dee68ba7e"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/monthly_scenarios.csv",
+      "bytes": 188935,
+      "sha256": "af27e0f6dbe6c0a8c14f82fffc34ce06a100bdb4d39a7edc06878f3b54fdc2b1",
+      "git_sha": "84b5acc985be170482c782594f7385baea6d038e"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/observer.py",
+      "bytes": 2646,
+      "sha256": "7a36e8d7151518de54a2d0c38f972c50d7b001c6c6b8c33ced0ed3bc0f8b501f",
+      "git_sha": "8b0c3771f40aa496f5e23a428a61c91e397d325f"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_source_manifest.json",
+      "bytes": 53460,
+      "sha256": "49a14b7609f4855548cc8d53180722cd1de7d8db7c388eb90fd3d38e8ff26cef",
+      "git_sha": "8ec52db7930c22ac0f40b98b518ed7c0552acff8"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_tests.json",
+      "bytes": 778,
+      "sha256": "297bd4476d3eba57a289039ab8d6ac4c0a3cb5ca75c0de0f8a5137696a67a3e8",
+      "git_sha": "d78be0919e7b356a84832f9f62bf84c004e09a80"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_tests.log",
+      "bytes": 187,
+      "sha256": "d634578ef97cf055a15b2e947fe99a9f060af65eaa8e54290479f6f3bb84c7ea",
+      "git_sha": "3c2d91fb613d369003afa0d8f2dddd2c1acc621b"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/analysis_helpers.py",
+      "bytes": 12325,
+      "sha256": "fda943f6d3b714ce0f3b394c486b3a7080cd5a173bfaac8cdfa64e439b16fa87",
+      "git_sha": "a312aacc62ab7c8213d99ce4ee35537da73fd019"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/analysis_tests.json",
+      "bytes": 1213,
+      "sha256": "808b4af484e1e9b2eb0fd091ad1584efb0163dcf075b929d976dd3c5a4acdac1",
+      "git_sha": "eeb7ca3c631304b4819fb8e753a21eb5a3217255"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/analysis_tests.py",
+      "bytes": 2154,
+      "sha256": "51c3e7a43ef3dc625de960bd60c9413c52486ddbc71af1d82d718076c3e7065e",
+      "git_sha": "7dd8a026870f2d4b8ba9beace1fe165ff1fb9cda"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/analysis_tests.py.log",
+      "bytes": 22,
+      "sha256": "7398d5322169908ee79f671224c3355a450a49701bfba07c003b220898ec4ca6",
+      "git_sha": "999faff42f8ecdcdf00aa46c74551a51b285d002"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/boundary_tests.json",
+      "bytes": 745,
+      "sha256": "7ce17d1509a6aa7db613f0d3673a07c202c31253a42605adf03b727b6ced9568",
+      "git_sha": "65e9c87c92acc6d00176f5c7b0f4501eab8880df"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/boundary_tests.py",
+      "bytes": 2722,
+      "sha256": "ceb9f8b0e13b07b101016930152289a47496e7a4a2e1653ee92a5461d79509b6",
+      "git_sha": "8014c426976d788b168916cbbc76e7fe55be3494"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/boundary_tests.py.log",
+      "bytes": 63,
+      "sha256": "7bda49897c608299cba5f85b7bc844838bfe66b25702806e4cf23d717ca0a158",
+      "git_sha": "418d84f25943836f9097d18baac6b5dfede11e4e"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/checkpoint_tests.json",
+      "bytes": 1165,
+      "sha256": "29895b50439c5fd26bcba3763b5c7d92d8a4eb0d680730e3423a5cbbc69e9b40",
+      "git_sha": "755274de77ce6863fbf94367be4d5bb37173146a"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/checkpoint_tests.py",
+      "bytes": 2533,
+      "sha256": "de4e8b837373a4a2e212be86ba2fec53aa1f8d79adbaaabf5e4edf98212a2efb",
+      "git_sha": "23c1f0e2f918c12d1af9e586ef051cf4099c4239"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/checkpoint_tests.py.log",
+      "bytes": 55,
+      "sha256": "01035be9d70abcab966f89d27b11a01d585c427f2e2d7218e6c47dbf7400b3df",
+      "git_sha": "ee38223fe43e7b1cc481a78d531796f02da5d146"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/priority_engine.py",
+      "bytes": 8749,
+      "sha256": "0b61cefcda814b97b47251ce86406ca98514557f6361e087f4ba33fa3179e369",
+      "git_sha": "aeb7b03979fa3e159cb10b8699c1fae2947e8cb4"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/shadow_tests.json",
+      "bytes": 1561,
+      "sha256": "46cb66c75cbed2ef047a25917fb251d88d5f7e76f2939bef62441c7149949623",
+      "git_sha": "a018671302d420be8b9e275033b38981defb7df7"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/shadow_tests.py",
+      "bytes": 3704,
+      "sha256": "316527fa3417d5fc250af337b8d2ba08de070f50e0043559de7a103e5db0dbba",
+      "git_sha": "070be4bef8100b5c998d672e5f71c51774ccf952"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/shadow_tests.py.log",
+      "bytes": 47,
+      "sha256": "4ad5cbeaee11e3d40ac5d2b79b426cd5d3e696b74c6703cddd288da455956572",
+      "git_sha": "408570dcb182dee5fed99c67b87b06b8e9ea7859"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/strategy.py",
+      "bytes": 2424,
+      "sha256": "eaf3beeaad9f4116b60526dde4d73f2bc8f806b64de15ede8ac8625ff09c7d58",
+      "git_sha": "2d7fb84a3ae40fdc0885a833b25d88368a7cdb8f"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/tests.json",
+      "bytes": 3238,
+      "sha256": "23783028629238d765d095cb2075fc72073ee8c8b4dde8699e7c5e78cb3c800e",
+      "git_sha": "4e97c14735f1f22aaab6c865791ed34098d48b57"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/tests.py",
+      "bytes": 7576,
+      "sha256": "e8547692064a04be0acb8b974174ad6980e62339a161b2ea64007513a688d1ca",
+      "git_sha": "b61cc543f3d1f776c8d0bc50d02700b2b31cdd2f"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/tests.py.log",
+      "bytes": 2272,
+      "sha256": "ef3e5df706c9579c20788a9fb1ce92158a9d4b544c9af09e4ea164b5da5cd77e",
+      "git_sha": "4ef6694e92b3342672711e3153004810f66472ca"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/validation32/test_results.json",
+      "bytes": 10434,
+      "sha256": "687cf66c439442a31d342df838573ae2ef292f26accdf6406fc71adee78d4cc1",
+      "git_sha": "a7fe88f4196554df922bab4578fc3bfb71876778"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/validation32/tests.py",
+      "bytes": 14610,
+      "sha256": "82cd94da815ecd2d7b40510315e67fd738849386a7633fdfcd332d4a28381425",
+      "git_sha": "069ded6064d0b1c37fe51233cccc9ae22046cfba"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/validation32/worker.py",
+      "bytes": 5694,
+      "sha256": "916cadd727ff3b0c2652d9e3d14189ce7286f1658073aade69dc8a8c025b38ff",
+      "git_sha": "062d11ab929937fbbc50f04d09ab5bea1679a9c1"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/validation32_tests.py.log",
+      "bytes": 22,
+      "sha256": "15fd73dfb0393c4565aa00b18fa34d46f5c46bc0811d5332fb2265f5d780c347",
+      "git_sha": "b0bdb531ce4fd64935affad15a1d719480a1c1e7"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/parent_validation/worker.py",
+      "bytes": 8462,
+      "sha256": "d5e8207b2e44fb72254e5c669f19eab567fa991f802be3b5d317458565d63e70",
+      "git_sha": "1b8369567b35dab42597b95ba0a35fbaea83252e"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/poll_price_differences.csv.gz",
+      "bytes": 14625,
+      "sha256": "ee753234fd6950e2ecdd720ec7600dcb33bba028a9dce600be6d9555387f0bba",
+      "git_sha": "04028fb8df0f7fd4945a6eb6fafa8c5c55b9f7e6"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/pooling.json",
+      "bytes": 115941,
+      "sha256": "b0ffe43ef19b737fba7ca74b099c61b95964fbcdc1bfe1402cd518db4842e731",
+      "git_sha": "e086d3c05e07b646f0b5e15e7aa29b8c6c35371e"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/additional_field_neighbors.json",
+      "bytes": 2770,
+      "sha256": "3f1cb90ac7dac0284dc9ae586d3c4fc48cf280c64a19a028ad8f2c705b898c08",
+      "git_sha": "4a4b2becaebd74ad9aa596102ad220ea56725477"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/all_empty_raw_minutes_vs_native.csv",
+      "bytes": 1818,
+      "sha256": "6ce1287aefdbb73b8b40a00d70e7a7f35f560fb70a1c7f6ef738646c848e3b43",
+      "git_sha": "a2ce8b57c34b273bc5f9a56634fd997d073f6618"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/all_field_issues.csv",
+      "bytes": 431,
+      "sha256": "b69c4084a50c9f2745bab645e01746fd486f124e1f033cf1439210a2cb252d2f",
+      "git_sha": "6b445a66220c08b5158e0a7e444bbea8f23e2af1"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/all_id_gaps.csv",
+      "bytes": 869497,
+      "sha256": "2aa7e5db2bd658ed14b5d66efd62bb73f8f0339c70d48c0ae31cfd2798618e9c",
+      "git_sha": "4fd37518fd3dd46802e36326c982d3157125ff32"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/all_no_print_intervals_ge_60s.csv",
+      "bytes": 88,
+      "sha256": "5a6751315516cfb8140ae1474045b36caac20e604e04397db81e14e5004ad0b6",
+      "git_sha": "ce62a197455531e551bb0b125ff1053124075fea"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/all_nonincreasing_ids.csv",
+      "bytes": 377,
+      "sha256": "984032ad8f726813005badca754e673ff177beb046df91808438f4a85be12dda",
+      "git_sha": "8b75c94836dbd8108b695eb02e3cf0788d01fa44"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/all_timestamp_reversals.csv",
+      "bytes": 289,
+      "sha256": "9f0ebca89acb790a95cd2450755423c5f3b0e8698d93295a7d776022e662872a",
+      "git_sha": "cb22c2134c34c40663adb132f53222c46a834582"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/audit.json",
+      "bytes": 3662,
+      "sha256": "bf0ee44b8e9154cef0906e565a4128dd872a38baf907c9d233eb1588c6477596",
+      "git_sha": "7ae17be8f9b9240acb19f8f5ea8e9bb67305fb6b"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/audit_initial_fullscan.json",
+      "bytes": 3662,
+      "sha256": "bf0ee44b8e9154cef0906e565a4128dd872a38baf907c9d233eb1588c6477596",
+      "git_sha": "7ae17be8f9b9240acb19f8f5ea8e9bb67305fb6b"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/audit_parser_executed.py",
+      "bytes": 7112,
+      "sha256": "f208d6f50a78e7f0012d84b20b384121be214bfbe97c1ded4e1e192b24538a42",
+      "git_sha": "47829f3662cc8c16583515057130c8e8c1d1d068"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/conflicts_and_neighbors.json",
+      "bytes": 3607,
+      "sha256": "6f8f4629aa951359a10e34c90564f33f1bcd9193078cc08221d6af9691042e77",
+      "git_sha": "13b32d231e399bcca7c3c63727e4defe1fef65d7"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit/coverage_reassessment.json",
+      "bytes": 1112,
+      "sha256": "225637b3c632df7b9ffd9fc2f133ad5766da8015210aeb56bcc1df1dd350145f",
+      "git_sha": "39ed1bcad9dbc96a6a7fece401bbea9979b6b9be"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit.log",
+      "bytes": 2319,
+      "sha256": "565f9e53f37f6faef49fd6bf0d34afd37011768e552ca3b5ff21b7961c228294",
+      "git_sha": "e9246bd59fe78b5450640eee94d94067f1732776"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/raw_audit_initial.log",
+      "bytes": 2319,
+      "sha256": "565f9e53f37f6faef49fd6bf0d34afd37011768e552ca3b5ff21b7961c228294",
+      "git_sha": "e9246bd59fe78b5450640eee94d94067f1732776"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/reassess.log",
+      "bytes": 1125,
+      "sha256": "093527c65094ee5df75815a91d2a9b56c4430bedfda4e9de83b7b771728feb82",
+      "git_sha": "802a2912b68353bb788cb3ef15bbb1658dca8de7"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/reassess.py",
+      "bytes": 5161,
+      "sha256": "a862b28ca7b046ca33b38c0146f6f938652e0c8bc31ff349aaca2ac04a515a33",
+      "git_sha": "1bac183e2686ef6deaedfd453dd5c219c3cb722a"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/reference_BTC/ASSUMED_005_SIDE_result.json",
+      "bytes": 268517,
+      "sha256": "0fc37daa8e1db1ccb5f7d0db210b1240479f7cd29aa80e378c4784c84b933e11",
+      "git_sha": "cd35371267880c28f733a8a6a804c54df175a4e1"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/reference_BTC/ZERO_result.json",
+      "bytes": 260957,
+      "sha256": "09c2a576d527afa8a59ce0eea70619c74b9d635148ee929f5d73732b628396be",
+      "git_sha": "c37747bd87913040fd42c836ec746710518a6c12"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/relative_B_conclusions.csv",
+      "bytes": 690,
+      "sha256": "487bbba3fdad0100111ee38b5835b073caae2ccc9c1be383e2d201e3846b8608",
+      "git_sha": "3befe280d6934b2f665d71d5760181c5718cf3fc"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/report.log",
+      "bytes": 212,
+      "sha256": "b0b56b0aa35dffb398a7eb1c28f9426cd7ee154d1fcfee18bc5482747cb0c076",
+      "git_sha": "c89f89edb2abdd82aa29f92a46b088acb91c1cc5"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/report.md",
+      "bytes": 7014,
+      "sha256": "b2bcddbd8a8acb252ca1b6fd9a1703215f3ef2ac4502320aa1d1e77ec8acf12f",
+      "git_sha": "0bee69abb8665efa9f06084299b4435b4ebb0f9c"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/report.py",
+      "bytes": 20390,
+      "sha256": "303f188a5b7a400d0a08de54e39280478635d3e1ad64abd3741d370601b9c3b5",
+      "git_sha": "c1802f0393c40ef4184c626b5f12e7e7aed56634"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/result_file_manifest.json",
+      "bytes": 39511,
+      "sha256": "9bd0f3315fdf3b4cdaff64fcbe48a35cb2a205f8c29def2e3ddf64adea41d3e9",
+      "git_sha": "c3c98066e46500ac151d22881338171d06ba00fe"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/run.log",
+      "bytes": 25331,
+      "sha256": "588cb3c6af622a114bff1172369d68ba58940be9eda784c16428d8b92a7da65e",
+      "git_sha": "daa3683d27fe7d29e478302c55f661d6955a1afc"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/run.py",
+      "bytes": 18020,
+      "sha256": "da9e6dbfa191100ffa2a6fbc992b055bbf1f2ba710751163382ee322aba1e7c4",
+      "git_sha": "03670475530dac29cfbc4385a47fe1f0e19b18f5"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/run_parent_tests.py",
+      "bytes": 817,
+      "sha256": "294f885aa182841e8610d1d3cd01fc05faadebb3f8236ca22f1a4e6ab9527693",
+      "git_sha": "67f6ac74ec5abf5b99b1078dcbbda69644a3faae"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/scenario_ranges.csv",
+      "bytes": 11319,
+      "sha256": "334cf89df7807da34b528121d7f9f3560fde7a80eff2f395c4cc0f855fe91893",
+      "git_sha": "c3fc4a5aed8ca8af58a59b549f20136a81342dd1"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/signal_classification.csv.gz",
+      "bytes": 18564,
+      "sha256": "6023c66bc75189dab192a45d82f929678c0d01eaec489a3425385200ffd639fb",
+      "git_sha": "7e099eada3b7f3e6cceb4b6f6609ba0386310c1b"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/signals.json",
+      "bytes": 190153,
+      "sha256": "42c449fe0b24417befcbfe22b50a64d5fa73697444d879b1e9383607af38a66d",
+      "git_sha": "6a9d566368546c68e7e369192f6ab6093b98546f"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/status.json",
+      "bytes": 521,
+      "sha256": "fccf3405334498641e14c44ad8fb4391d2a23f6a396b883cc65d1ac5fedcf093",
+      "git_sha": "7c4c8a6d8c439ef7c7cb185e805f83f49d0dcce1"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/strict_prices/raw_sources.json",
+      "bytes": 53513,
+      "sha256": "11c27c10f1feb6cecb0c2c0473569c208c3eb5a0dc868aa7b301365f1ecd5b6d",
+      "git_sha": "51355014efd9e4f8ee4e235e30a71b395d5926f4"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/tests.json",
+      "bytes": 2353,
+      "sha256": "c44c7505ea2f2eb1c296ff86a560da6a5804d3120402dfb71caf4529a8b0b5e3",
+      "git_sha": "55d3bf0a719d252177271c53d2cf17c424c19611"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/tests.log",
+      "bytes": 1634,
+      "sha256": "ab81bde939d5acce5f48fe8a7d6d105f9f92154dcb68905efd7e85c5808ddbe9",
+      "git_sha": "5f3d3c6226b649633503c12715095821ad5b1bb8"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/tests.py",
+      "bytes": 10981,
+      "sha256": "fda750726575971f809ef41603897c697d63dd12dd089e0d80cdcedaa6297f8e",
+      "git_sha": "d26b7fcdddec012a550b0b17e3bf1bc8427ee91c"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/trade_differences_vs_S_ALL.csv",
+      "bytes": 11,
+      "sha256": "845f8526eb1b99b597a31cb15f2ecd9377e6b73bf5bb40efa7a95131994d4e22",
+      "git_sha": "0ba01d880d4e99eca90b4448546a0b03082ee70c"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/view_equivalence.json",
+      "bytes": 10426,
+      "sha256": "e38ede7d29d7d46b7d231d6d7d2ad5e8e576fe02bdfad211d23f5131eb69a336",
+      "git_sha": "9b3e2af765306a296e10358029035e1090827976"
+    },
+    {
+      "path": "outputs/eth_2025_anomaly_sensitivity/whitelist_manifest.json",
+      "bytes": 3464,
+      "sha256": "a3ac406eaa5e3de976846fe37f0e5205837aa746bbc675704ed3febfa1615240",
+      "git_sha": "2625f844d761866a2f012b67a4578c996cd3c75a"
+    }
+  ]
+}

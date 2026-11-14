@@ -1,0 +1,25 @@
+PASS unchanged original strict RawCache rejects real conflicting archive
+PASS whitelist rejects wrong asset
+PASS whitelist rejects wrong date
+PASS whitelist rejects wrong SHA
+PASS extra unconfirmed anomalies are not globally waived
+PASS integer ID/time parsing matches complete raw string records
+PASS S_ALL retains every original row and stable integer-time ties
+PASS S_000 selects exactly its three specified records; fields unchanged
+PASS S_001 selects exactly its three specified records; fields unchanged
+PASS S_010 selects exactly its three specified records; fields unchanged
+PASS S_011 selects exactly its three specified records; fields unchanged
+PASS S_100 selects exactly its three specified records; fields unchanged
+PASS S_101 selects exactly its three specified records; fields unchanged
+PASS S_110 selects exactly its three specified records; fields unchanged
+PASS S_111 selects exactly its three specified records; fields unchanged
+PASS all nine pre-fork and post-merge inputs and last quotes match
+PASS ordinary data delegates strict and financial trace is behavior-neutral
+PASS conflicting print can change latest poll, ladder and eventual stop
+PASS conflicting print can change limit fill and its real timestamp
+PASS changed V2 partial prices/times retain full fee and cash reconciliation
+PASS anomaly can change CORE replacement timing; no same-event refilling; fees balanced
+PASS pooling checks full book, queue/request/poll state and preserves historical drawdown
+PASS all parent financial source hashes remain unchanged
+PASS checkpoint source/data/window/fee/signal compatibility cannot be bypassed
+ALL 24 PASS

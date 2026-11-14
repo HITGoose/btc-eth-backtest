@@ -1,0 +1,16 @@
+AUDITED 1000000
+AUDITED 2000000
+AUDITED 3000000
+AUDITED 4000000
+AUDITED 5000000
+AUDITED 6000000
+AUDITED 7000000
+AUDIT_COMPLETE {"archive": "/workspace/btc-eth-backtest/outputs/eth_density_experiment/runs/2025/ETH/temporary/ETHUSDT-trades-2025-08-29.zip", "archive_sha256": "053164460ed94f8b586ffd2e2d01e85612e752031f06b7d51776f27c7f6aa9db", "archive_bytes": 71082525, "uncompressed_member": "ETHUSDT-trades-2025-08-29.csv", "uncompressed_SHA256": "1149b44ac2927660cea1bda5ab19aac620f50067c12bbf3d841e70fe240f9ed2", "header": ["id", "price", "qty", "quote_qty", "time", "is_buyer_maker"], "data_rows": 7454972, "integer_dtypes": {"id": "int64", "timestamp": "int64"}, "time_unit": "milliseconds since Unix UTC", "timestamp_min_integer": 1756425600010, "timestamp_max_integer": 1756511999967, "all_ids_exact_below_2pow53": true, "all_times_exact_below_2pow53": true, "duplicate_ids": {"6299136398": 2, "6299136399": 2, "6299136400": 2}, "nonincreasing_ID_events": 3, "negative_ID_steps": 0, "positive_ID_gaps": 7301, "timestamp_reversals": 2, "field_issues": 3, "exact_Decimal_quote_product_mismatches": 3, "scenario_coverage_eligible": false, "first_conflict_ms": 1756448283173, "last_conflict_ms": 1756449424504, "fork_second": 1756448280, "merge_second": 1756449480, "source_line_identity": "physical original CSV line incl header; data start line2; never rewrite raw ID", "scope": "all rows checked for structure/integer ID/time/Decimal price qty quote/maker/date/order/duplicates/gaps; not a proof of all possible market-data correctness", "daily_matches_prior_monthly_day": true}
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/eth_2025_anomaly_sensitivity/audit_raw.py", line 78, in <module>
+    if __name__=='__main__':audit()
+                            ^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/eth_2025_anomaly_sensitivity/audit_raw.py", line 77, in audit
+    if not eligible:raise RuntimeError('Additional anomaly or coverage mismatch: do not create the nine requested scenarios without reassessment')
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Additional anomaly or coverage mismatch: do not create the nine requested scenarios without reassessment

@@ -1,0 +1,9 @@
+# 实际执行，仓库根目录；解释器Python3.12.14
+/workspace/.venv-btc-eth-original/bin/python outputs/eth_2025_anomaly_sensitivity/audit_raw.py
+/workspace/.venv-btc-eth-original/bin/python outputs/eth_2025_anomaly_sensitivity/reassess.py
+/workspace/.venv-btc-eth-original/bin/python outputs/eth_2025_anomaly_sensitivity/run_parent_tests.py
+/workspace/.venv-btc-eth-original/bin/python outputs/eth_2025_anomaly_sensitivity/tests.py
+/workspace/.venv-btc-eth-original/bin/python -u outputs/eth_2025_anomaly_sensitivity/run.py
+/workspace/.venv-btc-eth-original/bin/python outputs/eth_2025_anomaly_sensitivity/report.py
+/workspace/.venv-btc-eth-original/bin/python outputs/eth_2025_anomaly_sensitivity/audit_results.py
+# 初次全日audit对新增字段异常停止，reassess精确核对后才继续；各脚本完整输出见同目录日志。

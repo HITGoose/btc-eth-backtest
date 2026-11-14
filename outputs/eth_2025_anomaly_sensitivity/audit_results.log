@@ -1,0 +1,33 @@
+{
+  "checks_passed": true,
+  "source_commit": "17366bb41b11ca82e3084f2f042c09e00b160234",
+  "runtime_fingerprint": "b9b2a7164d7eae05014fb87da7cd2f756bf800154658a0595ffdcb1dcd20bb2a",
+  "original_financial_fingerprint_unchanged": true,
+  "original_raw_SHA256_unchanged": true,
+  "parent_checkpoints_SHA256_unchanged": true,
+  "parent_tests": 107,
+  "new_tests": 24,
+  "ETH_scenarios_complete": 90,
+  "annual_metric_rows": 270,
+  "fee_cash_equity_checks": 90,
+  "B_full_trade_cash_equity_minute_regressions": 18,
+  "own_equity_prefixes_verified": 90,
+  "pools_after_full_state_comparison": 10,
+  "strict_DGHI_status": "UNVERIFIED",
+  "sensitivity_status": "COMPLETED_WITH_DATA_ANOMALY",
+  "annual_metrics_identical": true,
+  "all_minute_paths_identical": false,
+  "changed_trade_records": 0,
+  "changed_financial_event_records": 0,
+  "changed_poll_prices": 1824,
+  "price_change_scenarios": [
+    "S_011"
+  ],
+  "first_price_change": "2025-08-29T14:18:07.000+08:00",
+  "last_price_change": "2025-08-29T14:37:02.000+08:00",
+  "changed_minute_equity_rows": 152,
+  "max_abs_equity_difference_USDT": 0.005700000000047112,
+  "official_data_repaired": false,
+  "all_possible_data_errors_covered": false,
+  "old_seven_strict_intervals_not_combined": true
+}

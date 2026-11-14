@@ -1,0 +1,417 @@
+{
+  "synthetic_only": true,
+  "historical_data_completeness_validated": false,
+  "created_utc": "2026-11-14T11:58:16.092166+00:00",
+  "uses_real_VariantSleeve_financial_parent": true,
+  "uses_real_original_generator_and_raw_Market": true,
+  "configuration": {
+    "budget_rate": 0.03,
+    "maximum_initial_reduction": 0.25,
+    "max_reductions_per_position": 1,
+    "confirmation": "two completed15m, each MA weak AND MACD nonsupportive",
+    "execution": "next actual print; original hard/ladder stop first"
+  },
+  "total": 32,
+  "passed": 32,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "cash_budget_and_initial_cap_BTC_1",
+      "passed": true,
+      "detail": {
+        "asset": "BTC",
+        "side": 1,
+        "initial_quantity": 15.030000000000001,
+        "budget": 30.0,
+        "filled_quantity": 3.7575000000000003
+      }
+    },
+    {
+      "name": "cash_budget_and_initial_cap_ETH_1",
+      "passed": true,
+      "detail": {
+        "asset": "ETH",
+        "side": 1,
+        "initial_quantity": 15.030000000000001,
+        "budget": 30.0,
+        "filled_quantity": 3.75
+      }
+    },
+    {
+      "name": "two_closed_bars_both_indicators_1",
+      "passed": true,
+      "detail": {
+        "side": 1,
+        "rejected_conditions": [
+          "only_one_weak_bar",
+          "MA_weak_MACD_supportive",
+          "MACD_weak_MA_aligned",
+          "nonconsecutive_weak"
+        ],
+        "confirmed_closed_bars": 2
+      }
+    },
+    {
+      "name": "zero_need_keeps_opportunity_1",
+      "passed": true,
+      "detail": {
+        "side": 1,
+        "first_check_no_quantity": true,
+        "later_request_accepted": true
+      }
+    },
+    {
+      "name": "rounding_zero_keeps_opportunity_1",
+      "passed": true,
+      "detail": {
+        "side": 1,
+        "initial_lots": 3,
+        "cap_lots": 0,
+        "opportunity_preserved": true
+      }
+    },
+    {
+      "name": "rebound_never_adds_or_reduces_twice_1",
+      "passed": true,
+      "detail": {
+        "side": 1,
+        "requests": 1,
+        "actual_reductions": 1,
+        "remaining_quantity": 11.2725
+      }
+    },
+    {
+      "name": "gap_stop_priority_over_queue_1",
+      "passed": true,
+      "detail": {
+        "side": 1,
+        "stop_reason": "hard_stop",
+        "queued_reduction_cancelled_by_stop": true,
+        "gap_print": 94.8,
+        "execution_price": 94.78104
+      }
+    },
+    {
+      "name": "gap_trailing_stop_priority_over_queue_1",
+      "passed": true,
+      "detail": {
+        "side": 1,
+        "stop_reason": "ladder_exit",
+        "queued_reduction_cancelled_by_stop": true,
+        "gap_print": 98.8,
+        "execution_price": 98.78024
+      }
+    },
+    {
+      "name": "cash_budget_and_initial_cap_BTC_-1",
+      "passed": true,
+      "detail": {
+        "asset": "BTC",
+        "side": -1,
+        "initial_quantity": 14.97,
+        "budget": 30.0,
+        "filled_quantity": 3.7425
+      }
+    },
+    {
+      "name": "cash_budget_and_initial_cap_ETH_-1",
+      "passed": true,
+      "detail": {
+        "asset": "ETH",
+        "side": -1,
+        "initial_quantity": 14.97,
+        "budget": 30.0,
+        "filled_quantity": 3.74
+      }
+    },
+    {
+      "name": "two_closed_bars_both_indicators_-1",
+      "passed": true,
+      "detail": {
+        "side": -1,
+        "rejected_conditions": [
+          "only_one_weak_bar",
+          "MA_weak_MACD_supportive",
+          "MACD_weak_MA_aligned",
+          "nonconsecutive_weak"
+        ],
+        "confirmed_closed_bars": 2
+      }
+    },
+    {
+      "name": "zero_need_keeps_opportunity_-1",
+      "passed": true,
+      "detail": {
+        "side": -1,
+        "first_check_no_quantity": true,
+        "later_request_accepted": true
+      }
+    },
+    {
+      "name": "rounding_zero_keeps_opportunity_-1",
+      "passed": true,
+      "detail": {
+        "side": -1,
+        "initial_lots": 3,
+        "cap_lots": 0,
+        "opportunity_preserved": true
+      }
+    },
+    {
+      "name": "rebound_never_adds_or_reduces_twice_-1",
+      "passed": true,
+      "detail": {
+        "side": -1,
+        "requests": 1,
+        "actual_reductions": 1,
+        "remaining_quantity": 11.227500000000001
+      }
+    },
+    {
+      "name": "gap_stop_priority_over_queue_-1",
+      "passed": true,
+      "detail": {
+        "side": -1,
+        "stop_reason": "hard_stop",
+        "queued_reduction_cancelled_by_stop": true,
+        "gap_print": 105.2,
+        "execution_price": 105.22104
+      }
+    },
+    {
+      "name": "gap_trailing_stop_priority_over_queue_-1",
+      "passed": true,
+      "detail": {
+        "side": -1,
+        "stop_reason": "ladder_exit",
+        "queued_reduction_cancelled_by_stop": true,
+        "gap_print": 101.2,
+        "execution_price": 101.22024
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed0_1_CONTROL",
+      "passed": true,
+      "detail": {
+        "seed": 0,
+        "side": 1,
+        "profile": "CONTROL",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed0_1_DYNAMIC",
+      "passed": true,
+      "detail": {
+        "seed": 0,
+        "side": 1,
+        "profile": "DYNAMIC",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 1,
+        "reductions": 1,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed0_-1_CONTROL",
+      "passed": true,
+      "detail": {
+        "seed": 0,
+        "side": -1,
+        "profile": "CONTROL",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed0_-1_DYNAMIC",
+      "passed": true,
+      "detail": {
+        "seed": 0,
+        "side": -1,
+        "profile": "DYNAMIC",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 1,
+        "reductions": 1,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed1_1_CONTROL",
+      "passed": true,
+      "detail": {
+        "seed": 1,
+        "side": 1,
+        "profile": "CONTROL",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed1_1_DYNAMIC",
+      "passed": true,
+      "detail": {
+        "seed": 1,
+        "side": 1,
+        "profile": "DYNAMIC",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 1,
+        "reductions": 1,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed1_-1_CONTROL",
+      "passed": true,
+      "detail": {
+        "seed": 1,
+        "side": -1,
+        "profile": "CONTROL",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed1_-1_DYNAMIC",
+      "passed": true,
+      "detail": {
+        "seed": 1,
+        "side": -1,
+        "profile": "DYNAMIC",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 1,
+        "reductions": 1,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed2_1_CONTROL",
+      "passed": true,
+      "detail": {
+        "seed": 2,
+        "side": 1,
+        "profile": "CONTROL",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed2_1_DYNAMIC",
+      "passed": true,
+      "detail": {
+        "seed": 2,
+        "side": 1,
+        "profile": "DYNAMIC",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed2_-1_CONTROL",
+      "passed": true,
+      "detail": {
+        "seed": 2,
+        "side": -1,
+        "profile": "CONTROL",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed2_-1_DYNAMIC",
+      "passed": true,
+      "detail": {
+        "seed": 2,
+        "side": -1,
+        "profile": "DYNAMIC",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed3_1_CONTROL",
+      "passed": true,
+      "detail": {
+        "seed": 3,
+        "side": 1,
+        "profile": "CONTROL",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed3_1_DYNAMIC",
+      "passed": true,
+      "detail": {
+        "seed": 3,
+        "side": 1,
+        "profile": "DYNAMIC",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 1,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed3_-1_CONTROL",
+      "passed": true,
+      "detail": {
+        "seed": 3,
+        "side": -1,
+        "profile": "CONTROL",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 0,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    },
+    {
+      "name": "full_raw_vs_selected_seed3_-1_DYNAMIC",
+      "passed": true,
+      "detail": {
+        "seed": 3,
+        "side": -1,
+        "profile": "DYNAMIC",
+        "duration_seconds": 5400,
+        "raw_prints": 7411,
+        "requests": 1,
+        "reductions": 0,
+        "exact_journal_events_cash_and_minute_equity": true
+      }
+    }
+  ]
+}

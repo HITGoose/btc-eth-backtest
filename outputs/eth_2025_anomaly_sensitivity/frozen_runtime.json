@@ -1,0 +1,23 @@
+{
+  "source_commit": "17366bb41b11ca82e3084f2f042c09e00b160234",
+  "runtime_fingerprint": "b9b2a7164d7eae05014fb87da7cd2f756bf800154658a0595ffdcb1dcd20bb2a",
+  "files": {
+    "bridge.py": "43c98b6ecb57070291ed53ae8ad501ada7fc51d0ddcb3e666158f33cf3d88bbc",
+    "adapter.py": "2b93f33289527fda40c83852a1006464ce6e4af9b012f826823a710ac6c35d5f",
+    "observer.py": "7a36e8d7151518de54a2d0c38f972c50d7b001c6c6b8c33ced0ed3bc0f8b501f",
+    "run.py": "da9e6dbfa191100ffa2a6fbc992b055bbf1f2ba710751163382ee322aba1e7c4",
+    "whitelist_manifest.json": "a3ac406eaa5e3de976846fe37f0e5205837aa746bbc675704ed3febfa1615240"
+  },
+  "strategy_parameters_changed": false,
+  "scenarios": [
+    "S_ALL",
+    "S_000",
+    "S_001",
+    "S_010",
+    "S_011",
+    "S_100",
+    "S_101",
+    "S_110",
+    "S_111"
+  ]
+}
