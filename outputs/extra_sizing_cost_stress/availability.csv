@@ -1,0 +1,625 @@
+﻿period,scenario,cost,group,fill,status,funding,reason
+2020,STRICT,C0,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C0,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C0,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C0,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C0,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C0,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C2,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C2,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C2,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C2,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C2,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C2,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C3,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C3,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C3,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C3,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C3,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C3,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C4,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C4,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C4,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C4,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C4,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C4,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C2,B,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C2,I100,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C2,I50,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C2,I25,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:960 ETH events; full-year funded path not executed
+2020,STRICT,C3_NO_FUNDING,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C3_NO_FUNDING,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C3_NO_FUNDING,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C3_NO_FUNDING,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C3_NO_FUNDING,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C3_NO_FUNDING,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C4_NO_FUNDING,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C4_NO_FUNDING,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C4_NO_FUNDING,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C4_NO_FUNDING,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C4_NO_FUNDING,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C4_NO_FUNDING,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,B,F_THROUGH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,I100,F_THROUGH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,I50,F_THROUGH,COMPLETE,NOT_INCLUDED,
+2020,STRICT,C1,I25,F_THROUGH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C0,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C0,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C0,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C0,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C0,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C0,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C2,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C2,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C2,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C2,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C2,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C2,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C3,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C3,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C3,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C3,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C3,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C3,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C4,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C4,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C4,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C4,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C4,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C4,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C2,B,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C2,I100,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C2,I50,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C2,I25,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2021,STRICT,C3_NO_FUNDING,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C3_NO_FUNDING,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C3_NO_FUNDING,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C3_NO_FUNDING,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C3_NO_FUNDING,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C3_NO_FUNDING,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C4_NO_FUNDING,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C4_NO_FUNDING,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C4_NO_FUNDING,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C4_NO_FUNDING,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C4_NO_FUNDING,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C4_NO_FUNDING,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,B,F_THROUGH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,I100,F_THROUGH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,I50,F_THROUGH,COMPLETE,NOT_INCLUDED,
+2021,STRICT,C1,I25,F_THROUGH,COMPLETE,NOT_INCLUDED,
+2022,STRICT,C0,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2022,STRICT,C0,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2022,STRICT,C0,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2022,STRICT,C0,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2022,STRICT,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment
+2022,STRICT,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment
+2022,STRICT,C1,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2022,STRICT,C1,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2022,STRICT,C1,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2022,STRICT,C1,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2022,STRICT,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment
+2022,STRICT,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment
+2022,STRICT,C2,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C2,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C2,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C2,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C2,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C2,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C3,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C3,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C3,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C3,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C3,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C3,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C4,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C4,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C4,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C4,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C4,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C4,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C2,B,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C2,I100,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C2,I50,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C2,I25,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:1095 ETH events; full-year funded path not executed
+2022,STRICT,C3_NO_FUNDING,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C3_NO_FUNDING,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C3_NO_FUNDING,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C3_NO_FUNDING,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C3_NO_FUNDING,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C3_NO_FUNDING,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C4_NO_FUNDING,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C4_NO_FUNDING,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C4_NO_FUNDING,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C4_NO_FUNDING,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C4_NO_FUNDING,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C4_NO_FUNDING,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C1,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C1,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C1,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2022,STRICT,C1,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/BTC/experiment
+2023,STRICT,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline
+2023,STRICT,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline
+2023,STRICT,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline
+2023,STRICT,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline
+2023,STRICT,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/experiment
+2023,STRICT,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/experiment
+2023,STRICT,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline
+2023,STRICT,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline
+2023,STRICT,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline
+2023,STRICT,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline
+2023,STRICT,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/experiment
+2023,STRICT,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/experiment
+2023,STRICT,C2,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C2,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C2,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C2,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C2,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C2,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C3,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C3,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C3,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C3,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C3,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C3,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C4,B,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C4,G,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C4,H,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C4,I100,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C4,I50,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C4,I25,F_TOUCH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C2,B,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C2,I100,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C2,I50,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C2,I25,F_THROUGH,UNVERIFIED,,OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:911 ETH events; full-year funded path not executed
+2023,STRICT,C3_NO_FUNDING,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C3_NO_FUNDING,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C3_NO_FUNDING,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C3_NO_FUNDING,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C3_NO_FUNDING,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C3_NO_FUNDING,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C4_NO_FUNDING,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C4_NO_FUNDING,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C4_NO_FUNDING,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C4_NO_FUNDING,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C4_NO_FUNDING,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C4_NO_FUNDING,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C1,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C1,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C1,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2023,STRICT,C1,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/BTC/experiment
+2024,STRICT,C0,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C0,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C0,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C0,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C0,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C0,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C1,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C1,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C1,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C1,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C1,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C1,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+2024,STRICT,C2,B,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C2,G,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C2,H,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C2,I100,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C2,I50,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C2,I25,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C3,B,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C3,G,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C3,H,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C3,I100,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C3,I50,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C3,I25,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C4,B,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C4,G,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C4,H,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C4,I100,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C4,I50,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C4,I25,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C2,B,F_THROUGH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C2,I100,F_THROUGH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C2,I50,F_THROUGH,COMPLETE,INCLUDED_OFFICIAL,
+2024,STRICT,C2,I25,F_THROUGH,COMPLETE,INCLUDED_OFFICIAL,
+2025,S_ALL,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_ALL,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_ALL,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_ALL,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_ALL,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_ALL,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_ALL,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_ALL,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_ALL,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_ALL,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_ALL,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_ALL,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_ALL,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_ALL,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_000,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_000,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_000,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_000,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_000,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_000,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_000,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_000,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_000,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_000,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_000,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_000,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_000,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_001,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_001,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_001,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_001,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_001,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_001,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_001,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_001,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_001,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_001,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_001,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_001,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_001,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_010,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_010,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_010,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_010,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_010,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_010,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_010,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_010,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_010,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_010,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_010,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_010,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_010,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_011,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_011,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_011,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_011,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_011,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_011,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_011,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_011,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_011,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_011,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_011,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_011,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_011,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_100,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_100,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_100,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_100,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_100,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_100,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_100,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_100,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_100,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_100,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_100,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_100,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_100,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_101,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_101,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_101,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_101,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_101,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_101,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_101,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_101,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_101,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_101,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_101,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_101,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_101,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_110,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_110,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_110,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_110,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_110,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_110,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_110,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_110,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_110,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_110,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_110,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_110,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_110,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_111,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_111,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_111,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_111,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_111,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_111,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_111,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_111,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_111,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline
+2025,S_111,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_111,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment
+2025,S_111,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2025,S_111,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2025/BTC/funded
+2026,STRICT,C0,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2026/ETH/baseline
+2026,STRICT,C0,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2026/ETH/baseline
+2026,STRICT,C0,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2026/ETH/baseline
+2026,STRICT,C0,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2026/ETH/baseline
+2026,STRICT,C0,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2026/ETH/experiment
+2026,STRICT,C0,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2026/ETH/experiment
+2026,STRICT,C1,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2026/ETH/baseline
+2026,STRICT,C1,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2026/ETH/baseline
+2026,STRICT,C1,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2026/ETH/baseline
+2026,STRICT,C1,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2026/ETH/baseline
+2026,STRICT,C1,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2026/ETH/experiment
+2026,STRICT,C1,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/sizing_only/runs/2026/ETH/experiment
+2026,STRICT,C2,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C2,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C2,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C2,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C2,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C2,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C3,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C3,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C3,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C3,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C3,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C3,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C4,B,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C4,G,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C4,H,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C4,I100,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C4,I50,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C4,I25,F_TOUCH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C2,B,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C2,I100,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C2,I50,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+2026,STRICT,C2,I25,F_THROUGH,UNVERIFIED,,/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/funded/runs/2026/BTC/funded
+NOV,STRICT,C0,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C0,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C0,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C0,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C0,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C0,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C2,B,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C2,G,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C2,H,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C2,I100,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C2,I50,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C2,I25,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C3,B,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C3,G,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C3,H,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C3,I100,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C3,I50,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C3,I25,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C4,B,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C4,G,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C4,H,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C4,I100,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C4,I50,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C4,I25,F_TOUCH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C2,B,F_THROUGH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C2,I100,F_THROUGH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C2,I50,F_THROUGH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C2,I25,F_THROUGH,COMPLETE,INCLUDED_OFFICIAL,
+NOV,STRICT,C3_NO_FUNDING,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C3_NO_FUNDING,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C3_NO_FUNDING,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C3_NO_FUNDING,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C3_NO_FUNDING,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C3_NO_FUNDING,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C4_NO_FUNDING,B,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C4_NO_FUNDING,G,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C4_NO_FUNDING,H,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C4_NO_FUNDING,I100,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C4_NO_FUNDING,I50,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C4_NO_FUNDING,I25,F_TOUCH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,B,F_THROUGH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,I100,F_THROUGH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,I50,F_THROUGH,COMPLETE,NOT_INCLUDED,
+NOV,STRICT,C1,I25,F_THROUGH,COMPLETE,NOT_INCLUDED,

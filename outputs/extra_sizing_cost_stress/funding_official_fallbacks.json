@@ -1,0 +1,95 @@
+[
+  {
+    "url": "https://fapi.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1735689600000&endTime=1735776000000&limit=1000",
+    "error": "<HTTPError 451: 'Unknown'>",
+    "usable": false
+  },
+  {
+    "url": "https://fapi1.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1735689600000&endTime=1735776000000&limit=1000",
+    "usable": false,
+    "content_type": null,
+    "prefix": "<!doctype html>\n<html bn-lang=\"en\" lang=\"en\" dir=\"ltr\" path-prefix=\"/en\" data-cm-banner=\"on\">\n<head>\n  <meta name=\"viewport\" content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" data-shuvi-head=\"true\" /><meta charset=\"utf-8\" data-shuvi-head=\"true\" /><title da"
+  },
+  {
+    "url": "https://fapi2.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1735689600000&endTime=1735776000000&limit=1000",
+    "usable": false,
+    "content_type": null,
+    "prefix": "<!doctype html>\n<html bn-lang=\"en\" lang=\"en\" dir=\"ltr\" path-prefix=\"/en\" data-cm-banner=\"on\">\n<head>\n  <meta name=\"viewport\" content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" data-shuvi-head=\"true\" /><meta charset=\"utf-8\" data-shuvi-head=\"true\" /><title da"
+  },
+  {
+    "url": "https://fapi3.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1735689600000&endTime=1735776000000&limit=1000",
+    "usable": false,
+    "content_type": null,
+    "prefix": "<!doctype html>\n<html bn-lang=\"en\" lang=\"en\" dir=\"ltr\" path-prefix=\"/en\" data-cm-banner=\"on\">\n<head>\n  <meta name=\"viewport\" content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" data-shuvi-head=\"true\" /><meta charset=\"utf-8\" data-shuvi-head=\"true\" /><title da"
+  },
+  {
+    "url": "https://fapi4.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1735689600000&endTime=1735776000000&limit=1000",
+    "usable": false,
+    "content_type": null,
+    "prefix": "<!doctype html>\n<html bn-lang=\"en\" lang=\"en\" dir=\"ltr\" path-prefix=\"/en\" data-cm-banner=\"on\">\n<head>\n  <meta name=\"viewport\" content=\"width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no\" data-shuvi-head=\"true\" /><meta charset=\"utf-8\" data-shuvi-head=\"true\" /><title da"
+  },
+  {
+    "url": "https://www.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1735689600000&endTime=1735776000000&limit=1000",
+    "usable": true,
+    "body": [
+      {
+        "symbol": "ETHUSDT",
+        "fundingTime": 1735689600015,
+        "fundingRate": "0.00010000",
+        "markPrice": "3336.65582576",
+        "rateType": "Regular"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "fundingTime": 1735718400000,
+        "fundingRate": "0.00010000",
+        "markPrice": "3345.84000000",
+        "rateType": "Regular"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "fundingTime": 1735747200001,
+        "fundingRate": "0.00010000",
+        "markPrice": "3352.09496411",
+        "rateType": "Regular"
+      },
+      {
+        "symbol": "ETHUSDT",
+        "fundingTime": 1735776000000,
+        "fundingRate": "0.00010000",
+        "markPrice": "3359.36000000",
+        "rateType": "Regular"
+      }
+    ],
+    "headers": {
+      "content-type": "application/json;charset=UTF-8",
+      "content-length": "501",
+      "date": "Sat, 14 Nov 2026 15:27:48 GMT",
+      "x-xss-protection": "1; mode=block",
+      "server": "envoy",
+      "vary": "Accept-Encoding",
+      "access-control-allow-origin": "*",
+      "access-control-allow-methods": "GET, POST, PUT, DELETE, OPTIONS",
+      "access-control-allow-credentials": "true",
+      "access-control-allow-headers": "*,clienttype,Content-Type,lang,x-ui-request-trace,bnc-uuid",
+      "content-security-policy": "default-src 'self'",
+      "cache-control": "no-cache, no-store, must-revalidate",
+      "expires": "0",
+      "pragma": "no-cache",
+      "strict-transport-security": "max-age=31536000; includeSubdomains",
+      "x-content-type-options": "nosniff",
+      "x-frame-options": "SAMEORIGIN",
+      "x-cache": "Miss from cloudfront",
+      "via": "1.1 86aa18455c6567be80376569a4bc4cdc.cloudfront.net (CloudFront)",
+      "x-amz-cf-pop": "ORD56-P13",
+      "x-amz-cf-id": "7GkmS0CLBU-Y-VPKaD45yS4FMIx1ib4muZugO-cLr0MBIq_lkSqQng==",
+      "x-envoy-upstream-service-time": "145",
+      "connection": "close"
+    }
+  },
+  {
+    "url": "https://www.binance.com/bapi/futures/v1/public/future/common/get-funding-rate-history?symbol=ETHUSDT&page=1&rows=100",
+    "error": "<HTTPError 400: 'Bad Request'>",
+    "usable": false
+  }
+]

@@ -1,0 +1,13 @@
+# 输出口径
+
+annual_matrix：每区间/成本/成交/情景/版本/资产/方向。ALL是实际账户；LONG/SHORT是同账户现金与浮盈的方向归因，不是额外本金账户。期初各币500，组合1000。回撤为分钟末权益含初始权益；并列平仓时间按BTC后ETH的输入稳定顺序统计组合连亏。NOV独立，不拼接2026。
+
+core_extra：来源在提交时确定。closed/open、initial_notional、partial_trades及减仓比例按来源；account_counts_repeated_per_origin=true的V2请求总数、替换、过期、手续费、滑点是账户总数在两行重复展示，禁止将CORE和EXTRA两行相加。mean_actual_reduction_fraction只在确有减仓的交易上平均。
+
+cash_cost_reconciliation：闭仓整笔净额、未平仓开仓费/已部分退出及估值与最终权益对账；所有现金事件与cash对账；滑点成本由实际原始退出价/成交价逐笔推导并与执行累计对账，不能再次从已扣滑点的net扣一次。funding_included=false表示该完整账户路径没有加入资金费，不是实际资金费等于零。
+
+trade_attribution：按asset、方向、signal_close_ms匹配，RETAINED/ADDED/DISAPPEARED/CHANGED，不强行配对。actual_USDT_delta为完整账户实际贡献差；normalized_1000_delta为同初始名义1000的纯归因，不可执行、不可直接当新增账户收益。开放持仓贡献含费用、部分退出和期末估值。
+
+2025_scenario_ranges：必须9个情景都完整才标COMPLETED_WITH_DATA_ANOMALY；最小/最大/跨度并列，不挑最优。代码不继承上一轮情景一致结论，每配置重新分叉与完整状态核对。原官方ZIP/白名单保持不变。
+
+availability：缺数据/费用记录/全年完成状态记UNVERIFIED；不能从进度或旧收益补值。C3_NO_FUNDING/C4_NO_FUNDING不等于C3/C4。资金费缺失的F_THROUGH明确使用C1退路。触价和越价均为模拟全量代理。

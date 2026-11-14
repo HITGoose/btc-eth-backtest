@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://data.binance.vision/data/futures/um/monthly/fundingRate/ETHUSDT/ETHUSDT-fundingRate-2025-01.zip",
+    "error": "URLError(PermissionError(1, 'Operation not permitted'))"
+  },
+  {
+    "url": "https://fapi.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1735689600000&endTime=1735776000000&limit=1000",
+    "error": "URLError(PermissionError(1, 'Operation not permitted'))"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-01.zip.CHECKSUM",
+    "error": "URLError(PermissionError(1, 'Operation not permitted'))"
+  }
+]

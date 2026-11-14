@@ -1,0 +1,99 @@
+{
+  "source_commit": "87f94d2e29b9832526e0aa35c0400c7ed7496805",
+  "branch": "codex/extra-sizing-cost-stress-20261114",
+  "groups": [
+    "B",
+    "G",
+    "H",
+    "I100",
+    "I50",
+    "I25"
+  ],
+  "extra_fractions": {
+    "B": 1,
+    "G": 1,
+    "H": 1,
+    "I100": 1,
+    "I50": 0.5,
+    "I25": 0.25
+  },
+  "CORE_and_BTC_fraction": 1,
+  "periods": [
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026",
+    "NOV"
+  ],
+  "official_funding_required": [
+    "rate",
+    "exact_settlement_time",
+    "settlement_mark_price"
+  ],
+  "matrix": {
+    "C0": {
+      "fee": 0,
+      "slip": 0.0002,
+      "funding": false
+    },
+    "C1": {
+      "fee": 0.0005,
+      "slip": 0.0002,
+      "funding": false
+    },
+    "C2": {
+      "fee": 0.0005,
+      "slip": 0.0002,
+      "funding": true,
+      "status": "PER_INTERVAL_DATA_STATUS; see availability.csv"
+    },
+    "C3": {
+      "fee": 0.0005,
+      "slip": 0.0005,
+      "funding": true,
+      "status": "PER_INTERVAL_DATA_STATUS; see availability.csv"
+    },
+    "C4": {
+      "fee": 0.00075,
+      "slip": 0.001,
+      "funding": true,
+      "status": "PER_INTERVAL_DATA_STATUS; see availability.csv"
+    }
+  },
+  "supplemental": [
+    "C3_NO_FUNDING",
+    "C4_NO_FUNDING",
+    "C1_F_THROUGH"
+  ],
+  "fee_is_assumed": true,
+  "initial_per_asset": 500,
+  "leverage": 3,
+  "original_six_MAs": [
+    "SMA20",
+    "SMA60",
+    "SMA120",
+    "EMA20",
+    "EMA60",
+    "EMA120"
+  ],
+  "SR_absolute_distance": 0.02,
+  "entry_crosses": false,
+  "parameters_searched": false,
+  "official_funding_api": "https://www.binance.com/fapi/v1/fundingRate",
+  "funding_data_complete_periods": [
+    "2024",
+    "2025",
+    "2026",
+    "NOV"
+  ],
+  "funding_data_partial_periods": [
+    "2020",
+    "2021",
+    "2022",
+    "2023"
+  ],
+  "funding_settlement_order": "exact funding ms before same-time raw; minute funding before V2; midnight not rounded"
+}

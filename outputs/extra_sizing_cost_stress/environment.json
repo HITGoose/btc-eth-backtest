@@ -1,0 +1,11 @@
+{
+  "python": "3.12.14",
+  "disk_free_bytes": 3757498368,
+  "network_default": "restricted; explicit approved official data access used",
+  "funding_main_API": "HTTP451",
+  "original_data_preserved": true,
+  "actual_replay_python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "executable": "/workspace/.venv-btc-eth-original/bin/python",
+  "numpy": "2.3.5",
+  "pandas": "3.0.1"
+}

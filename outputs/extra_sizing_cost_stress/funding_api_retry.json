@@ -1,0 +1,4 @@
+{
+  "url": "https://fapi1.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1735689600000&endTime=1735776000000&limit=1000",
+  "error": "JSONDecodeError('Expecting value: line 1 column 1 (char 0)')"
+}
