@@ -1,0 +1,14 @@
+[
+  {
+    "threshold": ".25",
+    "code": 0
+  },
+  {
+    "threshold": ".30",
+    "code": 1
+  },
+  {
+    "threshold": ".35",
+    "code": 1
+  }
+]

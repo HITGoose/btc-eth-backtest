@@ -1,0 +1,507 @@
+{
+  "base_commit": "0ad7902161b91e7cf5538c5c06195c4a39086c24",
+  "experiment_branch": "codex/eth-density-025-030-035-20261114",
+  "period_archives": [
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2020_ledgers.zip",
+      "bytes": 1999972,
+      "sha256": "819bd9e2fb53fa6dbc944a8e2b88904e510637cca917d3ebeff38edd072135d7",
+      "files": 32
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2021_ledgers.zip",
+      "bytes": 2078372,
+      "sha256": "715dded7c4769c1dfdae6eb1bf2333c8dba3469de7af53b26ce0808cb8f7d8dd",
+      "files": 32
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2022_ledgers.zip",
+      "bytes": 2191626,
+      "sha256": "46d1d19e09694962efb2a9315889823677d4be593381ff57bb85de23cef614b5",
+      "files": 32
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2023_ledgers.zip",
+      "bytes": 2373351,
+      "sha256": "a2c0b8392230774f6ef6976f995ac3d16349026d8c18b4314eb7cf79867250a7",
+      "files": 32
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2024_ledgers.zip",
+      "bytes": 2459390,
+      "sha256": "ca3fafc06b7ce441d78897341a088462f53ef5cbebf705ecac8540ade9863a6d",
+      "files": 54
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2025_ledgers.zip",
+      "bytes": 4885864,
+      "sha256": "0a0e77b0945f55b9e6c31d855f46cee90a573e776b38c610b8abd79924a9a2da",
+      "files": 71
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2026_ledgers.zip",
+      "bytes": 2025586,
+      "sha256": "b8a439adc33b93e53719642ce03320dbd876aa06c6c2d60ba47550c94207fa95",
+      "files": 32
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_NOV_ledgers.zip",
+      "bytes": 109285,
+      "sha256": "06da46b50ef5dbcec16034f7907eb7cd1fe48b7edde84a2d604a7d10fce528eb",
+      "files": 32
+    }
+  ],
+  "files": [
+    {
+      "path": "outputs/eth_density_experiment/EXPERIMENT.md",
+      "bytes": 4885,
+      "sha256": "4c0b8d7dfd6b90f8152f2773b09c2dbc16469036601a4ee00e05f224615b4cfc"
+    },
+    {
+      "path": "outputs/eth_density_experiment/ISSUES.md",
+      "bytes": 2656,
+      "sha256": "42473bbc13625724160b951bb73f92f5594e32e58a7c04661e482b724686c8ef"
+    },
+    {
+      "path": "outputs/eth_density_experiment/PROGRESS.md",
+      "bytes": 5488,
+      "sha256": "4f7fe2b18835039f492d3e458de86d8fa20318563d7745d3705be17fc67dcbaa"
+    },
+    {
+      "path": "outputs/eth_density_experiment/SCHEMA.md",
+      "bytes": 4444,
+      "sha256": "96a8baf581f28edd665381cd54f0f325a6609a0e610721554514d56310d6533b"
+    },
+    {
+      "path": "outputs/eth_density_experiment/actual_curve_check_2024_BTC.json",
+      "bytes": 370,
+      "sha256": "219c9cbc90bc52c833924c5cf55f7c1f4a7f91fbb3e41e908d4254d4ccd7bb95"
+    },
+    {
+      "path": "outputs/eth_density_experiment/analysis.json",
+      "bytes": 1030441,
+      "sha256": "a900640507f7bceea59fc259a25a1567575677281c6f371143cca83ac90de1cc"
+    },
+    {
+      "path": "outputs/eth_density_experiment/analysis_current.log",
+      "bytes": 254,
+      "sha256": "ed0c8621f61dc00bdf97a9046a0befe45bcae657b73139972c6481b2d764e6d1"
+    },
+    {
+      "path": "outputs/eth_density_experiment/analysis_final.log",
+      "bytes": 391,
+      "sha256": "0eabd77b45d7fc6148c308f9bdc912ccad7f8a842a394fe18da120c28e1258f9"
+    },
+    {
+      "path": "outputs/eth_density_experiment/analysis_helpers.py",
+      "bytes": 11816,
+      "sha256": "39f8f6153ab38f06951efae97c8d89d916e8f3114e0af29506c7cfc9ae3c365d"
+    },
+    {
+      "path": "outputs/eth_density_experiment/analysis_tests.json",
+      "bytes": 1550,
+      "sha256": "5c45fee9911f889c5a428a048bd7ef034d17da35dd3b2beeb56b813a3c1031bd"
+    },
+    {
+      "path": "outputs/eth_density_experiment/analysis_tests.log",
+      "bytes": 51,
+      "sha256": "e52472667e73322463463676f6beffae599657bda50ef87800cb8cd4d0645049"
+    },
+    {
+      "path": "outputs/eth_density_experiment/analysis_tests.py",
+      "bytes": 2461,
+      "sha256": "66d18a529374ff12fe2ac92925f79c84bfc62a9a9274b63ce979525965addce8"
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2020_ledgers.zip",
+      "bytes": 1999972,
+      "sha256": "819bd9e2fb53fa6dbc944a8e2b88904e510637cca917d3ebeff38edd072135d7"
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2021_ledgers.zip",
+      "bytes": 2078372,
+      "sha256": "715dded7c4769c1dfdae6eb1bf2333c8dba3469de7af53b26ce0808cb8f7d8dd"
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2022_ledgers.zip",
+      "bytes": 2191626,
+      "sha256": "46d1d19e09694962efb2a9315889823677d4be593381ff57bb85de23cef614b5"
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2023_ledgers.zip",
+      "bytes": 2373351,
+      "sha256": "a2c0b8392230774f6ef6976f995ac3d16349026d8c18b4314eb7cf79867250a7"
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2024_ledgers.zip",
+      "bytes": 2459390,
+      "sha256": "ca3fafc06b7ce441d78897341a088462f53ef5cbebf705ecac8540ade9863a6d"
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2025_ledgers.zip",
+      "bytes": 4885864,
+      "sha256": "0a0e77b0945f55b9e6c31d855f46cee90a573e776b38c610b8abd79924a9a2da"
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_2026_ledgers.zip",
+      "bytes": 2025586,
+      "sha256": "b8a439adc33b93e53719642ce03320dbd876aa06c6c2d60ba47550c94207fa95"
+    },
+    {
+      "path": "outputs/eth_density_experiment/artifacts/period_NOV_ledgers.zip",
+      "bytes": 109285,
+      "sha256": "06da46b50ef5dbcec16034f7907eb7cd1fe48b7edde84a2d604a7d10fce528eb"
+    },
+    {
+      "path": "outputs/eth_density_experiment/audit.json",
+      "bytes": 2925,
+      "sha256": "4c26a029c19787832cdd6f858238643c4d45159472b4ad0a69ec9acbd89483ce"
+    },
+    {
+      "path": "outputs/eth_density_experiment/audit.log",
+      "bytes": 892,
+      "sha256": "cc89d4d966b86f073e5be5c6b81d40e55bade3f0faadbe088db5fcacc7c87fd7"
+    },
+    {
+      "path": "outputs/eth_density_experiment/audit_results.py",
+      "bytes": 4228,
+      "sha256": "ccb29855ed492f2a6c90c66c2bafdf0b1e6c6aced40a3e57ccc870c685160662"
+    },
+    {
+      "path": "outputs/eth_density_experiment/availability.csv",
+      "bytes": 2680,
+      "sha256": "6ad8479b76a58fdcf3cc01cdfdfd6cc5b5f66381dde8127e202397afd556d489"
+    },
+    {
+      "path": "outputs/eth_density_experiment/baseline_driver.py",
+      "bytes": 1691,
+      "sha256": "698f72fc45e46f86659df93470f199d329cfa331438d313f9247b98b947a4c1b"
+    },
+    {
+      "path": "outputs/eth_density_experiment/collect.py",
+      "bytes": 25549,
+      "sha256": "c94b779b1ca4bbfb607ee892856c4ac2f9e028d1e9588aef0c08f62851d8adb8"
+    },
+    {
+      "path": "outputs/eth_density_experiment/comparison_six_groups.csv",
+      "bytes": 9468,
+      "sha256": "871326e4292fbbed7895a7621ded55d17701618e1926143f24252873d09b41cb"
+    },
+    {
+      "path": "outputs/eth_density_experiment/concentration.csv",
+      "bytes": 7992,
+      "sha256": "9b599ecf30bdcd6ac92a57a8f4228e6694d0b30d414332a949cf92213de5d6be"
+    },
+    {
+      "path": "outputs/eth_density_experiment/data_issue_20250829_ETH.json",
+      "bytes": 1326,
+      "sha256": "77a4b97bfd13715e4c2e5ed0b126256ff117cd53dc73f82950b765256895c5b7"
+    },
+    {
+      "path": "outputs/eth_density_experiment/decision_counts.csv",
+      "bytes": 5298,
+      "sha256": "8831871bf9e2b64dc5eb269b86adc5cf9ad8255c77ca32beb272bba886aa3cb4"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostic_incomplete.log",
+      "bytes": 104,
+      "sha256": "06b39bb3cf21df4e19222b22c375c821c8478300f7941a2f974ce626018af38f"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostic_incomplete.py",
+      "bytes": 3319,
+      "sha256": "8a26f784a734436bb2bbe780de24673ced82832a7ffe9bb29db54c931ed25f65"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2020_ASSUMED_005_SIDE.csv.gz",
+      "bytes": 2382313,
+      "sha256": "ec13b2ed39da5119bca319fc75990a2da4de339af677420be870b16a1d0c47d1"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2020_ZERO.csv.gz",
+      "bytes": 2376201,
+      "sha256": "981006a172120dc2e0aadd59f1e7fdcde88d7f6ad58982b8779f2e862537ca2a"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2021_ASSUMED_005_SIDE.csv.gz",
+      "bytes": 2850142,
+      "sha256": "72f3d05837ef25eed926bbc501c28149f9d351c81857e52fe0d999526cc786ea"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2021_ZERO.csv.gz",
+      "bytes": 2847441,
+      "sha256": "9842d11759443968d422885364b01eab870ccb12dc25c64499e5c8786d32bb4e"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2022_ASSUMED_005_SIDE.csv.gz",
+      "bytes": 2733838,
+      "sha256": "62b20dcd6ea5a54ca913eb60e29c5d24852e0e00db7bc95770a57f584ac0be14"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2022_ZERO.csv.gz",
+      "bytes": 2728699,
+      "sha256": "b0f86b25105262c47210ace9fae0fe2a2ffbf09da943a2d3df9865d327214ef6"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2023_ASSUMED_005_SIDE.csv.gz",
+      "bytes": 2662392,
+      "sha256": "6ff3901ec1bff18bc82702fd408347c07f9931bf7e7a121404a45b1867ac246b"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2023_ZERO.csv.gz",
+      "bytes": 2653345,
+      "sha256": "66fcc9e95c3b5e3a27c7d63ff8ebb71cddcd531d532471e73263e88a9c7df4ff"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2024_ASSUMED_005_SIDE.csv.gz",
+      "bytes": 2754436,
+      "sha256": "9b5d6ec17b87efe4e7a941cab585a3785ae40871fbf358b872207c7b30a78551"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2024_ZERO.csv.gz",
+      "bytes": 2748141,
+      "sha256": "484d57c4f1562face57dde7f2eeac1dcbb5310f7d5704d85cd7c44be63316072"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2025_ASSUMED_005_SIDE.csv.gz",
+      "bytes": 2254785,
+      "sha256": "d85d64ca4bf8834ecd8fb26b80f784afb07ced15136beffafb9027a63f98a3cf"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2025_ZERO.csv.gz",
+      "bytes": 2252561,
+      "sha256": "2fe5d52a63bb1900fde2f2a39bbbcf483fa18659e7a2a354e1e25c05fdf608da"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2026_ASSUMED_005_SIDE.csv.gz",
+      "bytes": 2338775,
+      "sha256": "153f4b53f6d098816c5e8a0229b3c7a71885217ef6e297a872bbd5c931e7aa31"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_2026_ZERO.csv.gz",
+      "bytes": 2331806,
+      "sha256": "40b47d8045254e9f4bd914a1c4ec39737a832e9637ad5f7c6c4f5588b890ada1"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_NOV_ASSUMED_005_SIDE.csv.gz",
+      "bytes": 86279,
+      "sha256": "a127d0265958564d4645abdc200ac9ec22cf6ad27731c5b7a7b75b4d31a916d3"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_NOV_ZERO.csv.gz",
+      "bytes": 86012,
+      "sha256": "a356f755e86658c879e04bde084db7c8fcdb998d3d6ffcd7c0e31b1be57de944"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_unverified_2025_ASSUMED_005_SIDE.csv.gz",
+      "bytes": 1359265,
+      "sha256": "e6f0d8cc2401196e93369e991c3fa1784c1d4d844cebab0d8e1b4effc3906372"
+    },
+    {
+      "path": "outputs/eth_density_experiment/diagnostics_unverified_2025_ZERO.csv.gz",
+      "bytes": 1352209,
+      "sha256": "38fa50d139f5f68fef62a8697a4c450a8658f311ba27ff7b30a81c0fe17342fd"
+    },
+    {
+      "path": "outputs/eth_density_experiment/entry_tests.json",
+      "bytes": 760,
+      "sha256": "33b81fd900aa377c0a20c28e95c0ae048e5a151f8115b1379061d038b115c0eb"
+    },
+    {
+      "path": "outputs/eth_density_experiment/entry_tests.log",
+      "bytes": 365,
+      "sha256": "2c51099b5c7f92ced22e80dc1ff927a7ad5dace1cd7dc373cdf5c2cebd3593d8"
+    },
+    {
+      "path": "outputs/eth_density_experiment/financial_tests.json",
+      "bytes": 1094,
+      "sha256": "9dd446fab4b14425257c9ee48d3d5b0ec206cb7ea913c5b15a6a803e3d714874"
+    },
+    {
+      "path": "outputs/eth_density_experiment/financial_tests.log",
+      "bytes": 33,
+      "sha256": "8866f4cc02b51dbeec8cf88857c1337e346642714c7098ae92e57256dad516f1"
+    },
+    {
+      "path": "outputs/eth_density_experiment/financial_tests.py",
+      "bytes": 1916,
+      "sha256": "ba08cd6aa5b2bcd7ea87efb11f518095b84603fa64e713bce8ea3a2c3d47fe1a"
+    },
+    {
+      "path": "outputs/eth_density_experiment/frozen_config.json",
+      "bytes": 1263,
+      "sha256": "c135421eda109c39742d6719e89bcd069dbdf0ed5ad444d2b9826157148fd099"
+    },
+    {
+      "path": "outputs/eth_density_experiment/impact.csv",
+      "bytes": 65043,
+      "sha256": "b501c1ab88e218d88b66d5a5db05e158b098937b6403ffdafdba4694858916e7"
+    },
+    {
+      "path": "outputs/eth_density_experiment/incomplete_snapshots_2025.json.gz",
+      "bytes": 140149,
+      "sha256": "bd446caeebff35aa0d9a93cc1716462a744163314585d77ff94ad22d3b190e21"
+    },
+    {
+      "path": "outputs/eth_density_experiment/isolate_2025.py",
+      "bytes": 2788,
+      "sha256": "f276198a7e42fa4ca771681295c14f6bc1b449a47e46ad1c08400fb260a4c57c"
+    },
+    {
+      "path": "outputs/eth_density_experiment/isolation.log",
+      "bytes": 18,
+      "sha256": "a29731305d1a80307d1cd37b51a1db22bdb15554119fc67bc96ca9fc39bd31a4"
+    },
+    {
+      "path": "outputs/eth_density_experiment/isolation_status.json",
+      "bytes": 143,
+      "sha256": "661be637a054a27f66d57aa9a5287bb16a3b88742788a1b3dd102cbbdab2ee05"
+    },
+    {
+      "path": "outputs/eth_density_experiment/launch_after_baseline.py",
+      "bytes": 419,
+      "sha256": "7c9d4cf506bc1f797472e06ffe743b1c08f6e50032f13fa358e9032f78de4345"
+    },
+    {
+      "path": "outputs/eth_density_experiment/monthly.csv",
+      "bytes": 492527,
+      "sha256": "45f684f68bb6b1fcb3b083e57a91b0886d5a6daebca6aad50c8df355dccedf3e"
+    },
+    {
+      "path": "outputs/eth_density_experiment/overlap_risk.csv",
+      "bytes": 22358,
+      "sha256": "38f02304556052a7af8db33030b2ab0ca951a6949a45c55b233d8309dab226a5"
+    },
+    {
+      "path": "outputs/eth_density_experiment/pack.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "outputs/eth_density_experiment/pack_results.py",
+      "bytes": 2223,
+      "sha256": "7ffa39e6b94a47593f3cd5f1dcad31ebb7bb84029b2ae1dd91091666a63a96d5"
+    },
+    {
+      "path": "outputs/eth_density_experiment/prepare_inputs.py",
+      "bytes": 2586,
+      "sha256": "7d510600065fc137e07aad78cae03e5bb6b7270b042d47902c632fc3b56d7f60"
+    },
+    {
+      "path": "outputs/eth_density_experiment/recover_month.py",
+      "bytes": 2469,
+      "sha256": "095266e9193b5186f754431009fc41a58f13db231aff2e8780fd737ca123e649"
+    },
+    {
+      "path": "outputs/eth_density_experiment/recovery_20250829_ETH/monthly_source.json",
+      "bytes": 246,
+      "sha256": "f99cf8b4b8fe449e8050b1eff35269900ead098aac25e84753a1e09299734977"
+    },
+    {
+      "path": "outputs/eth_density_experiment/recovery_20250829_ETH/result.json",
+      "bytes": 855,
+      "sha256": "5b32f6eaf178266589c86a8c9c2e2059fa03e228399adb9d21b861ad59e1b457"
+    },
+    {
+      "path": "outputs/eth_density_experiment/recovery_month.log",
+      "bytes": 1245,
+      "sha256": "f416a1b6fd69d58120708cd6f3647e3950ce19ff651494e8f0e2d9514569172a"
+    },
+    {
+      "path": "outputs/eth_density_experiment/recovery_source_check.json",
+      "bytes": 447,
+      "sha256": "aab53eb4ab0c44758814ac47a03b634642b08365f8dd4e55ebe4547cd53873dd"
+    },
+    {
+      "path": "outputs/eth_density_experiment/report.md",
+      "bytes": 21387,
+      "sha256": "f186af76a007609da4bdc382db7d19a46ca83f8e780c55d773395fd0938cce92"
+    },
+    {
+      "path": "outputs/eth_density_experiment/run.log",
+      "bytes": 224,
+      "sha256": "2f82a738991f0c88bc23c9462135c403815a9dd169810c5d8fed95675c8832a6"
+    },
+    {
+      "path": "outputs/eth_density_experiment/strategy.py",
+      "bytes": 6387,
+      "sha256": "0ce1050d7c23f8fe215a1c1c7f7ff938c2709c3bf354ee2a05156c7e3c658bc0"
+    },
+    {
+      "path": "outputs/eth_density_experiment/supervisor.py",
+      "bytes": 1683,
+      "sha256": "7c040b2a624d6a1279bb1187f641f83051f1e7c1e320b8de4438f56249a89f86"
+    },
+    {
+      "path": "outputs/eth_density_experiment/supervisor_status.json",
+      "bytes": 80,
+      "sha256": "97770aa6b828ebc0e950e92921b80cc7751d8663433758f22ea5561273b67fdf"
+    },
+    {
+      "path": "outputs/eth_density_experiment/tests.py",
+      "bytes": 2797,
+      "sha256": "2ea5e8fd42cb1d0d3a908c12c195ffce6a489170fb1ccf754872da369e6c0870"
+    },
+    {
+      "path": "outputs/eth_density_experiment/trade_attribution.csv",
+      "bytes": 5525532,
+      "sha256": "82b7d53c9c4dc58336ca4f25b2dac4cc077e3c7f6bee794c0a87aa652fbba066"
+    },
+    {
+      "path": "outputs/eth_density_experiment/trades_added.csv",
+      "bytes": 593645,
+      "sha256": "26ab39847c553e4a01e6810ff78c36a3ceb16c14450f67323114a7f562ffa9a6"
+    },
+    {
+      "path": "outputs/eth_density_experiment/trades_changed.csv",
+      "bytes": 1685841,
+      "sha256": "787f5aae3290f37bceb40367392b565c3c8a06f91804314c3d8e73e10fb84ac7"
+    },
+    {
+      "path": "outputs/eth_density_experiment/trades_disappeared.csv",
+      "bytes": 202024,
+      "sha256": "38099afe834dc7a878e43702d1d4300b4abe4d0a039b5b229bb0f4d2083e8c83"
+    },
+    {
+      "path": "outputs/eth_density_experiment/trades_retained.csv",
+      "bytes": 3045663,
+      "sha256": "7bb5fba19d377b8011294793d6bf441005e0a85a3e9096222757e46528965025"
+    },
+    {
+      "path": "outputs/eth_density_experiment/validation32/run.log",
+      "bytes": 22,
+      "sha256": "15fd73dfb0393c4565aa00b18fa34d46f5c46bc0811d5332fb2265f5d780c347"
+    },
+    {
+      "path": "outputs/eth_density_experiment/validation32/test_results.json",
+      "bytes": 10434,
+      "sha256": "01f64f7b66d3963bb9f11c52f84726cb8e6e51771c3eef3784680867fb8dcdc5"
+    },
+    {
+      "path": "outputs/eth_density_experiment/validation32/tests.py",
+      "bytes": 14610,
+      "sha256": "82cd94da815ecd2d7b40510315e67fd738849386a7633fdfcd332d4a28381425"
+    },
+    {
+      "path": "outputs/eth_density_experiment/validation32/worker.py",
+      "bytes": 5694,
+      "sha256": "916cadd727ff3b0c2652d9e3d14189ce7286f1658073aade69dc8a8c025b38ff"
+    },
+    {
+      "path": "outputs/eth_density_experiment/worker.py",
+      "bytes": 9003,
+      "sha256": "28b7f7a6745c79e0db32bc1e10f9334a4ba0165f6dd525e0ceb746716f2d2e41"
+    },
+    {
+      "path": "outputs/eth_density_experiment/yearly_metrics.csv",
+      "bytes": 231942,
+      "sha256": "9b8d10a267ae7308a05a753343275e13db099cb3c9649e3b147d5c66ef5439fc"
+    }
+  ],
+  "exclusions": [
+    "raw market CSV/ZIP",
+    "minute equity.npy",
+    "checkpoint pickle",
+    "input caches"
+  ]
+}

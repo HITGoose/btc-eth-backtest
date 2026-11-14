@@ -1,0 +1,119 @@
+{
+  "verification_passed": true,
+  "full_history_experiment_complete": false,
+  "source_commit": "0ad7902161b91e7cf5538c5c06195c4a39086c24",
+  "frozen_execution_hashes_match": true,
+  "original_source_preserved": true,
+  "tests": {
+    "original_synthetic": 32,
+    "entry_chain": 6,
+    "fee_checkpoint": 8,
+    "analysis": 8
+  },
+  "baseline_four_regressions": true,
+  "verified_periods": [
+    "2024",
+    "2020",
+    "2021",
+    "2022",
+    "2023",
+    "2026",
+    "NOV"
+  ],
+  "partial_periods": [
+    {
+      "period": "2025",
+      "verified_groups": [
+        "A",
+        "B"
+      ]
+    }
+  ],
+  "blocked_groups_2025": [
+    "C",
+    "D",
+    "E",
+    "F"
+  ],
+  "missing_2019": "UNVERIFIED",
+  "funding": "NOT_INCLUDED",
+  "fee_rate": "assumed .05pct per side; actual account NOT_VERIFIED",
+  "metrics_rows": 792,
+  "attribution_records": 7900,
+  "diagnostics": {
+    "diagnostics_2022_ASSUMED_005_SIDE.csv.gz": {
+      "rows": 109686,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2020_ZERO.csv.gz": {
+      "rows": 95266,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2022_ZERO.csv.gz": {
+      "rows": 109686,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2026_ZERO.csv.gz": {
+      "rows": 93002,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2025_ZERO.csv.gz": {
+      "rows": 54808,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2020_ASSUMED_005_SIDE.csv.gz": {
+      "rows": 95266,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_unverified_2025_ZERO.csv.gz": {
+      "rows": 54632,
+      "unknown_occupancy": 22612
+    },
+    "diagnostics_unverified_2025_ASSUMED_005_SIDE.csv.gz": {
+      "rows": 54632,
+      "unknown_occupancy": 22612
+    },
+    "diagnostics_2025_ASSUMED_005_SIDE.csv.gz": {
+      "rows": 54808,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2026_ASSUMED_005_SIDE.csv.gz": {
+      "rows": 93002,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_NOV_ZERO.csv.gz": {
+      "rows": 3346,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_NOV_ASSUMED_005_SIDE.csv.gz": {
+      "rows": 3346,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2024_ASSUMED_005_SIDE.csv.gz": {
+      "rows": 109332,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2023_ZERO.csv.gz": {
+      "rows": 105922,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2021_ASSUMED_005_SIDE.csv.gz": {
+      "rows": 112756,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2021_ZERO.csv.gz": {
+      "rows": 112756,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2023_ASSUMED_005_SIDE.csv.gz": {
+      "rows": 105922,
+      "unknown_occupancy": 0
+    },
+    "diagnostics_2024_ZERO.csv.gz": {
+      "rows": 109332,
+      "unknown_occupancy": 0
+    }
+  },
+  "cash_and_terminal_position_reconciliation": "asserted in worker/curve/compare for every verified path",
+  "raw_price_execution": "official Binance UM raw-print touch proxy; not real fills"
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2025-08-29.zip.CHECKSUM",
+    "status": 200,
+    "length": "96",
+    "checksum": "053164460ed94f8b586ffd2e2d01e85612e752031f06b7d51776f27c7f6aa9db  ETHUSDT-trades-2025-08-29.zip\n"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/monthly/trades/ETHUSDT/ETHUSDT-trades-2025-08.zip",
+    "status": 200,
+    "length": "2168800971"
+  }
+]

@@ -26,3 +26,22 @@
 ```
 
 现金路径是实际逐笔价格上的模拟全量触价成交，非实盘可成交保证。归一化按相同1000USDT初始名义作归因，不视为可执行账户。不得用BTC未来盈利或成交事实决定ETH当前信号。
+
+## 新克隆恢复输入与直接复跑
+
+保持目录/workspace/btc-eth-backtest，Python3.12环境中安装原requirements.txt。缺失15m/1m时先执行：
+
+```sh
+python outputs/eth_density_experiment/prepare_inputs.py --period ALL
+```
+
+该工具仅在缓存缺失时调用仓库原下载prepare函数，并备份已有派生输入；不同旧模块在独立进程导入，避免run/worker命名冲突。已完整存在的缓存不会覆盖。本次本地原生缓存齐全，因此没有执行重下载；本轮已有官方取得校验证据和派生文件当前SHA都在input_provenance.json。1m.npy不含原时间列，当前起点按已有END与行数恢复，原完整网格校验来自取得时证据；不虚称本轮重新读取了每个分钟ZIP的时间列。
+
+随后依次执行32测试、baseline_driver、tests.py、financial_tests.py及supervisor（见上方实际命令）。重新汇总：
+
+```sh
+python outputs/eth_density_experiment/collect.py
+python outputs/eth_density_experiment/diagnostic_incomplete.py
+```
+
+2025数据阻断已写ISSUES.md。原始冲突日档案、月末pickle与分钟权益不提交Git，保留云端；只发布报告、可复跑代码、源清单与派生检查材料。不能用1m/旧交易结果代替新增订单逐笔路径。

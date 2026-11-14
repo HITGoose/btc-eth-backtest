@@ -1,0 +1,6 @@
+PASS 0.25 exact full-chain signal regression
+PASS ETH .30/.35 reach underlying candidate and overlay, strictly add signals
+PASS no global or original policy contamination
+PASS BTC remains exact .25 for every variant
+PASS complete diagnostic rejects failed trend confirmation and is read-only
+PASS future suffix and omitted unclosed bar cannot change prefix signals

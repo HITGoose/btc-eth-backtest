@@ -1,0 +1,26 @@
+[
+  {
+    "cost": "ZERO",
+    "group": "A",
+    "passed": true,
+    "rows": 527040
+  },
+  {
+    "cost": "ZERO",
+    "group": "B",
+    "passed": true,
+    "rows": 527040
+  },
+  {
+    "cost": "ASSUMED_005_SIDE",
+    "group": "A",
+    "passed": true,
+    "rows": 527040
+  },
+  {
+    "cost": "ASSUMED_005_SIDE",
+    "group": "B",
+    "passed": true,
+    "rows": 527040
+  }
+]

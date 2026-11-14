@@ -1,0 +1,77 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "group": "A",
+      "fee": 0.0,
+      "side": 1,
+      "curve_balance": true,
+      "direction_reconciliation": true,
+      "occupancy": true,
+      "self_match": true
+    },
+    {
+      "group": "A",
+      "fee": 0.0,
+      "side": -1,
+      "curve_balance": true,
+      "direction_reconciliation": true,
+      "occupancy": true,
+      "self_match": true
+    },
+    {
+      "group": "A",
+      "fee": 0.0005,
+      "side": 1,
+      "curve_balance": true,
+      "direction_reconciliation": true,
+      "occupancy": true,
+      "self_match": true
+    },
+    {
+      "group": "A",
+      "fee": 0.0005,
+      "side": -1,
+      "curve_balance": true,
+      "direction_reconciliation": true,
+      "occupancy": true,
+      "self_match": true
+    },
+    {
+      "group": "B",
+      "fee": 0.0,
+      "side": 1,
+      "curve_balance": true,
+      "direction_reconciliation": true,
+      "occupancy": true,
+      "self_match": true
+    },
+    {
+      "group": "B",
+      "fee": 0.0,
+      "side": -1,
+      "curve_balance": true,
+      "direction_reconciliation": true,
+      "occupancy": true,
+      "self_match": true
+    },
+    {
+      "group": "B",
+      "fee": 0.0005,
+      "side": 1,
+      "curve_balance": true,
+      "direction_reconciliation": true,
+      "occupancy": true,
+      "self_match": true
+    },
+    {
+      "group": "B",
+      "fee": 0.0005,
+      "side": -1,
+      "curve_balance": true,
+      "direction_reconciliation": true,
+      "occupancy": true,
+      "self_match": true
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# 实际问题及处置
+
+## 阻断：2025-08-29 ETH官方原始逐笔
+
+日ZIP SHA053164460ed94f8b586ffd2e2d01e85612e752031f06b7d51776f27c7f6aa9db与官方CHECKSUM相同。原始CSV7454972行，ID6299136398/399/400各有同ID但不同时间/部分价格的冲突，时间逆序2处。不是可无损直接去重的相同记录。
+
+定向获取同市场官方月ZIP（2168800971字节），SHA464bdf18378ff90fea7cc4e019436f22b954e74a172554aa4b300498142e5cfc与官方相同。扫描226053520行提取整日，日CSV SHA1149b44ac2927660cea1bda5ab19aac620f50067c12bbf3d841e70fe240f9ed2，和日ZIP解压内容逐字节相同，仍3个冲突ID。详见data_issue_20250829_ETH.json、recovery_source_check.json、recovery_20250829_ETH/result.json及recovery_month.log。
+
+原校验器未放宽，未删行、未改价格、未猜序、未回退OHLC或其他交易所。整组六阈值账户首次因共享缓存遇到此档案停止，月末账本断点保留。分离独立阈值账户后，.25两出场/两费用恢复成功并再次对齐原全年基准；.30与.35账户仍失败，2025 C—F完整年结果UNVERIFIED。断点后账户占用/余额不可知的诊断标NOT_EVALUATED。
+
+月ZIP及与日档案相同的冗余派生CSV在记录来源/SHA后删除，原冲突日ZIP保留在实验temporary目录。不是数据缺失处补收益。
+
+## 非阻断：非零费率旧部分减仓报表分摊
+
+冻结代码实际cash在入场已扣初始全部数量开仓费，但原PartialSleeve最终journal只扣剩余量的开仓费，部分退出净收益未另扣相应entry fee。因此压力场景报表必须补上fee×entry×(initial_qty-final_qty)，才能整笔net与cash一致。仅在新实验Ledger.close纠正journal分摊，现金和交易执行不改；零费场景无变化。8个现金/断点用例通过，主任务逐组强制对账。
+
+## 非阻断：只读导出模块名冲突
+
+diagnostic_incomplete.py首次使用from collect import load_conditions，但旧依赖修改sys.path，误导入outputs/er_partial_2026/collect.py，触发其顶层旧汇总生成，然后因找不到load_conditions而失败。已改importlib按完整文件路径导入新collect.py，重新导出成功。
+
+旧脚本的写入目标仅为er_partial_2026的summary/monthly/partial_fills JSON/CSV与report.md，均由原数据确定性重建；未写旧CONTROL/PARTIAL交易结果、权益npy、原策略源码。没有将重建汇总作为新实验结果。此前未对这些旧汇总另存独立哈希，不能声称其写入时间未变化。原交易结果未修改，锁定源码完整性仍单独核对。新金融worker和断点不受此导出进程影响。
