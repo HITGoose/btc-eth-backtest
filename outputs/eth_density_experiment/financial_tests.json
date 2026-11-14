@@ -1,0 +1,61 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "group": "A",
+      "fee": 0.0,
+      "side": 1,
+      "cash_ledger": true,
+      "checkpoint_roundtrip": true
+    },
+    {
+      "group": "A",
+      "fee": 0.0,
+      "side": -1,
+      "cash_ledger": true,
+      "checkpoint_roundtrip": true
+    },
+    {
+      "group": "A",
+      "fee": 0.0005,
+      "side": 1,
+      "cash_ledger": true,
+      "checkpoint_roundtrip": true
+    },
+    {
+      "group": "A",
+      "fee": 0.0005,
+      "side": -1,
+      "cash_ledger": true,
+      "checkpoint_roundtrip": true
+    },
+    {
+      "group": "B",
+      "fee": 0.0,
+      "side": 1,
+      "cash_ledger": true,
+      "checkpoint_roundtrip": true
+    },
+    {
+      "group": "B",
+      "fee": 0.0,
+      "side": -1,
+      "cash_ledger": true,
+      "checkpoint_roundtrip": true
+    },
+    {
+      "group": "B",
+      "fee": 0.0005,
+      "side": 1,
+      "cash_ledger": true,
+      "checkpoint_roundtrip": true
+    },
+    {
+      "group": "B",
+      "fee": 0.0005,
+      "side": -1,
+      "cash_ledger": true,
+      "checkpoint_roundtrip": true
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"passed": true, "exact_trades_equal": true, "equity_tolerance": 1e-07, "reference": "/workspace/btc-eth-backtest/outputs/adaptive_risk_exit_v2/2025/BTC"}

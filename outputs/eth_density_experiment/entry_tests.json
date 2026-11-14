@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "0.25 exact full-chain signal regression",
+      "passed": true
+    },
+    {
+      "name": "ETH .30/.35 reach underlying candidate and overlay, strictly add signals",
+      "passed": true
+    },
+    {
+      "name": "no global or original policy contamination",
+      "passed": true
+    },
+    {
+      "name": "BTC remains exact .25 for every variant",
+      "passed": true
+    },
+    {
+      "name": "complete diagnostic rejects failed trend confirmation and is read-only",
+      "passed": true
+    },
+    {
+      "name": "future suffix and omitted unclosed bar cannot change prefix signals",
+      "passed": true
+    }
+  ],
+  "ETH_signal_counts": {
+    "0.25": 968,
+    "0.3": 1182,
+    "0.35": 1425
+  }
+}

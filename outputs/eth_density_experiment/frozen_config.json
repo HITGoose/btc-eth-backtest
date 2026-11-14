@@ -1,0 +1,57 @@
+{
+  "base_commit": "0ad7902161b91e7cf5538c5c06195c4a39086c24",
+  "branch": "codex/eth-density-025-030-035-20261114",
+  "groups": {
+    "A": {
+      "ETH_density": 0.25,
+      "exit": "original"
+    },
+    "B": {
+      "ETH_density": 0.25,
+      "exit": "V2"
+    },
+    "C": {
+      "ETH_density": 0.3,
+      "exit": "original"
+    },
+    "D": {
+      "ETH_density": 0.3,
+      "exit": "V2"
+    },
+    "E": {
+      "ETH_density": 0.35,
+      "exit": "original"
+    },
+    "F": {
+      "ETH_density": 0.35,
+      "exit": "V2"
+    }
+  },
+  "BTC_density": 0.25,
+  "fee_scenarios": {
+    "ZERO": 0.0,
+    "ASSUMED_005_SIDE": 0.0005
+  },
+  "funding": "NOT_INCLUDED",
+  "only_entry_variable": "ETH historical rolling96 minimum bandwidth",
+  "no_parameter_search": true,
+  "code": {
+    "strategy.py": "0ce1050d7c23f8fe215a1c1c7f7ff938c2709c3bf354ee2a05156c7e3c658bc0",
+    "worker.py": "28b7f7a6745c79e0db32bc1e10f9334a4ba0165f6dd525e0ceb746716f2d2e41"
+  },
+  "baseline_gate": {
+    "32_tests": "PASS",
+    "four_2024_2025_regressions": "PASS"
+  },
+  "data_periods": [
+    "2020-02-16 to2021-01-01",
+    "2021",
+    "2022",
+    "2023",
+    "2024",
+    "2025",
+    "2026-01-01 to2026-11-01",
+    "2026-11-01 to2026-11-13 08:00 UTC+8"
+  ],
+  "missing_2019": "UNVERIFIED"
+}
