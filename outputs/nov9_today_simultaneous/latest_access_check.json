@@ -1,0 +1,9 @@
+{
+  "checked_date": "2026-11-14",
+  "fapi_time_status": 451,
+  "archive_BTC_15m_Nov13_status": 404,
+  "archive_BTC_15m_Nov14_status": 404,
+  "verified_through_beijing_exclusive": "2026-11-13 08:00:00",
+  "remaining_today": "UNVERIFIED",
+  "recovered_network_error": "initial502; bounded retry"
+}

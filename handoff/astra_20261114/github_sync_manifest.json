@@ -1,0 +1,1796 @@
+{
+  "branch": "codex/adaptive-v2-astra-20261114",
+  "base_commit": "e66859aff89490b9b02c286e59d7d8270802972a",
+  "files": [
+    {
+      "path": "ASTRA_REVIEW.md",
+      "bytes": 2903,
+      "sha256": "54acfcd88dc1ced6b7ef89fe2905539b33a55050861d1027f1bfa9e62934bc60"
+    },
+    {
+      "path": "handoff/astra_20261114/ANNUAL_RESULTS.csv",
+      "bytes": 970,
+      "sha256": "131b31bd2ff53747257f8927ce4cfed7bc4e1a7835e052990db2f6f0fcd6fd80"
+    },
+    {
+      "path": "handoff/astra_20261114/RESULT_INDEX.md",
+      "bytes": 1358,
+      "sha256": "c77cb3aac1d48bb237091b865c7c3f4e4e3647677a5def4e0b26b1c0acd2718b"
+    },
+    {
+      "path": "handoff/astra_20261114/STRATEGY_CURRENT.md",
+      "bytes": 12764,
+      "sha256": "44a3aa93b219013b6892ea0f3ab6eda926cd61a1a6489c93f8e65927e9719aec"
+    },
+    {
+      "path": "handoff/astra_20261114/environment.json",
+      "bytes": 360,
+      "sha256": "acb9c26d7a149a3f470212a851f38bf27f5e5f18d6d120c1a60ecf7c76ea29ac"
+    },
+    {
+      "path": "handoff/astra_20261114/git_status.json",
+      "bytes": 767,
+      "sha256": "9d20001101fcee0ac216dd243080d1f3b8cf3d01e97e9d29a658d09b9cca0108"
+    },
+    {
+      "path": "handoff/astra_20261114/git_status_before_sync.json",
+      "bytes": 681,
+      "sha256": "dbe7ab4eb2c7e02ccedf71fa96c47570f90a496c36a547d29fc6c82cc55646db"
+    },
+    {
+      "path": "handoff/astra_20261114/prepare_github_sync.py",
+      "bytes": 4913,
+      "sha256": "43783f68b15f09173dbf1eceaab75fa985e2552cab834fe060756782787669a7"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/attribution/analyze.py",
+      "bytes": 3909,
+      "sha256": "a800cd61e801ef8bb4f02e407c95e8a32558273e71a907984184ed603126b1cf"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/attribution/report.py",
+      "bytes": 5338,
+      "sha256": "deb53551e06424ff07eac263038e782b37f8f23266c8fb8ad28385a74fbbc0d4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/collect.py",
+      "bytes": 4645,
+      "sha256": "d1ec483053747b92ea0151624c3f23c513c18b75250435edd1f80a24049e7ea7"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/supervisor.py",
+      "bytes": 504,
+      "sha256": "185b5253919e73cfa0cc586239293a99b6c30fea443b1d878c2be6be32479915"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit/worker.py",
+      "bytes": 2538,
+      "sha256": "1198748d0aa40b92b7c046652e02143d616bea4002382a15d7aa8eb5aa6aba17"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/BTC/CONTROL_result.json",
+      "bytes": 101261,
+      "sha256": "3a879378508f56c3897665fe250abef79c92c96ede7a0aceafc3de2e54f9a02c"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/BTC/DYNAMIC_result.json",
+      "bytes": 206304,
+      "sha256": "13fca412d3797b1df415019777c50907ce726ebdb8e49b08ec1e5b773a0dfa36"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/BTC/candle_tick_disagreements.json",
+      "bytes": 977,
+      "sha256": "6ab11fd95bd81ebfd15216855cabda971897680429a5cc3256d4bb8cf7e18b46"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/BTC/config.json",
+      "bytes": 1962,
+      "sha256": "2f3a1b9a1ff68c128a32aba1ff51149e490363384fbf23c7062e3e7201c14578"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/BTC/progress.json",
+      "bytes": 176,
+      "sha256": "c2a143388b032c25993ae6c69fc4edb9c1efeb164cb896a3c2ceadfac48edef5"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/BTC/raw_sources.json",
+      "bytes": 78719,
+      "sha256": "7653209d49b215d2f165092af4715c359fe7978c6deb9c9cbfa7a0109bfc8258"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/BTC/run.log",
+      "bytes": 381,
+      "sha256": "91eb4d34ebf6e4cebf7135d55da6e2077fd0c6e553c4ea0c053c1d0086b64cb4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/BTC/signals.json",
+      "bytes": 30845,
+      "sha256": "f7866695b42c0a6dd6a69ee65d724c64f8158af92dc9bf92a041fd288d99c5a3"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/BTC/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/ETH/CONTROL_result.json",
+      "bytes": 81060,
+      "sha256": "7f19a08a08c6d2a2a3b36638b503470c46f70d4f28861b8fe54883fd8dceae76"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/ETH/DYNAMIC_result.json",
+      "bytes": 154592,
+      "sha256": "0bbc601e8996e64bc50f29172087aff58b4bdd6bb078759e64ec3d8e2f7fd776"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/ETH/candle_tick_disagreements.json",
+      "bytes": 976,
+      "sha256": "c2f530596e003618bcb5129a7084b5313718e72a7afc43dd2d4fc56fd33bfcd5"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/ETH/config.json",
+      "bytes": 1962,
+      "sha256": "2f3a1b9a1ff68c128a32aba1ff51149e490363384fbf23c7062e3e7201c14578"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/ETH/progress.json",
+      "bytes": 175,
+      "sha256": "99e930fa3d2d119f3344bb1bd0f2bf1700884f2f027d5383dd9fe8090b1c00f6"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/ETH/raw_sources.json",
+      "bytes": 54424,
+      "sha256": "6350dbfc08e2bb6f9ab58772c89586614c3fcf399bef1def9d97929dbd2b1fba"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/ETH/run.log",
+      "bytes": 311,
+      "sha256": "6eb7d6bc69ac380451d54dece515fc7afeead00e45cd853e3e08b3755bbeec73"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/ETH/signals.json",
+      "bytes": 19834,
+      "sha256": "48115c8825210b04ae7e7ccd7e8b93a292049945281b46e953a0024a35a023a5"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2024/ETH/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/BTC/CONTROL_result.json",
+      "bytes": 91123,
+      "sha256": "15359064965450fc4ce7513110a5bfef46323b660dbe54462f3b7d9d63eefc3c"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/BTC/DYNAMIC_result.json",
+      "bytes": 178296,
+      "sha256": "3ff9123009ba979b201b6186dd5340270d247157d25bce7e3b61b6223ef77677"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/BTC/candle_tick_disagreements.json",
+      "bytes": 1000,
+      "sha256": "21e0fa3ab72ff515b4f06312e809c24a5a08b828f117cb1e227bd691304ac24c"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/BTC/config.json",
+      "bytes": 1962,
+      "sha256": "94efac9e9ea1c27f7a4d3764eb462489ed74c6ff363f3772c149839d0eaf6bbf"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/BTC/progress.json",
+      "bytes": 177,
+      "sha256": "93457b0bbcaacb3af11c4c74e27691d5a81309953ad441eb63356c1fd8a8a6fe"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/BTC/raw_sources.json",
+      "bytes": 92647,
+      "sha256": "44a602459bf7f95c47d4ecb1e91d7d0386e428c4108e1b0396ba4022a64acb51"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/BTC/run.log",
+      "bytes": 418,
+      "sha256": "df7b58b7e6086a013144cc42a9d321071795f2f922e3f436f1deb705d846eb19"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/BTC/signals.json",
+      "bytes": 38182,
+      "sha256": "7b9e9a19bb2cbe2ef045c76fb0ae9acbc8199945241c3ac636182c264f55881c"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/BTC/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/ETH/CONTROL_result.json",
+      "bytes": 87544,
+      "sha256": "958c80eb33dfb5d6646ee1903afd025ee34d7e3c99b2782f416e5ebc324b5c36"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/ETH/DYNAMIC_result.json",
+      "bytes": 157541,
+      "sha256": "f1d46642c1c8ea74b0f63937483047272af72dbd3bddeb0a1ae45aff9cbaada0"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/ETH/config.json",
+      "bytes": 1962,
+      "sha256": "94efac9e9ea1c27f7a4d3764eb462489ed74c6ff363f3772c149839d0eaf6bbf"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/ETH/progress.json",
+      "bytes": 177,
+      "sha256": "9828d7f37815f7729076a3bb1b828a2bebaff1cccdce8a3a44f55f05ae5a2dc0"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/ETH/raw_sources.json",
+      "bytes": 49802,
+      "sha256": "f0f39578b384a3792ebab16b4462f260abef2b58b7efb44bda44313822f7dfb8"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/ETH/run.log",
+      "bytes": 276,
+      "sha256": "c50b2035713e204a6899a5389eab0f365e2942c0d545985be8286bef9bf35569"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/ETH/signals.json",
+      "bytes": 19622,
+      "sha256": "60197fc915beb91adea758102b417f085295290b54e6eca4d4e2e8b9869cef53"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/2025/ETH/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/audit.json",
+      "bytes": 43285,
+      "sha256": "1da4c8a4c55fe2db7edea0ef6f342a4411714caecf012e5535c645b1ffa70ed8"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/collect.log",
+      "bytes": 2723,
+      "sha256": "a257523203167d04a91da53b6e5d82768141580e29866f09d8ec12c89df1eb67"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/collect.py",
+      "bytes": 27470,
+      "sha256": "7b7821c63521f1c40e9b49aab45fac6aa74289d059404c490807bb96b693b467"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/comparison.csv",
+      "bytes": 5166,
+      "sha256": "521d9ed6c3d8c72abe46b65cde4fb6e1e909885ddd19eb38d51dd5812aaebf7b"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/comparison.json",
+      "bytes": 7765,
+      "sha256": "c99864d05d80ed9d3670e9fcbe1719b79c86e3063b3543b446d7057be6491b04"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/completion.json",
+      "bytes": 483,
+      "sha256": "e50857d252b75b7d5ed4ec8e75b1b56594452b9a82f1558c8b75ff808e1b0c74"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/execution.md",
+      "bytes": 3251,
+      "sha256": "03f87ce1af19713c01b754b143938f6fa85087c6dfa931f2655608df614ab017"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/monthly.csv",
+      "bytes": 11190,
+      "sha256": "593112195a91932665b7076f8c3c39be219aab7deb8b74ba3803f93373387756"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/report.md",
+      "bytes": 3967,
+      "sha256": "721d95be615edba32262771da01757a000674f8ca7fdef17f1defbdd466af540"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/rule_review.md",
+      "bytes": 1293,
+      "sha256": "57a4e4e10fc473c432d057e682f2baa0ccb496d4e891e87a49e1f2383250fce6"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/rules.md",
+      "bytes": 2023,
+      "sha256": "8e3b94fbfb3f431b897b254a19c2c140a0a08b89326dfcf0ad12cde7781915ce"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/run.log",
+      "bytes": 44,
+      "sha256": "70011f5cb8c12253a53160312c99f6552878bee8d20c5ea4451c1d4eec1563a9"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/supervisor.py",
+      "bytes": 767,
+      "sha256": "be22e8889634821bdebf65a7dcb827ada1b5bcd8fe56e068a431929819c02c1f"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/test_results.json",
+      "bytes": 10434,
+      "sha256": "0dc77c58b7fa46a69a9b3c3e7f050b917859600e4f02bff265792720e4050476"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/tests.py",
+      "bytes": 14610,
+      "sha256": "82cd94da815ecd2d7b40510315e67fd738849386a7633fdfcd332d4a28381425"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2/worker.py",
+      "bytes": 5694,
+      "sha256": "916cadd727ff3b0c2652d9e3d14189ce7286f1658073aade69dc8a8c025b38ff"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/BTC/CONTROL_result.json",
+      "bytes": 91629,
+      "sha256": "472aa8729d3608ca995da30d3f8ae8451500508476281404660f8bf4ffee18fb"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/BTC/DYNAMIC_result.json",
+      "bytes": 186968,
+      "sha256": "9e72485394519992885e45bebffbdeeb24ab9bdde49f6fa73aec8abb1b5f2e09"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/BTC/config.json",
+      "bytes": 1962,
+      "sha256": "e67afd5cf20cc83fa09e330a80abd171dfd0ce6c0274e01062748575242b9af1"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/BTC/progress.json",
+      "bytes": 176,
+      "sha256": "59d770693779479283048ac28e9e9088c98efc1291d3eb6eb10d84bc7997eaea"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/BTC/raw_sources.json",
+      "bytes": 78937,
+      "sha256": "e7845984e5d58e7ac0922dfcdbbd794826f6a4a8be8d78a0461f6b6b444f0a94"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/BTC/run.log",
+      "bytes": 384,
+      "sha256": "d39282ac0248309c4df22eec1cc28463f94b3af8863276a23fd256a8577fed7a"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/BTC/signals.json",
+      "bytes": 31894,
+      "sha256": "a62364476a8bfa899a288b0f547919c97a5248c0325b80942641766ae6402556"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/BTC/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/ETH/CONTROL_result.json",
+      "bytes": 63323,
+      "sha256": "18c00942d4008f0c7fc9a929455bf7a5ea8028dd3e0e3c220c38806bdc7ce809"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/ETH/DYNAMIC_result.json",
+      "bytes": 113174,
+      "sha256": "008d8fec98fed01c223afa82280ec3eb2d9f57f357acaaacac76ea6730d95e42"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/ETH/config.json",
+      "bytes": 1962,
+      "sha256": "e67afd5cf20cc83fa09e330a80abd171dfd0ce6c0274e01062748575242b9af1"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/ETH/progress.json",
+      "bytes": 175,
+      "sha256": "3daa97bc172abdd27ce8a02e77d8e5847729fda2866925ec16a7d2bb6cc4db10"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/ETH/raw_sources.json",
+      "bytes": 44680,
+      "sha256": "66ba526f1077d3a4f728bc683d882859a9aae8118a1cdf69ed04628f3e6c1970"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/ETH/run.log",
+      "bytes": 276,
+      "sha256": "d3556d277b77270fd1928596def4cd0088eebfd17b5c6adc908caa39fd455c3f"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/ETH/signals.json",
+      "bytes": 12857,
+      "sha256": "31fc10cd64a55853ab469d10ad9cd5bc3fb8894b68ab205458950a3618be2520"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2020/ETH/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/BTC/CONTROL_result.json",
+      "bytes": 44938,
+      "sha256": "04a679eaba6db9f82bab1a2ff5674ad040cc03cca7c7828caacc684979ad510e"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/BTC/DYNAMIC_result.json",
+      "bytes": 80943,
+      "sha256": "f634c104d9a83d7b888e405651d67c93fa7855cfbc96081bdcc6b62aec99c201"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/BTC/config.json",
+      "bytes": 1962,
+      "sha256": "32e433696bd4811f77124b44ec0d1d5e3cbf916c5133c0e8d0933434aa6a3702"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/BTC/progress.json",
+      "bytes": 175,
+      "sha256": "a0812aca40d8c1525939d339feba42ccd53e0591455ce30a8e3031c75e7c6e15"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/BTC/raw_sources.json",
+      "bytes": 24845,
+      "sha256": "de1fcbd90cc49887029c0846ceae71272783b191dac2baebef029b8d34b3e65c"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/BTC/run.log",
+      "bytes": 207,
+      "sha256": "e68f70a8c6d4d7f40f1d1c21f80e893326a903c3bb66d41d19ca87838c55e46c"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/BTC/signals.json",
+      "bytes": 6005,
+      "sha256": "4fee14b851637426ecc09172a984d2dc1ad494e5990485344073b9e7e71c860b"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/BTC/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/ETH/CONTROL_result.json",
+      "bytes": 25999,
+      "sha256": "59acf76daa0546e57fe76b023c6401abbedac001681b67bee9b3e61479c17e3b"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/ETH/DYNAMIC_result.json",
+      "bytes": 41471,
+      "sha256": "464ce7d3d0ee771b7e51d35daac66fbb7c2f5b7b3347e5d338a17e99d42251ab"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/ETH/config.json",
+      "bytes": 1962,
+      "sha256": "32e433696bd4811f77124b44ec0d1d5e3cbf916c5133c0e8d0933434aa6a3702"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/ETH/progress.json",
+      "bytes": 175,
+      "sha256": "5e664bae82f3cbb1e88f0040f6e3ca67de438024f1c14d3c375c0f7e30b6dd93"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/ETH/raw_sources.json",
+      "bytes": 15324,
+      "sha256": "0530b68a7e3dd86f72dfda209874b58689ce8ec75fb19c080794c77dbb1e577b"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/ETH/run.log",
+      "bytes": 173,
+      "sha256": "a790af154db8ac231aede0a55935c7dd662420394c1d8b69ee6aea88ec2cfa30"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/ETH/signals.json",
+      "bytes": 4204,
+      "sha256": "5385df14669b9e4a18811adb35f333a3420491638d20031cf74c04887b5d12b5"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2021/ETH/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/BTC/CONTROL_result.json",
+      "bytes": 87830,
+      "sha256": "698a567eb3df7395fe31b425217317c60afabaf59f34d57f3a4809888e6a9571"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/BTC/DYNAMIC_result.json",
+      "bytes": 175696,
+      "sha256": "29475a197d76c654beaa4f03061c85ef913c7940ed3701cabe75c063b7b3843c"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/BTC/config.json",
+      "bytes": 1962,
+      "sha256": "23d817d2c49d37ba6aac72b8b1002333d775dcfe077f5b685bd59cde81042c28"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/BTC/progress.json",
+      "bytes": 176,
+      "sha256": "bb5b7697961b555524cdff8d94261d2c8c9d8d38291f207e9c08bacf14c09e72"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/BTC/raw_sources.json",
+      "bytes": 71864,
+      "sha256": "1c75dd2ec06f9de31720a8aeb346b6dba9ecaeeed1ada3af58956112faa52e4f"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/BTC/run.log",
+      "bytes": 346,
+      "sha256": "39a97fb413212e94b6a771a7a110254788993bb1b9c0c9fa7ba9c629d9a446e8"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/BTC/signals.json",
+      "bytes": 24854,
+      "sha256": "6ee774d06f43d5504b6c04bc5cc5b0b3001464c3aa18fffdb1d7352881a4e603"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/BTC/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/ETH/CONTROL_result.json",
+      "bytes": 57513,
+      "sha256": "7aadb1f3ecce94775c4c7020172b3a8d4ee9a954238dfdad35b560929e6f3491"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/ETH/DYNAMIC_result.json",
+      "bytes": 110310,
+      "sha256": "3a03800c4c0bed2ee49b987a3923da02eaf328a068451f6ac87248fde8f0ef16"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/ETH/config.json",
+      "bytes": 1962,
+      "sha256": "23d817d2c49d37ba6aac72b8b1002333d775dcfe077f5b685bd59cde81042c28"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/ETH/progress.json",
+      "bytes": 175,
+      "sha256": "641aabca8b52c394dfce398bbb902f36c2a523e1f0836422431383649f803b52"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/ETH/raw_sources.json",
+      "bytes": 41198,
+      "sha256": "7a7d5d7f4943997654155d27999149432b46d421d17e1e8e857a514afb2b8d2a"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/ETH/run.log",
+      "bytes": 241,
+      "sha256": "581eb817acebcc6139406674d081ae3d209533bf4fe8a7709b68604f4838daa9"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/ETH/signals.json",
+      "bytes": 12976,
+      "sha256": "7d4c7359e2bdc10851e5ba2e4fb7711ca3f6a09bdb7c0b916e5387e4dde13fad"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2022/ETH/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/BTC/CONTROL_result.json",
+      "bytes": 113971,
+      "sha256": "80736ee454fe08174a2109a023dc88b1a195906f35d2614da9582415308f1f5f"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/BTC/DYNAMIC_result.json",
+      "bytes": 227567,
+      "sha256": "f1be28ea2c9b3ccf6ff9e074397c797e870783f7a077b0d0aa0e9687c55ca07b"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/BTC/config.json",
+      "bytes": 1962,
+      "sha256": "7305a99ce1d51413b56b3271c7ea483d2f47c1816cb52c283225e1ab0559c8e4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/BTC/progress.json",
+      "bytes": 176,
+      "sha256": "1f64e13c5272f97a59a70946b8c891ee4106652be5ec50ec244accbffb5e93df"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/BTC/raw_sources.json",
+      "bytes": 121479,
+      "sha256": "fe6d22c9abedb0c5be971f823f996f46a90847ad36b21735eb7c2a21729181b3"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/BTC/run.log",
+      "bytes": 522,
+      "sha256": "f1bb015f725233d66a9d0e9d67872c418de5976e72fdf656565d603bf2f43c60"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/BTC/signals.json",
+      "bytes": 51713,
+      "sha256": "8ae077b1b4cb11f69e0c15b20e96f6d4031ea85064a3c81713ce8676b8be541f"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/BTC/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/ETH/CONTROL_result.json",
+      "bytes": 100594,
+      "sha256": "bb31c9be4aad8a33d2910efccc84eecb2f2724b26fd47a2896f71a1519999d64"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/ETH/DYNAMIC_result.json",
+      "bytes": 202294,
+      "sha256": "40e1290adfc9f5f46154a34ce8ab21788a7b2aeddc1ca69fe58640c12fde16de"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/ETH/config.json",
+      "bytes": 1962,
+      "sha256": "7305a99ce1d51413b56b3271c7ea483d2f47c1816cb52c283225e1ab0559c8e4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/ETH/progress.json",
+      "bytes": 176,
+      "sha256": "b81ac03b317c085e2cdfd200287bb9e2cc96553e774af469ce46b36869eb9d93"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/ETH/raw_sources.json",
+      "bytes": 101343,
+      "sha256": "92d39b0b898f7b981dcae56c630a4babd7fbbd85e8f66452822ae4b489d6f63b"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/ETH/run.log",
+      "bytes": 451,
+      "sha256": "acff97dfcd36df47f4f2acc19d6d41b54617c526f784980628d3f08bcc74dbc2"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/ETH/signals.json",
+      "bytes": 38142,
+      "sha256": "6294e8833c86b0380c33c2971db319a94a95efea85dedb9841d50fe236f2dec9"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2023/ETH/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/BTC/CONTROL_result.json",
+      "bytes": 85013,
+      "sha256": "3853bbb062ee187b1e88c72c5ea1a341500dcb7050efa5f262ce187cf33078b5"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/BTC/DYNAMIC_result.json",
+      "bytes": 177468,
+      "sha256": "0bd6bb7fe9c03316def5a126ce1e6fd9e1b4c6e1cf91cdf8c56d2b5181a460a3"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/BTC/config.json",
+      "bytes": 1962,
+      "sha256": "b2b478c0aba1820ec2760217957d16da4d32c0a5532e115a8b6fe0c6b289ab75"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/BTC/progress.json",
+      "bytes": 175,
+      "sha256": "e7ed3b3ff01f9c6b36c89e81383b77d7d0d7db3758b84f582edbad789db7366b"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/BTC/raw_sources.json",
+      "bytes": 86934,
+      "sha256": "a5d77969be912cea32ad985cc781a5208841166496ffeba8a2d900db6132071e"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/BTC/run.log",
+      "bytes": 415,
+      "sha256": "185e68908efd817c58ba8329d3ce8dfcb67e05567740efcf1ff9a5b80f0a27c3"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/BTC/signals.json",
+      "bytes": 33411,
+      "sha256": "9e16f424beb3ef4ad55f7d6e58ad67e8ac1052b09d78a737d92b77b541eb2e6b"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/BTC/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/ETH/CONTROL_result.json",
+      "bytes": 76313,
+      "sha256": "7961f1401e72e1f54b538892f67feebc544bc0aa5f3df546348aa7338d97eb4f"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/ETH/DYNAMIC_result.json",
+      "bytes": 156077,
+      "sha256": "f56f3a42d5b9ce4f9b6254be8d18866114ef22e9c6a994a593b325f38bc9c30c"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/ETH/config.json",
+      "bytes": 1962,
+      "sha256": "b2b478c0aba1820ec2760217957d16da4d32c0a5532e115a8b6fe0c6b289ab75"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/ETH/progress.json",
+      "bytes": 177,
+      "sha256": "1170d345b40cd70294ba7424eb2c10e4892774f03db6fd88863fbd9fd3659d12"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/ETH/raw_sources.json",
+      "bytes": 68422,
+      "sha256": "f2011e3911e9b1c375dd49e9085fca3295d507f17d23d5607b55cb4a1a31c617"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/ETH/run.log",
+      "bytes": 348,
+      "sha256": "1a5f45a2374edee00ce332cbfe901be54b3ec9b568c669fff54da6190529a26a"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/ETH/signals.json",
+      "bytes": 25820,
+      "sha256": "8d6a06f6a1025dd900e96469a255f0b9fb5d68670da015edd09d94c643ff8515"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/2026/ETH/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/audit.json",
+      "bytes": 1383,
+      "sha256": "c031571ea03ce5a0deca1444de46acee2dd5529fbf2fe80e15bb3ca83bb5736f"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/collect.py",
+      "bytes": 3738,
+      "sha256": "123fafa4eb4b966fe470def9dbe1a78b3fb842ec9ec1f15da6eaab068a61bf6c"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/comparison.csv",
+      "bytes": 763,
+      "sha256": "8674f13c4a99f911f208d6de9ca5e393cf799908cde1b365a5ff5448f0c44910"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/comparison.json",
+      "bytes": 1744,
+      "sha256": "6d86d2737284707d989ca02247e33ff7ee097d71c76e00104a0c71b496529a01"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/report.md",
+      "bytes": 1247,
+      "sha256": "38a27acf47054ffff945c1366dec5244aaa3a50ff1534919344c137ace632a70"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/run.log",
+      "bytes": 110,
+      "sha256": "9dfc62a1f4e065cf4a58316b62eb40d9da7df9cd266cec2bf7afa03a12075d20"
+    },
+    {
+      "path": "outputs/adaptive_risk_exit_v2_extended/run.py",
+      "bytes": 2531,
+      "sha256": "409dc51fc9ef8ad536450e2deee9d72b2914a5a37f8de9ee000ab0793cc1f2a8"
+    },
+    {
+      "path": "outputs/attribution_2026/attribute.py",
+      "bytes": 12919,
+      "sha256": "b6bf801f6b3bd5c8ea9e8809d0c7ac9b1fc809032e311d2b7979dec9a4821c68"
+    },
+    {
+      "path": "outputs/attribution_2026/binance_inputs.py",
+      "bytes": 4992,
+      "sha256": "6fb96c99e8473c9d0105c451013b0c9426a328c6d9d497f776d26fe347a66fce"
+    },
+    {
+      "path": "outputs/attribution_2026/make_report.py",
+      "bytes": 11476,
+      "sha256": "be298260049db88235574362a5b7fa999cc42c98459afb8b5f3e977f58481c3a"
+    },
+    {
+      "path": "outputs/attribution_2026/paired_replay.py",
+      "bytes": 15472,
+      "sha256": "04eb350c31287cbc85b10d3698a7eb7c05628d2044fa39cad970da2e6ddeffb8"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/collect.py",
+      "bytes": 7206,
+      "sha256": "558df5b9754fc269f1e78d56dffbf055633f3b80881ac155b5aa1f8cf32e94d6"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/engine.py",
+      "bytes": 6802,
+      "sha256": "a03ea89e282e0a5ace12b9251a7a7343a735ab934cf623fc9c67a786d3f5f7eb"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/finalize.py",
+      "bytes": 2596,
+      "sha256": "5a7edf1a975d70e0cb55eeb1e20cd490c2edac89bbe7b524d1c13493db7d5be2"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/supervisor.py",
+      "bytes": 814,
+      "sha256": "4fa73ee79f87e85a6194bff67290bfdf41aa362548ba1916828184c80b35e03f"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/test_engine.py",
+      "bytes": 2575,
+      "sha256": "d128fd83b0eb4dd455fb359317f2414aa013c99c5c259b338a252ff4f0435d07"
+    },
+    {
+      "path": "outputs/binance_perpetual_raw_execution/worker.py",
+      "bytes": 4391,
+      "sha256": "69eeac8d4207745980aed33e05ec4bcf787c6ae04aa7be6e50d36fb8325691c1"
+    },
+    {
+      "path": "outputs/btc_followup_20261113/run_20261113_013231/follow_btc.py",
+      "bytes": 10753,
+      "sha256": "b1b67b3739a6f5520f8f48a9c951f42e029c888e475a8c2075f82d3c9a31af2f"
+    },
+    {
+      "path": "outputs/btc_nov12_nov13_comparison/report.py",
+      "bytes": 9126,
+      "sha256": "5b3fb6d70b2ab245787b6c68f2fe5e2d9fcb12d08bac6312a034a7b619690f73"
+    },
+    {
+      "path": "outputs/btc_nov12_nov13_comparison/run.py",
+      "bytes": 15101,
+      "sha256": "aec5b5f17986da92f63fd7c16a6fbe32e1a98b570a18837d135a6b557013b46e"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/audit.json",
+      "bytes": 522,
+      "sha256": "a962d256a7fda7b5b8cbbb39e0bb456180b631881926bd475c629b31f889bd65"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/commands.md",
+      "bytes": 660,
+      "sha256": "7350c889007e65c91a048c7b34972a1b50b17cb36207b0e845727a70a2ee4e5e"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/package.py",
+      "bytes": 7302,
+      "sha256": "77152cfd061d173fbee2e2a66ae109d2722169029fd42f7168e31afbad19be12"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_000.csv",
+      "bytes": 21264,
+      "sha256": "025fd04d0aff408cbd2bb026255f56d6d24ea189c1fb6edb66e9dd064cccf890"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_001.csv",
+      "bytes": 21310,
+      "sha256": "ef4748a2b5846e56b9c5342857b8247b56ebaff776c4924e79bd96b41b76040d"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_002.csv",
+      "bytes": 21274,
+      "sha256": "1aed41e2843f4dc987d43609989d1cff79ff47599b8ed848ac7f454d415b7131"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_003.csv",
+      "bytes": 21698,
+      "sha256": "4366ce8d218092a10603e52885801a042e037ae01298ba35bed79e678a82b08a"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_004.csv",
+      "bytes": 22447,
+      "sha256": "701bd748d1cae941ca0ef1961733967a50ee11f23e99ec1aa223385eb488e5f4"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_005.csv",
+      "bytes": 22528,
+      "sha256": "c95499dcb8fff2ffc58dfdbcdb10f702ab78a628e44bbdef90f685e7ccda4267"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_006.csv",
+      "bytes": 22468,
+      "sha256": "f0ca8f87cea603eacbd652a862bd69a3c326516a97a5f4f09056e05cb1821b9e"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_007.csv",
+      "bytes": 21764,
+      "sha256": "605678e52ed4e3d2a14a19adb02c56fc71867b5b7b69a357c0f346279e25a071"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_008.csv",
+      "bytes": 21330,
+      "sha256": "25cce33be1d61aac381d17213b2e81163c70f0cdd11ea1042c8cfd4da2b00785"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_009.csv",
+      "bytes": 22197,
+      "sha256": "2feacb11973bb4f1a044efee172b5ec38f992378d32fcb7380b311829046f5a3"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_010.csv",
+      "bytes": 22328,
+      "sha256": "42511f65d6655abd83920df59c746e3bbff4392238d1dc82b7ac1ab33ef96705"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_011.csv",
+      "bytes": 21532,
+      "sha256": "84715badd081850c8090c0029712f910fc5a4e67c5ddcff78751a9b5478cac20"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_012.csv",
+      "bytes": 21229,
+      "sha256": "f87beba84809da55a09d58529a08a0134dcf9b54914ba95da574160284e88827"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_013.csv",
+      "bytes": 21551,
+      "sha256": "ebee8a5fd1261cb1ae2f5cde6ba2b3fd247f97d4adf19510f9ea65537be82674"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_014.csv",
+      "bytes": 22464,
+      "sha256": "82865574f14e34d0e6652d97b4a2b61e375e465bbd9418d63b87b22845e6271b"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_015.csv",
+      "bytes": 22450,
+      "sha256": "9efa8d2e631dae768f675214bcfe712ca3a7139343996807cd8bee39e3ec2279"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_016.csv",
+      "bytes": 22616,
+      "sha256": "0be9ac8c0fa3740a34e6eddb83b49bfb03708216dac5870495539983bd008f92"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_017.csv",
+      "bytes": 22372,
+      "sha256": "55c61c3e50c8a6e69787cbe0e32324eec780768e9b6a02b10c1be8f812396c7f"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_018.csv",
+      "bytes": 21427,
+      "sha256": "cf94059b557f16a89bcba29a1902d5d6caf33977109f9f01093f9f04b1ec78c8"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_019.csv",
+      "bytes": 21528,
+      "sha256": "be540ef48200f887e386093f65f59131a67d3ce8ab718630a5c0147e3845cd8b"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_020.csv",
+      "bytes": 21495,
+      "sha256": "4cab539c83a3fb6a685254f0c2c322944a8178a43923670d2172038c5b7c0635"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_021.csv",
+      "bytes": 21644,
+      "sha256": "827d424449e253322c2ff8ccd61f7f297dc6281357679fd2d3b7c3b41d6764f5"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_022.csv",
+      "bytes": 22014,
+      "sha256": "7d94dd0bd5d79e834ad3bfcbc2c05b837462453c4d050496e0cfcb2c8dd4d403"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_023.csv",
+      "bytes": 22702,
+      "sha256": "67c4f3ac0b141d2d4010ad66bdb007f307b41579e0cce8848fcf18900e7e1bc6"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_024.csv",
+      "bytes": 22658,
+      "sha256": "25881e926f753bce99e1a13a3daa83b66271b2e80ad2d6ca9cdfbeabc2d6ed91"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_025.csv",
+      "bytes": 22697,
+      "sha256": "b9641d43f9e89f0a764f96332a01b79aab350e4c8458224cdb35674d46be7cd9"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_026.csv",
+      "bytes": 22836,
+      "sha256": "d76af687154b8616b45e813cd83f0ffbe2c8b77d899b97683c8e1c4366c6102c"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_027.csv",
+      "bytes": 21990,
+      "sha256": "7f066e1f1684be26afb7efd843a69e2cf3cfb5e64037886e0b086b226b3973d8"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_028.csv",
+      "bytes": 21273,
+      "sha256": "c33a051cc972b00649fba81f7e2c3f80aa9a69ff7bf65f7ac3b43692e7cd4351"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_029.csv",
+      "bytes": 21384,
+      "sha256": "5246fa21531035c528e10291ebbeb596c4ac0bfa38dd11f13871d13cfb6e7a82"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_030.csv",
+      "bytes": 21571,
+      "sha256": "a9a4b27392e0dde3089eed8376d6d91da3b2a2264e183c5b23d31a4a94878826"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_031.csv",
+      "bytes": 21621,
+      "sha256": "6f9ccd7a85f64a4c03218646b83ffe0b6b28aedd99128d0b42da2e962cd97b2d"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_032.csv",
+      "bytes": 22430,
+      "sha256": "800972093ea38d65a62082b5fe7ee58cdef867f44465a92f36f445c43a6a3df8"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_033.csv",
+      "bytes": 22573,
+      "sha256": "de22fff95ec111833e5927a7af72b56aa08c0b1c458d0357d2d92addb1da64d7"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_034.csv",
+      "bytes": 22687,
+      "sha256": "e4c9048fe4faaad8fa06c41ec37c1294ba725dec35616f15fbba0980578b2275"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_035.csv",
+      "bytes": 22755,
+      "sha256": "094011a2ab821ce2f2d570c8407e2e264901a611e890202af3df86a866fd656b"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_036.csv",
+      "bytes": 21564,
+      "sha256": "9593acc650ad476bd59582309d91101ca4400e776db1e17f2a07029b7dbcfe51"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_037.csv",
+      "bytes": 21431,
+      "sha256": "c15194600b7b99632f6ac3365f15c9f4e553ac6c8ee5010d5398847765061d67"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_038.csv",
+      "bytes": 21650,
+      "sha256": "7ef5d7f6513403cd65abc71ee0de74c7e4884673d8c7b427fb711ef68a981e5a"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_039.csv",
+      "bytes": 21385,
+      "sha256": "ecdc3e4f841f6ce6e49f560476bb20cd277893e4bda239f197a7c0b138a1d8fb"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_040.csv",
+      "bytes": 22171,
+      "sha256": "9b7d48d72834b929b50e302fe00d93e2570aa7e7c6323394d1a86bca8369891f"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_041.csv",
+      "bytes": 22547,
+      "sha256": "8f04dd5c5f9ea979231089e403cb6346bc0f6fbc3513085fa6d7545d5643e5ce"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_042.csv",
+      "bytes": 22868,
+      "sha256": "6783153583b96f5a4031c5575330c8f54aa1b032c8bc14ea91f7c6c671446367"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_043.csv",
+      "bytes": 22676,
+      "sha256": "aacd7072089be4cfcfff98768f8c397aa3a387bc1e6097062d26a3288d6af2f1"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_044.csv",
+      "bytes": 21958,
+      "sha256": "dd83e9bc26c625d84b612f17653b5758e9effd9279a8734f62064730dfea0fd6"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_045.csv",
+      "bytes": 21339,
+      "sha256": "bfd8c5622f54aef608e5b2466d62c5d056ccde976916dc55aa2d2b1734882c3a"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_046.csv",
+      "bytes": 21535,
+      "sha256": "36f3c32272a86956f9b4c999b2c50634928d8ecb0c7dd5eb42778da6cd14498d"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_047.csv",
+      "bytes": 21340,
+      "sha256": "40bba75520f2301b8527d27130c78a705f6fb5e9e0bf6f85237fd0bd7977d67a"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_048.csv",
+      "bytes": 22468,
+      "sha256": "a27edbefa81bde63621a8a80b5c1b5914e600cbcd972c10dc570a8bcdad91066"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_049.csv",
+      "bytes": 22638,
+      "sha256": "cb0ad1686cbaa6566daee99ba87b9e066af15f8f0922b653dafe49a6b8ecffb5"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_050.csv",
+      "bytes": 22654,
+      "sha256": "df91026706971e2c615dda3d01418ca3b29eba90d362a91cd5e597bf18bf9d65"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_051.csv",
+      "bytes": 22408,
+      "sha256": "d706319934a9280ffd2b3d0343138998e8ffe6fadd74adda9d24e6bd7c8f6378"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_052.csv",
+      "bytes": 2744,
+      "sha256": "9d18be2a78afeccb1795f8be80b3045e7b585b87c410bc75e3001d703315d7db"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/index.json",
+      "bytes": 24245,
+      "sha256": "a936eb99dd4f7afded28c44d9c2a341d4438cb060315fddf1e192a3fb03d9769"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_000.csv",
+      "bytes": 24749,
+      "sha256": "cfc098b66b80da9d702b5591b978968449693e7f28aa5c590ea312677322b75d"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_001.csv",
+      "bytes": 25538,
+      "sha256": "dea580bfda1d882f43af4f70fb4ca3f341f25e8ba591389def2e3c506b01d43f"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_002.csv",
+      "bytes": 26991,
+      "sha256": "990c773faf424779ff09c13668f36ed0187c7b5b69f276d526e655b968c4177e"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_003.csv",
+      "bytes": 24876,
+      "sha256": "46caeb437d084ea180c26cbaba8b678c6a8aac35d1577b9ebedb50a42d96ea54"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_004.csv",
+      "bytes": 25185,
+      "sha256": "3035351f38901b34a4132141c5afeb5c64a9cfa50f41494e988a15ef4ef22348"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_005.csv",
+      "bytes": 26980,
+      "sha256": "c3b6e0cbdccfdf35863f88749818bfc0457e0f067243640acfd03adcd97cdc05"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_006.csv",
+      "bytes": 25030,
+      "sha256": "d4db0409f12f400927c5601d68368da3ca9e78145063b26816b7a97888ef1219"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_007.csv",
+      "bytes": 23127,
+      "sha256": "4bf7f33b3808e1009185aa0a8cb955d7175ec312c59d66436fa1ffc7e91c0dd8"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_008.csv",
+      "bytes": 23009,
+      "sha256": "939ae6965778212bab4d571ebb2c58936b89745f1fa92935526ac7abd2fc36b6"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_009.csv",
+      "bytes": 23925,
+      "sha256": "e4f909e37595cf0771030358baac853189c6f81869176c108f8863e5a1d88512"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_010.csv",
+      "bytes": 24728,
+      "sha256": "80c5eb4ac65095a9f208245cc0cd68e2131c92dd7b96e131ae1b293a17b8df37"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_011.csv",
+      "bytes": 26464,
+      "sha256": "85fdd87979ba3f582f01a89c74433e87f99fb9782b04cbc9f483add37adf6da3"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_012.csv",
+      "bytes": 28335,
+      "sha256": "85ee6701bd3fe8f88851c55bae2c5bda776ca8e3b89636726b1e5395dc071545"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_013.csv",
+      "bytes": 24966,
+      "sha256": "06c04991115b243b8d19fa0ea0511dcb97ae2fc68aaa967f9c0a37aa11e9b066"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_014.csv",
+      "bytes": 26709,
+      "sha256": "c08e150c3c86fa9e3968cfa53f425bc59471d28cc03c598eacb18c563055fae1"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_015.csv",
+      "bytes": 28550,
+      "sha256": "c1e31b998cb9749611d529290bd29171cb88c79947ecb4d405b51d4e6e397598"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_016.csv",
+      "bytes": 26544,
+      "sha256": "93e1c4ca14455be40804bfa1833971c3394324fc49777d2d3ef7edc373877399"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_017.csv",
+      "bytes": 25649,
+      "sha256": "1638e90fc84f83dd1aea5afa7e641a48a07b4b1c150e51b3df8fbe969b0bb379"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_018.csv",
+      "bytes": 26309,
+      "sha256": "e2972e88c5ae89f9fba00d1d05304e13991192e6e4c1710cd51510b8af353027"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_019.csv",
+      "bytes": 26858,
+      "sha256": "deeb6076a54b060154c79c51a156045e0afc39476491febd32d7b5919be164cb"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_020.csv",
+      "bytes": 27091,
+      "sha256": "2fe7250b44159215a7922aa4b4b9b08ee0cfb96f139398a3e712b14b0dafd96e"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_021.csv",
+      "bytes": 26781,
+      "sha256": "cb3ae2aef4ae6a816d2c09fb90bc9cd55922efa2a656bd794e2ad3050ead801b"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_022.csv",
+      "bytes": 26483,
+      "sha256": "c7b31c17ef168eae80f3090ec19e875d1b96f0909eb2869c7798d4e7380907fc"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_023.csv",
+      "bytes": 26440,
+      "sha256": "f72fb23e29ff1b6a5b33fc15f5424145bc40cdd42de9ab3448c550eeec11c768"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_024.csv",
+      "bytes": 28026,
+      "sha256": "cf9e38c632ca7d35c0dcad3b4f1b0a80aade8fafc0dcb3509f2698b883be17b0"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_025.csv",
+      "bytes": 24036,
+      "sha256": "7e34a98b6011ba9de0f36305b65a0ddae676420889108c7de63140a45c95ecdf"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_026.csv",
+      "bytes": 26081,
+      "sha256": "2f14f2780a9e7211afca7c90b96cdb1d19353495642baf7924c3e595b7aad1b8"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_027.csv",
+      "bytes": 25147,
+      "sha256": "e50522e9a04b53a212707c2368faa460296e5ca9ca0c573367fb863cd43737b2"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_028.csv",
+      "bytes": 26057,
+      "sha256": "b38d64be223deb21d58e6ec0d7204c88aad1cb6cf33e84ee8c7785b382f71705"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_029.csv",
+      "bytes": 24494,
+      "sha256": "036d7c68b6ff40411293e22e2f1c9357f4bdf9cb8989c3c20bce41dda4210740"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_030.csv",
+      "bytes": 26657,
+      "sha256": "bf60e6b2c9bf4a496d2abe7cb7894e0cd236d51c24e8847a85c78d348804f5fc"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_031.csv",
+      "bytes": 25427,
+      "sha256": "42f31e88e47d6c85fcb662ec44b85465186b3a9c37b692da5d49fcc527b9bd10"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_032.csv",
+      "bytes": 24111,
+      "sha256": "44de6aa61feefd3aa9f3ebe4029b4714d746aa715e766dfa5099cf3f9bf91f7e"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_033.csv",
+      "bytes": 25158,
+      "sha256": "73767e3314590eca0ea3200e82e389cc21f161a7f23329a4902c36a274aa6cee"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_034.csv",
+      "bytes": 26682,
+      "sha256": "6d0828b034bff01d42bcbb7b82d0afb065a5b96f11152fc10ca5b7887b704847"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_035.csv",
+      "bytes": 26523,
+      "sha256": "776cda896a7d1ace84d17355f610fd50f6a865879cce2a72936d2a66ea45d275"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_036.csv",
+      "bytes": 24858,
+      "sha256": "0738bff6e69aa243170c958aa27709737848081bd383486198edc9cf4efbeaba"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_037.csv",
+      "bytes": 26704,
+      "sha256": "f16760317de232160338ff412949e552de95a35ff90a52a3c98715b948afc18f"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_038.csv",
+      "bytes": 26078,
+      "sha256": "eb7b80fa3a07dfafbbf9aa8407176a6d16bc7a280648c55d12813a8614bce62f"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_039.csv",
+      "bytes": 26716,
+      "sha256": "9f84930f5a9b2b4d9023f1e52c96a6f9acfa1ffaad21d8a6bec64b130c9072c5"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_040.csv",
+      "bytes": 25481,
+      "sha256": "b6c88eed3b2b03301c2ac8af8dc5338cb30898a7f4d0534893ee61dda77df4f2"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_041.csv",
+      "bytes": 26754,
+      "sha256": "fc10aeb6483ade8671d300f0f75cafd729d42b5f4eca413d63b7d5c2ca397a11"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_042.csv",
+      "bytes": 25805,
+      "sha256": "8b1f50032cf3c36fa90af91f3bd3a4b164c2c91bfd5f4d8f16e494388cb1db5a"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_043.csv",
+      "bytes": 25836,
+      "sha256": "c22ba96f23e3e6f7eb46eab2d09610a86ad868e07bc7b5652efa250ffa1dcaf0"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_044.csv",
+      "bytes": 26986,
+      "sha256": "f2641bb53aa24e481f7eb88a14deb515bcb4bdfbadccd870ad7ea1d7ea8edd4d"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_045.csv",
+      "bytes": 26002,
+      "sha256": "f1a9020ecdfbd0cd4d9c1b96330cf9b47b13cd69c26af9103a21a58884745270"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_046.csv",
+      "bytes": 15206,
+      "sha256": "c2a5d1778d3afe666a9baed687470f5ef10f517bf1c16371f3325777a03bd496"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/run.log",
+      "bytes": 164,
+      "sha256": "2a4bbedaf3006bee2f8efade183bb5c32de0e375db32d1d0bb9a1db3d8aca603"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/run.py",
+      "bytes": 10194,
+      "sha256": "2bcdaf4dcb845364cac7b223aed729c4c8a163bca144dcd3bbc402b2350da359"
+    },
+    {
+      "path": "outputs/cross_asset_entry_audit/summary.csv",
+      "bytes": 2111,
+      "sha256": "e70ba7fdb9563b40d578a52fe70c744c9e18367200b47ef5d63fcdec61cd130b"
+    },
+    {
+      "path": "outputs/dynamic_first10_perpetual/collect.py",
+      "bytes": 16679,
+      "sha256": "ae53b0fd66c323f2bfa689b8f6bb7b984257916804c2b935ea6fe5e2ca4f0808"
+    },
+    {
+      "path": "outputs/dynamic_first10_perpetual/run.py",
+      "bytes": 9375,
+      "sha256": "96bbd2dbd5ba43589aca639f6ab195b8d18e830aa94e1fd415cdac3a6baa558a"
+    },
+    {
+      "path": "outputs/er_dynamic_annual_2019_2026/collect.py",
+      "bytes": 6090,
+      "sha256": "22ab50efdbab51c16458f047db12267531c6d5938fc443dcaa351b61eaab0fbf"
+    },
+    {
+      "path": "outputs/er_dynamic_annual_2019_2026/supervisor.py",
+      "bytes": 1027,
+      "sha256": "3e038760ea08ed9d4d6d26e4d79757ad27ed56b5741defc2f96fe88b12f09048"
+    },
+    {
+      "path": "outputs/er_dynamic_annual_2019_2026/worker.py",
+      "bytes": 2703,
+      "sha256": "fc514c1a1334def5383a99924bed221e77be73398c71b2d808a2d184eb665722"
+    },
+    {
+      "path": "outputs/er_dynamic_compare/collect.py",
+      "bytes": 4903,
+      "sha256": "ac96bf9da907789d67deec8a0790e6d4d804f4b7a1e93a6bc7013e346facb90b"
+    },
+    {
+      "path": "outputs/er_dynamic_compare/dynamic.py",
+      "bytes": 5502,
+      "sha256": "1aef3f8e4ebb4f337f623defed6bc965ed05128c230b5d6618210d360032c563"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/collect.py",
+      "bytes": 5464,
+      "sha256": "55431b8cf9b65ab36076dc07631e7599c9cb677fc7da942a94ce0fd4c44983b3"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/finalize.py",
+      "bytes": 2249,
+      "sha256": "f435613b7748a6034bac80f1f4fdc1d6652d56b45258d83aab0c7b271fdd7d37"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/repair_2020_daily.py",
+      "bytes": 2754,
+      "sha256": "b4afcf78c78cdaaaf6174a7c03bb0e25b319ff0a181bcafc9bd8eab551576a8c"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/restore_gaps.py",
+      "bytes": 3328,
+      "sha256": "ad3885342a2cedafd8aca03d403afcd5f9562431c72a50036cb83cb592274234"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/supervisor.py",
+      "bytes": 948,
+      "sha256": "b2effbb9cc8c6c0a9e1fe66a0acfc8503cb3052aa83972bc1de2466b8609382e"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/test_gap_restore.py",
+      "bytes": 1360,
+      "sha256": "a273665c52d7296eb20b7afa464d8cf8d315fea414c376ad31c41a4728b1a3b8"
+    },
+    {
+      "path": "outputs/er_dynamic_spot_fallback/worker.py",
+      "bytes": 4094,
+      "sha256": "b2c0acab271a9118a676a58cee4876ee2e8814d940e72fafd46cae68f6389faa"
+    },
+    {
+      "path": "outputs/er_partial_2020/collect.py",
+      "bytes": 4604,
+      "sha256": "1e80d57cc13dc7e2a6a655eb7460e4ea22181754ac7d83b0d71d852ada9064aa"
+    },
+    {
+      "path": "outputs/er_partial_2020/run_2020.py",
+      "bytes": 3284,
+      "sha256": "792849fbc4c06eb776b8575a21ec2a46889d057b7b702526190f90c3f663bf94"
+    },
+    {
+      "path": "outputs/er_partial_2026/collect.py",
+      "bytes": 4935,
+      "sha256": "707e67b4eecec58fc12412ed08304bf7133b4fb25b3aeb23d7105e879e036f34"
+    },
+    {
+      "path": "outputs/er_partial_2026/run.py",
+      "bytes": 9764,
+      "sha256": "5d65c737f8176745ff46d8e2e8f88a24ae6e86d254d92372d64fbc5add78dbbc"
+    },
+    {
+      "path": "outputs/er_partial_2026/test_engine.py",
+      "bytes": 1966,
+      "sha256": "bf935feb3ee3422d301fd8612d0d579054a1620b05a1da326240c6ab7bdaefe6"
+    },
+    {
+      "path": "outputs/er_partial_variants_2020/collect.py",
+      "bytes": 3320,
+      "sha256": "aa628316c4bffbefc3afc483efcaf55bbb6334bcca8508b93bc7d1a670c19267"
+    },
+    {
+      "path": "outputs/er_partial_variants_2020/run_variants.py",
+      "bytes": 4225,
+      "sha256": "8a8119d3a51bb2e06f2dc980a922e043c895d4ec9076d947017b4a5b118cb420"
+    },
+    {
+      "path": "outputs/er_partial_variants_2020/test_early.py",
+      "bytes": 1012,
+      "sha256": "6ab1056ced17453beadd5e6eaacbab2103bfdd61011be59bee2054fa05557b21"
+    },
+    {
+      "path": "outputs/eth_today_20261113/check_gate.py",
+      "bytes": 6292,
+      "sha256": "4908e5344e8c4f0bf48de4884be1fb132a8700ee21a2f3980ad6cb3cda68a3aa"
+    },
+    {
+      "path": "outputs/eth_today_20261113/check_old.py",
+      "bytes": 5538,
+      "sha256": "62f801c9d70a398ecf06b1dca9830c3172c9540d280db19bdc70909d85b75ae0"
+    },
+    {
+      "path": "outputs/eth_today_20261113/fetch.py",
+      "bytes": 3777,
+      "sha256": "452ed05e64673d4fa6260d257e82fb3841790b204dab7fc0a3b145eec34429df"
+    },
+    {
+      "path": "outputs/exit_attribution/analyze.py",
+      "bytes": 5936,
+      "sha256": "59c83300c0468a98527cb4c1aae4c8d77e6d09dce5577c99800e822402b6e299"
+    },
+    {
+      "path": "outputs/exit_attribution/report.py",
+      "bytes": 6324,
+      "sha256": "ff28cc5ec2b5e4546f0ae0901b352e7cd15564438a35fa3483e4a9e23d7ec495"
+    },
+    {
+      "path": "outputs/focus_m30_h4/compare_existing.py",
+      "bytes": 12321,
+      "sha256": "e7edf83d4086529895586d7acbc9119bb4cab59f7b98a3060239cc07adf1c344"
+    },
+    {
+      "path": "outputs/ma_30m_2026/experiment_30m.py",
+      "bytes": 7752,
+      "sha256": "8e7960af98afa0dfd55d18f2f3e69535f5b05fe3dc86dd4b46ccd25395c52690"
+    },
+    {
+      "path": "outputs/ma_multitimeframe_2026/experiment.py",
+      "bytes": 14706,
+      "sha256": "ba174e0c7a86e9572e5d51aa582cba7780e4d508a07314cdd501e37c2ce64f46"
+    },
+    {
+      "path": "outputs/ma_multitimeframe_2026/report.py",
+      "bytes": 14524,
+      "sha256": "17162d1f9e8aee3ac84a273663c809b1a435320904bca7abfa9723d19f83f771"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/collect.py",
+      "bytes": 5713,
+      "sha256": "e27380783b03fb6b0e4cbe73f69402cbb2a3d4ffd3a038785e732cb8b6493a63"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/deliver.py",
+      "bytes": 5028,
+      "sha256": "04ca5d07321b5856e353f49450ac216238d2747ae6970e1d9247b6e255cebd99"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/late2017.py",
+      "bytes": 1786,
+      "sha256": "24bcf8225ba451c7d3a0303dc5e1159621826616c2549344878817c424783128"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/normalize_early.py",
+      "bytes": 961,
+      "sha256": "320b48bfa6548d846e752eedf07a561df78b6af48c8a03d21eac4225bcb33b29"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/repair_early.py",
+      "bytes": 2568,
+      "sha256": "81a49a450bfc25f841650f1f09846da0f5769006f5109574ac0c24ee8e18fec7"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/restore_early_gaps.py",
+      "bytes": 3626,
+      "sha256": "bd1649b2ab2287ac6c4d907091b5d7b58c0402d16cb227cf85b74b7e20190584"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/supervisor.py",
+      "bytes": 958,
+      "sha256": "52146f0b4f96855d64f6d842da6f1dc7a5bb41e7e1d004a1162fcdedd2837f3f"
+    },
+    {
+      "path": "outputs/monthly_three_versions_2016_2026/worker.py",
+      "bytes": 4102,
+      "sha256": "d3c02fdea64fb1bdfe80d54043f2aba5855c9574a4a9519cdda0e63cf536a683"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/BTC/CONTROL_result.json",
+      "bytes": 5777,
+      "sha256": "5151a27a7db8fb864a17395ca959b52c20cdc5d368a117c330c7fce35c3bd22d"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/BTC/DYNAMIC_result.json",
+      "bytes": 11323,
+      "sha256": "26cd78811977f5abafafc15cc213c341a3f914225229c50bf1288dfaf01b75ea"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/BTC/config.json",
+      "bytes": 1962,
+      "sha256": "42d1f62f24d4f8a7620c3d71f5641856069e2ce18bcd4dee99fc927e2d690aff"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/BTC/progress.json",
+      "bytes": 173,
+      "sha256": "5cfaf87e1e0c4d1960f8c4f6ce14dbe0546bf38e7a843313fde7c2bde375767f"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/BTC/raw_sources.json",
+      "bytes": 4772,
+      "sha256": "cf91946336c6ab391a67136ffcdbdd79f71dc4488ca4f702e5b1363247460597"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/BTC/signals.json",
+      "bytes": 7229,
+      "sha256": "2ba5c9f2833e8e2b930a5670d41317be27d9569336e350c2459b362d85003dcd"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/BTC/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/ETH/CONTROL_result.json",
+      "bytes": 4116,
+      "sha256": "8bc956c469a2dd3ac020eb8cfd08f32e249e41f173d28225f90cbfa3d9c7266c"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/ETH/DYNAMIC_result.json",
+      "bytes": 8150,
+      "sha256": "3c2d5f7a8d8effee84442a4596cb442a5306b4f4b89d3671efc72befc41cb015"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/ETH/config.json",
+      "bytes": 1962,
+      "sha256": "42d1f62f24d4f8a7620c3d71f5641856069e2ce18bcd4dee99fc927e2d690aff"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/ETH/progress.json",
+      "bytes": 172,
+      "sha256": "8c134b65c922452378438f8fe3111dfb6a778bf1f80f180406911e240b3b83f7"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/ETH/raw_sources.json",
+      "bytes": 3186,
+      "sha256": "8dd4d4b36f8dfc76c62a65b4060c298a404dd6f173b5fe0cf87779e89194950a"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/ETH/signals.json",
+      "bytes": 4255,
+      "sha256": "1b9e6e5cbd9fc878efc0a63b3b0d598397e4ef08076d9e5e8ec10acdfe24395e"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/2026/ETH/status.json",
+      "bytes": 97,
+      "sha256": "f8805924785759e3e2d54909b0378aeffd05eb5b0c11646da42d33f49d15f3a4"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/BTC.log",
+      "bytes": 139,
+      "sha256": "2aa7631219c6445e19f1d3eab6ca81c4f5f7576d9e71f6e693a5287337a35185"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/ETH.log",
+      "bytes": 140,
+      "sha256": "49febcf2651d9b8fcebade259adebb79b54774704b939ef070beb0272e7388a5"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/ETH_nov11_candidates.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/ETH_nov11_conditions.csv",
+      "bytes": 10596,
+      "sha256": "7ec507199252ab2f9d58ca1ab85ccda7aa3926d7c74b3dd58e4e5d3a871b7edc"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/ETH_nov11_reason.md",
+      "bytes": 828,
+      "sha256": "1e1d8b77b521c4f010eab4187d75622a13b50b6679620e6b7ae92dfdf008739c"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/availability.json",
+      "bytes": 1166,
+      "sha256": "acef8361a26eae62392e2d3423946d3951cd8a19e6517786f180818cdaccc43d"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/candle_sources.json",
+      "bytes": 13076,
+      "sha256": "d8ab60a770f8fd413a027dee63b01955b4504e32465b4097ad63b024a05bbbea"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/collect.log",
+      "bytes": 6606,
+      "sha256": "160e6e88cdbae3f13b34730d17a0e261010593ee32376a2259c91931f17f6510"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/collect.py",
+      "bytes": 3795,
+      "sha256": "a90d31a7961a2a9114cf20deedc58d5ede81950ee2a827acfa126d950b247ed2"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/first_network_failure.log",
+      "bytes": 5183,
+      "sha256": "68319a43910408e605fe20b622790e29bec69f232c124d421b0e49349048343a"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/latest_access_check.json",
+      "bytes": 295,
+      "sha256": "136d8a8427fc141e9ef2fc55b5a0615cad14f5236bddde4f7a9209984bd3e680"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/overlapping_positions.csv",
+      "bytes": 459,
+      "sha256": "21734a4548265ccb6a4e32c56f172d0df9e9c2e55aa451ca2e045afac2685c72"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/report.md",
+      "bytes": 2044,
+      "sha256": "e5e4370c574dbf09826edb4e3b7d0f4edc7d1ad7b7945d0ec25a9bb40b33b2be"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/result.json",
+      "bytes": 6605,
+      "sha256": "6601631d3c8e6577d00b466b18f27ab9843279efb9ff4f5054bbcf2c80d5b6bf"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/run.log",
+      "bytes": 7,
+      "sha256": "7211ad359c55dcd75c38c53c5da3fe7c80724fec884b8ac9042a261f3e14caa4"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/run.py",
+      "bytes": 3325,
+      "sha256": "161d1e66fe4377e0c5775d185ba3582c33fd19334ae11130af28f28fdd04ec9c"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/same_signal_pairs.csv",
+      "bytes": 359,
+      "sha256": "2db5132f69af84287b5c8832dd49dd7ab678b85ecf55ad1e712ca441ae8f023b"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/summary.csv",
+      "bytes": 530,
+      "sha256": "6bedd9b5f08d88162ce9bb509fa11c6e084754cce85cfcbb902af588bbc76b6b"
+    },
+    {
+      "path": "outputs/nov9_today_simultaneous/trades.csv",
+      "bytes": 1459,
+      "sha256": "179a55f61cf499471af5dd5fc4011b52e392ff9d2197dc4704585d94730cd2a5"
+    },
+    {
+      "path": "outputs/other_years_050/batch.py",
+      "bytes": 3967,
+      "sha256": "2adb2e7f4c783cb6a3765bdbddc779fade2f28b5463b0632abe5f8cf33ba5a5d"
+    },
+    {
+      "path": "outputs/other_years_050/collect.py",
+      "bytes": 3391,
+      "sha256": "018cfca6981f86f7b2dc7da83ca9d9482ce2403710eb496b48e6a013f992bda9"
+    },
+    {
+      "path": "outputs/other_years_050/supervisor.py",
+      "bytes": 1374,
+      "sha256": "48e51a11e139ddff8785e494c2c3868c102ede0d2c5439a3ea3edaca57ca2d56"
+    },
+    {
+      "path": "outputs/retry_nov9_nov12/finalize.py",
+      "bytes": 9791,
+      "sha256": "ed3163774332d4c6918a00fa468300ea94de5552728212bc32f39106e2c32501"
+    },
+    {
+      "path": "outputs/retry_nov9_nov12/follow_btc.py",
+      "bytes": 10753,
+      "sha256": "b1b67b3739a6f5520f8f48a9c951f42e029c888e475a8c2075f82d3c9a31af2f"
+    },
+    {
+      "path": "outputs/retry_nov9_nov12/replay_comparison.py",
+      "bytes": 19266,
+      "sha256": "66071300775e4fc6e18caf5aa6c9c2a929ff4efab628b5d84d299539da770c33"
+    },
+    {
+      "path": "outputs/retry_nov9_nov12/source_restore.json",
+      "bytes": 9681,
+      "sha256": "a760f17a33b064350e2bb8456dfb7805a1c07e7095e32a558227901d93c12828"
+    },
+    {
+      "path": "outputs/user_ma_six_2026/experiment.py",
+      "bytes": 14780,
+      "sha256": "45ae72313a4a542df15f087f8165a4495c65fdd93dc44b37b921295de1df1d7c"
+    },
+    {
+      "path": "outputs/user_ma_six_2026/report.py",
+      "bytes": 14438,
+      "sha256": "124fb394c7a7d8d4396c9944b57784f6ed1f2afb4f47868ff864405963dfb519"
+    },
+    {
+      "path": "outputs/user_ma_six_higher_2026/report.py",
+      "bytes": 12015,
+      "sha256": "f1f6cc67146e156f17f0e11928dcb202a9a2c224d99e0bb23ae180a8612c8873"
+    },
+    {
+      "path": "outputs/user_ma_six_higher_2026/run_higher.py",
+      "bytes": 10656,
+      "sha256": "1b7fe73468a2bd762fa0f213c6e57d496cc15e13490b1d7e46da2e950d1e6a51"
+    },
+    {
+      "path": "outputs/user_ma_squeeze050/report.py",
+      "bytes": 16485,
+      "sha256": "c3e628d571f3d93fb0f69981ba06b4626164c94efc1d4f1a67d6f6d7183b9ffa"
+    },
+    {
+      "path": "outputs/user_ma_squeeze050/run.py",
+      "bytes": 14520,
+      "sha256": "77d1628ea31479cb3fda2f319155200572afa3be6bdd39d6caf1716341c4520b"
+    },
+    {
+      "path": "handoff/astra_20261114/README_FIRST.md",
+      "bytes": 2982,
+      "sha256": "5a3021cfc36da88773b7276c4f4ee77d834601486145ae3c8cda29f206e8f643"
+    },
+    {
+      "path": "handoff/astra_20261114/verify_github.py",
+      "bytes": 700,
+      "sha256": "d6ed6d0168e9efe0f46fd68b67557dfa50f3f100fe160ff81d057be959947e32"
+    }
+  ]
+}

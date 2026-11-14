@@ -1,0 +1,230 @@
+{
+  "period_beijing": [
+    "2026-11-09 00:00:00",
+    "2026-11-13 08:00:00 exclusive"
+  ],
+  "today_after_cutoff": "UNVERIFIED: fapi451, archivesNov13/14 404",
+  "initialization": "Nov1 each asset500 independently per version, no annual carry",
+  "summary": [
+    {
+      "version": "原ER",
+      "asset": "BTC",
+      "opens": 2,
+      "realized": 43.657095457999716,
+      "unrealized": 0.0,
+      "net": 43.657095457999716,
+      "note": "筛选本期开仓交易盈亏；不等于期间账户收益率"
+    },
+    {
+      "version": "原ER",
+      "asset": "ETH",
+      "opens": 1,
+      "realized": 16.07622170000024,
+      "unrealized": 0.0,
+      "net": 16.07622170000024,
+      "note": "筛选本期开仓交易盈亏；不等于期间账户收益率"
+    },
+    {
+      "version": "修正版V2",
+      "asset": "BTC",
+      "opens": 2,
+      "realized": 33.71226466399972,
+      "unrealized": 0.0,
+      "net": 33.71226466399972,
+      "note": "筛选本期开仓交易盈亏；不等于期间账户收益率"
+    },
+    {
+      "version": "修正版V2",
+      "asset": "ETH",
+      "opens": 1,
+      "realized": 9.954257200000155,
+      "unrealized": 0.0,
+      "net": 9.954257200000155,
+      "note": "筛选本期开仓交易盈亏；不等于期间账户收益率"
+    }
+  ],
+  "same_signal_pairs": [
+    {
+      "version": "原ER",
+      "signal_beijing": "11-09 06:00:00.000",
+      "BTC_open": "11-09 06:00:23.603",
+      "ETH_open": "11-09 06:00:19.255",
+      "BTC_side": "SHORT",
+      "ETH_side": "SHORT",
+      "BTC_net": 14.192087909999936,
+      "ETH_net": 16.07622170000024,
+      "combined_net": 30.268309610000173
+    },
+    {
+      "version": "修正版V2",
+      "signal_beijing": "11-09 06:00:00.000",
+      "BTC_open": "11-09 06:00:23.603",
+      "ETH_open": "11-09 06:00:19.255",
+      "BTC_side": "SHORT",
+      "ETH_side": "SHORT",
+      "BTC_net": 13.676630993999941,
+      "ETH_net": 9.954257200000155,
+      "combined_net": 23.630888194000097
+    }
+  ],
+  "overlapping_positions": [
+    {
+      "version": "原ER",
+      "start_beijing": "11-09 00:00:00.000",
+      "end_beijing": "11-09 05:55:17.486",
+      "BTC_side": "LONG",
+      "ETH_side": "SHORT",
+      "BTC_open": "11-08 21:41:35.600",
+      "ETH_open": "11-08 15:44:26.125"
+    },
+    {
+      "version": "原ER",
+      "start_beijing": "11-09 06:00:23.603",
+      "end_beijing": "11-09 16:24:28.046",
+      "BTC_side": "SHORT",
+      "ETH_side": "SHORT",
+      "BTC_open": "11-09 06:00:23.603",
+      "ETH_open": "11-09 06:00:19.255"
+    },
+    {
+      "version": "修正版V2",
+      "start_beijing": "11-09 00:00:00.000",
+      "end_beijing": "11-09 05:55:17.486",
+      "BTC_side": "LONG",
+      "ETH_side": "SHORT",
+      "BTC_open": "11-08 21:41:35.600",
+      "ETH_open": "11-08 15:44:26.125"
+    },
+    {
+      "version": "修正版V2",
+      "start_beijing": "11-09 06:00:23.603",
+      "end_beijing": "11-09 16:24:28.046",
+      "BTC_side": "SHORT",
+      "ETH_side": "SHORT",
+      "BTC_open": "11-09 06:00:23.603",
+      "ETH_open": "11-09 06:00:19.255"
+    }
+  ],
+  "trades": [
+    {
+      "version": "原ER",
+      "asset": "BTC",
+      "signal_us": 1794175200000000,
+      "opened_us": 1794175223603000,
+      "closed_us": 1794335595882000,
+      "side": "SHORT",
+      "entry": 74245.6,
+      "quantity": 0.0195,
+      "exit": 73517.80062000001,
+      "realized": 14.192087909999936,
+      "unrealized": 0.0,
+      "net": 14.192087909999936,
+      "rung": 1,
+      "partial_count": 0,
+      "status": "已平仓",
+      "signal_beijing": "11-09 06:00:00.000",
+      "opened_beijing": "11-09 06:00:23.603",
+      "closed_beijing": "11-11 02:33:15.882"
+    },
+    {
+      "version": "原ER",
+      "asset": "BTC",
+      "signal_us": 1794407400000000,
+      "opened_us": 1794407882805000,
+      "closed_us": 1794499873550000,
+      "side": "SHORT",
+      "entry": 73654.4,
+      "quantity": 0.020200000000000003,
+      "exit": 72195.73626,
+      "realized": 29.465007547999782,
+      "unrealized": 0.0,
+      "net": 29.465007547999782,
+      "rung": 2,
+      "partial_count": 0,
+      "status": "已平仓",
+      "signal_beijing": "11-11 22:30:00.000",
+      "opened_beijing": "11-11 22:38:02.805",
+      "closed_beijing": "11-13 00:11:13.550"
+    },
+    {
+      "version": "原ER",
+      "asset": "ETH",
+      "signal_us": 1794175200000000,
+      "opened_us": 1794175219255000,
+      "closed_us": 1794212668046000,
+      "side": "SHORT",
+      "entry": 2130.25,
+      "quantity": 0.77,
+      "exit": 2109.3717899999997,
+      "realized": 16.07622170000024,
+      "unrealized": 0.0,
+      "net": 16.07622170000024,
+      "rung": 1,
+      "partial_count": 0,
+      "status": "已平仓",
+      "signal_beijing": "11-09 06:00:00.000",
+      "opened_beijing": "11-09 06:00:19.255",
+      "closed_beijing": "11-09 16:24:28.046"
+    },
+    {
+      "version": "修正版V2",
+      "asset": "BTC",
+      "signal_us": 1794175200000000,
+      "opened_us": 1794175223603000,
+      "closed_us": 1794335595882000,
+      "side": "SHORT",
+      "entry": 74245.6,
+      "quantity": 0.0198,
+      "exit": 73517.80062000001,
+      "realized": 13.676630993999941,
+      "unrealized": 0.0,
+      "net": 13.676630993999941,
+      "rung": 1,
+      "partial_count": 1,
+      "status": "已平仓",
+      "signal_beijing": "11-09 06:00:00.000",
+      "opened_beijing": "11-09 06:00:23.603",
+      "closed_beijing": "11-11 02:33:15.882"
+    },
+    {
+      "version": "修正版V2",
+      "asset": "BTC",
+      "signal_us": 1794407400000000,
+      "opened_us": 1794407882805000,
+      "closed_us": 1794499873550000,
+      "side": "SHORT",
+      "entry": 73654.4,
+      "quantity": 0.0205,
+      "exit": 72195.73626,
+      "realized": 20.035633669999775,
+      "unrealized": 0.0,
+      "net": 20.035633669999775,
+      "rung": 2,
+      "partial_count": 1,
+      "status": "已平仓",
+      "signal_beijing": "11-11 22:30:00.000",
+      "opened_beijing": "11-11 22:38:02.805",
+      "closed_beijing": "11-13 00:11:13.550"
+    },
+    {
+      "version": "修正版V2",
+      "asset": "ETH",
+      "signal_us": 1794175200000000,
+      "opened_us": 1794175219255000,
+      "closed_us": 1794212668046000,
+      "side": "SHORT",
+      "entry": 2130.25,
+      "quantity": 0.76,
+      "exit": 2109.3717899999997,
+      "realized": 9.954257200000155,
+      "unrealized": 0.0,
+      "net": 9.954257200000155,
+      "rung": 1,
+      "partial_count": 1,
+      "status": "已平仓",
+      "signal_beijing": "11-09 06:00:00.000",
+      "opened_beijing": "11-09 06:00:19.255",
+      "closed_beijing": "11-09 16:24:28.046"
+    }
+  ]
+}

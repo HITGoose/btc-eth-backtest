@@ -1,0 +1,59 @@
+{
+  "source": "BINANCE_USDT_PERPETUAL_ONLY",
+  "year": 2022,
+  "window": [
+    "2022-01-01T00:00:00.000+08:00",
+    "2023-01-01T00:00:00.000+08:00"
+  ],
+  "fee": 0.0,
+  "leverage": 3.0,
+  "each_initial_cash": 500.0,
+  "slippage": 0.0002,
+  "ER": [
+    [
+      12,
+      0.28284271247461906
+    ],
+    [
+      120,
+      0.1
+    ]
+  ],
+  "policy": {
+    "range_squeeze_pct": 0.25,
+    "range_entry_bandwidth_pct": 0.5,
+    "trend_level_distance_pct": 2.0,
+    "pause_transition": true
+  },
+  "entry": "unchanged old SMA/EMA20,60,120 + original ER BASELINE, no dual-cross",
+  "versions": [
+    "CONTROL",
+    "DYNAMIC"
+  ],
+  "execution": "official raw trades, every active minute, full latest raw quote for polls and marks; discrepancies logged not rejected",
+  "minute_HL_pruning": false,
+  "raw_IDs_monotonic_required": true,
+  "ID_jumps_logged": true,
+  "archive_market_completeness_independently_verified": false,
+  "no_price_rewrite": true,
+  "no_OHLC_fallback": true,
+  "dynamic": "two closed15m both weak; 3pct realized balance reference budget; at most one reduction capped at25pct initial",
+  "original_work_files_unchanged": true,
+  "original_submit_boundary_preserved": true,
+  "limit_fill": "full-size touch proxy, no queue/depth simulation",
+  "funding": "omitted",
+  "experiment": "ADAPTIVE_V2_BALANCE3_CAP25_ONCE",
+  "risk_budget_rate": 0.03,
+  "risk_budget_basis": "current per-asset realized balance, excludes unrealized PnL",
+  "maximum_initial_quantity_reduction": 0.25,
+  "max_requests_per_position": 1,
+  "no_quantity_request_does_not_consume_opportunity": true,
+  "risk_budget_is_reference_not_guarantee": true,
+  "risk_estimation_price": "latest completed15m close",
+  "confirmation": "two consecutive completed15m, each fails six-line alignment AND MACD support",
+  "profit_prerequisite": false,
+  "reentry_on_recovery": false,
+  "minimum_remainder": "one original quantity step",
+  "never_relax_stop": true,
+  "parameter_search": false
+}

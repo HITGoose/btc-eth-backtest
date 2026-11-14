@@ -1,0 +1,63 @@
+[
+  {
+    "year": 2019,
+    "period": "未验证",
+    "status": "UNVERIFIED",
+    "reason": "无已验证可复用币安永续逐笔输入及充分预热数据"
+  },
+  {
+    "year": 2020,
+    "period": "02-16至12-31",
+    "CONTROL_return_pct": -2.429284238279561,
+    "CONTROL_drawdown_pct": 47.07921722436179,
+    "CONTROL_opens": 145,
+    "DYNAMIC_return_pct": 7.869266275540432,
+    "DYNAMIC_drawdown_pct": 38.39511756580215,
+    "DYNAMIC_opens": 145,
+    "status": "COMPLETE"
+  },
+  {
+    "year": 2021,
+    "period": "全年",
+    "CONTROL_return_pct": 44.909144214180245,
+    "CONTROL_drawdown_pct": 27.88991270301343,
+    "CONTROL_opens": 66,
+    "DYNAMIC_return_pct": 44.06340152006023,
+    "DYNAMIC_drawdown_pct": 24.625454505434707,
+    "DYNAMIC_opens": 66,
+    "status": "COMPLETE"
+  },
+  {
+    "year": 2022,
+    "period": "全年",
+    "CONTROL_return_pct": 103.45052326860133,
+    "CONTROL_drawdown_pct": 28.339071495958457,
+    "CONTROL_opens": 127,
+    "DYNAMIC_return_pct": 83.74778557084093,
+    "DYNAMIC_drawdown_pct": 22.50962838405185,
+    "DYNAMIC_opens": 127,
+    "status": "COMPLETE"
+  },
+  {
+    "year": 2023,
+    "period": "全年",
+    "CONTROL_return_pct": 85.38170575040107,
+    "CONTROL_drawdown_pct": 37.95633468133899,
+    "CONTROL_opens": 183,
+    "DYNAMIC_return_pct": 73.46488254660106,
+    "DYNAMIC_drawdown_pct": 27.23188601028248,
+    "DYNAMIC_opens": 183,
+    "status": "COMPLETE"
+  },
+  {
+    "year": 2026,
+    "period": "01-01至10-31",
+    "CONTROL_return_pct": 83.00021131620092,
+    "CONTROL_drawdown_pct": 32.28192365139084,
+    "CONTROL_opens": 138,
+    "DYNAMIC_return_pct": 57.88453205420075,
+    "DYNAMIC_drawdown_pct": 27.27407997827208,
+    "DYNAMIC_opens": 138,
+    "status": "COMPLETE"
+  }
+]

@@ -1,0 +1,1226 @@
+{
+  "created_utc": "2026-11-14T03:21:49.397896+00:00",
+  "commands": [
+    "/workspace/.venv-btc-eth-original/bin/python -u outputs/adaptive_risk_exit_v2/supervisor.py > outputs/adaptive_risk_exit_v2/run.log 2>&1",
+    "/workspace/.venv-btc-eth-original/bin/python outputs/adaptive_risk_exit_v2/collect.py"
+  ],
+  "collector_read_only_inputs": true,
+  "tasks": [
+    {
+      "year": 2024,
+      "asset": "BTC",
+      "passed": true,
+      "task_complete": true,
+      "CONTROL_trades_end_and_marks_regression": true,
+      "provenance": {
+        "result": "outputs/adaptive_risk_exit_v2/2024/BTC/DYNAMIC_result.json",
+        "result_sha256": "13fca412d3797b1df415019777c50907ce726ebdb8e49b08ec1e5b773a0dfa36",
+        "equity": "outputs/adaptive_risk_exit_v2/2024/BTC/DYNAMIC_equity.npy",
+        "equity_sha256": "ec80057d27efade4a4156a8c79cd94c7e9ecb35fde84b8c1d9d9292d1a60140c"
+      },
+      "V2_accepted_entries_and_final_exits_match_original": true,
+      "partial_rules": {
+        "passed": true,
+        "every_position_at_most_one_request_and_fill": true,
+        "cumulative_reduction_le25pct": true,
+        "budget_balance3pct": true,
+        "partial_actual_fields_consistent": true,
+        "closed_and_open_positions_checked": 88,
+        "stats": {
+          "closed_trades": 88,
+          "reduced_closed_trades": 74,
+          "unreduced_closed_trades": 14,
+          "all_closed_median_reduction_pct": 24.835152094836456,
+          "reduced_closed_median_reduction_pct": 24.870410657212688,
+          "maximum_reduction_pct": 25.0,
+          "reduction_ratios": [
+            0.2478632478632479,
+            0.25,
+            0.25,
+            0.0,
+            0.24819277108433735,
+            0.2488584474885845,
+            0.25,
+            0.24937655860349126,
+            0.24941176470588233,
+            0.24887892376681614,
+            0.2483370288248337,
+            0.25,
+            0.24880382775119617,
+            0.24936386768447835,
+            0.0,
+            0.24825986078886314,
+            0.24936386768447835,
+            0.25,
+            0.25,
+            0.24778761061946908,
+            0.2484848484848485,
+            0.0,
+            0.25,
+            0.0,
+            0.2483660130718954,
+            0.25,
+            0.25,
+            0.0,
+            0.25,
+            0.24863387978142076,
+            0.24806201550387597,
+            0.24873096446700504,
+            0.0,
+            0.0,
+            0.0,
+            0.2486772486772487,
+            0.2486772486772487,
+            0.25,
+            0.24860335195530728,
+            0.24838709677419354,
+            0.249211356466877,
+            0.25,
+            0.0,
+            0.24915824915824916,
+            0.24727272727272728,
+            0.24727272727272728,
+            0.24812030075187969,
+            0.0,
+            0.2482269503546099,
+            0.13138686131386862,
+            0.25,
+            0.24696356275303646,
+            0.25,
+            0.24696356275303646,
+            0.0,
+            0.247557003257329,
+            0.24914675767918087,
+            0.24719101123595505,
+            0.25,
+            0.0,
+            0.24918032786885244,
+            0.2476489028213166,
+            0.08588957055214723,
+            0.24820143884892087,
+            0.25,
+            0.248062015503876,
+            0.24894514767932485,
+            0.25,
+            0.0,
+            0.23346303501945526,
+            0.248062015503876,
+            0.25,
+            0.2490842490842491,
+            0.24705882352941175,
+            0.0,
+            0.2474916387959866,
+            0.25,
+            0.25,
+            0.24800000000000003,
+            0.24686192468619245,
+            0.24793388429752064,
+            0.24675324675324672,
+            0.24774774774774777,
+            0.24651162790697673,
+            0.25,
+            0.24880382775119617,
+            0.25,
+            0.24696356275303646
+          ],
+          "requests": 74,
+          "actual_partial_fills": 74,
+          "cap_bound_requests": 71,
+          "cap_bound_filled_closed_positions": 71,
+          "realized_balance_at_request_min": 500.0,
+          "realized_balance_at_request_max": 904.0246242340007,
+          "budget_min": 15.0,
+          "budget_max": 27.120738727020022,
+          "partials_at_a_loss": 54
+        }
+      },
+      "raw_manifest": {
+        "path": "outputs/adaptive_risk_exit_v2/2024/BTC/raw_sources.json",
+        "sha256": "7653209d49b215d2f165092af4715c359fe7978c6deb9c9cbfa7a0109bfc8258",
+        "records": 149,
+        "futures_um_only": true,
+        "official_checksum_matches": true,
+        "checksum_evidence": "worker-recorded downloaded ZIP SHA256 matches official CHECKSUM; no redownload by collector"
+      },
+      "candle_manifest": {
+        "path": "outputs/other_years_050/2024/BTC_candle_sources.json",
+        "sha256": "08ca5997f04fff5ea28efea61613d194d90d4c39987ea73047ddb6b2750c301e",
+        "records": 28,
+        "futures_um_only": true,
+        "official_checksum_matches": true,
+        "checksum_evidence": "worker-recorded downloaded ZIP SHA256 matches official CHECKSUM; no redownload by collector"
+      }
+    },
+    {
+      "year": 2024,
+      "asset": "ETH",
+      "passed": true,
+      "task_complete": true,
+      "CONTROL_trades_end_and_marks_regression": true,
+      "provenance": {
+        "result": "outputs/adaptive_risk_exit_v2/2024/ETH/DYNAMIC_result.json",
+        "result_sha256": "0bbc601e8996e64bc50f29172087aff58b4bdd6bb078759e64ec3d8e2f7fd776",
+        "equity": "outputs/adaptive_risk_exit_v2/2024/ETH/DYNAMIC_equity.npy",
+        "equity_sha256": "1395d20d3d0901b662b86b8c179cec2ab2439c98f3535f7f12e669e851efa153"
+      },
+      "V2_accepted_entries_and_final_exits_match_original": true,
+      "partial_rules": {
+        "passed": true,
+        "every_position_at_most_one_request_and_fill": true,
+        "cumulative_reduction_le25pct": true,
+        "budget_balance3pct": true,
+        "partial_actual_fields_consistent": true,
+        "closed_and_open_positions_checked": 77,
+        "stats": {
+          "closed_trades": 77,
+          "reduced_closed_trades": 52,
+          "unreduced_closed_trades": 25,
+          "all_closed_median_reduction_pct": 24.193548387096772,
+          "reduced_closed_median_reduction_pct": 24.561403508771928,
+          "maximum_reduction_pct": 25.0,
+          "reduction_ratios": [
+            0.24615384615384614,
+            0.25,
+            0.19298245614035087,
+            0.25,
+            0.0,
+            0.0,
+            0.24615384615384614,
+            0.2459016393442623,
+            0.25,
+            0.24193548387096772,
+            0.0,
+            0.23728813559322037,
+            0.24528301886792453,
+            0.1568627450980392,
+            0.0,
+            0.24489795918367346,
+            0.24444444444444444,
+            0.23255813953488375,
+            0.24,
+            0.24137931034482762,
+            0.24561403508771928,
+            0.25,
+            0.0,
+            0.24193548387096772,
+            0.24561403508771928,
+            0.25,
+            0.0,
+            0.0,
+            0.0,
+            0.24561403508771928,
+            0.24074074074074073,
+            0.25,
+            0.24561403508771928,
+            0.25,
+            0.0,
+            0.2465753424657534,
+            0.0,
+            0.25,
+            0.0,
+            0.24050632911392406,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2394366197183099,
+            0.0,
+            0.24285714285714285,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2,
+            0.24742268041237114,
+            0.24489795918367346,
+            0.03389830508474576,
+            0.2477064220183486,
+            0.25,
+            0.24271844660194175,
+            0.24761904761904763,
+            0.24786324786324787,
+            0.0,
+            0.25,
+            0.24786324786324787,
+            0.24324324324324323,
+            0.24778761061946902,
+            0.24603174603174602,
+            0.0,
+            0.0,
+            0.0,
+            0.2465753424657534,
+            0.24285714285714285,
+            0.25,
+            0.23809523809523808,
+            0.24675324675324675,
+            0.25,
+            0.0,
+            0.24242424242424243
+          ],
+          "requests": 52,
+          "actual_partial_fills": 52,
+          "cap_bound_requests": 45,
+          "cap_bound_filled_closed_positions": 45,
+          "realized_balance_at_request_min": 475.33083460000034,
+          "realized_balance_at_request_max": 1045.205578600002,
+          "budget_min": 14.25992503800001,
+          "budget_max": 31.356167358000057,
+          "partials_at_a_loss": 37
+        }
+      },
+      "raw_manifest": {
+        "path": "outputs/adaptive_risk_exit_v2/2024/ETH/raw_sources.json",
+        "sha256": "6350dbfc08e2bb6f9ab58772c89586614c3fcf399bef1def9d97929dbd2b1fba",
+        "records": 103,
+        "futures_um_only": true,
+        "official_checksum_matches": true,
+        "checksum_evidence": "worker-recorded downloaded ZIP SHA256 matches official CHECKSUM; no redownload by collector"
+      },
+      "candle_manifest": {
+        "path": "outputs/other_years_050/2024/ETH_candle_sources.json",
+        "sha256": "fc6585fff772f40ae9ac9742054be1857b63a818544fcd7917592ecc1c22021e",
+        "records": 28,
+        "futures_um_only": true,
+        "official_checksum_matches": true,
+        "checksum_evidence": "worker-recorded downloaded ZIP SHA256 matches official CHECKSUM; no redownload by collector"
+      }
+    },
+    {
+      "year": 2025,
+      "asset": "BTC",
+      "passed": true,
+      "task_complete": true,
+      "CONTROL_trades_end_and_marks_regression": true,
+      "provenance": {
+        "result": "outputs/adaptive_risk_exit_v2/2025/BTC/DYNAMIC_result.json",
+        "result_sha256": "3ff9123009ba979b201b6186dd5340270d247157d25bce7e3b61b6223ef77677",
+        "equity": "outputs/adaptive_risk_exit_v2/2025/BTC/DYNAMIC_equity.npy",
+        "equity_sha256": "0a59139e36a78e716715d98b16e9ce2f7cc4865c071bdd072913da8894dc22f7"
+      },
+      "V2_accepted_entries_and_final_exits_match_original": true,
+      "partial_rules": {
+        "passed": true,
+        "every_position_at_most_one_request_and_fill": true,
+        "cumulative_reduction_le25pct": true,
+        "budget_balance3pct": true,
+        "partial_actual_fields_consistent": true,
+        "closed_and_open_positions_checked": 70,
+        "stats": {
+          "closed_trades": 70,
+          "reduced_closed_trades": 61,
+          "unreduced_closed_trades": 9,
+          "all_closed_median_reduction_pct": 24.84816258283438,
+          "reduced_closed_median_reduction_pct": 24.89795918367347,
+          "maximum_reduction_pct": 25.0,
+          "reduction_ratios": [
+            0.25,
+            0.24852071005917162,
+            0.2469135802469136,
+            0.0,
+            0.0,
+            0.24731182795698922,
+            0.24725274725274726,
+            0.2486486486486486,
+            0.0,
+            0.248995983935743,
+            0.25,
+            0.2489795918367347,
+            0.25,
+            0.25,
+            0.0,
+            0.05232558139534884,
+            0.24781341107871718,
+            0.2484662576687116,
+            0.24920127795527158,
+            0.2476489028213166,
+            0.24773413897280966,
+            0.24840764331210188,
+            0.24834437086092717,
+            0.25,
+            0.24907063197026022,
+            0.24731182795698928,
+            0.25,
+            0.0,
+            0.24742268041237114,
+            0.25,
+            0.2483660130718954,
+            0.25,
+            0.25,
+            0.24827586206896554,
+            0.12218649517684886,
+            0.24914675767918087,
+            0.2474916387959866,
+            0.24913494809688583,
+            0.24916943521594684,
+            0.25,
+            0.2478386167146974,
+            0.2484662576687116,
+            0.2478386167146974,
+            0.2478386167146974,
+            0.13846153846153847,
+            0.2477064220183486,
+            0.24781341107871718,
+            0.24776119402985072,
+            0.2476489028213166,
+            0.24919093851132687,
+            0.0,
+            0.0,
+            0.24804177545691905,
+            0.24866310160427807,
+            0.2493368700265252,
+            0.25,
+            0.24936386768447835,
+            0.25,
+            0.24937027707808568,
+            0.0,
+            0.24941176470588233,
+            0.2495049504950495,
+            0.24946236559139787,
+            0.25,
+            0.25,
+            0.2490272373540856,
+            0.24955116696588872,
+            0.0,
+            0.24905660377358488,
+            0.24849699398797598
+          ],
+          "requests": 61,
+          "actual_partial_fills": 61,
+          "cap_bound_requests": 58,
+          "cap_bound_filled_closed_positions": 58,
+          "realized_balance_at_request_min": 500.0,
+          "realized_balance_at_request_max": 1638.485855888005,
+          "budget_min": 15.0,
+          "budget_max": 49.15457567664015,
+          "partials_at_a_loss": 35
+        }
+      },
+      "raw_manifest": {
+        "path": "outputs/adaptive_risk_exit_v2/2025/BTC/raw_sources.json",
+        "sha256": "44a602459bf7f95c47d4ecb1e91d7d0386e428c4108e1b0396ba4022a64acb51",
+        "records": 175,
+        "futures_um_only": true,
+        "official_checksum_matches": true,
+        "checksum_evidence": "worker-recorded downloaded ZIP SHA256 matches official CHECKSUM; no redownload by collector"
+      },
+      "candle_manifest": {
+        "path": "outputs/other_years_050/2025/BTC_candle_sources.json",
+        "sha256": "d92688305cae2850a497c43eb67e077872f0c3701529026c7c1e4d2b0fee7e6c",
+        "records": 28,
+        "futures_um_only": true,
+        "official_checksum_matches": true,
+        "checksum_evidence": "worker-recorded downloaded ZIP SHA256 matches official CHECKSUM; no redownload by collector"
+      }
+    },
+    {
+      "year": 2025,
+      "asset": "ETH",
+      "passed": true,
+      "task_complete": true,
+      "CONTROL_trades_end_and_marks_regression": true,
+      "provenance": {
+        "result": "outputs/adaptive_risk_exit_v2/2025/ETH/DYNAMIC_result.json",
+        "result_sha256": "f1d46642c1c8ea74b0f63937483047272af72dbd3bddeb0a1ae45aff9cbaada0",
+        "equity": "outputs/adaptive_risk_exit_v2/2025/ETH/DYNAMIC_equity.npy",
+        "equity_sha256": "9cdbb677ed28e4a23eb00b1beba22ed1686d21e9757d6341dc735e4fe2ec0fb0"
+      },
+      "V2_accepted_entries_and_final_exits_match_original": true,
+      "partial_rules": {
+        "passed": true,
+        "every_position_at_most_one_request_and_fill": true,
+        "cumulative_reduction_le25pct": true,
+        "budget_balance3pct": true,
+        "partial_actual_fields_consistent": true,
+        "closed_and_open_positions_checked": 81,
+        "stats": {
+          "closed_trades": 80,
+          "reduced_closed_trades": 48,
+          "unreduced_closed_trades": 32,
+          "all_closed_median_reduction_pct": 22.380595148787197,
+          "reduced_closed_median_reduction_pct": 24.43152454780362,
+          "maximum_reduction_pct": 25.0,
+          "reduction_ratios": [
+            0.24444444444444444,
+            0.0,
+            0.0,
+            0.24444444444444444,
+            0.0,
+            0.0,
+            0.0,
+            0.25,
+            0.0,
+            0.0,
+            0.0,
+            0.24242424242424243,
+            0.24637681159420288,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.24545454545454545,
+            0.21505376344086022,
+            0.24468085106382978,
+            0.1473684210526316,
+            0.24719101123595505,
+            0.25,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.24050632911392406,
+            0.24390243902439024,
+            0.24324324324324323,
+            0.24705882352941178,
+            0.25,
+            0.2441860465116279,
+            0.047058823529411764,
+            0.0,
+            0.0,
+            0.24193548387096772,
+            0.23809523809523808,
+            0.23728813559322037,
+            0.25,
+            0.05555555555555555,
+            0.24489795918367346,
+            0.23404255319148934,
+            0.25,
+            0.23255813953488375,
+            0.0,
+            0.0,
+            0.2380952380952381,
+            0.03773584905660377,
+            0.0,
+            0.18965517241379312,
+            0.23728813559322037,
+            0.24615384615384614,
+            0.25,
+            0.23728813559322037,
+            0.24137931034482762,
+            0.25,
+            0.0,
+            0.0,
+            0.24242424242424243,
+            0.0,
+            0.21052631578947367,
+            0.24358974358974358,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.24822695035460995,
+            0.2465753424657534,
+            0.25,
+            0.0,
+            0.2462686567164179,
+            0.14012738853503184,
+            0.24836601307189543,
+            0.2484076433121019,
+            0.0,
+            0.25,
+            0.24444444444444444
+          ],
+          "requests": 49,
+          "actual_partial_fills": 49,
+          "cap_bound_requests": 41,
+          "cap_bound_filled_closed_positions": 40,
+          "realized_balance_at_request_min": 447.44173044000036,
+          "realized_balance_at_request_max": 1614.1598135000022,
+          "budget_min": 13.42325191320001,
+          "budget_max": 48.424794405000064,
+          "partials_at_a_loss": 38
+        }
+      },
+      "raw_manifest": {
+        "path": "outputs/adaptive_risk_exit_v2/2025/ETH/raw_sources.json",
+        "sha256": "f0f39578b384a3792ebab16b4462f260abef2b58b7efb44bda44313822f7dfb8",
+        "records": 94,
+        "futures_um_only": true,
+        "official_checksum_matches": true,
+        "checksum_evidence": "worker-recorded downloaded ZIP SHA256 matches official CHECKSUM; no redownload by collector"
+      },
+      "candle_manifest": {
+        "path": "outputs/other_years_050/2025/ETH_candle_sources.json",
+        "sha256": "07cf2552bcb7097624cfaa37ed58cc648e0ed10146787837e0a2bf6db5c8b513",
+        "records": 28,
+        "futures_um_only": true,
+        "official_checksum_matches": true,
+        "checksum_evidence": "worker-recorded downloaded ZIP SHA256 matches official CHECKSUM; no redownload by collector"
+      }
+    }
+  ],
+  "errors": [],
+  "statistics": [
+    {
+      "year": 2024,
+      "version": "ADAPTIVE_RISK15",
+      "closed_trades": 165,
+      "reduced_closed_trades": 131,
+      "unreduced_closed_trades": 34,
+      "all_closed_median_reduction_pct": 61.51315789473685,
+      "reduced_closed_median_reduction_pct": 65.3061224489796,
+      "maximum_reduction_pct": 84.68468468468467
+    },
+    {
+      "year": 2024,
+      "version": "ADAPTIVE_V2",
+      "closed_trades": 165,
+      "reduced_closed_trades": 126,
+      "unreduced_closed_trades": 39,
+      "all_closed_median_reduction_pct": 24.705882352941174,
+      "reduced_closed_median_reduction_pct": 24.8062015503876,
+      "maximum_reduction_pct": 25.0,
+      "requests": 126,
+      "actual_partial_fills": 126,
+      "cap_bound_requests": 116,
+      "cap_bound_filled_closed_positions": 116,
+      "partials_at_a_loss": 91,
+      "realized_balance_at_request_min": 475.33083460000034,
+      "budget_min": 14.25992503800001,
+      "realized_balance_at_request_max": 1045.205578600002,
+      "budget_max": 31.356167358000057
+    },
+    {
+      "year": 2025,
+      "version": "ADAPTIVE_RISK15",
+      "closed_trades": 150,
+      "reduced_closed_trades": 111,
+      "unreduced_closed_trades": 39,
+      "all_closed_median_reduction_pct": 67.24759615384615,
+      "reduced_closed_median_reduction_pct": 73.31189710610933,
+      "maximum_reduction_pct": 87.16216216216218
+    },
+    {
+      "year": 2025,
+      "version": "ADAPTIVE_V2",
+      "closed_trades": 150,
+      "reduced_closed_trades": 109,
+      "unreduced_closed_trades": 41,
+      "all_closed_median_reduction_pct": 24.6211251435132,
+      "reduced_closed_median_reduction_pct": 24.78386167146974,
+      "maximum_reduction_pct": 25.0,
+      "requests": 110,
+      "actual_partial_fills": 110,
+      "cap_bound_requests": 99,
+      "cap_bound_filled_closed_positions": 98,
+      "partials_at_a_loss": 73,
+      "realized_balance_at_request_min": 447.44173044000036,
+      "budget_min": 13.42325191320001,
+      "realized_balance_at_request_max": 1638.485855888005,
+      "budget_max": 49.15457567664015
+    }
+  ],
+  "original_source": {
+    "passed": true,
+    "count": 85,
+    "source_commit": "e66859aff89490b9b02c286e59d7d8270802972a",
+    "restoration_manifest": "outputs/retry_nov9_nov12/source_restore.json",
+    "files": [
+      {
+        "path": "bybit_legacy/btc_er_review_scratch.mjs",
+        "expected_git_blob": "06aa50e20edbb290d1193e734ba3984d8406740e",
+        "actual_git_blob": "06aa50e20edbb290d1193e734ba3984d8406740e",
+        "matched": true,
+        "bytes": 39862
+      },
+      {
+        "path": "README.md",
+        "expected_git_blob": "856c3b12eaefbcf2759c7399c9fc934cfb6f8130",
+        "actual_git_blob": "856c3b12eaefbcf2759c7399c9fc934cfb6f8130",
+        "matched": true,
+        "bytes": 2527
+      },
+      {
+        "path": "bybit_legacy/long_exit_trade_review.mjs",
+        "expected_git_blob": "4c239a98e50d06b5bf472a5a925af9d5996200ee",
+        "actual_git_blob": "4c239a98e50d06b5bf472a5a925af9d5996200ee",
+        "matched": true,
+        "bytes": 5077
+      },
+      {
+        "path": "bybit_legacy/btc_diag_fractional_scratch.mjs",
+        "expected_git_blob": "b5a36e314f09c7aff9809d9dd748aa28f7b6c709",
+        "actual_git_blob": "b5a36e314f09c7aff9809d9dd748aa28f7b6c709",
+        "matched": true,
+        "bytes": 38217
+      },
+      {
+        "path": "bybit_legacy/btc_2026_prepare_scratch.py",
+        "expected_git_blob": "63565eb7111688a9517cda85c8ec831c36bfa68b",
+        "actual_git_blob": "63565eb7111688a9517cda85c8ec831c36bfa68b",
+        "matched": true,
+        "bytes": 1423
+      },
+      {
+        "path": "bybit_legacy/CODEX_HANDOFF.md",
+        "expected_git_blob": "a09cc79d71141536f23936c822d3849189ca13d3",
+        "actual_git_blob": "a09cc79d71141536f23936c822d3849189ca13d3",
+        "matched": true,
+        "bytes": 3373
+      },
+      {
+        "path": "bybit_legacy/btc_perp_backtest.mjs",
+        "expected_git_blob": "f4c2931c7e57fb5a5c18c5b8d2767c2f4255616f",
+        "actual_git_blob": "f4c2931c7e57fb5a5c18c5b8d2767c2f4255616f",
+        "matched": true,
+        "bytes": 38188
+      },
+      {
+        "path": "work/ETHUSDT_Gate_2026SepNov_replay.csv",
+        "expected_git_blob": "355eb0572dfcae35406930ef949fabcc515df022",
+        "actual_git_blob": "355eb0572dfcae35406930ef949fabcc515df022",
+        "matched": true,
+        "bytes": 462292
+      },
+      {
+        "path": "requirements.txt",
+        "expected_git_blob": "46f5c37269c9bbe22acb84c15114779440f993c7",
+        "actual_git_blob": "46f5c37269c9bbe22acb84c15114779440f993c7",
+        "matched": true,
+        "bytes": 88
+      },
+      {
+        "path": "bybit_legacy/monthly_loss_review.mjs",
+        "expected_git_blob": "40433426449bb98fe8e72f093431737ac4ed7c18",
+        "actual_git_blob": "40433426449bb98fe8e72f093431737ac4ed7c18",
+        "matched": true,
+        "bytes": 5741
+      },
+      {
+        "path": "work/BTCUSDT_Gate_2026SepNov_replay.csv",
+        "expected_git_blob": "5241f6ee30a741c00bc62b0cb31a9c6abfa34a68",
+        "actual_git_blob": "5241f6ee30a741c00bc62b0cb31a9c6abfa34a68",
+        "matched": true,
+        "bytes": 471701
+      },
+      {
+        "path": "work/analyze_squeeze_short_regimes.py",
+        "expected_git_blob": "d59a84f56721acdbf68707f5cbfa10473696e194",
+        "actual_git_blob": "d59a84f56721acdbf68707f5cbfa10473696e194",
+        "matched": true,
+        "bytes": 8334
+      },
+      {
+        "path": "work/analyze_rolling_trades.py",
+        "expected_git_blob": "2d9bbca809ac2857a7035fb7cb9bc0ca757b2fc7",
+        "actual_git_blob": "2d9bbca809ac2857a7035fb7cb9bc0ca757b2fc7",
+        "matched": true,
+        "bytes": 13623
+      },
+      {
+        "path": "outputs/BTC_ETH_Gate_fast_window_sensitivity_fixed_3x.json",
+        "expected_git_blob": "228e9d7a0998552a3835eff4d0d36b7611dd7a7b",
+        "actual_git_blob": "228e9d7a0998552a3835eff4d0d36b7611dd7a7b",
+        "matched": true,
+        "bytes": 199573
+      },
+      {
+        "path": "work/audit_gate_october.py",
+        "expected_git_blob": "e6ca2fb79ca7e4216c70992dd98f8686149bec12",
+        "actual_git_blob": "e6ca2fb79ca7e4216c70992dd98f8686149bec12",
+        "matched": true,
+        "bytes": 6837
+      },
+      {
+        "path": "work/audit_gate_12h_fit_differences.py",
+        "expected_git_blob": "805707df161172650b4bfb7999d7beb838d24717",
+        "actual_git_blob": "805707df161172650b4bfb7999d7beb838d24717",
+        "matched": true,
+        "bytes": 7958
+      },
+      {
+        "path": "work/backtest_squeeze_short.py",
+        "expected_git_blob": "6e704ef84fd6f769582d974970053ff70b0717aa",
+        "actual_git_blob": "6e704ef84fd6f769582d974970053ff70b0717aa",
+        "matched": true,
+        "bytes": 18141
+      },
+      {
+        "path": "work/audit_bot_formal_rules.py",
+        "expected_git_blob": "246ffdc2565be3f7585ef71040f7c1e3657def5f",
+        "actual_git_blob": "246ffdc2565be3f7585ef71040f7c1e3657def5f",
+        "matched": true,
+        "bytes": 7546
+      },
+      {
+        "path": "work/btc_2025_sizing_diagnostic.mjs",
+        "expected_git_blob": "78b62ef2649cd5200ec2080d6810a5a9a55ee6ed",
+        "actual_git_blob": "78b62ef2649cd5200ec2080d6810a5a9a55ee6ed",
+        "matched": true,
+        "bytes": 41218
+      },
+      {
+        "path": "work/btc_atr_cap_review.mjs",
+        "expected_git_blob": "16a9f5a6900e565107019a78b5261e0aabf5e205",
+        "actual_git_blob": "16a9f5a6900e565107019a78b5261e0aabf5e205",
+        "matched": true,
+        "bytes": 40869
+      },
+      {
+        "path": "work/btc_atr_timeout_review.mjs",
+        "expected_git_blob": "ae88f15752d2dc39fa720328580c9edf79ddbbe1",
+        "actual_git_blob": "ae88f15752d2dc39fa720328580c9edf79ddbbe1",
+        "matched": true,
+        "bytes": 40660
+      },
+      {
+        "path": "work/btc_breakout_retest_review.mjs",
+        "expected_git_blob": "26ae7ad859e2683029f0d26c0bbb5c408ade02a5",
+        "actual_git_blob": "26ae7ad859e2683029f0d26c0bbb5c408ade02a5",
+        "matched": true,
+        "bytes": 43884
+      },
+      {
+        "path": "work/btc_2025_cause_review.mjs",
+        "expected_git_blob": "7cba2135271c65f556fae04091b0ca9e771e850e",
+        "actual_git_blob": "7cba2135271c65f556fae04091b0ca9e771e850e",
+        "matched": true,
+        "bytes": 42601
+      },
+      {
+        "path": "work/btc_entry_diagnostic.mjs",
+        "expected_git_blob": "618ae8a47a06d17b963aafbd49ba208d7ee6b9e6",
+        "actual_git_blob": "618ae8a47a06d17b963aafbd49ba208d7ee6b9e6",
+        "matched": true,
+        "bytes": 41657
+      },
+      {
+        "path": "work/btc_early_entry_funnel.mjs",
+        "expected_git_blob": "e26b99d9c9b3b78fc02f37bad7d5f3b3464ce4d0",
+        "actual_git_blob": "e26b99d9c9b3b78fc02f37bad7d5f3b3464ce4d0",
+        "matched": true,
+        "bytes": 48080
+      },
+      {
+        "path": "work/btc_er_horizons.mjs",
+        "expected_git_blob": "1e056ae29482ca1c6c9375e226127a2e9e98f624",
+        "actual_git_blob": "1e056ae29482ca1c6c9375e226127a2e9e98f624",
+        "matched": true,
+        "bytes": 40235
+      },
+      {
+        "path": "work/btc_eth_extended_asof.json",
+        "expected_git_blob": "ba6194a978542afa703cfd94a8ff51a45f76b303",
+        "actual_git_blob": "ba6194a978542afa703cfd94a8ff51a45f76b303",
+        "matched": true,
+        "bytes": 69
+      },
+      {
+        "path": "work/btc_independent_entry_review.mjs",
+        "expected_git_blob": "ba2ac6a245b32f9d7c462f91cfd1197b6ea7fd71",
+        "actual_git_blob": "ba2ac6a245b32f9d7c462f91cfd1197b6ea7fd71",
+        "matched": true,
+        "bytes": 46320
+      },
+      {
+        "path": "work/btc_eth_side_review.mjs",
+        "expected_git_blob": "61cd157614336c99b716f8285593e15a846a9e93",
+        "actual_git_blob": "61cd157614336c99b716f8285593e15a846a9e93",
+        "matched": true,
+        "bytes": 67268
+      },
+      {
+        "path": "work/btc_logic_cross_asset_review.mjs",
+        "expected_git_blob": "aff6f880cdbb06f9183cc0db1f34b9803c85f752",
+        "actual_git_blob": "aff6f880cdbb06f9183cc0db1f34b9803c85f752",
+        "matched": true,
+        "bytes": 51720
+      },
+      {
+        "path": "work/btc_independent_rsi6_review.mjs",
+        "expected_git_blob": "1f12312d6da4a6469ddbb7829bdc06327305e536",
+        "actual_git_blob": "1f12312d6da4a6469ddbb7829bdc06327305e536",
+        "matched": true,
+        "bytes": 46319
+      },
+      {
+        "path": "work/btc_robustness_context.mjs",
+        "expected_git_blob": "7c7bfa74870a5c35386abad8a0ad4a8daaf840fd",
+        "actual_git_blob": "7c7bfa74870a5c35386abad8a0ad4a8daaf840fd",
+        "matched": true,
+        "bytes": 50293
+      },
+      {
+        "path": "work/btc_robustness_long_timeout.mjs",
+        "expected_git_blob": "18611ea522a4dd9b362d0f5e6f83bd5268b94e44",
+        "actual_git_blob": "18611ea522a4dd9b362d0f5e6f83bd5268b94e44",
+        "matched": true,
+        "bytes": 51061
+      },
+      {
+        "path": "work/btc_relaxed_long_review.mjs",
+        "expected_git_blob": "9b656050e41a7400c50d4bea5056abcd47709f31",
+        "actual_git_blob": "9b656050e41a7400c50d4bea5056abcd47709f31",
+        "matched": true,
+        "bytes": 49067
+      },
+      {
+        "path": "work/btc_macd_divergence_review.mjs",
+        "expected_git_blob": "a8c578c91338ab7255e55f7bb9e87e29ceb2c456",
+        "actual_git_blob": "a8c578c91338ab7255e55f7bb9e87e29ceb2c456",
+        "matched": true,
+        "bytes": 42968
+      },
+      {
+        "path": "work/btc_rolling_account_review.mjs",
+        "expected_git_blob": "cd7bd0661c4a3380e2e4e720198d9461cd45f07c",
+        "actual_git_blob": "cd7bd0661c4a3380e2e4e720198d9461cd45f07c",
+        "matched": true,
+        "bytes": 50945
+      },
+      {
+        "path": "work/btc_robustness_review.mjs",
+        "expected_git_blob": "04a1a54b37c75aa72f303c7a0a2a317aa201d37f",
+        "actual_git_blob": "04a1a54b37c75aa72f303c7a0a2a317aa201d37f",
+        "matched": true,
+        "bytes": 49656
+      },
+      {
+        "path": "work/btc_robustness_profit_protection.mjs",
+        "expected_git_blob": "21b1b9c6f2580025b8943b3d395520fec9ced21e",
+        "actual_git_blob": "21b1b9c6f2580025b8943b3d395520fec9ced21e",
+        "matched": true,
+        "bytes": 50935
+      },
+      {
+        "path": "work/btc_rsi_entry_review.mjs",
+        "expected_git_blob": "0bcffc5f7f03789c612ea4a428d4f5925899405e",
+        "actual_git_blob": "0bcffc5f7f03789c612ea4a428d4f5925899405e",
+        "matched": true,
+        "bytes": 44113
+      },
+      {
+        "path": "work/btc_starting_equity_review.mjs",
+        "expected_git_blob": "072c3809ed98cf3f038aef394f348bb24edc5134",
+        "actual_git_blob": "072c3809ed98cf3f038aef394f348bb24edc5134",
+        "matched": true,
+        "bytes": 41059
+      },
+      {
+        "path": "work/btc_standalone_volume_review.mjs",
+        "expected_git_blob": "17ed93d4615ae51837c00cc390a5ee922f2fa432",
+        "actual_git_blob": "17ed93d4615ae51837c00cc390a5ee922f2fa432",
+        "matched": true,
+        "bytes": 47292
+      },
+      {
+        "path": "work/btc_support_distance_grid.mjs",
+        "expected_git_blob": "87810b855b77334003189579d72d6b255584c32e",
+        "actual_git_blob": "87810b855b77334003189579d72d6b255584c32e",
+        "matched": true,
+        "bytes": 45068
+      },
+      {
+        "path": "work/btc_support_short_review.mjs",
+        "expected_git_blob": "22f3155f7ea2f479674a0c735449d4405a4052df",
+        "actual_git_blob": "22f3155f7ea2f479674a0c735449d4405a4052df",
+        "matched": true,
+        "bytes": 42924
+      },
+      {
+        "path": "work/btc_timeout_threshold_review.mjs",
+        "expected_git_blob": "665f83b9372c81f1a5c9a6d40fb13b3d8e97c2ea",
+        "actual_git_blob": "665f83b9372c81f1a5c9a6d40fb13b3d8e97c2ea",
+        "matched": true,
+        "bytes": 41149
+      },
+      {
+        "path": "work/btc_two_side_volume_review.mjs",
+        "expected_git_blob": "e18b4b68f711f769120359d9f1af6ae25980d8d6",
+        "actual_git_blob": "e18b4b68f711f769120359d9f1af6ae25980d8d6",
+        "matched": true,
+        "bytes": 46689
+      },
+      {
+        "path": "work/btc_user_fee_review.mjs",
+        "expected_git_blob": "28862ae299db58f3c67f625b3237968517b124fc",
+        "actual_git_blob": "28862ae299db58f3c67f625b3237968517b124fc",
+        "matched": true,
+        "bytes": 50221
+      },
+      {
+        "path": "work/build_trade_diagnosis.mjs",
+        "expected_git_blob": "2740692da1c33fe15d92a67e890555cdf2b73695",
+        "actual_git_blob": "2740692da1c33fe15d92a67e890555cdf2b73695",
+        "matched": true,
+        "bytes": 15903
+      },
+      {
+        "path": "work/btc_support_volume_review.mjs",
+        "expected_git_blob": "8b6d645810a8d3d9a7ce8eb5ba002b3a26ab43fe",
+        "actual_git_blob": "8b6d645810a8d3d9a7ce8eb5ba002b3a26ab43fe",
+        "matched": true,
+        "bytes": 44634
+      },
+      {
+        "path": "work/btc_top_sizing_review.mjs",
+        "expected_git_blob": "28972897e96923635198b361cc8bb879764d06aa",
+        "actual_git_blob": "28972897e96923635198b361cc8bb879764d06aa",
+        "matched": true,
+        "bytes": 44644
+      },
+      {
+        "path": "work/compare_gate_crossover_timing.py",
+        "expected_git_blob": "ffaa918343f948ebc4797efecb4ca3d802f90a20",
+        "actual_git_blob": "ffaa918343f948ebc4797efecb4ca3d802f90a20",
+        "matched": true,
+        "bytes": 7116
+      },
+      {
+        "path": "work/compare_gate_fast_windows.py",
+        "expected_git_blob": "0dc412c3c05a9eb1acee792a8435748e4ba807cf",
+        "actual_git_blob": "0dc412c3c05a9eb1acee792a8435748e4ba807cf",
+        "matched": true,
+        "bytes": 7484
+      },
+      {
+        "path": "work/compare_gate_strategies_by_year.py",
+        "expected_git_blob": "9902f02b8b2d1fc8f1d89db7daa3a986012257a5",
+        "actual_git_blob": "9902f02b8b2d1fc8f1d89db7daa3a986012257a5",
+        "matched": true,
+        "bytes": 16519
+      },
+      {
+        "path": "work/diagnose_strategy_regime.py",
+        "expected_git_blob": "1d81432c2c542f0b0f80a3ea2b1e96b196269e92",
+        "actual_git_blob": "1d81432c2c542f0b0f80a3ea2b1e96b196269e92",
+        "matched": true,
+        "bytes": 3395
+      },
+      {
+        "path": "work/btc_top_pattern_review.mjs",
+        "expected_git_blob": "99822109ee41636732e513974bf74dece2ff0035",
+        "actual_git_blob": "99822109ee41636732e513974bf74dece2ff0035",
+        "matched": true,
+        "bytes": 43350
+      },
+      {
+        "path": "work/combined_crypto_portfolio.py",
+        "expected_git_blob": "5bf3be101cf61d15acb655b3a06b2e8c37ee13c9",
+        "actual_git_blob": "5bf3be101cf61d15acb655b3a06b2e8c37ee13c9",
+        "matched": true,
+        "bytes": 14562
+      },
+      {
+        "path": "work/extended_crypto_portfolio.py",
+        "expected_git_blob": "e7bc346253f32974176b5e0ce513e4b80b7e12ba",
+        "actual_git_blob": "e7bc346253f32974176b5e0ce513e4b80b7e12ba",
+        "matched": true,
+        "bytes": 6083
+      },
+      {
+        "path": "work/fetch_eth_2021_2024.py",
+        "expected_git_blob": "04853b26fe0457b9f27faee4045ace79bc497b10",
+        "actual_git_blob": "04853b26fe0457b9f27faee4045ace79bc497b10",
+        "matched": true,
+        "bytes": 2791
+      },
+      {
+        "path": "work/fit_gate_entry_overlay.py",
+        "expected_git_blob": "5612882f1179da3fa9d8f8fe476b9a2ab47bd2d0",
+        "actual_git_blob": "5612882f1179da3fa9d8f8fe476b9a2ab47bd2d0",
+        "matched": true,
+        "bytes": 15934
+      },
+      {
+        "path": "work/fit_bot_execution_audit.py",
+        "expected_git_blob": "97845f5538853eb5d6887584fd77031bc949208a",
+        "actual_git_blob": "97845f5538853eb5d6887584fd77031bc949208a",
+        "matched": true,
+        "bytes": 12956
+      },
+      {
+        "path": "work/gate_12h_2023_archived_exit_checks.json",
+        "expected_git_blob": "d0945a1de3b59c0982a9928ea3e3677212fb1877",
+        "actual_git_blob": "d0945a1de3b59c0982a9928ea3e3677212fb1877",
+        "matched": true,
+        "bytes": 11445
+      },
+      {
+        "path": "work/gate_12h_2023_timing_trace.json",
+        "expected_git_blob": "e4bd76d51ec1991133401ffb6788109ce0b1036d",
+        "actual_git_blob": "e4bd76d51ec1991133401ffb6788109ce0b1036d",
+        "matched": true,
+        "bytes": 15117
+      },
+      {
+        "path": "work/fit_squeeze_ladder_bot.py",
+        "expected_git_blob": "599996640adb2917ec868089191463f98c51a552",
+        "actual_git_blob": "599996640adb2917ec868089191463f98c51a552",
+        "matched": true,
+        "bytes": 20970
+      },
+      {
+        "path": "work/gate_annual_market.py",
+        "expected_git_blob": "29c99798e6758ce9a46d3b6e876ecf9a549b5d08",
+        "actual_git_blob": "29c99798e6758ce9a46d3b6e876ecf9a549b5d08",
+        "matched": true,
+        "bytes": 14132
+      },
+      {
+        "path": "work/gate_public_data.py",
+        "expected_git_blob": "d5b0078771bf5488994d389b05fee8876f28f75e",
+        "actual_git_blob": "d5b0078771bf5488994d389b05fee8876f28f75e",
+        "matched": true,
+        "bytes": 6803
+      },
+      {
+        "path": "work/ladder_exit.mjs",
+        "expected_git_blob": "c0c5ecae458b0589628fd09e4cd6f91f1f9d96f0",
+        "actual_git_blob": "c0c5ecae458b0589628fd09e4cd6f91f1f9d96f0",
+        "matched": true,
+        "bytes": 1669
+      },
+      {
+        "path": "work/gate_12h_fit_difference_checks.json",
+        "expected_git_blob": "0981264d4ff0d2686a37a7431dc0a16fc4fd5481",
+        "actual_git_blob": "0981264d4ff0d2686a37a7431dc0a16fc4fd5481",
+        "matched": true,
+        "bytes": 53660
+      },
+      {
+        "path": "work/gate_v13_targets.py",
+        "expected_git_blob": "27de79b42024085f3b754d1c5d7d5f76b633d945",
+        "actual_git_blob": "27de79b42024085f3b754d1c5d7d5f76b633d945",
+        "matched": true,
+        "bytes": 5562
+      },
+      {
+        "path": "work/measure_er_horizons.py",
+        "expected_git_blob": "2ce1accbdeeea6c5e7888ffb7044d37bb38e9510",
+        "actual_git_blob": "2ce1accbdeeea6c5e7888ffb7044d37bb38e9510",
+        "matched": true,
+        "bytes": 2481
+      },
+      {
+        "path": "work/original_ladder_tick_data.py",
+        "expected_git_blob": "8ca4de446765ec413f8147a1bda1558340f026e7",
+        "actual_git_blob": "8ca4de446765ec413f8147a1bda1558340f026e7",
+        "matched": true,
+        "bytes": 5914
+      },
+      {
+        "path": "work/gate_october_regime_entries.py",
+        "expected_git_blob": "c6646705da18fbd9cda342d3122cff604be2b29b",
+        "actual_git_blob": "c6646705da18fbd9cda342d3122cff604be2b29b",
+        "matched": true,
+        "bytes": 11311
+      },
+      {
+        "path": "work/replay_gate_annual.py",
+        "expected_git_blob": "e2578ce43b0a227cf01f8d303a3cab951e903a3f",
+        "actual_git_blob": "e2578ce43b0a227cf01f8d303a3cab951e903a3f",
+        "matched": true,
+        "bytes": 4828
+      },
+      {
+        "path": "work/replay_formal_bot_trades.py",
+        "expected_git_blob": "bf2e840d5fa08d80eb993e67868778dbb3d7973f",
+        "actual_git_blob": "bf2e840d5fa08d80eb993e67868778dbb3d7973f",
+        "matched": true,
+        "bytes": 17113
+      },
+      {
+        "path": "work/replay_gate_bot.py",
+        "expected_git_blob": "d064cae947d5b7aa10f90360970fe652398b8cc7",
+        "actual_git_blob": "d064cae947d5b7aa10f90360970fe652398b8cc7",
+        "matched": true,
+        "bytes": 10743
+      },
+      {
+        "path": "work/replay_gate_october_seconds.py",
+        "expected_git_blob": "07eda61eee75ad84582b3b57a218a66c7cc649b2",
+        "actual_git_blob": "07eda61eee75ad84582b3b57a218a66c7cc649b2",
+        "matched": true,
+        "bytes": 8021
+      },
+      {
+        "path": "work/replay_gate_regime_october.py",
+        "expected_git_blob": "f803457bd470d1e65fa2ee7877a83bfdb1c4772e",
+        "actual_git_blob": "f803457bd470d1e65fa2ee7877a83bfdb1c4772e",
+        "matched": true,
+        "bytes": 10033
+      },
+      {
+        "path": "work/replay_gate_selected_3x.py",
+        "expected_git_blob": "f9469f691e8bb7069e31249d67066900c9ea21eb",
+        "actual_git_blob": "f9469f691e8bb7069e31249d67066900c9ea21eb",
+        "matched": true,
+        "bytes": 6936
+      },
+      {
+        "path": "work/review_regime_entry.py",
+        "expected_git_blob": "d10435f682c3b3d3e958f24c5aa0dc1e67fd3874",
+        "actual_git_blob": "d10435f682c3b3d3e958f24c5aa0dc1e67fd3874",
+        "matched": true,
+        "bytes": 10699
+      },
+      {
+        "path": "work/run_original_ladder_compare.py",
+        "expected_git_blob": "4a7f324f993851a948aadc8f4dc2900ed0504a75",
+        "actual_git_blob": "4a7f324f993851a948aadc8f4dc2900ed0504a75",
+        "matched": true,
+        "bytes": 7851
+      },
+      {
+        "path": "work/summarize_btc_eth_rsi_priority.py",
+        "expected_git_blob": "fd35a38f818f01199233df2f4546d86e415ff6ee",
+        "actual_git_blob": "fd35a38f818f01199233df2f4546d86e415ff6ee",
+        "matched": true,
+        "bytes": 11617
+      },
+      {
+        "path": "work/summarize_btc_rsi_4h.py",
+        "expected_git_blob": "28e52c561d5aee4a6702492a2c185e346f3d1b5a",
+        "actual_git_blob": "28e52c561d5aee4a6702492a2c185e346f3d1b5a",
+        "matched": true,
+        "bytes": 6821
+      },
+      {
+        "path": "work/summarize_ladder_overlay_2019_2025.py",
+        "expected_git_blob": "ece555f179522a48220a4a11c953ad84e4a95cfb",
+        "actual_git_blob": "ece555f179522a48220a4a11c953ad84e4a95cfb",
+        "matched": true,
+        "bytes": 10077
+      },
+      {
+        "path": "work/summarize_btc_rsi_hold_sweep.py",
+        "expected_git_blob": "5b998c63c6cdd87db7c6f89eb7fd26073d0cf7ea",
+        "actual_git_blob": "5b998c63c6cdd87db7c6f89eb7fd26073d0cf7ea",
+        "matched": true,
+        "bytes": 6303
+      },
+      {
+        "path": "work/summarize_btc_rsi_6h_hold.py",
+        "expected_git_blob": "dd3a84f52bac857c2494f4fdc6a93f947ad15d60",
+        "actual_git_blob": "dd3a84f52bac857c2494f4fdc6a93f947ad15d60",
+        "matched": true,
+        "bytes": 5257
+      },
+      {
+        "path": "work/summarize_original_ladder_compare.py",
+        "expected_git_blob": "9938429698a0e39a08e8db2d4960bebf6e2b7d66",
+        "actual_git_blob": "9938429698a0e39a08e8db2d4960bebf6e2b7d66",
+        "matched": true,
+        "bytes": 15330
+      },
+      {
+        "path": "work/verify_bybit.py",
+        "expected_git_blob": "73fe7b3db905e8547b1c3048f67f5231543c8aec",
+        "actual_git_blob": "73fe7b3db905e8547b1c3048f67f5231543c8aec",
+        "matched": true,
+        "bytes": 5118
+      }
+    ]
+  },
+  "financial_tests": {
+    "passed": true,
+    "total": 32,
+    "synthetic_only": true,
+    "path": "test_results.json",
+    "sha256": "0dc77c58b7fa46a69a9b3c3e7f050b917859600e4f02bff265792720e4050476"
+  },
+  "four_tasks_complete_and_audited": true,
+  "passed": true
+}

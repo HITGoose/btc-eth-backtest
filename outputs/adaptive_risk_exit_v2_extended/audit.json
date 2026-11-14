@@ -1,0 +1,68 @@
+{
+  "original_blobs_unchanged": 85,
+  "tasks": [
+    {
+      "year": 2020,
+      "asset": "BTC",
+      "completed": true,
+      "budget_requests_checked": 66
+    },
+    {
+      "year": 2020,
+      "asset": "ETH",
+      "completed": true,
+      "budget_requests_checked": 34
+    },
+    {
+      "year": 2021,
+      "asset": "BTC",
+      "completed": true,
+      "budget_requests_checked": 24
+    },
+    {
+      "year": 2021,
+      "asset": "ETH",
+      "completed": true,
+      "budget_requests_checked": 10
+    },
+    {
+      "year": 2022,
+      "asset": "BTC",
+      "completed": true,
+      "budget_requests_checked": 62
+    },
+    {
+      "year": 2022,
+      "asset": "ETH",
+      "completed": true,
+      "budget_requests_checked": 38
+    },
+    {
+      "year": 2023,
+      "asset": "BTC",
+      "completed": true,
+      "budget_requests_checked": 80
+    },
+    {
+      "year": 2023,
+      "asset": "ETH",
+      "completed": true,
+      "budget_requests_checked": 74
+    },
+    {
+      "year": 2026,
+      "asset": "BTC",
+      "completed": true,
+      "budget_requests_checked": 66
+    },
+    {
+      "year": 2026,
+      "asset": "ETH",
+      "completed": true,
+      "budget_requests_checked": 58
+    }
+  ],
+  "original_ER_ending_equity_matches_saved_all": true,
+  "source_checks": "all raw/candle futures/um official checksums; see collect.py",
+  "missing_2019": "UNVERIFIED"
+}

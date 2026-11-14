@@ -1,0 +1,21 @@
+{
+  "repository": "HITGoose/btc-eth-backtest",
+  "checked_on": "2026-11-14",
+  "authenticated_repository_access": true,
+  "visibility": "private",
+  "default_branch": "main",
+  "branches_seen": [
+    "main"
+  ],
+  "branch_pagination_complete": true,
+  "checked_file": "outputs/adaptive_risk_exit_v2/worker.py",
+  "checked_ref": "main",
+  "file_result": "404 NOT_FOUND",
+  "local_git_directory": false,
+  "local_source_restoration_commit": "e66859aff89490b9b02c286e59d7d8270802972a",
+  "new_commit_created": true,
+  "remote_ref_updated": true,
+  "revision_V2_pushed": true,
+  "statement": "This branch publishes the V2 source and review artifacts; previous pre-sync check is preserved in git_status_before_sync.json.",
+  "branch": "codex/adaptive-v2-astra-20261114"
+}

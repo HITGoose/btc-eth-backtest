@@ -1,0 +1,702 @@
+[
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_000.csv",
+    "start_row": 1,
+    "rows": 40,
+    "sha256": "cfc098b66b80da9d702b5591b978968449693e7f28aa5c590ea312677322b75d"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_001.csv",
+    "start_row": 41,
+    "rows": 40,
+    "sha256": "dea580bfda1d882f43af4f70fb4ca3f341f25e8ba591389def2e3c506b01d43f"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_002.csv",
+    "start_row": 81,
+    "rows": 40,
+    "sha256": "990c773faf424779ff09c13668f36ed0187c7b5b69f276d526e655b968c4177e"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_003.csv",
+    "start_row": 121,
+    "rows": 40,
+    "sha256": "46caeb437d084ea180c26cbaba8b678c6a8aac35d1577b9ebedb50a42d96ea54"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_004.csv",
+    "start_row": 161,
+    "rows": 40,
+    "sha256": "3035351f38901b34a4132141c5afeb5c64a9cfa50f41494e988a15ef4ef22348"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_005.csv",
+    "start_row": 201,
+    "rows": 40,
+    "sha256": "c3b6e0cbdccfdf35863f88749818bfc0457e0f067243640acfd03adcd97cdc05"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_006.csv",
+    "start_row": 241,
+    "rows": 40,
+    "sha256": "d4db0409f12f400927c5601d68368da3ca9e78145063b26816b7a97888ef1219"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_007.csv",
+    "start_row": 281,
+    "rows": 40,
+    "sha256": "4bf7f33b3808e1009185aa0a8cb955d7175ec312c59d66436fa1ffc7e91c0dd8"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_008.csv",
+    "start_row": 321,
+    "rows": 40,
+    "sha256": "939ae6965778212bab4d571ebb2c58936b89745f1fa92935526ac7abd2fc36b6"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_009.csv",
+    "start_row": 361,
+    "rows": 40,
+    "sha256": "e4f909e37595cf0771030358baac853189c6f81869176c108f8863e5a1d88512"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_010.csv",
+    "start_row": 401,
+    "rows": 40,
+    "sha256": "80c5eb4ac65095a9f208245cc0cd68e2131c92dd7b96e131ae1b293a17b8df37"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_011.csv",
+    "start_row": 441,
+    "rows": 40,
+    "sha256": "85fdd87979ba3f582f01a89c74433e87f99fb9782b04cbc9f483add37adf6da3"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_012.csv",
+    "start_row": 481,
+    "rows": 40,
+    "sha256": "85ee6701bd3fe8f88851c55bae2c5bda776ca8e3b89636726b1e5395dc071545"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_013.csv",
+    "start_row": 521,
+    "rows": 40,
+    "sha256": "06c04991115b243b8d19fa0ea0511dcb97ae2fc68aaa967f9c0a37aa11e9b066"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_014.csv",
+    "start_row": 561,
+    "rows": 40,
+    "sha256": "c08e150c3c86fa9e3968cfa53f425bc59471d28cc03c598eacb18c563055fae1"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_015.csv",
+    "start_row": 601,
+    "rows": 40,
+    "sha256": "c1e31b998cb9749611d529290bd29171cb88c79947ecb4d405b51d4e6e397598"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_016.csv",
+    "start_row": 641,
+    "rows": 40,
+    "sha256": "93e1c4ca14455be40804bfa1833971c3394324fc49777d2d3ef7edc373877399"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_017.csv",
+    "start_row": 681,
+    "rows": 40,
+    "sha256": "1638e90fc84f83dd1aea5afa7e641a48a07b4b1c150e51b3df8fbe969b0bb379"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_018.csv",
+    "start_row": 721,
+    "rows": 40,
+    "sha256": "e2972e88c5ae89f9fba00d1d05304e13991192e6e4c1710cd51510b8af353027"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_019.csv",
+    "start_row": 761,
+    "rows": 40,
+    "sha256": "deeb6076a54b060154c79c51a156045e0afc39476491febd32d7b5919be164cb"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_020.csv",
+    "start_row": 801,
+    "rows": 40,
+    "sha256": "2fe7250b44159215a7922aa4b4b9b08ee0cfb96f139398a3e712b14b0dafd96e"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_021.csv",
+    "start_row": 841,
+    "rows": 40,
+    "sha256": "cb3ae2aef4ae6a816d2c09fb90bc9cd55922efa2a656bd794e2ad3050ead801b"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_022.csv",
+    "start_row": 881,
+    "rows": 40,
+    "sha256": "c7b31c17ef168eae80f3090ec19e875d1b96f0909eb2869c7798d4e7380907fc"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_023.csv",
+    "start_row": 921,
+    "rows": 40,
+    "sha256": "f72fb23e29ff1b6a5b33fc15f5424145bc40cdd42de9ab3448c550eeec11c768"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_024.csv",
+    "start_row": 961,
+    "rows": 40,
+    "sha256": "cf9e38c632ca7d35c0dcad3b4f1b0a80aade8fafc0dcb3509f2698b883be17b0"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_025.csv",
+    "start_row": 1001,
+    "rows": 40,
+    "sha256": "7e34a98b6011ba9de0f36305b65a0ddae676420889108c7de63140a45c95ecdf"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_026.csv",
+    "start_row": 1041,
+    "rows": 40,
+    "sha256": "2f14f2780a9e7211afca7c90b96cdb1d19353495642baf7924c3e595b7aad1b8"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_027.csv",
+    "start_row": 1081,
+    "rows": 40,
+    "sha256": "e50522e9a04b53a212707c2368faa460296e5ca9ca0c573367fb863cd43737b2"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_028.csv",
+    "start_row": 1121,
+    "rows": 40,
+    "sha256": "b38d64be223deb21d58e6ec0d7204c88aad1cb6cf33e84ee8c7785b382f71705"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_029.csv",
+    "start_row": 1161,
+    "rows": 40,
+    "sha256": "036d7c68b6ff40411293e22e2f1c9357f4bdf9cb8989c3c20bce41dda4210740"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_030.csv",
+    "start_row": 1201,
+    "rows": 40,
+    "sha256": "bf60e6b2c9bf4a496d2abe7cb7894e0cd236d51c24e8847a85c78d348804f5fc"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_031.csv",
+    "start_row": 1241,
+    "rows": 40,
+    "sha256": "42f31e88e47d6c85fcb662ec44b85465186b3a9c37b692da5d49fcc527b9bd10"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_032.csv",
+    "start_row": 1281,
+    "rows": 40,
+    "sha256": "44de6aa61feefd3aa9f3ebe4029b4714d746aa715e766dfa5099cf3f9bf91f7e"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_033.csv",
+    "start_row": 1321,
+    "rows": 40,
+    "sha256": "73767e3314590eca0ea3200e82e389cc21f161a7f23329a4902c36a274aa6cee"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_034.csv",
+    "start_row": 1361,
+    "rows": 40,
+    "sha256": "6d0828b034bff01d42bcbb7b82d0afb065a5b96f11152fc10ca5b7887b704847"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_035.csv",
+    "start_row": 1401,
+    "rows": 40,
+    "sha256": "776cda896a7d1ace84d17355f610fd50f6a865879cce2a72936d2a66ea45d275"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_036.csv",
+    "start_row": 1441,
+    "rows": 40,
+    "sha256": "0738bff6e69aa243170c958aa27709737848081bd383486198edc9cf4efbeaba"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_037.csv",
+    "start_row": 1481,
+    "rows": 40,
+    "sha256": "f16760317de232160338ff412949e552de95a35ff90a52a3c98715b948afc18f"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_038.csv",
+    "start_row": 1521,
+    "rows": 40,
+    "sha256": "eb7b80fa3a07dfafbbf9aa8407176a6d16bc7a280648c55d12813a8614bce62f"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_039.csv",
+    "start_row": 1561,
+    "rows": 40,
+    "sha256": "9f84930f5a9b2b4d9023f1e52c96a6f9acfa1ffaad21d8a6bec64b130c9072c5"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_040.csv",
+    "start_row": 1601,
+    "rows": 40,
+    "sha256": "b6c88eed3b2b03301c2ac8af8dc5338cb30898a7f4d0534893ee61dda77df4f2"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_041.csv",
+    "start_row": 1641,
+    "rows": 40,
+    "sha256": "fc10aeb6483ade8671d300f0f75cafd729d42b5f4eca413d63b7d5c2ca397a11"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_042.csv",
+    "start_row": 1681,
+    "rows": 40,
+    "sha256": "8b1f50032cf3c36fa90af91f3bd3a4b164c2c91bfd5f4d8f16e494388cb1db5a"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_043.csv",
+    "start_row": 1721,
+    "rows": 40,
+    "sha256": "c22ba96f23e3e6f7eb46eab2d09610a86ad868e07bc7b5652efa250ffa1dcaf0"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_044.csv",
+    "start_row": 1761,
+    "rows": 40,
+    "sha256": "f2641bb53aa24e481f7eb88a14deb515bcb4bdfbadccd870ad7ea1d7ea8edd4d"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_045.csv",
+    "start_row": 1801,
+    "rows": 40,
+    "sha256": "f1a9020ecdfbd0cd4d9c1b96330cf9b47b13cd69c26af9103a21a58884745270"
+  },
+  {
+    "source": "trades.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/trades/part_046.csv",
+    "start_row": 1841,
+    "rows": 22,
+    "sha256": "c2a5d1778d3afe666a9baed687470f5ef10f517bf1c16371f3325777a03bd496"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_000.csv",
+    "start_row": 1,
+    "rows": 200,
+    "sha256": "025fd04d0aff408cbd2bb026255f56d6d24ea189c1fb6edb66e9dd064cccf890"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_001.csv",
+    "start_row": 201,
+    "rows": 200,
+    "sha256": "ef4748a2b5846e56b9c5342857b8247b56ebaff776c4924e79bd96b41b76040d"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_002.csv",
+    "start_row": 401,
+    "rows": 200,
+    "sha256": "1aed41e2843f4dc987d43609989d1cff79ff47599b8ed848ac7f454d415b7131"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_003.csv",
+    "start_row": 601,
+    "rows": 200,
+    "sha256": "4366ce8d218092a10603e52885801a042e037ae01298ba35bed79e678a82b08a"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_004.csv",
+    "start_row": 801,
+    "rows": 200,
+    "sha256": "701bd748d1cae941ca0ef1961733967a50ee11f23e99ec1aa223385eb488e5f4"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_005.csv",
+    "start_row": 1001,
+    "rows": 200,
+    "sha256": "c95499dcb8fff2ffc58dfdbcdb10f702ab78a628e44bbdef90f685e7ccda4267"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_006.csv",
+    "start_row": 1201,
+    "rows": 200,
+    "sha256": "f0ca8f87cea603eacbd652a862bd69a3c326516a97a5f4f09056e05cb1821b9e"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_007.csv",
+    "start_row": 1401,
+    "rows": 200,
+    "sha256": "605678e52ed4e3d2a14a19adb02c56fc71867b5b7b69a357c0f346279e25a071"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_008.csv",
+    "start_row": 1601,
+    "rows": 200,
+    "sha256": "25cce33be1d61aac381d17213b2e81163c70f0cdd11ea1042c8cfd4da2b00785"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_009.csv",
+    "start_row": 1801,
+    "rows": 200,
+    "sha256": "2feacb11973bb4f1a044efee172b5ec38f992378d32fcb7380b311829046f5a3"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_010.csv",
+    "start_row": 2001,
+    "rows": 200,
+    "sha256": "42511f65d6655abd83920df59c746e3bbff4392238d1dc82b7ac1ab33ef96705"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_011.csv",
+    "start_row": 2201,
+    "rows": 200,
+    "sha256": "84715badd081850c8090c0029712f910fc5a4e67c5ddcff78751a9b5478cac20"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_012.csv",
+    "start_row": 2401,
+    "rows": 200,
+    "sha256": "f87beba84809da55a09d58529a08a0134dcf9b54914ba95da574160284e88827"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_013.csv",
+    "start_row": 2601,
+    "rows": 200,
+    "sha256": "ebee8a5fd1261cb1ae2f5cde6ba2b3fd247f97d4adf19510f9ea65537be82674"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_014.csv",
+    "start_row": 2801,
+    "rows": 200,
+    "sha256": "82865574f14e34d0e6652d97b4a2b61e375e465bbd9418d63b87b22845e6271b"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_015.csv",
+    "start_row": 3001,
+    "rows": 200,
+    "sha256": "9efa8d2e631dae768f675214bcfe712ca3a7139343996807cd8bee39e3ec2279"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_016.csv",
+    "start_row": 3201,
+    "rows": 200,
+    "sha256": "0be9ac8c0fa3740a34e6eddb83b49bfb03708216dac5870495539983bd008f92"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_017.csv",
+    "start_row": 3401,
+    "rows": 200,
+    "sha256": "55c61c3e50c8a6e69787cbe0e32324eec780768e9b6a02b10c1be8f812396c7f"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_018.csv",
+    "start_row": 3601,
+    "rows": 200,
+    "sha256": "cf94059b557f16a89bcba29a1902d5d6caf33977109f9f01093f9f04b1ec78c8"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_019.csv",
+    "start_row": 3801,
+    "rows": 200,
+    "sha256": "be540ef48200f887e386093f65f59131a67d3ce8ab718630a5c0147e3845cd8b"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_020.csv",
+    "start_row": 4001,
+    "rows": 200,
+    "sha256": "4cab539c83a3fb6a685254f0c2c322944a8178a43923670d2172038c5b7c0635"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_021.csv",
+    "start_row": 4201,
+    "rows": 200,
+    "sha256": "827d424449e253322c2ff8ccd61f7f297dc6281357679fd2d3b7c3b41d6764f5"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_022.csv",
+    "start_row": 4401,
+    "rows": 200,
+    "sha256": "7d94dd0bd5d79e834ad3bfcbc2c05b837462453c4d050496e0cfcb2c8dd4d403"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_023.csv",
+    "start_row": 4601,
+    "rows": 200,
+    "sha256": "67c4f3ac0b141d2d4010ad66bdb007f307b41579e0cce8848fcf18900e7e1bc6"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_024.csv",
+    "start_row": 4801,
+    "rows": 200,
+    "sha256": "25881e926f753bce99e1a13a3daa83b66271b2e80ad2d6ca9cdfbeabc2d6ed91"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_025.csv",
+    "start_row": 5001,
+    "rows": 200,
+    "sha256": "b9641d43f9e89f0a764f96332a01b79aab350e4c8458224cdb35674d46be7cd9"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_026.csv",
+    "start_row": 5201,
+    "rows": 200,
+    "sha256": "d76af687154b8616b45e813cd83f0ffbe2c8b77d899b97683c8e1c4366c6102c"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_027.csv",
+    "start_row": 5401,
+    "rows": 200,
+    "sha256": "7f066e1f1684be26afb7efd843a69e2cf3cfb5e64037886e0b086b226b3973d8"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_028.csv",
+    "start_row": 5601,
+    "rows": 200,
+    "sha256": "c33a051cc972b00649fba81f7e2c3f80aa9a69ff7bf65f7ac3b43692e7cd4351"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_029.csv",
+    "start_row": 5801,
+    "rows": 200,
+    "sha256": "5246fa21531035c528e10291ebbeb596c4ac0bfa38dd11f13871d13cfb6e7a82"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_030.csv",
+    "start_row": 6001,
+    "rows": 200,
+    "sha256": "a9a4b27392e0dde3089eed8376d6d91da3b2a2264e183c5b23d31a4a94878826"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_031.csv",
+    "start_row": 6201,
+    "rows": 200,
+    "sha256": "6f9ccd7a85f64a4c03218646b83ffe0b6b28aedd99128d0b42da2e962cd97b2d"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_032.csv",
+    "start_row": 6401,
+    "rows": 200,
+    "sha256": "800972093ea38d65a62082b5fe7ee58cdef867f44465a92f36f445c43a6a3df8"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_033.csv",
+    "start_row": 6601,
+    "rows": 200,
+    "sha256": "de22fff95ec111833e5927a7af72b56aa08c0b1c458d0357d2d92addb1da64d7"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_034.csv",
+    "start_row": 6801,
+    "rows": 200,
+    "sha256": "e4c9048fe4faaad8fa06c41ec37c1294ba725dec35616f15fbba0980578b2275"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_035.csv",
+    "start_row": 7001,
+    "rows": 200,
+    "sha256": "094011a2ab821ce2f2d570c8407e2e264901a611e890202af3df86a866fd656b"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_036.csv",
+    "start_row": 7201,
+    "rows": 200,
+    "sha256": "9593acc650ad476bd59582309d91101ca4400e776db1e17f2a07029b7dbcfe51"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_037.csv",
+    "start_row": 7401,
+    "rows": 200,
+    "sha256": "c15194600b7b99632f6ac3365f15c9f4e553ac6c8ee5010d5398847765061d67"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_038.csv",
+    "start_row": 7601,
+    "rows": 200,
+    "sha256": "7ef5d7f6513403cd65abc71ee0de74c7e4884673d8c7b427fb711ef68a981e5a"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_039.csv",
+    "start_row": 7801,
+    "rows": 200,
+    "sha256": "ecdc3e4f841f6ce6e49f560476bb20cd277893e4bda239f197a7c0b138a1d8fb"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_040.csv",
+    "start_row": 8001,
+    "rows": 200,
+    "sha256": "9b7d48d72834b929b50e302fe00d93e2570aa7e7c6323394d1a86bca8369891f"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_041.csv",
+    "start_row": 8201,
+    "rows": 200,
+    "sha256": "8f04dd5c5f9ea979231089e403cb6346bc0f6fbc3513085fa6d7545d5643e5ce"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_042.csv",
+    "start_row": 8401,
+    "rows": 200,
+    "sha256": "6783153583b96f5a4031c5575330c8f54aa1b032c8bc14ea91f7c6c671446367"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_043.csv",
+    "start_row": 8601,
+    "rows": 200,
+    "sha256": "aacd7072089be4cfcfff98768f8c397aa3a387bc1e6097062d26a3288d6af2f1"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_044.csv",
+    "start_row": 8801,
+    "rows": 200,
+    "sha256": "dd83e9bc26c625d84b612f17653b5758e9effd9279a8734f62064730dfea0fd6"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_045.csv",
+    "start_row": 9001,
+    "rows": 200,
+    "sha256": "bfd8c5622f54aef608e5b2466d62c5d056ccde976916dc55aa2d2b1734882c3a"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_046.csv",
+    "start_row": 9201,
+    "rows": 200,
+    "sha256": "36f3c32272a86956f9b4c999b2c50634928d8ecb0c7dd5eb42778da6cd14498d"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_047.csv",
+    "start_row": 9401,
+    "rows": 200,
+    "sha256": "40bba75520f2301b8527d27130c78a705f6fb5e9e0bf6f85237fd0bd7977d67a"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_048.csv",
+    "start_row": 9601,
+    "rows": 200,
+    "sha256": "a27edbefa81bde63621a8a80b5c1b5914e600cbcd972c10dc570a8bcdad91066"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_049.csv",
+    "start_row": 9801,
+    "rows": 200,
+    "sha256": "cb0ad1686cbaa6566daee99ba87b9e066af15f8f0922b653dafe49a6b8ecffb5"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_050.csv",
+    "start_row": 10001,
+    "rows": 200,
+    "sha256": "df91026706971e2c615dda3d01418ca3b29eba90d362a91cd5e597bf18bf9d65"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_051.csv",
+    "start_row": 10201,
+    "rows": 200,
+    "sha256": "d706319934a9280ffd2b3d0343138998e8ffe6fadd74adda9d24e6bd7c8f6378"
+  },
+  {
+    "source": "conditions.csv",
+    "path": "outputs/cross_asset_entry_audit/review_shards/conditions/part_052.csv",
+    "start_row": 10401,
+    "rows": 24,
+    "sha256": "9d18be2a78afeccb1795f8be80b3045e7b585b87c410bc75e3001d703315d7db"
+  }
+]

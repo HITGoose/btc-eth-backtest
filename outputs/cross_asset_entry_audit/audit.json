@@ -1,0 +1,20 @@
+{
+  "versioned_rows": 1862,
+  "unique_cases_per_version": 931,
+  "classification_matches_between_versions": true,
+  "actual_entry_prices_match_between_versions": true,
+  "original_blobs_unchanged": 85,
+  "xlsx_readback_passed": true,
+  "sheets": [
+    "统计",
+    "BTC独开盈利",
+    "BTC独开亏损",
+    "ETH独开盈利",
+    "ETH独开亏损",
+    "逐项条件表",
+    "口径及缺失"
+  ],
+  "mobile_JS_syntax_check": "node --check passed",
+  "year2019": "UNVERIFIED",
+  "original_versions_preserved": true
+}

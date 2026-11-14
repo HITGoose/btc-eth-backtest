@@ -1,0 +1,34 @@
+[
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/15m/BTCUSDT-15m-2026-11-09.zip.CHECKSUM",
+    "status": 200
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-09.zip.CHECKSUM",
+    "status": 200
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/15m/BTCUSDT-15m-2026-11-10.zip.CHECKSUM",
+    "status": 200
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-10.zip.CHECKSUM",
+    "status": 200
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/15m/BTCUSDT-15m-2026-11-11.zip.CHECKSUM",
+    "status": 200
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-11.zip.CHECKSUM",
+    "status": 200
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/klines/BTCUSDT/15m/BTCUSDT-15m-2026-11-12.zip.CHECKSUM",
+    "status": 200
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-12.zip.CHECKSUM",
+    "status": 200
+  }
+]
