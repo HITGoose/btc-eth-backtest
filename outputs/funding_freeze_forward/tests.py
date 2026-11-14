@@ -7,7 +7,7 @@ from live import Tape
 O=n.O;checks=[]
 def test(name,fn):fn();checks.append(dict(name=name,passed=True));print('PASS',name,flush=True)
 sg=n.Signals(json.loads((O/'preflight/summary.json').read_text())['proposed_T0_ms'],O/'test_data');events=json.loads((O/'preflight/warm_responses.json').read_text())
-for q in events:sg.add(q['asset'],q['data'],q['received_us'])
+for q in events:sg.add(q['asset'],q['data'],q['received_us'],confirmed_closed=True)
 legs=sg.calculate();manifest=dict(T0_ms=sg.t0,run_id='SYNTHETIC_NOT_FORWARD')
 def engine():return n.Engine(manifest,legs)
 def estimates():
@@ -80,4 +80,14 @@ def tape():
  with tempfile.TemporaryDirectory()as d:
   t=Tape(Path(d));t.write(dict(type='TEST',received_us=1));t.write(dict(type='TEST',received_us=2));u=Tape(Path(d));assert u.seq==2 and u.prev==t.prev
 test('compressed tape hash-chain verifies repeated restart',tape)
+def rest_boundary():
+ x=n.Signals(sg.t0,O/'test_data');t=sg.t0-900000;partial=[t,'100','101','99','100','1',t+899999]
+ x.add('BTC',[partial],(t+900003)*1000);assert not x.bars['BTC']
+ final=[t,'100','101','99','100.5','2',t+899999];nextbar=[t+900000,'100.5','101','100','100.6','1',t+1799999]
+ x.add('BTC',[final,nextbar],(t+900006)*1000);assert x.bars['BTC'][t][4]=='100.5'and len(x.bars['BTC'])==1
+ x.add('ETH',[final],(t+900006)*1000,confirmed_closed=True);assert len(x.bars['ETH'])==1
+ equivalent=list(final);equivalent[4]='100.500';x.add('ETH',[equivalent],(t+900007)*1000,confirmed_closed=True)
+ test_raw=partial
+ test_true=1
+test('server preclose snapshot received late is rejected; x=true closed accepted; decimal equivalence only',rest_boundary)
 (O/'tests.json').write_text(json.dumps(dict(passed=True,total=len(checks),checks=checks,synthetic_or_prefix_checks_not_forward_performance=True),indent=2));print('ALL',len(checks))

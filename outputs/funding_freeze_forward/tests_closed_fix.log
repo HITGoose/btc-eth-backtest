@@ -1,0 +1,24 @@
+PASS all8 feeds: exact values preserved; approximate minute covers actual integer settlement
+PASS closed-prefix parity and future independence BTC/0.25/1.0
+PASS closed-prefix parity and future independence BTC/0.25/1000000.0
+PASS closed-prefix parity and future independence BTC/0.3/1.0
+PASS closed-prefix parity and future independence BTC/0.3/1000000.0
+PASS closed-prefix parity and future independence ETH/0.25/1.0
+PASS closed-prefix parity and future independence ETH/0.25/1000000.0
+PASS closed-prefix parity and future independence ETH/0.3/1.0
+PASS closed-prefix parity and future independence ETH/0.3/1000000.0
+PASS unclosed candle cannot enter indicators
+PASS four versions two proxies two independently flat500 coin books
+PASS preT0 cannot trade and exact duplicate id is idempotent
+PASS conflicting duplicate is rejected, not silently deduplicated
+PASS raw ID gap halts financial path
+PASS non-grid actual settlement deadline cannot be filled zero
+PASS CORE sizing unchanged by EXTRA ratio
+PASS funding direction fee/slippage cash reconcile 1
+PASS funding direction fee/slippage cash reconcile -1
+PASS unchanged3pct V2 budget; small EXTRA need not reduce I100
+PASS unchanged3pct V2 budget; small EXTRA need not reduce I25
+PASS checkpoint roundtrip code state and cash
+PASS compressed tape hash-chain verifies repeated restart
+PASS server preclose snapshot received late is rejected; x=true closed accepted; decimal equivalence only
+ALL 23

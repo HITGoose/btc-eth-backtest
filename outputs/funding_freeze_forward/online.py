@@ -3,6 +3,7 @@ Receipt-causal clocks; unresolved raw gaps/costs halt financial processing, neve
 """
 from pathlib import Path
 import sys,json,time,hashlib,urllib.request,urllib.parse,inspect,types,dataclasses,csv,pickle,os,math,datetime
+from decimal import Decimal
 R=Path('/workspace/btc-eth-backtest');O=Path(__file__).resolve().parent;OLD=R/'outputs/extra_sizing_cost_stress';sys.path.insert(0,str(OLD))
 import shared as s
 import funding_engine as F
@@ -25,12 +26,15 @@ class ClosedLeg(r.model.Leg):
   return {self.first+(int(i)+1)*900000:(1 if buy[i]else-1)for i in np.flatnonzero(buy|sell)if minimum<=i<len(buy)}
 class Signals:
  def __init__(self,t0,folder):self.t0=t0;self.folder=folder;folder.mkdir(exist_ok=True);self.bars={a:{}for a in ['BTC','ETH']}
- def add(self,a,rows,received):
+ def add(self,a,rows,received,confirmed_closed=False):
+  last_open=max(int(b[0])for b in rows)if rows else -1
   for b in rows:
    assert len(b)>=7 and isinstance(b[0],int)and isinstance(b[6],int)
-   if b[6]*1000>=received:continue # still forming or not yet received closed
+   if b[6]*1000>=received:continue # never receive a future close
+   if not confirmed_closed and b[0]>=last_open:continue # REST terminal may be an old in-flight snapshot
    assert b[6]==b[0]+899999
-   old=self.bars[a].get(b[0]);assert old is None or old[:7]==b[:7],'closed candle revision requires a new audit'
+   values=[Decimal(str(v))for v in b[1:6]];assert all(v.is_finite()for v in values)and min(values[:4])>0 and values[4]>=0
+   old=self.bars[a].get(b[0]);assert old is None or (old[0]==b[0]and old[6]==b[6]and all(Decimal(str(x))==Decimal(str(y))for x,y in zip(old[1:6],b[1:6]))),'closed candle revision requires a new audit'
    self.bars[a][b[0]]=b
  def warm(self,write):
   start=self.t0//3600000*3600000-30*86400000-r.model.WARMUP
@@ -39,7 +43,7 @@ class Signals:
    while True:
     q=fetch('klines',symbol=a+'USDT',interval='15m',startTime=cursor,limit=1500);write(dict(type='PREWARM',asset=a,**q));self.add(a,q['data'],q['received_us']);rows=q['data'];assert rows
     end=(q['received_us']//1000//900000)*900000
-    cursor=rows[-1][0]+900000
+    cursor=rows[-1][0]
     if cursor>=end:break
  def calculate(self):
   result={}

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/ws_live.py", line 95, in <module>
+    p=argparse.ArgumentParser();p.add_argument('--manifest',default=str(O/'FREEZE_WS_V2.json'));p.add_argument('--seconds',type=int,default=300);p.add_argument('--reuse-tape',default=str(O/'forward/freeze_1794697200000/events.jsonl.gz'));a=p.parse_args();collect(a.manifest,a.seconds,a.reuse_tape)
+                                                                                                                                                                                                                                                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/ws_live.py", line 49, in collect
+    warm(sg,tape,reuse);engine=n.Engine(manifest,sg.calculate())
+    ^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/ws_live.py", line 36, in warm
+    sg.add(q['asset'],q['data'],q['received_us']);q=dict(q,type='PREWARM',reused_from=str(parent),reused_source_SHA256=source_SHA);tape.write(q)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/online.py", line 33, in add
+    old=self.bars[a].get(b[0]);assert old is None or old[:7]==b[:7],'closed candle revision requires a new audit'
+                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: closed candle revision requires a new audit

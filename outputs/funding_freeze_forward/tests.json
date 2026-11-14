@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "total": 22,
+  "total": 23,
   "checks": [
     {
       "name": "all8 feeds: exact values preserved; approximate minute covers actual integer settlement",
@@ -88,6 +88,10 @@
     },
     {
       "name": "compressed tape hash-chain verifies repeated restart",
+      "passed": true
+    },
+    {
+      "name": "server preclose snapshot received late is rejected; x=true closed accepted; decimal equivalence only",
       "passed": true
     }
   ],
