@@ -13,6 +13,7 @@ def load(period,asset,cost,group,fill,scene):
  if cost in ('C2','C3','C4'):root=O/'funded';stage='funded'
  else:root=O
  if period in ('2024','2025','2026')and asset=='ETH'and cost in ('C0','C1')and group in ('I50','I25')and fill=='F_TOUCH':root=O/'sizing_only';stage='experiment'
+ if fill=='F_THROUGH':root=O/'through_exact_clock';stage='through'
  folder=root/'runs'/period/asset/stage
  status=folder/'status.json'
  if not status.exists()or not json.loads(status.read_text()).get('completed'):raise FileNotFoundError(str(folder))
@@ -75,17 +76,25 @@ def write(name,rows):
 def cases_for(period):
  primary=[(c,g,'F_TOUCH')for c in ['C0','C1','C2','C3','C4']for g in s.GROUPS]+[('C2',g,'F_THROUGH')for g in ['B','I100','I50','I25']]
  if period in ('2020','2021','2022','2023','NOV'):
-  primary +=[(c,g,'F_TOUCH')for c in ['C3_NO_FUNDING','C4_NO_FUNDING']for g in s.GROUPS]+[('C1',g,'F_THROUGH')for g in ['B','I100','I50','I25']]
+  primary +=[(c,g,'F_TOUCH')for c in ['C3_NO_FUNDING','C4_NO_FUNDING']for g in s.GROUPS]
+ if period in ('2020','2021','2022','2023'):primary +=[('C1',g,'F_THROUGH')for g in ['B','I100','I50','I25']]
  return primary
 def main():
  metrics=[];availability=[];attrs=[];ce=[];checks=[];overlap=[];monthly=[];baseline=[];drawdowns=[]
  cases=[(c,g,'F_TOUCH')for c in COSTS_ALL for g in s.GROUPS]+[(c,g,'F_THROUGH')for c in ['C1','C2']for g in ['B','I100','I50','I25']]
  for period in PERIODS:
   scenes=s.b.SCENARIOS if period=='2025'else ['STRICT']
-  for scene in scenes:
-   for cost,group,fill in cases_for(period):
+  btc_cache={}
+  for cost,group,fill in cases_for(period):
+   eth_vector_cache={}
+   for scene in scenes:
     meta=dict(period=period,scenario=scene,cost=cost,group=group,fill=fill)
-    try:qb,mb=load(period,'BTC',cost,group,fill,scene);qe,me=load(period,'ETH',cost,group,fill,scene)
+    try:
+     bkey=(cost,fill)
+     if bkey in btc_cache:qb,mb,vb=btc_cache[bkey]
+     else:
+      qb,mb=load(period,'BTC',cost,group,fill,scene);vb=h.curve(qb,mb);btc_cache[bkey]=(qb,mb,vb)
+     qe,me=load(period,'ETH',cost,group,fill,scene)
     except FileNotFoundError as e:
      reason=str(e)
      if cost in ('C2','C3','C4'):
@@ -95,7 +104,10 @@ def main():
        if data['status']!='COMPLETE':reason='OFFICIAL_SETTLEMENT_MARK_PRICE_MISSING:'+str(len(data['invalid_records']))+' ETH events; full-year funded path not executed'
      availability.append(dict(meta,status='UNVERIFIED',reason=reason));continue
     availability.append(dict(meta,status='COMPLETED_WITH_DATA_ANOMALY'if period=='2025'else'COMPLETE',funding=qe['funding']))
-    vb=h.curve(qb,mb);ve=h.curve(qe,me)
+    payload={k:qe.get(k)for k in ['asset','fee','window','cash','trades','events','cash_events','state_at_end','open_partial_state','open_contribution']}
+    signature=hashlib.sha256(json.dumps(payload,sort_keys=True).encode()+me.tobytes()).hexdigest()
+    if signature in eth_vector_cache:ve=eth_vector_cache[signature]
+    else:ve=h.curve(qe,me);eth_vector_cache[signature]=ve
     for asset,q,marks,vec,initial in [('BTC',qb,mb,vb,500.),('ETH',qe,me,ve,500.),('COMBINED',None,mb+me,None,1000.)]:
      qs=[q]if q else[qb,qe];ts=[t for qq in qs for t in qq['trades']]
      for side,direction in [(None,'ALL'),(1,'LONG'),(-1,'SHORT')]:
@@ -118,7 +130,12 @@ def main():
      if qq.get('baseline_exact_trade_cash_equity_minutes'):baseline.append(dict(meta,asset=qq['asset'],exact=True,reused_BTC=qq.get('BTC_baseline_reused',False)))
      for origin in ('CORE','EXTRA'):
       tr=[t for t in allrows if t.get('origin')==origin];closed=[t for t in tr if t['status']=='CLOSED'];partial=[t for t in tr if t.get('partial_fills')];attempt=[a for a in qq['sizing_audit']if a['origin']==origin]
-      ce.append(dict(meta,asset=qq['asset'],origin=origin,closed=len(closed),open=sum(t['status']=='OPEN'for t in tr),net_closed_USDT=sum(t['net']for t in closed),initial_notional=sum(t['entry']*t['quantity']for t in tr),mean_initial_notional=np.mean([t['entry']*t['quantity']for t in tr])if tr else None,partial_trades=len(partial),mean_actual_reduction_fraction=np.mean([sum(f['quantity']for f in t['partial_fills'])/t['quantity']for t in partial])if partial else 0.,V2_requests=sum(e['event']=='adaptive_v2_request'for e in qq['events']),minimum_rejections=sum(not a['accepted']for a in attempt),expired=qq['stats'].get('expired',0),replacements=sum(e['event']=='priority_replace_requested'for e in qq['events']),slippage_USDT=qq['slippage_cost_USDT'],fees_USDT=qq['stats'].get('fees',0.),account_counts_repeated_per_origin=True))
+      allreq=[e for e in qq['events']if e['event']=='adaptive_v2_request']
+      req=[e for e in allreq if any(t['opened_us']<e['time_us']<=(t.get('closed_us')or h.us(qq['window'][1])-1)for t in tr)]
+      turnover=sum(t['entry']*t['quantity']+sum(f['execution_price']*f['quantity']for f in t.get('partial_fills',[]))+(t['exit']*t['final_exit_quantity']if t['status']=='CLOSED'else 0.)for t in tr)
+      source_slip=sum((t['exit']/(1-(1 if t['side']=='LONG'else-1)*slip)*t['final_exit_quantity']*slip if t['status']=='CLOSED'else 0.)+sum(f['trigger_print']*f['quantity']*slip for f in t.get('partial_fills',[]))for t in tr)
+      funds=[f for f in qq.get('funding_events',[])if any(t['opened_us']<f['time_ms']*1000<=(t.get('closed_us')or h.us(qq['window'][1])-1)for t in tr)]
+      ce.append(dict(meta,asset=qq['asset'],origin=origin,closed=len(closed),open=sum(t['status']=='OPEN'for t in tr),net_closed_USDT=sum(t['net']for t in closed),total_contribution_USDT=sum(t['contribution']for t in tr),initial_notional=sum(t['entry']*t['quantity']for t in tr),mean_initial_notional=np.mean([t['entry']*t['quantity']for t in tr])if tr else None,partial_trades=len(partial),mean_actual_reduction_fraction=np.mean([sum(f['quantity']for f in t['partial_fills'])/t['quantity']for t in partial])if partial else 0.,mean_reduction_fraction_all_trades=np.mean([sum(f['quantity']for f in t.get('partial_fills',[]))/t['quantity']for t in tr])if tr else 0.,V2_requests=len(req),minimum_rejections=sum(not a['accepted']for a in attempt),expired_account=qq['stats'].get('expired',0),replacements_account=sum(e['event']=='priority_replace_requested'for e in qq['events']),slippage_USDT=source_slip,fees_USDT=turnover*qq['fee'],funding_receipts_USDT=sum(max(0.,f['delta'])for f in funds)if qq['funding']=='INCLUDED_OFFICIAL'else None,funding_payments_USDT=-sum(min(0.,f['delta'])for f in funds)if qq['funding']=='INCLUDED_OFFICIAL'else None,account_counts_repeated_per_origin=True))
     both=vb['active']&ve['active'];risk=vb['reference_stop_risk']+ve['reference_stop_risk'];gross=vb['gross_notional']+ve['gross_notional'];curve=mb+me
     changes=np.diff(np.r_[1000.,curve]);overlap.append(dict(meta,overlap_minutes=int(both.sum()),max_simultaneous_stop_reference_USDT=float(risk[both].max())if both.any()else 0.,max_gross_notional_USDT=float(gross[both].max())if both.any()else 0.,worst_overlapping_minute_equity_change_USDT=float(changes[both].min())if both.any()else 0.,not_a_guaranteed_loss_bound=True))
     values=np.r_[1000.,curve];dd=1-values/np.maximum.accumulate(values);trough=int(np.argmax(dd));peak=int(np.argmax(values[:trough+1]));start=s.z.h.us(qe['window'][0])
@@ -134,8 +151,16 @@ def main():
       except FileNotFoundError:continue
       attrs.extend(attribution(full,qe,dict(meta,comparison_base='I100')))
       attrs.extend(attribution(qb,qb,dict(meta,comparison_base='I100')))
+ index={(m['period'],m['scenario'],m['cost'],m['fill'],m['asset'],m['direction'],m['group']):m for m in metrics}
+ for m in metrics:
+  base=index.get((m['period'],m['scenario'],m['cost'],m['fill'],m['asset'],m['direction'],'B'))
+  if base:m.update(relative_B_USDT=m['ending_equity']-base['ending_equity'],relative_B_return_pp=m['return_pct']-base['return_pct'],relative_B_DD_pp=m['max_drawdown_pct']-base['max_drawdown_pct'],relative_B_total_loss_USDT=m['gross_losing_trade_net']-base['gross_losing_trade_net'])
  write('annual_matrix.csv',metrics);write('monthly_matrix.csv',monthly);write('availability.csv',availability);write('trade_attribution.csv.gz',attrs);write('core_extra.csv',ce);write('cash_cost_reconciliation.csv',checks);write('overlapping_exposure.csv',overlap);write('baseline_regression.csv',baseline);write('drawdown_extremes.csv',drawdowns)
- for category in ['RETAINED','ADDED','DISAPPEARED','CHANGED']:write('trades_'+category.lower()+'.csv.gz',[x for x in attrs if x['category']==category])
+ for category in ['RETAINED','ADDED','DISAPPEARED','CHANGED']:
+  chosen=[x for x in attrs if x['category']==category]
+  if chosen:write('trades_'+category.lower()+'.csv.gz',chosen)
+  else:
+   with gzip.open(O/('trades_'+category.lower()+'.csv.gz'),'wt',encoding='utf-8-sig',newline='')as f:csv.DictWriter(f,fieldnames=list(attrs[0])if attrs else ['period','scenario','cost','group','fill','asset','direction','signal_close_ms','category']).writeheader()
  ranges=[]
  for cost,group,fill in cases_for('2025'):
   vals=[m for m in metrics if m['period']=='2025'and m['cost']==cost and m['group']==group and m['fill']==fill and m['asset']=='COMBINED'and m['direction']=='ALL']
@@ -154,7 +179,7 @@ def main():
  write('relative_B.csv',comparisons)
  text=['# 固定EXTRA仓位与交易成本：实际执行报告','', '**按实际完成状态列示。2020—2023缺完整结算标记价格，含资金费全年结果未验证；2024/2025/2026/NOV另运行官方精确资金费C2—C4。不能混用含与不含资金费结果。**','', '每区间每币500，独立起算，非跨年复利。2025仅异常假设敏感性，其他区间保留严格标签，2019未验证。已有年份不是样本外。F_THROUGH为越一tick的保守模拟代理，非真实排队概率。','', '|区间|成本|成交|版本|收益%|回撤%|期末U|','|---|---|---|---|---:|---:|---:|']
  for m in table:text.append(f"|{m['period']}|{m['cost']}|{m['fill']}|{m['group']}|{m['return_pct']:.3f}|{m['max_drawdown_pct']:.3f}|{m['ending_equity']:.3f}|")
- text+=['','## 核验与限制',f'完整账户核对{len(checks)}项，原基准逐笔/现金/期末/完整分钟数组精确回归{len(baseline)}项。', '资金费主API451，后发现官方www.binance.com/fapi/v1/fundingRate可用；其返回精确fundingTime、费率及markPrice。2020—2022所有markPrice为空，2023有911条缺价，因此全年含资金费未验证；2024/25/26/NOV数据完整后进入实际现金回放。缺失不补零、不用K线开盘价、不按固定8小时近似。NO_FUNDING附加结果与C2—C4严格分列。', '完整状态共享只在2025重新检查；保留各情景自己的历史分钟权益。结论应先看availability，缺失不填零。', 'CORE/EXTRA归因见core_extra.csv；账户级V2/过期/替换/手续费/滑点统计重复列示于两来源行，标记account_counts_repeated_per_origin，不能加两次。滑点以实际退出成交价、方向和数量计算，并与执行时账户累计逐项对账。', '各交易实际与同初始名义1000归一化差异分开，归一化不是另一条可执行账户。', '未满足完整多年份/资金费条件时，不宣布可替换B，不按年份挑仓位。']
+ text+=['','## 核验与限制',f'完整账户核对{len(checks)}项，原基准逐笔/现金/期末/完整分钟数组精确回归{len(baseline)}项。', '资金费主API451，后发现官方www.binance.com/fapi/v1/fundingRate可用；其返回精确fundingTime、费率及markPrice。2020—2022所有markPrice为空，2023有911条缺价，因此全年含资金费未验证；2024/25/26/NOV数据完整后进入实际现金回放。缺失不补零、不用K线开盘价、不按固定8小时近似。NO_FUNDING附加结果与C2—C4严格分列。', '完整状态共享只在2025重新检查；保留各情景自己的历史分钟权益。结论应先看availability，缺失不填零。', 'CORE/EXTRA归因见core_extra.csv；带_account后缀的过期/替换为账户总数重复列示，不能加两次；V2请求、手续费、滑点和资金费均按实际持仓来源分别分配。滑点以实际退出成交价、方向和数量计算，并与执行时账户累计逐项对账。', '各交易实际与同初始名义1000归一化差异分开，归一化不是另一条可执行账户。', '未满足完整多年份/资金费条件时，不宣布可替换B，不按年份挑仓位。']
  (O/'report.md').write_text('\n'.join(text)+'\n');s.dump(O/'analysis.json',dict(metrics_rows=len(metrics),complete_portfolio_cases=len(table),cash_checks=len(checks),baseline_exact=len(baseline),attribution_rows=len(attrs),funding_matrix_complete=False,funding_complete_periods=['2024','2025','2026','NOV'],funding_incomplete_periods=['2020','2021','2022','2023'],conclusion='数据不足，含资金费结论不能判断',configurations_fixed=True))
  print('REPORT',len(table),'portfolio cases',len(checks),'cash checks')
 if __name__=='__main__':main()

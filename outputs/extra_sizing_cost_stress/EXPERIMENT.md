@@ -22,3 +22,12 @@ python outputs/extra_sizing_cost_stress/report.py
 
 ## 仅排程优化
 资金费完整的2024/25/26不再额外运行非必需的NO_FUNDING/C1越价重复矩阵，全部必需C0—C4及C2越价保留。NOV已完成的附加结果保留；早年资金费缺失仍完整运行NO_FUNDING及C1越价退路。sizing_only_replay只执行已固定的四个I50/I25 C0/C1账户，金融循环/现金/输出与原replay字节级相同（指纹函数名称除外），其单独代码指纹及差异明确保存。2024四账户从本轮已实际执行至8月1日的同源20账户断点提取，逐账户完整状态/权益SHA、费用/比例/信号/输入哈希/旧代码指纹与新兼容性清单验证，不丢历史、不按收益缩放、不忽略代码指纹。不跨资产/费用/策略共享现金。见sizing_subset_compatibility_2024.json、subset_tests.json。
+
+## 最终F_THROUGH入口
+早期prototype的F_THROUGH激活时钟偏保守，不能当最终结果。只读取through_exact_clock；新入口：
+```
+python outputs/extra_sizing_cost_stress/through_tests.py
+python outputs/extra_sizing_cost_stress/through_supervisor.py
+python outputs/extra_sizing_cost_stress/through_replay.py 2024 ETH through
+```
+2024/25/26/NOV自动C2实际资金费，早年缺价自动明确C1退路；不是给C2缺失补零。全部四版本和BTC独立路径重放。2025 ETH在资金费主矩阵结束后执行，避免同时创建三份大异常视图。6项新边界覆盖原提交时钟与观测时钟区别、首笔越价、同毫秒事件、CORE替换及缺价模式。

@@ -12,3 +12,10 @@
 - BTC复用校验初次遇到旧provenance两种schema（derived_SHA256和绝对路径derived_file_hashes），严格核对失败后停止；后仅适配字段映射并重新逐文件哈希，不忽略校验。原失败日志保留。
 
 - 资金费初始阻断后继续恢复成功：官方www.binance.com同路径返回完整字段。先前“未启用资金费”仅指初始阶段，正式funded_replay已启用，覆盖2024/25/26/NOV；早年markPrice仍缺，不用补值。详见FUNDING.md，保留初次失败记录。
+
+## 成交敏感性修正（原F_TOUCH及策略不变）
+早期F_THROUGH把AuditSleeve.effective_submission_us（首次检查到订单的观测时间）当成额外提交延迟，存在跳过首笔已在原+10秒之后且已越一tick的成交的可能。通过349条延迟激活订单记录审查识别，记录through_submission_clock_audit.json；这不表示349笔都改变收益。
+
+保留原原型结果用于诊断，不作为最终F_THROUGH。through_engine/through_replay独立按Order.time/order_info.submitted_us使用原+10秒或CORE实际退出完成时钟，只增加越一tick资格。退出旧仓位同一事件仍不可填新单，同毫秒后续新事件允许。全部要求区间重新跑，2025同样重跑九情景，不把旧一致结论套用。新增6项边界测试通过。主report/fill_sensitivity仅读取through_exact_clock；F_TOUCH的仓位和费用结果不受影响。
+
+资金费完整循环测试初次因测试fixture在导入时重新安装原V2回调，覆盖了测试进程内的资金费回调而失败。调整测试加载顺序后，加入真实原generator整分钟/末次poll后资金费、V2实际预算、未来费率不影响当前及缺价拒绝，共12项通过。生产回放独立进程不导入该fixture；独立全账本审计也逐条验证了实际V2预算的资金费时序。没有为通过测试修改金融代码或既有实际结果。
