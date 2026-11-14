@@ -4,3 +4,5 @@
 {'period': '2021', 'asset': 'ETH', 'returncode': 0}
 {'period': '2022', 'asset': 'BTC', 'returncode': 0}
 {'period': '2022', 'asset': 'ETH', 'returncode': 0}
+{'period': '2023', 'asset': 'BTC', 'returncode': 0}
+{'period': '2023', 'asset': 'ETH', 'returncode': 0}

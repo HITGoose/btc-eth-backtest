@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "total": 5,
+  "checks": [
+    {
+      "name": "actual collector decoder: all captured raw fields E/T/id/price/qty preserved with source SHA",
+      "passed": true,
+      "messages": 2112
+    },
+    {
+      "name": "BTC observed8second WS IDs continuous; not claim all future data complete",
+      "passed": true,
+      "messages": 678
+    },
+    {
+      "name": "ETH observed8second WS IDs continuous; not claim all future data complete",
+      "passed": true,
+      "messages": 1434
+    },
+    {
+      "name": "aggregate stream rejected by actual collector",
+      "passed": true
+    },
+    {
+      "name": "v1 strategy and execution adapter byte-identical; only new WS collector",
+      "passed": true
+    }
+  ],
+  "fixture_decode_not_extra_forward_observation": true
+}

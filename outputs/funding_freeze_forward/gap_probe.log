@@ -1,0 +1,35 @@
+[
+  {
+    "url": "https://www.binance.com/fapi/v1/historicalTrades?symbol=BTCUSDT&fromId=8274583249&limit=3",
+    "status": 401,
+    "SHA256": "e7712db7077e81c13ccaf23d57a54ffb8e54c18d680a7bc30979e711ebdffbf1",
+    "acquired_UTC": "2026-11-14T22:54:55.485143+00:00",
+    "file": "gap_probe_0.raw",
+    "preview": "{\"code\":-2014,\"msg\":\"API-key format invalid.\"}"
+  },
+  {
+    "url": "https://www.binance.com/fapi/v1/historicalTrades?symbol=ETHUSDT&fromId=8991228050&limit=3",
+    "status": 401,
+    "SHA256": "e7712db7077e81c13ccaf23d57a54ffb8e54c18d680a7bc30979e711ebdffbf1",
+    "acquired_UTC": "2026-11-14T22:54:55.693312+00:00",
+    "file": "gap_probe_1.raw",
+    "preview": "{\"code\":-2014,\"msg\":\"API-key format invalid.\"}"
+  },
+  {
+    "url": "https://developers.binance.com/docs/derivatives/usds-margined-futures/market-data/rest-api/Recent-Trades-List",
+    "status": 200,
+    "SHA256": "4c5d1fe5f86beb4f57dbd20001c158424cadfb100f14a47851c6cdcce10a875b",
+    "acquired_UTC": "2026-11-14T22:54:57.829507+00:00",
+    "file": "gap_probe_2.raw",
+    "preview": "<!doctype html>\n<html lang=\"en\" >\n  <head>\n    <script>try{var c=document.cookie,m=c.match(/(?:^|;\\s*)neo-theme=(dark|light)_/)||c.match(/(?:^|;\\s*)theme=(dark|light)\\b/);if(m)localStorage.setItem(\"theme\",m[1])}catch(e){}</script>\n    <script>window.__ZUDOKU_LANGUAGES__ = [{\"id\":\"en\",\"label\":\"English\",\"abbr\":\"EN\",\"flag\":\"\ud83c\uddec\ud83c\udde7\",\"langAttr\":\"en\",\"urlSegments\":[\"en\"]},{\"id\":\"zh-CN\",\"label\":\"\u7b80\u4f53\u4e2d\u6587\",\"abbr\":\"\u4e2d\u6587\",\"flag\":\"\ud83c\udde8\ud83c\uddf3\",\"langAttr\":\"zh-CN\",\"urlSegments\":[\"zh-CN\",\"cn\"]}];</script>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0\">\n    <script type=\"module\" crossorigin src=\"/en/docs/assets/entry.client-_Ka"
+  },
+  {
+    "url": "https://developers.binance.com/docs/derivatives/usds-margined-futures/websocket-market-streams/Aggregate-Trade-Streams",
+    "status": 200,
+    "SHA256": "f0916cb825783c69435b522062f0be0cc5ad9c54ccab2fc883ff9acad5e908ff",
+    "acquired_UTC": "2026-11-14T22:54:58.816500+00:00",
+    "file": "gap_probe_3.raw",
+    "preview": "<!doctype html>\n<html lang=\"en\" >\n  <head>\n    <script>try{var c=document.cookie,m=c.match(/(?:^|;\\s*)neo-theme=(dark|light)_/)||c.match(/(?:^|;\\s*)theme=(dark|light)\\b/);if(m)localStorage.setItem(\"theme\",m[1])}catch(e){}</script>\n    <script>window.__ZUDOKU_LANGUAGES__ = [{\"id\":\"en\",\"label\":\"English\",\"abbr\":\"EN\",\"flag\":\"\ud83c\uddec\ud83c\udde7\",\"langAttr\":\"en\",\"urlSegments\":[\"en\"]},{\"id\":\"zh-CN\",\"label\":\"\u7b80\u4f53\u4e2d\u6587\",\"abbr\":\"\u4e2d\u6587\",\"flag\":\"\ud83c\udde8\ud83c\uddf3\",\"langAttr\":\"zh-CN\",\"urlSegments\":[\"zh-CN\",\"cn\"]}];</script>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, minimum-scale=1.0\">\n    <script type=\"module\" crossorigin src=\"/en/docs/assets/entry.client-_Ka"
+  }
+]
+WS modules [('websockets', True), ('aiohttp', True)]

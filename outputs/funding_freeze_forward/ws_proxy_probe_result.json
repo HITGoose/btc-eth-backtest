@@ -1,0 +1,11 @@
+{
+  "url": "wss://fstream.binance.com/stream?streams=btcusdt@trade/ethusdt@trade/btcusdt@aggTrade",
+  "error": null,
+  "messages": 2112,
+  "streams": {
+    "btcusdt@trade": 678,
+    "ethusdt@trade": 1434
+  },
+  "SHA256": "2e9b9d82f60bb49577b4ec41b4240ec13db440045409e0bb40bdf81184e8b4d5",
+  "not_used_by_frozen_simulator": true
+}

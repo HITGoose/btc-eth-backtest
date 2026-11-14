@@ -1,0 +1,602 @@
+[
+  {
+    "period": "2020",
+    "asset": "BTC",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "e82ce9ded3b89471de90229998c2faf17ad7fd9749679f70fd408b4b207ba607",
+    "minute_values_SHA256": "fde9aee8096ba1658f1bf6556fe920f759ae0e3c2be7b61dd950286785285d8e",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2020",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "142b3e63340b013f0cd814a9f8ac50fbb71de42208b0fbc98f4d16acf4e18582",
+    "minute_values_SHA256": "95ae35e8ca7530fc520e8a079d473d6379a9f669b37acd73f871b902e5f90a79",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2020",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "25bb06e406a3e7e0f21eb4788cdbd138e207565fae46d8dfaa10e2573371bb37",
+    "minute_values_SHA256": "edbcac86084eb8ea7aa895c5397049184cb5ac42f9a6ed3deacfb159244799fb",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2020",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "ccaef8e375c90928929ffd9b23385e6283d74e07c630a539a9c463f5d234dd52",
+    "minute_values_SHA256": "538141bacbe1dade4a49c185e19be1d7c4cc3c629355f7a64a1c052b18d5f8b7",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2020",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "3eac09b3b6c8d5f5768d0bf5f57bc37f75bc724cba413a0b2fef961342f7dba2",
+    "minute_values_SHA256": "82543b5dfc985f7c119710d61c7f6e4253c3d40a64661761720ec68cdf54282a",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2021",
+    "asset": "BTC",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "a70870ee6acc76265a8371e7f53953bc8bacc934ae583728ba24da13c97a6f4c",
+    "minute_values_SHA256": "dabd6ca0da033e0295912ea62779be0e1c4b351148dc87ee228cbc8c79d388e8",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2021",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "fa62cbe422a95f5b87eca0a1a8751a85822513ea55d28d0b3e4e805159c3e05b",
+    "minute_values_SHA256": "80e3b2ff214dd0db26bc4a299922081dcd258c832a2918a4ec4c1d6415cbe78c",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2021",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "15f8a27780e10ad95fa2ac6ac4a0d20f210672263de433a3810984b937e4d16e",
+    "minute_values_SHA256": "80e3b2ff214dd0db26bc4a299922081dcd258c832a2918a4ec4c1d6415cbe78c",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2021",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "5a1910c072d7ba506e1de77729012d9d852da5a9890bb1598cb3eba3512a5c24",
+    "minute_values_SHA256": "80e3b2ff214dd0db26bc4a299922081dcd258c832a2918a4ec4c1d6415cbe78c",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2021",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "2f1a5b7e21c58962d1fd6d0bd002b354e74a618441b6d49fb51b7e3c68bd30fa",
+    "minute_values_SHA256": "80e3b2ff214dd0db26bc4a299922081dcd258c832a2918a4ec4c1d6415cbe78c",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2022",
+    "asset": "BTC",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "c75bda00f8dbd85d5a4f5c7d8b0a329ff31547373906cbefdee00b4c2d945085",
+    "minute_values_SHA256": "6619f842a228523b03b1be90cd41e5a464c44c41f32c6f294e0857b75d6745c9",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2022",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "723c119661441be17bd6f7afe5fa42643e726c2f248903ccaf92ceccb168983f",
+    "minute_values_SHA256": "7df851c90b94963caf53b6c0109d7ea37801330ec92fc5de4ce921afe00a9560",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2022",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "ad52cf34b4c0a2538de3f501172afc33aa88e84d73eab062636a8d4100d0bad7",
+    "minute_values_SHA256": "3d7218c5c95b32fde517ce41357a002d44cd3010052af17855fb2793090bacda",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2022",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "36fa941a0079790fea62f0de8272921a262f0da52e1e296956a7de839db85f1e",
+    "minute_values_SHA256": "281300ce4e2f5010268b32e5bbc751aec967dc7712502dd564eda6685ed80530",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2022",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "7d68dc0d173c98d40a4030109ff132a60e217f068c1b2013a83f9d26d433e705",
+    "minute_values_SHA256": "b3fca7b7bb7483b8f20a755b09659e6557355cec91d27350b32b3dece29d4d36",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2023",
+    "asset": "BTC",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "79a7f0f1bb9644f59d1124e3fb02235f007ff222124b3f49da1ab29df9a557bc",
+    "minute_values_SHA256": "e74bdff592a7238765b7e80db19c8242c03d84455c67176cd48255f6840193b7",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "61b8fa636fd7e75b82614577817207de88b4803a21c010abb8c7d9bb8cf05885",
+    "minute_values_SHA256": "2c282325b223fb8a3f07c10ba9d6addcf78a529458180c397958eaddda6d6fc9",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "02596ffb0e1646bb209e106c27aabcb4f761e927bac973ee76d5b8dcab3514fb",
+    "minute_values_SHA256": "8953e27ca9eeb66a8dabccc18b0c687c40c1dbb328fad66e36e2f9c3372b992d",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "e234686f03463ee8912e8fb822dd2d0876b0f47bfaa6fd253acb00d5206f4090",
+    "minute_values_SHA256": "09d420b4153fa3dcc012bd4a8ebc1e591ea80dd6c8b17bfe32388dcc253c5baa",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "5112e24f1113f4a53497d0a2843addcbfda5534b3ffc9d47e5f5d994fbc94016",
+    "minute_values_SHA256": "41b8645fe862256974a8a5816594025eb0f90f488cd68fecbf9829e948e940de",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "BTC",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "84b6028f79c5b54523b8c6eb5ba2c52e1bf6737ba63d7565eb339e8856ca0dc1",
+    "minute_values_SHA256": "b2a32d554a0866d37e0c9b78c8136bb718492b3e174faba314dcd223680fac92",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "ad3a9547af424a58dae555d5fa465862442a78a7aea719d9cd2ff7deaf0b1870",
+    "minute_values_SHA256": "c88bb04b821eefb758432b2d36e55e7684ddbe0a763072d9ce038758406f3006",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "43c451f531402aea0be89edf008853a09b32a04874c6393d2ebde10c8f7277eb",
+    "minute_values_SHA256": "8ffd226f1c43946e72369bca51a80cab69a1279ef9703a5e85fbd0811468410c",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "c067b618385e5660c965fea367200babe04d9f171709d3bd32dfe2e6321242a8",
+    "minute_values_SHA256": "684a50eac7295a5e8fcc2dec5a24fb21336778b8460bfc5894ac329aac75a8e2",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "afc3134f54577ce51551fb3f99fd60a03843a64c464dc1858e29a7d7ffff441f",
+    "minute_values_SHA256": "7b23817ffa4ba2305efed5d88207ac8c9e83f91cf17432b2c9dd3928f411c827",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "BTC",
+    "mode": "C2_REFERENCE",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "b822bcd830182a09f188ce1a8d7eb29ffc9b00d8a09a491d905b348f268d700a",
+    "minute_values_SHA256": "42f18037afea37c2a971b8f4be34f7144d42b66c38a29988ca1112ae66ac17e3",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "9467e6abdacdbcd7b9935d16f0fb4dfb906eba3a36d8a69242a7a9f823703eb2",
+    "minute_values_SHA256": "68cd68fcd1a49b41934efc6f027babc1568bd2e0487addba357da73f87e9be5b",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "7b952eeff9764c3932f90d306abc27ef438490e38fbc26da4de755c27d284677",
+    "minute_values_SHA256": "9dcac9b3161c3ada1c1861717b76ae3d1a98e63b8ab4c4d8727fc8e9d9cc879e",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "8e6ba53720c134718f142874ed251ff3198f50a653655c987f130911175547c1",
+    "minute_values_SHA256": "c4570b2b7012c2bf58322805be33ad4ca7dfb0451fee89293f4d3fceefc94009",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "bc58c109c3966d8c916ac3356a74cd91f2a11a678baa833f8d64f778c7781f71",
+    "minute_values_SHA256": "2d62da0df09d832c7cb5a965b5089b54c862b13b4bd882ea1be253d7ab4e4e38",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "BTC",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "83ccdb655eb0199c565801f0f36eae152a7e51d72634b7a4874f4c76ffdaefc7",
+    "minute_values_SHA256": "33b12e7c2bdf1788d470ccbf2a7a691ae74a2d714eac64d7bf12a75187a6fb85",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "09961af7dac33fe893142a6af684dd5d92ed344e12252dcb3c33a26c0f0e157e",
+    "minute_values_SHA256": "871e90799ac97649ff9ff24729db71d33dbac9d32179f9041c4813ea68b6503c",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "6f11818dc6e7ee73bdf04d8ddd8374dbe1ac276330ac4b6bb927921bc03812f2",
+    "minute_values_SHA256": "090b8d6f52ddcd0ca5790a76be5e52e71dc1680cdaeb09dc8600ac6d557b255a",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "2d35d49bbec02cabd9e5052cac7308a71a935a29b002143807ef87c425aa09b3",
+    "minute_values_SHA256": "60f8d3d61b3b3974c9e65f45a8b6c60e0cc005f24765b345a42faf158ae15659",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "23334a47497b7f4defdfd3644241d0098da2fac2bcd8d922c5984718fa602706",
+    "minute_values_SHA256": "8bbcd1b0dd22c8ad258801ad88f9df43c53808606ae8fe7f85f347f5a811b6b9",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "BTC",
+    "mode": "C2_REFERENCE",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "bb388ce1deac519c41ac89725a492a55abb967a2413c47697755a3533e7653ed",
+    "minute_values_SHA256": "24ce9b9880744566871039f10468d0bc35387556be7f5ede08fe8b6cf660943a",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "5c66d39e70f4588cfbcb6ed05c120548ccc9e4721a8dfaafabb0b059acd80c79",
+    "minute_values_SHA256": "f2ff10ffc1d8904aff415b4537ee1ccabdb84ad1918d559bad9d0e429243be0c",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "c6c5ae18ad86a90f1779ec6940d0b8eb7faae7e284d58d2434c731e74f308e96",
+    "minute_values_SHA256": "6fc8cfca35ad98d8691e84c5400117386333433ade06058ccc0fd2c6a091e054",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "9772be543d7973e902baf15f008415ae615c1f8a51a5dfaa67eefeaefdcff0ab",
+    "minute_values_SHA256": "cb65762e6872da8777683d68a30eee6b2823239ea955519169434f3e25afa05a",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "3bef26179206fc15ef19a3e9572c8244492d560743fcdc3daa6c76e4528224cf",
+    "minute_values_SHA256": "e4749c340e8dc8d275644278cb65078442295d8313b1725fa4d194b21d42ce97",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "BTC",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "78433c4ca2ba61b8f4ee61b89887bdc271d21dab06b7bbcb8879ef1e0fbccbfd",
+    "minute_values_SHA256": "df955cd1ad935ef38967b159e5ba174ca0461cbf16ab279bf5c5b8407b196db8",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "769b5955250f62d0150b4735b121d14f75e362c36c0ddfd06521cb48c5402ec3",
+    "minute_values_SHA256": "07cc9b46f0fbd8d555183157ef9c51225ff2a8582365fbfde9c713720fe7884a",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "94efcef085fe1da6b35471ec89798d958dcad837e56224837ad3e6e97d06e5b1",
+    "minute_values_SHA256": "d35dcc0d60261f6d9c77885a98eb2d9df4b1d038dfe38508bc8d35e39890a250",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "02516ea294ff40a414061defa841dcc8e64851f00f9b3089845424f06fd316d7",
+    "minute_values_SHA256": "805e70f6c2400b15e5fcf578063f9c1b28372582cf3422d58af90e4f5bdc9567",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "f3e38fc2b9b5b5dd0b4ca2c6f6a3eb7b23b37a03c4707c5f6f9a828202d5cc22",
+    "minute_values_SHA256": "850410cae926150f0e9932242c604e882c8d64a472aaf8c393b57ed14eae8296",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "BTC",
+    "mode": "C2_REFERENCE",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "562c79b70c4baa1a517c8a11687124b0e6b363bada744f56a8424d700775a700",
+    "minute_values_SHA256": "b5b18e30e1767a7b79d04d8c3b097d398ec65fc2f7a83abba474169fa747bd2b",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "35b51390a268d9470917730b91f199d665b6433516f8138f1d5f06ca058386ed",
+    "minute_values_SHA256": "b35a4734dfd343e7541abca881a6fc34d4d35d881f23cc17ad92a39d658acc54",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "29ebe1372aa6f8c932888a13c4d2d48924b3b082bb7eac1b94b6da875a102938",
+    "minute_values_SHA256": "dcc4c4ad8734820433f6db2dfd42b70ea7691717403583238c94504be9feadbf",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "1f1c1c64b28114e9688009363cef8161a296db49331882e8fb6058380db17b2d",
+    "minute_values_SHA256": "05b59b1631dd538e65b30cea2d1efb4fbe23788a3623451bc03b4f3b97868a5f",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "b22455ed16b5b11c2da07d5931aa177e9bec97f7927ee381682f5bc12cf43b3d",
+    "minute_values_SHA256": "d2ef6621658d12cfe61f837752aa2344d56b571608a4fcb52156b5c8bd8602b9",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "BTC",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "f0492d2c7bd6a4a9fb056fc3064af36ec54f07be9ad033d30f88b8585c8c8bd3",
+    "minute_values_SHA256": "11b1c431edfc35162e2ccbe4a5dd9288c3399ba63faf60f56577b9851d262d16",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "fb7de539418b951be5208a8e548eb88c9cc61b7966306385b3125224035d0744",
+    "minute_values_SHA256": "69a39e8c561c023d6e3b76e960906da6f00aa5c8ca1c5445be1dba1737fd1225",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "7c24a09a575cc6daddb918825fe817475fd2bd130f49b9400242d75006438756",
+    "minute_values_SHA256": "69a39e8c561c023d6e3b76e960906da6f00aa5c8ca1c5445be1dba1737fd1225",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "5f07584bbcd9dcf8ca0c570775b3b9bec294bbfd5f34a15931031da4083d7cf5",
+    "minute_values_SHA256": "69a39e8c561c023d6e3b76e960906da6f00aa5c8ca1c5445be1dba1737fd1225",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "ETH",
+    "mode": "C1",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "7c31e20f80c29ac7ca68d1a20fc8e8d01dde6b1ed0f5201f2806f416e5b44540",
+    "minute_values_SHA256": "69a39e8c561c023d6e3b76e960906da6f00aa5c8ca1c5445be1dba1737fd1225",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "BTC",
+    "mode": "C2_REFERENCE",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "7399d920b2d3eb8930dd771973a0b06b9ac2c177b6cd5f5bb916db4240f5f885",
+    "minute_values_SHA256": "c7be5010be4f715a5f607028d91a3e32cf5df06a97d55cb2cac6f439fc1c21d1",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "B",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "5c55a3db97b812c5748354cd297d711e753df805d10ad31c0dc44381a5562d4c",
+    "minute_values_SHA256": "68c426b9f88ee592a1a4e2e3c2f2856531ff434f8597555456d0021afa672ccf",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I100",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "a1c33d9f8d52fe15dc11c7f2553e7a3cf9547679e41783c5e38e10ab987ee879",
+    "minute_values_SHA256": "68c426b9f88ee592a1a4e2e3c2f2856531ff434f8597555456d0021afa672ccf",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I50",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "d11d0aa197dda2bfca3d8abeb0986716f3937d083f109cd4fecf69770639d788",
+    "minute_values_SHA256": "68c426b9f88ee592a1a4e2e3c2f2856531ff434f8597555456d0021afa672ccf",
+    "new_replay_claimed": false
+  },
+  {
+    "period": "NOV",
+    "asset": "ETH",
+    "mode": "C2_REFERENCE",
+    "group": "I25",
+    "base_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "canonical_result_SHA256": "b0999f78aafc2e5ff9b8c34fb02f76a339481f7352544f1ac2b99a176b606759",
+    "minute_values_SHA256": "68c426b9f88ee592a1a4e2e3c2f2856531ff434f8597555456d0021afa672ccf",
+    "new_replay_claimed": false
+  }
+]

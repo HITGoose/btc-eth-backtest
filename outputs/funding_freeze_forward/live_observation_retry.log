@@ -1,0 +1,2191 @@
+{
+  "T0_ms": 1794697200000,
+  "last_received_UTC": "2026-11-14T23:06:00.868170+00:00",
+  "verified_account_clock_UTC": "2026-11-14T22:59:59.999999+00:00",
+  "halts": [
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696751821601,
+      "asset": "ETH",
+      "previous": 8991228049,
+      "current": 8991228051
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696752158343,
+      "asset": "BTC",
+      "previous": 8274583248,
+      "current": 8274583250
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696752778092,
+      "asset": "BTC",
+      "previous": 8274584048,
+      "current": 8274584050
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696753810376,
+      "asset": "ETH",
+      "previous": 8991229910,
+      "current": 8991229912
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696753815040,
+      "asset": "BTC",
+      "previous": 8274584200,
+      "current": 8274584202
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696767073218,
+      "asset": "BTC",
+      "previous": 8274586877,
+      "current": 8274586879
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696771171999,
+      "asset": "ETH",
+      "previous": 8991232358,
+      "current": 8991232360
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696776328417,
+      "asset": "BTC",
+      "previous": 8274587963,
+      "current": 8274587965
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696777444223,
+      "asset": "ETH",
+      "previous": 8991233067,
+      "current": 8991233069
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696788544597,
+      "asset": "ETH",
+      "previous": 8991234953,
+      "current": 8991234955
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696789564671,
+      "asset": "ETH",
+      "previous": 8991235116,
+      "current": 8991235118
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696790853612,
+      "asset": "BTC",
+      "previous": 8274590354,
+      "current": 8274590357
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696806007901,
+      "asset": "BTC",
+      "previous": 8274592593,
+      "current": 8274592595
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696806891885,
+      "asset": "BTC",
+      "previous": 8274592678,
+      "current": 8274592821
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696811023640,
+      "asset": "ETH",
+      "previous": 8991239497,
+      "current": 8991239526
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696811142713,
+      "asset": "BTC",
+      "previous": 8274594803,
+      "current": 8274595039
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696816062458,
+      "asset": "BTC",
+      "previous": 8274597280,
+      "current": 8274597282
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696821186593,
+      "asset": "BTC",
+      "previous": 8274598011,
+      "current": 8274598013
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696822379317,
+      "asset": "ETH",
+      "previous": 8991241968,
+      "current": 8991241970
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696835397468,
+      "asset": "ETH",
+      "previous": 8991243700,
+      "current": 8991243702
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696836415474,
+      "asset": "BTC",
+      "previous": 8274600158,
+      "current": 8274600160
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696841518700,
+      "asset": "ETH",
+      "previous": 8991244298,
+      "current": 8991244300
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696845582914,
+      "asset": "BTC",
+      "previous": 8274601653,
+      "current": 8274601655
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696850664535,
+      "asset": "ETH",
+      "previous": 8991245436,
+      "current": 8991245438
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696852701502,
+      "asset": "BTC",
+      "previous": 8274602811,
+      "current": 8274602813
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696859823074,
+      "asset": "ETH",
+      "previous": 8991247031,
+      "current": 8991247033
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696859826680,
+      "asset": "BTC",
+      "previous": 8274603961,
+      "current": 8274603963
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696868085598,
+      "asset": "ETH",
+      "previous": 8991248224,
+      "current": 8991248226
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696869083711,
+      "asset": "BTC",
+      "previous": 8274605281,
+      "current": 8274605283
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696874439840,
+      "asset": "BTC",
+      "previous": 8274606840,
+      "current": 8274606842
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696884338792,
+      "asset": "BTC",
+      "previous": 8274607855,
+      "current": 8274607857
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696891706523,
+      "asset": "ETH",
+      "previous": 8991252764,
+      "current": 8991252766
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696892667203,
+      "asset": "BTC",
+      "previous": 8274608874,
+      "current": 8274608876
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696899037889,
+      "asset": "ETH",
+      "previous": 8991254579,
+      "current": 8991254581
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696907004074,
+      "asset": "BTC",
+      "previous": 8274611711,
+      "current": 8274611713
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696908872825,
+      "asset": "BTC",
+      "previous": 8274611820,
+      "current": 8274611822
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696909903305,
+      "asset": "ETH",
+      "previous": 8991255857,
+      "current": 8991255859
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696909905357,
+      "asset": "BTC",
+      "previous": 8274611984,
+      "current": 8274611986
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696913980598,
+      "asset": "BTC",
+      "previous": 8274612390,
+      "current": 8274612392
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696920470653,
+      "asset": "ETH",
+      "previous": 8991257290,
+      "current": 8991257292
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696921220912,
+      "asset": "BTC",
+      "previous": 8274613535,
+      "current": 8274613537
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696929390609,
+      "asset": "BTC",
+      "previous": 8274614418,
+      "current": 8274614420
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696931285782,
+      "asset": "BTC",
+      "previous": 8274614765,
+      "current": 8274614767
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696937384726,
+      "asset": "BTC",
+      "previous": 8274615351,
+      "current": 8274615353
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696940452760,
+      "asset": "BTC",
+      "previous": 8274615389,
+      "current": 8274615391
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696946533758,
+      "asset": "BTC",
+      "previous": 8274615875,
+      "current": 8274615877
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696947543692,
+      "asset": "ETH",
+      "previous": 8991260196,
+      "current": 8991260198
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696957872332,
+      "asset": "ETH",
+      "previous": 8991260612,
+      "current": 8991260614
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696962707734,
+      "asset": "ETH",
+      "previous": 8991261222,
+      "current": 8991261224
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696967891081,
+      "asset": "ETH",
+      "previous": 8991261825,
+      "current": 8991261827
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696999285313,
+      "asset": "ETH",
+      "previous": 8991266604,
+      "current": 8991266606
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696999287133,
+      "asset": "BTC",
+      "previous": 8274621857,
+      "current": 8274621859
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697007406502,
+      "asset": "ETH",
+      "previous": 8991267507,
+      "current": 8991267509
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697007408279,
+      "asset": "BTC",
+      "previous": 8274622922,
+      "current": 8274622924
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697023728175,
+      "asset": "ETH",
+      "previous": 8991269643,
+      "current": 8991269645
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697039311248,
+      "asset": "ETH",
+      "previous": 8991271856,
+      "current": 8991271858
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697048104223,
+      "asset": "BTC",
+      "previous": 8274627954,
+      "current": 8274627956
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697052182446,
+      "asset": "BTC",
+      "previous": 8274628911,
+      "current": 8274628913
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697058672815,
+      "asset": "BTC",
+      "previous": 8274629890,
+      "current": 8274629892
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697060310863,
+      "asset": "BTC",
+      "previous": 8274630360,
+      "current": 8274630362
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697062622118,
+      "asset": "ETH",
+      "previous": 8991277428,
+      "current": 8991277430
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697063893649,
+      "asset": "BTC",
+      "previous": 8274630541,
+      "current": 8274630543
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697071480344,
+      "asset": "ETH",
+      "previous": 8991278166,
+      "current": 8991278168
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697072866755,
+      "asset": "BTC",
+      "previous": 8274631081,
+      "current": 8274631083
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697072866755,
+      "asset": "BTC",
+      "previous": 8274631088,
+      "current": 8274631090
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697079767656,
+      "asset": "BTC",
+      "previous": 8274631685,
+      "current": 8274631687
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697080938263,
+      "asset": "ETH",
+      "previous": 8991279596,
+      "current": 8991279598
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697088022369,
+      "asset": "BTC",
+      "previous": 8274632562,
+      "current": 8274632564
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697089093556,
+      "asset": "ETH",
+      "previous": 8991280471,
+      "current": 8991280473
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697097997269,
+      "asset": "BTC",
+      "previous": 8274633099,
+      "current": 8274633101
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697099002103,
+      "asset": "BTC",
+      "previous": 8274633279,
+      "current": 8274633281
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697099250496,
+      "asset": "ETH",
+      "previous": 8991281696,
+      "current": 8991281698
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697106255797,
+      "asset": "BTC",
+      "previous": 8274633957,
+      "current": 8274633959
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697112216882,
+      "asset": "BTC",
+      "previous": 8274634431,
+      "current": 8274634433
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697112644190,
+      "asset": "ETH",
+      "previous": 8991283253,
+      "current": 8991283255
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697125646731,
+      "asset": "ETH",
+      "previous": 8991285266,
+      "current": 8991285268
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697132904370,
+      "asset": "ETH",
+      "previous": 8991286249,
+      "current": 8991286251
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697152156199,
+      "asset": "ETH",
+      "previous": 8991289132,
+      "current": 8991289134
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697163054453,
+      "asset": "BTC",
+      "previous": 8274639663,
+      "current": 8274639665
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697166454874,
+      "asset": "ETH",
+      "previous": 8991291592,
+      "current": 8991291594
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697169499359,
+      "asset": "BTC",
+      "previous": 8274640282,
+      "current": 8274640284
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697188561070,
+      "asset": "BTC",
+      "previous": 8274642568,
+      "current": 8274642570
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697191152572,
+      "asset": "ETH",
+      "previous": 8991296370,
+      "current": 8991296372
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697192687364,
+      "asset": "BTC",
+      "previous": 8274642800,
+      "current": 8274642803
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697197657528,
+      "asset": "BTC",
+      "previous": 8274643581,
+      "current": 8274643583
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697197657528,
+      "asset": "BTC",
+      "previous": 8274643590,
+      "current": 8274643592
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697198689687,
+      "asset": "BTC",
+      "previous": 8274643742,
+      "current": 8274643744
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697206324075,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697206326981,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697209500718,
+      "asset": "ETH",
+      "previous": 8991302366,
+      "current": 8991302368
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697210335602,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697210341353,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697214350925,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697214352470,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697218358894,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697218360295,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697218926127,
+      "asset": "ETH",
+      "previous": 8991304828,
+      "current": 8991304830
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697220350652,
+      "asset": "BTC",
+      "previous": 8274648161,
+      "current": 8274648163
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697221398668,
+      "asset": "BTC",
+      "previous": 8274648207,
+      "current": 8274648209
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697222417152,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697222417647,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697226466746,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697226469633,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697228866245,
+      "asset": "ETH",
+      "previous": 8991309771,
+      "current": 8991309773
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697230489529,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697230495101,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697231768277,
+      "asset": "BTC",
+      "previous": 8274651194,
+      "current": 8274651196
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697234508584,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697234511209,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697238524153,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697238525733,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697239193086,
+      "asset": "ETH",
+      "previous": 8991313529,
+      "current": 8991313531
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697241475478,
+      "asset": "ETH",
+      "previous": 8991314225,
+      "current": 8991314412
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697242516361,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697242518964,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697246556313,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697246559368,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697249183313,
+      "asset": "BTC",
+      "previous": 8274655340,
+      "current": 8274655342
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697249183313,
+      "asset": "BTC",
+      "previous": 8274655362,
+      "current": 8274655364
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697250587258,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697250604023,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697252282376,
+      "asset": "BTC",
+      "previous": 8274655921,
+      "current": 8274655923
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697254653447,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697254654204,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697257467302,
+      "asset": "ETH",
+      "previous": 8991320078,
+      "current": 8991320080
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697258705842,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697258707178,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697259498031,
+      "asset": "BTC",
+      "previous": 8274656674,
+      "current": 8274656676
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697261480874,
+      "asset": "BTC",
+      "previous": 8274656818,
+      "current": 8274656820
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697262695705,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697262710691,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697265555125,
+      "asset": "BTC",
+      "previous": 8274657248,
+      "current": 8274657250
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697265555125,
+      "asset": "BTC",
+      "previous": 8274657263,
+      "current": 8274657265
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697266704741,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697266708783,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697267581690,
+      "asset": "BTC",
+      "previous": 8274657378,
+      "current": 8274657380
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697268724680,
+      "asset": "ETH",
+      "previous": 8991321817,
+      "current": 8991321819
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697269638935,
+      "asset": "BTC",
+      "previous": 8274657519,
+      "current": 8274657521
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697270719718,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697270728218,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697271957565,
+      "asset": "BTC",
+      "previous": 8274657680,
+      "current": 8274657682
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697274766341,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697274769833,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697278777380,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697278777650,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697281869894,
+      "asset": "BTC",
+      "previous": 8274658845,
+      "current": 8274658847
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697282770400,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697282777898,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697286838903,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697286841030,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697286970402,
+      "asset": "BTC",
+      "previous": 8274659558,
+      "current": 8274659560
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697288009711,
+      "asset": "ETH",
+      "previous": 8991324668,
+      "current": 8991324670
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697290879655,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697290889298,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697294886400,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697294896032,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697295119553,
+      "asset": "BTC",
+      "previous": 8274661289,
+      "current": 8274661291
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697297189372,
+      "asset": "ETH",
+      "previous": 8991326251,
+      "current": 8991326253
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697298904318,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697298908845,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697301258584,
+      "asset": "BTC",
+      "previous": 8274662274,
+      "current": 8274662276
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697301420385,
+      "asset": "ETH",
+      "previous": 8991326800,
+      "current": 8991326802
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697302924574,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697302925053,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697306945856,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697306950395,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697309352014,
+      "asset": "BTC",
+      "previous": 8274663597,
+      "current": 8274663599
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697310361469,
+      "asset": "BTC",
+      "previous": 8274663605,
+      "current": 8274663608
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697310442912,
+      "asset": "ETH",
+      "previous": 8991328577,
+      "current": 8991328579
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697310981115,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697310989703,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697312617350,
+      "asset": "BTC",
+      "previous": 8274663782,
+      "current": 8274663784
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697315010190,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697315107752,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697319039410,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697319057907,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697323053794,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697323079593,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697327116376,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697327129138,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697327864356,
+      "asset": "BTC",
+      "previous": 8274665275,
+      "current": 8274665277
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697328797697,
+      "asset": "ETH",
+      "previous": 8991331138,
+      "current": 8991331140
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697328844471,
+      "asset": "BTC",
+      "previous": 8274665392,
+      "current": 8274665394
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697331131902,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697331132561,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697333031152,
+      "asset": "BTC",
+      "previous": 8274665998,
+      "current": 8274666000
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697335156591,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697335161592,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697339188298,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697339215634,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697343238051,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697343238872,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697347232471,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697347232740,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697348117715,
+      "asset": "ETH",
+      "previous": 8991333810,
+      "current": 8991333812
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697349221526,
+      "asset": "BTC",
+      "previous": 8274667065,
+      "current": 8274667067
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697351250173,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697351250457,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697355280137,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697355280516,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697359306478,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697359315242,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697359316821,
+      "asset": "ETH",
+      "previous": 8991334809,
+      "current": 8991334811
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697363350258,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697363350970,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697367369806,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697367371093,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697368568456,
+      "asset": "ETH",
+      "previous": 8991335847,
+      "current": 8991335849
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697371379712,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697371380988,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697371548984,
+      "asset": "BTC",
+      "previous": 8274668836,
+      "current": 8274668838
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697372634830,
+      "asset": "ETH",
+      "previous": 8991336681,
+      "current": 8991336683
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697375421298,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697375449681,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697376729178,
+      "asset": "ETH",
+      "previous": 8991337352,
+      "current": 8991337354
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697376742961,
+      "asset": "BTC",
+      "previous": 8274669498,
+      "current": 8274669500
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697378776840,
+      "asset": "ETH",
+      "previous": 8991337432,
+      "current": 8991337434
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697379436182,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697379468936,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697383440117,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697383443723,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697386822459,
+      "asset": "BTC",
+      "previous": 8274671568,
+      "current": 8274671570
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697387461266,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697387467121,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697388872122,
+      "asset": "BTC",
+      "previous": 8274671998,
+      "current": 8274672000
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697391500967,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697391504062,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697395110771,
+      "asset": "ETH",
+      "previous": 8991343712,
+      "current": 8991343832
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697395539881,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697395545446,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697399538001,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697399538319,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697400151371,
+      "asset": "ETH",
+      "previous": 8991346300,
+      "current": 8991346302
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697400156106,
+      "asset": "BTC",
+      "previous": 8274675447,
+      "current": 8274675449
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697401180477,
+      "asset": "ETH",
+      "previous": 8991346419,
+      "current": 8991346421
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697402228465,
+      "asset": "BTC",
+      "previous": 8274675729,
+      "current": 8274675731
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697403567593,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697403568069,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697407581427,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697407585215,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697408524177,
+      "asset": "BTC",
+      "previous": 8274676788,
+      "current": 8274676790
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697409399766,
+      "asset": "ETH",
+      "previous": 8991348928,
+      "current": 8991348930
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697411604929,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697411605071,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697415615180,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697415635846,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697418585103,
+      "asset": "BTC",
+      "previous": 8274677876,
+      "current": 8274677878
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697419619627,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697419621130,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697422654667,
+      "asset": "ETH",
+      "previous": 8991351487,
+      "current": 8991352282
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697422659209,
+      "asset": "BTC",
+      "previous": 8274678170,
+      "current": 8274678296
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697423677649,
+      "asset": "ETH",
+      "previous": 8991353302,
+      "current": 8991353304
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697423684237,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697423686447,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697425054237,
+      "asset": "ETH",
+      "previous": 8991353499,
+      "current": 8991354802
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697425708505,
+      "asset": "ETH",
+      "previous": 8991355801,
+      "current": 8991356150
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697426733747,
+      "asset": "BTC",
+      "previous": 8274680759,
+      "current": 8274680761
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697427744054,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697427747998,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697428750818,
+      "asset": "BTC",
+      "previous": 8274681236,
+      "current": 8274681238
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697431746861,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697431753292,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697434933066,
+      "asset": "BTC",
+      "previous": 8274682189,
+      "current": 8274682191
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697435757007,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697435855270,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697436923001,
+      "asset": "ETH",
+      "previous": 8991360204,
+      "current": 8991360206
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697437957601,
+      "asset": "BTC",
+      "previous": 8274682698,
+      "current": 8274682700
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697439802764,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697439850012,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697443792363,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697443823517,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697444155867,
+      "asset": "BTC",
+      "previous": 8274683887,
+      "current": 8274683889
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697447827412,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697447832427,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697449251322,
+      "asset": "ETH",
+      "previous": 8991364048,
+      "current": 8991364050
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697450274749,
+      "asset": "BTC",
+      "previous": 8274684562,
+      "current": 8274684564
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697451285864,
+      "asset": "BTC",
+      "previous": 8274684875,
+      "current": 8274684877
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697451858302,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697451860908,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697455876158,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697455877066,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697459906120,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697459906717,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697463914736,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697463915565,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697467987722,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697467990362,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697471678286,
+      "asset": "BTC",
+      "previous": 8274687551,
+      "current": 8274687553
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697471987687,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697471988222,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697472759737,
+      "asset": "BTC",
+      "previous": 8274687558,
+      "current": 8274687824
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697473709673,
+      "asset": "ETH",
+      "previous": 8991370291,
+      "current": 8991370294
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697476017320,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697476018180,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697479801642,
+      "asset": "BTC",
+      "previous": 8274690103,
+      "current": 8274690105
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697480070982,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697480071730,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697483894925,
+      "asset": "BTC",
+      "previous": 8274690474,
+      "current": 8274690476
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697484125190,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697484125909,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697485910964,
+      "asset": "BTC",
+      "previous": 8274690624,
+      "current": 8274690626
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697486924288,
+      "asset": "ETH",
+      "previous": 8991373617,
+      "current": 8991373619
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697488105728,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697488107785,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697492143449,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697492146113,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697493053589,
+      "asset": "ETH",
+      "previous": 8991375304,
+      "current": 8991375306
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697496163068,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697496185539,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697496507027,
+      "asset": "BTC",
+      "previous": 8274692332,
+      "current": 8274692334
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697500200877,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697500211161,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697500368919,
+      "asset": "ETH",
+      "previous": 8991376655,
+      "current": 8991376657
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697504206101,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697504209985,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697504330350,
+      "asset": "BTC",
+      "previous": 8274694398,
+      "current": 8274694400
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697508228709,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697508229284,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697508389825,
+      "asset": "ETH",
+      "previous": 8991378420,
+      "current": 8991378422
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697510422675,
+      "asset": "BTC",
+      "previous": 8274695281,
+      "current": 8274695283
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697512234127,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697512238659,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697516238150,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697516244468,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697517845434,
+      "asset": "BTC",
+      "previous": 8274695757,
+      "current": 8274695759
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697518612436,
+      "asset": "ETH",
+      "previous": 8991379471,
+      "current": 8991379473
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697519646245,
+      "asset": "BTC",
+      "previous": 8274696253,
+      "current": 8274696255
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697520279839,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697520280320,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697521937344,
+      "asset": "ETH",
+      "previous": 8991380154,
+      "current": 8991380156
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697524286422,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697524286783,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697527829169,
+      "asset": "ETH",
+      "previous": 8991380845,
+      "current": 8991381128
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697528307738,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697528314964,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697528949319,
+      "asset": "BTC",
+      "previous": 8274697498,
+      "current": 8274697500
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697532353222,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697532356857,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697536367089,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697536372027,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697540405503,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697540409346,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697541089924,
+      "asset": "BTC",
+      "previous": 8274698920,
+      "current": 8274698922
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697544412813,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697544414162,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697546313313,
+      "asset": "BTC",
+      "previous": 8274699260,
+      "current": 8274699262
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697547195413,
+      "asset": "BTC",
+      "previous": 8274699268,
+      "current": 8274699270
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697548222051,
+      "asset": "ETH",
+      "previous": 8991384642,
+      "current": 8991384644
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697548422291,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697548429860,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697549242183,
+      "asset": "BTC",
+      "previous": 8274699436,
+      "current": 8274699438
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697552302275,
+      "asset": "BTC",
+      "previous": 8274699686,
+      "current": 8274699688
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697552423577,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697552426333,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697552471751,
+      "asset": "ETH",
+      "previous": 8991385106,
+      "current": 8991385108
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697555351178,
+      "asset": "BTC",
+      "previous": 8274699781,
+      "current": 8274699783
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697556381692,
+      "asset": "BTC",
+      "previous": 8274699851,
+      "current": 8274699853
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697556465779,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697556466328,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794697559585300,
+      "asset": "BTC",
+      "previous": 8274700279,
+      "current": 8274700281
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697560477631,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794697560481635,
+      "error": "AssertionError('closed candle revision requires a new audit')"
+    }
+  ],
+  "raw_unique_trades": 272208,
+  "simulated_orders": 0,
+  "trades": 0,
+  "status": "FINANCIAL_HALTED",
+  "fees_assumed": true,
+  "no_real_orders": true
+}

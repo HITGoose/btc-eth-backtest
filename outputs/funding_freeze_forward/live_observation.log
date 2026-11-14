@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/live.py", line 83, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/live.py", line 82, in main
+    p=argparse.ArgumentParser();p.add_argument('--manifest',default=str(O/'FREEZE.json'));p.add_argument('--seconds',type=int,default=300);a=p.parse_args();collect(a.manifest,a.seconds)
+                                                                                                                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/live.py", line 23, in collect
+    folder=O/'forward'/manifest['run_id'];tape=Tape(folder);q=queue.Queue();pending={};lastfetch={};start=n.nowus();deadline=start+int(seconds*1e6);state=folder/'checkpoint.pkl';signals=n.Signals(manifest['T0_ms'],folder)
+                                               ^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/live.py", line 10, in __init__
+    self.folder=folder;folder.mkdir(exist_ok=True);self.seq=0;self.prev='0'*64;self.path=folder/'events.jsonl.gz'
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1311, in mkdir
+    os.mkdir(self, mode)
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000'
