@@ -7,3 +7,5 @@ FROZEN 2026-11-15T09:10:15.030563+00:00 B25 C10 Dsource B25
 {'stage': 'train_final', 'period': '2021', 'asset': 'BTC', 'returncode': 0, 'finished_UTC': '2026-11-15T09:35:42.099345+00:00'}
 {'stage': 'train_final', 'period': '2022', 'asset': 'ETH', 'returncode': 0, 'finished_UTC': '2026-11-15T09:50:51.901326+00:00'}
 {'stage': 'train_final', 'period': '2022', 'asset': 'BTC', 'returncode': 0, 'finished_UTC': '2026-11-15T09:54:18.809169+00:00'}
+{'stage': 'final', 'period': '2023', 'asset': 'ETH', 'returncode': 0, 'finished_UTC': '2026-11-15T10:11:56.728593+00:00'}
+{'stage': 'final', 'period': '2023', 'asset': 'BTC', 'returncode': 0, 'finished_UTC': '2026-11-15T10:13:54.533202+00:00'}
