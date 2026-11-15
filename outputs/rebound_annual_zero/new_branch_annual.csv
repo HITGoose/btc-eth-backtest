@@ -1,0 +1,7 @@
+﻿period,asset,new_branch_filled,new_branch_closed,new_branch_open,new_branch_wins,new_branch_losses,new_branch_closed_net_USDT,account_equity_difference_USDT,account_return_difference_pp,original_winning_trades_disappeared,original_winning_net_lost_USDT,original_losing_trades_disappeared,original_loss_avoided_USDT,not_additive_counterfactual,verified_occupancy_displaced_winners,verified_occupancy_displaced_profit_USDT,other_disappeared_winners
+2020,BTC,14,14,0,6,8,-89.95719836339902,-92.5005247385987,-18.50010494771974,0,0,0,0,True,0,0,0
+2020,ETH,18,18,0,10,8,-53.83026444000004,-45.41806812000027,-9.083613624000055,0,0,0,0,True,0,0,0
+2021,BTC,25,25,0,12,13,-183.96101625239913,-192.1246891727999,-38.42493783455998,0,0,0,0,True,0,0,0
+2021,ETH,22,22,0,9,13,-74.35915955999931,-83.7448112999997,-16.74896225999994,0,0,0,0,True,0,0,0
+2022,BTC,33,33,0,14,19,-157.47852899319756,-218.92157573199802,-43.78431514639961,0,0,0,0,True,0,0,0
+2022,ETH,41,41,0,18,23,-209.45993763999928,-225.38166061999868,-45.07633212399974,0,0,1,50.27980188000036,True,0,0,0

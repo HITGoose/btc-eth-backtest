@@ -1,0 +1,38 @@
+[
+  {
+    "period": "2020",
+    "asset": "ETH",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T03:01:11.090875+00:00"
+  },
+  {
+    "period": "2020",
+    "asset": "BTC",
+    "returncode": 1,
+    "finished_UTC": "2026-11-15T03:04:15.390561+00:00"
+  },
+  {
+    "period": "2021",
+    "asset": "BTC",
+    "returncode": 1,
+    "finished_UTC": "2026-11-15T03:07:43.835247+00:00"
+  },
+  {
+    "period": "2021",
+    "asset": "ETH",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T03:08:17.693186+00:00"
+  },
+  {
+    "period": "2022",
+    "asset": "ETH",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T03:17:14.443220+00:00"
+  },
+  {
+    "period": "2022",
+    "asset": "BTC",
+    "returncode": 1,
+    "finished_UTC": "2026-11-15T03:21:59.239986+00:00"
+  }
+]

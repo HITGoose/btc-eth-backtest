@@ -1,0 +1,57 @@
+{
+  "start_ms": 1793462400000,
+  "enable_rebound_ms": 1794153600000,
+  "raw_execution_end_ms": 1794614400000,
+  "bar_execution_end_ms": 1794710700000,
+  "server_time_ms": 1794711527371,
+  "fee": 0,
+  "funding": 0,
+  "slip": 0.0002,
+  "source": [
+    {
+      "url": "https://www.binance.com/fapi/v1/time",
+      "method": "GET",
+      "status": 200,
+      "SHA256": "91e6cff836770b10550c72c8c642534aa40766dbce54b92c93b4faf0f2d8f559",
+      "stored": "recent_sources/33e2868901aefd6d.raw",
+      "received_UTC": "2026-11-15T02:58:47.442576+00:00"
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-14.zip.CHECKSUM",
+      "method": "GET",
+      "status": 404,
+      "SHA256": "50c1bceef18d81eea630cb0a3f09df590a52617ec139d3d9dd1431f868102ed4",
+      "stored": "recent_sources/55364f691b824d13.raw",
+      "received_UTC": "2026-11-15T02:58:47.608409+00:00"
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-14.zip.CHECKSUM",
+      "method": "GET",
+      "status": 404,
+      "SHA256": "21811d7ee569fa33bac13fd19890797efb9ade6f0af69eac4aeb2c28cdb9c769",
+      "stored": "recent_sources/45d9abc2f0c1f177.raw",
+      "received_UTC": "2026-11-15T02:58:47.794192+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=15m&startTime=1794708000000&endTime=1794710699999&limit=1500",
+      "method": "GET",
+      "status": 200,
+      "SHA256": "089232aad7f8e7ec4aa6bf0b682855a7ec11b510f30e7666481d836e8b6af90a",
+      "stored": "recent_sources/f422db28fd4c07a0.raw",
+      "received_UTC": "2026-11-15T02:58:48.183828+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=15m&startTime=1794708000000&endTime=1794710699999&limit=1500",
+      "method": "GET",
+      "status": 200,
+      "SHA256": "1bfcc98b76c7b34efeea13b0d2f7b3616708b543f7fa7ba174c2637ddb270fa6",
+      "stored": "recent_sources/a4d13e6bd8b18bd9.raw",
+      "received_UTC": "2026-11-15T02:58:48.663550+00:00"
+    }
+  ],
+  "paths": [
+    "OHLC",
+    "OLHC"
+  ],
+  "bar_path_definition": "same frozen offsets0/300/600/899seconds, linear1second synthetic prints as prior experiment"
+}

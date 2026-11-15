@@ -1,0 +1,50 @@
+[
+  {
+    "period": "2023",
+    "asset": "BTC",
+    "status": "NOT_COMPLETED",
+    "reason": "pending"
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "status": "NOT_COMPLETED",
+    "reason": "pending"
+  },
+  {
+    "period": "2024",
+    "asset": "BTC",
+    "status": "NOT_COMPLETED",
+    "reason": "pending"
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "status": "NOT_COMPLETED",
+    "reason": "pending"
+  },
+  {
+    "period": "2025",
+    "asset": "BTC",
+    "status": "NOT_COMPLETED",
+    "reason": "pending"
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "status": "NOT_COMPLETED",
+    "reason": "pending"
+  },
+  {
+    "period": "2026",
+    "asset": "BTC",
+    "status": "NOT_COMPLETED",
+    "reason": "pending"
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "status": "NOT_COMPLETED",
+    "reason": "pending"
+  }
+]
