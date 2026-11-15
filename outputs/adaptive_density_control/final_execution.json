@@ -26,5 +26,19 @@
     "asset": "BTC",
     "returncode": 0,
     "finished_UTC": "2026-11-15T09:35:42.099345+00:00"
+  },
+  {
+    "stage": "train_final",
+    "period": "2022",
+    "asset": "ETH",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T09:50:51.901326+00:00"
+  },
+  {
+    "stage": "train_final",
+    "period": "2022",
+    "asset": "BTC",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T09:54:18.809169+00:00"
   }
 ]

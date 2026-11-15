@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "outputs": 38,
+  "outputs": 48,
   "checks": [
     {
       "path": "outputs/adaptive_density_control/runs/train/2020/BTC/results/ZERO_A_result.json",
@@ -423,6 +423,18 @@
       "passed": true
     },
     {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/BTC/results/ZERO_D_result.json",
+      "cash": 949.6253825466082,
+      "closed_net": 449.62538254660825,
+      "open_entry_fee": 0.0,
+      "unrealized": 0.0,
+      "ending_equity": 949.6253825466082,
+      "cash_residual": -5.684341886080802e-14,
+      "equity_residual": 0.0,
+      "no_V2": true,
+      "passed": true
+    },
+    {
       "path": "outputs/adaptive_density_control/runs/train/2022/ETH/results/ZERO_A_result.json",
       "cash": 974.9678548800044,
       "closed_net": 474.96785488000387,
@@ -455,6 +467,114 @@
       "ending_equity": 2529.574803100018,
       "cash_residual": 4.547473508864641e-13,
       "equity_residual": 0.0,
+      "no_V2": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/ETH/results/ZERO_D_result.json",
+      "cash": 1078.3227481400058,
+      "closed_net": 578.3227481400056,
+      "open_entry_fee": 0.0,
+      "unrealized": -24.9591000000001,
+      "ending_equity": 1053.3636481400058,
+      "cash_residual": 2.2737367544323206e-13,
+      "equity_residual": 6.394884621840902e-14,
+      "no_V2": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/BTC/results/ASSUMED_005_SIDE_A_result.json",
+      "cash": 865.7196596089149,
+      "closed_net": 365.71965960891487,
+      "open_entry_fee": 0.0,
+      "unrealized": 0.0,
+      "ending_equity": 865.7196596089149,
+      "cash_residual": 0.0,
+      "equity_residual": 0.0,
+      "no_V2": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/BTC/results/ASSUMED_005_SIDE_B_result.json",
+      "cash": 475.2303260638833,
+      "closed_net": -24.769673936116444,
+      "open_entry_fee": 0.0,
+      "unrealized": 0.0,
+      "ending_equity": 475.2303260638833,
+      "cash_residual": -2.5934809855243657e-13,
+      "equity_residual": 0.0,
+      "no_V2": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/BTC/results/ASSUMED_005_SIDE_C_result.json",
+      "cash": 705.3920383229791,
+      "closed_net": 205.39203832297838,
+      "open_entry_fee": 0.0,
+      "unrealized": 0.0,
+      "ending_equity": 705.3920383229791,
+      "cash_residual": 7.673861546209082e-13,
+      "equity_residual": 0.0,
+      "no_V2": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/BTC/results/ASSUMED_005_SIDE_D_result.json",
+      "cash": 732.6962869398708,
+      "closed_net": 232.69628693987065,
+      "open_entry_fee": 0.0,
+      "unrealized": 0.0,
+      "ending_equity": 732.6962869398708,
+      "cash_residual": 1.4210854715202004e-13,
+      "equity_residual": 0.0,
+      "no_V2": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/ETH/results/ASSUMED_005_SIDE_A_result.json",
+      "cash": 836.0823924932935,
+      "closed_net": 337.33543099329364,
+      "open_entry_fee": 1.2530385,
+      "unrealized": -19.341000000000076,
+      "ending_equity": 816.7413924932933,
+      "cash_residual": -1.729727472365994e-13,
+      "equity_residual": -4.618527782440651e-14,
+      "no_V2": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/ETH/results/ASSUMED_005_SIDE_B_result.json",
+      "cash": 627.3968645292063,
+      "closed_net": 128.33720942920627,
+      "open_entry_fee": 0.9403449,
+      "unrealized": -19.386599999999973,
+      "ending_equity": 608.0102645292063,
+      "cash_residual": -1.3655743202889425e-14,
+      "equity_residual": 4.263256414560601e-14,
+      "no_V2": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/ETH/results/ASSUMED_005_SIDE_C_result.json",
+      "cash": 1598.2668835607722,
+      "closed_net": 1100.6655572607729,
+      "open_entry_fee": 2.3986737,
+      "unrealized": -37.02420000000015,
+      "ending_equity": 1561.242683560772,
+      "cash_residual": -6.998845947236987e-13,
+      "equity_residual": 8.526512829121202e-14,
+      "no_V2": true,
+      "passed": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/runs/train_final/2022/ETH/results/ASSUMED_005_SIDE_D_result.json",
+      "cash": 862.1524706372945,
+      "closed_net": 363.44727708729494,
+      "open_entry_fee": 1.2948064499999998,
+      "unrealized": -19.98570000000008,
+      "ending_equity": 842.1667706372945,
+      "cash_residual": -4.0811798385220754e-13,
+      "equity_residual": 1.4210854715202004e-14,
       "no_V2": true,
       "passed": true
     }
