@@ -4,13 +4,13 @@
     "asset": "ETH",
     "stage": "train",
     "returncode": 0,
-    "finished_UTC": "2026-11-15T07:34:49.754722+00:00"
+    "finished_UTC": "2026-11-15T08:07:46.335328+00:00"
   },
   {
     "period": "2020",
     "asset": "BTC",
     "stage": "train",
     "returncode": 0,
-    "finished_UTC": "2026-11-15T07:37:56.334143+00:00"
+    "finished_UTC": "2026-11-15T08:10:49.880669+00:00"
   }
 ]

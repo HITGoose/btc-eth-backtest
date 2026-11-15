@@ -15,3 +15,5 @@ while True:
  time.sleep(2)
 r=subprocess.run([sys.executable,str(O/'freeze.py')]);assert r.returncode==0
 r=subprocess.run([sys.executable,'-u',str(O/'final_supervisor.py')]);print('FINAL_STAGE_FINISHED',r.returncode,flush=True)
+
+r=subprocess.run([sys.executable,'-u',str(O/'report.py')]);print('REPORT_FINISHED',r.returncode,flush=True)
