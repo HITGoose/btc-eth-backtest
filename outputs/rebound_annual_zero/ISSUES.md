@@ -1,2 +1,4 @@
 # 本轮实际问题与定向处理
 旧复用BTC基准部分交易JSON没有submitted_us等新增审计键，新的完整字典相等检查会失败。2020BTC检查发现，双方84笔、现金464.91768023540317、全460800个分钟权益完全相同，仅新记录增加字段。新增validate_baselines.py只对旧流水已提供的全部字段逐字核对、交易数/现金/期末权益/分钟权益全等，并核对两账户完整现金；不修改数据、交易、财务代码或忽略断点指纹，不为对齐收益改参数。原失败日志和失败JSON保留，验证通过才标完成。其他真实差异继续报失败。
+
+2025ETH首次执行在首个日末进度日志处失败：ScenarioCache没有sources属性。此前金融状态已写入checkpoint。recover_2025_eth.py增加只读sources委托给原strict.sources，ScenarioCache.load源码与金融指纹完全相同，恢复时原fp和datafp全部按原断点机制核对，无忽略哈希。修复不改变任何报价/顺序/策略/现金。原失败JSON及日志保留，恢复证据见runs/2025/ETH/logging_adapter_recovery.json。后续新跑supervisor自动使用run_sall.py安装相同日志委托，金融worker源码保持不变。

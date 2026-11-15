@@ -18,7 +18,7 @@ def load(folder,version):
  p=folder/f'{version}_result.json';q=json.loads(p.read_text());v=np.load(folder/f'{version}_equity.npz')['marks'];assert q['fee']==0.;assert q['configuration']['slip']==.0002;cashres=q['cash']-500-sum(t['net']for t in q['trades'])-(q.get('open_partial_state',{}).get('partial_net')or 0.);assert abs(cashres)<1e-7,(p,cashres)
  assert abs(q['cash']-500-sum(c['delta']for c in q['cash_events']))<1e-7
  pos=q['state_at_end']['position'];mtm=pos['order']['side']*pos['order']['qty']*(q['actual_raw_last_mark']-pos['order']['price'])if pos else 0.;assert abs(q['ending_equity']-q['cash']-mtm)<1e-7
- audits.append(dict(file=str(p.relative_to(R)),cash_closed_partial_residual=cashres,equity_residual=q['ending_equity']-q['cash']-mtm,passed=True));return q,v
+ audits.append(dict(file=str(p.relative_to(R)),initial_cash=500.,cash=q['cash'],closed_trade_net_USDT=sum(t['net']for t in q['trades']),open_partial_net_USDT=q.get('open_partial_state',{}).get('partial_net')or 0.,open_unrealized_USDT=mtm,ending_equity_USDT=q['ending_equity'],position_at_end=pos,mark_price=q['actual_raw_last_mark'],cash_closed_partial_residual=cashres,equity_residual=q['ending_equity']-q['cash']-mtm,passed=True));return q,v
 def absence_reason(q,trade):
  stamp=trade['signal_close_ms'];clock=(stamp+10000)*1000;signal_us=stamp*1000
  for pos in q['trades']:
@@ -39,7 +39,7 @@ def account(period,asset,pair):
  if pos:present_open=(('LONG'if pos['order']['side']==1 else'SHORT'),int(pos['order'].get('signal_close_ms',pos['order']['time']-10000)))
  else:present_open=None
  gone=[t for k,t in base.items()if k not in var and k!=present_open];lostwins=[t for t in gone if t['net']>0]
- extra.append(dict(period=period,asset=asset,new_branch_filled=len(new)+newopen,new_branch_closed=len(new),new_branch_open=newopen,new_branch_wins=sum(t['net']>0 for t in new),new_branch_losses=sum(t['net']<0 for t in new),new_branch_closed_net_USDT=sum(t['net']for t in new),new_branch_open_contribution_USDT=q['open_contribution']if newopen else 0.,new_branch_net_USDT=sum(t['net']for t in new)+(q['open_contribution']if newopen else 0.),account_equity_difference_USDT=q['ending_equity']-controls['ending_equity'],account_return_difference_pp=100*(q['ending_equity']-controls['ending_equity'])/500,original_winning_trades_disappeared=len(lostwins),original_winning_net_lost_USDT=sum(t['net']for t in lostwins),original_losing_trades_disappeared=sum(t['net']<0 for t in gone),original_loss_avoided_USDT=-sum(min(0,t['net'])for t in gone),not_additive_counterfactual=True,verified_occupancy_displaced_winners=sum(absence_reason(q,t).startswith('BLOCKED_')for t in lostwins),verified_occupancy_displaced_profit_USDT=sum(t['net']for t in lostwins if absence_reason(q,t).startswith('BLOCKED_')),other_disappeared_winners=sum(not absence_reason(q,t).startswith('BLOCKED_')for t in lostwins)))
+ extra.append(dict(period=period,asset=asset,new_branch_filled=len(new)+newopen,new_branch_closed=len(new),new_branch_open=newopen,new_branch_wins=sum(t['net']>0 for t in new),new_branch_losses=sum(t['net']<0 for t in new),new_branch_closed_net_USDT=sum(t['net']for t in new),new_branch_total_profit_USDT=sum(max(0,t['net'])for t in new),new_branch_total_loss_USDT=-sum(min(0,t['net'])for t in new),new_branch_max_single_loss_USDT=-min([0.]+[t['net']for t in new]),new_branch_open_contribution_USDT=q['open_contribution']if newopen else 0.,new_branch_net_USDT=sum(t['net']for t in new)+(q['open_contribution']if newopen else 0.),account_equity_difference_USDT=q['ending_equity']-controls['ending_equity'],account_return_difference_pp=100*(q['ending_equity']-controls['ending_equity'])/500,original_winning_trades_disappeared=len(lostwins),original_winning_net_lost_USDT=sum(t['net']for t in lostwins),original_losing_trades_disappeared=sum(t['net']<0 for t in gone),original_loss_avoided_USDT=-sum(min(0,t['net'])for t in gone),not_additive_counterfactual=True,verified_occupancy_displaced_winners=sum(absence_reason(q,t).startswith('BLOCKED_')for t in lostwins),verified_occupancy_displaced_profit_USDT=sum(t['net']for t in lostwins if absence_reason(q,t).startswith('BLOCKED_')),other_disappeared_winners=sum(not absence_reason(q,t).startswith('BLOCKED_')for t in lostwins)))
  for token in sorted(set(base)|set(var)):
   a=base.get(token);b=var.get(token);cat='NEW'if a is None else'ORIGINAL_CLOSED_NOW_OPEN'if b is None and token==present_open else'DISAPPEARED'if b is None else'RETAINED'if a==b else'CHANGED';matching.append(dict(period=period,asset=asset,side=token[0],signal_close_ms=token[1],classification=cat,baseline_net_USDT=a['net']if a else None,new_account_net_USDT=b['net']if b else None,original_profitable_disappeared=bool(a and a['net']>0 and cat=='DISAPPEARED'),absence_reason=absence_reason(q,a)if cat=='DISAPPEARED'else None))
 for period in ['2020','2021','2022','2023','2024','2025','2026']:
@@ -79,14 +79,27 @@ text=['# 反弹续跌年度零费用对照','', '基准4fbc499370454246ee92ac110
 for r in annual:
  if r['return_pct']is None:text.append(f"|{r['period']}|{r['group']}|未验证|未验证|未验证|未验证|未验证|{r['status']}|");continue
  text.append(f"|{r['period']}|{r['group']}|{r['return_pct']:.3f}|{r['max_drawdown_pct']:.3f}|{r['closed_trades']}|{r['total_loss_USDT']:.3f}|{r['max_single_loss_USDT']:.3f}|{r['status']}|")
-text+=['','2020仅2月16日至年底，2026仅1—10月，具体UTC/北京边界见每账户config。最大回撤按分钟合并权益，不是两币回撤简单平均。总亏损和最大单亏按已平仓完整交易净额；年末浮动估值计入权益，不假设年末全平。2025仅S_ALL已授权异常视图，不能称全历史严格验证，也不将旧九情景一致套用到本策略。','', '## 新增分支与机会挤占','', '|区间|币|新增已成交/已平|赢/亏|新增已平净额|完整账户权益差额|原盈利单消失笔数/金额|','|---|---|---|---|---:|---:|---|']
-for r in extra:text.append(f"|{r['period']}|{r['asset']}|{r['new_branch_filled']}/{r['new_branch_closed']}|{r['new_branch_wins']}/{r['new_branch_losses']}|{r['new_branch_closed_net_USDT']:.3f}|{r['account_equity_difference_USDT']:.3f}|{r['original_winning_trades_disappeared']}/{r['original_winning_net_lost_USDT']:.3f}|")
+text+=['','2020仅2月16日至年底，2026仅1—10月，具体UTC/北京边界见每账户config。最大回撤按分钟合并权益，不是两币回撤简单平均。总亏损和最大单亏按已平仓完整交易净额；年末浮动估值计入权益，不假设年末全平。2025仅S_ALL已授权异常视图，不能称全历史严格验证，也不将旧九情景一致套用到本策略。','', '## 新增分支与机会挤占','', '|区间|币|新增已成交/已平|赢/亏|新增已平净额|新增亏损金额|完整账户权益差额|原盈利单消失笔数/金额|','|---|---|---|---|---:|---:|---:|---|']
+for r in extra:text.append(f"|{r['period']}|{r['asset']}|{r['new_branch_filled']}/{r['new_branch_closed']}|{r['new_branch_wins']}/{r['new_branch_losses']}|{r['new_branch_closed_net_USDT']:.3f}|{r['new_branch_total_loss_USDT']:.3f}|{r['account_equity_difference_USDT']:.3f}|{r['original_winning_trades_disappeared']}/{r['original_winning_net_lost_USDT']:.3f}|")
 text+=['','表内新增净额只统计已平EXTRA交易；CSV另列年末未平仓EXTRA的部分退出及浮动贡献和合计净额，不把未平仓估值归类为已赢/亏笔数。完整账户差额含资金余额变化、原信号挤占、仓位/退出变化及年末浮动，不能把两者相加。原盈利单消失金额是原账户实际利润的事后机会归因，不是可直接相加的损失。CSV的verified_occupancy_displaced_winners及verified_occupancy_displaced_profit_USDT只计实际占仓/挂单证据确认的挤占，其他消失原因不强行算作挤占。trades.csv保留两路径逐笔，trade_matching.csv按方向+signal_close_ms匹配，不强行配对。','', '## 近期独立区间','']
 if config.exists():
  cfg=json.loads(config.read_text());text+=['真实逐笔执行截止北京'+time_s(cfg['raw_execution_end_ms']*1000)+'；后续闭15m假设路径截止北京'+time_s(cfg['bar_execution_end_ms']*1000)+'。原始逐笔与合成路径单列；15m内OHLC/OLHC先后与插值时间不是实际观察，也不是严格收益上下界。','', '|口径|本轮组|9日起收益%|期末权益|最大回撤%|','|---|---|---:|---:|---:|']
  for r in recentrows:
   if r['asset']=='COMBINED':text.append(f"|{r['stage']}|{r['version']}|{r['return_pct']:.3f}|{r['ending_equity_USDT']:.3f}|{r['max_drawdown_pct']:.3f}|")
  text+=['','recent_trades.csv记录两币每笔开空和退出时间、成交价、净额及是否依赖假设。9日前完整账户状态相同证明见recent/*/pre9_state_comparison.json；原零费基准前缀比较见baseline_comparison.json。近期新增已平利润和同一时刻完整账户差额应分开理解。']
+text+=['','近期原版做空流水（9日后平仓，含9日前已持仓）：','', '|币|开仓时间北京|开仓价|退出时间北京|退出价|净额USDT|','|---|---|---:|---|---:|---:|']
+for r in recenttrades:
+ if r['stage']=='RAW' and r['version']=='CONTROL' and r['side']=='SHORT':text.append(f"|{r['asset']}|{r['opened_Beijing']}|{r['entry']:.5f}|{r['closed_Beijing']}|{r['exit']:.5f}|{r['net']:.4f}|")
+text+=['','新增分支实际补入的做空（以下合成路径时间只是模型假设）：','', '|币|口径|开仓时间北京|开仓价|退出时间北京|退出价|净额USDT|','|---|---|---|---:|---|---:|---:|']
+for r in recenttrades:
+ if r.get('origin')!='EXTRA' or r['version']!='REBOUND':continue
+ if r['execution']=='RAW_TRADE_SIMULATION' and r['stage']!='RAW':continue
+ text.append(f"|{r['asset']}|{r['stage']}|{r['opened_Beijing']}|{r['entry']:.5f}|{r['closed_Beijing']}|{r['exit']:.5f}|{r['net']:.4f}|")
+text+=['','近期新分支与原版的完整账户权益差额：']
+for stage in ['RAW','OHLC','OLHC']:
+ for asset in ['BTC','ETH']:
+  a=next((r for r in recentrows if r['stage']==stage and r['asset']==asset and r['version']=='CONTROL'),None);b=next((r for r in recentrows if r['stage']==stage and r['asset']==asset and r['version']=='REBOUND'),None)
+  if a and b:text.append(f"- {stage} {asset}：{b['ending_equity_USDT']-a['ending_equity_USDT']:+.4f} USDT；不是事后将独立新增单利润相加。")
 text+=['','## 直接判断','']
 complete=[p for p in ['2020','2021','2022','2023','2024','2025','2026']if all(any(r['period']==p and r['group']==g and r['return_pct']is not None for r in annual)for g in GROUPS)]
 if len(complete)==7:
@@ -101,3 +114,8 @@ if failures:
  text+=['','## 未完成/失败','']+[f"- {r['period']} {r['asset']}：{r['status']}，{r['reason']}"for r in failures]
 text+=['','复跑命令（Python3.12，仓库根目录）：','```bash','python outputs/rebound_annual_zero/supervisor.py','python outputs/rebound_annual_zero/validate_baselines.py','python outputs/rebound_annual_zero/recent_prepare.py','python outputs/rebound_annual_zero/recent.py BTC','python outputs/rebound_annual_zero/recent.py ETH','python outputs/rebound_annual_zero/report.py','```','', '原代码及main不改；本轮不追加参数搜索、收费部署或大包。']
 (O/'CONCLUSION.md').write_text('\n'.join(text));print('REPORT',len(complete),'complete periods',len(audits),'accounts',len(failures),'incomplete')
+
+# Rebuild this fixed experiment final conclusion only after all seven periods finish.
+if len(complete)==7:
+ import runpy
+ runpy.run_path(str(O/"finalize_report.py"))

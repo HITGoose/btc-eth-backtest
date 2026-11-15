@@ -1,1 +1,100 @@
-[{"period": "2020", "asset": "BTC", "verified": true}, {"period": "2020", "asset": "ETH", "verified": true}, {"period": "2021", "asset": "BTC", "verified": true}, {"period": "2021", "asset": "ETH", "verified": true}, {"period": "2022", "asset": "BTC", "verified": true}, {"period": "2022", "asset": "ETH", "verified": true}, {"period": "2023", "asset": "BTC", "verified": false}, {"period": "2023", "asset": "ETH", "verified": false}, {"period": "2024", "asset": "BTC", "verified": false}, {"period": "2024", "asset": "ETH", "verified": false}, {"period": "2025", "asset": "BTC", "verified": false}, {"period": "2025", "asset": "ETH", "verified": false}, {"period": "2026", "asset": "BTC", "verified": false}, {"period": "2026", "asset": "ETH", "verified": false}]
+[
+  {
+    "period": "2020",
+    "asset": "BTC",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2020/BTC/baseline_comparison.json"
+  },
+  {
+    "period": "2020",
+    "asset": "ETH",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2020/ETH/baseline_comparison.json"
+  },
+  {
+    "period": "2021",
+    "asset": "BTC",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2021/BTC/baseline_comparison.json"
+  },
+  {
+    "period": "2021",
+    "asset": "ETH",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2021/ETH/baseline_comparison.json"
+  },
+  {
+    "period": "2022",
+    "asset": "BTC",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2022/BTC/baseline_comparison.json"
+  },
+  {
+    "period": "2022",
+    "asset": "ETH",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2022/ETH/baseline_comparison.json"
+  },
+  {
+    "period": "2023",
+    "asset": "BTC",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2023/BTC/baseline_comparison.json"
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2023/ETH/baseline_comparison.json"
+  },
+  {
+    "period": "2024",
+    "asset": "BTC",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2024/BTC/baseline_comparison.json"
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2024/ETH/baseline_comparison.json"
+  },
+  {
+    "period": "2025",
+    "asset": "BTC",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2025/BTC/baseline_comparison.json"
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "verified": true,
+    "status": "COMPLETED_WITH_DATA_ANOMALY",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2025/ETH/baseline_comparison.json"
+  },
+  {
+    "period": "2026",
+    "asset": "BTC",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2026/BTC/baseline_comparison.json"
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "verified": true,
+    "status": "COMPLETE",
+    "baseline_comparison": "outputs/rebound_annual_zero/runs/2026/ETH/baseline_comparison.json"
+  }
+]

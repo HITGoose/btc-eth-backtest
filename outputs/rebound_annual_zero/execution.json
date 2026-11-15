@@ -70,5 +70,41 @@
     "error": null,
     "finished_UTC": "2026-11-15T03:48:44.257328+00:00",
     "external_existing_worker": false
+  },
+  {
+    "period": "2026",
+    "asset": "BTC",
+    "returncode": 1,
+    "baseline_verified": true,
+    "error": null,
+    "finished_UTC": "2026-11-15T03:51:20.413665+00:00",
+    "external_existing_worker": false
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "returncode": null,
+    "baseline_verified": true,
+    "error": null,
+    "finished_UTC": "2026-11-15T04:03:00.382916+00:00",
+    "external_existing_worker": true
+  },
+  {
+    "period": "2025",
+    "asset": "BTC",
+    "returncode": 0,
+    "baseline_verified": true,
+    "error": null,
+    "finished_UTC": "2026-11-15T04:07:55.680319+00:00",
+    "external_existing_worker": false
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "returncode": 1,
+    "baseline_verified": false,
+    "error": null,
+    "finished_UTC": "2026-11-15T04:08:04.683188+00:00",
+    "external_existing_worker": false
   }
 ]

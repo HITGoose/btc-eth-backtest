@@ -1,0 +1,6 @@
+LAUNCH 2025 BTC 64268
+{'period': '2026', 'asset': 'ETH', 'returncode': None, 'baseline_verified': True, 'error': None, 'finished_UTC': '2026-11-15T04:03:00.382916+00:00', 'external_existing_worker': True}
+{'period': '2025', 'asset': 'BTC', 'returncode': 0, 'baseline_verified': True, 'error': None, 'finished_UTC': '2026-11-15T04:07:55.680319+00:00', 'external_existing_worker': False}
+LAUNCH_SERIAL 2025 ETH 65132
+{'period': '2025', 'asset': 'ETH', 'returncode': 1, 'baseline_verified': False, 'error': None, 'finished_UTC': '2026-11-15T04:08:04.683188+00:00', 'external_existing_worker': False}
+ALL_DONE 14

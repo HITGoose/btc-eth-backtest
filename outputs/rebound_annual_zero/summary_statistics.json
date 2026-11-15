@@ -1,0 +1,185 @@
+{
+  "note": "Sums of seven independent reset experiments, not a cross-year continuously compounded account.",
+  "groups": [
+    {
+      "group": "B",
+      "label": "\u4ec5BTC",
+      "improved_periods": 3,
+      "worse_drawdown_periods": 4,
+      "worse_loss_periods": 7,
+      "sum_independent_equity_differences_USDT": -204.64267019339172,
+      "sum_independent_loss_differences_USDT": 2496.6767422885955,
+      "differences": [
+        {
+          "period": "2020",
+          "return_difference_pp": -9.25005247385986,
+          "equity_difference_USDT": -92.50052473859864,
+          "drawdown_difference_pp": 1.663657363527001,
+          "loss_difference_USDT": 143.5025466549996
+        },
+        {
+          "period": "2021",
+          "return_difference_pp": -19.21246891727997,
+          "equity_difference_USDT": -192.12468917279966,
+          "drawdown_difference_pp": -1.136638052974046,
+          "loss_difference_USDT": 472.74480627879973
+        },
+        {
+          "period": "2022",
+          "return_difference_pp": -21.892157573199803,
+          "equity_difference_USDT": -218.92157573199802,
+          "drawdown_difference_pp": 7.306744188684942,
+          "loss_difference_USDT": 527.7711690787992
+        },
+        {
+          "period": "2023",
+          "return_difference_pp": 1.313967383600172,
+          "equity_difference_USDT": 13.139673836001748,
+          "drawdown_difference_pp": -0.3635024817623247,
+          "loss_difference_USDT": 339.13626858199905
+        },
+        {
+          "period": "2024",
+          "return_difference_pp": -21.17924351020002,
+          "equity_difference_USDT": -211.79243510200013,
+          "drawdown_difference_pp": 6.3695313490789935,
+          "loss_difference_USDT": 108.03144509999993
+        },
+        {
+          "period": "2025",
+          "return_difference_pp": 39.91511958340021,
+          "equity_difference_USDT": 399.15119583400246,
+          "drawdown_difference_pp": 1.1677012406973937,
+          "loss_difference_USDT": 698.1509783559986
+        },
+        {
+          "period": "2026",
+          "return_difference_pp": 9.840568488200049,
+          "equity_difference_USDT": 98.40568488200051,
+          "drawdown_difference_pp": -4.663916802715317,
+          "loss_difference_USDT": 207.3395282379995
+        }
+      ]
+    },
+    {
+      "group": "C",
+      "label": "\u4ec5ETH",
+      "improved_periods": 2,
+      "worse_drawdown_periods": 4,
+      "worse_loss_periods": 7,
+      "sum_independent_equity_differences_USDT": -6.646842939994258,
+      "sum_independent_loss_differences_USDT": 2762.5776344999967,
+      "differences": [
+        {
+          "period": "2020",
+          "return_difference_pp": -4.541806812000004,
+          "equity_difference_USDT": -45.418068120000044,
+          "drawdown_difference_pp": -6.398673110168211,
+          "loss_difference_USDT": 83.83154204000061
+        },
+        {
+          "period": "2021",
+          "return_difference_pp": -8.374481129999943,
+          "equity_difference_USDT": -83.74481129999958,
+          "drawdown_difference_pp": 2.358381379051643,
+          "loss_difference_USDT": 412.1742367400001
+        },
+        {
+          "period": "2022",
+          "return_difference_pp": -22.53816606199986,
+          "equity_difference_USDT": -225.38166061999868,
+          "drawdown_difference_pp": 5.085632794061933,
+          "loss_difference_USDT": 747.8210864399989
+        },
+        {
+          "period": "2023",
+          "return_difference_pp": 59.36913152800015,
+          "equity_difference_USDT": 593.6913152800014,
+          "drawdown_difference_pp": -2.2563439223111423,
+          "loss_difference_USDT": 462.2951856999989
+        },
+        {
+          "period": "2024",
+          "return_difference_pp": 26.06218927400041,
+          "equity_difference_USDT": 260.6218927400041,
+          "drawdown_difference_pp": 1.044948323176751,
+          "loss_difference_USDT": 661.9214180599979
+        },
+        {
+          "period": "2025",
+          "return_difference_pp": -27.02113974400001,
+          "equity_difference_USDT": -270.2113974399999,
+          "drawdown_difference_pp": -0.3711721833205317,
+          "loss_difference_USDT": 223.0567675999996
+        },
+        {
+          "period": "2026",
+          "return_difference_pp": -23.620411348000175,
+          "equity_difference_USDT": -236.20411348000152,
+          "drawdown_difference_pp": 3.3813828731411917,
+          "loss_difference_USDT": 171.4773979200006
+        }
+      ]
+    },
+    {
+      "group": "D",
+      "label": "\u4e24\u5e01\u540c\u65f6",
+      "improved_periods": 3,
+      "worse_drawdown_periods": 4,
+      "worse_loss_periods": 7,
+      "sum_independent_equity_differences_USDT": -211.2895131333869,
+      "sum_independent_loss_differences_USDT": 5259.254376788593,
+      "differences": [
+        {
+          "period": "2020",
+          "return_difference_pp": -13.791859285859886,
+          "equity_difference_USDT": -137.9185928585989,
+          "drawdown_difference_pp": -4.687939404611065,
+          "loss_difference_USDT": 227.33408869500022
+        },
+        {
+          "period": "2021",
+          "return_difference_pp": -27.586950047279934,
+          "equity_difference_USDT": -275.8695004727995,
+          "drawdown_difference_pp": 6.185378163133059,
+          "loss_difference_USDT": 884.9190430187997
+        },
+        {
+          "period": "2022",
+          "return_difference_pp": -44.430323635199656,
+          "equity_difference_USDT": -444.3032363519967,
+          "drawdown_difference_pp": 20.17770820214293,
+          "loss_difference_USDT": 1275.592255518798
+        },
+        {
+          "period": "2023",
+          "return_difference_pp": 60.68309891160028,
+          "equity_difference_USDT": 606.8309891160031,
+          "drawdown_difference_pp": -2.2563439223111423,
+          "loss_difference_USDT": 801.4314542819984
+        },
+        {
+          "period": "2024",
+          "return_difference_pp": 4.882945763800393,
+          "equity_difference_USDT": 48.82945763800399,
+          "drawdown_difference_pp": 7.426333328822661,
+          "loss_difference_USDT": 769.9528631599983
+        },
+        {
+          "period": "2025",
+          "return_difference_pp": 12.893979839400203,
+          "equity_difference_USDT": 128.93979839400208,
+          "drawdown_difference_pp": 1.6776967130547007,
+          "loss_difference_USDT": 921.2077459559982
+        },
+        {
+          "period": "2026",
+          "return_difference_pp": -13.77984285980012,
+          "equity_difference_USDT": -137.798428598001,
+          "drawdown_difference_pp": -2.227301010280801,
+          "loss_difference_USDT": 378.8169261579999
+        }
+      ]
+    }
+  ]
+}

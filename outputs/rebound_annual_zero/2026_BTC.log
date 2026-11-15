@@ -281,3 +281,44 @@ DAY 2026 BTC whole 2026-09-29T08:00:00.000+08:00
 DAY 2026 BTC whole 2026-09-30T08:00:00.000+08:00
 DAY 2026 BTC whole 2026-10-01T08:00:00.000+08:00
 DAY 2026 BTC whole 2026-10-02T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-03T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-04T08:00:00.000+08:00
+BTC RAW_DAYS 160 LATEST 2026-10-04
+DAY 2026 BTC whole 2026-10-05T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-06T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-07T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-08T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-09T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-10T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-11T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-12T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-13T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-14T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-15T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-16T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-17T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-18T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-19T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-20T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-21T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-22T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-23T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-24T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-25T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-26T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-27T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-28T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-29T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-30T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-10-31T08:00:00.000+08:00
+DAY 2026 BTC whole 2026-11-01T00:00:00.000+08:00
+COMPLETE 2026 BTC STRICT CONTROL 540.045992222004
+COMPLETE 2026 BTC STRICT REBOUND 638.4516771040046
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/rebound_annual_zero/worker.py", line 35, in <module>
+    try:run(period,asset)
+        ^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/rebound_annual_zero/worker.py", line 30, in run
+    ref,eq=reference(period,asset);old=json.loads(ref.read_text());actual=json.loads((folder/'results/CONTROL_result.json').read_text());assert old['fee']==0 and old['configuration']['slip']==.0002 and not old['configuration']['funding'];assert old['trades']==actual['trades'],('baseline trade difference',period,asset);assert old['cash']==actual['cash']and old['ending_equity']==actual['ending_equity'];assert np.array_equal(np.load(eq)['marks'],marks['CONTROL']),('baseline minute equity difference',period,asset)
+                                                                                                                                                                                                                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('baseline trade difference', '2026', 'BTC')
