@@ -111,6 +111,9 @@ for scope,source in [('ANNUAL',trades),('RECENT',recenttrades)]:
  grouped={}
  for t in source:
   k=(t.get('period','NOV'),t.get('scene',''),t['asset'],t['fee_scenario'],t['group'],t['side']);grouped.setdefault(k,[]).append(t)
+ for r in rows if scope=='ANNUAL'else recentrows:
+  if r['asset']not in ['BTC','ETH']:continue
+  for side in ['LONG','SHORT']:grouped.setdefault((str(r.get('period','NOV')),r.get('scene',''),r['asset'],r['fee_scenario'],r['group'],side),[])
  for (period,scene,asset,fee,group,side),tt in sorted(grouped.items()):
   direction_rows.append(dict(scope=scope,period=period,scene=scene,asset=asset,fee_scenario=fee,group=group,side=side,closed_trades=len(tt),wins=sum(t['net']>0 for t in tt),losses=sum(t['net']<0 for t in tt),net_USDT=sum(t['net']for t in tt),total_profit_USDT=sum(max(0,t['net'])for t in tt),total_loss_USDT=-sum(min(0,t['net'])for t in tt)))
 csvwrite(O/'direction_summary.csv',direction_rows)

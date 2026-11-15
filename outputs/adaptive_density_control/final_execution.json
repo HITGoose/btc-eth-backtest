@@ -1,0 +1,16 @@
+[
+  {
+    "stage": "train_final",
+    "period": "2020",
+    "asset": "ETH",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T09:17:02.798898+00:00"
+  },
+  {
+    "stage": "train_final",
+    "period": "2020",
+    "asset": "BTC",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T09:20:09.491444+00:00"
+  }
+]
