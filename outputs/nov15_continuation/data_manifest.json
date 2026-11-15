@@ -1,0 +1,72 @@
+{
+  "signal_end_ms": 1794708900000,
+  "actual_execution_end_ms": 1794614400000,
+  "actual_execution_end_UTC": "2026-11-14T00:00:00+00:00",
+  "missing_execution_dates": [
+    "2026-11-14",
+    "2026-11-15"
+  ],
+  "sources": [
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=15m&startTime=1794527100000&endTime=1794708899999&limit=1500",
+      "SHA256": "c9ca8cfb09a84603f12b7bfcd51e84a836c0a73299e793eca4958f5902f1f9f2",
+      "file": "responses/d44e97f75f73df05beacecb4c7fbf2a6540b25e7321bcbf1b78a45bb26a698d4.json",
+      "acquired_UTC": "2026-11-15T02:16:01.491887+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1m&startTime=1794527940000&endTime=1794708899999&limit=1500",
+      "SHA256": "5fc954fceceb104a3a1bd94565c35d62ffe1887d9788b8a6748c264d38b735ea",
+      "file": "responses/2df6182e2d53de1fcb1991a75b708e874c6f1893280077cddc9faa7f0fa479ef.json",
+      "acquired_UTC": "2026-11-15T02:16:02.188487+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1m&startTime=1794617940000&endTime=1794708899999&limit=1500",
+      "SHA256": "b647dc85ea0fea36bee8c228847f5e8c960a62529396ab480200886ba742e075",
+      "file": "responses/491a3485a5d218be9a776be7dbab49a838849079b1fa8add8747872023503c97.json",
+      "acquired_UTC": "2026-11-15T02:16:02.689516+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=BTCUSDT&interval=1m&startTime=1794707940000&endTime=1794708899999&limit=1500",
+      "SHA256": "2729d0c3641b5386b9d8f8c2dbe31a463ef8facc19b0ad67e0fefdc7c239ef19",
+      "file": "responses/e192dcb743018fdfab799c7849d8fbd9f0207cd290cff23f77079714f0f69155.json",
+      "acquired_UTC": "2026-11-15T02:16:03.140091+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/fundingRate?symbol=BTCUSDT&startTime=1794528000000&endTime=1794708899999&limit=1000",
+      "SHA256": "1142ff478809979f3ab7d250bd255f3bb9df7219699bcc6fb703597b4eb0ea69",
+      "file": "responses/65c89dfe49f69b7c3b349ff103c79c83790b346da3321f11a75f59e411afa58a.json",
+      "acquired_UTC": "2026-11-15T02:16:03.468488+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=15m&startTime=1794527100000&endTime=1794708899999&limit=1500",
+      "SHA256": "fe297e7b3497ea96cef42977969025f760311983df109b49417a5ef1cb2b3453",
+      "file": "responses/a18d97555bf7db867f2283140a7060b9eea43e4d2ea6de56e8d94e8d20bba22f.json",
+      "acquired_UTC": "2026-11-15T02:16:03.790402+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=1m&startTime=1794527940000&endTime=1794708899999&limit=1500",
+      "SHA256": "17e4913cd69f9cc102aa392d78e75fb2b3b1fd5c57b4404928c501ca016f2ea7",
+      "file": "responses/9f81b5a3bb3664d8389ff378c7957c70196c330e03e8849ce017ad9e9a8b5aee.json",
+      "acquired_UTC": "2026-11-15T02:16:04.280319+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=1m&startTime=1794617940000&endTime=1794708899999&limit=1500",
+      "SHA256": "613791204ea78aeaeeafea2c3df601ffc34aca176bdea1c7b5166745a91b5173",
+      "file": "responses/8edc97bb01170fcc5537e5868f5fc17581d636c1367259490182cbf895c215f1.json",
+      "acquired_UTC": "2026-11-15T02:16:04.650297+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/klines?symbol=ETHUSDT&interval=1m&startTime=1794707940000&endTime=1794708899999&limit=1500",
+      "SHA256": "821a8343ac6d05c93af13b4d6c5f18b507da15db70ff04edae64bc8eb3bc86ce",
+      "file": "responses/3608cdad7a96110c786ff11be1fda7d75ddd67aade94d1116a6439e3ea681a69.json",
+      "acquired_UTC": "2026-11-15T02:16:04.896501+00:00"
+    },
+    {
+      "url": "https://www.binance.com/fapi/v1/fundingRate?symbol=ETHUSDT&startTime=1794528000000&endTime=1794708899999&limit=1000",
+      "SHA256": "7cddcff84843bdbfc910de82bb17276428d11ac622c61c44ea7c5a355febc340",
+      "file": "responses/85738a28b9e938520ce473b861be7b528e41075c3adc512bebe02763f00ede87.json",
+      "acquired_UTC": "2026-11-15T02:16:05.158023+00:00"
+    }
+  ],
+  "old_candles_overlap_exact": true
+}

@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/nov15_continuation/diagnose.py", line 63, in <module>
+    s.csv_dump(O/'short_conditions_15m.csv',allrows);s.csv_dump(O/'trades_since_Nov9.csv',trades);s.dump(O/'account_summary.json',summary);s.csv_dump(O/'post_exit_declines.csv',missed);print('DIAGNOSED',len(allrows),len(trades),len(missed))
+    ^^^^^^^^^^
+AttributeError: module 'shared' has no attribute 'csv_dump'

@@ -1,0 +1,58 @@
+[
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-13.zip.CHECKSUM",
+    "status": 200,
+    "SHA256": "2eb572690c2bb67ead6ac72c9cd9f933a83bb4730a3cb3be35ce9d7bdb838d6a",
+    "file": "1ba078dd95dd9ffb.raw",
+    "received_UTC": "2026-11-15T02:14:56.578394+00:00",
+    "body": "c139249f1112caf4e76cc6b7701b6a7db036dde47e01f03a3a346237835c09d9  BTCUSDT-trades-2026-11-13.zip\n"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-14.zip.CHECKSUM",
+    "status": 404,
+    "SHA256": "a5f809f2be7a4b694030f1c0dec4c0c2c942e9a6687f9bd47c22e8b170513927",
+    "file": "7a0b70ff63086c16.raw",
+    "received_UTC": "2026-11-15T02:14:56.471222+00:00",
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-14.zip.CHECKSUM</Key><RequestId>CH1FH2PCTZ3VXV02</RequestId><HostId>QmFHXB0qMnnDjf2Z/XrPcam9CV0Bzi61d4YJIuXUhWYWXK+MJEZqF39ow0+3EjiTnnygM5aE2EAIcPYPgbU/xonpbojktfK8</HostId></Error>"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-15.zip.CHECKSUM",
+    "status": 404,
+    "SHA256": "255f8c87db5b7e3a2c1676c338d7e90a5cff9bda9dbfab5af80f6f5a1844db18",
+    "file": "a436e823206e4780.raw",
+    "received_UTC": "2026-11-15T02:14:56.567582+00:00",
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-15.zip.CHECKSUM</Key><RequestId>CH1EJ79TPN7P0XSK</RequestId><HostId>7qS/vVKuDzCjrMw7hH6DkqvcOMzaSV4PswyKHtvfuvjtJtT/tkENSScze6Fb8/DH8y3ZBLE8Yzsl8RtMxNkcOoEKls0gZAqW</HostId></Error>"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-13.zip.CHECKSUM",
+    "status": 200,
+    "SHA256": "5ae3393b91476b90d6c3b2c1fcf35813016f797a5d2b922f76b799e226cc2799",
+    "file": "734d03e41eff543d.raw",
+    "received_UTC": "2026-11-15T02:14:56.432191+00:00",
+    "body": "bce086e4fdeab0104e3fd2d50f7167a4f57198fdb5a3482481b3a92b5f9096d8  ETHUSDT-trades-2026-11-13.zip\n"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-14.zip.CHECKSUM",
+    "status": 404,
+    "SHA256": "6f160d3402cb91ffd5c1a02f823454aa1dce26d753aeefdcefc658d4dbf1cd90",
+    "file": "43778b9c31e07ed6.raw",
+    "received_UTC": "2026-11-15T02:14:56.711480+00:00",
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-14.zip.CHECKSUM</Key><RequestId>CH19GFDDJ7HEN91Z</RequestId><HostId>1EhW9LuIKlOLrvQ/8XsTQEO5AlTyQDnI0pwJcedv02lNStcvtgDZdM20iH6JsChghcs/qFwtmdM=</HostId></Error>"
+  },
+  {
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-15.zip.CHECKSUM",
+    "status": 404,
+    "SHA256": "fe3ee02ac381526efcc3c185aa47b873b9a473a0bc934188ac9b4d5a2257b717",
+    "file": "33020a168ec30c60.raw",
+    "received_UTC": "2026-11-15T02:14:57.135896+00:00",
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-15.zip.CHECKSUM</Key><RequestId>ATNV11T7CZQT3V2F</RequestId><HostId>Tiyi0QMV6jzTpXG5xBxOqueCHS3jThpqwraeO+5VOBbaQzKb1MDBaOkE4mCObRsJ+6GT+cm5kX5ZXN8iyldEw37Tf1Nsg5go</HostId></Error>"
+  },
+  {
+    "url": "https://www.binance.com/fapi/v1/time",
+    "status": 200,
+    "SHA256": "964a1a15cb62a0e7c4f2cef1f972ef70e66566913cf4eb1d2e4ad5f580da28fa",
+    "file": "29e3cae60364485e.raw",
+    "received_UTC": "2026-11-15T02:14:56.860497+00:00",
+    "body": "{\"serverTime\":1794708896790}"
+  }
+]
