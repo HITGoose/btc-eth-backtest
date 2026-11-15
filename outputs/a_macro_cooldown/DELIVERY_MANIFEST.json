@@ -1,0 +1,1068 @@
+{
+  "created_UTC": "2026-11-15T16:18:43.959828+00:00",
+  "accounts": 84,
+  "new_accounts": 56,
+  "reused_A_accounts": 28,
+  "files": {
+    "trades.csv": {
+      "bytes": 1719030,
+      "SHA256": "8b8d4f9ffe10f8fd9ed91171cf920f8e05840d763be6f44a48b360c445f1a14c"
+    },
+    "run.py": {
+      "bytes": 4894,
+      "SHA256": "968f5e31d9fe2528d5b3b5c1eae6d962b524df8cf17af3cc745fe2fcd19f67db"
+    },
+    "2021_BTC.log": {
+      "bytes": 436,
+      "SHA256": "ea50f9c69d47caed7fbfb57e637ed82fdc9158f63e127146161c2faa03f9f9f0"
+    },
+    "EXPERIMENT.md": {
+      "bytes": 2060,
+      "SHA256": "0277a6b3c6a54ccf19634ad1f873bf7495fcf78c40f5ae96004b7e801c0f5967"
+    },
+    "followup_summary.csv": {
+      "bytes": 539,
+      "SHA256": "9808b78ea6e6dc12ee3ccf1ac13cf276596979e8492b03b63bf83b8ffb695c1e"
+    },
+    "CONCLUSION.md": {
+      "bytes": 7435,
+      "SHA256": "bbd4470831517734c06c5ff13e2dc5ec4e50a79a1a20790d2b0d172f82bb2823"
+    },
+    "calendar.json": {
+      "bytes": 58645,
+      "SHA256": "6f2fc408184a4e3b56980c52eb00ba2b6f0ade6418f2764835f8fd95ca104912"
+    },
+    "report.py": {
+      "bytes": 12019,
+      "SHA256": "aff3ee2980b2ab75554968ebd6f64c443bc867d40cc30cc659796fb90838e08d"
+    },
+    "pipeline.log": {
+      "bytes": 1317,
+      "SHA256": "b9fcf8ebc9be8a85673d9380e5f6201b000cd1ed364175e24d9abb3a3f687032"
+    },
+    "annual.csv": {
+      "bytes": 31098,
+      "SHA256": "83e48af8811edf41026aeb2298bd1649bc6b0b4851ad7feb241e98c45bddee7e"
+    },
+    "2020_BTC.log": {
+      "bytes": 442,
+      "SHA256": "60ce32cc66199d729396044f715f4c6eb10ed6e6b15336218563e8f9ad1224ee"
+    },
+    "2024_ETH.log": {
+      "bytes": 439,
+      "SHA256": "5f56b126b9454f02173df643cd1441842aedbb7760bed1bcf97c822f6ec401d7"
+    },
+    "totals.csv": {
+      "bytes": 836,
+      "SHA256": "959230090d3a1202f46f26216e3d8365eade7e009e6b5846f9aa565bfadb16b0"
+    },
+    "2021_ETH.log": {
+      "bytes": 434,
+      "SHA256": "6d1a6feac269283532f7fdac4835e6331e23bbb0e82a3048abb0f413b2ec4483"
+    },
+    "trade_matching.csv": {
+      "bytes": 1226866,
+      "SHA256": "b122d0855ef10e0d38e70067738ad8d2674421d910eaf2ab7b8a490667eba6d1"
+    },
+    "followup_trades.csv": {
+      "bytes": 10423,
+      "SHA256": "132bbb6cae5520af34c7c3ebf4ea9f206509f01bc44df09077007c2bee5b2ad1"
+    },
+    "incomplete.csv": {
+      "bytes": 11,
+      "SHA256": "845f8526eb1b99b597a31cb15f2ecd9377e6b73bf5bb40efa7a95131994d4e22"
+    },
+    "2023_ETH.log": {
+      "bytes": 442,
+      "SHA256": "7ca8465eec56d186975456070fd91165c77a46cb94532a8e1db7b842957def49"
+    },
+    ".gitattributes": {
+      "bytes": 8,
+      "SHA256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    "RUN.md": {
+      "bytes": 1579,
+      "SHA256": "3bdd2a4b8d6ed4b2cab1c5c8e4225108fcb62de6940493e22715d1dd220bd417"
+    },
+    "2024_BTC.log": {
+      "bytes": 440,
+      "SHA256": "15864c524fafc02dfcb41cbfc93f5ce821b0c80f80112bd7abbb6e46ad7b050e"
+    },
+    "signal_counts.csv": {
+      "bytes": 977,
+      "SHA256": "77ca2d23350194c0364843e17fc5726466c530ddd43eac0108281b3582e74f28"
+    },
+    "pipeline.py": {
+      "bytes": 743,
+      "SHA256": "4336ce5a54b3e17b9be1a706d075e35886486b5403a824d7eb2817f51ccd19f7"
+    },
+    "2025_BTC.log": {
+      "bytes": 442,
+      "SHA256": "b03633f52d2ac8bdfe8de2b039eda4038bc005ffbae3bee4e12ec01bc3fe6841"
+    },
+    "checks.json": {
+      "bytes": 332,
+      "SHA256": "e581693070cd40e0c6a480d5a6b87becf8355fe94f3597b1b4d1704d216d8184"
+    },
+    "2025_ETH.log": {
+      "bytes": 434,
+      "SHA256": "d1f92571b414e8e26eeb3162d03c6287e485c3a57403ef79c00c969db46428d9"
+    },
+    "2026_ETH.log": {
+      "bytes": 440,
+      "SHA256": "5d9617bb19cde55c555c1f2881a83d299705245de62cb04e0b4ebf0f1afa2260"
+    },
+    "2020_ETH.log": {
+      "bytes": 436,
+      "SHA256": "ce73ce09c8b45ec9ff1ff3f71607f61217867dff659efc7d8fff4347cdf93331"
+    },
+    "ISSUES.md": {
+      "bytes": 1120,
+      "SHA256": "7a441c3a380baac11aa271135f62efcdeda7fe31dd39347d5fed0a738a4a4dc4"
+    },
+    "finalize.py": {
+      "bytes": 3230,
+      "SHA256": "186977eb0f0e1f680748a8d99f2bb6fe14d87c66ffa27ab697c792afe1b2b776"
+    },
+    "2023_BTC.log": {
+      "bytes": 446,
+      "SHA256": "e78b4df70161ee7282bf602267176d4738b213606aa555607d2b0846e88032de"
+    },
+    "2022_BTC.log": {
+      "bytes": 440,
+      "SHA256": "8e0adc681d12d0d582708bb27d0fbf59d1a946be7c117861c58ad47529f100a9"
+    },
+    "2026_BTC.log": {
+      "bytes": 438,
+      "SHA256": "e861def5ab300bf44291d854bc19b078c85742c5d8ff503c70c7116cc72cdb64"
+    },
+    "2022_ETH.log": {
+      "bytes": 438,
+      "SHA256": "c2b107ffce5e02f7b7523ad8fd60287b1891f11790c8c97c0e380471a03cea24"
+    },
+    "execution_status.json": {
+      "bytes": 982,
+      "SHA256": "fe7e1788012aa973454040f9f653b8fa8ce8b0dafe3afced734117921511dbba"
+    },
+    "account_difference_reconciliation.csv": {
+      "bytes": 5779,
+      "SHA256": "1ae699f0287673464324b4b58a1cc4093fabdd6e49cf12d99b4c4e0b07ed8a6a"
+    },
+    "signal_attribution.csv": {
+      "bytes": 9530,
+      "SHA256": "c088b6b8c02f52920e76b82ffa958148b98568349566890768a23b0e8889b7c1"
+    },
+    "checks.py": {
+      "bytes": 1738,
+      "SHA256": "7f623086e2ac7f5207e808383e5a166c3296e820f5b2ec17e23b8684b8c1fece"
+    },
+    "cash_checks.csv": {
+      "bytes": 6655,
+      "SHA256": "541e6556c45ae3607e8bf2b2f23b062792ee925bfe2098dff6d08e57428954c4"
+    },
+    "raw_emergency_proof/2020-03-03.html": {
+      "bytes": 79840,
+      "SHA256": "fe7f2a1f98b6f9305c591bcdb4ae6296812b8f92ca19f35b7e26815a5f0eac7c"
+    },
+    "raw_emergency_proof/2020-03-15.html": {
+      "bytes": 84216,
+      "SHA256": "7803bc6dbcac7c139ae134887b3a7a8f81b44d3b6fea18a7094c5a3e15cf350e"
+    },
+    "runs/2023/BTC/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "4db6771879210070d00f060daab518ae50b175720eba9f519440b27224cf0612"
+    },
+    "runs/2023/BTC/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 239872,
+      "SHA256": "1d00f8cc2b9031f945ad047fa9ade57ec71766ea183fdc91f453383c7e4f8d95"
+    },
+    "runs/2023/BTC/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 239874,
+      "SHA256": "6b3fc57474785c44d9c607726efbb35fd6eb3a337b3de132d9db8c435da5bd56"
+    },
+    "runs/2023/BTC/signals.json": {
+      "bytes": 138672,
+      "SHA256": "8aee0fe859920020e3e9e74887453d72c6314ddf36c29c17f8e5bcd42acaf399"
+    },
+    "runs/2023/BTC/A_conditions.csv": {
+      "bytes": 733716,
+      "SHA256": "91dc1656cdcef5aa704a5c0ac7a08fa6cbbc49bbd5f85d52033dc9d5987997e2"
+    },
+    "runs/2023/BTC/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2023/BTC/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 951100,
+      "SHA256": "8d7ea4bed3e2ce7a4ee48bd86bd03cca0c7017769a9b4dee8283390582ae3623"
+    },
+    "runs/2023/BTC/ZERO_A_MACRO_60_result.json": {
+      "bytes": 229559,
+      "SHA256": "d23938d0173d49186e04722981a8d2231cd25179bc44ba6c9fd9ef7da6a2fa6d"
+    },
+    "runs/2023/BTC/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 948061,
+      "SHA256": "e2e32d17e461c95d9d9aa95e84853c8bc58ccf3d478e260ced4d4b679777e43b"
+    },
+    "runs/2023/BTC/ZERO_A_equity.npz": {
+      "bytes": 948061,
+      "SHA256": "e2e32d17e461c95d9d9aa95e84853c8bc58ccf3d478e260ced4d4b679777e43b"
+    },
+    "runs/2023/BTC/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 951100,
+      "SHA256": "8d7ea4bed3e2ce7a4ee48bd86bd03cca0c7017769a9b4dee8283390582ae3623"
+    },
+    "runs/2023/BTC/ZERO_A_result.json": {
+      "bytes": 229505,
+      "SHA256": "60180c2d9bb6a1a487aef958a248524315bd76adc14bffee317dac4aae87ae23"
+    },
+    "runs/2023/BTC/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 948061,
+      "SHA256": "e2e32d17e461c95d9d9aa95e84853c8bc58ccf3d478e260ced4d4b679777e43b"
+    },
+    "runs/2023/BTC/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 239820,
+      "SHA256": "1ec8256ed8d1ed846bbc06e2288146d0da1b6802ea2d74d4f2fc9e003da32381"
+    },
+    "runs/2023/BTC/ZERO_A_FOMC_60_result.json": {
+      "bytes": 229557,
+      "SHA256": "03c0c16958a92ddd46770ce1f7c0e530964afbd0ccecc09b36a267a91589ff29"
+    },
+    "runs/2023/BTC/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 951100,
+      "SHA256": "8d7ea4bed3e2ce7a4ee48bd86bd03cca0c7017769a9b4dee8283390582ae3623"
+    },
+    "runs/2023/ETH/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "394a32cc3a88a336b15eae2e8ca2cf2e1c0c10bb5ec879b134adc86de3b6673f"
+    },
+    "runs/2023/ETH/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 209018,
+      "SHA256": "65b6b491e186190bc7c84d925f71f6d1974a972bc8ab837d57848f8a49a856b2"
+    },
+    "runs/2023/ETH/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 209066,
+      "SHA256": "c208aeaff1518569019db59695bb2b2264097186b66c8291bb2860a7bca3a5e9"
+    },
+    "runs/2023/ETH/signals.json": {
+      "bytes": 104876,
+      "SHA256": "80c0445940d2d180c3e333bdaba422ad0308402b6b336a9e6e39b8a65606ded4"
+    },
+    "runs/2023/ETH/A_conditions.csv": {
+      "bytes": 604594,
+      "SHA256": "b38bf41de330bd503a110d4091eba9858b7a75473d7f4693d1d5fe1e7adbb1fc"
+    },
+    "runs/2023/ETH/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2023/ETH/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 614461,
+      "SHA256": "d9295dad3f21627aea985c07758cba298480741e8764d8d8e60e3d2c10920d86"
+    },
+    "runs/2023/ETH/ZERO_A_MACRO_60_result.json": {
+      "bytes": 199454,
+      "SHA256": "6d9313696460ba9323f886cdafc6dc34b7dea6ee7820d06b7bae3563c1589d3c"
+    },
+    "runs/2023/ETH/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 616391,
+      "SHA256": "e33f0031aa08d03f2652966723834338efb92c983fd8d34cfa362258504fba24"
+    },
+    "runs/2023/ETH/ZERO_A_equity.npz": {
+      "bytes": 624524,
+      "SHA256": "bd88b32e6868816c5c76203ef4350880da87350e8dc9a1d453d7cc6b3c7404a1"
+    },
+    "runs/2023/ETH/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 601773,
+      "SHA256": "fe4bf89150c0fb6b43e6f1bf8bfb01900dd19114a63be0d13ebcb3b4683fd00d"
+    },
+    "runs/2023/ETH/ZERO_A_result.json": {
+      "bytes": 200666,
+      "SHA256": "49bb8b58d24f28441d20058d4b552c89fc8758d8bcbd19dff6494049354dbbfc"
+    },
+    "runs/2023/ETH/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 614296,
+      "SHA256": "8143a23c92cf2de1b6ad5c4a82c625e89c57c5dd39d445a522274e77800b0b99"
+    },
+    "runs/2023/ETH/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 210841,
+      "SHA256": "52332d0ce1b25b6a901ec398a4216f38465fb52e8bf3ec52d63ae47ad3f6c7f8"
+    },
+    "runs/2023/ETH/ZERO_A_FOMC_60_result.json": {
+      "bytes": 199476,
+      "SHA256": "915a5175385bafe7852ddfa422f319d8989df996d55b2901e870f8a07c44923d"
+    },
+    "runs/2023/ETH/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 600462,
+      "SHA256": "526777605b3083f0d343cc9e4097f4dd78383a5e497fd26c9bad85a0f193d22c"
+    },
+    "runs/2022/BTC/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "8f88ebb736c8730c5d0be83fec9699b57db86d40ba5adf8df7d847f969330152"
+    },
+    "runs/2022/BTC/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 175953,
+      "SHA256": "0127d376a45c9f5318abcc59406198b716222b471e371febefc2325a4f250b57"
+    },
+    "runs/2022/BTC/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 173948,
+      "SHA256": "1121454e1b17cdc16d48f5313d03293e3279f2aded7c255ba79c040d377fd058"
+    },
+    "runs/2022/BTC/signals.json": {
+      "bytes": 73712,
+      "SHA256": "5fddd070dfb0f52960e7967fb65e39d5f2cbdbd75bc3bbd309e03247d746adee"
+    },
+    "runs/2022/BTC/A_conditions.csv": {
+      "bytes": 417179,
+      "SHA256": "1e85111fea573b6b712f0f0e70c6da2307d46471f5422daf3d0815c8a8b4b6dd"
+    },
+    "runs/2022/BTC/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2022/BTC/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 512187,
+      "SHA256": "742adb43aa42725fe7097582fdf00829709d81c0c69b47757a18e63daebc39c5"
+    },
+    "runs/2022/BTC/ZERO_A_MACRO_60_result.json": {
+      "bytes": 166256,
+      "SHA256": "5912e6150003d3c19c717f8dfeaa33040b30270a88775d089a3c493b41e6896b"
+    },
+    "runs/2022/BTC/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 513677,
+      "SHA256": "3564b6a57ddae05d9299c70426076ceb4f8e9012e32db8693bb186acd7e27d7d"
+    },
+    "runs/2022/BTC/ZERO_A_equity.npz": {
+      "bytes": 507086,
+      "SHA256": "05acb2adbf7b5c754c5669bb502ed44ee0d4b2fcf1fa6e6745e9dba07fde0757"
+    },
+    "runs/2022/BTC/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 511423,
+      "SHA256": "7383c11d564cd500fd679fda775aa1da3ff63870215bd791a44d9f1738092f33"
+    },
+    "runs/2022/BTC/ZERO_A_result.json": {
+      "bytes": 169275,
+      "SHA256": "7597929a690245afb543a4442c6d672ddfae101e78da9255110acc4a978fbe4b"
+    },
+    "runs/2022/BTC/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 513632,
+      "SHA256": "50c88a2e6fb984eab52cd78799a3a0606466f7c00355d43fc37eefebfff7b762"
+    },
+    "runs/2022/BTC/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 177457,
+      "SHA256": "c207d1e3d555162783ed0b9eaf2a8d453266380a9f8740d93bc747c4ca376e28"
+    },
+    "runs/2022/BTC/ZERO_A_FOMC_60_result.json": {
+      "bytes": 167788,
+      "SHA256": "74cc8c92029630edd3b4ce546c626b9bb519d192f23f05302eb60d8b6b3415fd"
+    },
+    "runs/2022/BTC/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 510828,
+      "SHA256": "b500b0f9b64d0158aef30b876169c480e35fa862dd82fa6600c47756a4ae6126"
+    },
+    "runs/2022/ETH/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "86fae9ba60ba6d7b63597964c7ea5f8768db40a226ad5eff76c89bffcb851889"
+    },
+    "runs/2022/ETH/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 107512,
+      "SHA256": "de1d3cd727e5756922f4c43ac82601acda40b7604adf62e68d5c42efc91a6986"
+    },
+    "runs/2022/ETH/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 107514,
+      "SHA256": "bddb0a9ad270050af32e309e68a2a1375441394eda4b04b2fad5cfe4d2c804a2"
+    },
+    "runs/2022/ETH/signals.json": {
+      "bytes": 37585,
+      "SHA256": "d7c5d692b89ef6c36f1772ee1c04d696c375f786343642a389634be6c1a47cf0"
+    },
+    "runs/2022/ETH/A_conditions.csv": {
+      "bytes": 239202,
+      "SHA256": "358483abd65dc9b69cf05cda2f30eb552287e48a077b69a57126e6ba56f3c7a8"
+    },
+    "runs/2022/ETH/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2022/ETH/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 223865,
+      "SHA256": "eb93eed93493eaceee94ae8e351c2a60168cb00dc87ea9b143118d9e8b50ae91"
+    },
+    "runs/2022/ETH/ZERO_A_MACRO_60_result.json": {
+      "bytes": 102182,
+      "SHA256": "7447bb5d3336f19bd6e65f3b052fe5f54dde3e9d504d351ed0d8058f5c707eaf"
+    },
+    "runs/2022/ETH/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 230066,
+      "SHA256": "128b82b2994069b37a36d8ada8111b7bb7655595e098a9d4ebc9148ea9536891"
+    },
+    "runs/2022/ETH/ZERO_A_equity.npz": {
+      "bytes": 226424,
+      "SHA256": "5235f2b0406a24b011a5ad3bf3c253a92b376e67f25a93e049d032f6644e6f4f"
+    },
+    "runs/2022/ETH/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 227667,
+      "SHA256": "b0fd811e85921d8b95c792e3e8c70e568b66711caec7c9cdadde59f582d5a47b"
+    },
+    "runs/2022/ETH/ZERO_A_result.json": {
+      "bytes": 103671,
+      "SHA256": "1020d4f3f6afe7df88e02a77a5e51fcb578488d382f4c13f38e8ded54f7adf02"
+    },
+    "runs/2022/ETH/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 230066,
+      "SHA256": "128b82b2994069b37a36d8ada8111b7bb7655595e098a9d4ebc9148ea9536891"
+    },
+    "runs/2022/ETH/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 109081,
+      "SHA256": "c83b7b56b01d80fdd9bb345830cfce088579c7d5cd2642ab326c94b74bb3a6f7"
+    },
+    "runs/2022/ETH/ZERO_A_FOMC_60_result.json": {
+      "bytes": 102180,
+      "SHA256": "8277b080d1480897aa947895c86add488e585e53bb8c2d8ff2fff403db986003"
+    },
+    "runs/2022/ETH/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 227667,
+      "SHA256": "b0fd811e85921d8b95c792e3e8c70e568b66711caec7c9cdadde59f582d5a47b"
+    },
+    "runs/2025/BTC/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "2b01c5e66c1339a0e4882f29ec597c9887699936e8bf5f768fb349dc30ebd4d5"
+    },
+    "runs/2025/BTC/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 186978,
+      "SHA256": "b59608101237212a28d07c64bc8ee9ea97cd9aa629f592c19f19ea6ef7ae21ac"
+    },
+    "runs/2025/BTC/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 186980,
+      "SHA256": "f7f4a8473e0de21aae17f92a1599b6225f9571174fbc6f1e2b72f8d2535a2e20"
+    },
+    "runs/2025/BTC/signals.json": {
+      "bytes": 107823,
+      "SHA256": "3a2f19bdc3d693b5c88e9c2d1af8f2ba41dd264caca02c7b1781b29444aa0145"
+    },
+    "runs/2025/BTC/A_conditions.csv": {
+      "bytes": 575070,
+      "SHA256": "6be87f0d839bacb16c9886ecf8db9a616a26dd420d9f3ddb06af2c9bc25f2bb2"
+    },
+    "runs/2025/BTC/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2025/BTC/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 845425,
+      "SHA256": "3f2036ee53e1068867fd88381b4190cb4ef6866cd212e6a83914c748f381ce35"
+    },
+    "runs/2025/BTC/ZERO_A_MACRO_60_result.json": {
+      "bytes": 179517,
+      "SHA256": "ac689ae76488c12e0a15b72fac1858e504de3176208b7964cd8bfa1103846413"
+    },
+    "runs/2025/BTC/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 856071,
+      "SHA256": "97ecac50ee26fc9d5e958a4fe4369840bc4d4051abb2169784c136403b1d1739"
+    },
+    "runs/2025/BTC/ZERO_A_equity.npz": {
+      "bytes": 846455,
+      "SHA256": "4c598e7f932634b3acba1ce7b56db8055e8cdf3a01aec39fa6982f4d0b9a9fed"
+    },
+    "runs/2025/BTC/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 864656,
+      "SHA256": "ddf733e9ffd5394c6965272614895a133ba937fbedd8dd61637467d958d8a831"
+    },
+    "runs/2025/BTC/ZERO_A_result.json": {
+      "bytes": 178898,
+      "SHA256": "9e7ac4f0c83e7358381daa59f97e1d79aefa79d97785337a2d5c8d22e9704287"
+    },
+    "runs/2025/BTC/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 856071,
+      "SHA256": "97ecac50ee26fc9d5e958a4fe4369840bc4d4051abb2169784c136403b1d1739"
+    },
+    "runs/2025/BTC/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 186471,
+      "SHA256": "0d3b671030a116f568aceac093536a8a5d5ddb25e39d339c0fc5a3edb5ebbd5e"
+    },
+    "runs/2025/BTC/ZERO_A_FOMC_60_result.json": {
+      "bytes": 179515,
+      "SHA256": "698645ee5acf2acc7c12e5468b2e2f9e465525d9c6ccf793eb67254f07b576dd"
+    },
+    "runs/2025/BTC/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 864656,
+      "SHA256": "ddf733e9ffd5394c6965272614895a133ba937fbedd8dd61637467d958d8a831"
+    },
+    "runs/2025/ETH/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "eed18ac3b4a278f19989ebf6624a710ed0a53dde60f11082f4ab1c66330ba4ec"
+    },
+    "runs/2025/ETH/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 165614,
+      "SHA256": "70f208bf92159c1bf6a9bb6ae5859708eeeec327ef2c5de2177820836eaf0081"
+    },
+    "runs/2025/ETH/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 165616,
+      "SHA256": "1ba24a18b92469f21c1883f22719aae2e6cc91d8f6907378c004db8abc8a248a"
+    },
+    "runs/2025/ETH/signals.json": {
+      "bytes": 55976,
+      "SHA256": "86224d2d1c393173e516c3ba92c444fc84edb0033628d7c15c5417d73a839e0c"
+    },
+    "runs/2025/ETH/A_conditions.csv": {
+      "bytes": 330359,
+      "SHA256": "593d6a7325bf1cd6d92b34bc45df6621433c4fd8ec59a9f0f85e9cef1265fdee"
+    },
+    "runs/2025/ETH/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2025/ETH/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 323192,
+      "SHA256": "6d14329e1870679d57562bb1f1dd31edab2000d238fdb83ca0d86e9be6ec36b1"
+    },
+    "runs/2025/ETH/ZERO_A_MACRO_60_result.json": {
+      "bytes": 157505,
+      "SHA256": "f69057535c6f42dcdf05198ffd0a7e9bfc662236ddc325496f7c7294e1377371"
+    },
+    "runs/2025/ETH/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 317173,
+      "SHA256": "aa2c696518c8e31fb63fab5f6c8ae614805857b804a971f96a4255c1fbe091b2"
+    },
+    "runs/2025/ETH/ZERO_A_equity.npz": {
+      "bytes": 330720,
+      "SHA256": "73f9360e2dfff3bb5500c9bff4a89e54ccd0d201e99c2037d5343c37ce7a3a52"
+    },
+    "runs/2025/ETH/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 316608,
+      "SHA256": "868ce89015b59154f067fd3cbe80efdc5847a9390a99d1cad4206edc4e4949a2"
+    },
+    "runs/2025/ETH/ZERO_A_result.json": {
+      "bytes": 158891,
+      "SHA256": "88666de4fb9727e394baac38608641478f8687e528d13e4c72769841d8641a02"
+    },
+    "runs/2025/ETH/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 317173,
+      "SHA256": "aa2c696518c8e31fb63fab5f6c8ae614805857b804a971f96a4255c1fbe091b2"
+    },
+    "runs/2025/ETH/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 167260,
+      "SHA256": "aaddf6d082462b1253109d5d5df5bb8d049127c70532cb19550850e4c7634024"
+    },
+    "runs/2025/ETH/ZERO_A_FOMC_60_result.json": {
+      "bytes": 157503,
+      "SHA256": "a2b9b7e9c580034ce38ea62e3d994fdd8e87dd43b871c0dcabf1476014a472b7"
+    },
+    "runs/2025/ETH/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 316608,
+      "SHA256": "868ce89015b59154f067fd3cbe80efdc5847a9390a99d1cad4206edc4e4949a2"
+    },
+    "runs/2024/BTC/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "a26710856cf6545a34de2f86f7cbfa71fa9afff9f321ee93bc62d2ef4885eec2"
+    },
+    "runs/2024/BTC/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 200136,
+      "SHA256": "afe991ca4f23646aa166372e824281e36f8d433bef6683cf85d51f33b0bc431d"
+    },
+    "runs/2024/BTC/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 200138,
+      "SHA256": "783f4d04169451cc87a003acc88c6a20bc0df605a89130a54b9727c4059b26a6"
+    },
+    "runs/2024/BTC/signals.json": {
+      "bytes": 84998,
+      "SHA256": "59f70da3d89904cd44983d919fd996b23c472749784cc2ea9b9e93df2adda2e5"
+    },
+    "runs/2024/BTC/A_conditions.csv": {
+      "bytes": 504530,
+      "SHA256": "3d1cae4e374a6d25e6d6e20cb07f5a2e8ed3f16df55e612d7e0c4f977a04ba06"
+    },
+    "runs/2024/BTC/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2024/BTC/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 687288,
+      "SHA256": "fdd3e43fdcbd685750798a29ea772628f63f5c200a0cc85e6f240fe2592ace33"
+    },
+    "runs/2024/BTC/ZERO_A_MACRO_60_result.json": {
+      "bytes": 190342,
+      "SHA256": "49a6074aef1a09e5672ede06ced8255b94c65852adc0501fcdb78be87929a8d5"
+    },
+    "runs/2024/BTC/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 688737,
+      "SHA256": "9301bc6b168564d1e510b25eb427f4f0690ce09c70c0d3704b06e65c6b1f18a0"
+    },
+    "runs/2024/BTC/ZERO_A_equity.npz": {
+      "bytes": 688737,
+      "SHA256": "9301bc6b168564d1e510b25eb427f4f0690ce09c70c0d3704b06e65c6b1f18a0"
+    },
+    "runs/2024/BTC/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 687288,
+      "SHA256": "fdd3e43fdcbd685750798a29ea772628f63f5c200a0cc85e6f240fe2592ace33"
+    },
+    "runs/2024/BTC/ZERO_A_result.json": {
+      "bytes": 190288,
+      "SHA256": "dd6448e685f6195e9ba4be66e01dca44ba6fdc2568ab6baed8a64f000d1cfa38"
+    },
+    "runs/2024/BTC/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 688737,
+      "SHA256": "9301bc6b168564d1e510b25eb427f4f0690ce09c70c0d3704b06e65c6b1f18a0"
+    },
+    "runs/2024/BTC/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 200084,
+      "SHA256": "74d167b6b3200aaec61842cadf9b5e0d3f8f2e0329e9d02bd9bf194f44e6759a"
+    },
+    "runs/2024/BTC/ZERO_A_FOMC_60_result.json": {
+      "bytes": 190340,
+      "SHA256": "4089e00919191ac13c24476b0df0599ec926084d52a5b3a9fae1001cb0c25660"
+    },
+    "runs/2024/BTC/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 687288,
+      "SHA256": "fdd3e43fdcbd685750798a29ea772628f63f5c200a0cc85e6f240fe2592ace33"
+    },
+    "runs/2024/ETH/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "0e764e67ce211d9fb00f947e4909ce06bc5204eab370817bf716cc8e2f44ad96"
+    },
+    "runs/2024/ETH/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 153465,
+      "SHA256": "c875c484e2412014a43f164526923a6b039904380adcd441e7436141d4806c9e"
+    },
+    "runs/2024/ETH/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 153440,
+      "SHA256": "a20902ca962eeecc6d83cbdcaf84d6939808eb81f8bcf39582842aedc410e4bf"
+    },
+    "runs/2024/ETH/signals.json": {
+      "bytes": 55700,
+      "SHA256": "989c3a486c7c2ef3b9eda4bef0e708d58f5e0fab7e10cead3a2831bdd7b2c43f"
+    },
+    "runs/2024/ETH/A_conditions.csv": {
+      "bytes": 367079,
+      "SHA256": "80b1f059fac4ac3a22b1f364beb2b4af2b90254cec9e7e1c030e2534d66e4fe1"
+    },
+    "runs/2024/ETH/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2024/ETH/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 359872,
+      "SHA256": "772bf66b2e3107f87565f0b9d1df99f48a65cea22a6bfc5bd9b3d03195489944"
+    },
+    "runs/2024/ETH/ZERO_A_MACRO_60_result.json": {
+      "bytes": 145579,
+      "SHA256": "73fa077e080f8928142ae44e7016ef1577f5bf105d94bb71b7f28abd9d261f11"
+    },
+    "runs/2024/ETH/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 356970,
+      "SHA256": "7dc1eb5038eb0d9f7fd098574593e0efc6fdeafc05f4a14f9718a2d47517a699"
+    },
+    "runs/2024/ETH/ZERO_A_equity.npz": {
+      "bytes": 356970,
+      "SHA256": "7dc1eb5038eb0d9f7fd098574593e0efc6fdeafc05f4a14f9718a2d47517a699"
+    },
+    "runs/2024/ETH/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 359872,
+      "SHA256": "772bf66b2e3107f87565f0b9d1df99f48a65cea22a6bfc5bd9b3d03195489944"
+    },
+    "runs/2024/ETH/ZERO_A_result.json": {
+      "bytes": 145457,
+      "SHA256": "4440eac22a9a8ef537915e7b43d9eb96830b349713972df602d939f070d04c45"
+    },
+    "runs/2024/ETH/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 357178,
+      "SHA256": "79ccf71df820a4e64a33e4092767738b71745fe7da09f40901a6ff93d6554120"
+    },
+    "runs/2024/ETH/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 153413,
+      "SHA256": "301b4b85cc108d12a54ecf741c69f16ba118d408b4129d79d91dc0f638f534da"
+    },
+    "runs/2024/ETH/ZERO_A_FOMC_60_result.json": {
+      "bytes": 145509,
+      "SHA256": "dcf9a9ae8e22408985fd771d9be88b2edb555321aa285df8cc49f1e6c94e4d74"
+    },
+    "runs/2024/ETH/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 359887,
+      "SHA256": "9e988c7baaaf3fd9c85d469aed5014b852968869e07eb6af0daca0612b20a144"
+    },
+    "runs/2021/BTC/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "7a8c2dd3505170bdee122f937055f0d8ec8b60bf9058f8abbf1748a2b3d5f5a5"
+    },
+    "runs/2021/BTC/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 81801,
+      "SHA256": "bfae35848adb1882b962bfd8e08539c66ad52bc8003625d1aba2d235be1eaf98"
+    },
+    "runs/2021/BTC/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 81803,
+      "SHA256": "df2c6245fd44b42072b3b54cf2dfba9e6c6f337b2a71b899e782864e833b69b0"
+    },
+    "runs/2021/BTC/signals.json": {
+      "bytes": 16313,
+      "SHA256": "8b5dc711284719ac25cb7dc27696862e377509775c5b3894b68c279720b50ccb"
+    },
+    "runs/2021/BTC/A_conditions.csv": {
+      "bytes": 142796,
+      "SHA256": "383fcb5039d88cb0aba68e65ab9e1045ba021b6205aecffd3505491d6bd92eeb"
+    },
+    "runs/2021/BTC/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2021/BTC/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 173847,
+      "SHA256": "9de748fe6b5c9a2af1965708e3b6341eed899c3b6426f52beeedded5de96901b"
+    },
+    "runs/2021/BTC/ZERO_A_MACRO_60_result.json": {
+      "bytes": 77371,
+      "SHA256": "9bc6fb2818a4e13783fd359d343aebb2c252ae6ccdfd899fec5773ebab432fcf"
+    },
+    "runs/2021/BTC/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 177230,
+      "SHA256": "4e58962d184e4308b1e2df9e6cebfab902c7c362748e9ca21ef7667904d09fe8"
+    },
+    "runs/2021/BTC/ZERO_A_equity.npz": {
+      "bytes": 177230,
+      "SHA256": "4e58962d184e4308b1e2df9e6cebfab902c7c362748e9ca21ef7667904d09fe8"
+    },
+    "runs/2021/BTC/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 173847,
+      "SHA256": "9de748fe6b5c9a2af1965708e3b6341eed899c3b6426f52beeedded5de96901b"
+    },
+    "runs/2021/BTC/ZERO_A_result.json": {
+      "bytes": 77317,
+      "SHA256": "eb5419736c570476c7c76f8c710bccbe00276d4c4b27efcdb3e8d03d31c5ea70"
+    },
+    "runs/2021/BTC/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 177230,
+      "SHA256": "4e58962d184e4308b1e2df9e6cebfab902c7c362748e9ca21ef7667904d09fe8"
+    },
+    "runs/2021/BTC/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 81749,
+      "SHA256": "c415c78e255741a187f539e51acf31fc1e9b8f01638385fdce7e19d72cce85b2"
+    },
+    "runs/2021/BTC/ZERO_A_FOMC_60_result.json": {
+      "bytes": 77369,
+      "SHA256": "2409d303e9e4b1e108ec4eb8aca8fce5167a4882ef7422506ab3f23088186b30"
+    },
+    "runs/2021/BTC/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 173847,
+      "SHA256": "9de748fe6b5c9a2af1965708e3b6341eed899c3b6426f52beeedded5de96901b"
+    },
+    "runs/2021/ETH/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "a54a8ee697e9df0f548a159c241be44ddfe6453dbfd0768cdee4d8e0f5c5189a"
+    },
+    "runs/2021/ETH/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 50463,
+      "SHA256": "f1419790c342af0e239c203244f8e192804646c7d50bd67fb9c336410a688683"
+    },
+    "runs/2021/ETH/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 50465,
+      "SHA256": "b53827efa60a47a668716fcfc35aa4a46d3b4f9a80bd03d01b9a6d852b25fd54"
+    },
+    "runs/2021/ETH/signals.json": {
+      "bytes": 10235,
+      "SHA256": "9098ff2b163724d673ff045472f3aade1614e3405bbff791111d6ebc7350964a"
+    },
+    "runs/2021/ETH/A_conditions.csv": {
+      "bytes": 96265,
+      "SHA256": "9ae52f8328fc722731f964fa5043d633dfd909e9e2f6a63e46fd15b039aa0e54"
+    },
+    "runs/2021/ETH/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2021/ETH/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 68604,
+      "SHA256": "f3d7a8126ecb0c436574db331d2e349e74928f93bd566c3659aa4855fd05bfdf"
+    },
+    "runs/2021/ETH/ZERO_A_MACRO_60_result.json": {
+      "bytes": 47912,
+      "SHA256": "0fa96930ebce294dfdc571a96336b750ddc9fe63f00cedb3af783bc764a6adca"
+    },
+    "runs/2021/ETH/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 65027,
+      "SHA256": "aebb3f6d6b82ee2d1cc7065c96d9b87ca492c6b497ff46925a3848a399941653"
+    },
+    "runs/2021/ETH/ZERO_A_equity.npz": {
+      "bytes": 65027,
+      "SHA256": "aebb3f6d6b82ee2d1cc7065c96d9b87ca492c6b497ff46925a3848a399941653"
+    },
+    "runs/2021/ETH/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 68604,
+      "SHA256": "f3d7a8126ecb0c436574db331d2e349e74928f93bd566c3659aa4855fd05bfdf"
+    },
+    "runs/2021/ETH/ZERO_A_result.json": {
+      "bytes": 47858,
+      "SHA256": "4f1420b181610cdfd6b9dd73ff7945fd770ffd5e34d1078b300206c990292369"
+    },
+    "runs/2021/ETH/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 65027,
+      "SHA256": "aebb3f6d6b82ee2d1cc7065c96d9b87ca492c6b497ff46925a3848a399941653"
+    },
+    "runs/2021/ETH/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 50411,
+      "SHA256": "2b28eda8cb1186b1d40660b71603b92475c2230f5d313be45e0cb73de8c3fb8c"
+    },
+    "runs/2021/ETH/ZERO_A_FOMC_60_result.json": {
+      "bytes": 47910,
+      "SHA256": "5680d959d368e3946da543b6ee609719f1ed4f5db641559d33ff2fb5524d5ae4"
+    },
+    "runs/2021/ETH/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 68604,
+      "SHA256": "f3d7a8126ecb0c436574db331d2e349e74928f93bd566c3659aa4855fd05bfdf"
+    },
+    "runs/2026/BTC/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "d4e5eb515d8aad6f602469d704812b98f090ff62e4d2b0a960eaaeea247e3d2b"
+    },
+    "runs/2026/BTC/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 169722,
+      "SHA256": "d742e9b0f97837f92c199e3b9c355042ee931832014b83239744aec956c705c4"
+    },
+    "runs/2026/BTC/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 169724,
+      "SHA256": "e0314684a660d48e9912b72ce41a573c0655ad408294d00fa6f051d6773f945e"
+    },
+    "runs/2026/BTC/signals.json": {
+      "bytes": 91020,
+      "SHA256": "ae019aed1985252844a058ff9298d7bb94c975c40ad7210fc2abed46dfe29bf5"
+    },
+    "runs/2026/BTC/A_conditions.csv": {
+      "bytes": 538211,
+      "SHA256": "b82fe3a29fff6666775a6000801ea411aa02e7cf9d9a72be21e29905bb63b697"
+    },
+    "runs/2026/BTC/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2026/BTC/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 767332,
+      "SHA256": "4ec5f468854f13effde02cc730229a1491cebf3f1423261034031744d4dc0879"
+    },
+    "runs/2026/BTC/ZERO_A_MACRO_60_result.json": {
+      "bytes": 161683,
+      "SHA256": "51b25248b6b8d50e18eb04ddccaf779866eb6c1baa8f9be1b6ac90d4e203f7ac"
+    },
+    "runs/2026/BTC/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 774596,
+      "SHA256": "c21cc5597fd0e2dd4919fdf65024771716b441a312e78396e652f3e8fe743c59"
+    },
+    "runs/2026/BTC/ZERO_A_equity.npz": {
+      "bytes": 774596,
+      "SHA256": "c21cc5597fd0e2dd4919fdf65024771716b441a312e78396e652f3e8fe743c59"
+    },
+    "runs/2026/BTC/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 767332,
+      "SHA256": "4ec5f468854f13effde02cc730229a1491cebf3f1423261034031744d4dc0879"
+    },
+    "runs/2026/BTC/ZERO_A_result.json": {
+      "bytes": 161629,
+      "SHA256": "5a19b11fb40548e09cc77fb87bbbef558c68624f7302c69620733c63f25bbfbd"
+    },
+    "runs/2026/BTC/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 774596,
+      "SHA256": "c21cc5597fd0e2dd4919fdf65024771716b441a312e78396e652f3e8fe743c59"
+    },
+    "runs/2026/BTC/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 169670,
+      "SHA256": "dc965f5c4dc30b394f65f35d4a20a8f6cb1064fefeb3768be4bad915a79791bf"
+    },
+    "runs/2026/BTC/ZERO_A_FOMC_60_result.json": {
+      "bytes": 161681,
+      "SHA256": "12e8316ff13d6d5e5d2a5f216a37e430e9363a13991881e382a77fe256fdffc4"
+    },
+    "runs/2026/BTC/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 767332,
+      "SHA256": "4ec5f468854f13effde02cc730229a1491cebf3f1423261034031744d4dc0879"
+    },
+    "runs/2026/ETH/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "3160754f68a68cdf442128704c8bde99296d74339697f3c3bceb1dc80a9b9524"
+    },
+    "runs/2026/ETH/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 152264,
+      "SHA256": "23d7df0c539311f30291ca155c05a64c828f89917fe1494e61cdcf3be37a6189"
+    },
+    "runs/2026/ETH/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 152266,
+      "SHA256": "af15c278e04b8e21d8de210f3cb506a5530895f795a96c898b44c3b3fb461ded"
+    },
+    "runs/2026/ETH/signals.json": {
+      "bytes": 69778,
+      "SHA256": "32a8f5c3eeb159c9fd6d0a52d565ba43377e70086a83abb8a73c9e0532a0c177"
+    },
+    "runs/2026/ETH/A_conditions.csv": {
+      "bytes": 400183,
+      "SHA256": "f52314abb7a085d2c77e657c40f250f6980a843068d1acfd492c40162c86039e"
+    },
+    "runs/2026/ETH/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2026/ETH/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 418664,
+      "SHA256": "e5a9354c8ee7cbe3b0d16d9ca2d0bc88363b3454edf428749d10b4e801e7552d"
+    },
+    "runs/2026/ETH/ZERO_A_MACRO_60_result.json": {
+      "bytes": 145091,
+      "SHA256": "1e0c1b2783da5fbac033dc4c7fd6c350282fec35a566c1665e94edd22b1da110"
+    },
+    "runs/2026/ETH/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 422784,
+      "SHA256": "324ff536d36e6b508295d5cc82343cdaaf4e50e550c5fb1ddfedd9f41634c622"
+    },
+    "runs/2026/ETH/ZERO_A_equity.npz": {
+      "bytes": 422784,
+      "SHA256": "324ff536d36e6b508295d5cc82343cdaaf4e50e550c5fb1ddfedd9f41634c622"
+    },
+    "runs/2026/ETH/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 418664,
+      "SHA256": "e5a9354c8ee7cbe3b0d16d9ca2d0bc88363b3454edf428749d10b4e801e7552d"
+    },
+    "runs/2026/ETH/ZERO_A_result.json": {
+      "bytes": 145025,
+      "SHA256": "3a5b840fc09a4055d15aa539c391c24f48b6d2b204a97c81b71b0ecc361ccd03"
+    },
+    "runs/2026/ETH/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 422784,
+      "SHA256": "324ff536d36e6b508295d5cc82343cdaaf4e50e550c5fb1ddfedd9f41634c622"
+    },
+    "runs/2026/ETH/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 152204,
+      "SHA256": "172f5116bf8741443481bd16921a33741bb5d84b9466d1c26e113dce0c48f403"
+    },
+    "runs/2026/ETH/ZERO_A_FOMC_60_result.json": {
+      "bytes": 145089,
+      "SHA256": "949449588aec4bbbbdeb3e3913b518a0a18fa7e133a7b68adc739f4cd92aa59b"
+    },
+    "runs/2026/ETH/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 418664,
+      "SHA256": "e5a9354c8ee7cbe3b0d16d9ca2d0bc88363b3454edf428749d10b4e801e7552d"
+    },
+    "runs/2020/BTC/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "70083e58f0f6504b99fe007aee04a1ca576bc30a4712e1390489e687ffbe9359"
+    },
+    "runs/2020/BTC/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 187156,
+      "SHA256": "8dda413960112faf2607c0a3a3271025f02228a500b9e12148875b8623744066"
+    },
+    "runs/2020/BTC/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 187158,
+      "SHA256": "fc2a00d0d27197e4aa1ebf762313e796f9d166f6ece938925cf63b8f51697d91"
+    },
+    "runs/2020/BTC/signals.json": {
+      "bytes": 87232,
+      "SHA256": "476f354ff8da77fda31d6b6ced6bc7c5adae35ab28bcc41c39a3bf11ad055a94"
+    },
+    "runs/2020/BTC/A_conditions.csv": {
+      "bytes": 433200,
+      "SHA256": "f107fde5dd1e30330922fd90dc2fcae3822d4cbabc3fa1f3d6511cb62d4b4a69"
+    },
+    "runs/2020/BTC/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2020/BTC/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 798924,
+      "SHA256": "55e61cd9dc99a381118b77e08d893d9749d391e7491592e5dc4113625e498756"
+    },
+    "runs/2020/BTC/ZERO_A_MACRO_60_result.json": {
+      "bytes": 177746,
+      "SHA256": "effae17106b16af46b61420ae471152981ebad5c9ca60c6e7b97d6dc54fc5f85"
+    },
+    "runs/2020/BTC/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 799954,
+      "SHA256": "b871178cb74628b6202ea30061d20e183f5ecaddf4d0444a892224473967ccad"
+    },
+    "runs/2020/BTC/ZERO_A_equity.npz": {
+      "bytes": 809800,
+      "SHA256": "8097134ddbb3fb39c9176968a265a12c557edd7a517a91341ee9021048386143"
+    },
+    "runs/2020/BTC/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 808897,
+      "SHA256": "edb4bbabd688b141b26e910d4f667df18365d9d35f644d2a0f81cfaee0ab8da8"
+    },
+    "runs/2020/BTC/ZERO_A_result.json": {
+      "bytes": 178918,
+      "SHA256": "d0dbf189d198826ae995ad77b78652de92cb27f54861478673c3f5f36abde5c0"
+    },
+    "runs/2020/BTC/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 799954,
+      "SHA256": "b871178cb74628b6202ea30061d20e183f5ecaddf4d0444a892224473967ccad"
+    },
+    "runs/2020/BTC/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 188696,
+      "SHA256": "f2ca4f19e2e29d123982fe052b31157d4a4d1eefcdd5851a1a5ff1d714747e03"
+    },
+    "runs/2020/BTC/ZERO_A_FOMC_60_result.json": {
+      "bytes": 177744,
+      "SHA256": "7412b6cb119d34f0abbd2e347bac3c915e72b5e4a3ea71f2b80c25540a370135"
+    },
+    "runs/2020/BTC/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 808897,
+      "SHA256": "edb4bbabd688b141b26e910d4f667df18365d9d35f644d2a0f81cfaee0ab8da8"
+    },
+    "runs/2020/ETH/baseline_reuse.json": {
+      "bytes": 1253,
+      "SHA256": "f676adf0af45738f9b76a7c1c6ae49e6ebca74ec54b36b0d0965817fd60b44de"
+    },
+    "runs/2020/ETH/ASSUMED_005_SIDE_A_FOMC_60_result.json": {
+      "bytes": 118193,
+      "SHA256": "e06ca177e3fcc22ad0397b194be6d19980a2a3a59cb81ff6e4a710563d5c43c1"
+    },
+    "runs/2020/ETH/ASSUMED_005_SIDE_A_MACRO_60_result.json": {
+      "bytes": 118195,
+      "SHA256": "d455a2e445cfd95673e47adf7a7d6e8e3f3a42abe688eb18807037128a1380f5"
+    },
+    "runs/2020/ETH/signals.json": {
+      "bytes": 36144,
+      "SHA256": "509d32660546b2de3908bf8a0c68f5603ad9518aae814fbf3415f242f6068c95"
+    },
+    "runs/2020/ETH/A_conditions.csv": {
+      "bytes": 273562,
+      "SHA256": "21d7207413c09a05fdac11a1b68019132e7eeead2e3ff2bd09f2ce7d25f29e4c"
+    },
+    "runs/2020/ETH/status.json": {
+      "bytes": 102,
+      "SHA256": "749e58f2cd18d1b53a4da0692ba67f970b8f022287d5c72173878e424491ee17"
+    },
+    "runs/2020/ETH/ASSUMED_005_SIDE_A_equity.npz": {
+      "bytes": 188687,
+      "SHA256": "d2276242b31765085394721bc5d758197144c3d20a9c1b9e7d5002e7f3578e99"
+    },
+    "runs/2020/ETH/ZERO_A_MACRO_60_result.json": {
+      "bytes": 111849,
+      "SHA256": "b5b2a1bac0dcb2bdb2ffd52b845c2ed27ab66cf997b64694388aafa62489a55c"
+    },
+    "runs/2020/ETH/ZERO_A_FOMC_60_equity.npz": {
+      "bytes": 190333,
+      "SHA256": "49ab20046f7d02f1161f08f5eb50b9544ddad7150a12a2f5f95755c7f417df4c"
+    },
+    "runs/2020/ETH/ZERO_A_equity.npz": {
+      "bytes": 187808,
+      "SHA256": "84ed6639c4e5bbb236684a2823384898eb6221662ccb0b5c678f1a4b1cec33dc"
+    },
+    "runs/2020/ETH/ASSUMED_005_SIDE_A_FOMC_60_equity.npz": {
+      "bytes": 192337,
+      "SHA256": "c4cd032b34a9703eff0f91b06a4ad427497dd35275e9301d56287bc53fb23256"
+    },
+    "runs/2020/ETH/ZERO_A_result.json": {
+      "bytes": 112993,
+      "SHA256": "48097bb15e069d94c67ba63d8f20b939f9296c6e7e6d981bc3c644b75f5669d6"
+    },
+    "runs/2020/ETH/ZERO_A_MACRO_60_equity.npz": {
+      "bytes": 190333,
+      "SHA256": "49ab20046f7d02f1161f08f5eb50b9544ddad7150a12a2f5f95755c7f417df4c"
+    },
+    "runs/2020/ETH/ASSUMED_005_SIDE_A_result.json": {
+      "bytes": 119654,
+      "SHA256": "77d79904923f2dd11986558f31e1cc859a854d096b695a136b95aa03b0779449"
+    },
+    "runs/2020/ETH/ZERO_A_FOMC_60_result.json": {
+      "bytes": 111847,
+      "SHA256": "41486b676768792a1cfa2e9bbd84614e957840c1ea7552d5698705a7da3f31e9"
+    },
+    "runs/2020/ETH/ASSUMED_005_SIDE_A_MACRO_60_equity.npz": {
+      "bytes": 192337,
+      "SHA256": "c4cd032b34a9703eff0f91b06a4ad427497dd35275e9301d56287bc53fb23256"
+    }
+  }
+}

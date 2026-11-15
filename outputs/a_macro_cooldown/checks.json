@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "checks": [
+    "Inclusive signal-close boundaries, CPI excluded from FOMC-only",
+    "Emergency decisions use actual15:00UTC and21:00UTC, not14:00ET",
+    "Original fixed A squeeze .25; macro wrapper calls only A",
+    "Every generated variant signal is an unchanged A signal outside its exact cooldown"
+  ]
+}

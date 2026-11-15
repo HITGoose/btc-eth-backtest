@@ -1,0 +1,1404 @@
+{
+  "events": [
+    {
+      "kind": "CPI",
+      "date": "2020-01-14",
+      "release_ET": "2020-01-14T08:30:00-05:00",
+      "release_UTC": "2020-01-14T13:30:00+00:00",
+      "release_ms": 1579008600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_01142020.htm",
+      "raw_sha256": "c7d562b90700ee348c1e1e718174109cf0bdc9ff91e8fe16d6801b999ce6b996",
+      "stored": "raw_sources/6256c77cb8c326a2.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-01-29",
+      "release_ET": "2020-01-29T14:00:00-05:00",
+      "release_UTC": "2020-01-29T19:00:00+00:00",
+      "release_ms": 1580324400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200129a.htm",
+      "raw_sha256": "5557adfb184500eea9d24d66b774ecb3cf5e15eb2fb8767dab4f3d3cc2ef313f",
+      "stored": "raw_sources/dffd8da369078b66.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-02-13",
+      "release_ET": "2020-02-13T08:30:00-05:00",
+      "release_UTC": "2020-02-13T13:30:00+00:00",
+      "release_ms": 1581600600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_02132020.htm",
+      "raw_sha256": "100d48638053e7f088a9fd3b7c40840ddd7a1cfa8773ad0b019058ecdd3d430c",
+      "stored": "raw_sources/92b920bd2095461f.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-03-03",
+      "release_ET": "2020-03-03T10:00:00-05:00",
+      "release_UTC": "2020-03-03T15:00:00+00:00",
+      "release_ms": 1583247600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200303a.htm",
+      "raw_sha256": "fe7f2a1f98b6f9305c591bcdb4ae6296812b8f92ca19f35b7e26815a5f0eac7c",
+      "header": "For release at 10:00 a.m. EST",
+      "emergency": true
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-03-11",
+      "release_ET": "2020-03-11T08:30:00-04:00",
+      "release_UTC": "2020-03-11T12:30:00+00:00",
+      "release_ms": 1583929800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_03112020.htm",
+      "raw_sha256": "14beb15daece4465624a71218fe95a9368e7c832bcf43f46003a3c0d09a835ed",
+      "stored": "raw_sources/4428954ab0ac4938.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-03-15",
+      "release_ET": "2020-03-15T17:00:00-04:00",
+      "release_UTC": "2020-03-15T21:00:00+00:00",
+      "release_ms": 1584306000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm",
+      "raw_sha256": "7803bc6dbcac7c139ae134887b3a7a8f81b44d3b6fea18a7094c5a3e15cf350e",
+      "header": "For release at 5:00 p.m. EDT",
+      "emergency": true
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-04-10",
+      "release_ET": "2020-04-10T08:30:00-04:00",
+      "release_UTC": "2020-04-10T12:30:00+00:00",
+      "release_ms": 1586521800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_04102020.htm",
+      "raw_sha256": "0a41f1cefc23f6a91d3508d2829d7678ec7aa715a6bded9d13c4c767a14aea60",
+      "stored": "raw_sources/3a01736a37c61b84.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-04-29",
+      "release_ET": "2020-04-29T14:00:00-04:00",
+      "release_UTC": "2020-04-29T18:00:00+00:00",
+      "release_ms": 1588183200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200429a.htm",
+      "raw_sha256": "8f8357c102bab9742f8600bd962d6a2f9f4d0179627cf272b5af9dbc6e600984",
+      "stored": "raw_sources/2f56953dbc665a0b.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-05-12",
+      "release_ET": "2020-05-12T08:30:00-04:00",
+      "release_UTC": "2020-05-12T12:30:00+00:00",
+      "release_ms": 1589286600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_05122020.htm",
+      "raw_sha256": "37d460adff26a09e991486c026da97530c9e7ed5171407aa50afe66988e67e6f",
+      "stored": "raw_sources/55871c1188952e32.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-06-10",
+      "release_ET": "2020-06-10T08:30:00-04:00",
+      "release_UTC": "2020-06-10T12:30:00+00:00",
+      "release_ms": 1591792200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_06102020.htm",
+      "raw_sha256": "eaa46817707fa1eb90bd00acc0c4d4bcfbd114332d9ad5614df3f9e29857d56d",
+      "stored": "raw_sources/f1890be006fd4e45.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-06-10",
+      "release_ET": "2020-06-10T14:00:00-04:00",
+      "release_UTC": "2020-06-10T18:00:00+00:00",
+      "release_ms": 1591812000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200610a.htm",
+      "raw_sha256": "5269662e06bab74a8d3f6ba7fb263e6d8f4543d76c8fb49321b98225cec99ec7",
+      "stored": "raw_sources/53ac36831a96c510.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-07-14",
+      "release_ET": "2020-07-14T08:30:00-04:00",
+      "release_UTC": "2020-07-14T12:30:00+00:00",
+      "release_ms": 1594729800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_07142020.htm",
+      "raw_sha256": "0d090e8ae9e17119137eb25e7c39cd6fe1f694ce2ce21fde864d3f8b2c2013ed",
+      "stored": "raw_sources/2ae47a39ff8d1d68.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-07-29",
+      "release_ET": "2020-07-29T14:00:00-04:00",
+      "release_UTC": "2020-07-29T18:00:00+00:00",
+      "release_ms": 1596045600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200729a.htm",
+      "raw_sha256": "e101c5ff156ccb96d0c9f41609aaa37fe6cf6335f99383f138fb18447670aa7b",
+      "stored": "raw_sources/49e6e5d88054c76d.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-08-12",
+      "release_ET": "2020-08-12T08:30:00-04:00",
+      "release_UTC": "2020-08-12T12:30:00+00:00",
+      "release_ms": 1597235400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_08122020.htm",
+      "raw_sha256": "275282438cdde41d57e910a064e1cb52bb90a76a8fd27cd1ac8d4d2dd41e3df1",
+      "stored": "raw_sources/67320f68a963fdd2.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-09-11",
+      "release_ET": "2020-09-11T08:30:00-04:00",
+      "release_UTC": "2020-09-11T12:30:00+00:00",
+      "release_ms": 1599827400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_09112020.htm",
+      "raw_sha256": "84106828c3bf392ebdfc42c13eb809610618ed9e04f8cbc4956bd00df55f0155",
+      "stored": "raw_sources/e670d8d50303e7bf.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-09-16",
+      "release_ET": "2020-09-16T14:00:00-04:00",
+      "release_UTC": "2020-09-16T18:00:00+00:00",
+      "release_ms": 1600279200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200916a.htm",
+      "raw_sha256": "5b3b51f6a2a8abeca24bd4602fdff1347c8be35eed12748dbcf2d6fbe3413a7d",
+      "stored": "raw_sources/c303285a2a78a0e0.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-10-13",
+      "release_ET": "2020-10-13T08:30:00-04:00",
+      "release_UTC": "2020-10-13T12:30:00+00:00",
+      "release_ms": 1602592200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_10132020.htm",
+      "raw_sha256": "cdbd784a4a6529cedb2505c63f1178633910d360300498d54bd75635d3cbcf69",
+      "stored": "raw_sources/04b494fe30e81e57.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-11-05",
+      "release_ET": "2020-11-05T14:00:00-05:00",
+      "release_UTC": "2020-11-05T19:00:00+00:00",
+      "release_ms": 1604602800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20201105a.htm",
+      "raw_sha256": "e9a48555890c86ffeb726e65d5038c6675b289adf4ad51aa30709726654033cd",
+      "stored": "raw_sources/7586627b894ee503.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-11-12",
+      "release_ET": "2020-11-12T08:30:00-05:00",
+      "release_UTC": "2020-11-12T13:30:00+00:00",
+      "release_ms": 1605187800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_11122020.htm",
+      "raw_sha256": "f3d9e64aae0b1b100c09b3079458e177e9928276c1f8e08e509f0916b0120447",
+      "stored": "raw_sources/6695a4f1e29bb0ef.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2020-12-10",
+      "release_ET": "2020-12-10T08:30:00-05:00",
+      "release_UTC": "2020-12-10T13:30:00+00:00",
+      "release_ms": 1607607000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_12102020.htm",
+      "raw_sha256": "75802ca6cfaedbbf5d708430442d2c6d681afbb7185e7203d04678e58e84f3db",
+      "stored": "raw_sources/e230c78d5d2d8591.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-12-16",
+      "release_ET": "2020-12-16T14:00:00-05:00",
+      "release_UTC": "2020-12-16T19:00:00+00:00",
+      "release_ms": 1608145200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20201216a.htm",
+      "raw_sha256": "c2f2747af70b8fb6e023265a272e9bf2c3d966c5e49928b6c8ed168a2d33358e",
+      "stored": "raw_sources/bec1a0dc277a467c.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-01-13",
+      "release_ET": "2021-01-13T08:30:00-05:00",
+      "release_UTC": "2021-01-13T13:30:00+00:00",
+      "release_ms": 1610544600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_01132021.htm",
+      "raw_sha256": "f7b6d7eca3581cc433cb22ab9ced35a312e7eef9e1d0f792c08e525ca815be24",
+      "stored": "raw_sources/c289269bea8c8cbd.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2021-01-27",
+      "release_ET": "2021-01-27T14:00:00-05:00",
+      "release_UTC": "2021-01-27T19:00:00+00:00",
+      "release_ms": 1611774000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210127a.htm",
+      "raw_sha256": "cdc51950c2d362fe0a155d6bd01948945e28c01bb816470f021a9e580f021eec",
+      "stored": "raw_sources/5b4f711c5d85b296.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-02-10",
+      "release_ET": "2021-02-10T08:30:00-05:00",
+      "release_UTC": "2021-02-10T13:30:00+00:00",
+      "release_ms": 1612963800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_02102021.htm",
+      "raw_sha256": "eaaef559ebf762734a493ba94b7bbf70aa46e8b677b93a3ac7fa945dc7c1bf24",
+      "stored": "raw_sources/e6ac7bcd8bcf523c.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-03-10",
+      "release_ET": "2021-03-10T08:30:00-05:00",
+      "release_UTC": "2021-03-10T13:30:00+00:00",
+      "release_ms": 1615383000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_03102021.htm",
+      "raw_sha256": "9eb097bc23c10e0ffba7fd92cd34ee0014411d2485f3d7bc2462c6ffbd9b7f6e",
+      "stored": "raw_sources/25e285179ac67f10.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2021-03-17",
+      "release_ET": "2021-03-17T14:00:00-04:00",
+      "release_UTC": "2021-03-17T18:00:00+00:00",
+      "release_ms": 1616004000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210317a.htm",
+      "raw_sha256": "debb3bad13a085af0e0a5552c4896267bb83037959296e9e32b4558b2570996d",
+      "stored": "raw_sources/346275944a3ec11d.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-04-13",
+      "release_ET": "2021-04-13T08:30:00-04:00",
+      "release_UTC": "2021-04-13T12:30:00+00:00",
+      "release_ms": 1618317000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_04132021.htm",
+      "raw_sha256": "02b0a042b2f7cd949b5beea112e67c31ceeb62496304b6dd58a26c54946f52bf",
+      "stored": "raw_sources/9cba65e7a6b13ef7.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2021-04-28",
+      "release_ET": "2021-04-28T14:00:00-04:00",
+      "release_UTC": "2021-04-28T18:00:00+00:00",
+      "release_ms": 1619632800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210428a.htm",
+      "raw_sha256": "dbed60fc7b4dd7e966c32878cecea5a308ec72f4c4fd35e0af17c5e796273bd5",
+      "stored": "raw_sources/67ab3614ce93ba45.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-05-12",
+      "release_ET": "2021-05-12T08:30:00-04:00",
+      "release_UTC": "2021-05-12T12:30:00+00:00",
+      "release_ms": 1620822600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_05122021.htm",
+      "raw_sha256": "7a47157c7e3ccbe0e8df8d80c7962eae84efc897f944d2ac05658e389ab7c5f3",
+      "stored": "raw_sources/91e858d1f951201f.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-06-10",
+      "release_ET": "2021-06-10T08:30:00-04:00",
+      "release_UTC": "2021-06-10T12:30:00+00:00",
+      "release_ms": 1623328200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_06102021.htm",
+      "raw_sha256": "39a26c02dce23a052e8b90f2f4c32012ab954ce2b179c0eebd067f93a48813be",
+      "stored": "raw_sources/402c9992fedad650.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2021-06-16",
+      "release_ET": "2021-06-16T14:00:00-04:00",
+      "release_UTC": "2021-06-16T18:00:00+00:00",
+      "release_ms": 1623866400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210616a.htm",
+      "raw_sha256": "5f1cd14201d97c001c01decb3b4d2cc7dad77a0e6750a922bada770ea0994c71",
+      "stored": "raw_sources/70528e0ced0f9f28.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-07-13",
+      "release_ET": "2021-07-13T08:30:00-04:00",
+      "release_UTC": "2021-07-13T12:30:00+00:00",
+      "release_ms": 1626179400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_07132021.htm",
+      "raw_sha256": "97787ef2ecec12f6fa8a634552a448df29e83f69710f6d9b77b2f7e5dba3b318",
+      "stored": "raw_sources/b395f7eca83bc834.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2021-07-28",
+      "release_ET": "2021-07-28T14:00:00-04:00",
+      "release_UTC": "2021-07-28T18:00:00+00:00",
+      "release_ms": 1627495200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210728a.htm",
+      "raw_sha256": "ccda9dd459fb830741c047e038c3a04fec1be52848c7d1614b233a94f382d009",
+      "stored": "raw_sources/7efeaa36ea3629ab.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-08-11",
+      "release_ET": "2021-08-11T08:30:00-04:00",
+      "release_UTC": "2021-08-11T12:30:00+00:00",
+      "release_ms": 1628685000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_08112021.htm",
+      "raw_sha256": "3aae191db6782a7b5cbf24f4e91f7da4b644054ce97a38482bcf2b0d8db509df",
+      "stored": "raw_sources/8f5b25465fb23c7b.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-09-14",
+      "release_ET": "2021-09-14T08:30:00-04:00",
+      "release_UTC": "2021-09-14T12:30:00+00:00",
+      "release_ms": 1631622600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_09142021.htm",
+      "raw_sha256": "48f57344a9f457b40295444a531fb2888ddc8ab4414a20feaca8355f4d963c89",
+      "stored": "raw_sources/ea6a3a15d65661a8.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2021-09-22",
+      "release_ET": "2021-09-22T14:00:00-04:00",
+      "release_UTC": "2021-09-22T18:00:00+00:00",
+      "release_ms": 1632333600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20210922a.htm",
+      "raw_sha256": "a880ad5e1cadd25c3eec227edbec6d36a225832e9406c4c104fc257ec41c7cfa",
+      "stored": "raw_sources/0edec173df52aacb.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-10-13",
+      "release_ET": "2021-10-13T08:30:00-04:00",
+      "release_UTC": "2021-10-13T12:30:00+00:00",
+      "release_ms": 1634128200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_10132021.htm",
+      "raw_sha256": "781f454108ff26581b6e588f5ea7ef1bdb31a853cbe2d26f6d389d35492251ca",
+      "stored": "raw_sources/b6a093fd146b619e.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2021-11-03",
+      "release_ET": "2021-11-03T14:00:00-04:00",
+      "release_UTC": "2021-11-03T18:00:00+00:00",
+      "release_ms": 1635962400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20211103a.htm",
+      "raw_sha256": "bb2e19769b0e1960ed88e4da42051350cfe0689ec5e0507dbed98595eaccd7c7",
+      "stored": "raw_sources/a47a559fa3e134b9.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-11-10",
+      "release_ET": "2021-11-10T08:30:00-05:00",
+      "release_UTC": "2021-11-10T13:30:00+00:00",
+      "release_ms": 1636551000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102021.htm",
+      "raw_sha256": "7cd6e19b25801c6c0fc1ea47daada29ef2c1fc8f07cbc86cd6f305cb8fce684a",
+      "stored": "raw_sources/9e9764f4b2d1d5e3.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2021-12-10",
+      "release_ET": "2021-12-10T08:30:00-05:00",
+      "release_UTC": "2021-12-10T13:30:00+00:00",
+      "release_ms": 1639143000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_12102021.htm",
+      "raw_sha256": "af93439757010f85ae189def01776fd25c7464498a50a5f25fd9c2bc25645432",
+      "stored": "raw_sources/2fc5925d0e7520c0.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2021-12-15",
+      "release_ET": "2021-12-15T14:00:00-05:00",
+      "release_UTC": "2021-12-15T19:00:00+00:00",
+      "release_ms": 1639594800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20211215a.htm",
+      "raw_sha256": "bcd8a750b31da16b91e37c8bd4a7785ccb33b2ccf37a73b1ffb535d6062f4bf7",
+      "stored": "raw_sources/63e932d8441f3ffb.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-01-12",
+      "release_ET": "2022-01-12T08:30:00-05:00",
+      "release_UTC": "2022-01-12T13:30:00+00:00",
+      "release_ms": 1641994200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_01122022.htm",
+      "raw_sha256": "45ca364e1633fd50ab3a299a5da2abe5cf9086f36c8aecfe4dd9f4658df50174",
+      "stored": "raw_sources/ed6de56d1dcd256f.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2022-01-26",
+      "release_ET": "2022-01-26T14:00:00-05:00",
+      "release_UTC": "2022-01-26T19:00:00+00:00",
+      "release_ms": 1643223600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220126a.htm",
+      "raw_sha256": "37d58ed6ee1973b3fc14d8b0a4e75cc040001e83aeab81dac10c56193350cbf5",
+      "stored": "raw_sources/f3cbfaae56e6397f.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-02-10",
+      "release_ET": "2022-02-10T08:30:00-05:00",
+      "release_UTC": "2022-02-10T13:30:00+00:00",
+      "release_ms": 1644499800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_02102022.htm",
+      "raw_sha256": "278ff1e8da6a2c199312427cba7e1dbd0102da6a31d2c0dd2264113834abbd1f",
+      "stored": "raw_sources/1bc46eb98efdb504.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-03-10",
+      "release_ET": "2022-03-10T08:30:00-05:00",
+      "release_UTC": "2022-03-10T13:30:00+00:00",
+      "release_ms": 1646919000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_03102022.htm",
+      "raw_sha256": "89ebc9016ab0ea900fefddf2f3f186b8bcbe7a00cf8684f8059c3363ea7dc35a",
+      "stored": "raw_sources/f10b2a0e9fdd7891.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2022-03-16",
+      "release_ET": "2022-03-16T14:00:00-04:00",
+      "release_UTC": "2022-03-16T18:00:00+00:00",
+      "release_ms": 1647453600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm",
+      "raw_sha256": "05f5eae881fd9a929570d554cbf307bc31086d1f689e3ef9e627a768c6dc63f5",
+      "stored": "raw_sources/ea0bc3b53dcfcd93.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-04-12",
+      "release_ET": "2022-04-12T08:30:00-04:00",
+      "release_UTC": "2022-04-12T12:30:00+00:00",
+      "release_ms": 1649766600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_04122022.htm",
+      "raw_sha256": "7d654607289ed3e15ec297d2be342975a2121ce5d4c6deb25c61ec044785f18b",
+      "stored": "raw_sources/45e32c5b90c1fadd.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2022-05-04",
+      "release_ET": "2022-05-04T14:00:00-04:00",
+      "release_UTC": "2022-05-04T18:00:00+00:00",
+      "release_ms": 1651687200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220504a.htm",
+      "raw_sha256": "9e85c4189adf1a2d0dee6517d82888e4820b8a0b579556a01e9ec35ad8320d48",
+      "stored": "raw_sources/0de24675719c406e.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-05-11",
+      "release_ET": "2022-05-11T08:30:00-04:00",
+      "release_UTC": "2022-05-11T12:30:00+00:00",
+      "release_ms": 1652272200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_05112022.htm",
+      "raw_sha256": "d9d7eaa0508822501f09a3c5e691d64c23c9a9c1fbb48a1cc6d3fd5b2aa8c0eb",
+      "stored": "raw_sources/ddb48b9f05cefa22.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-06-10",
+      "release_ET": "2022-06-10T08:30:00-04:00",
+      "release_UTC": "2022-06-10T12:30:00+00:00",
+      "release_ms": 1654864200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_06102022.htm",
+      "raw_sha256": "03658a0ce2c08701bb423cf232e8c255555abe84fc77ff802fe2e728927fc7d9",
+      "stored": "raw_sources/42dff52b64bbfbfd.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2022-06-15",
+      "release_ET": "2022-06-15T14:00:00-04:00",
+      "release_UTC": "2022-06-15T18:00:00+00:00",
+      "release_ms": 1655316000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220615a.htm",
+      "raw_sha256": "1bc11709496bc7174523d0f48bfbce0dc7ce0b8335c3df009baf9b7384dd74f8",
+      "stored": "raw_sources/6928012e1260f9c6.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-07-13",
+      "release_ET": "2022-07-13T08:30:00-04:00",
+      "release_UTC": "2022-07-13T12:30:00+00:00",
+      "release_ms": 1657715400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_07132022.htm",
+      "raw_sha256": "0e4feecbeb007b5271816feb7a6209b3becb651ec0a850d56dcdd3f7e9c8b8a6",
+      "stored": "raw_sources/3f4f90e513a5b813.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2022-07-27",
+      "release_ET": "2022-07-27T14:00:00-04:00",
+      "release_UTC": "2022-07-27T18:00:00+00:00",
+      "release_ms": 1658944800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220727a.htm",
+      "raw_sha256": "5c9c515d11cbab99e80b6048f7b54959b7c00278292b80bb6499e51762b16344",
+      "stored": "raw_sources/a140cf97c2675d70.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-08-10",
+      "release_ET": "2022-08-10T08:30:00-04:00",
+      "release_UTC": "2022-08-10T12:30:00+00:00",
+      "release_ms": 1660134600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_08102022.htm",
+      "raw_sha256": "f613dce5a40c06f857fc4c92f181dac917405bb541d707fbdc7d123787feff38",
+      "stored": "raw_sources/6f0f783fedfa255a.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-09-13",
+      "release_ET": "2022-09-13T08:30:00-04:00",
+      "release_UTC": "2022-09-13T12:30:00+00:00",
+      "release_ms": 1663072200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_09132022.htm",
+      "raw_sha256": "0fe793a6526f424fa85619b4283e172f0ae143ae94162f1a1910b968be1b97c3",
+      "stored": "raw_sources/0d67593f6cc0f3f4.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2022-09-21",
+      "release_ET": "2022-09-21T14:00:00-04:00",
+      "release_UTC": "2022-09-21T18:00:00+00:00",
+      "release_ms": 1663783200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20220921a.htm",
+      "raw_sha256": "7d7df70e45d7530f14f39260f9702d1d4fe5bf2648db0f8b005636a85dcf9541",
+      "stored": "raw_sources/58df42f38c93efcc.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-10-13",
+      "release_ET": "2022-10-13T08:30:00-04:00",
+      "release_UTC": "2022-10-13T12:30:00+00:00",
+      "release_ms": 1665664200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_10132022.htm",
+      "raw_sha256": "10186f619f5b69fc3f0589a3953544ec72e730da62e0ac2593e89360889358a0",
+      "stored": "raw_sources/b1dbd3e637ce261b.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2022-11-02",
+      "release_ET": "2022-11-02T14:00:00-04:00",
+      "release_UTC": "2022-11-02T18:00:00+00:00",
+      "release_ms": 1667412000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20221102a.htm",
+      "raw_sha256": "324d12f7ec207b04e3813331f2f327d9885922e0882379873bf9b1573c93d880",
+      "stored": "raw_sources/aa3f7b32efaea03d.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-11-10",
+      "release_ET": "2022-11-10T08:30:00-05:00",
+      "release_UTC": "2022-11-10T13:30:00+00:00",
+      "release_ms": 1668087000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_11102022.htm",
+      "raw_sha256": "003a8366cdc1ba4750dff3bf753d79ae3aba7b5965821dd0fb44581ed17d80f0",
+      "stored": "raw_sources/001457206cd86609.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2022-12-13",
+      "release_ET": "2022-12-13T08:30:00-05:00",
+      "release_UTC": "2022-12-13T13:30:00+00:00",
+      "release_ms": 1670938200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_12132022.htm",
+      "raw_sha256": "a4897e63121e1941cdfee5d6f412df676a00e1f1b2c852859b2554bae48c2b69",
+      "stored": "raw_sources/79d475a9416ff2b6.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2022-12-14",
+      "release_ET": "2022-12-14T14:00:00-05:00",
+      "release_UTC": "2022-12-14T19:00:00+00:00",
+      "release_ms": 1671044400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20221214a.htm",
+      "raw_sha256": "21b6748fbddf1ac01d60b9b37c283abd7993d46ce1ee253f4b34426c2e303160",
+      "stored": "raw_sources/10e02b8f2fbff21d.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-01-12",
+      "release_ET": "2023-01-12T08:30:00-05:00",
+      "release_UTC": "2023-01-12T13:30:00+00:00",
+      "release_ms": 1673530200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_01122023.htm",
+      "raw_sha256": "9d5d5aa086ad1b9f299e9ea2603ef76695b4b2c8abe48ca90554c9237e8d60a1",
+      "stored": "raw_sources/62f01a12a06bee4a.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2023-02-01",
+      "release_ET": "2023-02-01T14:00:00-05:00",
+      "release_UTC": "2023-02-01T19:00:00+00:00",
+      "release_ms": 1675278000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230201a.htm",
+      "raw_sha256": "ff8d7da5c74b51609da3e8471dfe76756a48696d6a70b311d60930de2288bc1d",
+      "stored": "raw_sources/4ec9ec1a8787d648.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-02-14",
+      "release_ET": "2023-02-14T08:30:00-05:00",
+      "release_UTC": "2023-02-14T13:30:00+00:00",
+      "release_ms": 1676381400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_02142023.htm",
+      "raw_sha256": "5bddfbdd162cc083d7b8db217f5093612544f1b6f29a525740f65bfb34223c00",
+      "stored": "raw_sources/42fb86a6142b6fd5.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-03-14",
+      "release_ET": "2023-03-14T08:30:00-04:00",
+      "release_UTC": "2023-03-14T12:30:00+00:00",
+      "release_ms": 1678797000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_03142023.htm",
+      "raw_sha256": "0d1282519139a5511365c44bafe20353c3a0fd41a81f0b94202df7238042cf41",
+      "stored": "raw_sources/4863082e1fef7f74.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2023-03-22",
+      "release_ET": "2023-03-22T14:00:00-04:00",
+      "release_UTC": "2023-03-22T18:00:00+00:00",
+      "release_ms": 1679508000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230322a.htm",
+      "raw_sha256": "fcc2ed4373fc554f063ecb5a6c33279d0277520b41c52020c4ec8debb2c600b0",
+      "stored": "raw_sources/70b9e5d1d4faa764.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-04-12",
+      "release_ET": "2023-04-12T08:30:00-04:00",
+      "release_UTC": "2023-04-12T12:30:00+00:00",
+      "release_ms": 1681302600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_04122023.htm",
+      "raw_sha256": "ffdfcfe1c00558469848e28eeb1f0a1f716be8f90879a45f6ccd8d18daa34cb9",
+      "stored": "raw_sources/f355b41e073fe824.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2023-05-03",
+      "release_ET": "2023-05-03T14:00:00-04:00",
+      "release_UTC": "2023-05-03T18:00:00+00:00",
+      "release_ms": 1683136800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230503a.htm",
+      "raw_sha256": "7e28204514544a022af956dac36d72cf1e038d31428d0ac62c72c804bb1bb1a4",
+      "stored": "raw_sources/61b2233f7df9df2a.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-05-10",
+      "release_ET": "2023-05-10T08:30:00-04:00",
+      "release_UTC": "2023-05-10T12:30:00+00:00",
+      "release_ms": 1683721800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_05102023.htm",
+      "raw_sha256": "0586dd5f313c59d400ca5795c3d202e0740317dd643fb25325abe3b513a27766",
+      "stored": "raw_sources/157608f55edf10e9.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-06-13",
+      "release_ET": "2023-06-13T08:30:00-04:00",
+      "release_UTC": "2023-06-13T12:30:00+00:00",
+      "release_ms": 1686659400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_06132023.htm",
+      "raw_sha256": "441fbaa7e7e15727f107dbf06b7965dd0e35621501952af435d9a2ce12b26f65",
+      "stored": "raw_sources/8fb0d6cbada31e4a.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2023-06-14",
+      "release_ET": "2023-06-14T14:00:00-04:00",
+      "release_UTC": "2023-06-14T18:00:00+00:00",
+      "release_ms": 1686765600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230614a.htm",
+      "raw_sha256": "aa981ab2c3c5cd2cd954f3b4e2487e1d4c112212c2718d951d44fc4b742f7b97",
+      "stored": "raw_sources/898bfd32fc14d1a1.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-07-12",
+      "release_ET": "2023-07-12T08:30:00-04:00",
+      "release_UTC": "2023-07-12T12:30:00+00:00",
+      "release_ms": 1689165000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_07122023.htm",
+      "raw_sha256": "0dac29c5d2b108e4b32731f6b1db8d8da5372ddf6ac4802b4b1ee4932b3265d1",
+      "stored": "raw_sources/354631fa6d0edb8e.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2023-07-26",
+      "release_ET": "2023-07-26T14:00:00-04:00",
+      "release_UTC": "2023-07-26T18:00:00+00:00",
+      "release_ms": 1690394400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230726a.htm",
+      "raw_sha256": "52b5275d760682e9ec2dd76f4e2176fab1cd3c5109bec309303b2c2971beb09a",
+      "stored": "raw_sources/0066398508675de1.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-08-10",
+      "release_ET": "2023-08-10T08:30:00-04:00",
+      "release_UTC": "2023-08-10T12:30:00+00:00",
+      "release_ms": 1691670600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_08102023.htm",
+      "raw_sha256": "847727876ffbf92677e38b6591743411666107ba883e90f2bd9da3584d96568b",
+      "stored": "raw_sources/1041a826f47deb52.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-09-13",
+      "release_ET": "2023-09-13T08:30:00-04:00",
+      "release_UTC": "2023-09-13T12:30:00+00:00",
+      "release_ms": 1694608200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_09132023.htm",
+      "raw_sha256": "83a7380d4e81463a3266935617ac086f8edc5f2ef3b9fee826bd2b521eaccf49",
+      "stored": "raw_sources/c2431e95712e29b7.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2023-09-20",
+      "release_ET": "2023-09-20T14:00:00-04:00",
+      "release_UTC": "2023-09-20T18:00:00+00:00",
+      "release_ms": 1695232800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20230920a.htm",
+      "raw_sha256": "90af10d030a6c6e7a6e7b920cf247afa2c691d91654144140dadf1f5d0df0084",
+      "stored": "raw_sources/b4badfa0f7b2d955.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-10-12",
+      "release_ET": "2023-10-12T08:30:00-04:00",
+      "release_UTC": "2023-10-12T12:30:00+00:00",
+      "release_ms": 1697113800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_10122023.htm",
+      "raw_sha256": "5d33f0a6efd860412cdefe5911ab4cf0fa27e0dc852102c1cc5a6619bfb413cd",
+      "stored": "raw_sources/a6d8f9f3ad01ffe8.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2023-11-01",
+      "release_ET": "2023-11-01T14:00:00-04:00",
+      "release_UTC": "2023-11-01T18:00:00+00:00",
+      "release_ms": 1698861600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231101a.htm",
+      "raw_sha256": "74a903497fd29c750a6c74ebe927766773c53c02c0691a0410a4feeb42ab3d8b",
+      "stored": "raw_sources/8446a9e98abd0d34.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-11-14",
+      "release_ET": "2023-11-14T08:30:00-05:00",
+      "release_UTC": "2023-11-14T13:30:00+00:00",
+      "release_ms": 1699968600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_11142023.htm",
+      "raw_sha256": "95e006e0d5d3093939016bd5b08159fb688aae1de2f256ef56caf041763d946b",
+      "stored": "raw_sources/2245f4fc798bc341.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2023-12-12",
+      "release_ET": "2023-12-12T08:30:00-05:00",
+      "release_UTC": "2023-12-12T13:30:00+00:00",
+      "release_ms": 1702387800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_12122023.htm",
+      "raw_sha256": "0342155f3fcb4dd68166c8c8e33e0a049662c97100de2d0f4903628d179b660e",
+      "stored": "raw_sources/b1b533e653ba6714.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2023-12-13",
+      "release_ET": "2023-12-13T14:00:00-05:00",
+      "release_UTC": "2023-12-13T19:00:00+00:00",
+      "release_ms": 1702494000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20231213a.htm",
+      "raw_sha256": "3cf7030196a55d379219bcad6949dee960406a6d82593ee99642e0b74376289c",
+      "stored": "raw_sources/ea367bf0fd604cc0.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-01-11",
+      "release_ET": "2024-01-11T08:30:00-05:00",
+      "release_UTC": "2024-01-11T13:30:00+00:00",
+      "release_ms": 1704979800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_01112024.htm",
+      "raw_sha256": "5af03777daf991ada26ce61a3002e3f49d9f8f25c3e4ce88131692c86a6eb7e6",
+      "stored": "raw_sources/f5f92f14bfded923.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2024-01-31",
+      "release_ET": "2024-01-31T14:00:00-05:00",
+      "release_UTC": "2024-01-31T19:00:00+00:00",
+      "release_ms": 1706727600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240131a.htm",
+      "raw_sha256": "f91cfad42ef80354518347fb32a4533d3af189faffa695b08da68f8a4aeb5d81",
+      "stored": "raw_sources/b2dc8ff1393a89d5.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-02-13",
+      "release_ET": "2024-02-13T08:30:00-05:00",
+      "release_UTC": "2024-02-13T13:30:00+00:00",
+      "release_ms": 1707831000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_02132024.htm",
+      "raw_sha256": "90914201190d8f8b1f19da73932f83e2c3651f31316a65de6de5dd605647cb16",
+      "stored": "raw_sources/084ebf3d584eb91f.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-03-12",
+      "release_ET": "2024-03-12T08:30:00-04:00",
+      "release_UTC": "2024-03-12T12:30:00+00:00",
+      "release_ms": 1710246600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_03122024.htm",
+      "raw_sha256": "233d5f46067ec4110fcbb59e3c19a880f81184177f56733062dd312e4253ae66",
+      "stored": "raw_sources/019a410909f3ac4a.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2024-03-20",
+      "release_ET": "2024-03-20T14:00:00-04:00",
+      "release_UTC": "2024-03-20T18:00:00+00:00",
+      "release_ms": 1710957600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240320a.htm",
+      "raw_sha256": "509593157d550fa722f0bc7e851f390e1503254a103f60087976e4a4685b6ad7",
+      "stored": "raw_sources/6428698cac4a430d.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-04-10",
+      "release_ET": "2024-04-10T08:30:00-04:00",
+      "release_UTC": "2024-04-10T12:30:00+00:00",
+      "release_ms": 1712752200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_04102024.htm",
+      "raw_sha256": "c23838dff36779ca5a3e439b9d5c451b1cbb8689adebcfb42c477dd9284337b8",
+      "stored": "raw_sources/42e0cd0ac51fd63e.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2024-05-01",
+      "release_ET": "2024-05-01T14:00:00-04:00",
+      "release_UTC": "2024-05-01T18:00:00+00:00",
+      "release_ms": 1714586400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240501a.htm",
+      "raw_sha256": "a1d9f0032ce6b65a5c15ea38f1d2d010d2214567aefdda547da326969195d981",
+      "stored": "raw_sources/b05f069ca7ace15f.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-05-15",
+      "release_ET": "2024-05-15T08:30:00-04:00",
+      "release_UTC": "2024-05-15T12:30:00+00:00",
+      "release_ms": 1715776200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_05152024.htm",
+      "raw_sha256": "5ed19921c617b95f99140ad464a59c142d5d24726a39508a67d471660a4185c8",
+      "stored": "raw_sources/357871a8a5f5e096.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-06-12",
+      "release_ET": "2024-06-12T08:30:00-04:00",
+      "release_UTC": "2024-06-12T12:30:00+00:00",
+      "release_ms": 1718195400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_06122024.htm",
+      "raw_sha256": "76eff97eff76a812263bd21d8e55c29c42ea2b883c7dea4ff98f326112cf8437",
+      "stored": "raw_sources/bdb571ca008aa17c.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2024-06-12",
+      "release_ET": "2024-06-12T14:00:00-04:00",
+      "release_UTC": "2024-06-12T18:00:00+00:00",
+      "release_ms": 1718215200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240612a.htm",
+      "raw_sha256": "104115c29df5d3ff4d4b9f9bd97335c7567ada064e516765c038bbed8e10ffdc",
+      "stored": "raw_sources/c27b2c77f1ff6efa.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-07-11",
+      "release_ET": "2024-07-11T08:30:00-04:00",
+      "release_UTC": "2024-07-11T12:30:00+00:00",
+      "release_ms": 1720701000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_07112024.htm",
+      "raw_sha256": "fb0a5c1351be3a2a15c6c249ed792d630af5e47e4c7278db492c079a702086db",
+      "stored": "raw_sources/7ba586a1e4004bee.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2024-07-31",
+      "release_ET": "2024-07-31T14:00:00-04:00",
+      "release_UTC": "2024-07-31T18:00:00+00:00",
+      "release_ms": 1722448800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240731a.htm",
+      "raw_sha256": "8c769062280bd09a2357e676eb58cd35bff39132bdee1efeb6193f0026cb4ea3",
+      "stored": "raw_sources/3c79c8aba3af5f77.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-08-14",
+      "release_ET": "2024-08-14T08:30:00-04:00",
+      "release_UTC": "2024-08-14T12:30:00+00:00",
+      "release_ms": 1723638600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_08142024.htm",
+      "raw_sha256": "4568374b38f65dac54e32f3a166725e7e62fa2ed8ba38bc7aa280ba625e82781",
+      "stored": "raw_sources/5ef58a0bc3d462ca.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-09-11",
+      "release_ET": "2024-09-11T08:30:00-04:00",
+      "release_UTC": "2024-09-11T12:30:00+00:00",
+      "release_ms": 1726057800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_09112024.htm",
+      "raw_sha256": "0d933d2577073291772e8123c6f1b7def0822ae3f4a009c0ef028587bad98217",
+      "stored": "raw_sources/40b71393dc091847.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2024-09-18",
+      "release_ET": "2024-09-18T14:00:00-04:00",
+      "release_UTC": "2024-09-18T18:00:00+00:00",
+      "release_ms": 1726682400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20240918a.htm",
+      "raw_sha256": "083cdee74bdd24928f242915796e4bb0a8195c823e6ea24e2a1359406cd1c517",
+      "stored": "raw_sources/013762f63e2b871e.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-10-10",
+      "release_ET": "2024-10-10T08:30:00-04:00",
+      "release_UTC": "2024-10-10T12:30:00+00:00",
+      "release_ms": 1728563400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_10102024.htm",
+      "raw_sha256": "e2d8d6f1689494275ef6879be7548b97fcaec8862c944f6fc0f1911c621f6ac0",
+      "stored": "raw_sources/1c61d38d7436e4d7.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2024-11-07",
+      "release_ET": "2024-11-07T14:00:00-05:00",
+      "release_UTC": "2024-11-07T19:00:00+00:00",
+      "release_ms": 1731006000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241107a.htm",
+      "raw_sha256": "fc864ab25a3f733f8a2c362ac07697331c12ab873648120403acd0ec36fd1da4",
+      "stored": "raw_sources/3dc4051aeffabd76.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-11-13",
+      "release_ET": "2024-11-13T08:30:00-05:00",
+      "release_UTC": "2024-11-13T13:30:00+00:00",
+      "release_ms": 1731504600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_11132024.htm",
+      "raw_sha256": "ad0279d8d9bf165360affa63a8b640b28dbea9c49c6bfcc6f66f451d9e637769",
+      "stored": "raw_sources/da54655f53f00df9.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2024-12-11",
+      "release_ET": "2024-12-11T08:30:00-05:00",
+      "release_UTC": "2024-12-11T13:30:00+00:00",
+      "release_ms": 1733923800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_12112024.htm",
+      "raw_sha256": "415282398015c224606261fb978ec7c61c35647ec5b3438fa3f613111217bb0e",
+      "stored": "raw_sources/9560a1b446c69b8d.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2024-12-18",
+      "release_ET": "2024-12-18T14:00:00-05:00",
+      "release_UTC": "2024-12-18T19:00:00+00:00",
+      "release_ms": 1734548400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20241218a.htm",
+      "raw_sha256": "ee426d3e21026f7c2562c25a7d555c7205da4a484f47a09982aabec002cac366",
+      "stored": "raw_sources/a75d3852de195f91.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-01-15",
+      "release_ET": "2025-01-15T08:30:00-05:00",
+      "release_UTC": "2025-01-15T13:30:00+00:00",
+      "release_ms": 1736947800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_01152025.htm",
+      "raw_sha256": "6e90f322584a8e8e776433678ff20e96ca1eb4f3545ecbfb067b9408a92e5abc",
+      "stored": "raw_sources/bbda178831acfef5.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2025-01-29",
+      "release_ET": "2025-01-29T14:00:00-05:00",
+      "release_UTC": "2025-01-29T19:00:00+00:00",
+      "release_ms": 1738177200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250129a.htm",
+      "raw_sha256": "c57a84d04eb1c572cd9972a0167e0782d00cb908e22e1884cafa4e8236eb75a4",
+      "stored": "raw_sources/dfe3991d6955f4fe.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-02-12",
+      "release_ET": "2025-02-12T08:30:00-05:00",
+      "release_UTC": "2025-02-12T13:30:00+00:00",
+      "release_ms": 1739367000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_02122025.htm",
+      "raw_sha256": "92bf745a006f02fe197e880f81d2d7c56e56f8d297a713a02b0fe5aef4e588e1",
+      "stored": "raw_sources/aec6767f439e2276.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-03-12",
+      "release_ET": "2025-03-12T08:30:00-04:00",
+      "release_UTC": "2025-03-12T12:30:00+00:00",
+      "release_ms": 1741782600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_03122025.htm",
+      "raw_sha256": "8d76b5e0f06f42521a0d325ed4dfa56985629fab354dde5b3ac52269e487fa53",
+      "stored": "raw_sources/8303cde3d575a113.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2025-03-19",
+      "release_ET": "2025-03-19T14:00:00-04:00",
+      "release_UTC": "2025-03-19T18:00:00+00:00",
+      "release_ms": 1742407200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250319a.htm",
+      "raw_sha256": "390bfdcae58550db13456fe5d1315b9580447f8bda16c9bac905bfbdd71ef260",
+      "stored": "raw_sources/c50c24655fa3daa0.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-04-10",
+      "release_ET": "2025-04-10T08:30:00-04:00",
+      "release_UTC": "2025-04-10T12:30:00+00:00",
+      "release_ms": 1744288200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_04102025.htm",
+      "raw_sha256": "b40ef03dec713fc7ca0e5e64e4043f2d9fa95e42a0e806b9dc101a64ca9bf424",
+      "stored": "raw_sources/d29faf4c5597c355.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2025-05-07",
+      "release_ET": "2025-05-07T14:00:00-04:00",
+      "release_UTC": "2025-05-07T18:00:00+00:00",
+      "release_ms": 1746640800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250507a.htm",
+      "raw_sha256": "f79146781bda78e9e313f96371d99912bf985e8576232388003cf691f6b1ba38",
+      "stored": "raw_sources/5686843fef883c67.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-05-13",
+      "release_ET": "2025-05-13T08:30:00-04:00",
+      "release_UTC": "2025-05-13T12:30:00+00:00",
+      "release_ms": 1747139400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_05132025.htm",
+      "raw_sha256": "d6b6ade9054d2af5f2de6aa342b8bbc7ba2ca0f5a5b090080ce7fc7dd6b45c10",
+      "stored": "raw_sources/7d38abf8e66bdd51.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-06-11",
+      "release_ET": "2025-06-11T08:30:00-04:00",
+      "release_UTC": "2025-06-11T12:30:00+00:00",
+      "release_ms": 1749645000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_06112025.htm",
+      "raw_sha256": "0250b81ace8d66bb97595624259c8079deb2ad941e23f42dd4ce955b5ea75cf3",
+      "stored": "raw_sources/bc250d114cf45e84.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2025-06-18",
+      "release_ET": "2025-06-18T14:00:00-04:00",
+      "release_UTC": "2025-06-18T18:00:00+00:00",
+      "release_ms": 1750269600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250618a.htm",
+      "raw_sha256": "1f65d9e157c01014d0c8c9927699d38a6d9a22781ac853c541075ba4116d372d",
+      "stored": "raw_sources/3c3fca4f19740b09.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-07-15",
+      "release_ET": "2025-07-15T08:30:00-04:00",
+      "release_UTC": "2025-07-15T12:30:00+00:00",
+      "release_ms": 1752582600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_07152025.htm",
+      "raw_sha256": "a0905a0de50db59be573b829d999a98d32512dc9d4e6f22ed789c64eed4fbcb2",
+      "stored": "raw_sources/771ce9b06bb0cc5d.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2025-07-30",
+      "release_ET": "2025-07-30T14:00:00-04:00",
+      "release_UTC": "2025-07-30T18:00:00+00:00",
+      "release_ms": 1753898400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250730a.htm",
+      "raw_sha256": "7515b04d53cd1358298fba856195fba791edb543923272a9196bab5389685b38",
+      "stored": "raw_sources/4ee46db06b93d010.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-08-12",
+      "release_ET": "2025-08-12T08:30:00-04:00",
+      "release_UTC": "2025-08-12T12:30:00+00:00",
+      "release_ms": 1755001800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_08122025.htm",
+      "raw_sha256": "a7651ec9f9870e9efab3f1659639d06aa80c43c2862d009a76ade1d16f941913",
+      "stored": "raw_sources/5dc104d621dbfd1d.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-09-11",
+      "release_ET": "2025-09-11T08:30:00-04:00",
+      "release_UTC": "2025-09-11T12:30:00+00:00",
+      "release_ms": 1757593800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_09112025.htm",
+      "raw_sha256": "f376b178ee4e16a7cc2ae6810e2164cad96aa8da156900623b2ff780a78f26bf",
+      "stored": "raw_sources/6b66b982f398db09.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2025-09-17",
+      "release_ET": "2025-09-17T14:00:00-04:00",
+      "release_UTC": "2025-09-17T18:00:00+00:00",
+      "release_ms": 1758132000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20250917a.htm",
+      "raw_sha256": "56b85f019fe7eef81ce6560d51e09c830748aa0ef0d531b37ac92b9d1342aa68",
+      "stored": "raw_sources/aa4028925a926b16.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-10-24",
+      "release_ET": "2025-10-24T08:30:00-04:00",
+      "release_UTC": "2025-10-24T12:30:00+00:00",
+      "release_ms": 1761309000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_10242025.htm",
+      "raw_sha256": "ab7e0e431246f6f983575529cf4eae509706963fa893b6156576a2c320556397",
+      "stored": "raw_sources/b9bfe886dc97e3e3.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2025-10-29",
+      "release_ET": "2025-10-29T14:00:00-04:00",
+      "release_UTC": "2025-10-29T18:00:00+00:00",
+      "release_ms": 1761760800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251029a.htm",
+      "raw_sha256": "8c4d4e2b8801762c94eb246f3203393d7cc805c29c29d69bc0704c91da8da1b5",
+      "stored": "raw_sources/70bdfcef7645690d.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2025-12-10",
+      "release_ET": "2025-12-10T14:00:00-05:00",
+      "release_UTC": "2025-12-10T19:00:00+00:00",
+      "release_ms": 1765393200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20251210a.htm",
+      "raw_sha256": "59400ee6b064debc5ec61613291cd76ac33035e44c92db2598ca2721a72ab745",
+      "stored": "raw_sources/68cd4bbdacbab193.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2025-12-18",
+      "release_ET": "2025-12-18T08:30:00-05:00",
+      "release_UTC": "2025-12-18T13:30:00+00:00",
+      "release_ms": 1766064600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_12182025.htm",
+      "raw_sha256": "85627e2f11db4d58fbdebc5877b27e71022c0ef17db77ddfb04497c4e33105b5",
+      "stored": "raw_sources/fd1c5c8a98273d0a.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-01-13",
+      "release_ET": "2026-01-13T08:30:00-05:00",
+      "release_UTC": "2026-01-13T13:30:00+00:00",
+      "release_ms": 1768311000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_01132026.htm",
+      "raw_sha256": "bbdb2ecf47afdc9e0daad8555b1a3bf38b8a8981eacaf42d08d3d4953ba632fd",
+      "stored": "raw_sources/52a6a84b61bb06d4.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2026-01-28",
+      "release_ET": "2026-01-28T14:00:00-05:00",
+      "release_UTC": "2026-01-28T19:00:00+00:00",
+      "release_ms": 1769626800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260128a.htm",
+      "raw_sha256": "760c0c37cdefbdd3c3507146344a334d73cdca7bf1f85f94ed3b30cbf14196e7",
+      "stored": "raw_sources/4127eba48afd37c7.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-02-13",
+      "release_ET": "2026-02-13T08:30:00-05:00",
+      "release_UTC": "2026-02-13T13:30:00+00:00",
+      "release_ms": 1770989400000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_02132026.htm",
+      "raw_sha256": "e187d5e926bb71670d6b82fad7540c4a4804a9e25ec132a27d8fb701b0d371fc",
+      "stored": "raw_sources/6e5b3e8c610cbc72.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-03-11",
+      "release_ET": "2026-03-11T08:30:00-04:00",
+      "release_UTC": "2026-03-11T12:30:00+00:00",
+      "release_ms": 1773232200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+      "raw_sha256": "11f673e859eccffabc53987c0fb6cb02760c0601a4d24c1f03d62d162774f168",
+      "stored": "raw_sources/a10cd21d554c8408.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2026-03-18",
+      "release_ET": "2026-03-18T14:00:00-04:00",
+      "release_UTC": "2026-03-18T18:00:00+00:00",
+      "release_ms": 1773856800000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "raw_sha256": "188dfcf00446261ebf6ec755dacb6c9ce9fa6a39cd77558af516f5a7efadca32",
+      "stored": "raw_sources/459ed78faf1dfd41.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-04-10",
+      "release_ET": "2026-04-10T08:30:00-04:00",
+      "release_UTC": "2026-04-10T12:30:00+00:00",
+      "release_ms": 1775824200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_04102026.htm",
+      "raw_sha256": "2f00ec5a10c8d2f0e6e879d8ae8762af555cb7ef26805b37b627ad47c93012f0",
+      "stored": "raw_sources/5f546ec9842ae0a7.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2026-04-29",
+      "release_ET": "2026-04-29T14:00:00-04:00",
+      "release_UTC": "2026-04-29T18:00:00+00:00",
+      "release_ms": 1777485600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+      "raw_sha256": "954b21cc547b90cc86a168d653289d343256d7e9afbe79fe4f5286d2d64a1500",
+      "stored": "raw_sources/cd22c1d43e70bea1.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-05-12",
+      "release_ET": "2026-05-12T08:30:00-04:00",
+      "release_UTC": "2026-05-12T12:30:00+00:00",
+      "release_ms": 1778589000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_05122026.htm",
+      "raw_sha256": "bfee220ac431aefa8dcd000040996fce59d17c06ea2fe2b297db0f3a6d5b659f",
+      "stored": "raw_sources/5f83512383be1e0e.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-06-10",
+      "release_ET": "2026-06-10T08:30:00-04:00",
+      "release_UTC": "2026-06-10T12:30:00+00:00",
+      "release_ms": 1781094600000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_06102026.htm",
+      "raw_sha256": "ba198a462a41b85b997df781558b90d3ab4663d9640efc8cdccca9e81e046a2f",
+      "stored": "raw_sources/cf6f99881b421826.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2026-06-17",
+      "release_ET": "2026-06-17T14:00:00-04:00",
+      "release_UTC": "2026-06-17T18:00:00+00:00",
+      "release_ms": 1781719200000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260617a.htm",
+      "raw_sha256": "338a568f21deaa85fdb6e4903c68d94d5bbf4420d69977878a41112477a3e104",
+      "stored": "raw_sources/94826fcab8a05618.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-07-14",
+      "release_ET": "2026-07-14T08:30:00-04:00",
+      "release_UTC": "2026-07-14T12:30:00+00:00",
+      "release_ms": 1784032200000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_07142026.htm",
+      "raw_sha256": "382f20db3bdeba1f45a7783dacdaebb87e4ca8461ae2e701db803538afdfc790",
+      "stored": "raw_sources/27278ee88bdb251f.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2026-07-29",
+      "release_ET": "2026-07-29T14:00:00-04:00",
+      "release_UTC": "2026-07-29T18:00:00+00:00",
+      "release_ms": 1785348000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm",
+      "raw_sha256": "5856f2467850c237f1a017fbfb2e259da934cc6ca02285c92d2ccb73675fcf3f",
+      "stored": "raw_sources/e290aabba3caad80.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-08-12",
+      "release_ET": "2026-08-12T08:30:00-04:00",
+      "release_UTC": "2026-08-12T12:30:00+00:00",
+      "release_ms": 1786537800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_08122026.htm",
+      "raw_sha256": "d18471db7736e302e35085e14d746eddf51a4f6d27b954642e3ddec3e85778e5",
+      "stored": "raw_sources/dc91b81ebe98c431.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-09-11",
+      "release_ET": "2026-09-11T08:30:00-04:00",
+      "release_UTC": "2026-09-11T12:30:00+00:00",
+      "release_ms": 1789129800000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_09112026.htm",
+      "raw_sha256": "aee0cdff604c295d784e6302b2ba74130f10f535675a5a0fb7262c936edaaabd",
+      "stored": "raw_sources/18d8a9d8da71888c.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2026-09-16",
+      "release_ET": "2026-09-16T14:00:00-04:00",
+      "release_UTC": "2026-09-16T18:00:00+00:00",
+      "release_ms": 1789581600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm",
+      "raw_sha256": "e39dd1cfc968ac021651ba4b570d822622256e28e0794da1947133b65f714d2a",
+      "stored": "raw_sources/da3bcbb85f4595d6.html"
+    },
+    {
+      "kind": "CPI",
+      "date": "2026-10-14",
+      "release_ET": "2026-10-14T08:30:00-04:00",
+      "release_UTC": "2026-10-14T12:30:00+00:00",
+      "release_ms": 1791981000000,
+      "url": "https://www.bls.gov/news.release/archives/cpi_10142026.htm",
+      "raw_sha256": "b9f981390c08f4a530d839495fce582124015b979bac0398bfcc35ffde0544e4",
+      "stored": "raw_sources/0212a829acedbd17.html"
+    },
+    {
+      "kind": "FOMC",
+      "date": "2026-10-28",
+      "release_ET": "2026-10-28T14:00:00-04:00",
+      "release_UTC": "2026-10-28T18:00:00+00:00",
+      "release_ms": 1793210400000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "raw_sha256": "b66c117c8e5a1f87bf971c48ec6dacb737780b88b5bc829a03dca30475aa3c33",
+      "stored": "raw_sources/a0c3e1be77e8b5a2.html"
+    }
+  ],
+  "timezone": "America/New_York",
+  "window": "inclusive signal_close_ms in [release_ms,release_ms+3600000]",
+  "emergency_proof": [
+    {
+      "kind": "FOMC",
+      "date": "2020-03-03",
+      "release_ET": "2020-03-03T10:00:00-05:00",
+      "release_UTC": "2020-03-03T15:00:00+00:00",
+      "release_ms": 1583247600000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200303a.htm",
+      "raw_sha256": "fe7f2a1f98b6f9305c591bcdb4ae6296812b8f92ca19f35b7e26815a5f0eac7c",
+      "header": "For release at 10:00 a.m. EST",
+      "emergency": true
+    },
+    {
+      "kind": "FOMC",
+      "date": "2020-03-15",
+      "release_ET": "2020-03-15T17:00:00-04:00",
+      "release_UTC": "2020-03-15T21:00:00+00:00",
+      "release_ms": 1584306000000,
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200315a.htm",
+      "raw_sha256": "7803bc6dbcac7c139ae134887b3a7a8f81b44d3b6fea18a7094c5a3e15cf350e",
+      "header": "For release at 5:00 p.m. EDT",
+      "emergency": true
+    }
+  ],
+  "excluded_fomc_framework": "2025-08-22",
+  "selection_bias": "Retrospectively selected window, not unseen sample"
+}

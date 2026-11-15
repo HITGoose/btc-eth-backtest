@@ -1,0 +1,5 @@
+﻿fee_scenario,group,new_closed_records,new_closed_net_USDT,proved_freed_occupancy_trades,proved_freed_occupancy_wins,proved_freed_occupancy_losses,proved_freed_occupancy_net_USDT,not_proven_or_open_count,not_additive_counterfactual
+ZERO,A_MACRO_60,7,-69.92398219599936,7,2,5,-69.92398219599936,0,True
+ZERO,A_FOMC_60,4,-35.407818715999774,4,1,3,-35.407818715999774,0,True
+ASSUMED_005_SIDE,A_MACRO_60,7,-69.80376889716545,7,2,5,-69.80376889716545,0,True
+ASSUMED_005_SIDE,A_FOMC_60,4,-34.63552624913579,4,1,3,-34.63552624913579,0,True
