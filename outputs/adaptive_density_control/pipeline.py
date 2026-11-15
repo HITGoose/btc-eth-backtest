@@ -10,7 +10,7 @@ while True:
   if len(rows)==6 and any(r['returncode'] for r in rows):
    # The known initial import-name failure has already been repaired; require
    # the latest attempt log to have concluded before declaring a blocker.
-   if(O/'train_supervisor_retry.log').exists()and len((O/'train_supervisor_retry.log').read_text().splitlines())>=6:
+   if(O/'train_supervisor_true.log').exists()and len((O/'train_supervisor_true.log').read_text().splitlines())>=6:
     (O/'pipeline_blocked.json').write_text(json.dumps(dict(reason='Training incomplete; do not select on missing periods',time_UTC=datetime.datetime.now(datetime.timezone.utc).isoformat()),indent=2));raise SystemExit(2)
  time.sleep(2)
 r=subprocess.run([sys.executable,str(O/'freeze.py')]);assert r.returncode==0

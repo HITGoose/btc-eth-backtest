@@ -1,0 +1,32 @@
+{
+  "time_UTC": "2026-11-15T07:58:36.999828+00:00",
+  "reason": "User explicitly corrected all four groups pause_transition to True",
+  "previous_policy": false,
+  "current_policy": true,
+  "V2_was_already_disabled": true,
+  "affected_completed_training": [
+    "2020 BTC",
+    "2020 ETH"
+  ],
+  "affected_partial_training": [
+    "2021 BTC",
+    "2021 ETH"
+  ],
+  "not_started_training": [
+    "2022 BTC",
+    "2022 ETH"
+  ],
+  "no_freeze_existed": true,
+  "no_post2022_or_fee_runs_started": true,
+  "old_checkpoints_not_reused": true,
+  "archive": "superseded_pause_false",
+  "stopped_only_owned_task_PIDs": [
+    67932,
+    68069,
+    68119,
+    68160
+  ],
+  "environment_not_restarted": true,
+  "matrix_unchanged": true,
+  "annual_reset_drawdowns_not_concatenated": true
+}

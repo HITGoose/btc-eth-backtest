@@ -5,7 +5,7 @@ from dataclasses import replace,asdict
 import numpy as np
 import pandas as pd
 R=Path('/workspace/btc-eth-backtest');O=Path(__file__).resolve().parent;sys.path.insert(0,str(R/'outputs/extra_sizing_cost_stress'));import shared as s
-z=s.z;r=s.r;SETTINGS=r.model.Settings(96,5,.25,'uncapped');POLICY=r.RegimeOverlay(.25,.50,2.,False);PAIR=((12,.28284271247461906),(120,.10));SPECS={'A':dict(family='A',parameters=[.25,.50]),'B15':dict(family='B',parameters=[.15,.40]),'B20':dict(family='B',parameters=[.20,.45]),'B25':dict(family='B',parameters=[.25,.50]),'C05':dict(family='C',parameters=[.5,1.]),'C10':dict(family='C',parameters=[1.,2.]),'C15':dict(family='C',parameters=[1.5,3.])}
+z=s.z;r=s.r;SETTINGS=r.model.Settings(96,5,.25,'uncapped');POLICY=r.RegimeOverlay(.25,.50,2.,True);PAIR=((12,.28284271247461906),(120,.10));SPECS={'A':dict(family='A',parameters=[.25,.50]),'B15':dict(family='B',parameters=[.15,.40]),'B20':dict(family='B',parameters=[.20,.45]),'B25':dict(family='B',parameters=[.25,.50]),'C05':dict(family='C',parameters=[.5,1.]),'C10':dict(family='C',parameters=[1.,2.]),'C15':dict(family='C',parameters=[1.5,3.])}
 def digest_file(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def rolling_min(x,n):return pd.Series(np.where(np.isfinite(x),x,np.nan)).rolling(n,min_periods=n).min().to_numpy()
 def past_quantile(x,q):return pd.Series(np.where(np.isfinite(x),x,np.nan)).shift(1).rolling(2880,min_periods=2880).quantile(q,interpolation='linear').to_numpy()
@@ -43,7 +43,7 @@ def make(asset,data,start,end,names=None):
    i=(t-leg.first)//900000-1;gate=ctx[t]['gate_confirmation'];state=ctx[t]['regime']
    if gate['aligned_lines']<6:continue
    if state=='range':eligible=bool(hist[i]and width[i])
-   elif state=='transition':eligible=True
+   elif state=='transition':eligible=not POLICY.pause_transition
    elif r.regime.DIRECTIONS.get(state)==side:
     distance=gate['distance_to_confirmed_hourly_level_pct'];eligible=bool(gate['short_term_alignment']and((distance is not None and distance<=2.)or gate['directional_volume_breakout']or gate['confirmed_retest']))
    else:eligible=False

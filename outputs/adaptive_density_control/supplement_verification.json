@@ -1,0 +1,12 @@
+{
+  "priority_base": "Control(Ledger,AuditSleeve), not Dynamic(Ledger,BoundedAdaptive)",
+  "engine_monetary_code_unchanged_since_previous_checks": true,
+  "engine_SHA256": "12da60a8cdb040a1bc8351c3319e0f9940655db498999431a2072f6ffbcadded",
+  "pause_transition_explicit": true,
+  "all_groups_same_CONTROL": true,
+  "changed_only_admission_transition_policy": true,
+  "three_training_intervals_reset_independently": true,
+  "score_averages_annual_return_minus_annual_drawdown": true,
+  "no_three_year_concatenated_drawdown": true,
+  "no_extra_candidates": true
+}
