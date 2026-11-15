@@ -1,0 +1,127 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "2880 threshold excludes current",
+      "passed": true
+    },
+    {
+      "name": "current and future changes cannot alter current threshold",
+      "passed": true
+    },
+    {
+      "name": "inf excluded, full2880 finite observations required",
+      "passed": true
+    },
+    {
+      "name": "Wilder96 initialized from first96 valid TR",
+      "passed": true
+    },
+    {
+      "name": "BTC EXTRA at1x without added capital",
+      "passed": true
+    },
+    {
+      "name": "BTC CORE request preserves existing exposure until next print",
+      "passed": true
+    },
+    {
+      "name": "BTC exit event cannot also fill new CORE",
+      "passed": true
+    },
+    {
+      "name": "BTC CORE new order uses3x updated cash",
+      "passed": true
+    },
+    {
+      "name": "BTC distinct next event may fill CORE",
+      "passed": true
+    },
+    {
+      "name": "BTC CONTROL has no V2 events",
+      "passed": true
+    },
+    {
+      "name": "ETH EXTRA at1x without added capital",
+      "passed": true
+    },
+    {
+      "name": "ETH CORE request preserves existing exposure until next print",
+      "passed": true
+    },
+    {
+      "name": "ETH exit event cannot also fill new CORE",
+      "passed": true
+    },
+    {
+      "name": "ETH CORE new order uses3x updated cash",
+      "passed": true
+    },
+    {
+      "name": "ETH distinct next event may fill CORE",
+      "passed": true
+    },
+    {
+      "name": "ETH CONTROL has no V2 events",
+      "passed": true
+    },
+    {
+      "name": "ETH EXTRA at1x without added capital",
+      "passed": true
+    },
+    {
+      "name": "ETH CORE request preserves existing exposure until next print",
+      "passed": true
+    },
+    {
+      "name": "ETH exit event cannot also fill new CORE",
+      "passed": true
+    },
+    {
+      "name": "ETH CORE new order uses3x updated cash",
+      "passed": true
+    },
+    {
+      "name": "original hard stop has precedence over replacement exit",
+      "passed": true
+    },
+    {
+      "name": "ETH distinct next event may fill CORE",
+      "passed": true
+    },
+    {
+      "name": "ETH CONTROL has no V2 events",
+      "passed": true
+    },
+    {
+      "name": "A closed-bar signals unaffected by later years/candles",
+      "passed": true
+    },
+    {
+      "name": "B15 closed-bar signals unaffected by later years/candles",
+      "passed": true
+    },
+    {
+      "name": "B20 closed-bar signals unaffected by later years/candles",
+      "passed": true
+    },
+    {
+      "name": "B25 closed-bar signals unaffected by later years/candles",
+      "passed": true
+    },
+    {
+      "name": "C05 closed-bar signals unaffected by later years/candles",
+      "passed": true
+    },
+    {
+      "name": "C10 closed-bar signals unaffected by later years/candles",
+      "passed": true
+    },
+    {
+      "name": "C15 closed-bar signals unaffected by later years/candles",
+      "passed": true
+    }
+  ],
+  "count": 30,
+  "not_historical_performance_validation": true
+}

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/adaptive_density_control/worker.py", line 60, in <module>
+    try:run(period,asset,stage)
+        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/adaptive_density_control/worker.py", line 31, in run
+    books={c['key']:E.book(asset,c['fee'],leg,core,c['hybrid'])for c in cfgs};resume=start;prefix={k:np.array([])for k in books};cp=folder/'checkpoint.pkl.gz';datafp=s.o.digest(dict(maps=maps,configs=cfgs,hashes={n:sig.digest_file(info['data']/n)for n in [asset+'_15m.csv',asset+'_1m.npy']}))
+                    ^^^^^^
+AttributeError: module 'engine' has no attribute 'book'

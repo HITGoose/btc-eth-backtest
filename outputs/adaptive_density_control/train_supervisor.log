@@ -1,0 +1,6 @@
+{'period': '2020', 'asset': 'BTC', 'stage': 'train', 'returncode': 1, 'finished_UTC': '2026-11-15T07:22:20.214757+00:00'}
+{'period': '2020', 'asset': 'ETH', 'stage': 'train', 'returncode': 1, 'finished_UTC': '2026-11-15T07:22:20.510756+00:00'}
+{'period': '2021', 'asset': 'ETH', 'stage': 'train', 'returncode': 1, 'finished_UTC': '2026-11-15T07:22:27.517128+00:00'}
+{'period': '2021', 'asset': 'BTC', 'stage': 'train', 'returncode': 1, 'finished_UTC': '2026-11-15T07:22:27.534213+00:00'}
+{'period': '2022', 'asset': 'ETH', 'stage': 'train', 'returncode': 1, 'finished_UTC': '2026-11-15T07:22:34.630401+00:00'}
+{'period': '2022', 'asset': 'BTC', 'stage': 'train', 'returncode': 1, 'finished_UTC': '2026-11-15T07:22:34.632666+00:00'}

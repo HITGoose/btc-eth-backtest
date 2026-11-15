@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/adaptive_density_control/minimal_checks.py", line 13, in <module>
+    b.visit(price,1010001,True,advance_ladder=False);ok(asset+' distinct next event may fill CORE',b.position is not None and b.order is None and b.order_info['origin']=='CORE');E.cash_check(b);ok(asset+' CONTROL has no V2 events',not any('partial'in e['event']for e in b.events))
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/adaptive_density_control/minimal_checks.py", line 6, in ok
+    def ok(name,passed):assert passed,name;checks.append(dict(name=name,passed=True))
+                               ^^^^^^
+AssertionError: ETH distinct next event may fill CORE

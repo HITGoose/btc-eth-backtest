@@ -1,0 +1,42 @@
+[
+  {
+    "path": "outputs/retry_nov9_nov12/replay_comparison.py",
+    "error": "gh: Not Found (HTTP 404)\n"
+  },
+  {
+    "path": "work/gate_october_regime_entries.py",
+    "main_blob": "c6646705da18fbd9cda342d3122cff604be2b29b",
+    "SHA256": "5bfc567dd46edf96569dedc76ebfb40569a2466a37926c386891d3278a3df4a9",
+    "local_equal": true
+  },
+  {
+    "path": "work/fit_squeeze_ladder_bot.py",
+    "main_blob": "599996640adb2917ec868089191463f98c51a552",
+    "SHA256": "8d6ebc21c2c437238545ece27969e8cb419d5cd1563bde02a848d1f5074ff384",
+    "local_equal": true
+  },
+  {
+    "path": "work/replay_gate_october_seconds.py",
+    "main_blob": "07eda61eee75ad84582b3b57a218a66c7cc649b2",
+    "SHA256": "6f57dbf22789c27b178aa4616cb75482bfb4b8eee46dfb3e0fc6364046ce6ab5",
+    "local_equal": true
+  },
+  {
+    "path": "work/fit_gate_entry_overlay.py",
+    "main_blob": "5612882f1179da3fa9d8f8fe476b9a2ab47bd2d0",
+    "SHA256": "f4f453481a9ce2722c312b6e802ba1ae691dc0a7b0a2abfdf6c9c3b81ef8f8bd",
+    "local_equal": true
+  },
+  {
+    "path": "work/replay_gate_bot.py",
+    "main_blob": "d064cae947d5b7aa10f90360970fe652398b8cc7",
+    "SHA256": "843a866c10f1a16d2c6830d67b0b1502802f91abfe41a3671156dd7128de1101",
+    "local_equal": true
+  },
+  {
+    "path": "work/replay_gate_selected_3x.py",
+    "main_blob": "f9469f691e8bb7069e31249d67066900c9ea21eb",
+    "SHA256": "1ef9cb5026dd86582a206db6a201112b5e020a211332136a4146e24d7f332a92",
+    "local_equal": true
+  }
+]
