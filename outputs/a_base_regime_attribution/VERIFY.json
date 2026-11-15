@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "unchanged_source_ledgers": 28,
+  "closed_per_fee": 895,
+  "open_per_fee": 5,
+  "all_anchors_independently_reconciled": true,
+  "normalized_means_are_per_trade_arithmetic": true,
+  "max_account_residual_USDT": 5.400124791776761e-13
+}

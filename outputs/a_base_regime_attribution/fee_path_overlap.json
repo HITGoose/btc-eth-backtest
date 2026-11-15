@@ -1,0 +1,6 @@
+{
+  "same_record_keys_and_fill_exit_times": true,
+  "zero_records": 900,
+  "maker_records": 900,
+  "fee_scenarios_not_independent_samples": true
+}

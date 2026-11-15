@@ -1,0 +1,109 @@
+{
+  "created_UTC": "2026-11-15T17:31:36.705395+00:00",
+  "files": {
+    "BTC_state_summary.csv": {
+      "bytes": 4142,
+      "SHA256": "0fbadf0323e7b07aa0c2f5a1cc19bcaa7ae2bc75c1e23a4862c28180bdd992bb"
+    },
+    "fee_path_overlap.json": {
+      "bytes": 146,
+      "SHA256": "a5d33965289a3326700596bfeb79921f7d02a5442b2b7347e337e71c1053d471"
+    },
+    "CONCLUSION.md": {
+      "bytes": 22791,
+      "SHA256": "198f01edc2fbb076a11442fa0923f9074d48239bbd0f9d36581b05bd1ddd913c"
+    },
+    "stage_comparison.csv": {
+      "bytes": 23883,
+      "SHA256": "4d7ec53e9dcb63122f9d0a8bf0bab18b3ea28fe1ce07f70e74d0292586bcbf69"
+    },
+    "VERIFY.json": {
+      "bytes": 255,
+      "SHA256": "b3f0800ca54792e7ce5cb6236658a42e79d23862f2fdb80e9844b9f73b1d9e55"
+    },
+    "report.py": {
+      "bytes": 10658,
+      "SHA256": "dbda713805543dc2d2ae1a9e7102e397f41954ebf41f6b05048834096753d6bc"
+    },
+    "robustness.py": {
+      "bytes": 2111,
+      "SHA256": "96e2dde122e61fe8307b5c588bc0b2873cc916b0526f6e1ad6610ebff1d53b9b"
+    },
+    "trade_details.csv": {
+      "bytes": 1453612,
+      "SHA256": "504ed44f33fe598bf293401d3d5dd525fec708cd214aae2422dd8f3a05fcf9a7"
+    },
+    "verification.log": {
+      "bytes": 240,
+      "SHA256": "8708a3b35deb86bafcc70712541d6735b50b6c5c220a8d57119c9d75fd3a5548"
+    },
+    "yearly_state.csv": {
+      "bytes": 75001,
+      "SHA256": "85ec3f7268eeaa0de2c3ff25a346c0e734b859c78bd7f133996139f1d3570b24"
+    },
+    ".gitattributes": {
+      "bytes": 8,
+      "SHA256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    "RUN.md": {
+      "bytes": 1783,
+      "SHA256": "d5c81e6feca455fdd5de3ff5304696a24ae1fea1f02376aad26d165e768b4c66"
+    },
+    "concentration.csv": {
+      "bytes": 8242,
+      "SHA256": "e1fe76f26911d43f85efbd08b8bfbc37a26fb5cc9bcda2b8d017abf3127d4e56"
+    },
+    "COMBINED_state_summary.csv": {
+      "bytes": 4860,
+      "SHA256": "d6fa80df07dc0d4a878880e93e23143d343a85ec4b9af5104ad0d0476f208b84"
+    },
+    "CONFIG.json": {
+      "bytes": 1236,
+      "SHA256": "0c0fbb17291288f4194d23b7591337fe1f10fd4eb222001e9165f1be414175aa"
+    },
+    "input_provenance.csv": {
+      "bytes": 2539,
+      "SHA256": "5cd75757a0a5ce678fdb26d4981c06a009026c993cbd9eb4099eec94ccf54a75"
+    },
+    "account_reconciliation.csv": {
+      "bytes": 5335,
+      "SHA256": "166a11f1d28db63a5386fd85289aa3820205f3ae0906c35e2bfda97902453b88"
+    },
+    "CHECKS.json": {
+      "bytes": 517,
+      "SHA256": "7f191cbdc93c7ea76f58b40bb4cd6e1a12add20535ab9cd16170912f5bef4e71"
+    },
+    "verify.py": {
+      "bytes": 1577,
+      "SHA256": "a82c3d113c951ac4cfe8f5ff2093c86d3ea2bd4a3feade588020ee192fe7c16a"
+    },
+    "ETH_state_summary.csv": {
+      "bytes": 4792,
+      "SHA256": "3750b1dd3a01c825448708e34e30b043fd1a166b987f22d8131e5ad4f044a84a"
+    },
+    "source_integrity.json": {
+      "bytes": 411,
+      "SHA256": "c56096bc19459b03cb944ded146c8b20115f258eead370bc1c20070d421dcb41"
+    },
+    "analyze.py": {
+      "bytes": 12630,
+      "SHA256": "bb82a100515f66fa7b92decefe4b79ca1a84bd06aa81fe59c259b8d52ed1536f"
+    },
+    "state_summary.csv": {
+      "bytes": 12830,
+      "SHA256": "e39ef08b725d35aed48d90a268c253d39630c51d79cc474862eb692bc5c0ef9d"
+    },
+    "label_transition.csv": {
+      "bytes": 16200,
+      "SHA256": "2dc7976194ea394cb606dac7d2f2c80f24103f3c51179f9610362052202196b5"
+    },
+    "consistency.csv": {
+      "bytes": 6611,
+      "SHA256": "eb43b92f1f9275e776f9e7633cf203dc52e81246cb53753b8ba669d4afeda97a"
+    },
+    "execution.log": {
+      "bytes": 1063,
+      "SHA256": "e0cf51895e558af6e9dd918811ae92bb9f57a5b167b5bb5ff59d5ef08f30d7fc"
+    }
+  }
+}

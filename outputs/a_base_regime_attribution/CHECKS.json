@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "checks": [
+    "Original hourly_regimes AST only; no backtest or financial classes imported",
+    "Every queried hour already closed at signal or fill",
+    "Actual submission+10s recorded separately and same hour verified",
+    "Future-hour perturbation leaves every past label unchanged",
+    "All28 source accounts reconcile including open entry fees",
+    "Arithmetic per-trade normalization; open excluded from closed win rate"
+  ],
+  "max_reconciliation_residual": 5.400124791776761e-13
+}

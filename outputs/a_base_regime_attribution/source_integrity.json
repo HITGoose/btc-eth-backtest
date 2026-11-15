@@ -1,0 +1,9 @@
+{
+  "source_commit": "060e12a18bc745a7c98e5270f2e37b0c759cc5ff",
+  "unchanged_original_sources": {
+    "work/backtest_squeeze_short.py": "18909ac06127d0cb743e99d7616ad6d086307808c93ab6e49427ccd6ca06ae4e",
+    "outputs/adaptive_density_control/signals.py": "de3f98893755a7f5870595b37e3dc2cdcba879bff43ff8637ac8c711aac5f09d"
+  },
+  "financial_ledger_unchanged_check": "VERIFY.json",
+  "read_only_analysis": true
+}
