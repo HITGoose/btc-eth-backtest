@@ -1,0 +1,25 @@
+{
+  "source_commit": "36f338e0b5bbef38b1465f18fda8ce6c8045adbc",
+  "branch": "codex/a-exit-regime-sizing-20261115",
+  "groups": {
+    "A_BASE": "fixed_cap5",
+    "A_EXIT_UNCAPPED": "uncapped",
+    "A_EXIT_TRAIL8": "trail_from_8pct",
+    "A_REGIME_SIZE": "fixed_cap5_weight1.3_or0.7"
+  },
+  "fees": {
+    "ZERO": 0,
+    "ASSUMED_005_SIDE": 0.0005,
+    "MAKER_002_SIDE": 0.0002
+  },
+  "entry_fixed": true,
+  "macro_filter": false,
+  "V2": false,
+  "funding": 0,
+  "exit_slippage": 0.0002,
+  "accounts": 168,
+  "new_accounts": 140,
+  "reused_accounts": 28,
+  "financial_fingerprint": "77a8602cf465475f5186373bff314266a85d3d1adb88c837f68a86b27f419bdf",
+  "cash_checks_max_residual": 8.526512829121202e-13
+}

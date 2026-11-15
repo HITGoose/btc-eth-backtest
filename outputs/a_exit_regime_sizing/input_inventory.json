@@ -1,0 +1,100 @@
+{
+  "2020_BTC": {
+    "data": "/workspace/btc-eth-backtest/outputs/er_partial_2020/data",
+    "start": 1581782400,
+    "end": 1609430400,
+    "minute_first": 1581696000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2020_ETH": {
+    "data": "/workspace/btc-eth-backtest/outputs/er_partial_2020/data",
+    "start": 1581782400,
+    "end": 1609430400,
+    "minute_first": 1581696000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2021_BTC": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2021/data",
+    "start": 1609430400,
+    "end": 1640966400,
+    "minute_first": 1609344000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2021_ETH": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2021/data",
+    "start": 1609430400,
+    "end": 1640966400,
+    "minute_first": 1609344000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2022_BTC": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2022/data",
+    "start": 1640966400,
+    "end": 1672502400,
+    "minute_first": 1640880000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2022_ETH": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2022/data",
+    "start": 1640966400,
+    "end": 1672502400,
+    "minute_first": 1640880000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2023_BTC": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2023/data",
+    "start": 1672502400,
+    "end": 1704038400,
+    "minute_first": 1672416000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2023_ETH": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2023/data",
+    "start": 1672502400,
+    "end": 1704038400,
+    "minute_first": 1672416000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2024_BTC": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2024/data",
+    "start": 1704038400,
+    "end": 1735660800,
+    "minute_first": 1703952000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2024_ETH": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2024/data",
+    "start": 1704038400,
+    "end": 1735660800,
+    "minute_first": 1703952000,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2025_BTC": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2025/data",
+    "start": 1735660800,
+    "end": 1767196800,
+    "minute_first": 1735574400,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2025_ETH": {
+    "data": "/workspace/btc-eth-backtest/outputs/other_years_050/2025/data",
+    "start": 1735660800,
+    "end": 1767196800,
+    "minute_first": 1735574400,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2026_BTC": {
+    "data": "/workspace/btc-eth-backtest/outputs/attribution_2026/data",
+    "start": 1767196800,
+    "end": 1793462400,
+    "minute_first": 1767139200,
+    "source": "BINANCE_USDT_PERPETUAL"
+  },
+  "2026_ETH": {
+    "data": "/workspace/btc-eth-backtest/outputs/attribution_2026/data",
+    "start": 1767196800,
+    "end": 1793462400,
+    "minute_first": 1767139200,
+    "source": "BINANCE_USDT_PERPETUAL"
+  }
+}

@@ -1,0 +1,23 @@
+{'period': '2021', 'asset': 'BTC', 'exit_code': 0}
+{'period': '2021', 'asset': 'ETH', 'exit_code': 0}
+{'period': '2020', 'asset': 'ETH', 'exit_code': 0}
+{'period': '2022', 'asset': 'ETH', 'exit_code': 0}
+{'period': '2020', 'asset': 'BTC', 'exit_code': 0}
+{'period': '2022', 'asset': 'BTC', 'exit_code': 0}
+{'period': '2023', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 84, "incomplete": 84, "combined_rows": 36}
+{'period': '2023', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 96, "incomplete": 72, "combined_rows": 48}
+{'period': '2024', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 108, "incomplete": 60, "combined_rows": 48}
+{'period': '2025', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 120, "incomplete": 48, "combined_rows": 48}
+{'period': '2025', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 132, "incomplete": 36, "combined_rows": 60}
+{'period': '2024', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 144, "incomplete": 24, "combined_rows": 72}
+{'period': '2026', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 156, "incomplete": 12, "combined_rows": 72}
+{'period': '2026', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 168, "incomplete": 0, "combined_rows": 84}
+FINISHED_ALL

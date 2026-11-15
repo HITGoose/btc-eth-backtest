@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "account_results_checked": 168,
+  "checks": [
+    "Existing exit policies: cap5, uncapped, release cap at favorable8%, no invented cap8",
+    "Original fixed squeeze/current-width/transition unchanged",
+    "All available complete signals identical to fixed A; weights only past closed120h information",
+    "Accepted notional rounds down; regime weights do not remove or add indicator signals"
+  ]
+}
