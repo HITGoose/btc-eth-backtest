@@ -1,0 +1,1463 @@
+{
+  "locked_commit": "7a4a9fedaf9d297d85c0fa6279acd2627db2497f",
+  "read_only": true,
+  "financial_replays": 0,
+  "new_market_downloads": 0,
+  "strategy_changes": 0,
+  "actual_deployment_version": "UNKNOWN",
+  "indicators": {
+    "derivation": "Read-only indicator/candidate reconstruction from existing cached15m; no financial replay/download",
+    "signal_close_ms": 1794175200000,
+    "bar_open_ms": 1794174300000,
+    "OHLCV": [
+      2221.07,
+      2221.08,
+      2050.32,
+      2126.0,
+      1029828.112
+    ],
+    "previous_close": 2221.07,
+    "previous32_low": 2220.29,
+    "previous20_volume_median": 9907.716499999999,
+    "volume_multiplier": 103.94202458255644,
+    "SMA5": 2204.2279999997468,
+    "SMA20": 2224.011999999732,
+    "DIF": -10.9646282867634,
+    "DEA": -3.975931010136782,
+    "DIF_minus_DEA": -6.988697276626618,
+    "six_MA": {
+      "SMA20": {
+        "current": 2224.011999999732,
+        "three_bars_ago": 2230.7879999998027,
+        "strict_down": true
+      },
+      "SMA60": {
+        "current": 2233.0891666665984,
+        "three_bars_ago": 2235.2426666666133,
+        "strict_down": true
+      },
+      "SMA120": {
+        "current": 2233.5572499999776,
+        "three_bars_ago": 2234.774666666643,
+        "strict_down": true
+      },
+      "EMA20": {
+        "current": 2219.5226756451916,
+        "three_bars_ago": 2230.945875368147,
+        "strict_down": true
+      },
+      "EMA60": {
+        "current": 2229.7549843056036,
+        "three_bars_ago": 2234.0296561609034,
+        "strict_down": true
+      },
+      "EMA120": {
+        "current": 2233.9552858551847,
+        "three_bars_ago": 2236.2264061877227,
+        "strict_down": true
+      }
+    },
+    "gate": {
+      "signal_close_ms": 1794175200000,
+      "side": -1,
+      "regime": "down",
+      "historical_metric": 0.07022639579077662,
+      "historical_threshold": 0.25,
+      "current_metric": 0.6788621923797306,
+      "current_threshold": 0.5,
+      "historical_pass": true,
+      "range_width_pass": false,
+      "accepted": true,
+      "aligned_lines": 6,
+      "short_term_alignment": true,
+      "distance_pct": 4.577610536218258,
+      "volume_breakout": true,
+      "confirmed_retest": false
+    },
+    "hour_context": [
+      "down",
+      -0.7776209961901872,
+      -0.16454104191640279
+    ],
+    "support_level": 2223.32,
+    "A_signal": -1,
+    "warm_first_ms": 1789574400000,
+    "financial_start_ms": 1793462400000,
+    "V2_prepare_source": "/workspace/btc-eth-backtest/outputs/attribution_2026/paired_replay.py",
+    "V2_prepare_line": 182,
+    "cached_signal_comparison": {
+      "A_count": 31,
+      "V2_count": 31,
+      "entire_RAW_interval_equal": true,
+      "A_target": -1,
+      "V2_target": -1,
+      "differences": []
+    }
+  },
+  "versions": {
+    "A": {
+      "original_path": "outputs/adaptive_density_control/recent/ETH/RAW/results/ZERO_A_result.json",
+      "SHA256": "b530ad35c8dbfee6d69e70ed9da84d5bdf133edc69b4531b841ecc998075a455",
+      "original_ledger_tracked_at_locked_commit": false,
+      "committed_csv": "outputs/adaptive_density_control/recent_trades.csv",
+      "csv_evidence": {
+        "line": 17,
+        "row": {
+          "scene": "RAW",
+          "asset": "ETH",
+          "fee_scenario": "ZERO",
+          "group": "A",
+          "execution": "RAW_TRADE_SIMULATION",
+          "signal_ms": "1794175210000",
+          "opened_ms": "1794175219255",
+          "closed_ms": "1794212668046",
+          "side": "SHORT",
+          "reason": "ladder_exit",
+          "entry": "2130.25",
+          "exit": "2109.3717899999997",
+          "notional": "1640.2925",
+          "net": "16.07622170000024",
+          "rung": "1",
+          "opening_sleeve_cash_usdt": "552.7032141599999",
+          "trigger_print": "2108.95",
+          "closed_us": "1794212668046000",
+          "opened_us": "1794175219255000",
+          "quantity": "0.77",
+          "stop_before_exit": "2108.95",
+          "signal_close_ms": "1794175200000",
+          "actual_final_cash_credit": "16.076221700000247",
+          "entry_fee_usdt": "0.0",
+          "entry_fee_journal_correction": "0.0",
+          "origin": "CORE",
+          "submitted_us": "1794175210000000",
+          "signal_Beijing": "2026-11-09T06:00:00.000+08:00",
+          "opened_Beijing": "2026-11-09T06:00:19.255+08:00",
+          "closed_Beijing": "2026-11-09T16:24:28.046+08:00"
+        }
+      },
+      "raw_ledger": {
+        "asset": "ETH",
+        "period": "NOV",
+        "key": "ZERO_A",
+        "configuration": {
+          "key": "ZERO_A",
+          "source": "A",
+          "group": "A",
+          "fee": 0.0,
+          "hybrid": false
+        },
+        "window": [
+          "2026-11-01T00:00:00.000+08:00",
+          "2026-11-14T08:00:00.000+08:00"
+        ],
+        "starting_equity": 500.0,
+        "cash": 568.7794358600001,
+        "ending_equity": 568.7794358600001,
+        "fee": 0.0,
+        "funding": 0,
+        "V2": false,
+        "profile": "CONTROL",
+        "trades": [
+          {
+            "signal_ms": 1793579410000,
+            "opened_ms": 1793579637828,
+            "closed_ms": 1793761733933,
+            "side": "LONG",
+            "reason": "hard_stop",
+            "entry": 2271.01,
+            "exit": 2225.144882,
+            "notional": 1498.8666000000003,
+            "net": -30.27097788000011,
+            "rung": 0,
+            "opening_sleeve_cash_usdt": 500.0,
+            "trigger_print": 2225.59,
+            "closed_us": 1793761733933000,
+            "opened_us": 1793579637828000,
+            "quantity": 0.66,
+            "stop_before_exit": 2225.59,
+            "signal_close_ms": 1793579400000,
+            "actual_final_cash_credit": -30.27097788000009,
+            "entry_fee_usdt": 0.0,
+            "entry_fee_journal_correction": 0.0,
+            "origin": "CORE",
+            "submitted_us": 1793579410000000
+          },
+          {
+            "signal_ms": 1794121210000,
+            "opened_ms": 1794123866125,
+            "closed_ms": 1794174955731,
+            "side": "SHORT",
+            "reason": "ladder_exit",
+            "entry": 2237.54,
+            "exit": 2103.710658,
+            "notional": 1387.2748,
+            "net": 82.97419203999999,
+            "rung": 6,
+            "opening_sleeve_cash_usdt": 469.7290221199999,
+            "trigger_print": 2103.29,
+            "closed_us": 1794174955731000,
+            "opened_us": 1794123866125000,
+            "quantity": 0.62,
+            "stop_before_exit": 2103.29,
+            "signal_close_ms": 1794121200000,
+            "actual_final_cash_credit": 82.97419203999999,
+            "entry_fee_usdt": 0.0,
+            "entry_fee_journal_correction": 0.0,
+            "origin": "CORE",
+            "submitted_us": 1794121210000000
+          },
+          {
+            "signal_ms": 1794175210000,
+            "opened_ms": 1794175219255,
+            "closed_ms": 1794212668046,
+            "side": "SHORT",
+            "reason": "ladder_exit",
+            "entry": 2130.25,
+            "exit": 2109.3717899999997,
+            "notional": 1640.2925,
+            "net": 16.07622170000024,
+            "rung": 1,
+            "opening_sleeve_cash_usdt": 552.7032141599999,
+            "trigger_print": 2108.95,
+            "closed_us": 1794212668046000,
+            "opened_us": 1794175219255000,
+            "quantity": 0.77,
+            "stop_before_exit": 2108.95,
+            "signal_close_ms": 1794175200000,
+            "actual_final_cash_credit": 16.076221700000247,
+            "entry_fee_usdt": 0.0,
+            "entry_fee_journal_correction": 0.0,
+            "origin": "CORE",
+            "submitted_us": 1794175210000000
+          }
+        ],
+        "events": [
+          {
+            "event": "order_sent",
+            "time_us": 1793579410000000,
+            "price": 2271.01,
+            "side": 1,
+            "quantity": 0.66,
+            "effective_submission_us": 1793579410000000,
+            "signal_close_ms": 1793579400000,
+            "origin": "CORE",
+            "submitted_us": 1793579410000000
+          },
+          {
+            "event": "limit_touch_proxy_fill",
+            "time_us": 1793579637828000,
+            "price": 2271.01,
+            "entry": 2271.01,
+            "side": 1,
+            "quantity": 0.66,
+            "submitted_ms": 1793579410000,
+            "signal_close_ms": 1793579400000,
+            "origin": "CORE",
+            "submitted_us": 1793579410000000,
+            "raw_sequence": 5
+          },
+          {
+            "event": "hard_stop",
+            "time_us": 1793761733933000,
+            "price": 2225.59,
+            "rung": 0,
+            "net_usdt": -30.27097788000011,
+            "signal_close_ms": 1793579400000,
+            "origin": "CORE"
+          },
+          {
+            "event": "order_sent",
+            "time_us": 1794117610000000,
+            "price": 2238.9,
+            "side": -1,
+            "quantity": 0.62,
+            "effective_submission_us": 1794117610000000,
+            "signal_close_ms": 1794117600000,
+            "origin": "CORE",
+            "submitted_us": 1794117610000000
+          },
+          {
+            "event": "order_sent",
+            "time_us": 1794121210000000,
+            "price": 2237.54,
+            "side": -1,
+            "quantity": 0.62,
+            "effective_submission_us": 1794121210234000,
+            "signal_close_ms": 1794121200000,
+            "origin": "CORE",
+            "submitted_us": 1794121210000000
+          },
+          {
+            "event": "limit_touch_proxy_fill",
+            "time_us": 1794123866125000,
+            "price": 2237.54,
+            "entry": 2237.54,
+            "side": -1,
+            "quantity": 0.62,
+            "submitted_ms": 1794121210000,
+            "signal_close_ms": 1794121200000,
+            "origin": "CORE",
+            "submitted_us": 1794121210000000,
+            "raw_sequence": 3181
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174672000000,
+            "price": 2192.07,
+            "rung": 1,
+            "stop": 2215.16
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174877000000,
+            "price": 2165.57,
+            "rung": 2,
+            "stop": 2192.79
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174917000000,
+            "price": 2145.57,
+            "rung": 3,
+            "stop": 2170.41
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174937000000,
+            "price": 2115.67,
+            "rung": 4,
+            "stop": 2148.04
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174942000000,
+            "price": 2093.27,
+            "rung": 5,
+            "stop": 2125.66
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174947000000,
+            "price": 2074.49,
+            "rung": 6,
+            "stop": 2103.29
+          },
+          {
+            "event": "ladder_exit",
+            "time_us": 1794174955731000,
+            "price": 2103.29,
+            "rung": 6,
+            "net_usdt": 82.97419203999999,
+            "signal_close_ms": 1794121200000,
+            "origin": "CORE"
+          },
+          {
+            "event": "order_sent",
+            "time_us": 1794175210000000,
+            "price": 2130.25,
+            "side": -1,
+            "quantity": 0.77,
+            "effective_submission_us": 1794175210000000,
+            "signal_close_ms": 1794175200000,
+            "origin": "CORE",
+            "submitted_us": 1794175210000000
+          },
+          {
+            "event": "limit_touch_proxy_fill",
+            "time_us": 1794175219255000,
+            "price": 2130.25,
+            "entry": 2130.25,
+            "side": -1,
+            "quantity": 0.77,
+            "submitted_ms": 1794175210000,
+            "signal_close_ms": 1794175200000,
+            "origin": "CORE",
+            "submitted_us": 1794175210000000,
+            "raw_sequence": 4040
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794208402000000,
+            "price": 2084.96,
+            "rung": 1,
+            "stop": 2108.95
+          },
+          {
+            "event": "ladder_exit",
+            "time_us": 1794212668046000,
+            "price": 2108.95,
+            "rung": 1,
+            "net_usdt": 16.07622170000024,
+            "signal_close_ms": 1794175200000,
+            "origin": "CORE"
+          }
+        ],
+        "cash_events": [
+          {
+            "time_us": 1793761733933000,
+            "delta": -30.27097788000011,
+            "cash": 469.7290221199999,
+            "side": 1
+          },
+          {
+            "time_us": 1794174955731000,
+            "delta": 82.97419203999999,
+            "cash": 552.7032141599999,
+            "side": -1
+          },
+          {
+            "time_us": 1794212668046000,
+            "delta": 16.07622170000024,
+            "cash": 568.7794358600001,
+            "side": -1
+          }
+        ],
+        "sizing_audit": [
+          {
+            "signal_close_ms": 1793579400000,
+            "time_ms": 1793579410000,
+            "origin": "CORE",
+            "leverage": 3.0,
+            "realized_balance": 500.0,
+            "target_notional": 1500.0,
+            "accepted": true,
+            "actual_notional": 1498.8666000000003
+          },
+          {
+            "signal_close_ms": 1794117600000,
+            "time_ms": 1794117610000,
+            "origin": "CORE",
+            "leverage": 3.0,
+            "realized_balance": 469.7290221199999,
+            "target_notional": 1409.1870663599998,
+            "accepted": true,
+            "actual_notional": 1388.118
+          },
+          {
+            "signal_close_ms": 1794121200000,
+            "time_ms": 1794121210000,
+            "origin": "CORE",
+            "leverage": 3.0,
+            "realized_balance": 469.7290221199999,
+            "target_notional": 1409.1870663599998,
+            "accepted": true,
+            "actual_notional": 1387.2748
+          },
+          {
+            "signal_close_ms": 1794175200000,
+            "time_ms": 1794175210000,
+            "origin": "CORE",
+            "leverage": 3.0,
+            "realized_balance": 552.7032141599999,
+            "target_notional": 1658.1096424799998,
+            "accepted": true,
+            "actual_notional": 1640.2925
+          }
+        ],
+        "place_attempts": [
+          {
+            "scheduled_us": 1793579410000000,
+            "observed_check_us": 1793579410000000,
+            "cash": 500.0,
+            "has_position": false,
+            "has_order": false,
+            "side": 1,
+            "accepted": true
+          },
+          {
+            "scheduled_us": 1794117610000000,
+            "observed_check_us": 1794117610000000,
+            "cash": 469.7290221199999,
+            "has_position": false,
+            "has_order": false,
+            "side": -1,
+            "accepted": true
+          },
+          {
+            "scheduled_us": 1794121210000000,
+            "observed_check_us": 1794121210234000,
+            "cash": 469.7290221199999,
+            "has_position": false,
+            "has_order": false,
+            "side": -1,
+            "accepted": true
+          },
+          {
+            "scheduled_us": 1794175210000000,
+            "observed_check_us": 1794175210000000,
+            "cash": 552.7032141599999,
+            "has_position": false,
+            "has_order": false,
+            "side": -1,
+            "accepted": true
+          }
+        ],
+        "stats": {
+          "submitted": 4,
+          "fees": 0.0,
+          "long": 1,
+          "hard_stop": 1,
+          "expired": 1,
+          "short": 2,
+          "ladder_exit": 2
+        },
+        "state_at_end": {
+          "cash": 568.7794358600001,
+          "position": null,
+          "position_opened_us": null,
+          "pending_order": null
+        },
+        "mark_price": 1929.21,
+        "status": "COMPLETE_RAW_TRADE_SIMULATION",
+        "raw_execution_end_ms": 1794614400000,
+        "bar_execution_end_ms": 1794710700000,
+        "pre9_equity": 467.5156221199998,
+        "unreset_account_path_since_Nov1": true
+      },
+      "pre9": {
+        "state": {
+          "cash": 469.7290221199999,
+          "position": {
+            "order": {
+              "time": 1794121210000,
+              "side": -1,
+              "price": 2237.54,
+              "qty": 0.62
+            },
+            "stop": 2282.29,
+            "opened": 1794123866125,
+            "rung": 0,
+            "opening_cash": 469.7290221199999
+          },
+          "position_opened_us": 1794123866125000,
+          "pending_order": null
+        },
+        "replacement": null,
+        "origin": {
+          "signal_close_ms": 1794121200000,
+          "origin": "CORE",
+          "submitted_us": 1794121210000000,
+          "side": -1
+        },
+        "profile": "CONTROL"
+      },
+      "pre9_source": "outputs/adaptive_density_control/recent/ETH/pre9_states.json",
+      "pre9_SHA256": "fa8de88ab38d8dfcc1cbd366e7804b8903c9ed47c3eca4c53b628a5653f2c03d",
+      "state_before_target": {
+        "position": null,
+        "pending_order": null,
+        "realized_cash_USDT": 552.7032141599999,
+        "basis": "complete existing ledger fromNov1 + recorded prior exit + place_attempt has_position/has_order false"
+      },
+      "target_order_event_pointer": "/events/13",
+      "target_fill_event_pointer": "/events/14",
+      "target_events": [
+        {
+          "json_pointer": "/events/13",
+          "event": "order_sent",
+          "time_us": 1794175210000000,
+          "price": 2130.25,
+          "side": -1,
+          "quantity": 0.77,
+          "effective_submission_us": 1794175210000000,
+          "signal_close_ms": 1794175200000,
+          "origin": "CORE",
+          "submitted_us": 1794175210000000
+        },
+        {
+          "json_pointer": "/events/14",
+          "event": "limit_touch_proxy_fill",
+          "time_us": 1794175219255000,
+          "price": 2130.25,
+          "entry": 2130.25,
+          "side": -1,
+          "quantity": 0.77,
+          "submitted_ms": 1794175210000,
+          "signal_close_ms": 1794175200000,
+          "origin": "CORE",
+          "submitted_us": 1794175210000000,
+          "raw_sequence": 4040
+        },
+        {
+          "json_pointer": "/events/16",
+          "event": "ladder_exit",
+          "time_us": 1794212668046000,
+          "price": 2108.95,
+          "rung": 1,
+          "net_usdt": 16.07622170000024,
+          "signal_close_ms": 1794175200000,
+          "origin": "CORE"
+        }
+      ],
+      "raw_source": {
+        "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-08.zip",
+        "bytes": 26636503,
+        "sha256": "9f38c7dd34e2fcc359873900a75aa80c750758369b6729fcd58e0ff844ee08a5",
+        "official_checksum_match": true,
+        "asset": "ETH",
+        "date": "2026-11-08",
+        "rows": 2915042,
+        "raw_IDs_strictly_increasing": true,
+        "non_contiguous_ID_steps": 9997,
+        "timestamp_reversals_sorted": 0,
+        "timestamp_scale": 1000,
+        "disagreement_records": 0,
+        "source_market": "BINANCE_USDT_PERPETUAL",
+        "price_rewritten": false
+      },
+      "cached_raw_interval_signals": {
+        "source": "outputs/adaptive_density_control/recent/ETH/signals_RAW.json",
+        "SHA256": "792a9d114d7d1075ff8f0739d04885a1441ed133c680b9ed8ec5a96ad402c439",
+        "signals": {
+          "1793579400000": 1,
+          "1793580300000": 1,
+          "1793581200000": 1,
+          "1793582100000": 1,
+          "1793583000000": 1,
+          "1793583900000": 1,
+          "1793646000000": -1,
+          "1793646900000": -1,
+          "1793647800000": -1,
+          "1793648700000": -1,
+          "1793649600000": -1,
+          "1793650500000": -1,
+          "1794117600000": -1,
+          "1794118500000": -1,
+          "1794120300000": -1,
+          "1794121200000": -1,
+          "1794158100000": -1,
+          "1794159000000": -1,
+          "1794159900000": -1,
+          "1794160800000": -1,
+          "1794161700000": -1,
+          "1794162600000": -1,
+          "1794168000000": -1,
+          "1794168900000": -1,
+          "1794169800000": -1,
+          "1794170700000": -1,
+          "1794175200000": -1,
+          "1794206700000": -1,
+          "1794208500000": -1,
+          "1794209400000": -1,
+          "1794210300000": -1
+        }
+      }
+    },
+    "V2": {
+      "original_path": "outputs/rebound_annual_zero/recent/ETH/raw_results/CONTROL_result.json",
+      "SHA256": "b33c682b47c1387347cc213bdea20a9c4c53a7d6019c4a8306a704f0a6a078bd",
+      "original_ledger_tracked_at_locked_commit": false,
+      "committed_csv": "outputs/rebound_annual_zero/recent_trades.csv",
+      "csv_evidence": {
+        "line": 11,
+        "row": {
+          "stage": "RAW",
+          "asset": "ETH",
+          "version": "CONTROL",
+          "execution": "RAW_TRADE_SIMULATION",
+          "signal_ms": "1794175210000",
+          "opened_ms": "1794175219255",
+          "closed_ms": "1794212668046",
+          "side": "SHORT",
+          "reason": "ladder_exit",
+          "entry": "2130.25",
+          "exit": "2109.3717899999997",
+          "notional": "1618.99",
+          "net": "9.954257200000155",
+          "rung": "1",
+          "opening_sleeve_cash_usdt": "544.6291856399998",
+          "trigger_print": "2108.95",
+          "closed_us": "1794212668046000",
+          "opened_us": "1794175219255000",
+          "quantity": "0.76",
+          "stop_before_exit": "2108.95",
+          "signal_close_ms": "1794175200000",
+          "final_exit_quantity": "0.6",
+          "final_leg_net": "12.526926000000184",
+          "partial_net": "-2.5726688000000286",
+          "partial_fills": "[{\"event\": \"partial_exit\", \"stage\": 3, \"trigger_gain_pct\": null, \"time_us\": 1794195900007000, \"trigger_print\": 2145.9, \"execution_price\": 2146.32918, \"quantity\": 0.16, \"remaining_quantity\": 0.6, \"net_usdt\": -2.5726688000000286, \"side\": -1, \"trigger_reason\": \"two closed15m both weak; 3pct realized balance reference budget; at most one reduction capped at25pct initial\"}]",
+          "exit_vwap": "2117.1522931578947",
+          "actual_final_cash_credit": "12.52692600000023",
+          "entry_fee_usdt": "0.0",
+          "entry_fee_journal_correction": "0.0",
+          "origin": "CORE",
+          "submitted_us": "1794175210000000",
+          "signal_Beijing": "2026-11-09T06:00:00.000+08:00",
+          "opened_Beijing": "2026-11-09T06:00:19.255+08:00",
+          "closed_Beijing": "2026-11-09T16:24:28.046+08:00",
+          "timestamp_is_assumed": "False"
+        }
+      },
+      "raw_ledger": {
+        "asset": "ETH",
+        "period": "RECENT_ZERO",
+        "window": [
+          "2026-11-01T00:00:00.000+08:00",
+          "2026-11-14T08:00:00.000+08:00"
+        ],
+        "key": "CONTROL",
+        "configuration": {
+          "key": "CONTROL",
+          "group": "CONTROL",
+          "cost": "ZERO_FEE_ZERO_FUNDING",
+          "fee": 0.0,
+          "slip": 0.0002,
+          "funding": false,
+          "fill": "F_TOUCH"
+        },
+        "scenario": "STRICT",
+        "status": "COMPLETE_RAW_TRADE_SIMULATION",
+        "fee": 0.0,
+        "cash": 554.5834428400001,
+        "starting_equity": 500.0,
+        "ending_equity": 554.5834428400001,
+        "trades": [
+          {
+            "signal_ms": 1793579410000,
+            "opened_ms": 1793579637828,
+            "closed_ms": 1793761733933,
+            "side": "LONG",
+            "reason": "hard_stop",
+            "entry": 2271.01,
+            "exit": 2225.144882,
+            "notional": 1498.8666000000003,
+            "net": -19.106811160000117,
+            "rung": 0,
+            "opening_sleeve_cash_usdt": 500.0,
+            "trigger_print": 2225.59,
+            "closed_us": 1793761733933000,
+            "opened_us": 1793579637828000,
+            "quantity": 0.66,
+            "stop_before_exit": 2225.59,
+            "signal_close_ms": 1793579400000,
+            "final_exit_quantity": 0.5,
+            "final_leg_net": -22.932559000000083,
+            "partial_net": 3.825747839999967,
+            "partial_fills": [
+              {
+                "event": "partial_exit",
+                "stage": 1,
+                "trigger_gain_pct": null,
+                "time_us": 1793598300239000,
+                "trigger_print": 2295.38,
+                "execution_price": 2294.920924,
+                "quantity": 0.16,
+                "remaining_quantity": 0.5,
+                "net_usdt": 3.825747839999967,
+                "side": 1,
+                "trigger_reason": "two closed15m both weak; 3pct realized balance reference budget; at most one reduction capped at25pct initial"
+              }
+            ],
+            "exit_vwap": 2242.060286121212,
+            "actual_final_cash_credit": -22.932559000000083,
+            "entry_fee_usdt": 0.0,
+            "entry_fee_journal_correction": 0.0,
+            "origin": "CORE",
+            "submitted_us": 1793579410000000
+          },
+          {
+            "signal_ms": 1794121210000,
+            "opened_ms": 1794123866125,
+            "closed_ms": 1794174955731,
+            "side": "SHORT",
+            "reason": "ladder_exit",
+            "entry": 2237.54,
+            "exit": 2103.710658,
+            "notional": 1432.0256,
+            "net": 63.735996799999995,
+            "rung": 6,
+            "opening_sleeve_cash_usdt": 480.8931888399999,
+            "trigger_print": 2103.29,
+            "closed_us": 1794174955731000,
+            "opened_us": 1794123866125000,
+            "quantity": 0.64,
+            "stop_before_exit": 2103.29,
+            "signal_close_ms": 1794121200000,
+            "final_exit_quantity": 0.48,
+            "final_leg_net": 64.23808416,
+            "partial_net": -0.502087360000005,
+            "partial_fills": [
+              {
+                "event": "partial_exit",
+                "stage": 2,
+                "trigger_gain_pct": null,
+                "time_us": 1794124800361000,
+                "trigger_print": 2240.23,
+                "execution_price": 2240.678046,
+                "quantity": 0.16,
+                "remaining_quantity": 0.48,
+                "net_usdt": -0.502087360000005,
+                "side": -1,
+                "trigger_reason": "two closed15m both weak; 3pct realized balance reference budget; at most one reduction capped at25pct initial"
+              }
+            ],
+            "exit_vwap": 2137.9525049999997,
+            "actual_final_cash_credit": 64.23808415999997,
+            "entry_fee_usdt": 0.0,
+            "entry_fee_journal_correction": 0.0,
+            "origin": "CORE",
+            "submitted_us": 1794121210000000
+          },
+          {
+            "signal_ms": 1794175210000,
+            "opened_ms": 1794175219255,
+            "closed_ms": 1794212668046,
+            "side": "SHORT",
+            "reason": "ladder_exit",
+            "entry": 2130.25,
+            "exit": 2109.3717899999997,
+            "notional": 1618.99,
+            "net": 9.954257200000155,
+            "rung": 1,
+            "opening_sleeve_cash_usdt": 544.6291856399998,
+            "trigger_print": 2108.95,
+            "closed_us": 1794212668046000,
+            "opened_us": 1794175219255000,
+            "quantity": 0.76,
+            "stop_before_exit": 2108.95,
+            "signal_close_ms": 1794175200000,
+            "final_exit_quantity": 0.6,
+            "final_leg_net": 12.526926000000184,
+            "partial_net": -2.5726688000000286,
+            "partial_fills": [
+              {
+                "event": "partial_exit",
+                "stage": 3,
+                "trigger_gain_pct": null,
+                "time_us": 1794195900007000,
+                "trigger_print": 2145.9,
+                "execution_price": 2146.32918,
+                "quantity": 0.16,
+                "remaining_quantity": 0.6,
+                "net_usdt": -2.5726688000000286,
+                "side": -1,
+                "trigger_reason": "two closed15m both weak; 3pct realized balance reference budget; at most one reduction capped at25pct initial"
+              }
+            ],
+            "exit_vwap": 2117.1522931578947,
+            "actual_final_cash_credit": 12.52692600000023,
+            "entry_fee_usdt": 0.0,
+            "entry_fee_journal_correction": 0.0,
+            "origin": "CORE",
+            "submitted_us": 1794175210000000
+          }
+        ],
+        "events": [
+          {
+            "event": "order_sent",
+            "time_us": 1793579410000000,
+            "price": 2271.01,
+            "side": 1,
+            "quantity": 0.66,
+            "effective_submission_us": 1793579410000000,
+            "signal_close_ms": 1793579400000,
+            "origin": "CORE",
+            "submitted_us": 1793579410000000
+          },
+          {
+            "event": "limit_touch_proxy_fill",
+            "time_us": 1793579637828000,
+            "price": 2271.01,
+            "entry": 2271.01,
+            "side": 1,
+            "quantity": 0.66,
+            "submitted_ms": 1793579410000,
+            "signal_close_ms": 1793579400000,
+            "origin": "CORE",
+            "submitted_us": 1793579410000000,
+            "raw_sequence": 5
+          },
+          {
+            "event": "adaptive_v2_request",
+            "stage": 1,
+            "time_us": 1793598300000000,
+            "realized_balance": 500.0,
+            "budget_rate": 0.03,
+            "budget": 15.0,
+            "known_close": 2295.37,
+            "stop": 2225.59,
+            "price_stop_distance": 69.77999999999975,
+            "target_quantity": 0.21,
+            "requested_quantity": 0.16,
+            "initial_quantity": 0.66,
+            "cap_quantity": 0.16,
+            "estimated_remaining_risk": 34.88999999999987,
+            "budget_is_reference_not_guarantee": true
+          },
+          {
+            "event": "partial_exit",
+            "stage": 1,
+            "trigger_gain_pct": null,
+            "time_us": 1793598300239000,
+            "trigger_print": 2295.38,
+            "execution_price": 2294.920924,
+            "quantity": 0.16,
+            "remaining_quantity": 0.5,
+            "net_usdt": 3.825747839999967,
+            "side": 1,
+            "trigger_reason": "two closed15m both weak; 3pct realized balance reference budget; at most one reduction capped at25pct initial"
+          },
+          {
+            "event": "hard_stop",
+            "time_us": 1793761733933000,
+            "price": 2225.59,
+            "rung": 0,
+            "net_usdt": -22.932559000000083,
+            "signal_close_ms": 1793579400000,
+            "origin": "CORE"
+          },
+          {
+            "event": "order_sent",
+            "time_us": 1794117610000000,
+            "price": 2238.9,
+            "side": -1,
+            "quantity": 0.64,
+            "effective_submission_us": 1794117610000000,
+            "signal_close_ms": 1794117600000,
+            "origin": "CORE",
+            "submitted_us": 1794117610000000
+          },
+          {
+            "event": "order_sent",
+            "time_us": 1794121210000000,
+            "price": 2237.54,
+            "side": -1,
+            "quantity": 0.64,
+            "effective_submission_us": 1794121210234000,
+            "signal_close_ms": 1794121200000,
+            "origin": "CORE",
+            "submitted_us": 1794121210000000
+          },
+          {
+            "event": "limit_touch_proxy_fill",
+            "time_us": 1794123866125000,
+            "price": 2237.54,
+            "entry": 2237.54,
+            "side": -1,
+            "quantity": 0.64,
+            "submitted_ms": 1794121210000,
+            "signal_close_ms": 1794121200000,
+            "origin": "CORE",
+            "submitted_us": 1794121210000000,
+            "raw_sequence": 3182
+          },
+          {
+            "event": "adaptive_v2_request",
+            "stage": 2,
+            "time_us": 1794124800000000,
+            "realized_balance": 480.8931888399999,
+            "budget_rate": 0.03,
+            "budget": 14.426795665199997,
+            "known_close": 2240.24,
+            "stop": 2282.29,
+            "price_stop_distance": 42.05000000000018,
+            "target_quantity": 0.34,
+            "requested_quantity": 0.16,
+            "initial_quantity": 0.64,
+            "cap_quantity": 0.16,
+            "estimated_remaining_risk": 20.184000000000086,
+            "budget_is_reference_not_guarantee": true
+          },
+          {
+            "event": "partial_exit",
+            "stage": 2,
+            "trigger_gain_pct": null,
+            "time_us": 1794124800361000,
+            "trigger_print": 2240.23,
+            "execution_price": 2240.678046,
+            "quantity": 0.16,
+            "remaining_quantity": 0.48,
+            "net_usdt": -0.502087360000005,
+            "side": -1,
+            "trigger_reason": "two closed15m both weak; 3pct realized balance reference budget; at most one reduction capped at25pct initial"
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174672000000,
+            "price": 2192.07,
+            "rung": 1,
+            "stop": 2215.16
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174877000000,
+            "price": 2165.57,
+            "rung": 2,
+            "stop": 2192.79
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174917000000,
+            "price": 2145.57,
+            "rung": 3,
+            "stop": 2170.41
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174937000000,
+            "price": 2115.67,
+            "rung": 4,
+            "stop": 2148.04
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174942000000,
+            "price": 2093.27,
+            "rung": 5,
+            "stop": 2125.66
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794174947000000,
+            "price": 2074.49,
+            "rung": 6,
+            "stop": 2103.29
+          },
+          {
+            "event": "ladder_exit",
+            "time_us": 1794174955731000,
+            "price": 2103.29,
+            "rung": 6,
+            "net_usdt": 64.23808416,
+            "signal_close_ms": 1794121200000,
+            "origin": "CORE"
+          },
+          {
+            "event": "order_sent",
+            "time_us": 1794175210000000,
+            "price": 2130.25,
+            "side": -1,
+            "quantity": 0.76,
+            "effective_submission_us": 1794175210000000,
+            "signal_close_ms": 1794175200000,
+            "origin": "CORE",
+            "submitted_us": 1794175210000000
+          },
+          {
+            "event": "limit_touch_proxy_fill",
+            "time_us": 1794175219255000,
+            "price": 2130.25,
+            "entry": 2130.25,
+            "side": -1,
+            "quantity": 0.76,
+            "submitted_ms": 1794175210000,
+            "signal_close_ms": 1794175200000,
+            "origin": "CORE",
+            "submitted_us": 1794175210000000,
+            "raw_sequence": 4042
+          },
+          {
+            "event": "adaptive_v2_request",
+            "stage": 3,
+            "time_us": 1794195900000000,
+            "realized_balance": 544.6291856399998,
+            "budget_rate": 0.03,
+            "budget": 16.338875569199995,
+            "known_close": 2145.89,
+            "stop": 2172.86,
+            "price_stop_distance": 26.970000000000255,
+            "target_quantity": 0.6,
+            "requested_quantity": 0.16,
+            "initial_quantity": 0.76,
+            "cap_quantity": 0.19,
+            "estimated_remaining_risk": 16.18200000000015,
+            "budget_is_reference_not_guarantee": true
+          },
+          {
+            "event": "partial_exit",
+            "stage": 3,
+            "trigger_gain_pct": null,
+            "time_us": 1794195900007000,
+            "trigger_print": 2145.9,
+            "execution_price": 2146.32918,
+            "quantity": 0.16,
+            "remaining_quantity": 0.6,
+            "net_usdt": -2.5726688000000286,
+            "side": -1,
+            "trigger_reason": "two closed15m both weak; 3pct realized balance reference budget; at most one reduction capped at25pct initial"
+          },
+          {
+            "event": "poll_moves_stop",
+            "time_us": 1794208402000000,
+            "price": 2084.96,
+            "rung": 1,
+            "stop": 2108.95
+          },
+          {
+            "event": "ladder_exit",
+            "time_us": 1794212668046000,
+            "price": 2108.95,
+            "rung": 1,
+            "net_usdt": 12.526926000000184,
+            "signal_close_ms": 1794175200000,
+            "origin": "CORE"
+          }
+        ],
+        "cash_events": [
+          {
+            "time_us": 1793598300239000,
+            "delta": 3.825747839999967,
+            "cash": 503.82574783999996,
+            "side": 1
+          },
+          {
+            "time_us": 1793761733933000,
+            "delta": -22.932559000000083,
+            "cash": 480.8931888399999,
+            "side": 1
+          },
+          {
+            "time_us": 1794124800361000,
+            "delta": -0.502087360000005,
+            "cash": 480.39110147999986,
+            "side": -1
+          },
+          {
+            "time_us": 1794174955731000,
+            "delta": 64.23808416,
+            "cash": 544.6291856399998,
+            "side": -1
+          },
+          {
+            "time_us": 1794195900007000,
+            "delta": -2.5726688000000286,
+            "cash": 542.0565168399999,
+            "side": -1
+          },
+          {
+            "time_us": 1794212668046000,
+            "delta": 12.526926000000184,
+            "cash": 554.5834428400001,
+            "side": -1
+          }
+        ],
+        "stats": {
+          "submitted": 4,
+          "fees": 0.0,
+          "long": 1,
+          "partial_exits": 3,
+          "hard_stop": 1,
+          "expired": 1,
+          "short": 2,
+          "ladder_exit": 2
+        },
+        "place_attempts": [
+          {
+            "scheduled_us": 1793579410000000,
+            "observed_check_us": 1793579410000000,
+            "cash": 500.0,
+            "has_position": false,
+            "has_order": false,
+            "side": 1,
+            "accepted": true
+          },
+          {
+            "scheduled_us": 1794117610000000,
+            "observed_check_us": 1794117610000000,
+            "cash": 480.8931888399999,
+            "has_position": false,
+            "has_order": false,
+            "side": -1,
+            "accepted": true
+          },
+          {
+            "scheduled_us": 1794121210000000,
+            "observed_check_us": 1794121210234000,
+            "cash": 480.8931888399999,
+            "has_position": false,
+            "has_order": false,
+            "side": -1,
+            "accepted": true
+          },
+          {
+            "scheduled_us": 1794175210000000,
+            "observed_check_us": 1794175210000000,
+            "cash": 544.6291856399998,
+            "has_position": false,
+            "has_order": false,
+            "side": -1,
+            "accepted": true
+          }
+        ],
+        "sizing_audit": [
+          {
+            "time_ms": 1793579410000,
+            "signal_close_ms": 1793579400000,
+            "origin": "CORE",
+            "extra_ratio": 1.0,
+            "realized_balance": 500.0,
+            "target_notional": 1500.0,
+            "accepted": true,
+            "actual_quantity": 0.66,
+            "actual_notional": 1498.8666000000003,
+            "reason": null
+          },
+          {
+            "time_ms": 1794117610000,
+            "signal_close_ms": 1794117600000,
+            "origin": "CORE",
+            "extra_ratio": 1.0,
+            "realized_balance": 480.8931888399999,
+            "target_notional": 1442.6795665199998,
+            "accepted": true,
+            "actual_quantity": 0.64,
+            "actual_notional": 1432.8960000000002,
+            "reason": null
+          },
+          {
+            "time_ms": 1794121210000,
+            "signal_close_ms": 1794121200000,
+            "origin": "CORE",
+            "extra_ratio": 1.0,
+            "realized_balance": 480.8931888399999,
+            "target_notional": 1442.6795665199998,
+            "accepted": true,
+            "actual_quantity": 0.64,
+            "actual_notional": 1432.0256,
+            "reason": null
+          },
+          {
+            "time_ms": 1794175210000,
+            "signal_close_ms": 1794175200000,
+            "origin": "CORE",
+            "extra_ratio": 1.0,
+            "realized_balance": 544.6291856399998,
+            "target_notional": 1633.8875569199995,
+            "accepted": true,
+            "actual_quantity": 0.76,
+            "actual_notional": 1618.99,
+            "reason": null
+          }
+        ],
+        "slippage_cost_USDT": 0.8913571599999999,
+        "funding_total_USDT": 0.0,
+        "funding": "EXPLICITLY_ZERO_BY_USER",
+        "source": "BINANCE_USDT_PERPETUAL_ONLY",
+        "state_at_end": {
+          "cash": 554.5834428400001,
+          "position": null,
+          "position_opened_us": null,
+          "pending_order": null
+        },
+        "actual_raw_last_mark": 1929.21,
+        "open_contribution": 0.0,
+        "replacement_at_end": null,
+        "no_OHLC_fallback": true,
+        "raw_execution_end_ms": 1794614400000,
+        "synthetic_execution_start_ms": null
+      },
+      "pre9": {
+        "passed": true,
+        "full_state_equal": true,
+        "full_state_SHA256": "e4d30d8f01798c1f9629e569f5d8e47fb7cbdea3bdcefd5914071edc1dfd8777",
+        "cash": 480.39110147999986,
+        "summary": {
+          "_visit_side": null,
+          "asset": "ETH",
+          "cash": 480.39110147999986,
+          "exit_policy": "uncapped",
+          "fee": 0.0,
+          "order": null,
+          "order_info": {
+            "origin": "CORE",
+            "side": -1,
+            "signal_close_ms": 1794121200000,
+            "submitted_us": 1794121210000000
+          },
+          "position": {
+            "adaptive_v2_used": true,
+            "initial_quantity": 0.64,
+            "opened": 1794123866125,
+            "opened_us": 1794123866125000,
+            "opening_cash": 480.8931888399999,
+            "order": {
+              "origin": "CORE",
+              "price": 2237.54,
+              "qty": 0.48,
+              "side": -1,
+              "signal_close_ms": 1794121200000,
+              "submitted_effective_us": 1794121210234000,
+              "submitted_raw_id": 8949924158,
+              "time": 1794121210000
+            },
+            "partial_fills": [
+              {
+                "event": "partial_exit",
+                "execution_price": 2240.678046,
+                "net_usdt": -0.502087360000005,
+                "quantity": 0.16,
+                "remaining_quantity": 0.48,
+                "side": -1,
+                "stage": 2,
+                "time_us": 1794124800361000,
+                "trigger_gain_pct": null,
+                "trigger_print": 2240.23,
+                "trigger_reason": "two closed15m both weak; 3pct realized balance reference budget; at most one reduction capped at25pct initial"
+              }
+            ],
+            "partial_net": -0.502087360000005,
+            "partial_queue": [],
+            "partial_stage": 2,
+            "partial_turnover": 358.50848736,
+            "rung": 0,
+            "stop": 2282.29
+          },
+          "profile": "DYNAMIC",
+          "raw_sequence": 3680,
+          "realized": -19.60889852000012,
+          "replacement": null,
+          "stats": {
+            "expired": 1,
+            "fees": 0.0,
+            "hard_stop": 1,
+            "long": 1,
+            "partial_exits": 2,
+            "short": 1,
+            "submitted": 3
+          },
+          "tranches": [
+            [
+              0.0,
+              0.24242425757575758
+            ],
+            [
+              0.0,
+              0.250000015625
+            ]
+          ]
+        }
+      },
+      "pre9_source": "outputs/rebound_annual_zero/recent/ETH/pre9_state_comparison.json",
+      "pre9_SHA256": "eee0022ab6671c617282bdd73c3f02f2f82faf3951ab272277ed7d17d475cfa7",
+      "state_before_target": {
+        "position": null,
+        "pending_order": null,
+        "realized_cash_USDT": 544.6291856399998,
+        "basis": "complete existing ledger fromNov1 + recorded prior exit + place_attempt has_position/has_order false"
+      },
+      "target_order_event_pointer": "/events/17",
+      "target_fill_event_pointer": "/events/18",
+      "target_events": [
+        {
+          "json_pointer": "/events/17",
+          "event": "order_sent",
+          "time_us": 1794175210000000,
+          "price": 2130.25,
+          "side": -1,
+          "quantity": 0.76,
+          "effective_submission_us": 1794175210000000,
+          "signal_close_ms": 1794175200000,
+          "origin": "CORE",
+          "submitted_us": 1794175210000000
+        },
+        {
+          "json_pointer": "/events/18",
+          "event": "limit_touch_proxy_fill",
+          "time_us": 1794175219255000,
+          "price": 2130.25,
+          "entry": 2130.25,
+          "side": -1,
+          "quantity": 0.76,
+          "submitted_ms": 1794175210000,
+          "signal_close_ms": 1794175200000,
+          "origin": "CORE",
+          "submitted_us": 1794175210000000,
+          "raw_sequence": 4042
+        },
+        {
+          "json_pointer": "/events/22",
+          "event": "ladder_exit",
+          "time_us": 1794212668046000,
+          "price": 2108.95,
+          "rung": 1,
+          "net_usdt": 12.526926000000184,
+          "signal_close_ms": 1794175200000,
+          "origin": "CORE"
+        }
+      ],
+      "raw_source": {
+        "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-08.zip",
+        "bytes": 26636503,
+        "sha256": "9f38c7dd34e2fcc359873900a75aa80c750758369b6729fcd58e0ff844ee08a5",
+        "official_checksum_match": true,
+        "asset": "ETH",
+        "date": "2026-11-08",
+        "rows": 2915042,
+        "raw_IDs_strictly_increasing": true,
+        "non_contiguous_ID_steps": 9997,
+        "timestamp_reversals_sorted": 0,
+        "timestamp_scale": 1000,
+        "disagreement_records": 0,
+        "source_market": "BINANCE_USDT_PERPETUAL",
+        "price_rewritten": false
+      },
+      "cached_raw_interval_signals": {
+        "source": "outputs/rebound_annual_zero/recent/ETH/signals.json",
+        "SHA256": "9efffa504c4ffee5034ec887382cbf69e4533bb9b993b08efb5ae5e2fefb860e",
+        "signals": {
+          "1793579400000": 1,
+          "1793580300000": 1,
+          "1793581200000": 1,
+          "1793582100000": 1,
+          "1793583000000": 1,
+          "1793583900000": 1,
+          "1793646000000": -1,
+          "1793646900000": -1,
+          "1793647800000": -1,
+          "1793648700000": -1,
+          "1793649600000": -1,
+          "1793650500000": -1,
+          "1794117600000": -1,
+          "1794118500000": -1,
+          "1794120300000": -1,
+          "1794121200000": -1,
+          "1794158100000": -1,
+          "1794159000000": -1,
+          "1794159900000": -1,
+          "1794160800000": -1,
+          "1794161700000": -1,
+          "1794162600000": -1,
+          "1794168000000": -1,
+          "1794168900000": -1,
+          "1794169800000": -1,
+          "1794170700000": -1,
+          "1794175200000": -1,
+          "1794206700000": -1,
+          "1794208500000": -1,
+          "1794209400000": -1,
+          "1794210300000": -1
+        }
+      }
+    }
+  },
+  "checks": {
+    "V2_older_original_baseline_trades_exact": true,
+    "V2_reference_path": "outputs/extra_sizing_cost_stress/runs/NOV/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+    "V2_reference_SHA256": "866afc7b1c39789cd971da053ef9f79c52cfb9656449d68485b3bd6a92ff02e1",
+    "all_three_full_entry_and_final_exit_times_equal": true,
+    "raw_source_metadata_equal": true,
+    "A_recent_closed_shorts_includes_pre9_entry": true,
+    "V2_recent_closed_shorts_includes_pre9_entry": true,
+    "scope": "Existing record consistency + cached indicator reconstruction only, no execution-engine rerun"
+  },
+  "recorded_UTC": "2026-11-15T12:32:48.978009+00:00",
+  "cached_market_inputs": [
+    {
+      "path": "outputs/rebound_annual_zero/recent_data/ETH_15m.csv",
+      "SHA256": "87cee22ddf50bcfbfb3c9914e7185139b686824fc74954d2cbfb0ea646734f07"
+    },
+    {
+      "path": "outputs/rebound_annual_zero/recent_data/ETH_1m.npy",
+      "SHA256": "2d8840075b5ea152416dc85c84f16d472a2fa0f5a4492a3a1b4e1d204e2a87d4"
+    }
+  ],
+  "known_paper_observation": {
+    "manifest": "outputs/funding_freeze_forward/FREEZE_WS_V3.json",
+    "implementation_commit": "06bdfac8970293cedb538374b715b0cfa27257a3",
+    "run_id": "ws_closed_fix_1794699000000",
+    "T0_Beijing": "2026-11-15T07:30:00+08:00",
+    "no_real_orders": true,
+    "financial_status": "UNVERIFIED_FINANCIAL_HALTED",
+    "not_user_live_deployment_evidence": true
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "derivation": "Read-only indicator/candidate reconstruction from existing cached15m; no financial replay/download",
+  "signal_close_ms": 1794175200000,
+  "bar_open_ms": 1794174300000,
+  "OHLCV": [
+    2221.07,
+    2221.08,
+    2050.32,
+    2126.0,
+    1029828.112
+  ],
+  "previous_close": 2221.07,
+  "previous32_low": 2220.29,
+  "previous20_volume_median": 9907.716499999999,
+  "volume_multiplier": 103.94202458255644,
+  "SMA5": 2204.2279999997468,
+  "SMA20": 2224.011999999732,
+  "DIF": -10.9646282867634,
+  "DEA": -3.975931010136782,
+  "DIF_minus_DEA": -6.988697276626618,
+  "six_MA": {
+    "SMA20": {
+      "current": 2224.011999999732,
+      "three_bars_ago": 2230.7879999998027,
+      "strict_down": true
+    },
+    "SMA60": {
+      "current": 2233.0891666665984,
+      "three_bars_ago": 2235.2426666666133,
+      "strict_down": true
+    },
+    "SMA120": {
+      "current": 2233.5572499999776,
+      "three_bars_ago": 2234.774666666643,
+      "strict_down": true
+    },
+    "EMA20": {
+      "current": 2219.5226756451916,
+      "three_bars_ago": 2230.945875368147,
+      "strict_down": true
+    },
+    "EMA60": {
+      "current": 2229.7549843056036,
+      "three_bars_ago": 2234.0296561609034,
+      "strict_down": true
+    },
+    "EMA120": {
+      "current": 2233.9552858551847,
+      "three_bars_ago": 2236.2264061877227,
+      "strict_down": true
+    }
+  },
+  "gate": {
+    "signal_close_ms": 1794175200000,
+    "side": -1,
+    "regime": "down",
+    "historical_metric": 0.07022639579077662,
+    "historical_threshold": 0.25,
+    "current_metric": 0.6788621923797306,
+    "current_threshold": 0.5,
+    "historical_pass": true,
+    "range_width_pass": false,
+    "accepted": true,
+    "aligned_lines": 6,
+    "short_term_alignment": true,
+    "distance_pct": 4.577610536218258,
+    "volume_breakout": true,
+    "confirmed_retest": false
+  },
+  "hour_context": [
+    "down",
+    -0.7776209961901872,
+    -0.16454104191640279
+  ],
+  "support_level": 2223.32,
+  "A_signal": -1,
+  "warm_first_ms": 1789574400000,
+  "financial_start_ms": 1793462400000,
+  "V2_prepare_source": "/workspace/btc-eth-backtest/outputs/attribution_2026/paired_replay.py",
+  "V2_prepare_line": 182,
+  "cached_signal_comparison": {
+    "A_count": 31,
+    "V2_count": 31,
+    "entire_RAW_interval_equal": true,
+    "A_target": -1,
+    "V2_target": -1,
+    "differences": []
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "locked_commit": "7a4a9fedaf9d297d85c0fa6279acd2627db2497f",
+  "requested_branch": "codex/adaptive-density-control-20261115",
+  "current_branch_head": "7a4a9fedaf9d297d85c0fa6279acd2627db2497f",
+  "authenticated_GitHub_API": true,
+  "source_checks": [
+    {
+      "path": "outputs/adaptive_density_control/signals.py",
+      "Git_blob_SHA1": "fa5fceaf57477947a14d01932c59f9dae516d61e",
+      "SHA256": "de3f98893755a7f5870595b37e3dc2cdcba879bff43ff8637ac8c711aac5f09d",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/engine.py",
+      "Git_blob_SHA1": "d3c4486efe9a2d7b7de8bb768057715a980b50a6",
+      "SHA256": "12da60a8cdb040a1bc8351c3319e0f9940655db498999431a2072f6ffbcadded",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/recent_worker.py",
+      "Git_blob_SHA1": "8936b0006ad86de46aae40b564add985e3fe680d",
+      "SHA256": "af7b0b2fe466c28c4db0afb0f8fe222040eca1dc2b81a179e88c5a6129001411",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/adaptive_density_control/recent_trades.csv",
+      "Git_blob_SHA1": "5cb0dbd1f1adedc9e03e429639fa9093f1f46311",
+      "SHA256": "7b6ebbc35dfee98f230afabde051f765b1b854d80a992980facab7bb1b6b7b57",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/rebound_annual_zero/recent.py",
+      "Git_blob_SHA1": "74b86a2e1df855f1cd298b3c8bcf7625a162fa48",
+      "SHA256": "4a67e5cfa3b46e35387920894a4439837e357667c1ba1731053d50d9ba39563c",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/rebound_annual_zero/recent_trades.csv",
+      "Git_blob_SHA1": "974720ecfb301fede01bdefe5807a3eb9ac1f97d",
+      "SHA256": "47dd52e8544741fcb814b8bb08e2b9be86310e296180d0f03956653f45cf6aef",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/rebound_annual_zero/report.py",
+      "Git_blob_SHA1": "2df72a145528b36abe0990e1c8adf09456cc577b",
+      "SHA256": "7ebc50b70baf0747659600d5513a18d931b3e5e2f665b8e58b5c67c34e06a89d",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/rebound_followdown/signals.py",
+      "Git_blob_SHA1": "ecc0ab8870c2deeb7e298c36664cc7d1a032383b",
+      "SHA256": "1200cc69a012e3c5d47a891bd1be42e9885b43a7da8e3cdc405293bae6f87fb2",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/cost_engine.py",
+      "Git_blob_SHA1": "25c9f2c19ebf3e256d679ff2302ce8459cbae2ad",
+      "SHA256": "f79666b00f90a6ed0bc00170c13e5de0227c9c5531ee0960a1eb627114fa328b",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/replay.py",
+      "Git_blob_SHA1": "01a7a54ac4c94f5352e4f052db35fd60eddfcba7",
+      "SHA256": "f2a1f28acbf8a400c94ea0cefe5952ae495d5db5579ffd6531dccdab9961d4d3",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/eth_density_experiment/worker.py",
+      "Git_blob_SHA1": "d501ba31a3823be321989dd900e2922ca754e6e6",
+      "SHA256": "28b7f7a6745c79e0db32bc1e10f9334a4ba0165f6dd525e0ceb746716f2d2e41",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/eth_density_experiment/strategy.py",
+      "Git_blob_SHA1": "604de08ad33a98e9ea4118d293d5f3f2903a2fae",
+      "SHA256": "0ce1050d7c23f8fe215a1c1c7f7ff938c2709c3bf354ee2a05156c7e3c658bc0",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/attribution_2026/paired_replay.py",
+      "Git_blob_SHA1": "6e9fa65ff5aed2a7a0e43040587125e0f6f62252",
+      "SHA256": "04eb350c31287cbc85b10d3698a7eb7c05628d2044fa39cad970da2e6ddeffb8",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/eth_core_priority/priority_engine.py",
+      "Git_blob_SHA1": "aeb7b03979fa3e159cb10b8699c1fae2947e8cb4",
+      "SHA256": "0b61cefcda814b97b47251ce86406ca98514557f6361e087f4ba33fa3179e369",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "work/fit_squeeze_ladder_bot.py",
+      "Git_blob_SHA1": "599996640adb2917ec868089191463f98c51a552",
+      "SHA256": "8d6ebc21c2c437238545ece27969e8cb419d5cd1563bde02a848d1f5074ff384",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "work/gate_october_regime_entries.py",
+      "Git_blob_SHA1": "c6646705da18fbd9cda342d3122cff604be2b29b",
+      "SHA256": "5bfc567dd46edf96569dedc76ebfb40569a2466a37926c386891d3278a3df4a9",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "work/fit_gate_entry_overlay.py",
+      "Git_blob_SHA1": "5612882f1179da3fa9d8f8fe476b9a2ab47bd2d0",
+      "SHA256": "f4f453481a9ce2722c312b6e802ba1ae691dc0a7b0a2abfdf6c9c3b81ef8f8bd",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/BTC_ETH_Gate_fast_window_sensitivity_fixed_3x.json",
+      "Git_blob_SHA1": "228e9d7a0998552a3835eff4d0d36b7611dd7a7b",
+      "SHA256": "6a9e92c4eb9961556fca80aeeb2c19dc7a6f4385398f19d5d66de017db5ef49c",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/funding_freeze_forward/OPERATIONS.md",
+      "Git_blob_SHA1": "a81829ddfc3915be82403b8a1f700da99a539675",
+      "SHA256": "42c64507f60e85b67f1d816eea4da21a89f26a0ab4630b756ff1c7cff9f329bd",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/funding_freeze_forward/forward_timeline.json",
+      "Git_blob_SHA1": "82557bb4bdbe59f819ecec9816b4eaf78275f5b4",
+      "SHA256": "86bc2a97b41e488f3b98a20b3e0350a7e3b650ba924f653897ac6cf567b630c4",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/funding_freeze_forward/FREEZE_WS_V3.json",
+      "Git_blob_SHA1": "5138c58304378f5e8a6a286c166c3a6974901e2d",
+      "SHA256": "47004c355b6c913f8f300f5ae2fcb6b3cf5572c5a94af7326eb596f0af0a70c8",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "outputs/funding_freeze_forward/ws_live_v3.py",
+      "Git_blob_SHA1": "0ec6a01c4649673ac2c03c4d1817c34759383c0e",
+      "SHA256": "4d9a699ce9db465a9cc80fb40388a52fe75ad1b391e3ed1ff194ce63802a0dca",
+      "matches_locked_commit": true
+    },
+    {
+      "path": "README.md",
+      "Git_blob_SHA1": "856c3b12eaefbcf2759c7399c9fc934cfb6f8130",
+      "SHA256": "48a7763235937ebcb85254ed1e6db8bb8371bcfe93afd0078d22b0f5e6694c2d",
+      "matches_locked_commit": true
+    }
+  ],
+  "AGENTS_in_locked_tree": [],
+  "raw_ledger_provenance": [
+    {
+      "path": "outputs/adaptive_density_control/recent/ETH/RAW/results/ZERO_A_result.json",
+      "SHA256": "b530ad35c8dbfee6d69e70ed9da84d5bdf133edc69b4531b841ecc998075a455",
+      "tracked_at_locked_commit": false,
+      "Git_blob_SHA1": "53f2586dd02421fe5471eb1437c6cb04f9754893"
+    },
+    {
+      "path": "outputs/rebound_annual_zero/recent/ETH/raw_results/CONTROL_result.json",
+      "SHA256": "b33c682b47c1387347cc213bdea20a9c4c53a7d6019c4a8306a704f0a6a078bd",
+      "tracked_at_locked_commit": false,
+      "Git_blob_SHA1": "e50fd7dc34db3cc48ed14eb0630e851e5cae24b5"
+    },
+    {
+      "path": "outputs/extra_sizing_cost_stress/runs/NOV/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "SHA256": "866afc7b1c39789cd971da053ef9f79c52cfb9656449d68485b3bd6a92ff02e1",
+      "tracked_at_locked_commit": false,
+      "Git_blob_SHA1": "e18ebcc258c88dd017f2f662e90f541e2752deba"
+    }
+  ]
+}
