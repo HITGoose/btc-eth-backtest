@@ -38,8 +38,11 @@ def reason(q,stamp,side,accepted):
  fills={int(t['signal_close_ms']):t for t in q['trades']}
  for e in q['events']:
   if e['event']=='order_sent'and e['time_us']<=clock<e['time_us']+3600000000:
-   t=fills.get(int(e.get('signal_close_ms',e['time_us']//1000-10000)))
-   if t is None or t['opened_us']>clock:return 'OCCUPIED_PENDING_ORDER'
+   stamp_of_order=int(e.get('signal_close_ms',e['time_us']//1000-10000))
+   cancelled=any(c['event']=='priority_cancel_extra_order'and c.get('extra_signal_close_ms')==stamp_of_order and e['time_us']<=c['time_us']<=clock for c in q['events'])
+   filled_already=any(f['event']=='limit_touch_proxy_fill'and e['time_us']<=f['time_us']<=clock and int(f.get('signal_close_ms',-1))==stamp_of_order for f in q['events'])
+   t=fills.get(stamp_of_order)
+   if not cancelled and not filled_already and(t is None or t['opened_us']>clock):return 'OCCUPIED_PENDING_ORDER'
  return 'NOT_EVALUATED'
 def attribute(scope,period,asset,fee,group,base,var,amap,vmap):
  cutoff=1794153600000 if scope.startswith('RECENT_')else 0
@@ -49,9 +52,12 @@ def attribute(scope,period,asset,fee,group,base,var,amap,vmap):
   if why.startswith('OCCUPIED'):occ.append(t)
   if why=='ADAPTIVE_SIGNAL_REMOVED':filtered+=1
  comparison.append(dict(scope=scope,period=period,asset=asset,fee_scenario=fee,group=group,ending_equity_difference_USDT=var['ending_equity']-base['ending_equity'],account_path_start='Nov1'if cutoff else'ANNUAL_RESET',attributed_signals_start_ms=cutoff or None,post9_net_change_difference_USDT=(var['ending_equity']-var['pre9_equity'])-(base['ending_equity']-base['pre9_equity'])if cutoff else None,new_closed_trades=len(new),new_closed_net_USDT=sum(t['net']for t in new),original_profitable_trades_absent=len(lost),original_profit_absent_USDT=sum(t['net']for t in lost),profitable_absent_due_signal_filter=filtered,profitable_absent_with_occupancy=len(occ),profit_absent_with_occupancy_USDT=sum(t['net']for t in occ),all_original_complete_signals_removed=len(removed),priority_exits=sum(t['reason']=='core_priority_exit'for t in var['trades']),not_additive_counterfactual=True))
+ oldloss=[(t,vv[k])for k,t in aa.items()if k in vv and t['net']<0]
+ comparison[-1].update(new_closed_shorts=sum(t['side']=='SHORT'for t in new),new_closed_shorts_net_USDT=sum(t['net']for t in new if t['side']=='SHORT'),closed_short_count_change=sum(t['side']=='SHORT'for t in vv.values())-sum(t['side']=='SHORT'for t in aa.values()),matched_old_loss_count=len(oldloss),matched_old_losses_worse_count=sum(b['net']<a['net']-1e-8 for a,b in oldloss),matched_old_losses_net_difference_USDT=sum(b['net']-a['net']for a,b in oldloss),matched_old_losses_net_difference_per1000_initial_notional=sum(1000*(b['net']/b['notional']-a['net']/a['notional'])for a,b in oldloss),matched_old_losses_max_abs_normalized_difference=max([0.]+[abs(1000*(b['net']/b['notional']-a['net']/a['notional']))for a,b in oldloss]),matched_old_losses_quantity_changed=sum(abs(a['quantity']-b['quantity'])>1e-10 for a,b in oldloss),matched_old_losses_price_or_exit_changed=sum(a['entry']!=b['entry']or a['exit']!=b['exit']or a['closed_us']!=b['closed_us']for a,b in oldloss))
  if group=='D':assert not removed,'D must retain all A CORE signals/directions'
  for k in sorted(set(aa)|set(vv)):
   a=aa.get(k);b=vv.get(k);status='NEW'if a is None else'ORIGINAL_CLOSED_NOW_OPEN'if b is None and k==op else'ABSENT'if b is None else'RETAINED'if a==b else'CHANGED';matches.append(dict(scope=scope,period=period,asset=asset,fee_scenario=fee,group=group,side=k[0],signal_close_ms=k[1],category=status,A_net=a['net']if a else None,variant_net=b['net']if b else None,absent_reason=reason(var,k[1],1 if k[0]=='LONG'else-1,vmap)if status=='ABSENT'else None,signal_in_A=amap.get(k[1])==(1 if k[0]=='LONG'else-1)))
+  matches[-1].update(A_initial_notional_USDT=a['notional']if a else None,variant_initial_notional_USDT=b['notional']if b else None,A_quantity=a['quantity']if a else None,variant_quantity=b['quantity']if b else None,actual_net_difference_USDT=b['net']-a['net']if a and b else None,net_difference_per1000_initial_notional=1000*(b['net']/b['notional']-a['net']/a['notional'])if a and b else None,A_entry=a['entry']if a else None,variant_entry=b['entry']if b else None,A_exit=a['exit']if a else None,variant_exit=b['exit']if b else None,A_closed_us=a['closed_us']if a else None,variant_closed_us=b['closed_us']if b else None)
 def accepted_for(folder,key):return {int(k):v for k,v in json.loads((folder/'signals.json').read_text())['accepted'][key].items()}
 frozen=json.loads((O/'FREEZE.json').read_text());fail=[]
 for period in PERIODS:
@@ -100,6 +106,14 @@ for scene in ['RAW','OHLC','OLHC']:
   for group in GROUPS:
    if('BTC',group)not in accounts or('ETH',group)not in accounts:continue
    a,av=accounts['BTC',group];b,bv=accounts['ETH',group];v=av+bv;initial=float(v[ix-1]);ts=[t for t in a['trades']+b['trades']if t['closed_us']>=rcfg['enable_rebound_ms']*1000];recentrows.append(dict(scene=scene,asset='COMBINED',fee_scenario=fee,group=group,status='COMPLETE_RAW_TRADE_SIMULATION'if scene=='RAW'else'COMPLETED_WITH_15M_EXECUTION_ASSUMPTIONS',Nov9_initial_equity=initial,**metrics(v[ix:],initial,ts),Nov1_to_end_return_pct=100*(v[-1]/1000-1),Nov9_net_USDT=float(v[-1]-initial)))
+direction_rows=[]
+for scope,source in [('ANNUAL',trades),('RECENT',recenttrades)]:
+ grouped={}
+ for t in source:
+  k=(t.get('period','NOV'),t.get('scene',''),t['asset'],t['fee_scenario'],t['group'],t['side']);grouped.setdefault(k,[]).append(t)
+ for (period,scene,asset,fee,group,side),tt in sorted(grouped.items()):
+  direction_rows.append(dict(scope=scope,period=period,scene=scene,asset=asset,fee_scenario=fee,group=group,side=side,closed_trades=len(tt),wins=sum(t['net']>0 for t in tt),losses=sum(t['net']<0 for t in tt),net_USDT=sum(t['net']for t in tt),total_profit_USDT=sum(max(0,t['net'])for t in tt),total_loss_USDT=-sum(min(0,t['net'])for t in tt)))
+csvwrite(O/'direction_summary.csv',direction_rows)
 for name,rs in [('annual.csv',rows),('trades.csv',trades),('signal_attribution.csv',comparison),('trade_matching.csv',matches),('recent.csv',recentrows),('recent_trades.csv',recenttrades),('recent_ETH_short_reasons.csv',whyrows)]:csvwrite(O/name,rs)
 (O/'accounting_checks.json').write_text(json.dumps(dict(passed=True,outputs=len(audit),checks=audit),indent=2));(O/'incomplete.json').write_text(json.dumps(fail,indent=2))
 text=['# 双币同参自适应密集条件实验','', '**本轮A是无V2的原CONTROL，pause_transition=True，不能复用上一轮含V2的A。** 所有版本均无反弹续跌、无分批减仓，2%硬止损及无上限阶梯止损不改。资金费0；两费用分别0、每边0.05%假设，退出滑点0.02%。每年每币500独立起算，不拼接跨年复利。','', '实际调用链和main快照差异见CALL_CHAIN.md。main核心源码逐字节核对，底层候选与overlay都接入自适应门槛，没有固定.25提前拦截。所有窗口只用过去数据，B不含当前根、C为WilderATR96，不加绝对上下限。','', '## 训练和冻结','', f"2020—2022零手续费组合评分mean(return−maxDD)，B固定为{frozen['B']} {frozen['B_parameters']}，C固定为{frozen['C']} {frozen['C_parameters']}；D信号来源{frozen['D_source']}。冻结UTC：{frozen['frozen_UTC']}。",'', '完整候选分数见training_candidate_scores.csv，逐年分数见training_yearly_scores.csv。手续费场景共用冻结参数，没有按年份/币种/费用重选。2023—2026为冻结后的时间切分检验，这些年份已被看过，不能称完全未见样本外。','', '**D同时改变信号并集、补充仓位和优先级，不能把D相对B/C差异解释成优先级独立效果。** D CORE为A完整信号并优先方向，CORE3x、EXTRA1x，同一钱包不叠加资金或敞口。','']
@@ -119,6 +133,12 @@ for fee in FEES:
    a=next((r for r in rows if r['period']==period and r['asset']=='COMBINED'and r['fee_scenario']==fee and r['group']=='A'),None);b=next((r for r in rows if r['period']==period and r['asset']=='COMBINED'and r['fee_scenario']==fee and r['group']==group),None)
    if a and b:paired.append((period,b['return_pct']-a['return_pct'],b['max_drawdown_pct']-a['max_drawdown_pct']))
   if paired:text.append(f"{fee}：{group}相对A，收益更高{sum(x[1]>0 for x in paired)}/{len(paired)}个区间、回撤扩大{sum(x[2]>0 for x in paired)}/{len(paired)}个区间。各区间差额（收益百分点/回撤百分点）："+'；'.join(f'{p} {r:+.3f}/{d:+.3f}'for p,r,d in paired)+'。')
+text+=['','## ETH空单、旧盈利单与旧亏损单','']
+for fee in FEES:
+ for group in ['B','C','D']:
+  rr=[r for r in comparison if r['scope']=='ANNUAL'and r['asset']=='ETH'and r['fee_scenario']==fee and r['group']==group]
+  if rr:text.append(f"{fee}/{group}：新增已平ETH空单{sum(r['new_closed_shorts']for r in rr)}笔，合计净盈亏{sum(r['new_closed_shorts_net_USDT']for r in rr):+.3f} USDT；原盈利单缺失{sum(r['original_profitable_trades_absent']for r in rr)}笔，其中有持仓/挂单占用证据{sum(r['profitable_absent_with_occupancy']for r in rr)}笔，主动信号过滤{sum(r['profitable_absent_due_signal_filter']for r in rr)}笔。匹配旧亏损单净额变化{sum(r['matched_old_losses_net_difference_USDT']for r in rr):+.3f} USDT，同初始名义1000归一化变化合计{sum(r['matched_old_losses_net_difference_per1000_initial_notional']for r in rr):+.3f}；负数表示净损失增加。归一化只作归因，不是可执行账户。")
+text+=['','direction_summary.csv逐年按BTC/ETH、多/空汇总已平仓笔数和净盈亏；近期场景分开，不重复相加。旧亏损单的数量变化与价格/退出变化另列，不能把全部差额直接归因于仓位。']
 text+=['','## ETH近期重新开空','']
 for scene in ['RAW','OHLC','OLHC']:
  for fee in FEES:

@@ -1,0 +1,170 @@
+{
+  "status": "FROZEN_BEFORE_POST2022_OR_FEES",
+  "frozen_UTC": "2026-11-15T09:10:15.030563+00:00",
+  "code_fingerprint": "21f442cb4dbc739db501b9eb174aceb8f1e34ac48ef7d22c72282eb0e21f1173",
+  "B": "B25",
+  "B_parameters": [
+    0.25,
+    0.5
+  ],
+  "C": "C10",
+  "C_parameters": [
+    1.0,
+    2.0
+  ],
+  "D_source": "B25",
+  "D_family": "B",
+  "training_periods": [
+    "2020",
+    "2021",
+    "2022"
+  ],
+  "selection_fee": 0,
+  "funding": 0,
+  "score": "mean over3 intervals of combined(return_pct-max_drawdown_pct)",
+  "tie_breakers": [
+    "lower worst annual drawdown",
+    "fewer total entry fills including open",
+    "original preset order"
+  ],
+  "BTC_ETH_same_parameters": true,
+  "A_pause_transition": true,
+  "no_V2": true,
+  "no_rebound": true,
+  "exit_slippage": 0.0002,
+  "candidate_scores": [
+    {
+      "candidate": "A",
+      "family": "A",
+      "parameters": [
+        0.25,
+        0.5
+      ],
+      "score": 14.207393940389446,
+      "worst_annual_drawdown_pct": 47.07921722436179,
+      "total_filled_trades": 338,
+      "total_closed_trades": 337,
+      "preset_index": 0
+    },
+    {
+      "candidate": "B15",
+      "family": "B",
+      "parameters": [
+        0.15,
+        0.4
+      ],
+      "score": 25.71267269818811,
+      "worst_annual_drawdown_pct": 47.012700826985075,
+      "total_filled_trades": 428,
+      "total_closed_trades": 428,
+      "preset_index": 1
+    },
+    {
+      "candidate": "B20",
+      "family": "B",
+      "parameters": [
+        0.2,
+        0.45
+      ],
+      "score": 18.55470154383705,
+      "worst_annual_drawdown_pct": 57.63288497325419,
+      "total_filled_trades": 533,
+      "total_closed_trades": 533,
+      "preset_index": 2
+    },
+    {
+      "candidate": "B25",
+      "family": "B",
+      "parameters": [
+        0.25,
+        0.5
+      ],
+      "score": 117.60621846294175,
+      "worst_annual_drawdown_pct": 50.62721993352891,
+      "total_filled_trades": 641,
+      "total_closed_trades": 640,
+      "preset_index": 3
+    },
+    {
+      "candidate": "C05",
+      "family": "C",
+      "parameters": [
+        0.5,
+        1.0
+      ],
+      "score": 34.46081296700222,
+      "worst_annual_drawdown_pct": 50.26099302942322,
+      "total_filled_trades": 337,
+      "total_closed_trades": 337,
+      "preset_index": 4
+    },
+    {
+      "candidate": "C10",
+      "family": "C",
+      "parameters": [
+        1.0,
+        2.0
+      ],
+      "score": 100.03919140090638,
+      "worst_annual_drawdown_pct": 62.61435001375473,
+      "total_filled_trades": 1116,
+      "total_closed_trades": 1115,
+      "preset_index": 5
+    },
+    {
+      "candidate": "C15",
+      "family": "C",
+      "parameters": [
+        1.5,
+        3.0
+      ],
+      "score": 23.91025118774124,
+      "worst_annual_drawdown_pct": 58.352796886701256,
+      "total_filled_trades": 1706,
+      "total_closed_trades": 1705,
+      "preset_index": 6
+    }
+  ],
+  "training_evidence": [
+    {
+      "period": "2020",
+      "asset": "BTC",
+      "status_SHA256": "b488f422e372b65f50513713c97559d34bc5077a124549f859f258c4dd66584c",
+      "data_fingerprint": "819f4e146defe252d60785c325d17f95804807009bec3ba7da1d2b91adc0c5f3"
+    },
+    {
+      "period": "2020",
+      "asset": "ETH",
+      "status_SHA256": "5a031e48d644220f714ade551d112583cf23cc73573898666a5ffc863d82a2e7",
+      "data_fingerprint": "7293f656fef34fe3d96aef8463aa4b47a067a606735dc606290caff9de69c026"
+    },
+    {
+      "period": "2021",
+      "asset": "BTC",
+      "status_SHA256": "15fcbffd0b3d502f8b6f9c13000adee9fd5f499c897f7022220c07b890f31048",
+      "data_fingerprint": "5d10a2ab7225ba336ceaeb3405a05cb72ebc46abd1b0c24f7cf7e59c7dbe9999"
+    },
+    {
+      "period": "2021",
+      "asset": "ETH",
+      "status_SHA256": "f8b796d4f3ab433b10ad659acde8eddf193dd5d9e6918a6435cf43f44a7a23ae",
+      "data_fingerprint": "3126c21b987b6ea180b40353a46b6982ed69da37ce343588391615b69750b84d"
+    },
+    {
+      "period": "2022",
+      "asset": "BTC",
+      "status_SHA256": "6f286cc3782d76164ff6b06c1e8d6a1c2916a4fef947d449084387c27bd33684",
+      "data_fingerprint": "82120b9b97ff0a4fab59bf68230c1b71d3f721bffb498d4931694a166d83b937"
+    },
+    {
+      "period": "2022",
+      "asset": "ETH",
+      "status_SHA256": "c0d95331d1fb8d21f5c7e7112c86ea40aeea708f73cf58ba805da86b1c02eb13",
+      "data_fingerprint": "69f061fbec169fc12b8de7753a9b57de478eab192ed8a70410302c3d2ae7febd"
+    }
+  ],
+  "A_score": 14.207393940389446,
+  "B_vs_A_score": 103.3988245225523,
+  "C_vs_A_score": 85.83179746051692,
+  "not_new_unseen_out_of_sample": true
+}
