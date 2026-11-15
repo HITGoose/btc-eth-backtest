@@ -15,3 +15,11 @@ calendar.json已经保存官方来源、缓存原字节SHA、纽约时区与UTC�
 
 OHLC映射明确为每分钟0秒open、20秒high、40秒low、59秒close，期间轮询读取前一假设事件价格；这是假设路径，不能称真实秒级/逐笔价格。真实行情可能先低后高或有更多跳价。沿用原止损及挂单引擎，但所有年度A/B/D也必须同口径重新回放，不引用旧逐笔收益充当本轮对照。
 窗口沿用旧回测北京时间年度边界；2020仅2月16日起、2026仅1—10月，详见每账本window毫秒字段。2025使用官方K线，本次未加载有冲突ID的逐笔档案，不能说已修复官方逐笔或严格通过S_ALL。
+
+完整回放后导出归因及报告：
+```
+python outputs/adaptive_density_floors/report.py
+python outputs/adaptive_density_floors/floor_diagnostic.py
+python outputs/adaptive_density_floors/finalize.py
+```
+最终中文结论含人工撰写的汇总段落；所有表格与逐笔CSV由上述入口从实际账本生成。原始脚本及金融规则没有覆盖。

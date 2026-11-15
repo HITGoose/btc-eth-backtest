@@ -1,0 +1,28 @@
+FINISHED {'period': '2021', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 16, "combined_rows": 0, "matching_rows": 1442, "incomplete": 208}
+FINISHED {'period': '2020', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 48, "combined_rows": 16, "matching_rows": 4332, "incomplete": 176}
+FINISHED {'period': '2021', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 64, "combined_rows": 32, "matching_rows": 5740, "incomplete": 160}
+FINISHED {'period': '2022', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 96, "combined_rows": 32, "matching_rows": 8542, "incomplete": 128}
+FINISHED {'period': '2022', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 112, "combined_rows": 48, "matching_rows": 10190, "incomplete": 112}
+FINISHED {'period': '2023', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 160, "combined_rows": 80, "matching_rows": 14626, "incomplete": 64}
+FINISHED {'period': '2023', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 160, "combined_rows": 80, "matching_rows": 14626, "incomplete": 64}
+FINISHED {'period': '2024', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 192, "combined_rows": 80, "matching_rows": 17986, "incomplete": 32}
+FINISHED {'period': '2024', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 208, "combined_rows": 96, "matching_rows": 19548, "incomplete": 16}
+FINISHED {'period': '2025', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 208, "combined_rows": 96, "matching_rows": 19548, "incomplete": 16}
+FINISHED {'period': '2026', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 208, "combined_rows": 96, "matching_rows": 19548, "incomplete": 16}
+FINISHED {'period': '2026', 'asset': 'ETH', 'exit_code': 0}
+{"accounts": 208, "combined_rows": 96, "matching_rows": 19548, "incomplete": 16}
+FINISHED {'period': '2025', 'asset': 'BTC', 'exit_code': 0}
+{"accounts": 224, "combined_rows": 112, "matching_rows": 20656, "incomplete": 0}
+{"accounts": 224, "combined_rows": 112, "matching_rows": 20656, "incomplete": 0}
+PIPELINE_FINISHED

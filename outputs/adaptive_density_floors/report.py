@@ -24,7 +24,7 @@ for period in periods:
     rows.append(dict(period=period,asset=asset,fee_scenario=fee,group=group,**ns['metrics'](curve,500,q['trades']),net_pnl_USDT=q['ending_equity']-500,realized_closed_net_USDT=sum(t['net']for t in q['trades']),open_count=int(bool(p)),execution=q['status']))
     for t in q['trades']:trades.append(dict(period=period,asset=asset,fee_scenario=fee,group=group,**t))
     if group!='A'and(asset,'A')in acc:
-     ns['attribute']('ANNUAL_1M_OHLC',period,asset,fee,group,acc[asset,'A'][0],q,maps[asset]['A'],maps[asset][group])
+     ns['attribute']('ANNUAL',period,asset,fee,group,acc[asset,'A'][0],q,maps[asset]['A'],maps[asset][group])
    if(folder/'signal_check.json').exists():removed.append(dict(period=period,asset=asset,**json.loads((folder/'signal_check.json').read_text())['removed_from_A']))
   for group in groups:
    if('BTC',group)not in acc or('ETH',group)not in acc:continue
@@ -35,6 +35,8 @@ for fee in fees:
   rr=[r for r in rows if r['asset']=='COMBINED'and r['fee_scenario']==fee and r['group']==group]
   tt=[t for t in trades if t['fee_scenario']==fee and t['group']==group]
   totals.append(dict(fee_scenario=fee,group=group,completed_intervals=len(rr),net_pnl_USDT=sum(r['net_pnl_USDT']for r in rr),return_on_sum_reset_capital_pct=sum(r['net_pnl_USDT']for r in rr)/(len(rr)*1000)*100 if rr else None,closed_trades=len(tt),win_rate_pct=100*sum(t['net']>0 for t in tt)/len(tt)if tt else None,worst_annual_max_drawdown_pct=max([r['max_drawdown_pct']for r in rr],default=None),not_continuous_compounding=True))
+removed=list({(x['period'],x['asset']):x for x in removed}.values())
+for row in ns['matches']:row['execution_assumption']='SYNTHETIC_1M_OHLC'
 done_keys={(str(x['period']),x['asset'],x['fee'],x['group'])for x in checks}
 missing=[dict(period=p,asset=a,fee=f,group=g,status='NOT_COMPLETED')for p in periods for a in ['BTC','ETH']for f in fees for g in groups if(p,a,f,g)not in done_keys]
 for name,rs in [('annual.csv',rows),('totals.csv',totals),('trades.csv',trades),('trade_matching.csv',ns['matches']),('signal_attribution.csv',ns['comparison']),('removed_signals.csv',removed),('cash_checks.csv',checks),('incomplete.csv',missing)]:ns['csvwrite'](O/name,rs)
