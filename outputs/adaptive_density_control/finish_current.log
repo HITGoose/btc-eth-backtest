@@ -1,1 +1,3 @@
 REPORTED 168 160 0
+{"branch": "codex/adaptive-density-control-20261115", "commit": "b3aab694095225f888d44d434a89d235a3b5c343", "parent": "80a86806c514ebaba041d575b6987c54177d1cd0", "files": 128, "main_unchanged": "e66859aff89490b9b02c286e59d7d8270802972a", "old_files_unchanged": true, "remote_blobs_verified": true}
+REPORT_AND_PUBLICATION_FINISHED

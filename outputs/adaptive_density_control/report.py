@@ -152,4 +152,15 @@ for scene in ['RAW','OHLC','OLHC']:
    rr=[x for x in whyrows if x['scene']==scene and x['fee_scenario']==fee and x['group']==group and x['signal_close_ms']>=rcfg['enable_rebound_ms']]
    if not rr:text.append(f'{scene}/{fee}/{group}：9日后未见已成交ETH空单。');continue
    text.append(f'{scene}/{fee}/{group}：'+ '；'.join(f"信号{x['signal_Beijing']}，入场{x['entry']}，状态{x['execution']}，来源{x['source']}，历史密集{x['historical_metric']}≤{x['historical_threshold']}，ER={x['regime']}，放量={x['volume_breakout']}、回踩={x['confirmed_retest']}"for x in rr)+'。')
+if not fail and len(rows)==168 and len(recentrows)==72 and len(audit)==160:
+ lead=['## 结论与三项重点','', '保留A原CONTROL作为基准，当前证据不支持用B/C/D替换正式策略。本轮按既定三年评分选出了B/C，但这不是稳定改进证明：冻结后的2023—2026，C两种费用下逐段收益均低于A且回撤更大；B在2025、2026显著恶化；D扣费后仅2024同时微幅提高收益并降低组合回撤。没有继续调参或逐年换版本。','', '|组|年度新增ETH已平空单|零费净额USDT|扣费净额USDT|冻结后扣费净额USDT|','|---|---:|---:|---:|---:|']
+ for g in ['B','C','D']:
+  z=[r for r in comparison if r['scope']=='ANNUAL'and r['asset']=='ETH'and r['group']==g and r['fee_scenario']=='ZERO'];f=[r for r in comparison if r['scope']=='ANNUAL'and r['asset']=='ETH'and r['group']==g and r['fee_scenario']=='ASSUMED_005_SIDE'];post=[r for r in f if r['period']not in w.TRAIN]
+  lead.append(f"|{g}|{sum(r['new_closed_shorts']for r in z)}|{sum(r['new_closed_shorts_net_USDT']for r in z):+.2f}|{sum(r['new_closed_shorts_net_USDT']for r in f):+.2f}|{sum(r['new_closed_shorts_net_USDT']for r in post):+.2f}|")
+ lead+=['','上表是独立年度逐笔归因合计，不是跨年连续收益；冻结后指2023—2026既定时间切分，已被反复查看过，不称全新样本外。含2025 S_ALL异常模式，不代表全历史严格验证。新增是按资产、方向、signal_close_ms与A匹配的实际新增成交，不仅限于EXTRA标签；未平仓保留单独状态。','']
+ for g in ['B','C','D']:
+  rr=[r for r in comparison if r['scope']=='ANNUAL'and r['group']==g and r['fee_scenario']=='ZERO'];loss=[r for r in matches if r['scope']=='ANNUAL'and r['group']==g and r['fee_scenario']=='ZERO'and r['A_net']is not None and r['variant_net']is not None and r['A_net']<0 and r['variant_net']<r['A_net']-1e-8]
+  lead.append(f"零费{g}：原盈利单中有实际占用证据{sum(r['profitable_absent_with_occupancy']for r in rr)}笔（原利润{sum(r['profit_absent_with_occupancy_USDT']for r in rr):.2f} USDT），被信号过滤{sum(r['profitable_absent_due_signal_filter']for r in rr)}笔；匹配旧亏损单中{len(loss)}笔亏得更多，扩大额合计{sum(r['A_net']-r['variant_net']for r in loss):.2f} USDT。")
+ lead+=['','匹配旧亏损单按相同初始名义归一化后的最大差异约1e-14，扩大主要来自余额路径和数量变化；这不表示实际账户风险没有扩大。逐年分币与组合回撤、数量取整及缺失原因见CSV。原利润缺失额是原账户反事实，不可简单加回新账户；完整差额来自全路径回放与期末估值。','', '168行年度结果、72行近期结果及160份账本全部完成对账；现金、已平仓净额、未平仓费用和估值残差仅浮点误差。2025保留COMPLETED_WITH_DATA_ANOMALY；近期RAW之外为既有OHLC/OLHC假设，不能称真实逐笔。资金费按本轮要求为0；每边0.05%是假设费率，触价全量成交是模拟代理。','']
+ text[2:2]=lead
 (O/'CONCLUSION.md').write_text('\n'.join(text));print('REPORTED',len(rows),len(audit),len(fail))
