@@ -1,0 +1,26 @@
+{
+  "run": "ws_fix_1794698100000",
+  "source_container_SHA256": "2cc97007abbd168760fff7f8a714fe56f776a5c13d78bbbe16edb04ef3e27e16",
+  "source_bytes": 1187081,
+  "source_plain_SHA256": "d090920c7b1be5c86190e0160344805f0b247db310f68db9a7211652d6019561",
+  "portable_file": "artifacts/ws_fix_1794698100000.portable_events.jsonl.gz",
+  "portable_SHA256": "96c7be06012e6e8d4666c90a8e45e9548d01e6df8420799ec2e3b9a5819eca80",
+  "portable_bytes": 913100,
+  "records": 234,
+  "ending_chain_SHA256": "67a23052f9dfaf25d64d18c9cfae8f9254e622298e4028b83daf51ed0d67af33",
+  "lossless_plaintext_reconstruction": true,
+  "original_source_gzip_unchanged": true,
+  "original_container_not_bitwise_reconstructed": true,
+  "last_system_event": "PREWARM",
+  "first_event_received_us": 1794697821266226,
+  "last_event_received_us": 1794697202309655,
+  "wire_ID_gaps_including_zero_NA": [],
+  "zero_price_messages": 0,
+  "processing_error_messages": 0,
+  "native_closed_Kline_events": [],
+  "trade_latency_us": {
+    "minimum": null,
+    "maximum": null,
+    "mean": null
+  }
+}

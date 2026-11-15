@@ -1,0 +1,130 @@
+[
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/B_F_TOUCH_BTC.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/B_F_TOUCH_ETH.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I100_F_TOUCH_BTC.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I100_F_TOUCH_ETH.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I50_F_TOUCH_BTC.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I50_F_TOUCH_ETH.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I25_F_TOUCH_BTC.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I25_F_TOUCH_ETH.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/B_F_THROUGH_BTC.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/B_F_THROUGH_ETH.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I100_F_THROUGH_BTC.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I100_F_THROUGH_ETH.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I50_F_THROUGH_BTC.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I50_F_THROUGH_ETH.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I25_F_THROUGH_BTC.json"
+  },
+  {
+    "run": "freeze_1794697200000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/freeze_1794697200000/reports/I25_F_THROUGH_ETH.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/B_F_TOUCH_BTC.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/B_F_TOUCH_ETH.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I100_F_TOUCH_BTC.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I100_F_TOUCH_ETH.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I50_F_TOUCH_BTC.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I50_F_TOUCH_ETH.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I25_F_TOUCH_BTC.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I25_F_TOUCH_ETH.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/B_F_THROUGH_BTC.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/B_F_THROUGH_ETH.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I100_F_THROUGH_BTC.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I100_F_THROUGH_ETH.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I50_F_THROUGH_BTC.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I50_F_THROUGH_ETH.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I25_F_THROUGH_BTC.json"
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "path": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/reports/I25_F_THROUGH_ETH.json"
+  }
+]

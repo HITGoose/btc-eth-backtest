@@ -1,0 +1,87 @@
+[
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/forward_checkpoints.zip",
+    "bytes": 1889414,
+    "SHA256": "a8dde8e1eb510a7feaac1b5be4d404334fa11495b17eb927e8c729ed975be2ea"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/freeze_1794697200000.capture_manifest.json",
+    "bytes": 18205,
+    "SHA256": "735eab5d5b4f86d8c7b277a71247a36f98430900e7121146223907a56891e859"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/freeze_1794697200000.portable_events.jsonl.gz",
+    "bytes": 26844302,
+    "SHA256": "62660ab653c78253c75df21c309a8c9deaaa338d65255b95d73f2f50d45567a6"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/funding_evidence.zip",
+    "bytes": 2713144,
+    "SHA256": "5834f8715f43c1ca5666ee82bb2a5f7fad3b5c67bdcc2ad583e517ea76b2c145"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ledgers_2020.zip",
+    "bytes": 1002083,
+    "SHA256": "1c2d70143a9ae126fe538b36d9f3f1d1c11724ae11ac60eef09ba24a22ce489a"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ledgers_2021.zip",
+    "bytes": 334147,
+    "SHA256": "d354d7dcc0524376eef87e327a62e6b35dc507ac1b0c85539f942167ec94c386"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ledgers_2022.zip",
+    "bytes": 938866,
+    "SHA256": "876c50d54a20319c2cf78983d997e24ffca1f9f36657a1ea6bac49540e2f006f"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ledgers_2023.zip",
+    "bytes": 1738515,
+    "SHA256": "07fc41a3b6ac4e851772c4fab9bd99965f3f3530c5398b5f0020eebacf5a2e41"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ledgers_2024.zip",
+    "bytes": 522740,
+    "SHA256": "7e04c7b4fe96ae6cfd6e935398798f86fff21be4439ca2affafe3315277766bd"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ledgers_2025.zip",
+    "bytes": 529546,
+    "SHA256": "1381ccb51199e593674d020a15af2696941d2be730c398c1810c5ee74ffcd8de"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ledgers_2026.zip",
+    "bytes": 518995,
+    "SHA256": "6fe1cac7beb5894110675439c20b3ca626444a3f921e9118fb6558d067b21850"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ledgers_NOV.zip",
+    "bytes": 35225,
+    "SHA256": "2d02236dfbbc016a9af422ac723e058c8e69995453f528b579791b3e1e69e1f7"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/source_logs_configs.zip",
+    "bytes": 3769980,
+    "SHA256": "c7ecbe7ff39a20faec6debe45ad0873eecb580bf03f0a36513a6ea66574a2dac"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ws_closed_fix_1794699000000.capture_manifest.json",
+    "bytes": 1296,
+    "SHA256": "cf16eb297c5b75d34de6be94fb5a48aa0a5c82b913d5a38ee829aee0a3c6c05d"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ws_closed_fix_1794699000000.portable_events.jsonl.gz",
+    "bytes": 26161447,
+    "SHA256": "9a9e0192602f6da2af797506cbd54d48cafd29420b5b4cb21614c11d0f19f276"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ws_fix_1794698100000.capture_manifest.json",
+    "bytes": 1054,
+    "SHA256": "c2896e0ddb2d9658b963130e157c904635f3b7e7e3f8826db4e879a0297c4f7e"
+  },
+  {
+    "path": "outputs/funding_freeze_forward/artifacts/ws_fix_1794698100000.portable_events.jsonl.gz",
+    "bytes": 913100,
+    "SHA256": "96c7be06012e6e8d4666c90a8e45e9548d01e6df8420799ec2e3b9a5819eca80"
+  }
+]

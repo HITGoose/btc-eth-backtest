@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/replay_capture.py", line 43, in <module>
+    if __name__=='__main__':main(sys.argv[1])
+                            ^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/replay_capture.py", line 18, in main
+    if typ in('WS_CONNECTED','TRADES','PREMIUM','FUNDING','KLINES','ACTOR_CLOCK','SIGNALS_READY')and engine is None:engine=n.Engine(manifest,sg.calculate())
+                                                                                                                                             ^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/online.py", line 55, in calculate
+    leg=r.model.build(path,self.t0//3600000*3600000-30*86400000,end)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/work/fit_squeeze_ladder_bot.py", line 144, in build
+    raw = read_market(WORK / path, start - WARMUP, end)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/work/combined_crypto_portfolio.py", line 96, in read_market
+    with path.open(encoding="utf-8", newline="") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspace/btc-eth-backtest/work/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000_receipt_replay/BTC_closed.csv'

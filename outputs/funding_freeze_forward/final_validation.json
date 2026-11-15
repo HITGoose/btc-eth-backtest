@@ -1,0 +1,14 @@
+{
+  "new_unique_historical_ledgers": 60,
+  "new_approximate_portfolio_cases": 48,
+  "audited_unique_new_and_referenced_ledgers": 120,
+  "tests_passed": 42,
+  "halted_capture_replay_accounts_exact": 16,
+  "portable_restore_exact_plaintext_records": 415896,
+  "precise_early_C2": "UNVERIFIED",
+  "forward_financial": "UNVERIFIED_FINANCIAL_HALTED",
+  "resident_service": false,
+  "strategy_optimized": false,
+  "main_modified": false,
+  "delivery_time_UTC": "2026-11-15T00:39:16.173564+00:00"
+}

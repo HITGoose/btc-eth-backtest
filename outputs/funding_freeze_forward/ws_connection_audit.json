@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "WS_DISCONNECTED": 1
+  },
+  "controls": [
+    {
+      "type": "WS_DISCONNECTED",
+      "received_us": 1794699950368982,
+      "error": "OSError('public raw stream disconnected')",
+      "url": "wss://fstream.binance.com/stream?streams=btcusdt@trade/ethusdt@trade/btcusdt@kline_15m/ethusdt@kline_15m",
+      "available_to_sim_us": 1794699950382175
+    }
+  ],
+  "forming_samples": []
+}

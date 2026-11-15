@@ -1,0 +1,18 @@
+[
+  {
+    "asset": "BTC",
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-14.zip.CHECKSUM",
+    "status": 404,
+    "acquired_UTC": "2026-11-15T00:34:33.962450+00:00",
+    "SHA256": "717abb430508b6fd0454464bc9f6d8d2c15775a0a7f4534673310664124b17eb",
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-11-14.zip.CHECKSUM</Key><RequestId>QYGBF3RXV3TE2ZC7</RequestId><HostId>Io6MAJzEVhiLF4j0vXAFsynczZjNyJTRjlX0XkrY5y+xIHSEiO+9CvLAhY0o1N7mcJne/U9kPdIG6ryONW0gigTSwp/ZdDj3</HostId></Error>"
+  },
+  {
+    "asset": "ETH",
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-14.zip.CHECKSUM",
+    "status": 404,
+    "acquired_UTC": "2026-11-15T00:34:34.224976+00:00",
+    "SHA256": "a79848d02d83e6af55628c54a4fcf2d796d7cb93db0f5c411430335df27e6b87",
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message><Key>data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-11-14.zip.CHECKSUM</Key><RequestId>RTV676W96RTZT9AZ</RequestId><HostId>BWNLg7eg6UjzBPCafREYavy73tZuEfChRAftUC4CxZ9C27gAMLDYgvQaQVwUQ15hE/pEhKyMQLzfgdMn56AzzOsrIFqmPJ0l</HostId></Error>"
+  }
+]

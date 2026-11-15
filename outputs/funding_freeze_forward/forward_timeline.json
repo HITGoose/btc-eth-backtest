@@ -1,0 +1,38 @@
+[
+  {
+    "run": "freeze_1794697200000",
+    "T0_UTC": "2026-11-14T23:00:00+00:00",
+    "observed_last_received_UTC": "2026-11-14T23:06:00.868170+00:00",
+    "financial_verified_cut_UTC": null,
+    "status": "UNVERIFIED_FINANCIAL_HALTED",
+    "halt_count": 362,
+    "first_halt": {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794696751821601,
+      "asset": "ETH",
+      "previous": 8991228049,
+      "current": 8991228051
+    },
+    "raw_unique_validated_trade_messages": 272208,
+    "forward_sample_sufficient": false
+  },
+  {
+    "run": "ws_closed_fix_1794699000000",
+    "T0_UTC": "2026-11-14T23:30:00+00:00",
+    "observed_last_received_UTC": "2026-11-14T23:51:13.357235+00:00",
+    "financial_verified_cut_UTC": null,
+    "status": "UNVERIFIED_FINANCIAL_HALTED",
+    "halt_count": 639,
+    "first_halt": {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698779994039,
+      "error": "AssertionError()"
+    },
+    "raw_unique_validated_trade_messages": 386286,
+    "forward_sample_sufficient": false
+  },
+  {
+    "run": "ws_fix_1794698100000",
+    "status": "STARTUP_FAILED_NO_ACCOUNT_CHECKPOINT"
+  }
+]

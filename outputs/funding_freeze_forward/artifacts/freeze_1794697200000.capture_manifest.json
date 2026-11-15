@@ -1,0 +1,947 @@
+{
+  "run": "freeze_1794697200000",
+  "source_container_SHA256": "c8306ba77fed5a51cda1b31a6d4f5a472d9d2e00b004f32c2080cdacea3f687e",
+  "source_bytes": 39928701,
+  "source_plain_SHA256": "a598afcc6a8b1589c08c38c8eed941118c213ae47fce62ec1d6813b53f6e676a",
+  "portable_file": "artifacts/freeze_1794697200000.portable_events.jsonl.gz",
+  "portable_SHA256": "62660ab653c78253c75df21c309a8c9deaaa338d65255b95d73f2f50d45567a6",
+  "portable_bytes": 26844302,
+  "records": 10486,
+  "ending_chain_SHA256": "dc87d8b886f5145ada11808f80066aa0aeee5aecb23769500f56693c0fbafebc",
+  "lossless_plaintext_reconstruction": true,
+  "original_source_gzip_unchanged": true,
+  "original_container_not_bitwise_reconstructed": true,
+  "last_system_event": "OBSERVATION_STOPPED",
+  "first_event_received_us": 1794696748816589,
+  "last_event_received_us": 1794697560995278,
+  "wire_ID_gaps_including_zero_NA": [
+    {
+      "asset": "ETH",
+      "previous": 8991228049,
+      "current": 8991228051
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274583248,
+      "current": 8274583250
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274584048,
+      "current": 8274584050
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991229910,
+      "current": 8991229912
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274584200,
+      "current": 8274584202
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274586877,
+      "current": 8274586879
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991232358,
+      "current": 8991232360
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274587963,
+      "current": 8274587965
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991233067,
+      "current": 8991233069
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991234953,
+      "current": 8991234955
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991235116,
+      "current": 8991235118
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274590354,
+      "current": 8274590357
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274592593,
+      "current": 8274592595
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274592678,
+      "current": 8274592821
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991239497,
+      "current": 8991239526
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274594803,
+      "current": 8274595039
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274597280,
+      "current": 8274597282
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274598011,
+      "current": 8274598013
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991241968,
+      "current": 8991241970
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991243700,
+      "current": 8991243702
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274600158,
+      "current": 8274600160
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991244298,
+      "current": 8991244300
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274601653,
+      "current": 8274601655
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991245436,
+      "current": 8991245438
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274602811,
+      "current": 8274602813
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991247031,
+      "current": 8991247033
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274603961,
+      "current": 8274603963
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991248224,
+      "current": 8991248226
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274605281,
+      "current": 8274605283
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274606840,
+      "current": 8274606842
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274607855,
+      "current": 8274607857
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991252764,
+      "current": 8991252766
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274608874,
+      "current": 8274608876
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991254579,
+      "current": 8991254581
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274611711,
+      "current": 8274611713
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274611820,
+      "current": 8274611822
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991255857,
+      "current": 8991255859
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274611984,
+      "current": 8274611986
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274612390,
+      "current": 8274612392
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991257290,
+      "current": 8991257292
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274613535,
+      "current": 8274613537
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274614418,
+      "current": 8274614420
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274614765,
+      "current": 8274614767
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274615351,
+      "current": 8274615353
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274615389,
+      "current": 8274615391
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274615875,
+      "current": 8274615877
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991260196,
+      "current": 8991260198
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991260612,
+      "current": 8991260614
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991261222,
+      "current": 8991261224
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991261825,
+      "current": 8991261827
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991266604,
+      "current": 8991266606
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274621857,
+      "current": 8274621859
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991267507,
+      "current": 8991267509
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274622922,
+      "current": 8274622924
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991269643,
+      "current": 8991269645
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991271856,
+      "current": 8991271858
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274627954,
+      "current": 8274627956
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274628911,
+      "current": 8274628913
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274629890,
+      "current": 8274629892
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274630360,
+      "current": 8274630362
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991277428,
+      "current": 8991277430
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274630541,
+      "current": 8274630543
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991278166,
+      "current": 8991278168
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274631081,
+      "current": 8274631083
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274631088,
+      "current": 8274631090
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274631685,
+      "current": 8274631687
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991279596,
+      "current": 8991279598
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274632562,
+      "current": 8274632564
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991280471,
+      "current": 8991280473
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274633099,
+      "current": 8274633101
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274633279,
+      "current": 8274633281
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991281696,
+      "current": 8991281698
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274633957,
+      "current": 8274633959
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274634431,
+      "current": 8274634433
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991283253,
+      "current": 8991283255
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991285266,
+      "current": 8991285268
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991286249,
+      "current": 8991286251
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991289132,
+      "current": 8991289134
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274639663,
+      "current": 8274639665
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991291592,
+      "current": 8991291594
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274640282,
+      "current": 8274640284
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274642568,
+      "current": 8274642570
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991296370,
+      "current": 8991296372
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274642800,
+      "current": 8274642803
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274643581,
+      "current": 8274643583
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274643590,
+      "current": 8274643592
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274643742,
+      "current": 8274643744
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991302366,
+      "current": 8991302368
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991304828,
+      "current": 8991304830
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274648161,
+      "current": 8274648163
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274648207,
+      "current": 8274648209
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991309771,
+      "current": 8991309773
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274651194,
+      "current": 8274651196
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991313529,
+      "current": 8991313531
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991314225,
+      "current": 8991314412
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274655340,
+      "current": 8274655342
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274655362,
+      "current": 8274655364
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274655921,
+      "current": 8274655923
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991320078,
+      "current": 8991320080
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274656674,
+      "current": 8274656676
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274656818,
+      "current": 8274656820
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274657248,
+      "current": 8274657250
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274657263,
+      "current": 8274657265
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274657378,
+      "current": 8274657380
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991321817,
+      "current": 8991321819
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274657519,
+      "current": 8274657521
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274657680,
+      "current": 8274657682
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274658845,
+      "current": 8274658847
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274659558,
+      "current": 8274659560
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991324668,
+      "current": 8991324670
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274661289,
+      "current": 8274661291
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991326251,
+      "current": 8991326253
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274662274,
+      "current": 8274662276
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991326800,
+      "current": 8991326802
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274663597,
+      "current": 8274663599
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274663605,
+      "current": 8274663608
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991328577,
+      "current": 8991328579
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274663782,
+      "current": 8274663784
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274665275,
+      "current": 8274665277
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991331138,
+      "current": 8991331140
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274665392,
+      "current": 8274665394
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274665998,
+      "current": 8274666000
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991333810,
+      "current": 8991333812
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274667065,
+      "current": 8274667067
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991334809,
+      "current": 8991334811
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991335847,
+      "current": 8991335849
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274668836,
+      "current": 8274668838
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991336681,
+      "current": 8991336683
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991337352,
+      "current": 8991337354
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274669498,
+      "current": 8274669500
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991337432,
+      "current": 8991337434
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274671568,
+      "current": 8274671570
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274671998,
+      "current": 8274672000
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991343712,
+      "current": 8991343832
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991346300,
+      "current": 8991346302
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274675447,
+      "current": 8274675449
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991346419,
+      "current": 8991346421
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274675729,
+      "current": 8274675731
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274676788,
+      "current": 8274676790
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991348928,
+      "current": 8991348930
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274677876,
+      "current": 8274677878
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991351487,
+      "current": 8991352282
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274678170,
+      "current": 8274678296
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991353302,
+      "current": 8991353304
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991353499,
+      "current": 8991354802
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991355801,
+      "current": 8991356150
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274680759,
+      "current": 8274680761
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274681236,
+      "current": 8274681238
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274682189,
+      "current": 8274682191
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991360204,
+      "current": 8991360206
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274682698,
+      "current": 8274682700
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274683887,
+      "current": 8274683889
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991364048,
+      "current": 8991364050
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274684562,
+      "current": 8274684564
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274684875,
+      "current": 8274684877
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274687551,
+      "current": 8274687553
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274687558,
+      "current": 8274687824
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991370291,
+      "current": 8991370294
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274690103,
+      "current": 8274690105
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274690474,
+      "current": 8274690476
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274690624,
+      "current": 8274690626
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991373617,
+      "current": 8991373619
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991375304,
+      "current": 8991375306
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274692332,
+      "current": 8274692334
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991376655,
+      "current": 8991376657
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274694398,
+      "current": 8274694400
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991378420,
+      "current": 8991378422
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274695281,
+      "current": 8274695283
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274695757,
+      "current": 8274695759
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991379471,
+      "current": 8991379473
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274696253,
+      "current": 8274696255
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991380154,
+      "current": 8991380156
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991380845,
+      "current": 8991381128
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274697498,
+      "current": 8274697500
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274698920,
+      "current": 8274698922
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274699260,
+      "current": 8274699262
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274699268,
+      "current": 8274699270
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991384642,
+      "current": 8991384644
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274699436,
+      "current": 8274699438
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274699686,
+      "current": 8274699688
+    },
+    {
+      "asset": "ETH",
+      "previous": 8991385106,
+      "current": 8991385108
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274699781,
+      "current": 8274699783
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274699851,
+      "current": 8274699853
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274700279,
+      "current": 8274700281
+    }
+  ],
+  "zero_price_messages": 0,
+  "processing_error_messages": 178,
+  "native_closed_Kline_events": [],
+  "trade_latency_us": {
+    "minimum": 71825,
+    "maximum": 23661701,
+    "mean": 3967932.412098299
+  }
+}

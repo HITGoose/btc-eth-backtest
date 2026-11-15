@@ -1,0 +1,24 @@
+{
+  "tape": "/workspace/btc-eth-backtest/outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000/events.jsonl.gz",
+  "sequence": 566,
+  "chain_SHA256": "4ec9ef015d96727a4d5a4902cd2d5d0cfb497d167bfe841a2da839303a69071e",
+  "event": {
+    "asset": "BTC",
+    "endpoint": "WS_NATIVE",
+    "url": "wss://fstream.binance.com/stream?streams=btcusdt@trade/ethusdt@trade/btcusdt@kline_15m/ethusdt@kline_15m",
+    "received_us": 1794698779994039,
+    "SHA256": "afdac8e23adbcff6ab4017f651f83cc808e7ecc550373bbf88008a3d817d9dd5",
+    "raw_UTF8": "{\"stream\":\"btcusdt@trade\",\"data\":{\"e\":\"trade\",\"E\":1794698779923,\"T\":1794698779922,\"s\":\"BTCUSDT\",\"t\":8274821993,\"p\":\"0\",\"q\":\"0\",\"X\":\"NA\",\"m\":true,\"st\":1}}",
+    "type": "TRADES",
+    "data": [
+      {
+        "id": 8274821993,
+        "time": 1794698779922,
+        "price": "0",
+        "qty": "0",
+        "isBuyerMaker": true
+      }
+    ],
+    "available_to_sim_us": 1794698780007679
+  }
+}

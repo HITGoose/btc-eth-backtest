@@ -1,0 +1,37 @@
+{
+  "run": "ws_closed_fix_1794699000000",
+  "source_container_SHA256": "9bcf0890747ceb3fe7310ab81ba172afc63c023d6b99c6434b42ad2ab7f113c4",
+  "source_bytes": 236740818,
+  "source_plain_SHA256": "70cb24855a309a245de028d3e1cf3c6c5aeede6e6c2d1533f50b950d77b495d9",
+  "portable_file": "artifacts/ws_closed_fix_1794699000000.portable_events.jsonl.gz",
+  "portable_SHA256": "9a9e0192602f6da2af797506cbd54d48cafd29420b5b4cb21614c11d0f19f276",
+  "portable_bytes": 26161447,
+  "records": 415896,
+  "ending_chain_SHA256": "157d39ac3a9a621f62a0d8015d3ba12380116a82ab322637c10ddefd4108e1f3",
+  "lossless_plaintext_reconstruction": true,
+  "original_source_gzip_unchanged": true,
+  "original_container_not_bitwise_reconstructed": true,
+  "last_system_event": "OBSERVATION_STOPPED",
+  "first_event_received_us": 1794698773457233,
+  "last_event_received_us": 1794700273661337,
+  "wire_ID_gaps_including_zero_NA": [
+    {
+      "asset": "ETH",
+      "previous": 8991712128,
+      "current": 8991721136
+    },
+    {
+      "asset": "BTC",
+      "previous": 8274928424,
+      "current": 8274932298
+    }
+  ],
+  "zero_price_messages": 320,
+  "processing_error_messages": 320,
+  "native_closed_Kline_events": [],
+  "trade_latency_us": {
+    "minimum": 68481,
+    "maximum": 9391737,
+    "mean": 274088.7550219086
+  }
+}

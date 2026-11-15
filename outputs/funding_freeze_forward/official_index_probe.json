@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://developers.binance.com/en/docs/llms.txt",
+    "final": "https://developers.binance.com/en/docs/llms.txt",
+    "SHA256": "7af887171ee9860b8353dc50f4259616ff97d63cde9f4af55f78fe635aab754b",
+    "bytes": 175048,
+    "acquired_UTC": "2026-11-15T00:04:43.981783+00:00",
+    "matching_lines": [
+      "- `POST /{symbol}@aggTrade` \u2014 Aggregate Trade Stream",
+      "- `POST /{symbol}@trade` \u2014 Trade Stream",
+      "- `POST /{symbol}@aggTrade` \u2014 Aggregate Trade Streams",
+      "- `POST /{symbol}@optionTrade` \u2014 Trade Streams",
+      "- `POST /{symbol}@aggTrade` \u2014 Aggregate Trade Streams",
+      "- `POST /{symbol}@aggTrade` \u2014 Aggregate Trade Streams",
+      "- `POST /{symbol}@trade` \u2014 Trade Streams",
+      "- `POST /{symbol}@blockTrade` \u2014 Block Trade Streams"
+    ]
+  },
+  {
+    "url": "https://developers.binance.com/legacy-docs",
+    "final": "https://developers.binance.com/legacy-docs/",
+    "SHA256": "91a8acc81e1e0411973ea6f2f3cc9f30bd4f73d3a15cc36f0c89d09ed8be73ae",
+    "bytes": 87852,
+    "acquired_UTC": "2026-11-15T00:04:45.410173+00:00",
+    "matching_lines": [
+      "<title data-rh=\"true\">Integrate Binance Login with your web application | Binance Open Platform</title><meta data-rh=\"true\" name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta data-rh=\"true\" name=\"robots\" content=\"noindex, nofollow\"><meta data-rh=\"true\" name=\"twitter:card\" content=\"summary_large_image\"><meta data-rh=\"true\" property=\"og:url\" content=\"https://developers.binance.com/legacy-docs/\"><meta data-rh=\"true\" property=\"og:locale\" content=\"en\"><meta data-rh=\"true\" property=\"og:locale:alternate\" content=\"zh_CN\"><meta data-rh=\"true\" name=\"docusaurus_locale\" content=\"en\"><meta data-rh=\"true\" name=\"docsearch:language\" content=\"en\"><meta data-rh=\"true\" name=\"docusaurus_version\" content=\"current\"><meta data-rh=\"true\" name=\"docusaurus_tag\" content=\"docs-default-current\"><meta data-rh=\"true\" name=\"docsearch:version\" content=\"current\"><meta data-rh=\"true\" name=\"docsearch:docusaurus_tag\" content=\"docs-default-current\"><meta data-rh=\"true\" property=\"og:title\" content=\"Integrate Binance Login with your web application | Binance Open Platform\"><meta data-rh=\"true\" name=\"description\" content=\"Binance APIs utilize the\u00a0OAuth 2.0\u00a0protocol for authentication and authorization. Binance supports common OAuth 2.0 scenarios such as those for web server, single page (browser based), mobile and native applications. This document will guide you through how your application communicates with Binance&#x27;s OAuth 2.0 server to secure a user&#x27;s consent for performing an API request on his behalf.\"><meta data-rh=\"true\" property=\"og:description\" content=\"Binance APIs utilize the\u00a0OAuth 2.0\u00a0protocol for authentication and authorization. Binance supports common OAuth 2.0 scenarios such as those for web server, single page (browser based), mobile and native applications. This document will guide you through how your application communicates with Binance&#x27;s OAuth 2.0 server to secure a user&#x27;s consent for performing an API request on his behalf.\"><link data-rh=\"true\" rel=\"icon\" href=\"/legacy-docs/img/favicon.png\"><link data-rh=\"true\" rel=\"canonical\" href=\"https://developers.binance.com/legacy-docs/\"><link data-rh=\"true\" rel=\"alternate\" href=\"https://developers.binance.com/legacy-docs/\" hreflang=\"en\"><link data-rh=\"true\" rel=\"alternate\" href=\"https://developers.binance.com/legacy-docs/zh-CN/\" hreflang=\"zh-CN\"><link data-rh=\"true\" rel=\"alternate\" href=\"https://developers.binance.com/legacy-docs/\" hreflang=\"x-default\"><link data-rh=\"true\" rel=\"preconnect\" href=\"https://9I0UZOBSWT-dsn.algolia.net\" crossorigin=\"anonymous\"><script data-rh=\"true\">function insertBanner(){var n=document.createElement(\"div\");n.id=\"__docusaurus-base-url-issue-banner-container\";n.innerHTML='\\n<div id=\"__docusaurus-base-url-issue-banner\" style=\"border: thick solid red; background-color: rgb(255, 230, 179); margin: 20px; padding: 20px; font-size: 20px;\">\\n   <p style=\"font-weight: bold; font-size: 30px;\">Your Docusaurus site did not load properly.</p>\\n   <p>A very common reason is a wrong site <a href=\"https://docusaurus.io/docs/docusaurus.config.js/#baseUrl\" style=\"font-weight: bold;\">baseUrl configuration</a>.</p>\\n   <p>Current configured baseUrl = <span style=\"font-weight: bold; color: red;\">/legacy-docs/</span> </p>\\n   <p>We suggest trying baseUrl = <span id=\"__docusaurus-base-url-issue-banner-suggestion-container\" style=\"font-weight: bold; color: green;\"></span></p>\\n</div>\\n',document.body.prepend(n);var e=document.getElementById(\"__docusaurus-base-url-issue-banner-suggestion-container\"),s=window.location.pathname,o=\"/\"===s.substr(-1)?s:s+\"/\";e.innerHTML=o}document.addEventListener(\"DOMContentLoaded\",(function(){void 0===window.docusaurus&&insertBanner()}))</script><link rel=\"preconnect\" href=\"https://www.googletagmanager.com\">"
+    ]
+  }
+]

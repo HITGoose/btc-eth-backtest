@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://developers.binance.com/legacy-docs/derivatives/usds-margined-futures/websocket-market-streams/Trade-Streams",
+    "status": "ERROR",
+    "SHA256": "feb64b2a06af0e548ebfe8a64fc5b281ba1e153b22aed385d551541b555b4118",
+    "received_UTC": "2026-11-15T00:07:50.622815+00:00",
+    "matches": []
+  },
+  {
+    "url": "https://developers.binance.com/legacy-docs/derivatives/usds-margined-futures/market-data/rest-api/Recent-Trades-List",
+    "status": 200,
+    "SHA256": "6c643e459966d348ca7e7baa579259bee557728d1fb3783c9ceaab97133dee8d",
+    "received_UTC": "2026-11-15T00:07:51.298842+00:00",
+    "matches": [
+      "   General Info    Websocket API General Info    Common Definition     Market Data      REST API     Test Connectivity    Check Server Time    Exchange Information    Delist Schedule    Order Book    RPI Order Book    Recent Trades List    Old Trades Lookup    Compressed Aggregate Trades List    Kline Candlestick Data    Continuous Contract Kline Candlestick Data    Index Price Kline Candlestick Data    Mark Price Kline Candlestick Data    Premium Index Kline Data    Mark Price    Get Funding Rate ",
+      " \"4.00000100\"  ,             \"qty\"  :     \"12.00000000\"  ,             \"quoteQty\"  :     \"48.00\"  ,             \"time\"  :     1499865549590  ,             \"isBuyerMaker\"  :     true  ,             \"isRPITrade\"  :     true  ,           }         ]                          Previous  RPI Order Book    Next  Old Trades Lookup          API Description    HTTP Request    Request Weight    Request Parameters    Response Example               Copyright \u00a9 2026 Binance.     \n \n ",
+      " :     \"48.00\"  ,             \"time\"  :     1499865549590  ,             \"isBuyerMaker\"  :     true  ,             \"isRPITrade\"  :     true  ,           }         ]                          Previous  RPI Order Book    Next  Old Trades Lookup          API Description    HTTP Request    Request Weight    Request Parameters    Response Example               Copyright \u00a9 2026 Binance.     \n \n "
+    ]
+  }
+]

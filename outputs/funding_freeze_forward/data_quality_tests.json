@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "total": 2,
+  "checks": [
+    {
+      "name": "zero-NA rejected before any fake stop/profit; side1",
+      "passed": true
+    },
+    {
+      "name": "zero-NA rejected before any fake stop/profit; side-1",
+      "passed": true
+    }
+  ],
+  "production_financial_block_remains": true,
+  "zero_NA_semantics_unverified": true,
+  "not_counted_as_forward_returns": true
+}

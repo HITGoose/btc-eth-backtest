@@ -1,0 +1,3844 @@
+{
+  "T0_ms": 1794699000000,
+  "last_received_UTC": "2026-11-14T23:51:13.357235+00:00",
+  "verified_account_clock_UTC": "2026-11-14T23:29:59.999999+00:00",
+  "halts": [
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698779994039,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698780110586,
+      "asset": "BTC",
+      "previous": 8274821992,
+      "current": 8274821994
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698787307538,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698787333499,
+      "asset": "ETH",
+      "previous": 8991563608,
+      "current": 8991563610
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698792295002,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698792318663,
+      "asset": "ETH",
+      "previous": 8991564806,
+      "current": 8991564808
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698797057586,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698797118704,
+      "asset": "ETH",
+      "previous": 8991565361,
+      "current": 8991565363
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698797308982,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698797449509,
+      "asset": "BTC",
+      "previous": 8274823958,
+      "current": 8274823960
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698798790701,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698798871839,
+      "asset": "ETH",
+      "previous": 8991565713,
+      "current": 8991565715
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698806023284,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698806027861,
+      "asset": "BTC",
+      "previous": 8274824472,
+      "current": 8274824474
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698807314049,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698807323297,
+      "asset": "ETH",
+      "previous": 8991566607,
+      "current": 8991566609
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698808120417,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698808120425,
+      "asset": "BTC",
+      "previous": 8274825394,
+      "current": 8274825396
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698810810048,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698811163343,
+      "asset": "BTC",
+      "previous": 8274825526,
+      "current": 8274825528
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698811557832,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698811684720,
+      "asset": "ETH",
+      "previous": 8991566976,
+      "current": 8991566978
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698815823462,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698816022102,
+      "asset": "ETH",
+      "previous": 8991567376,
+      "current": 8991567378
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698816603728,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698816754105,
+      "asset": "BTC",
+      "previous": 8274825688,
+      "current": 8274825690
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698819287415,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698819288221,
+      "asset": "BTC",
+      "previous": 8274825855,
+      "current": 8274825857
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698821522604,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698821526579,
+      "asset": "ETH",
+      "previous": 8991568703,
+      "current": 8991568705
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698823697812,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698824002572,
+      "asset": "BTC",
+      "previous": 8274826047,
+      "current": 8274826049
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698831476386,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698831538222,
+      "asset": "BTC",
+      "previous": 8274827922,
+      "current": 8274827924
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698833086999,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698833226992,
+      "asset": "BTC",
+      "previous": 8274827944,
+      "current": 8274827946
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698833814922,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698834097486,
+      "asset": "ETH",
+      "previous": 8991571435,
+      "current": 8991571437
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698849502135,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698849511756,
+      "asset": "BTC",
+      "previous": 8274830697,
+      "current": 8274830699
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698868027888,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698868218924,
+      "asset": "BTC",
+      "previous": 8274833376,
+      "current": 8274833378
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698868801181,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698869001001,
+      "asset": "ETH",
+      "previous": 8991577819,
+      "current": 8991577821
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698870019292,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698870345410,
+      "asset": "BTC",
+      "previous": 8274833498,
+      "current": 8274833500
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698875795359,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698875960515,
+      "asset": "BTC",
+      "previous": 8274833989,
+      "current": 8274833991
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698876541129,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698876658730,
+      "asset": "ETH",
+      "previous": 8991578378,
+      "current": 8991578380
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698886552517,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698886656056,
+      "asset": "BTC",
+      "previous": 8274835133,
+      "current": 8274835135
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698890810455,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698891055926,
+      "asset": "ETH",
+      "previous": 8991580231,
+      "current": 8991580233
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698898021422,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698898031278,
+      "asset": "ETH",
+      "previous": 8991581311,
+      "current": 8991581313
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698900504425,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698900505387,
+      "asset": "BTC",
+      "previous": 8274836275,
+      "current": 8274836277
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698903840156,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698903903603,
+      "asset": "ETH",
+      "previous": 8991581710,
+      "current": 8991581712
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698911377792,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698911390452,
+      "asset": "BTC",
+      "previous": 8274837184,
+      "current": 8274837186
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698913024036,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698913039403,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698913502527,
+      "asset": "BTC",
+      "previous": 8274837372,
+      "current": 8274837375
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698913775660,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698913848654,
+      "asset": "ETH",
+      "previous": 8991583632,
+      "current": 8991583634
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698926902817,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698926907841,
+      "asset": "BTC",
+      "previous": 8274838105,
+      "current": 8274838107
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698929357963,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698929547349,
+      "asset": "BTC",
+      "previous": 8274838203,
+      "current": 8274838205
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698932806540,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698932823654,
+      "asset": "BTC",
+      "previous": 8274838248,
+      "current": 8274838250
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698934004515,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698934084718,
+      "asset": "BTC",
+      "previous": 8274838379,
+      "current": 8274838381
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698937999412,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698938127337,
+      "asset": "BTC",
+      "previous": 8274838466,
+      "current": 8274838468
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698941502717,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698941687042,
+      "asset": "BTC",
+      "previous": 8274838779,
+      "current": 8274838781
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698942692193,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698942831310,
+      "asset": "BTC",
+      "previous": 8274838954,
+      "current": 8274838956
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698945104194,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698945631326,
+      "asset": "BTC",
+      "previous": 8274838994,
+      "current": 8274838996
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698946574844,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698946757864,
+      "asset": "BTC",
+      "previous": 8274839010,
+      "current": 8274839012
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698951510328,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698951636072,
+      "asset": "ETH",
+      "previous": 8991587050,
+      "current": 8991587052
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698952253504,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698952256819,
+      "asset": "BTC",
+      "previous": 8274839519,
+      "current": 8274839521
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698953249581,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698953263423,
+      "asset": "BTC",
+      "previous": 8274839602,
+      "current": 8274839604
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698956377511,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698956451799,
+      "asset": "BTC",
+      "previous": 8274839713,
+      "current": 8274839715
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698957253729,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698957297321,
+      "asset": "BTC",
+      "previous": 8274839818,
+      "current": 8274839820
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698963034787,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698963202165,
+      "asset": "BTC",
+      "previous": 8274840173,
+      "current": 8274840175
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698966536287,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698966715818,
+      "asset": "BTC",
+      "previous": 8274840606,
+      "current": 8274840608
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698972998066,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698973043885,
+      "asset": "BTC",
+      "previous": 8274841112,
+      "current": 8274841114
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698982309078,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698982415823,
+      "asset": "BTC",
+      "previous": 8274841672,
+      "current": 8274841674
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794698996594577,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794698996645175,
+      "asset": "BTC",
+      "previous": 8274842377,
+      "current": 8274842379
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699000841016,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699000851051,
+      "asset": "BTC",
+      "previous": 8274842729,
+      "current": 8274842731
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699007297224,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699007320537,
+      "asset": "ETH",
+      "previous": 8991591857,
+      "current": 8991591859
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699009073135,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699009101354,
+      "asset": "BTC",
+      "previous": 8274843787,
+      "current": 8274843789
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699009521767,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699009572281,
+      "asset": "BTC",
+      "previous": 8274843840,
+      "current": 8274843842
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699012513570,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699012618240,
+      "asset": "BTC",
+      "previous": 8274843955,
+      "current": 8274843957
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699018770047,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699018819140,
+      "asset": "BTC",
+      "previous": 8274844254,
+      "current": 8274844256
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699027277167,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699027507235,
+      "asset": "BTC",
+      "previous": 8274844892,
+      "current": 8274844894
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699028034254,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699028137030,
+      "asset": "ETH",
+      "previous": 8991594360,
+      "current": 8991594362
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699032989931,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699033049390,
+      "asset": "BTC",
+      "previous": 8274845132,
+      "current": 8274845134
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699033723396,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699033762103,
+      "asset": "ETH",
+      "previous": 8991594898,
+      "current": 8991594900
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699036524475,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699036707485,
+      "asset": "BTC",
+      "previous": 8274845247,
+      "current": 8274845249
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699042026851,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699042562248,
+      "asset": "BTC",
+      "previous": 8274845609,
+      "current": 8274845611
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699043039047,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699043100721,
+      "asset": "ETH",
+      "previous": 8991595916,
+      "current": 8991595918
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699046525779,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699046526032,
+      "asset": "BTC",
+      "previous": 8274845768,
+      "current": 8274845770
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699047278133,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699047292725,
+      "asset": "ETH",
+      "previous": 8991596420,
+      "current": 8991596422
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699047297789,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699047348277,
+      "asset": "ETH",
+      "previous": 8991596422,
+      "current": 8991596424
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699053092055,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699053096167,
+      "asset": "ETH",
+      "previous": 8991597537,
+      "current": 8991597539
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699053998202,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699054008291,
+      "asset": "ETH",
+      "previous": 8991597726,
+      "current": 8991597728
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699072347044,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699072455182,
+      "asset": "BTC",
+      "previous": 8274849502,
+      "current": 8274849504
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699073093496,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699073112832,
+      "asset": "ETH",
+      "previous": 8991599640,
+      "current": 8991599642
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699083085612,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699083086039,
+      "asset": "BTC",
+      "previous": 8274850499,
+      "current": 8274850501
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699094601614,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699094718205,
+      "asset": "BTC",
+      "previous": 8274851747,
+      "current": 8274851749
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699106504403,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699106643033,
+      "asset": "BTC",
+      "previous": 8274852178,
+      "current": 8274852180
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699112517522,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699112549131,
+      "asset": "BTC",
+      "previous": 8274852634,
+      "current": 8274852636
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699120800332,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699120801235,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699120826315,
+      "asset": "BTC",
+      "previous": 8274853595,
+      "current": 8274853597
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699120830206,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699121082150,
+      "asset": "ETH",
+      "previous": 8991606303,
+      "current": 8991606306
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699122331615,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699122380485,
+      "asset": "BTC",
+      "previous": 8274853739,
+      "current": 8274853741
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699125832888,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699125845195,
+      "asset": "ETH",
+      "previous": 8991606927,
+      "current": 8991606929
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699127351677,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699127420849,
+      "asset": "BTC",
+      "previous": 8274854371,
+      "current": 8274854373
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699141507267,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699141515060,
+      "asset": "BTC",
+      "previous": 8274855104,
+      "current": 8274855106
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699147253573,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699147269527,
+      "asset": "BTC",
+      "previous": 8274855491,
+      "current": 8274855493
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699158011692,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699158023214,
+      "asset": "BTC",
+      "previous": 8274856009,
+      "current": 8274856011
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699160027975,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699160045734,
+      "asset": "BTC",
+      "previous": 8274856151,
+      "current": 8274856153
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699160639140,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699160647346,
+      "asset": "BTC",
+      "previous": 8274856160,
+      "current": 8274856162
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699162360929,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699162373664,
+      "asset": "ETH",
+      "previous": 8991611474,
+      "current": 8991611476
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699179513612,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699179527324,
+      "asset": "BTC",
+      "previous": 8274857269,
+      "current": 8274857271
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699181540305,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699181664861,
+      "asset": "ETH",
+      "previous": 8991613162,
+      "current": 8991613164
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699182307901,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699182559266,
+      "asset": "BTC",
+      "previous": 8274857550,
+      "current": 8274857552
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699185046574,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699185063999,
+      "asset": "BTC",
+      "previous": 8274858106,
+      "current": 8274858108
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699193521018,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699193591259,
+      "asset": "BTC",
+      "previous": 8274858716,
+      "current": 8274858718
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699193825355,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699193919490,
+      "asset": "BTC",
+      "previous": 8274858718,
+      "current": 8274858720
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699194501701,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699194768775,
+      "asset": "ETH",
+      "previous": 8991614801,
+      "current": 8991614803
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699195514846,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699195624215,
+      "asset": "BTC",
+      "previous": 8274858728,
+      "current": 8274858730
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699204524135,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699204698837,
+      "asset": "ETH",
+      "previous": 8991615546,
+      "current": 8991615548
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699212316309,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699212359469,
+      "asset": "ETH",
+      "previous": 8991616218,
+      "current": 8991616220
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699213521024,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699213571191,
+      "asset": "BTC",
+      "previous": 8274859541,
+      "current": 8274859543
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699216569625,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699216616570,
+      "asset": "BTC",
+      "previous": 8274859699,
+      "current": 8274859701
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699222252002,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699222451649,
+      "asset": "BTC",
+      "previous": 8274859948,
+      "current": 8274859950
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699230018403,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699230361038,
+      "asset": "BTC",
+      "previous": 8274860171,
+      "current": 8274860173
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699231530563,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699231814791,
+      "asset": "BTC",
+      "previous": 8274860271,
+      "current": 8274860273
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699236967238,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699236975322,
+      "asset": "ETH",
+      "previous": 8991618528,
+      "current": 8991618530
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699240939610,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699240964543,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699240983958,
+      "asset": "ETH",
+      "previous": 8991618946,
+      "current": 8991618948
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699240987156,
+      "asset": "BTC",
+      "previous": 8274861817,
+      "current": 8274861819
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699252417300,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699252429233,
+      "asset": "BTC",
+      "previous": 8274862666,
+      "current": 8274862668
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699257295807,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699257578757,
+      "asset": "BTC",
+      "previous": 8274863125,
+      "current": 8274863127
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699263786883,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699263944354,
+      "asset": "ETH",
+      "previous": 8991621584,
+      "current": 8991621586
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699264010388,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699264388040,
+      "asset": "BTC",
+      "previous": 8274863548,
+      "current": 8274863550
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699264534247,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699264738611,
+      "asset": "BTC",
+      "previous": 8274863560,
+      "current": 8274863562
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699272020578,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699272035121,
+      "asset": "BTC",
+      "previous": 8274864105,
+      "current": 8274864107
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699273003163,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699273030020,
+      "asset": "ETH",
+      "previous": 8991622371,
+      "current": 8991622373
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699282013683,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699282054608,
+      "asset": "BTC",
+      "previous": 8274864742,
+      "current": 8274864744
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699283057801,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699283497079,
+      "asset": "ETH",
+      "previous": 8991623547,
+      "current": 8991623549
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699291606880,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699291627766,
+      "asset": "BTC",
+      "previous": 8274865202,
+      "current": 8274865204
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699300877906,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699301001092,
+      "asset": "BTC",
+      "previous": 8274865675,
+      "current": 8274865677
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699301644907,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699301679386,
+      "asset": "ETH",
+      "previous": 8991625035,
+      "current": 8991625037
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699302021139,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699302050769,
+      "asset": "BTC",
+      "previous": 8274865728,
+      "current": 8274865730
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699303023512,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699303202927,
+      "asset": "BTC",
+      "previous": 8274865813,
+      "current": 8274865815
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699307328599,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699307347164,
+      "asset": "ETH",
+      "previous": 8991625564,
+      "current": 8991625566
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699307514433,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699307532489,
+      "asset": "BTC",
+      "previous": 8274866055,
+      "current": 8274866057
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699308049550,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699308637214,
+      "asset": "BTC",
+      "previous": 8274866058,
+      "current": 8274866060
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699312228320,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699312504058,
+      "asset": "BTC",
+      "previous": 8274866265,
+      "current": 8274866267
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699312974018,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699313006545,
+      "asset": "ETH",
+      "previous": 8991626061,
+      "current": 8991626063
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699319520833,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699319564622,
+      "asset": "BTC",
+      "previous": 8274866693,
+      "current": 8274866695
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699336510960,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699336511007,
+      "asset": "BTC",
+      "previous": 8274867975,
+      "current": 8274867977
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699342261557,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699342294277,
+      "asset": "BTC",
+      "previous": 8274868201,
+      "current": 8274868203
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699350797937,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699350822038,
+      "asset": "ETH",
+      "previous": 8991629448,
+      "current": 8991629450
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699355804782,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699355870927,
+      "asset": "ETH",
+      "previous": 8991629889,
+      "current": 8991629891
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699356518030,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699356600596,
+      "asset": "BTC",
+      "previous": 8274869437,
+      "current": 8274869439
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699360802335,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699360823740,
+      "asset": "BTC",
+      "previous": 8274869768,
+      "current": 8274869770
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699368078767,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699368257682,
+      "asset": "BTC",
+      "previous": 8274870164,
+      "current": 8274870166
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699378823316,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699379016917,
+      "asset": "BTC",
+      "previous": 8274870667,
+      "current": 8274870669
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699385200318,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699385200327,
+      "asset": "BTC",
+      "previous": 8274871320,
+      "current": 8274871322
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699394523324,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699394535117,
+      "asset": "BTC",
+      "previous": 8274872077,
+      "current": 8274872079
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699399886822,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699399906688,
+      "asset": "ETH",
+      "previous": 8991635296,
+      "current": 8991635298
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699400820611,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699400839384,
+      "asset": "ETH",
+      "previous": 8991635318,
+      "current": 8991635320
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699406522351,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699406559612,
+      "asset": "BTC",
+      "previous": 8274872710,
+      "current": 8274872712
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699406573570,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699406715163,
+      "asset": "ETH",
+      "previous": 8991635854,
+      "current": 8991635856
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699408030357,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699408045183,
+      "asset": "BTC",
+      "previous": 8274872969,
+      "current": 8274872971
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699412357172,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699412419838,
+      "asset": "ETH",
+      "previous": 8991636594,
+      "current": 8991636596
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699416568361,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699416617135,
+      "asset": "ETH",
+      "previous": 8991637619,
+      "current": 8991637621
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699420764806,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699420833334,
+      "asset": "BTC",
+      "previous": 8274873977,
+      "current": 8274873979
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699422520776,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699422596338,
+      "asset": "BTC",
+      "previous": 8274874293,
+      "current": 8274874295
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699423037941,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699423046219,
+      "asset": "BTC",
+      "previous": 8274874302,
+      "current": 8274874304
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699429021249,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699429141756,
+      "asset": "BTC",
+      "previous": 8274876159,
+      "current": 8274876161
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699432516133,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699432532772,
+      "asset": "BTC",
+      "previous": 8274876572,
+      "current": 8274876574
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699443817379,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699443866732,
+      "asset": "ETH",
+      "previous": 8991642744,
+      "current": 8991642746
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699446023436,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699446023570,
+      "asset": "BTC",
+      "previous": 8274877636,
+      "current": 8274877638
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699449318722,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699449394097,
+      "asset": "BTC",
+      "previous": 8274877784,
+      "current": 8274877786
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699455273843,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699455501872,
+      "asset": "ETH",
+      "previous": 8991644495,
+      "current": 8991644497
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699460516695,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699460559311,
+      "asset": "ETH",
+      "previous": 8991644922,
+      "current": 8991644924
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699467272519,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699467339746,
+      "asset": "BTC",
+      "previous": 8274879454,
+      "current": 8274879456
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699475775342,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699475786673,
+      "asset": "ETH",
+      "previous": 8991647200,
+      "current": 8991647202
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699481543845,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699481577101,
+      "asset": "ETH",
+      "previous": 8991648097,
+      "current": 8991648099
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699485814566,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699485875277,
+      "asset": "BTC",
+      "previous": 8274881353,
+      "current": 8274881355
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699486564120,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699486586355,
+      "asset": "ETH",
+      "previous": 8991648795,
+      "current": 8991648797
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699487023393,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699487070434,
+      "asset": "BTC",
+      "previous": 8274881408,
+      "current": 8274881410
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699493091144,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699493183665,
+      "asset": "ETH",
+      "previous": 8991649482,
+      "current": 8991649484
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699493837184,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699493918190,
+      "asset": "BTC",
+      "previous": 8274881692,
+      "current": 8274881694
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699498008382,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699498062375,
+      "asset": "BTC",
+      "previous": 8274881904,
+      "current": 8274881906
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699502233101,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699502247566,
+      "asset": "BTC",
+      "previous": 8274883842,
+      "current": 8274883844
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699502981519,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699503029110,
+      "asset": "ETH",
+      "previous": 8991651984,
+      "current": 8991651986
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699513763702,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699514083122,
+      "asset": "ETH",
+      "previous": 8991654942,
+      "current": 8991654944
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699522018451,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699522148595,
+      "asset": "BTC",
+      "previous": 8274887980,
+      "current": 8274887982
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699528962203,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699529007510,
+      "asset": "ETH",
+      "previous": 8991656757,
+      "current": 8991656759
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699530494372,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699530523353,
+      "asset": "BTC",
+      "previous": 8274888532,
+      "current": 8274888534
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699534245296,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699534245597,
+      "asset": "BTC",
+      "previous": 8274889092,
+      "current": 8274889094
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699535812876,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699535929149,
+      "asset": "BTC",
+      "previous": 8274889708,
+      "current": 8274889710
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699536557391,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699536720045,
+      "asset": "ETH",
+      "previous": 8991659650,
+      "current": 8991659652
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699541012180,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699541041872,
+      "asset": "ETH",
+      "previous": 8991660040,
+      "current": 8991660042
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699550310148,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699550490003,
+      "asset": "ETH",
+      "previous": 8991661506,
+      "current": 8991661508
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699560740719,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699560744905,
+      "asset": "ETH",
+      "previous": 8991662767,
+      "current": 8991662769
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699561068838,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699561182675,
+      "asset": "ETH",
+      "previous": 8991662773,
+      "current": 8991662775
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699561828433,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699561861430,
+      "asset": "BTC",
+      "previous": 8274891589,
+      "current": 8274891591
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699570980366,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699570981724,
+      "asset": "ETH",
+      "previous": 8991664242,
+      "current": 8991664244
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699576011410,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699576460868,
+      "asset": "BTC",
+      "previous": 8274892959,
+      "current": 8274892961
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699577224738,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699577446479,
+      "asset": "ETH",
+      "previous": 8991664997,
+      "current": 8991664999
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699585805038,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699585835151,
+      "asset": "BTC",
+      "previous": 8274893705,
+      "current": 8274893707
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699586662799,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699586662808,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699586664305,
+      "asset": "ETH",
+      "previous": 8991666615,
+      "current": 8991666618
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699590812223,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699590876069,
+      "asset": "ETH",
+      "previous": 8991667138,
+      "current": 8991667140
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699593012277,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699593027176,
+      "asset": "BTC",
+      "previous": 8274896103,
+      "current": 8274896105
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699608028692,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699608103467,
+      "asset": "BTC",
+      "previous": 8274898142,
+      "current": 8274898144
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699608770859,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699608815449,
+      "asset": "ETH",
+      "previous": 8991669486,
+      "current": 8991669488
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699618750969,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699618866074,
+      "asset": "ETH",
+      "previous": 8991670654,
+      "current": 8991670656
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699619486985,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699619506735,
+      "asset": "BTC",
+      "previous": 8274900019,
+      "current": 8274900021
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699620545134,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699620809650,
+      "asset": "BTC",
+      "previous": 8274900129,
+      "current": 8274900131
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699626022586,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699626128075,
+      "asset": "BTC",
+      "previous": 8274900704,
+      "current": 8274900706
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699628115061,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699628120561,
+      "asset": "BTC",
+      "previous": 8274900766,
+      "current": 8274900768
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699628920623,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699628943054,
+      "asset": "ETH",
+      "previous": 8991671700,
+      "current": 8991671702
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699629349376,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699629365127,
+      "asset": "BTC",
+      "previous": 8274900989,
+      "current": 8274900991
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699629535663,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699629580087,
+      "asset": "BTC",
+      "previous": 8274900993,
+      "current": 8274900995
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699635974151,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699635976997,
+      "asset": "BTC",
+      "previous": 8274901438,
+      "current": 8274901440
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699637224689,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699637298842,
+      "asset": "BTC",
+      "previous": 8274901550,
+      "current": 8274901552
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699638073451,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699638149545,
+      "asset": "ETH",
+      "previous": 8991673144,
+      "current": 8991673146
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699643512023,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699643514846,
+      "asset": "BTC",
+      "previous": 8274901824,
+      "current": 8274901826
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699643803510,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699644024620,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699644094911,
+      "asset": "BTC",
+      "previous": 8274901830,
+      "current": 8274901833
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699645045757,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699645222605,
+      "asset": "BTC",
+      "previous": 8274901895,
+      "current": 8274901897
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699648059493,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699648107600,
+      "asset": "ETH",
+      "previous": 8991674360,
+      "current": 8991674362
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699651623122,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699651762719,
+      "asset": "BTC",
+      "previous": 8274902086,
+      "current": 8274902088
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699652862440,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699653034237,
+      "asset": "BTC",
+      "previous": 8274902106,
+      "current": 8274902108
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699657247070,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699657335573,
+      "asset": "BTC",
+      "previous": 8274902604,
+      "current": 8274902606
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699672295970,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699672322253,
+      "asset": "ETH",
+      "previous": 8991676564,
+      "current": 8991676566
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699681544750,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699681687895,
+      "asset": "ETH",
+      "previous": 8991677477,
+      "current": 8991677479
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699683063769,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699683237010,
+      "asset": "BTC",
+      "previous": 8274904545,
+      "current": 8274904547
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699693851535,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699693995522,
+      "asset": "ETH",
+      "previous": 8991678443,
+      "current": 8991678445
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699695337426,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699695524238,
+      "asset": "BTC",
+      "previous": 8274905618,
+      "current": 8274905620
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699698507595,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699698527467,
+      "asset": "BTC",
+      "previous": 8274906006,
+      "current": 8274906008
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699702936328,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699702940227,
+      "asset": "ETH",
+      "previous": 8991679182,
+      "current": 8991679184
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699703044192,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699703066769,
+      "asset": "BTC",
+      "previous": 8274906282,
+      "current": 8274906284
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699704025964,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699704085065,
+      "asset": "BTC",
+      "previous": 8274906454,
+      "current": 8274906456
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699704521868,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699704801489,
+      "asset": "ETH",
+      "previous": 8991679421,
+      "current": 8991679423
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699706022441,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699706038691,
+      "asset": "ETH",
+      "previous": 8991679502,
+      "current": 8991679504
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699713777063,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699713865776,
+      "asset": "ETH",
+      "previous": 8991680366,
+      "current": 8991680368
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699714500534,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699714585333,
+      "asset": "BTC",
+      "previous": 8274907214,
+      "current": 8274907216
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699724588732,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699724618389,
+      "asset": "BTC",
+      "previous": 8274908475,
+      "current": 8274908477
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699725309376,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699725318917,
+      "asset": "ETH",
+      "previous": 8991681532,
+      "current": 8991681534
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699732313440,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699732394318,
+      "asset": "ETH",
+      "previous": 8991682124,
+      "current": 8991682126
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699734102086,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699734116073,
+      "asset": "BTC",
+      "previous": 8274908810,
+      "current": 8274908812
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699735809594,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699735832729,
+      "asset": "BTC",
+      "previous": 8274908923,
+      "current": 8274908925
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699736561806,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699736839614,
+      "asset": "ETH",
+      "previous": 8991682473,
+      "current": 8991682475
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699743061369,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699743098363,
+      "asset": "ETH",
+      "previous": 8991683239,
+      "current": 8991683241
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699771541739,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699771567607,
+      "asset": "BTC",
+      "previous": 8274910997,
+      "current": 8274910999
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699776563397,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699776606597,
+      "asset": "BTC",
+      "previous": 8274911273,
+      "current": 8274911275
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699778016630,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699778046712,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699778102282,
+      "asset": "BTC",
+      "previous": 8274912150,
+      "current": 8274912152
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699778163761,
+      "asset": "ETH",
+      "previous": 8991686179,
+      "current": 8991686181
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699785372128,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699785395552,
+      "asset": "BTC",
+      "previous": 8274913078,
+      "current": 8274913080
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699788833087,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699788929312,
+      "asset": "ETH",
+      "previous": 8991688718,
+      "current": 8991688720
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699790017791,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699790116113,
+      "asset": "BTC",
+      "previous": 8274913566,
+      "current": 8274913568
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699790299713,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699790347868,
+      "asset": "BTC",
+      "previous": 8274913570,
+      "current": 8274913572
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699790516499,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699790691268,
+      "asset": "BTC",
+      "previous": 8274913572,
+      "current": 8274913574
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699799520645,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699799534299,
+      "asset": "BTC",
+      "previous": 8274914412,
+      "current": 8274914414
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699799598785,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699799611524,
+      "asset": "ETH",
+      "previous": 8991690379,
+      "current": 8991690381
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699800365090,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699800391690,
+      "asset": "BTC",
+      "previous": 8274914448,
+      "current": 8274914450
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699810241268,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699810274869,
+      "asset": "BTC",
+      "previous": 8274914969,
+      "current": 8274914971
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699817305172,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699817599053,
+      "asset": "BTC",
+      "previous": 8274915317,
+      "current": 8274915319
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699822341343,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699822466805,
+      "asset": "ETH",
+      "previous": 8991692263,
+      "current": 8991692265
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699833040817,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699833114114,
+      "asset": "ETH",
+      "previous": 8991693248,
+      "current": 8991693250
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699837382776,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699837411916,
+      "asset": "BTC",
+      "previous": 8274916277,
+      "current": 8274916279
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699847323606,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699847339060,
+      "asset": "BTC",
+      "previous": 8274916731,
+      "current": 8274916733
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699850786663,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699850942656,
+      "asset": "BTC",
+      "previous": 8274916767,
+      "current": 8274916769
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699857289599,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699857580733,
+      "asset": "BTC",
+      "previous": 8274917083,
+      "current": 8274917085
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699858511865,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699858575357,
+      "asset": "BTC",
+      "previous": 8274917151,
+      "current": 8274917153
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699862296166,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699862494474,
+      "asset": "BTC",
+      "previous": 8274917537,
+      "current": 8274917539
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699866567277,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699866696715,
+      "asset": "BTC",
+      "previous": 8274917816,
+      "current": 8274917818
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699867306352,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699867389499,
+      "asset": "ETH",
+      "previous": 8991695967,
+      "current": 8991695969
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699871534163,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699872130006,
+      "asset": "ETH",
+      "previous": 8991696395,
+      "current": 8991696397
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699873008980,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699873043695,
+      "asset": "BTC",
+      "previous": 8274918536,
+      "current": 8274918538
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699876599174,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699876702433,
+      "asset": "BTC",
+      "previous": 8274918737,
+      "current": 8274918739
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699877323767,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699877513401,
+      "asset": "ETH",
+      "previous": 8991696904,
+      "current": 8991696906
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699882259711,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699882373765,
+      "asset": "ETH",
+      "previous": 8991698136,
+      "current": 8991698138
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699886556900,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699886634187,
+      "asset": "ETH",
+      "previous": 8991698288,
+      "current": 8991698290
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699892308808,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699892344272,
+      "asset": "ETH",
+      "previous": 8991698919,
+      "current": 8991698921
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699896526927,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699896926563,
+      "asset": "BTC",
+      "previous": 8274920250,
+      "current": 8274920252
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699897305302,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699897364030,
+      "asset": "ETH",
+      "previous": 8991699554,
+      "current": 8991699556
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699902320257,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699902403711,
+      "asset": "ETH",
+      "previous": 8991700003,
+      "current": 8991700005
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699903079484,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699903367664,
+      "asset": "BTC",
+      "previous": 8274920532,
+      "current": 8274920534
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699907269991,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699907322913,
+      "asset": "ETH",
+      "previous": 8991700564,
+      "current": 8991700566
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699914462036,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699914463478,
+      "asset": "ETH",
+      "previous": 8991701455,
+      "current": 8991701457
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699945795444,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699945913713,
+      "asset": "BTC",
+      "previous": 8274926738,
+      "current": 8274926740
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699949307667,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699949307675,
+      "asset": "BTC",
+      "previous": 8274928366,
+      "current": 8274928368
+    },
+    {
+      "reason": "WS_GAP_REQUIRES_LABELLED_REPLAY",
+      "received_us": 1794699950368982,
+      "error": "OSError('public raw stream disconnected')"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699951981347,
+      "asset": "ETH",
+      "previous": 8991712128,
+      "current": 8991721136
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699951990693,
+      "asset": "BTC",
+      "previous": 8274928424,
+      "current": 8274932298
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699960442386,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699960442401,
+      "asset": "BTC",
+      "previous": 8274934567,
+      "current": 8274934569
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699967019877,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699967047600,
+      "asset": "BTC",
+      "previous": 8274936334,
+      "current": 8274936336
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699967605540,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699967620093,
+      "asset": "ETH",
+      "previous": 8991728961,
+      "current": 8991728963
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699973233328,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699973372907,
+      "asset": "BTC",
+      "previous": 8274937924,
+      "current": 8274937926
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794699996365678,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794699996370458,
+      "asset": "ETH",
+      "previous": 8991738476,
+      "current": 8991738478
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700004578234,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700004591423,
+      "asset": "BTC",
+      "previous": 8274942549,
+      "current": 8274942551
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700011574247,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700011600455,
+      "asset": "ETH",
+      "previous": 8991742543,
+      "current": 8991742545
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700012309888,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700012324418,
+      "asset": "BTC",
+      "previous": 8274943629,
+      "current": 8274943631
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700016012289,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700016014507,
+      "asset": "BTC",
+      "previous": 8274943824,
+      "current": 8274943826
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700019520747,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700019613314,
+      "asset": "BTC",
+      "previous": 8274944285,
+      "current": 8274944287
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700020778825,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700020819327,
+      "asset": "ETH",
+      "previous": 8991744848,
+      "current": 8991744850
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700023024443,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700023084868,
+      "asset": "BTC",
+      "previous": 8274944621,
+      "current": 8274944623
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700027284253,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700027355048,
+      "asset": "ETH",
+      "previous": 8991746841,
+      "current": 8991746843
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700028038246,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700028067207,
+      "asset": "BTC",
+      "previous": 8274945340,
+      "current": 8274945342
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700033014507,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700033072708,
+      "asset": "ETH",
+      "previous": 8991748301,
+      "current": 8991748303
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700033750191,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700033819808,
+      "asset": "BTC",
+      "previous": 8274946030,
+      "current": 8274946032
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700052502850,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700052518586,
+      "asset": "BTC",
+      "previous": 8274950839,
+      "current": 8274950841
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700070011452,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700070015745,
+      "asset": "ETH",
+      "previous": 8991757262,
+      "current": 8991757264
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700071606275,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700071639920,
+      "asset": "BTC",
+      "previous": 8274953814,
+      "current": 8274953816
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700072361897,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700072361930,
+      "asset": "ETH",
+      "previous": 8991757752,
+      "current": 8991757754
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700084522364,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700085011008,
+      "asset": "BTC",
+      "previous": 8274955402,
+      "current": 8274955404
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700108694059,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700108858531,
+      "asset": "ETH",
+      "previous": 8991764831,
+      "current": 8991764833
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700117297326,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700117322408,
+      "asset": "ETH",
+      "previous": 8991766057,
+      "current": 8991766059
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700124159170,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700124159178,
+      "asset": "BTC",
+      "previous": 8274960060,
+      "current": 8274960062
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700127281327,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700127358148,
+      "asset": "ETH",
+      "previous": 8991770944,
+      "current": 8991770946
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700140958431,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700140990336,
+      "asset": "BTC",
+      "previous": 8274962888,
+      "current": 8274962890
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700147366236,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700147423427,
+      "asset": "ETH",
+      "previous": 8991777931,
+      "current": 8991777933
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700157012244,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700157066183,
+      "asset": "BTC",
+      "previous": 8274965619,
+      "current": 8274965621
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700163549534,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700163697262,
+      "asset": "BTC",
+      "previous": 8274966169,
+      "current": 8274966171
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700166553861,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700166726206,
+      "asset": "BTC",
+      "previous": 8274966208,
+      "current": 8274966210
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700173001269,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700173085369,
+      "asset": "ETH",
+      "previous": 8991785131,
+      "current": 8991785133
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700181576468,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700181626121,
+      "asset": "ETH",
+      "previous": 8991786575,
+      "current": 8991786577
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700183969175,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700183972853,
+      "asset": "ETH",
+      "previous": 8991787155,
+      "current": 8991787157
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700186558676,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700186563172,
+      "asset": "ETH",
+      "previous": 8991787598,
+      "current": 8991787600
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700190803789,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700190811064,
+      "asset": "ETH",
+      "previous": 8991788261,
+      "current": 8991788263
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700195780890,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700195786235,
+      "asset": "BTC",
+      "previous": 8274968240,
+      "current": 8274968242
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700196553089,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700196654142,
+      "asset": "ETH",
+      "previous": 8991789062,
+      "current": 8991789064
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700200815698,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700200835494,
+      "asset": "BTC",
+      "previous": 8274969232,
+      "current": 8274969234
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700206012466,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700206014520,
+      "asset": "BTC",
+      "previous": 8274969931,
+      "current": 8274969933
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700208065563,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700208099806,
+      "asset": "BTC",
+      "previous": 8274970446,
+      "current": 8274970448
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700209559610,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700209624478,
+      "asset": "ETH",
+      "previous": 8991792349,
+      "current": 8991792351
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700211878575,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700211882197,
+      "asset": "BTC",
+      "previous": 8274970872,
+      "current": 8274970874
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700214032816,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700214078574,
+      "asset": "ETH",
+      "previous": 8991793935,
+      "current": 8991793937
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700217352233,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700217352253,
+      "asset": "ETH",
+      "previous": 8991794317,
+      "current": 8991794319
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700218467922,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700218560719,
+      "asset": "ETH",
+      "previous": 8991794929,
+      "current": 8991794931
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700220965233,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700220993810,
+      "asset": "BTC",
+      "previous": 8274972905,
+      "current": 8274972907
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700228055128,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700228094590,
+      "asset": "BTC",
+      "previous": 8274973843,
+      "current": 8274973845
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700230244793,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700230289227,
+      "asset": "ETH",
+      "previous": 8991796172,
+      "current": 8991796174
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700244508474,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700244525658,
+      "asset": "BTC",
+      "previous": 8274975698,
+      "current": 8274975700
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700250808185,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700250874439,
+      "asset": "BTC",
+      "previous": 8274976731,
+      "current": 8274976733
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700251630044,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700251630053,
+      "asset": "ETH",
+      "previous": 8991799940,
+      "current": 8991799942
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700255006828,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700255102369,
+      "asset": "BTC",
+      "previous": 8274977304,
+      "current": 8274977306
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700256554898,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700256557968,
+      "asset": "ETH",
+      "previous": 8991800672,
+      "current": 8991800674
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700265017652,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700265041800,
+      "asset": "BTC",
+      "previous": 8274978871,
+      "current": 8274978873
+    },
+    {
+      "reason": "PROCESSING_ERROR",
+      "received_us": 1794700268734828,
+      "error": "AssertionError()"
+    },
+    {
+      "reason": "RAW_TRADE_ID_GAP",
+      "received_us": 1794700268775768,
+      "asset": "BTC",
+      "previous": 8274979362,
+      "current": 8274979364
+    }
+  ],
+  "raw_unique_trades": 386286,
+  "simulated_orders": 0,
+  "trades": 0,
+  "status": "FINANCIAL_HALTED",
+  "fees_assumed": true,
+  "no_real_orders": true
+}

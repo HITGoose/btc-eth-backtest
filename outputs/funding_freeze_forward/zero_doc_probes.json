@@ -1,0 +1,29 @@
+[
+  {
+    "url": "https://developers.binance.com/llms.txt",
+    "status": 404,
+    "acquired_UTC": "2026-11-14T23:31:13.879937+00:00",
+    "SHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "path": "zero_doc_0.raw",
+    "bytes": 0,
+    "matches": []
+  },
+  {
+    "url": "https://developers.binance.com/docs/derivatives/usds-margined-futures/websocket-market-streams/Trade-Streams.md",
+    "status": 200,
+    "acquired_UTC": "2026-11-14T23:31:14.470585+00:00",
+    "SHA256": "f0916cb825783c69435b522062f0be0cc5ad9c54ccab2fc883ff9acad5e908ff",
+    "path": "zero_doc_1.raw",
+    "bytes": 66104,
+    "matches": []
+  },
+  {
+    "url": "https://developers.binance.com/docs/derivatives/usds-margined-futures/websocket-market-streams/Trade-Streams",
+    "status": 200,
+    "acquired_UTC": "2026-11-14T23:31:15.295072+00:00",
+    "SHA256": "f0916cb825783c69435b522062f0be0cc5ad9c54ccab2fc883ff9acad5e908ff",
+    "path": "zero_doc_2.raw",
+    "bytes": 66104,
+    "matches": []
+  }
+]

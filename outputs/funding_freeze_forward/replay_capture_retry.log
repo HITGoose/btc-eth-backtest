@@ -1,0 +1,1 @@
+{"passed": true, "accounts": 16, "complete_book_state_and_driver_state_exact": true, "label": "REPLAY_OF_OBSERVED_TAPE_NOT_ADDITIONAL_FORWARD_SAMPLE", "unresolved_gaps_not_filled": true, "source_financial_halted": true, "original_forward_not_overwritten": true}

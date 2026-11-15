@@ -1,0 +1,9 @@
+{
+  "created_UTC": "2026-11-14T23:51:56.143514+00:00",
+  "target_closed_ms": 1794699900000,
+  "criterion": "both symbols first full postT0 15m bar received/processed; NOT profit or strategy selection",
+  "maximum_wait_seconds": 900,
+  "unused_created_after_observation_already_stopped": true,
+  "actual_stop_was_initial_seconds1500": true,
+  "not_a_predeclared_rule_for_this_capture": true
+}

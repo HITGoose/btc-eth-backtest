@@ -1,0 +1,26 @@
+# Actual commands; Python /workspace/.venv-btc-eth-original/bin/python (version3.12.14)
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/probe.py
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/recover_marks.py  # first monthly-minute gaps retained
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/history_supervisor.py  # incomplete feeds rejected, original failures saved
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/recover_marks.py  # cache reused, only missing minutes API queried
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/history_supervisor.py  # all8 jobs completed
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/preflight.py  # pre-freeze failures and retries logged separately
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/tests.py
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/parent_funding_tests.py
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/ws_tests_v3.py
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/preflight_closed_fix.py
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/freeze.py b6f8f5f536aa97b1e79d9d4f333792928fff3fad
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/live.py --seconds 1800  # parent directory setup failure then retry, REST gap halted
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/freeze_v2.py 52f6cfea62d6078532141b2f804cbf98edde9277
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/ws_live.py --seconds 1200  # aborted during reuse on closed-REST revision
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/freeze_v3.py 06bdfac8970293cedb538374b715b0cfa27257a3
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/ws_live_v3.py --seconds 1500  # actual bounded primary observation, financial blocked on zero-NA
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/report_stage.py
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/data_quality_tests.py
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/forward_report.py
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/replay_capture.py outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000  # path failure retained then corrected absolute-path utility only
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/portable_capture.py pack outputs/funding_freeze_forward/forward/ws_closed_fix_1794699000000
+# gh REST authenticated publication to independent branch; implementation/freeze commit receipts saved.
+
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/cost_evidence.py
+/workspace/.venv-btc-eth-original/bin/python outputs/funding_freeze_forward/portable_capture.py pack outputs/funding_freeze_forward/forward/freeze_1794697200000
