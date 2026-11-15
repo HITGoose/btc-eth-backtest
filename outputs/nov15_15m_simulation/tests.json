@@ -1,0 +1,118 @@
+{
+  "passed": true,
+  "total": 14,
+  "checks": [
+    {
+      "asset": "BTC",
+      "path": "OHLC",
+      "version": "B",
+      "cash_event_residual": 7.105427357601002e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "BTC",
+      "path": "OHLC",
+      "version": "B_PLUS_REBOUND",
+      "cash_event_residual": 8.526512829121202e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "BTC",
+      "path": "OLHC",
+      "version": "B",
+      "cash_event_residual": 7.105427357601002e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "BTC",
+      "path": "OLHC",
+      "version": "B_PLUS_REBOUND",
+      "cash_event_residual": 7.105427357601002e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OHLC",
+      "version": "B",
+      "cash_event_residual": 9.947598300641403e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OHLC",
+      "version": "I100",
+      "cash_event_residual": 9.947598300641403e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OHLC",
+      "version": "I50",
+      "cash_event_residual": 9.947598300641403e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OHLC",
+      "version": "I25",
+      "cash_event_residual": 9.947598300641403e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OHLC",
+      "version": "B_PLUS_REBOUND",
+      "cash_event_residual": 0.0,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OLHC",
+      "version": "B",
+      "cash_event_residual": 9.947598300641403e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OLHC",
+      "version": "I100",
+      "cash_event_residual": 9.947598300641403e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OLHC",
+      "version": "I50",
+      "cash_event_residual": 9.947598300641403e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OLHC",
+      "version": "I25",
+      "cash_event_residual": 9.947598300641403e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    },
+    {
+      "asset": "ETH",
+      "path": "OLHC",
+      "version": "B_PLUS_REBOUND",
+      "cash_event_residual": -5.684341886080802e-14,
+      "old_equity_and_trade_prefix_exact": true,
+      "passed": true
+    }
+  ]
+}

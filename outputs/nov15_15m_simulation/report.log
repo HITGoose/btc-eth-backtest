@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/nov15_15m_simulation/report.py", line 15, in <module>
+    folder=O/'runs'/asset/path/'results';q=json.loads((folder/f'{g}_result.json').read_text());v=np.load(folder/f'{g}_equity.npz')['marks'];ix=(FROM-1793462400)//60;part=v[ix:];curves[asset,path,g]=part;row=dict(asset=asset,path=path,version=g,Nov9_initial_equity=start9[asset],**met(part,start9[asset]),new_simulated_closed=sum(t['opened_us']>=CUT*1000000 for t in q['trades']),open_count=int(bool(q['state_at_end']['position'])),status=q['status']);rows.append(row)
+                                                                                                                                                                                                                                                                                        ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/nov15_15m_simulation/report.py", line 9, in met
+    p=np.maximum.accumulate(np.r_[init,m]);return dict(ending_equity=float(m[-1]),net_since_Nov9=float(m[-1]-init),return_since_Nov9_pct=float(100*(m[-1]/init-1)),max_drawdown_since_Nov9_pct=float(np.max(100*(1-np.r_[init,m]/p))))
+                                                                           ~^^^^
+IndexError: index -1 is out of bounds for axis 0 with size 0

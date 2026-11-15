@@ -1,0 +1,21 @@
+{
+  "start_continuation_ms": 1794614400000,
+  "end_ms": 1794709800000,
+  "original_account_start_ms": 1793462400000,
+  "fee_side": 0.0005,
+  "exit_slippage": 0.0002,
+  "poll_seconds": 5,
+  "poll_phase": 2,
+  "paths": [
+    "OPEN_HIGH_LOW_CLOSE",
+    "OPEN_LOW_HIGH_CLOSE"
+  ],
+  "synthetic_extrema_offsets_seconds": [
+    0,
+    300,
+    600,
+    899
+  ],
+  "synthetic_print_spacing_seconds": 1,
+  "note": "15m OHLC synthetic path sensitivity, not observed ticks or strict profit bounds; original observed prefix retained; original financial engine unchanged; 15m signals closed only."
+}
