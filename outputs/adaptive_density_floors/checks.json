@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": [
+    "E1 lower floor .25, NaN preserved",
+    "E2 independently caps .30 and .35, no range-width changes",
+    "Rolling quantile excludes current and all future values",
+    "NY DST converts winter CPI13:30UTC, summer12:30UTC",
+    "Fed framework announcement and non14:00 emergencies excluded",
+    {
+      "original_source": "signals.py",
+      "SHA256": "de3f98893755a7f5870595b37e3dc2cdcba879bff43ff8637ac8c711aac5f09d"
+    },
+    {
+      "original_source": "engine.py",
+      "SHA256": "12da60a8cdb040a1bc8351c3319e0f9940655db498999431a2072f6ffbcadded"
+    },
+    {
+      "original_source": "worker.py",
+      "SHA256": "c12c3fa067a4ad806f4f8b7746cb6006e3c5251a9bba0d2f67a154d26a5f75f5"
+    }
+  ]
+}

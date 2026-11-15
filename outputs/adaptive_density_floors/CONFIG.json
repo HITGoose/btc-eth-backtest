@@ -1,0 +1,46 @@
+{
+  "base_commit": "7a4a9fedaf9d297d85c0fa6279acd2627db2497f",
+  "branch": "codex/adaptive-density-floors-macro-20261115",
+  "original_sources_unchanged": {
+    "work/fit_squeeze_ladder_bot.py": "8d6ebc21c2c437238545ece27969e8cb419d5cd1563bde02a848d1f5074ff384",
+    "work/fit_gate_entry_overlay.py": "f4f453481a9ce2722c312b6e802ba1ae691dc0a7b0a2abfdf6c9c3b81ef8f8bd",
+    "outputs/adaptive_density_control/signals.py": "de3f98893755a7f5870595b37e3dc2cdcba879bff43ff8637ac8c711aac5f09d",
+    "outputs/adaptive_density_control/engine.py": "12da60a8cdb040a1bc8351c3319e0f9940655db498999431a2072f6ffbcadded",
+    "outputs/adaptive_density_control/worker.py": "c12c3fa067a4ad806f4f8b7746cb6006e3c5251a9bba0d2f67a154d26a5f75f5",
+    "outputs/adaptive_density_control/report.py": "2045e6a6f9df230c47448fd13e2310c031cf953acafd4b7b57f7d6f0500c2808"
+  },
+  "groups": [
+    "A",
+    "B",
+    "D",
+    "E1",
+    "E2_030",
+    "E2_035",
+    "E3_030",
+    "E3_035"
+  ],
+  "frozen_quantiles": [
+    0.25,
+    0.5
+  ],
+  "history_floor": 0.25,
+  "history_caps": [
+    0.3,
+    0.35
+  ],
+  "range_width": "UNCHANGED_ADAPTIVE_MEDIAN",
+  "macro": "CPI08:30/FOMC14:00 America/New_York; signal_close_ms in inclusive post0..60m",
+  "execution": "SYNTHETIC_1M_OHLC prints at seconds0,20,40,59; 5second phase2 polls",
+  "fees": {
+    "ZERO": 0,
+    "ASSUMED_005_SIDE": 0.0005
+  },
+  "funding": 0,
+  "exit_slippage": 0.0002,
+  "initial_cash_each_asset": 500,
+  "annual_reset": true,
+  "V2": false,
+  "pause_transition": true,
+  "parameters_not_selected_from_current_results": true,
+  "calendar_sha256": "2b07908554f2de4ea869668f056be8cef1b9ae881e1d1ec656303234832b4221"
+}

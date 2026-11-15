@@ -1,0 +1,12 @@
+{
+  "source": "/workspace/btc-eth-backtest/outputs/adaptive_density_control/trade_matching.csv",
+  "source_sha256": "c85cbf622b557c44057bcdda2a597fc6211ae9069e01e37f03787b86eba13ee9",
+  "removed_trades": 281,
+  "removed_A_net": 2369.6932918690186,
+  "removed_2026_trades": 56,
+  "removed_2026_A_net": 644.0158455700036,
+  "new_2026_trades": 56,
+  "new_2026_net": -570.490282774,
+  "execution": "OLD_RAW_TICK_RESULTS_NOT_NEW_KLINE_BASELINE",
+  "macro_claim": "NOT_ASSUMED_VERIFIED; E3 full path will test"
+}
