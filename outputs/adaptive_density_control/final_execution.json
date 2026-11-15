@@ -68,5 +68,33 @@
     "asset": "BTC",
     "returncode": 0,
     "finished_UTC": "2026-11-15T10:33:19.862531+00:00"
+  },
+  {
+    "stage": "final",
+    "period": "2026",
+    "asset": "BTC",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T10:52:26.447459+00:00"
+  },
+  {
+    "stage": "final",
+    "period": "NOV",
+    "asset": "BTC",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T10:53:20.728532+00:00"
+  },
+  {
+    "stage": "final",
+    "period": "NOV",
+    "asset": "ETH",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T10:54:12.103573+00:00"
+  },
+  {
+    "stage": "final",
+    "period": "2026",
+    "asset": "ETH",
+    "returncode": 0,
+    "finished_UTC": "2026-11-15T10:56:54.949253+00:00"
   }
 ]
