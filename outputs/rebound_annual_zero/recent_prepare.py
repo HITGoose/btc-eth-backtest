@@ -2,6 +2,13 @@ from pathlib import Path
 import urllib.request,urllib.parse,urllib.error,datetime,json,hashlib
 import numpy as np
 R=Path('/workspace/btc-eth-backtest');O=Path(__file__).resolve().parent;D=O/'recent_data';D.mkdir(exist_ok=True);S=O/'recent_sources';S.mkdir(exist_ok=True);C=R/'outputs/nov15_continuation/data';sources=[]
+# Keep this experiment's cutoff immutable on rerun.
+if (O/'recent_config.json').exists():
+ import sys
+ if all((D/f'{a}_{k}').exists()for a in ['BTC','ETH']for k in ['15m.csv','1m.npy']):
+  print('REUSE_PINNED_RECENT_INPUTS');sys.exit(0)
+ raise RuntimeError('Restore this experiment recorded recent inputs first; do not replace frozen cutoff with current time')
+
 def request(url,method='GET'):
  try:
   with urllib.request.urlopen(urllib.request.Request(url,method=method),timeout=30)as f:raw=f.read();status=f.status

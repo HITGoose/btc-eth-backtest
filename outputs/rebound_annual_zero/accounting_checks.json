@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "accounts": 24,
+  "accounts": 32,
   "checks": [
     {
       "file": "outputs/rebound_annual_zero/runs/2020/BTC/results/CONTROL_result.json",
@@ -72,6 +72,54 @@
       "file": "outputs/rebound_annual_zero/runs/2022/ETH/results/REBOUND_result.json",
       "cash_closed_partial_residual": 6.048495038157853e-13,
       "equity_residual": 4.973799150320701e-14,
+      "passed": true
+    },
+    {
+      "file": "outputs/rebound_annual_zero/runs/2023/BTC/results/CONTROL_result.json",
+      "cash_closed_partial_residual": -5.115907697472721e-13,
+      "equity_residual": 0.0,
+      "passed": true
+    },
+    {
+      "file": "outputs/rebound_annual_zero/runs/2023/BTC/results/REBOUND_result.json",
+      "cash_closed_partial_residual": -6.821210263296962e-13,
+      "equity_residual": 0.0,
+      "passed": true
+    },
+    {
+      "file": "outputs/rebound_annual_zero/runs/2023/ETH/results/CONTROL_result.json",
+      "cash_closed_partial_residual": 0.0,
+      "equity_residual": -4.529709940470639e-14,
+      "passed": true
+    },
+    {
+      "file": "outputs/rebound_annual_zero/runs/2023/ETH/results/REBOUND_result.json",
+      "cash_closed_partial_residual": -2.9554136915521667e-13,
+      "equity_residual": 1.1368683772161603e-13,
+      "passed": true
+    },
+    {
+      "file": "outputs/rebound_annual_zero/runs/2024/BTC/results/CONTROL_result.json",
+      "cash_closed_partial_residual": -1.7053025658242404e-13,
+      "equity_residual": 0.0,
+      "passed": true
+    },
+    {
+      "file": "outputs/rebound_annual_zero/runs/2024/BTC/results/REBOUND_result.json",
+      "cash_closed_partial_residual": -8.526512829121202e-14,
+      "equity_residual": 0.0,
+      "passed": true
+    },
+    {
+      "file": "outputs/rebound_annual_zero/runs/2024/ETH/results/CONTROL_result.json",
+      "cash_closed_partial_residual": 2.842170943040401e-14,
+      "equity_residual": 0.0,
+      "passed": true
+    },
+    {
+      "file": "outputs/rebound_annual_zero/runs/2024/ETH/results/REBOUND_result.json",
+      "cash_closed_partial_residual": 3.410605131648481e-13,
+      "equity_residual": 0.0,
       "passed": true
     },
     {

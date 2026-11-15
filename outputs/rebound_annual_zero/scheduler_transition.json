@@ -1,0 +1,20 @@
+{
+  "old_dispatch_pid": 62696,
+  "unchanged_running_workers": [
+    {
+      "period": "2023",
+      "asset": "BTC",
+      "pid": 63373
+    },
+    {
+      "period": "2023",
+      "asset": "ETH",
+      "pid": 63527
+    }
+  ],
+  "financial_worker_source_unchanged": true,
+  "maximum_non2025_workers": 3,
+  "initial_memory_bytes": 1256177664,
+  "reason": "reuse in-flight workers; improve wall time without duplicate accounts",
+  "time_UTC": "2026-11-15T03:31:18.808484+00:00"
+}

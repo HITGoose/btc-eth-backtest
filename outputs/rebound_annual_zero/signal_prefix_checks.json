@@ -1,0 +1,21 @@
+{
+  "signal_file_SHA256": "1200cc69a012e3c5d47a891bd1be42e9885b43a7da8e3cdc405293bae6f87fb2",
+  "checks": [
+    {
+      "period": "2020",
+      "asset": "BTC",
+      "status": "PASS",
+      "prefix_core_and_new_equal": true,
+      "future_closed_bars_not_required_for_signal": true,
+      "posthoc_diagnostics_excluded_from_entry": true
+    },
+    {
+      "period": "2024",
+      "asset": "ETH",
+      "status": "PASS",
+      "prefix_core_and_new_equal": true,
+      "future_closed_bars_not_required_for_signal": true,
+      "posthoc_diagnostics_excluded_from_entry": true
+    }
+  ]
+}

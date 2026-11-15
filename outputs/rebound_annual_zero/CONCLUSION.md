@@ -18,14 +18,14 @@
 |2022|B|61.856|29.816|159|2639.089|66.077|COMPLETE|
 |2022|C|61.210|27.595|167|2859.139|57.697|COMPLETE|
 |2022|D|39.317|42.687|200|3386.911|57.697|COMPLETE|
-|2023|A|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
-|2023|B|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
-|2023|C|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
-|2023|D|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
-|2024|A|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
-|2024|B|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
-|2024|C|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
-|2024|D|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
+|2023|A|73.465|27.232|182|2727.359|63.562|COMPLETE|
+|2023|B|74.779|26.868|190|3066.496|71.621|COMPLETE|
+|2023|C|132.834|24.976|191|3189.655|71.393|COMPLETE|
+|2023|D|134.148|24.976|199|3528.791|71.621|COMPLETE|
+|2024|A|49.848|26.407|165|2645.714|60.054|COMPLETE|
+|2024|B|28.669|32.776|177|2753.746|60.054|COMPLETE|
+|2024|C|75.910|27.452|188|3307.636|88.098|COMPLETE|
+|2024|D|54.731|33.833|200|3415.667|88.098|COMPLETE|
 |2025|A|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
 |2025|B|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
 |2025|C|未验证|未验证|未验证|未验证|未验证|UNVERIFIED_INCOMPLETE_ASSET|
@@ -47,8 +47,12 @@
 |2021|ETH|22/22|9/13|-74.359|-83.745|0/0.000|
 |2022|BTC|33/33|14/19|-157.479|-218.922|0/0.000|
 |2022|ETH|41/41|18/23|-209.460|-225.382|0/0.000|
+|2023|BTC|9/9|5/4|-45.094|13.140|1/12.344|
+|2023|ETH|9/9|6/3|482.919|593.691|0/0.000|
+|2024|BTC|15/15|6/9|-193.197|-211.792|2/48.331|
+|2024|ETH|24/24|16/8|310.553|260.622|1/13.804|
 
-新增分支净额只统计该账户已平EXTRA交易；完整账户差额含资金余额变化、原信号挤占、仓位/退出变化及年末浮动，不能把两者相加。原盈利单消失金额是原账户实际利润的事后机会归因，不是可直接相加的损失。trades.csv保留两路径逐笔，trade_matching.csv按方向+signal_close_ms匹配，不强行配对。
+表内新增净额只统计已平EXTRA交易；CSV另列年末未平仓EXTRA的部分退出及浮动贡献和合计净额，不把未平仓估值归类为已赢/亏笔数。完整账户差额含资金余额变化、原信号挤占、仓位/退出变化及年末浮动，不能把两者相加。原盈利单消失金额是原账户实际利润的事后机会归因，不是可直接相加的损失。CSV的verified_occupancy_displaced_winners及verified_occupancy_displaced_profit_USDT只计实际占仓/挂单证据确认的挤占，其他消失原因不强行算作挤占。trades.csv保留两路径逐笔，trade_matching.csv按方向+signal_close_ms匹配，不强行配对。
 
 ## 近期独立区间
 
@@ -77,10 +81,6 @@ recent_trades.csv记录两币每笔开空和退出时间、成交价、净额及
 
 ## 未完成/失败
 
-- 2023 BTC：NOT_COMPLETED，pending
-- 2023 ETH：NOT_COMPLETED，pending
-- 2024 BTC：NOT_COMPLETED，pending
-- 2024 ETH：NOT_COMPLETED，pending
 - 2025 BTC：NOT_COMPLETED，pending
 - 2025 ETH：NOT_COMPLETED，pending
 - 2026 BTC：NOT_COMPLETED，pending
@@ -89,6 +89,7 @@ recent_trades.csv记录两币每笔开空和退出时间、成交价、净额及
 复跑命令（Python3.12，仓库根目录）：
 ```bash
 python outputs/rebound_annual_zero/supervisor.py
+python outputs/rebound_annual_zero/validate_baselines.py
 python outputs/rebound_annual_zero/recent_prepare.py
 python outputs/rebound_annual_zero/recent.py BTC
 python outputs/rebound_annual_zero/recent.py ETH

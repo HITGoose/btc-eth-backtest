@@ -34,5 +34,41 @@
     "asset": "BTC",
     "returncode": 1,
     "finished_UTC": "2026-11-15T03:21:59.239986+00:00"
+  },
+  {
+    "period": "2023",
+    "asset": "BTC",
+    "returncode": null,
+    "baseline_verified": true,
+    "error": null,
+    "finished_UTC": "2026-11-15T03:35:26.204307+00:00",
+    "external_existing_worker": true
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "returncode": null,
+    "baseline_verified": true,
+    "error": null,
+    "finished_UTC": "2026-11-15T03:35:37.309992+00:00",
+    "external_existing_worker": true
+  },
+  {
+    "period": "2024",
+    "asset": "BTC",
+    "returncode": 0,
+    "baseline_verified": true,
+    "error": null,
+    "finished_UTC": "2026-11-15T03:46:10.053635+00:00",
+    "external_existing_worker": false
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "returncode": 0,
+    "baseline_verified": true,
+    "error": null,
+    "finished_UTC": "2026-11-15T03:48:44.257328+00:00",
+    "external_existing_worker": false
   }
 ]
