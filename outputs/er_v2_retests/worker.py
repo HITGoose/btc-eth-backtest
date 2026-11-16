@@ -21,6 +21,14 @@ def run(year,asset,requested,hours=None):
   data,m=prepare(year,asset);start,end=m['start'],m['end'];leg,core,features,maps,parameters=sig.prepare(asset,data,m,keys,freezes)
   if hours:start=min(core)//1000-900;end=start+int(hours*3600);maps={k:{t:x for t,x in v.items()if start*1000<=t<end*1000}for k,v in maps.items()}
   d=c.s.b.d;d.DATA=data;d.BASE='https://data.binance.vision/data/futures/um';d.START=start;d.END=end;d.FIRST1=m['first1'];native=c.s.b.p.Canonical(asset)
+  old_sources=json.loads((c.ROOT/m['reference']/'raw_sources.json').read_text());acquire=c.s.b.d.acquire
+  def pinned_acquire(url,path):
+   meta=acquire(url,path)
+   if '/daily/trades/'in url:
+    day=path.stem[-10:];expected=old_sources.get(day)
+    if expected:assert meta['sha256']==expected['sha256'],('Official raw archive differs from reused baseline; keep result UNVERIFIED',asset,day)
+   return meta
+  c.s.b.d.acquire=pinned_acquire
   books={k:e.make(asset,leg,core,features,k,SPECS[k],parameters,freezes)for k in keys};cache=c.w.raw_cache(asset,native,f);scene='STRICT'
   if year==2025 and asset=='ETH':cache=c.s.a.ScenarioCache(cache,c.D.anomaly(),'S_ALL');scene='S_ALL';cache.__class__.sources=property(lambda self:self.strict.sources)
   fp=c.fingerprint();c.s.fp=lambda:fp;c.s.pe.generator=e.generator;c.v.E.cash_check=e.cash_check;c.v.E.Market=c.v.Market
