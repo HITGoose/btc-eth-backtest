@@ -3,7 +3,7 @@
   "interval": "2020 ETH first CORE signal -15minutes, 8hours only",
   "two_books": true,
   "checkpoint_resumed": true,
-  "checkpoint_SHA256": "27150bd2ac754367428d190947488c87c9cb623226d2ecdf540308d29ad59dec",
+  "checkpoint_SHA256": "66247e1ace7c45e624d3d0cb02524fd098a934163c3488da07864d54a74198b7",
   "empty_report_missing_new_accounts": 28,
   "source_baseline_unchanged": true
 }

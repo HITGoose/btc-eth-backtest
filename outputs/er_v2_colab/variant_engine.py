@@ -27,12 +27,16 @@ def indicators(leg):
 
 class VariantBook(E.Book):
  def place(self,t,ref,side,**kw):
+  size_event=None
   signal=round(t-10000);i=(signal-self.leg.first)//900000-1
   if self.variant=='ER_V2_VOL_SIZE':
    valid=0<=i<len(self.features['valid'])and bool(self.features['valid'][i]);m=float(self.features['multiplier'][i])if valid else 1.
    kw['size_multiplier']=kw.get('size_multiplier',1.)*m
-   self.events.append(dict(event='volatility_sizing',time_us=round(t*1000),signal_close_ms=signal,multiplier=m,fallback=not valid,ATR96=float(self.features['atr'][i])if valid else None,v=float(self.features['v'][i])if valid else None,v_ref=float(self.features['reference'][i])if valid else None))
+   size_event=dict(event='volatility_sizing',time_us=round(t*1000),signal_close_ms=signal,multiplier=m,fallback=not valid,base_target_notional=3*max(0.,self.cash),target_notional=3*max(0.,self.cash)*kw['size_multiplier'],ATR96=float(self.features['atr'][i])if valid else None,v=float(self.features['v'][i])if valid else None,v_ref=float(self.features['reference'][i])if valid else None);self.events.append(size_event)
   super().place(t,ref,side,**kw)
+  if size_event is not None:
+   size_event.update(accepted=bool(self.order),actual_quantity=self.order.qty if self.order else 0.,actual_notional=self.order.qty*self.order.price if self.order else 0.)
+   self.sizing_audit[-1].update(volatility_multiplier=size_event['multiplier'],target_notional=size_event['target_notional'])
  def visit(self,price,t,at_open,**kw):
   pos=self.position
   request=getattr(pos,'failed_request',None)if pos else None
