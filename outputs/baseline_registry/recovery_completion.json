@@ -1,0 +1,25 @@
+{
+  "completed_at_UTC": "2026-11-16T08:54:14.661130+00:00",
+  "completed_MA_accounts": 14,
+  "complete_intervals": 7,
+  "prior_failed_attempts_preserved": true,
+  "current_status_files_authoritative": true,
+  "recovery_sessions": [
+    {
+      "year": 2022,
+      "asset": "BTC",
+      "exit_code": 0
+    },
+    {
+      "year": 2025,
+      "asset": "BTC",
+      "exit_code": 0
+    },
+    {
+      "year": 2025,
+      "asset": "ETH",
+      "exit_code": 0
+    }
+  ],
+  "all_2025_ETH_S_ALL_not_strict": true
+}

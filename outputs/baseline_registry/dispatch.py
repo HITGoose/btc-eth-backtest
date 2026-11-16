@@ -7,7 +7,7 @@ def run(v):
  with p.open('a')as f:
   cmd=[sys.executable,str(O/'compare_runner.py'),y,a];f.write('COMMAND '+repr(cmd)+'\n');f.flush();r=subprocess.run(cmd,stdout=f,stderr=subprocess.STDOUT)
  print('DONE'if r.returncode==0 else'BLOCKED',y,a,flush=True);return dict(year=y,asset=a,returncode=r.returncode,log=str(p.relative_to(O)))
-with concurrent.futures.ThreadPoolExecutor(max_workers=2)as pool:results=list(pool.map(run,[(str(y),a)for y in [2026,2020,2021,2022,2023,2024,2025]for a in ['BTC','ETH']]))
+with concurrent.futures.ThreadPoolExecutor(max_workers=1)as pool:results=list(pool.map(run,[(str(y),a)for y in [2026,2020,2021,2022,2023,2024,2025]for a in ['BTC','ETH']]))
 # Retry actual disk-capacity failures serially after concurrent downloads have finished.
 for i,v in enumerate(results):
  if v['returncode']:

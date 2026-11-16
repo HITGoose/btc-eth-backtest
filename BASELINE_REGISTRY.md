@@ -10,9 +10,10 @@
 - 调用链：worker → rebound_followdown/signals.build取core（REBOUND并集另有账户，不能混入A）→ extra_sizing_cost_stress/replay.py及cost_engine.Book → eth_core_priority/priority_engine.Book(w.Dynamic) → eth_density_experiment/worker.Dynamic(Ledger,v.BoundedAdaptive) → adaptive_risk_exit_v2/worker.BoundedAdaptive。
 - V2：连续两根已闭15m弱化；每根同时六线未全同向且MACD非同向；当前本币已实现余额3%参考预算；按至当前止损的距离计算目标剩余仓位；每笔最多一次有效减仓请求、最多减初始数量25%。不是每次盈利固定减仓，也不是固定15U预算。不满足数量条件不消耗机会。余仓保留原2%硬止损与uncapped阶梯。
 - 行情分类：已闭小时ER，12h阈值0.28284271247461906、120h阈值0.10。transition暂停新信号，原挂单不因分类变化取消。
-- 入场：SMA20/60/120＋EMA20/60/120；每条与3根15m前严格同向；收盘在六线外侧、MACD方向一致；最近96根最小带宽≤0.25%，range当前带宽≤0.50%；趋势SMA5/20及原距离／放量／回踩确认，2%绝对距离不改。use_entry_crosses=False。
+- 入场：SMA20/60/120＋EMA20/60/120；每条与3根15m前严格同向；收盘在六线外侧、MACD方向一致；最近96根最小带宽≤0.25%，range当前带宽≤0.50%；趋势SMA5/20及原距离／放量／回踩确认，2%绝对距离不改。use_entry_crosses=False。main默认selected入口的双穿越不是本候选，不能直接运行main默认入口来代替。
 - 原挂单：信号收盘后10秒，偏移0.2%，原价格刻度与nearest_tick，60分钟有效、单币单仓；BTC步长0.0001／最低名义100，ETH0.01／5。
 - 资金：各年度各币500U独立；名义=当前本币已实现余额×3，原数量向下取整及预留逻辑。
+- 文件名含Gate不等于本轮使用Gate行情；以实际币安URL、传入CSV/NPY及SHA为准。本轮两个候选都不使用旧Gate收益表。
 - 本轮引用口径：ZERO手续费0、资金费明确0、退出不利滑点0.02%。不包含未计成本，不能叫完整实盘净收益。
 - 数据／执行：同市场币安USDT永续已闭15m信号；官方原始trades逐笔、5秒相位2轮询、触价全量模拟代理。不是排队成交。1m原生K线只是原框架索引，不代替逐笔顺序；活动分钟读取逐笔、原始逐笔最后价估值。不可被最近OHLC实验替代。
 - 2020北京时间02-16 00:00起；2021—2025各Jan1到次年Jan1；2026Jan1到Nov1；UTC均减8小时。每年重置，不拼连续复利。2025ETH保留S_ALL、COMPLETED_WITH_DATA_ANOMALY，其余保留原标签，不混称全历史严格通过。
@@ -47,17 +48,31 @@
 
 |分类|目录／组别|正确基准与处理|
 |---|---|---|
-|1 原ER＋V2上完成|eth_density_experiment的B/D/F；eth_core_priority的B/D/G/H/I；eth_2025_anomaly_sensitivity；extra_sizing_cost_stress／funding_early_forward；rebound_annual_zero的A对照与各反弹组；eth_rebound_confirmation|保留各自原配置、数据异常、费用、执行假设下的结论；不是重新宣布所有数据严格通过。其中纯B、C0_B_F_TOUCH等可作为ER_V2参考证据，含新增分支或不同仓位／成本的不能冒充同一基准。|
-|2 无V2或其他基准|adaptive_density_control及adaptive_density_floors、a_macro_cooldown、a_exit_regime_sizing、a_base_regime_attribution|保留原结果，只适用于其各自CONTROL／OHLC／配置。动态带宽和宏观实验也不能自动等同ER_V2。|
+|1 原ER＋V2上完成|eth_density_experiment的B/D/F；eth_core_priority的B/D/G/H/I；eth_2025_anomaly_sensitivity；extra_sizing_cost_stress／funding_freeze_forward；rebound_annual_zero的A对照与各反弹组；eth_rebound_confirmation|保留各自原配置、数据异常、费用、执行假设下的结论；不是重新宣布所有数据严格通过。其中纯B、C0_B_F_TOUCH等可作为ER_V2参考证据，含新增分支或不同仓位／成本的不能冒充同一基准。|
+|2 无V2或其他基准|adaptive_density_control及adaptive_density_floors、a_macro_cooldown、a_exit_regime_sizing、a_base_regime_attribution|保留原结果，只适用于各自配置。adaptive_density_control为无V2／uncapped逐笔；adaptive_density_floors与a_macro_cooldown采用1m OHLC；a_exit各组按其具体出场，A_BASE才是FIXED5。动态带宽、宏观或只读归因不能自动等同ER_V2。|
 |2 近期四项优化|a_failed_breakout_exit、a_stale_order_cancel、a_volatility_sizing、a_atr_initial_stop|对应ER_FIXED5_OHLC_EXPERIMENT。失败或未建议保留，不代表同样修改在ER_V2上也失败；**不因此自动全部重跑**。|
 |2 其他早期策略|DYNAMIC10/25／固定15U风险预算、新六MA、多周期、Gate历史报告、现货替代区间|各自保留，不能互换命名、市场、仓位／出场或验证标签。|
 |3 已有同口径可复用|rebound_annual_zero的14个CONTROL单币账户及分钟NPZ|本轮ER_V2_REFERENCE全部直接复用，不重跑、不加回费用。|
 |3 仅历史实现证据|attribution_2026旧MA两账户|规则及截图2026能核对；执行器不同，未做统一回放前不作为公平对比结果。|
 |4 缺少统一口径|MA_DIRECTION_REFERENCE各年|只补缺失或不一致的候选年度；成功／失败／断点与缺失原因列于comparison.csv及runs。无数据时保持UNVERIFIED，不填0、不换OHLC。|
 
-## 5. 使用与结束条件
+## 5. 额外的历史名称澄清（不新增候选或回测）
+
+旧截图左列“原ER”是无V2的ER原全仓阶梯报告，不等于本轮ER_V2_REFERENCE：例如截图2021为44.91%，本轮ER_V2为44.06%。旧截图右列才是本候选MA方向版。旧Gate零费表也不是这里任何一个币安候选。其余旧表只保留各自来源，不能用相似的“原版”二字替代版本身份。
+
+## 6. 使用与结束条件
 
 - 先以ER_V2_REFERENCE作为本项目研究对照的明确名称，理由是用户指定、七期账本及V2链完整，不是因为事后选收益高的版本；不等于部署或实盘批准。
 - 在同引擎同数据两币账户都完整的区间，才计算候选收益／回撤差额；缺失时不排名。截图数字单独保留，不填入新comparison.csv冒充账户结果。
 - 年度独立重置，不拼跨年复利／跨年回撤。期末未平贡献包括该未平交易已实现V2部分减仓与剩余浮盈，单列已平交易净额；不把未平浮盈称作已兑现利润。
 - 本轮完成登记及可执行必要对照后结束，不追加早退／撤单／ATR止损／动态仓位／宏观／新入场规则，不搜参数。
+
+## 7. 本轮实际完成清单
+
+- ER_V2_REFERENCE：直接复用14个已有年度单币账户，原文件不改。
+- MA_DIRECTION_REFERENCE：为统一严格raw逐笔执行，补跑14个账户，七期两币均完成；没有重跑旧优化。
+- 两候选同年同币的15m／1m输入SHA一致；共同读取的官方逐笔日档SHA一致，新MA额外活动日也按官方CHECKSUM核对，具体数量见raw_archive_parity.json。
+- 28份账户现金／已平净额／未平贡献／期末估值及分钟曲线检查通过，见account_checks.json。
+- 2025ETH S_ALL保持COMPLETED_WITH_DATA_ANOMALY；其他非异常数据仍严格校验。新MA结果继承原框架对2025保守标注，BTC validation_scene仍为STRICT。
+- MA七期收益较高3期，分钟回撤较低0期；七期独立损益合计差额+1471.11U，不是跨年复利。保留ER_V2研究基准，不自动切换部署或追加优化。
+- 2020新统一MA为128.37%，旧截图112.88%原年度窗口及原账本仍未找回，不能宣称完全复现。2021—2026新收益四舍五入与截图一致，不代表旧年度原账本已恢复。

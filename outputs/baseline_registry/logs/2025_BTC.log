@@ -1,0 +1,146 @@
+COMMAND ['/workspace/.venv-btc-eth-original/bin/python', '/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py', '2025', 'BTC']
+START 2025 BTC MA_DIRECTION_REFERENCE signals 4240
+DAY 2025 BTC whole 2025-01-01T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-02T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-03T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-04T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-05T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-06T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-07T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-08T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-09T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-10T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-11T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-12T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-13T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-14T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-15T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-16T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-17T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-18T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-19T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-20T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-21T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-22T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-23T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-24T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-25T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-26T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-27T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-28T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-29T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-30T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-01-31T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-01T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-02T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-03T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-04T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-05T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-06T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-07T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-08T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-09T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-10T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-11T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-12T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-13T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-14T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-15T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-16T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-17T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-18T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-19T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-20T08:00:00.000+08:00
+BTC RAW_DAYS 20 LATEST 2025-02-20
+DAY 2025 BTC whole 2025-02-21T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-22T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-23T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-24T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-25T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-26T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-27T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-02-28T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-01T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-02T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-03T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-04T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-05T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-06T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-07T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-08T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-09T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-10T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-11T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-12T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-13T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-14T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-15T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-16T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-17T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-18T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-19T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-20T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-21T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-22T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-23T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-24T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-25T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-26T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-27T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-28T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-29T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-30T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-03-31T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-04-01T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-04-02T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-04-03T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-04-04T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-04-05T08:00:00.000+08:00
+DAY 2025 BTC whole 2025-04-06T08:00:00.000+08:00
+BTC RAW_DAYS 40 LATEST 2025-04-06
+DAY 2025 BTC whole 2025-04-07T08:00:00.000+08:00
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py", line 52, in <module>
+    try:run(p,a)
+        ^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py", line 46, in run
+    books,marks=w.segment(f/'whole',context,start,end,{'MA_DIRECTION_REFERENCE':x},{'MA_DIRECTION_REFERENCE':ma},{'MA_DIRECTION_REFERENCE':scene},cache,None,True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/replay.py", line 43, in segment
+    for key,g in gens.items():s.activate(books[key]);assert next(g)==t
+                                                            ^^^^^^^
+  File "<original loop with pending-partial wakeup and observation>", line 27, in replay_asset
+  File "/workspace/btc-eth-backtest/outputs/binance_perpetual_raw_execution/engine.py", line 50, in __getitem__
+    values=list(self.native[minute]);rows=self.cache.load(minute);i=np.searchsorted(rows[:,0],minute+60,side='left')-1
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/binance_perpetual_raw_execution/engine.py", line 23, in load
+    meta=d.acquire(f'{d.BASE}/daily/trades/{symbol}/{symbol}-trades-{day}.zip',path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py", line 26, in acquire
+    if free<need:raise RuntimeError('INSUFFICIENT_DISK_FOR_RAW_ARCHIVE: '+json.dumps(dict(url=url,archive_bytes=size,free_bytes=free,required_bytes=need)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: INSUFFICIENT_DISK_FOR_RAW_ARCHIVE: {"url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2025-04-07.zip", "archive_bytes": 92538050, "free_bytes": 118501376, "required_bytes": 126092482}
+COMMAND ['/workspace/.venv-btc-eth-original/bin/python', '/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py', '2025', 'BTC']
+START 2025 BTC MA_DIRECTION_REFERENCE signals 4240
+RESUME /workspace/btc-eth-backtest/outputs/baseline_registry/runs/2025/BTC/whole 2025-04-07T08:00:00.000+08:00
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py", line 52, in <module>
+    try:run(p,a)
+        ^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py", line 46, in run
+    books,marks=w.segment(f/'whole',context,start,end,{'MA_DIRECTION_REFERENCE':x},{'MA_DIRECTION_REFERENCE':ma},{'MA_DIRECTION_REFERENCE':scene},cache,None,True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/replay.py", line 43, in segment
+    for key,g in gens.items():s.activate(books[key]);assert next(g)==t
+                                                            ^^^^^^^
+  File "<original loop with pending-partial wakeup and observation>", line 27, in replay_asset
+  File "/workspace/btc-eth-backtest/outputs/binance_perpetual_raw_execution/engine.py", line 50, in __getitem__
+    values=list(self.native[minute]);rows=self.cache.load(minute);i=np.searchsorted(rows[:,0],minute+60,side='left')-1
+                                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/binance_perpetual_raw_execution/engine.py", line 23, in load
+    meta=d.acquire(f'{d.BASE}/daily/trades/{symbol}/{symbol}-trades-{day}.zip',path)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py", line 26, in acquire
+    if free<need:raise RuntimeError('INSUFFICIENT_DISK_FOR_RAW_ARCHIVE: '+json.dumps(dict(url=url,archive_bytes=size,free_bytes=free,required_bytes=need)))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: INSUFFICIENT_DISK_FOR_RAW_ARCHIVE: {"url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2025-04-07.zip", "archive_bytes": 92538050, "free_bytes": 116727808, "required_bytes": 126092482}

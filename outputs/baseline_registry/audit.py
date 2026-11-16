@@ -1,7 +1,7 @@
 from pathlib import Path
 import json,csv,hashlib,subprocess,datetime,os
 import numpy as np
-R=Path('/workspace/btc-eth-backtest');O=Path(__file__).resolve().parent;G=Path('/workspace/offline-abcd-publish')
+R=Path('/workspace/btc-eth-backtest');O=Path(__file__).resolve().parent;G=R if subprocess.run(['git','rev-parse','--show-toplevel'],cwd=R,capture_output=True).returncode==0 else Path('/workspace/offline-abcd-publish')
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def dump(p,x):p.parent.mkdir(parents=True,exist_ok=True);p.write_text(json.dumps(x,ensure_ascii=False,indent=2))
 def write(p,rr):
@@ -9,12 +9,15 @@ def write(p,rr):
  with p.open('w',encoding='utf-8-sig',newline='')as f:w=csv.DictWriter(f,fieldnames=keys);w.writeheader();w.writerows(rr)
 def metrics(v,seed,q):
  peaks=np.maximum.accumulate(np.r_[seed,v])[1:];tr=q['trades'];n=len(tr)
+ for t in tr:
+  side=1 if t['side']=='LONG'else-1
+  assert abs(t['exit']-t['trigger_print']*(1-side*.0002))<1e-7
  closed=sum(t['net']for t in tr);end=float(q['ending_equity']);cash=float(q['cash']if'cash'in q else q['state_at_end']['cash']);unreal=end-cash;partial=cash-seed-closed
  assert abs(end-seed-closed-unreal-partial)<1e-7 and abs(v[-1]-end)<1e-7
  if 'cash_events'in q:assert abs(cash-seed-sum(t['delta']for t in q['cash_events']))<1e-7
  return dict(ending_equity_USDT=end,return_pct=100*(end/seed-1),minute_max_drawdown_pct=float(np.max((peaks-v)/peaks)*100),closed_trades=n,win_rate_pct=100*sum(t['net']>0 for t in tr)/n if n else None,closed_net_USDT=closed,end_unrealized_USDT=unreal,open_partial_realized_net_USDT=partial,end_open_contribution_USDT=unreal+partial,open_entry_fee_USDT=0.,net_pnl_USDT=end-seed)
 rows=[];evidence=[];codes=[];checks=[];old=[]
-codepaths=['outputs/rebound_annual_zero/worker.py','outputs/rebound_followdown/signals.py','outputs/extra_sizing_cost_stress/replay.py','outputs/extra_sizing_cost_stress/cost_engine.py','outputs/eth_core_priority/priority_engine.py','outputs/eth_density_experiment/worker.py','outputs/adaptive_risk_exit_v2/worker.py','outputs/attribution_2026/paired_replay.py','outputs/retry_nov9_nov12/replay_comparison.py']
+codepaths=['outputs/rebound_annual_zero/worker.py','outputs/rebound_followdown/signals.py','outputs/extra_sizing_cost_stress/replay.py','outputs/extra_sizing_cost_stress/cost_engine.py','outputs/eth_core_priority/priority_engine.py','outputs/eth_density_experiment/worker.py','outputs/adaptive_risk_exit_v2/worker.py','outputs/attribution_2026/paired_replay.py','outputs/retry_nov9_nov12/replay_comparison.py','outputs/binance_perpetual_raw_execution/engine.py','outputs/extra_sizing_cost_stress/shared.py','outputs/eth_2025_anomaly_sensitivity/adapter.py','outputs/eth_core_priority/strategy.py']
 for name in codepaths:
  p=R/name;git=subprocess.run(['git','show','133f95967b5789b216406b30117d3703643c7d7a:'+name],cwd=G,capture_output=True);assert git.returncode==0 and git.stdout==p.read_bytes(),name;codes.append(dict(path=name,SHA256=sha(p),matches_commit_133f959=True))
 for year in range(2020,2027):
@@ -30,11 +33,16 @@ for year in range(2020,2027):
    dst=published/name
    if not dst.exists():os.link(src,dst)
    assert sha(src)==sha(dst)
-  ev.update(published_result=str((published/'result.json').relative_to(R)),published_equity=str((published/'equity.npz').relative_to(R)));evidence.append(ev)
-  r=dict(version='ER_V2_REFERENCE',period=y,asset=a,status=q['status'],action='REUSED_EXISTING_ACCOUNT',start_Beijing=cfg['start_Beijing'],end_Beijing=cfg['end_Beijing'],**metrics(v,500,q));rows.append(r);acc[a,'ER']=(q,v,r);checks.append(dict(version=r['version'],period=y,asset=a,ledger_closed=True))
+  for name in ['config.json','status.json','baseline_comparison.json','raw_sources.json']:
+   dst=published/name
+   if not dst.exists():os.link(f/name,dst)
+   assert sha(f/name)==sha(dst)
+  if not(published/'core_signals.json').exists():dump(published/'core_signals.json',dict(core=d['core'],source_signal_manifest_SHA256=sha(f/'signals.json'),only_reference_core_no_rebound=True))
+  ev.update(published_result=str((published/'result.json').relative_to(R)),published_equity=str((published/'equity.npz').relative_to(R)),published_config=str((published/'config.json').relative_to(R)));evidence.append(ev)
+  r=dict(version='ER_V2_REFERENCE',period=y,asset=a,status=q['status'],validation_scene=q.get('scenario'),action='REUSED_EXISTING_ACCOUNT',start_Beijing=cfg['start_Beijing'],end_Beijing=cfg['end_Beijing'],**metrics(v,500,q));rows.append(r);acc[a,'ER']=(q,v,r);checks.append(dict(version=r['version'],period=y,asset=a,ledger_closed=True))
   mf=O/'runs'/y/a;mp=mf/'results/MA_DIRECTION_REFERENCE_result.json'
   if (mf/'status.json').exists():
-   m=json.loads(mp.read_text());mv=np.load(mp.with_name('MA_DIRECTION_REFERENCE_equity.npz'))['marks'];r=dict(version='MA_DIRECTION_REFERENCE',period=y,asset=a,status=json.loads((mf/'status.json').read_text())['status'],action='SUPPLEMENTARY_RAW_REPLAY',start_Beijing=cfg['start_Beijing'],end_Beijing=cfg['end_Beijing'],**metrics(mv,500,m));rows.append(r);acc[a,'MA']=(m,mv,r);checks.append(dict(version=r['version'],period=y,asset=a,ledger_closed=True));evidence.append(dict(version=r['version'],period=y,asset=a,result=str(mp.relative_to(R)),result_SHA256=sha(mp),equity=str(mp.with_name('MA_DIRECTION_REFERENCE_equity.npz').relative_to(R)),equity_SHA256=sha(mp.with_name('MA_DIRECTION_REFERENCE_equity.npz')),action='SUPPLEMENTARY_RAW_REPLAY',original_status=m['status']))
+   m=json.loads(mp.read_text());mv=np.load(mp.with_name('MA_DIRECTION_REFERENCE_equity.npz'))['marks'];r=dict(version='MA_DIRECTION_REFERENCE',period=y,asset=a,status=m['status'],validation_scene=m.get('scenario'),action='SUPPLEMENTARY_RAW_REPLAY',start_Beijing=cfg['start_Beijing'],end_Beijing=cfg['end_Beijing'],**metrics(mv,500,m));rows.append(r);acc[a,'MA']=(m,mv,r);checks.append(dict(version=r['version'],period=y,asset=a,ledger_closed=True));evidence.append(dict(version=r['version'],period=y,asset=a,result=str(mp.relative_to(R)),result_SHA256=sha(mp),equity=str(mp.with_name('MA_DIRECTION_REFERENCE_equity.npz').relative_to(R)),equity_SHA256=sha(mp.with_name('MA_DIRECTION_REFERENCE_equity.npz')),action='SUPPLEMENTARY_RAW_REPLAY',original_status=m['status']))
   else:
    fail=json.loads((mf/'failure.json').read_text())if(mf/'failure.json').exists()else{};progress=json.loads((mf/'whole/progress.json').read_text())if(mf/'whole/progress.json').exists()else{};rows.append(dict(version='MA_DIRECTION_REFERENCE',period=y,asset=a,status='UNVERIFIED',action='ATTEMPTED_BLOCKED'if fail else'RUNNING_OR_PENDING',failure=fail.get('error'),progress_through=progress.get('next_time')))
  for name,version in [('ER','ER_V2_REFERENCE'),('MA','MA_DIRECTION_REFERENCE')]:
@@ -50,6 +58,14 @@ for a in ['BTC','ETH']:
 for r in rows:
  other=next((z for z in rows if z['period']==r['period']and z['asset']==r['asset']and z['version']!=r['version']and z.get('return_pct')is not None),None)
  if r.get('return_pct')is not None and other:r.update(difference_vs_other_USDT=r['net_pnl_USDT']-other['net_pnl_USDT'],return_difference_vs_other_pp=r['return_pct']-other['return_pct'],drawdown_difference_vs_other_pp=r['minute_max_drawdown_pct']-other['minute_max_drawdown_pct'])
+parity=[]
+for year in range(2020,2027):
+ for asset in ['BTC','ETH']:
+  oldraw=json.loads((R/f'outputs/rebound_annual_zero/runs/{year}/{asset}/raw_sources.json').read_text());nf=O/f'runs/{year}/{asset}/raw_sources.json';new=json.loads(nf.read_text())if nf.exists()else{};common=set(oldraw)&set(new)
+  assert all(oldraw[d]['sha256']==new[d]['sha256']for d in common),(year,asset,'RAW_SOURCE_SHA_MISMATCH')
+  assert all(z['official_checksum_match']and'/data/futures/um/daily/trades/'in z['url']for z in new.values())
+  parity.append(dict(period=year,asset=asset,old_raw_days=len(oldraw),new_raw_days=len(new),common_days=len(common),common_SHA_identical=True,additional_MA_days_official_checksum_verified=len(set(new)-set(oldraw))))
+dump(O/'raw_archive_parity.json',parity)
 write(O/'comparison.csv',rows);write(O/'historical_ma_2026.csv',old);write(O/'source_code_manifest.csv',codes);dump(O/'account_reuse_manifest.json',evidence);dump(O/'account_checks.json',checks)
 dump(O/'audit_summary.json',dict(reused_ER_accounts=sum(r.get('action')=='REUSED_EXISTING_ACCOUNT'for r in rows),completed_MA_supplementary_accounts=sum(r.get('action')=='SUPPLEMENTARY_RAW_REPLAY'for r in rows),complete_comparable_intervals=sum(r['asset']=='COMBINED'and r['version']=='MA_DIRECTION_REFERENCE'and r.get('return_pct')is not None for r in rows),source_files_match_commit133=True,main_changed=False,actual_deployment='UNKNOWN',built_at_UTC=datetime.datetime.now(datetime.timezone.utc).isoformat()))
 print(json.loads((O/'audit_summary.json').read_text()))

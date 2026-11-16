@@ -42,7 +42,19 @@
     "ledger_closed": true
   },
   {
+    "version": "MA_DIRECTION_REFERENCE",
+    "period": "2021",
+    "asset": "ETH",
+    "ledger_closed": true
+  },
+  {
     "version": "ER_V2_REFERENCE",
+    "period": "2022",
+    "asset": "BTC",
+    "ledger_closed": true
+  },
+  {
+    "version": "MA_DIRECTION_REFERENCE",
     "period": "2022",
     "asset": "BTC",
     "ledger_closed": true
@@ -54,7 +66,19 @@
     "ledger_closed": true
   },
   {
+    "version": "MA_DIRECTION_REFERENCE",
+    "period": "2022",
+    "asset": "ETH",
+    "ledger_closed": true
+  },
+  {
     "version": "ER_V2_REFERENCE",
+    "period": "2023",
+    "asset": "BTC",
+    "ledger_closed": true
+  },
+  {
+    "version": "MA_DIRECTION_REFERENCE",
     "period": "2023",
     "asset": "BTC",
     "ledger_closed": true
@@ -66,7 +90,19 @@
     "ledger_closed": true
   },
   {
+    "version": "MA_DIRECTION_REFERENCE",
+    "period": "2023",
+    "asset": "ETH",
+    "ledger_closed": true
+  },
+  {
     "version": "ER_V2_REFERENCE",
+    "period": "2024",
+    "asset": "BTC",
+    "ledger_closed": true
+  },
+  {
+    "version": "MA_DIRECTION_REFERENCE",
     "period": "2024",
     "asset": "BTC",
     "ledger_closed": true
@@ -78,7 +114,19 @@
     "ledger_closed": true
   },
   {
+    "version": "MA_DIRECTION_REFERENCE",
+    "period": "2024",
+    "asset": "ETH",
+    "ledger_closed": true
+  },
+  {
     "version": "ER_V2_REFERENCE",
+    "period": "2025",
+    "asset": "BTC",
+    "ledger_closed": true
+  },
+  {
+    "version": "MA_DIRECTION_REFERENCE",
     "period": "2025",
     "asset": "BTC",
     "ledger_closed": true
@@ -90,7 +138,19 @@
     "ledger_closed": true
   },
   {
+    "version": "MA_DIRECTION_REFERENCE",
+    "period": "2025",
+    "asset": "ETH",
+    "ledger_closed": true
+  },
+  {
     "version": "ER_V2_REFERENCE",
+    "period": "2026",
+    "asset": "BTC",
+    "ledger_closed": true
+  },
+  {
+    "version": "MA_DIRECTION_REFERENCE",
     "period": "2026",
     "asset": "BTC",
     "ledger_closed": true

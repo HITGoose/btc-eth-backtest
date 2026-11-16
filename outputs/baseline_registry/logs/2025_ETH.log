@@ -1,0 +1,13 @@
+COMMAND ['/workspace/.venv-btc-eth-original/bin/python', '/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py', '2025', 'ETH']
+START 2025 ETH MA_DIRECTION_REFERENCE signals 2182
+Traceback (most recent call last):
+  File "/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py", line 52, in <module>
+    try:run(p,a)
+        ^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/baseline_registry/compare_runner.py", line 46, in run
+    books,marks=w.segment(f/'whole',context,start,end,{'MA_DIRECTION_REFERENCE':x},{'MA_DIRECTION_REFERENCE':ma},{'MA_DIRECTION_REFERENCE':scene},cache,None,True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/replay.py", line 52, in segment
+    s.dump(folder/'progress.json',dict(next_time=r.local_s(t+60),cash={k:x.cash for k,x in books.items()},raw_days=len(cache.sources)));print('DAY',ctx['period'],ctx['asset'],folder.name,r.local_s(t+60),flush=True)
+                                                                                                                       ^^^^^^^^^^^^^
+AttributeError: 'ScenarioCache' object has no attribute 'sources'

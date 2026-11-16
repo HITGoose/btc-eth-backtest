@@ -1,0 +1,1307 @@
+[
+  {
+    "path": "outputs/baseline_registry/temporary_cleanup.json",
+    "sha256": "708fb0fac866a6c0e3177b4acda2e7b0a682b329dd9dfce4970e86dfc52b687d",
+    "size": 9083
+  },
+  {
+    "path": "outputs/baseline_registry/CONCLUSION.md",
+    "sha256": "6735f9e975d9a005491bf9af755e6125715e8ce203792762ee646f29f3c8978a",
+    "size": 6732
+  },
+  {
+    "path": "outputs/baseline_registry/data_queries.jsonl",
+    "sha256": "6830f609eb74660b8024e9db1c1db7a8ac950118b5b06a40f732328db6c36b3f",
+    "size": 667467
+  },
+  {
+    "path": "outputs/baseline_registry/report.py",
+    "sha256": "5be6b9b442be0afbc3797f42251437bab7d2653b8a74e6ee2fd1ae3a550b6c1d",
+    "size": 9079
+  },
+  {
+    "path": "outputs/baseline_registry/account_checks.json",
+    "sha256": "133a99366a9a732970777a05d7a04c9b7d42669f3c8f40d1b85797f95ae9ddce",
+    "size": 3208
+  },
+  {
+    "path": "outputs/baseline_registry/source_code_manifest.csv",
+    "sha256": "f6dbb7b512bf70051826e006f13989382b2c2da90f0a2cc3ae0c07844c6cbf50",
+    "size": 1522
+  },
+  {
+    "path": "outputs/baseline_registry/transport_recovery_results.json",
+    "sha256": "511f6b7d283ca1f9e42de9bcf3070894a5735fd5f6fae589319259bafb94aa13",
+    "size": 356
+  },
+  {
+    "path": "outputs/baseline_registry/dispatch_results.json",
+    "sha256": "b169eb0c8718fb2524b756e1675b41c3ff10efa4af93fa693f4bd617fc06ccdf",
+    "size": 1509
+  },
+  {
+    "path": "outputs/baseline_registry/recovery_completion.json",
+    "sha256": "11fd833f4cb244cf817c7092158d5f093f84aae869391ed232c9f71ff54f2c9f",
+    "size": 505
+  },
+  {
+    "path": "outputs/baseline_registry/dispatch.log",
+    "sha256": "dd5ab51f3060de06d958272b36ee898f36984d526c8f057e23819aad508b9922",
+    "size": 484
+  },
+  {
+    "path": "outputs/baseline_registry/.gitattributes",
+    "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+    "size": 8
+  },
+  {
+    "path": "outputs/baseline_registry/RUN.md",
+    "sha256": "40c442b2788fafe04c1d545f05a3793657f27826f5d9be72a002f3b13e81907f",
+    "size": 3195
+  },
+  {
+    "path": "outputs/baseline_registry/audit.py",
+    "sha256": "b152504275639c5c8207bdb3f4b4f2995543165a43e9c17ffed7628083e41569",
+    "size": 9963
+  },
+  {
+    "path": "outputs/baseline_registry/historical_ma_2026.csv",
+    "sha256": "a918e54175cdad476b52ebc1e1ab654ededdb2093a617899d51928dafa13ddfa",
+    "size": 1001
+  },
+  {
+    "path": "outputs/baseline_registry/MA_RULE_RECOVERY_CHECK.json",
+    "sha256": "2ff16516848d029c83f7bcc6f930dfaa4a25eafc6e4688da6c6eded213819b7e",
+    "size": 228
+  },
+  {
+    "path": "outputs/baseline_registry/transport_recovery.log",
+    "sha256": "728a52d0287cc8ea2e8ea58155d77fbaa88915376992b88af1652fdc9d9be3fb",
+    "size": 81
+  },
+  {
+    "path": "outputs/baseline_registry/raw_archive_parity.json",
+    "sha256": "2994ac182ca2d80eac791126a95fdfa72c7bb5f17a3fa0bafb5f1d06230d73fd",
+    "size": 2974
+  },
+  {
+    "path": "outputs/baseline_registry/serial_scheduling_recovery.json",
+    "sha256": "39a7aa67703e4793d54ddb4de9d3e80eb716e99591bc00a8c69bbc573ea9a9bb",
+    "size": 385
+  },
+  {
+    "path": "outputs/baseline_registry/compare_runner.py",
+    "sha256": "6f269e85fa64c15a6354616983761c57834031c30fe3510d54f69966cd0bc8e7",
+    "size": 5460
+  },
+  {
+    "path": "outputs/baseline_registry/comparison.csv",
+    "sha256": "cba7f72e6c794f4d2d08198ac856b920bd9ce28fae90f73b2dd7f68d80513910",
+    "size": 15454
+  },
+  {
+    "path": "outputs/baseline_registry/dispatch.py",
+    "sha256": "e7ebb91105d417523927134c2346d92f23da9b59344f972a3251792427dbb43b",
+    "size": 1214
+  },
+  {
+    "path": "outputs/baseline_registry/retry_disk.py",
+    "sha256": "fd8bf3395be6fedaa39f830343dc16676c36644db36cd4e74e8b5b671c1428e9",
+    "size": 843
+  },
+  {
+    "path": "outputs/baseline_registry/REPORTING_FIXES.md",
+    "sha256": "2ec0eaf7e6586c2a1d1fc77259a5077810ad28f283334b60af4449d00e9e3f0a",
+    "size": 1235
+  },
+  {
+    "path": "outputs/baseline_registry/MA_2026_original_vs_unified.json",
+    "sha256": "661e8e10094e14dc8f6b71206d0fcb261f2cdf6f8b689927dfc420e65e01722b",
+    "size": 1158
+  },
+  {
+    "path": "outputs/baseline_registry/audit_summary.json",
+    "sha256": "70da1e6f965576519d1ab25a1343c84a847ff21e50c9229466fbdec9eca6c3ce",
+    "size": 266
+  },
+  {
+    "path": "outputs/baseline_registry/history_search.json",
+    "sha256": "a5beca361a7f17add2b9701ed6b33581f663cef0fc1d821c60f95023eefa96db",
+    "size": 596
+  },
+  {
+    "path": "outputs/baseline_registry/account_reuse_manifest.json",
+    "sha256": "3d5849a73bf449c8d6ed9a466e8cd3b3d8786a0219e552a3355d4206d087223a",
+    "size": 31610
+  },
+  {
+    "path": "outputs/baseline_registry/missing_intervals.csv",
+    "sha256": "4f3c85acf4bc9c2e17443876b9d477ded58563da68c2ff80b034f88364b0cd2d",
+    "size": 64
+  },
+  {
+    "path": "outputs/baseline_registry/recover_remaining.py",
+    "sha256": "6dec235fdc2fd23377a57498948acfc52bfddb4813684c7f3a41556dd68f0636",
+    "size": 912
+  },
+  {
+    "path": "outputs/baseline_registry/historical_ma_screenshot_claims.csv",
+    "sha256": "71a87e3eaa02d9d1ca72db893821dcd3fa5139767e94ae057fdc4204e2310f27",
+    "size": 620
+  },
+  {
+    "path": "outputs/baseline_registry/recover_transport.py",
+    "sha256": "a7dff2a7c6ecced090a3a5f99fcfb8a05e52a51283dde6ede6271caddf4b3cff",
+    "size": 4140
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2021_BTC.log",
+    "sha256": "4dc3db3d49326cf26c7d20eaf821e4c3d9216693f4aaa17d4f6270d58c70d1c6",
+    "size": 18632
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2022_BTC_transport_recovery.log",
+    "sha256": "7cd4e69f98b8705401a803527c3b15f001c7d4e57ca0710bf16e723e1515abf4",
+    "size": 3180
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2020_BTC.log",
+    "sha256": "41139286b987e1f09a188390b0673974e262429cfcbc933ee83a726f6cb0a655",
+    "size": 16638
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2024_ETH.log",
+    "sha256": "291f9fac9d5b2736d1a9932cf7dfbabe8f9bb5c3eccf467531ee33b01f54485d",
+    "size": 18530
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2021_ETH.log",
+    "sha256": "4dbe7a862584b8a3ab5a2d43a51b33a2eafbd14381a272dd8d819780c1b73ac5",
+    "size": 18725
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2025_ETH_transport_recovery.log",
+    "sha256": "6bcce5681dc825e9e29ec050b3e933af69fe6d24e8f006ddf2b2a4485604b8a9",
+    "size": 21443
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2023_ETH.log",
+    "sha256": "074a24b70822e2fa47deabfdf1b90e514004f07ae5c87adf8b23c2b015cf1f2c",
+    "size": 18963
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2024_BTC.log",
+    "sha256": "8e380deac4b47e68f79364f0b2ae55b72c703d90a3cd7f0afd0000cacd644ce8",
+    "size": 18598
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2025_BTC.log",
+    "sha256": "36b730cb13fe4949647abd304afcaa84c91e46106c842892be22d945adc598f8",
+    "size": 9634
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2025_ETH.log",
+    "sha256": "d6f6b95b764b791159882f8b5dd6fa431f2ca1389fe6dd8f70ed1f4f262e5a46",
+    "size": 1309
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2026_ETH.log",
+    "sha256": "ef283dc1f9f404e9f504cfe1ccfcdac21090cc1fb41ffe97d7bc31f222c573a1",
+    "size": 15786
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2020_ETH.log",
+    "sha256": "46183b319bdf9974690ec5820bdefd2a79047a7a9683346eb57c02ed55e52fbf",
+    "size": 16500
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2025_BTC_transport_recovery.log",
+    "sha256": "b60dfd9da04242dc9c5d094b6fa620705b1a1591df2c1811f5ebabf8a2f02c8d",
+    "size": 13958
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2023_BTC.log",
+    "sha256": "c2c767c302c895878214ae673d3e3805e1242ca8d7da2c697e613cd8c644c03f",
+    "size": 18998
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2022_BTC.log",
+    "sha256": "54c6297a0fcf35e90789d8475dd4d6daea14e4080b2a9d18f66a735d1051ba9b",
+    "size": 23074
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2026_BTC.log",
+    "sha256": "073e9722732b09f49fea7644cba83b3e63e3a2b1494fc6c6cdf0993d2d2b7103",
+    "size": 20480
+  },
+  {
+    "path": "outputs/baseline_registry/logs/2022_ETH.log",
+    "sha256": "eda771d6acc9e570152b5ee8f03a4d05f910594b9cc9ad901055f0e7c3e8ba22",
+    "size": 23329
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC/result.json",
+    "sha256": "274fbcca12aa215097eab26643dd2538e7c6613445488ae7a5569043182c06e0",
+    "size": 384698
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC/status.json",
+    "sha256": "ad07ccdf570261d88856700ee2c75c73b70b970c60f4c8d118a4ceffc0e225ef",
+    "size": 222
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC/baseline_comparison.json",
+    "sha256": "e90abb21fde48c90f2b3c1ec3591ef6a1717b5d906c17f03d3a82a010f946b0f",
+    "size": 432
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC/config.json",
+    "sha256": "0e7be51d0e4a90412abc0064d84cbd19389b8e8dc99f71aff1e2633abd1039b4",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC/equity.npz",
+    "sha256": "a4ff8eb1194e349d1fcd355eb1edd867c81df4468b28e7e7f63b61b38a62ef1e",
+    "size": 991861
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC/core_signals.json",
+    "sha256": "68312d27e9c63f4d8ad2f5002bdb2ab604a9974e9ab27cc90bb3703fefed1d44",
+    "size": 55363
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC/raw_sources.json",
+    "sha256": "0ec9a49a72f2d75b918370e20ace42bf67d16d844a1ba76bca8a1c8f8ad9a99a",
+    "size": 127820
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH/result.json",
+    "sha256": "c177790edd2bdf821d818dcdf33276a1216d952f9f83f9dae17467bfa093e687",
+    "size": 331016
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH/status.json",
+    "sha256": "1d6db3cea9e778f2c0537d0c20c55ba5f99adfb35ced4c5f5e703836ca4f3a7a",
+    "size": 223
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH/baseline_comparison.json",
+    "sha256": "d6373e602fd614b339cf8d233cc09ac67e4cc3fe0cb320b16b7a2b06cedd85c6",
+    "size": 418
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH/config.json",
+    "sha256": "6e68e4d92c63375ba082313e5ebcc1d316e6e848bf6f895254b433c6d3fa24be",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH/equity.npz",
+    "sha256": "e392e6656403dd1c86849c9574fe9a2bce09cdbcc9117d148fccc12ddecc1d5c",
+    "size": 668301
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH/core_signals.json",
+    "sha256": "58150c409ca136a48fb99e6671088e269aed1d1a6637b69c4baa0095de1349ce",
+    "size": 41985
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH/raw_sources.json",
+    "sha256": "b9ec2cfe487cadbf87238fa770f680a8a61894b5bec710864b98001e08f903d9",
+    "size": 110322
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC/result.json",
+    "sha256": "5a5e9b9a0c1e456143471d493cbbecdbf7d7bcf4450e42f7d706edbead3c381d",
+    "size": 291253
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC/status.json",
+    "sha256": "ad07ccdf570261d88856700ee2c75c73b70b970c60f4c8d118a4ceffc0e225ef",
+    "size": 222
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC/baseline_comparison.json",
+    "sha256": "1b5a1939776f3870db4f4ec7dccbc4e6840d09441e8ec7ebd8473673b9e679a1",
+    "size": 432
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC/config.json",
+    "sha256": "d03fcf002cbcc1d29e0466687ea8cd212c8a17916f45f0d8481612982a96756a",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC/equity.npz",
+    "sha256": "e91a0e5c84c4ca4ee6cf4814c8f0c8bafa50b638e92b773092dd7c6ae35f8fa8",
+    "size": 562587
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC/core_signals.json",
+    "sha256": "4ca5617988b6845ba5eee2bd6e62e1f9abe94256be180ec2904424882f5a1a11",
+    "size": 29455
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC/raw_sources.json",
+    "sha256": "955f979893cc2a3d5f563629f0ce804b7b12c8753d9563165a1de74ea7114222",
+    "size": 92512
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH/result.json",
+    "sha256": "259c02d5baede161ada00b459f55a291f1a3d8eabc087d3cbb83e5080a42ab76",
+    "size": 179979
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH/status.json",
+    "sha256": "1d6db3cea9e778f2c0537d0c20c55ba5f99adfb35ced4c5f5e703836ca4f3a7a",
+    "size": 223
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH/baseline_comparison.json",
+    "sha256": "99aeb6b0d5b64ba085627711470e17db5dbe2ee0dd2ab4a2841368168a61d0cc",
+    "size": 418
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH/config.json",
+    "sha256": "7247dbed33754638193e7ebd9bf10a5c0af6157ae6ae2f28563c360c8cb6a741",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH/equity.npz",
+    "sha256": "a6253c41d2f1d4feb3310b7fa44286f2cc9daeb7f9136fe3713959c8c4d2ac3a",
+    "size": 242368
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH/core_signals.json",
+    "sha256": "572c6b61294934ebf4960c40c28aee200f5956e5ac180628b795d591f9483d35",
+    "size": 15028
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH/raw_sources.json",
+    "sha256": "a800b52ebd88d0d6cb7afcf71ced2a9c0cafe8ab45cb6ef8b27b5905415b3223",
+    "size": 63411
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC/result.json",
+    "sha256": "99fc2e542b67e3724f1f0fb9cd8eb514db330086d7e10f6c9ca5476e8e82cc42",
+    "size": 311449
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC/status.json",
+    "sha256": "1d6db3cea9e778f2c0537d0c20c55ba5f99adfb35ced4c5f5e703836ca4f3a7a",
+    "size": 223
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC/baseline_comparison.json",
+    "sha256": "04774e9239f5f5d67a07628a5b3a88213dee820a903237df72f1babf352a5eda",
+    "size": 418
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC/config.json",
+    "sha256": "033366ba937ba6608aeab5171c001555dc6bf916da314ecc30fabac726cc5ffe",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC/equity.npz",
+    "sha256": "84f2611b6b2bb3ee571fc4ccc5a2db2cdaee6ca0025bce6dd0aec25b2ebb7ba1",
+    "size": 860205
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC/core_signals.json",
+    "sha256": "9f6355b4f33ce39a89aa3afd481bfc817924dc4f0fffc966201415de717953c0",
+    "size": 43046
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC/raw_sources.json",
+    "sha256": "69c2730566eda8b1652878dc0af5949b52b4db1b8fe1b91768aabf3fce74f34f",
+    "size": 106948
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH/result.json",
+    "sha256": "331cd89271b6071767122e3196059aac28598af260fd8dad30a8728a001c6d73",
+    "size": 258459
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH/status.json",
+    "sha256": "448e8a8215765dc2540748d1ba3d18053c4039d8eafa6ddd42be6d9870aea11c",
+    "size": 241
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH/baseline_comparison.json",
+    "sha256": "4485b7b83c0049806370dc412424d1848da2dfa5b304dd408d3bb6f3bdcb2d27",
+    "size": 417
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH/config.json",
+    "sha256": "1aad17f3e431c0c33c2f257a40cecee71348cf52bcf267218654c0e1ce93f994",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH/equity.npz",
+    "sha256": "8adfbc1455496b44cadafc29c9b6bef45c0585b1c2c0356312933a5b1d6cf429",
+    "size": 342478
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH/core_signals.json",
+    "sha256": "abbc1441973362076306a255bc180874f32b74becc79d05a32c8e321c63dd9c2",
+    "size": 22425
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH/raw_sources.json",
+    "sha256": "5d743fb966b4edc24c3863495dce348ac4a7282e86dabe04c394146a5a2726ed",
+    "size": 61465
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC/result.json",
+    "sha256": "b61b4a16e159a54c9798a998bea924e6d3920e7422c380bafe37c69070fd4c7f",
+    "size": 335743
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC/status.json",
+    "sha256": "1d6db3cea9e778f2c0537d0c20c55ba5f99adfb35ced4c5f5e703836ca4f3a7a",
+    "size": 223
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC/baseline_comparison.json",
+    "sha256": "77cceaffed42767f482e5cd8308b72898ed8df984b9294f9f0f77810eb6e80fd",
+    "size": 418
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC/config.json",
+    "sha256": "70f4cdeb48fbca608ad9ea5485667ad57da1b1f6f3c7e368d2dd93c24f2906e1",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC/equity.npz",
+    "sha256": "7be634ef012a32c27b4c6c749e04409ff25ec0054eb2578703c0b7b06f293fcb",
+    "size": 681080
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC/core_signals.json",
+    "sha256": "68380bb9fa0fc65808f9d5fd4d2e82c45bb296e162abb44e5279f9032ce4b008",
+    "size": 33919
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC/raw_sources.json",
+    "sha256": "5cbb2c5f05ddb1e83f676487fc5dc459cfdc5907d889224f72fe8553aa2639db",
+    "size": 89814
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH/result.json",
+    "sha256": "f79c8f661884dfcfba4eb1ae7006318bdc07fb1c1a3a82940a054939f5a1d100",
+    "size": 248097
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH/status.json",
+    "sha256": "1d6db3cea9e778f2c0537d0c20c55ba5f99adfb35ced4c5f5e703836ca4f3a7a",
+    "size": 223
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH/baseline_comparison.json",
+    "sha256": "80655c81063c8b4f21ad656398fd93d40f894259f1d8039f38b41193894c70a3",
+    "size": 418
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH/config.json",
+    "sha256": "bfe1d31119b2ad2d82b5daccaba0c90701e80acbde2c33104860167ce92fe15e",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH/equity.npz",
+    "sha256": "89668b99f952120e0a7a8fe7f72692f80601c77e7f6a8c5b87d9248602cf3703",
+    "size": 393368
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH/core_signals.json",
+    "sha256": "9954afa32f500916081e87162e3e109703fb2db07782b2409fb433345bf2bdd6",
+    "size": 22261
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH/raw_sources.json",
+    "sha256": "0dbb88fd786ebad440a5988f4fb8b7c72f887931a9a8b8f876e5ebf4cf9aa02a",
+    "size": 71348
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC/result.json",
+    "sha256": "1b2d86dae781162ba15fbbbd2355a22c93b80eeed0f211804df9831bf609c44e",
+    "size": 128059
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC/status.json",
+    "sha256": "ad07ccdf570261d88856700ee2c75c73b70b970c60f4c8d118a4ceffc0e225ef",
+    "size": 222
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC/baseline_comparison.json",
+    "sha256": "75b93d3cb77958ea9f94d15d91ab1929691f002417d53e87f8403adfaf5c8b5e",
+    "size": 432
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC/config.json",
+    "sha256": "079048bf234cf4d4ee301e06cf14ff2679ca3c1da74f5bf209961a1a574fa584",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC/equity.npz",
+    "sha256": "2b1f88cf7db934545321842bf528cfe41834a731ca932464d30beed267871aec",
+    "size": 178710
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC/core_signals.json",
+    "sha256": "88a0e80b6db233250b5103a7177dbaac3b2820121901eb75cc49f0015890d5c9",
+    "size": 6548
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC/raw_sources.json",
+    "sha256": "b1ed55aed50112c575d628b734394f602a339dd7e67878bb03412fa41675f3b8",
+    "size": 38604
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH/result.json",
+    "sha256": "7c40f1058cde65cb2cc59632fe805be294afdb92a52c7eebaa6bc42728ec5259",
+    "size": 69680
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH/status.json",
+    "sha256": "1d6db3cea9e778f2c0537d0c20c55ba5f99adfb35ced4c5f5e703836ca4f3a7a",
+    "size": 223
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH/baseline_comparison.json",
+    "sha256": "78c8e0e5e119c48cde87554503cc26906864ea6874b26936d7221edc878dfd86",
+    "size": 418
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH/config.json",
+    "sha256": "e9cc7f42e9ec03e675f58262c620e22c5a99d79da39842aa7525bb9841bfc71a",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH/equity.npz",
+    "sha256": "8099adead4f9132dd58e85bd4c34885bd5afc77af875c2208fee63312788db82",
+    "size": 69254
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH/core_signals.json",
+    "sha256": "ae6eb6bf5e3e7e7971bb41b2391c93f1b2ebba19aa794bcfb909a6fb2a316222",
+    "size": 4118
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH/raw_sources.json",
+    "sha256": "70c801a70cdf7346e080e07d437d7dde500db12dd9282d5b80d52cad90d6d179",
+    "size": 26431
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC/result.json",
+    "sha256": "222edc9ed62f44bfd61225007ab1e7426ae19f8331d3010aa33ec0e2be0b2c91",
+    "size": 295796
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC/status.json",
+    "sha256": "ad07ccdf570261d88856700ee2c75c73b70b970c60f4c8d118a4ceffc0e225ef",
+    "size": 222
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC/baseline_comparison.json",
+    "sha256": "1ab8674fe956236aceac7e01d5002c4b722771f2e8a3a1b47b25355f7dcf5802",
+    "size": 432
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC/config.json",
+    "sha256": "3c95e10915ae9b15541d2459d4898cb16cc0e2b05f8146b438045e9516006e76",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC/equity.npz",
+    "sha256": "bf4b50852db599014b6ec8ffb7d4dfebe5c655aff1de7631063c93492bf1d6b6",
+    "size": 778053
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC/core_signals.json",
+    "sha256": "8f71331a10c21a8c0173c9f815ebf676abcd865e8da0bb9ab119c125c6bc6a10",
+    "size": 36325
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC/raw_sources.json",
+    "sha256": "e1769a85b717ffd330b7e05c4f2f4a18f192c12d64c25faa4866a3e5967fd378",
+    "size": 94888
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH/result.json",
+    "sha256": "306906991d3fe9c9db6abe9efb1a517fdb13c20ce4d3a92594f3c6f95b266a2a",
+    "size": 252263
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH/status.json",
+    "sha256": "1d6db3cea9e778f2c0537d0c20c55ba5f99adfb35ced4c5f5e703836ca4f3a7a",
+    "size": 223
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH/baseline_comparison.json",
+    "sha256": "8839aa33c1f540175053c0116b50ec8fa92747f4cba4367877e24de23ec81cea",
+    "size": 418
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH/config.json",
+    "sha256": "9cfcc57d6fbc2501fbe4bcc90d526bcaf8a35fbdb6be1eb212076a08a9924d7c",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH/equity.npz",
+    "sha256": "2668e341b2d7bdd04901e07a6aa7d72ae1edb4c1f06983537c3cc2b5e449f4a7",
+    "size": 460141
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH/core_signals.json",
+    "sha256": "780b913a08a3309fbd1bd19e92f3bc741630ddbf0eb48ba68ad42f7a28388f98",
+    "size": 27909
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH/raw_sources.json",
+    "sha256": "9d5b9e34eb8db3bb24820447be46633b98a1aa1844816e1e6c700b5eeaeafa2f",
+    "size": 80105
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC/result.json",
+    "sha256": "2eecc85a46dab9f9d55a186803b792d70b9e9c380cd1afefdba716a6cfa5f452",
+    "size": 298514
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC/status.json",
+    "sha256": "ad07ccdf570261d88856700ee2c75c73b70b970c60f4c8d118a4ceffc0e225ef",
+    "size": 222
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC/baseline_comparison.json",
+    "sha256": "85cb8a30ee7ec083c539e0a9ba232558f64044e39dcc511b3816c9fcb195be54",
+    "size": 432
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC/config.json",
+    "sha256": "7d2247f09504dd78cd2e69e804cefdfe499ad646131db483facd4668d34da063",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC/equity.npz",
+    "sha256": "271771bcc8e68f1abaaeade81a5b4ff6e586ab49740b13dc99f45a9b5dcd3c58",
+    "size": 811685
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC/core_signals.json",
+    "sha256": "bc00508ebf92ad148dc1c3091a8e6d13450d1f75f21a7465a0b97aca31abe054",
+    "size": 34915
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC/raw_sources.json",
+    "sha256": "56128bf93e9f99f3e141225a1b6920908c1b26234380be64dab1e3c4224eb055",
+    "size": 88425
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH/result.json",
+    "sha256": "ad5acffef5e1b1a0c46f680dbe9d2145251992dc8a8c45197e62dc979bd777a8",
+    "size": 185025
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH/status.json",
+    "sha256": "1d6db3cea9e778f2c0537d0c20c55ba5f99adfb35ced4c5f5e703836ca4f3a7a",
+    "size": 223
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH/baseline_comparison.json",
+    "sha256": "ba128b8fcec49fa6707c873b93dfc346aaa51dd9221914240bd9e8c171dad6e7",
+    "size": 418
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH/config.json",
+    "sha256": "b49e61e73fcafeb9b45c38581f5bf5c1d0bd58c0c47fedf43057f5ffe9733193",
+    "size": 805
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH/equity.npz",
+    "sha256": "7803ac59d749dae73c92cbacc7b05c60544e29c59cff4d2965e594c9a8cac15f",
+    "size": 208087
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH/core_signals.json",
+    "sha256": "a18e019f7c8600842e2d864c2202d3f72a19f59e2902ac22898fd0a2d8c08bac",
+    "size": 14481
+  },
+  {
+    "path": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH/raw_sources.json",
+    "sha256": "7bce1bd48392919e609a68f53412d7a66d641a6900f2488ac43992d2ea6adf2a",
+    "size": 54139
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/BTC/signals.json",
+    "sha256": "4570abf9a457906a9a15f00317184b579ea2950de57221d4d7af227149b82ff6",
+    "size": 157424
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/BTC/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/BTC/config.json",
+    "sha256": "0d1ac92229eee18a10299c84bf955655546c26c34592913e7a7813297147f6b8",
+    "size": 691
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/BTC/raw_sources.json",
+    "sha256": "c3e3ac2cf2792577b73e8ed0a0beb860688628c687e4a899fc6da2b72265d2ad",
+    "size": 141029
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/ETH/candle_tick_disagreements.json",
+    "sha256": "d3bf828d7bf13f583e86779bf64e157076808af2195376edc8bc442ecb02b5ac",
+    "size": 976
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/ETH/signals.json",
+    "sha256": "331cda7a86c2d22f9c8f13ef933979be9065c17ef7501289d179c49e871ca558",
+    "size": 125393
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/ETH/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/ETH/config.json",
+    "sha256": "68017bd85ce885faaceff4ff389bd346e7490ea785a35490b57e73c6480ab37b",
+    "size": 691
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/ETH/raw_sources.json",
+    "sha256": "21e2d360527291d0a9bd642620f2d6cb89ab253f0f1940684998d9472eb7c94e",
+    "size": 130386
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/BTC/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "42817da7f219551fab7398907cbadd28e268e632aba66750265a672cc4cfd1ff",
+    "size": 274607
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/BTC/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "176cc61e667e23eb69563a211b4109aab4f279bfe445455d76f8159aab6afd5a",
+    "size": 1402692
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/BTC/whole/progress.json",
+    "sha256": "3fef71e6224e05ba26a30b2ca1bb61fcae47de927d4e1e80c3da98400e5b3c79",
+    "size": 119
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/ETH/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "a662b52851f5ad935a0845a820738e42a2f624a80757a1646402df22c5c52a5d",
+    "size": 280971
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/ETH/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "23220943cbc39d728e37b3854b102cc26701300dc3188f496072fd20e00a6d0e",
+    "size": 1008465
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2023/ETH/whole/progress.json",
+    "sha256": "e833942851d4ee6a9cc34144d88a3008d81ae429dea87caa03cc162b59be8d1e",
+    "size": 119
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/BTC/failure.json",
+    "sha256": "2477b78b46c23c44715a3d7188ba0e4d5287cca4429b7f219bb7147bf66e1782",
+    "size": 2564
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/BTC/signals.json",
+    "sha256": "cbf3038a7b9f665283c7bb65e7b3331851e994e16c163e62d1ece53c50bb0189",
+    "size": 84846
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/BTC/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/BTC/config.json",
+    "sha256": "000aff4094521d7081e022a47d206600e4652cf427547c9ab566627a83bfa973",
+    "size": 691
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/BTC/transport_recovery.json",
+    "sha256": "889777a3cf62b771f13cf769f5889b83a2d8796e29999a0b24076440c3b6064c",
+    "size": 3692
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/BTC/raw_sources.json",
+    "sha256": "3110fdb6c157d423074427518519601f055acefa764569498d422532d4b0144d",
+    "size": 90362
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/ETH/failure.json",
+    "sha256": "6b81ffcdd6f318216f2479060261d8920c3021f6174717d6b87878f879918142",
+    "size": 2560
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/ETH/signals.json",
+    "sha256": "759d01b09d8a5e5621f3ce0c99176f375bfabc31815bc1e987f4a03e02ac5aa0",
+    "size": 46447
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/ETH/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/ETH/config.json",
+    "sha256": "02458fb7cb08d60354c95894c573bb548bcb1684b372996e22c29d1a990cb131",
+    "size": 691
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/ETH/raw_sources.json",
+    "sha256": "e9b60bb5d18af6438e2b2ec2c95d1ffe5f23831f5038022462142bc4d610f470",
+    "size": 55457
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/BTC/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "85da331c81df136ae8c86c1e3c65c280e017f2e5d0e184f40ebf7af896c9982b",
+    "size": 241021
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/BTC/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "a18491ad11889624653567b49057d35c3776cda3df51f5f604aa1ab10380361d",
+    "size": 866440
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/BTC/whole/progress.json",
+    "sha256": "98ed98bc5be2181a3e011a2f16c9b22f1338b31a2588b623a88d4f34100ac6f1",
+    "size": 119
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/ETH/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "dc7efde24dbfa6b945c4e5e792a5b365abe033f8b65415cfe7e675e7c894507f",
+    "size": 194031
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/ETH/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "19314f115444ee9d6db2c1501349a7d38db1aadb3a611c528b3f8e2898dc8738",
+    "size": 385977
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2022/ETH/whole/progress.json",
+    "sha256": "480bb375a9904fe2df12801e62e63dd6a4a3da0acc9753d54013e3df11026c97",
+    "size": 119
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/candle_tick_disagreements.json",
+    "sha256": "21e0fa3ab72ff515b4f06312e809c24a5a08b828f117cb1e227bd691304ac24c",
+    "size": 1000
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/failure.json",
+    "sha256": "2d7efd89e53aab1e0c4336257103f994a1b4ce083e31cbdd2324028f0e7df623",
+    "size": 2564
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/signals.json",
+    "sha256": "6078ed05871361ffe44ddba34cd265f2f5161b47159d3d1b97450a1411afe28a",
+    "size": 122731
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/config.json",
+    "sha256": "225a5ffcbeaba0792d83b625eac1649c3699cf0de1abe37e1ddcc215c11b9375",
+    "size": 691
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/transport_recovery.json",
+    "sha256": "e1965212ba06550e3e0a05bec38e660ef1c97d9973ee1b174d9b623ed0d0fc3a",
+    "size": 3692
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/raw_sources.json",
+    "sha256": "6bf97b0acaefe6d2c02efb1a38c18345da7f87ae7262013c3e7a94b95c2f575c",
+    "size": 116999
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/failure.json",
+    "sha256": "dfcdce48fc9ef5e0ffc53d5c1d4299af02becce431474b2a75495f72a588a3fb",
+    "size": 3270
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/S_ALL_evidence.json",
+    "sha256": "96e1533728c48ea99897f28f9a8d3fe7342186052c2623f910eb0724e1f8e865",
+    "size": 649
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/signals.json",
+    "sha256": "f8f8a90d07e4f54c3c88f28e92c2c6bc2c88d60c05bfe82c79803ac4ede323ea",
+    "size": 63167
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/status.json",
+    "sha256": "79d4f37e267524de617ac14b92fc97cd01dd85c7f6ba5a1f23186814ca6f36b8",
+    "size": 148
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/config.json",
+    "sha256": "4993c3d0bb43e7afb5544fb3ef5c6dc98658ce1563c5e01c58136f31d79dfc97",
+    "size": 690
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/transport_recovery.json",
+    "sha256": "12e7b4437ec11bf9ff7df012086904704a62b5e5e20a174e315f8d3eb2831d84",
+    "size": 4398
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/raw_sources.json",
+    "sha256": "23c00ce2c99fbd302b40aa9d51adc511af798d11fcade2ff6b34d1c57ae77072",
+    "size": 62513
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "344ee5d3dfb7d371123712f61984d9a0caf9986a0154cd254346b2906dd970ef",
+    "size": 245854
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "4c0b389f447a15a797a4ea28b16efa8fe77362dc2c7ef8517cc4454e5bc81afb",
+    "size": 1199899
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/BTC/whole/progress.json",
+    "sha256": "0ec24d1d66cfb0c186d67d3eea5501afe683d6a9c532e4c7b516fdb9b939ea63",
+    "size": 119
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "7e8baa50809a87c663d87d50a67802315ad12039a888522f79fc4a5bb7d21314",
+    "size": 232218
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "1ad0ff338cf91a7ccff6a56781b09f889b3e43f22cca21fcbc81632f50ee3ccc",
+    "size": 489450
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2025/ETH/whole/progress.json",
+    "sha256": "cf364d2a226ec1eb02b6a50a36bfd81b699d0050934133002520203635e0aeee",
+    "size": 120
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/BTC/candle_tick_disagreements.json",
+    "sha256": "6ab11fd95bd81ebfd15216855cabda971897680429a5cc3256d4bb8cf7e18b46",
+    "size": 977
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/BTC/signals.json",
+    "sha256": "ecdb8544ce27e6ce9b0647bd2b0ff2ac5c6ac85edf98cd4827e9dbb91cb1967a",
+    "size": 102923
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/BTC/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/BTC/config.json",
+    "sha256": "b1315a65f4d9eba8772c4e0acaf4e61114abab03ca2e4cc410381de0b6a060de",
+    "size": 691
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/BTC/raw_sources.json",
+    "sha256": "b7d8c4747dedea290abaf5055f60e800b350796986de48388d1cdfe75f8f5ce7",
+    "size": 103553
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/ETH/candle_tick_disagreements.json",
+    "sha256": "c2f530596e003618bcb5129a7084b5313718e72a7afc43dd2d4fc56fd33bfcd5",
+    "size": 976
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/ETH/signals.json",
+    "sha256": "dc47f90d60fb19edcf28ce499e2b2773489b360e7ee2a7febf37e6043bbcbd87",
+    "size": 72190
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/ETH/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/ETH/config.json",
+    "sha256": "1918bbc6b981cc7c391eb349b417c598806fad5c99dda7896840bac25757bb3d",
+    "size": 691
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/ETH/raw_sources.json",
+    "sha256": "1750409b413920690c80d913148c3bca93dc5bb86e5412f9d7eb0d5210973117",
+    "size": 75025
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/BTC/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "c90c0e76d94ca50078439c329875800a0e943f6533ed94cca4a8a600f6dfc403",
+    "size": 264838
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/BTC/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "aa2535792d8c37842473bdc456da072f44397fdc902cb65d3d54ba72f1348cc0",
+    "size": 1078534
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/BTC/whole/progress.json",
+    "sha256": "251864595294a143f4967d3e3862b858bde87d707189149af9e03877699d4c6f",
+    "size": 119
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/ETH/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "bdf1999aab674f9a288624de9f9f3f63d64eb4344612a89c22710a0afa364221",
+    "size": 231714
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/ETH/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "d0b37460e8a18aca83e478e33923ee0a58b5fe08237fb52c4a1005acedd0adac",
+    "size": 615070
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2024/ETH/whole/progress.json",
+    "sha256": "3fa3269e2edd9179322a6edea5e8173250e7203af9d04bc4ec31570946853b05",
+    "size": 120
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/BTC/signals.json",
+    "sha256": "f11d29a6261269ca3ffaec66c6b7b418e643613f151ac932973e8bd8cd4e9239",
+    "size": 24696
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/BTC/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/BTC/config.json",
+    "sha256": "1941f59872e9dfb151579324a0910f508c7d618d3471c7b93645ece92d20ac7b",
+    "size": 691
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/BTC/raw_sources.json",
+    "sha256": "b903e8b9900f298b469a3165f1ed00f80d421bb251866d92040e5e3460370a76",
+    "size": 31715
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/ETH/signals.json",
+    "sha256": "28bf3fac08ef628e7121b40199f5159eb9398c2e4cdc2b10744949cbf5c892c6",
+    "size": 14628
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/ETH/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/ETH/config.json",
+    "sha256": "7de56cb6df4bbce4f6654121487ee90b24c18835d77432b1a9ab9d6357f53784",
+    "size": 691
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/ETH/raw_sources.json",
+    "sha256": "f05dd05d18a8830bd431f4ad6483aa7112f1ea482cd17f013c0dd71d84b84d2f",
+    "size": 18496
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/BTC/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "f0e0adc03f4e190a6c1140afb7a651f27b52834dd7515c46bf092a0582f1d1d0",
+    "size": 133741
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/BTC/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "39f5881776ff7314f73addb715276d92a56ff6d8a50754d04ace95e83963149d",
+    "size": 283418
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/BTC/whole/progress.json",
+    "sha256": "2459285ec88fa35d676da4accaded8795dffbca1f8666c78a77d677f4c1c753d",
+    "size": 118
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/ETH/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "108d7efd0237d6f0fdfe05da89cfc3170872b858050ad6259dc2071df73c9022",
+    "size": 100246
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/ETH/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "ec4c41267673a592b2f5afdbf0a6bd88f3a46d2ab00856470189e5a6bf584cbe",
+    "size": 125925
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2021/ETH/whole/progress.json",
+    "sha256": "eb6041e6de946b0e89b4567e54a9269ac845433f598c59dcd7e6753c84cf855d",
+    "size": 118
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/BTC/failure.json",
+    "sha256": "ed5530f65be4351dfbfbeec001d8e478066f8f333b342b37fb369a1bd0e87b5e",
+    "size": 2560
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/BTC/signals.json",
+    "sha256": "dc7746c73b85c22740460412a49c141b4c8d377b4897f2623b0a3d6073d88e5d",
+    "size": 112384
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/BTC/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/BTC/config.json",
+    "sha256": "7e05cb891b8cfb351e7694a20b6e417f8f4c258099bceaa311ec97381b08e402",
+    "size": 687
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/BTC/raw_sources.json",
+    "sha256": "967092835c78fd205205f3a3765cf8735af99d7cf1c98cdea6423154bc3cfcd9",
+    "size": 105480
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/ETH/signals.json",
+    "sha256": "c0220d294f953f19afa57ced1af882daf68a8c7635ddb4827e0695cc1ca5d2e8",
+    "size": 82816
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/ETH/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/ETH/config.json",
+    "sha256": "ce6a8270f163402b3b80697cd2e16d046e4cf93c7cb1217618d59ffb2faa4feb",
+    "size": 687
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/ETH/raw_sources.json",
+    "sha256": "558a2b04fee5617b60e3b503f6978066797736d0f46a681f92cecc7b46c43ad3",
+    "size": 82212
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/BTC/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "9bf76744ef69952f3b30f59b0459dca98af6161041fdf8c110e4c37dfbe6de09",
+    "size": 218019
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/BTC/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "a9374fae149234c635462b625a74d0a6f6b201c72ce884db7e02e3a9545c63ee",
+    "size": 1100019
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/BTC/whole/progress.json",
+    "sha256": "1ed9f9773e187514536541e82ca94604ffa966e56f553614dd80735c576d33bc",
+    "size": 119
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/ETH/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "65f4531c1c48e55f159d6f17f303ee3cb905dfd3a3b68ebc201a699836ad9204",
+    "size": 218061
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/ETH/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "ac0c746f446af14adb7c6f4f2a11ba12a5743999d4822c48cb6555200d2ea6c1",
+    "size": 645698
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2026/ETH/whole/progress.json",
+    "sha256": "cc280f87adf555314eeeb48ac1dd67aa8c6126f55f6a5950f8cf5bfdc8740ad9",
+    "size": 120
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/BTC/signals.json",
+    "sha256": "9ba5397a3a177475992bdb1dab3a01f061c6989ac05bcfb5e9d965ead9ae207f",
+    "size": 92134
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/BTC/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/BTC/config.json",
+    "sha256": "42b72a50ad416110877c8d6d01c1bafac8d75ccd4888ce0882fc8beaec51614a",
+    "size": 686
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/BTC/raw_sources.json",
+    "sha256": "2717600cf8beee9ae9fca16282b61b7793d8c11fade2de41ca3ee1bd13aa51a5",
+    "size": 95256
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/ETH/signals.json",
+    "sha256": "b46c1f7345e995f8440b7cc17ea6edc63905fd4aae9f41acde876edf25219875",
+    "size": 49553
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/ETH/status.json",
+    "sha256": "8350783b52cc428435c58ad8d9c5d1e86d2b325713b78e5a9a3564ed284f9a79",
+    "size": 129
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/ETH/config.json",
+    "sha256": "eced536cb82543598420ff2b61f86fbbb8cf2d94d29d7041b2cbfb23c0e8984a",
+    "size": 686
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/ETH/raw_sources.json",
+    "sha256": "f7e1ce8da15745323c0d3465d4a7137647b197b916825af14b79d8bdc034b759",
+    "size": 61488
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/BTC/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "e7960492157365ba1392850e34aa6315e7f518c17733c9c5a5087c5196db9fb9",
+    "size": 242689
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/BTC/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "94c024f5600a348c3b24c2e56410a0e61071b8f93df0485ff6069f18c46d2bf9",
+    "size": 1079738
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/BTC/whole/progress.json",
+    "sha256": "7c404f34b5f62d19445a139f7fe1bd6439d28f5aa0d39d428a56c476cd5debc6",
+    "size": 119
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/ETH/results/MA_DIRECTION_REFERENCE_result.json",
+    "sha256": "360618bed7ee167d686664216a38afcf0f71ad6f42189ba584ce8ae34f0ceed3",
+    "size": 222254
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/ETH/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "sha256": "b8ac2ff2c64f25381dc5b120b9f693773704563eb41475497ab98671d886d918",
+    "size": 350477
+  },
+  {
+    "path": "outputs/baseline_registry/runs/2020/ETH/whole/progress.json",
+    "sha256": "e9312a391eab700e047b53c8710a8f8c4bce7af39e18c933a2a8904a5d6fae1a",
+    "size": 120
+  },
+  {
+    "path": "outputs/baseline_registry/historical/2026/BTC/MA_equity.npz",
+    "sha256": "23a81af9bac8fc2c153e1ba133c8fe17c1427520480bf00a42c1ff6562036892",
+    "size": 1100015
+  },
+  {
+    "path": "outputs/baseline_registry/historical/2026/BTC/MA_result.json",
+    "sha256": "2fb8fec4fd321d8e371e5ff29dae8eccf4c1fc64d56a1d4c3b7496116a2c2c27",
+    "size": 120208
+  },
+  {
+    "path": "outputs/baseline_registry/historical/2026/ETH/MA_equity.npz",
+    "sha256": "ac0c746f446af14adb7c6f4f2a11ba12a5743999d4822c48cb6555200d2ea6c1",
+    "size": 645698
+  },
+  {
+    "path": "outputs/baseline_registry/historical/2026/ETH/MA_result.json",
+    "sha256": "7851071aa267ec0d003229d741e9ac708f96f9bceab9362af57f845ac9b0cf08",
+    "size": 121445
+  }
+]

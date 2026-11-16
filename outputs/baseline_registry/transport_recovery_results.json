@@ -1,0 +1,20 @@
+[
+  {
+    "year": 2022,
+    "asset": "BTC",
+    "returncode": 0,
+    "log": "logs/2022_BTC_transport_recovery.log"
+  },
+  {
+    "year": 2025,
+    "asset": "BTC",
+    "returncode": 0,
+    "log": "logs/2025_BTC_transport_recovery.log"
+  },
+  {
+    "year": 2025,
+    "asset": "ETH",
+    "returncode": 1,
+    "log": "logs/2025_ETH_transport_recovery.log"
+  }
+]

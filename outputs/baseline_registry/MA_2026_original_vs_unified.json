@@ -1,0 +1,56 @@
+[
+  {
+    "asset": "BTC",
+    "closed_count_old": 102,
+    "closed_count_new": 102,
+    "ending_equity_exact": true,
+    "original_trade_fields_exact": false,
+    "differences": [
+      {
+        "trade": 58,
+        "field": "opened_ms",
+        "old": 1782826210000,
+        "new": 1782826210001
+      },
+      {
+        "trade": 58,
+        "field": "opened_us",
+        "old": 1782826210000000,
+        "new": 1782826210001000
+      },
+      {
+        "trade": 74,
+        "field": "opened_ms",
+        "old": 1787153410010,
+        "new": 1787153410000
+      },
+      {
+        "trade": 74,
+        "field": "opened_us",
+        "old": 1787153410010000,
+        "new": 1787153410000000
+      }
+    ]
+  },
+  {
+    "asset": "ETH",
+    "closed_count_old": 111,
+    "closed_count_new": 111,
+    "ending_equity_exact": true,
+    "original_trade_fields_exact": false,
+    "differences": [
+      {
+        "trade": 61,
+        "field": "opened_ms",
+        "old": 1783478710040,
+        "new": 1783478710017
+      },
+      {
+        "trade": 61,
+        "field": "opened_us",
+        "old": 1783478710040000,
+        "new": 1783478710017000
+      }
+    ]
+  }
+]

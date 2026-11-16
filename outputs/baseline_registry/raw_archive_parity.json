@@ -1,0 +1,128 @@
+[
+  {
+    "period": 2020,
+    "asset": "BTC",
+    "old_raw_days": 168,
+    "new_raw_days": 181,
+    "common_days": 151,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 30
+  },
+  {
+    "period": 2020,
+    "asset": "ETH",
+    "old_raw_days": 103,
+    "new_raw_days": 117,
+    "common_days": 85,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 32
+  },
+  {
+    "period": 2021,
+    "asset": "BTC",
+    "old_raw_days": 73,
+    "new_raw_days": 60,
+    "common_days": 47,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 13
+  },
+  {
+    "period": 2021,
+    "asset": "ETH",
+    "old_raw_days": 50,
+    "new_raw_days": 35,
+    "common_days": 28,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 7
+  },
+  {
+    "period": 2022,
+    "asset": "BTC",
+    "old_raw_days": 175,
+    "new_raw_days": 171,
+    "common_days": 138,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 33
+  },
+  {
+    "period": 2022,
+    "asset": "ETH",
+    "old_raw_days": 120,
+    "new_raw_days": 105,
+    "common_days": 80,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 25
+  },
+  {
+    "period": 2023,
+    "asset": "BTC",
+    "old_raw_days": 242,
+    "new_raw_days": 267,
+    "common_days": 229,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 38
+  },
+  {
+    "period": 2023,
+    "asset": "ETH",
+    "old_raw_days": 209,
+    "new_raw_days": 247,
+    "common_days": 196,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 51
+  },
+  {
+    "period": 2024,
+    "asset": "BTC",
+    "old_raw_days": 170,
+    "new_raw_days": 196,
+    "common_days": 149,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 47
+  },
+  {
+    "period": 2024,
+    "asset": "ETH",
+    "old_raw_days": 135,
+    "new_raw_days": 142,
+    "common_days": 103,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 39
+  },
+  {
+    "period": 2025,
+    "asset": "BTC",
+    "old_raw_days": 202,
+    "new_raw_days": 221,
+    "common_days": 178,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 43
+  },
+  {
+    "period": 2025,
+    "asset": "ETH",
+    "old_raw_days": 116,
+    "new_raw_days": 118,
+    "common_days": 93,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 25
+  },
+  {
+    "period": 2026,
+    "asset": "BTC",
+    "old_raw_days": 179,
+    "new_raw_days": 199,
+    "common_days": 165,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 34
+  },
+  {
+    "period": 2026,
+    "asset": "ETH",
+    "old_raw_days": 151,
+    "new_raw_days": 155,
+    "common_days": 128,
+    "common_SHA_identical": true,
+    "additional_MA_days_official_checksum_verified": 27
+  }
+]

@@ -1,11 +1,1 @@
 ﻿year,asset,status,error,checkpoint_next_time,resume_command
-2021,ETH,UNVERIFIED,RUNNING_OR_PENDING,2021-12-13T08:00:00.000+08:00,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2021 ETH
-2022,BTC,UNVERIFIED,RUNNING_OR_PENDING,2022-01-20T08:00:00.000+08:00,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2022 BTC
-2022,ETH,UNVERIFIED,RUNNING_OR_PENDING,,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2022 ETH
-2023,BTC,UNVERIFIED,RUNNING_OR_PENDING,,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2023 BTC
-2023,ETH,UNVERIFIED,RUNNING_OR_PENDING,,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2023 ETH
-2024,BTC,UNVERIFIED,RUNNING_OR_PENDING,,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2024 BTC
-2024,ETH,UNVERIFIED,RUNNING_OR_PENDING,,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2024 ETH
-2025,BTC,UNVERIFIED,RUNNING_OR_PENDING,,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2025 BTC
-2025,ETH,UNVERIFIED,RUNNING_OR_PENDING,,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2025 ETH
-2026,BTC,UNVERIFIED,"RuntimeError('INSUFFICIENT_DISK_FOR_RAW_ARCHIVE: {""url"": ""https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-02-08.zip"", ""archive_bytes"": 44010226, ""free_bytes"": 73740288, ""required_bytes"": 77564658}')",2026-02-08T08:00:00.000+08:00,/workspace/.venv-btc-eth-original/bin/python outputs/baseline_registry/compare_runner.py 2026 BTC
