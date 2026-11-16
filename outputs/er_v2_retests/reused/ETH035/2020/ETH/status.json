@@ -1,0 +1,14 @@
+{
+  "complete": true,
+  "source": "REUSED_MATCHING_ER_V2_RAW",
+  "result_SHA256": "fde914858ad19ac9d3d3f4ab357b8aee5f773fe31be5ee65c4eea96ae89d2ebd",
+  "equity_SHA256": "a4a4ca4e6bc5d10fd5dd59a309512abd4ea222e0785b31df3bd7db43a5c56a8c",
+  "original_path": "outputs/eth_density_experiment/runs/2020/ETH/ZERO_F_result.json",
+  "original_SHA256": "fde914858ad19ac9d3d3f4ab357b8aee5f773fe31be5ee65c4eea96ae89d2ebd",
+  "proof": {
+    "source_commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+    "V2": true,
+    "same_folder_zero_baseline_trade_fields_cash_equity_match": true,
+    "threshold": 0.35
+  }
+}

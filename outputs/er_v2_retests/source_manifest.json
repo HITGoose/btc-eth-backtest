@@ -1,0 +1,262 @@
+[
+  {
+    "source": "outputs/a_failed_breakout_exit/EXPERIMENT.md",
+    "commit": "a9d319d1691ca8c00b654e18dc008a2c8403d82e",
+    "local_sha256": "c08d408ec50814a1fd1ad1b7d8497bef88677b99834592f16ceb7006809ca43d",
+    "evidence_copy": "outputs/er_v2_retests/history/a_failed_breakout_exit/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "c08d408ec50814a1fd1ad1b7d8497bef88677b99834592f16ceb7006809ca43d",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_failed_breakout_exit/runner.py",
+    "commit": "a9d319d1691ca8c00b654e18dc008a2c8403d82e",
+    "local_sha256": "038100b5603fe2dec02f2435335500eba804dab8f29c6c24ca22d1b48842db9f",
+    "evidence_copy": "outputs/er_v2_retests/history/a_failed_breakout_exit/runner.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "038100b5603fe2dec02f2435335500eba804dab8f29c6c24ca22d1b48842db9f",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_volatility_sizing/EXPERIMENT.md",
+    "commit": "5106c41874eb570705da58ef7a77461e9441ef58",
+    "local_sha256": "8e55030ab3d45f8cbba4e3dcd6d85f14e55563d1693d253975c9a78bb9b03880",
+    "evidence_copy": "outputs/er_v2_retests/history/a_volatility_sizing/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "8e55030ab3d45f8cbba4e3dcd6d85f14e55563d1693d253975c9a78bb9b03880",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_volatility_sizing/features.py",
+    "commit": "5106c41874eb570705da58ef7a77461e9441ef58",
+    "local_sha256": "becae4cf2113c1c713777b11844debca8401b0cfd9e5114bebcea88b227eb890",
+    "evidence_copy": "outputs/er_v2_retests/history/a_volatility_sizing/features.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "becae4cf2113c1c713777b11844debca8401b0cfd9e5114bebcea88b227eb890",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_volatility_sizing/freeze.py",
+    "commit": "5106c41874eb570705da58ef7a77461e9441ef58",
+    "local_sha256": "8b2f264dbb3912066bf03c34b493259a6063e27cfccf6d596f70beace7f1d3d0",
+    "evidence_copy": "outputs/er_v2_retests/history/a_volatility_sizing/freeze.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "8b2f264dbb3912066bf03c34b493259a6063e27cfccf6d596f70beace7f1d3d0",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_atr_initial_stop/EXPERIMENT.md",
+    "commit": "4a495b8341a81ff6687762e3a5b18a022bc83160",
+    "local_sha256": "752c191ea05abf9c713dadf04bc7c5a94b6636e63941f859e78d6f852b4820be",
+    "evidence_copy": "outputs/er_v2_retests/history/a_atr_initial_stop/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "752c191ea05abf9c713dadf04bc7c5a94b6636e63941f859e78d6f852b4820be",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_atr_initial_stop/features.py",
+    "commit": "4a495b8341a81ff6687762e3a5b18a022bc83160",
+    "local_sha256": "2eb3b212a7857337e2f1befd8b45733aa907c90023446744de6d2936163b32a5",
+    "evidence_copy": "outputs/er_v2_retests/history/a_atr_initial_stop/features.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "2eb3b212a7857337e2f1befd8b45733aa907c90023446744de6d2936163b32a5",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_atr_initial_stop/atr_engine.py",
+    "commit": "4a495b8341a81ff6687762e3a5b18a022bc83160",
+    "local_sha256": "d0d43a0634db4b05b48a1f953675b95f5bd75e5c256b5b06741556ef4ec4f90f",
+    "evidence_copy": "outputs/er_v2_retests/history/a_atr_initial_stop/atr_engine.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "d0d43a0634db4b05b48a1f953675b95f5bd75e5c256b5b06741556ef4ec4f90f",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_stale_order_cancel/EXPERIMENT.md",
+    "commit": "95b734aabb9785abfdbc06bfe0adf1af325e6777",
+    "local_sha256": "0b361a8633bcc7064a5d91fbf545af53711431b603c9f35650a6335b68afa1b9",
+    "evidence_copy": "outputs/er_v2_retests/history/a_stale_order_cancel/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "0b361a8633bcc7064a5d91fbf545af53711431b603c9f35650a6335b68afa1b9",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_stale_order_cancel/cancel_engine.py",
+    "commit": "95b734aabb9785abfdbc06bfe0adf1af325e6777",
+    "local_sha256": "a57f219256440e32c26d8d02ee8e62dc153e6cb9c81a9777bf05fd80121cd410",
+    "evidence_copy": "outputs/er_v2_retests/history/a_stale_order_cancel/cancel_engine.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "a57f219256440e32c26d8d02ee8e62dc153e6cb9c81a9777bf05fd80121cd410",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_exit_regime_sizing/EXPERIMENT.md",
+    "commit": "060e12a18bc745a7c98e5270f2e37b0c759cc5ff",
+    "local_sha256": "ada361b3182794ba7ba0a38efc23601bfd86a8e80dc0abf759c30d0dadba540b",
+    "evidence_copy": "outputs/er_v2_retests/history/a_exit_regime_sizing/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "ada361b3182794ba7ba0a38efc23601bfd86a8e80dc0abf759c30d0dadba540b",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/a_exit_regime_sizing/runner.py",
+    "commit": "060e12a18bc745a7c98e5270f2e37b0c759cc5ff",
+    "local_sha256": "aa0bd4b0123332577739f5713721d21371138fbed712b024a4753d8b41b4b501",
+    "evidence_copy": "outputs/er_v2_retests/history/a_exit_regime_sizing/runner.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "aa0bd4b0123332577739f5713721d21371138fbed712b024a4753d8b41b4b501",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/adaptive_density_control/EXPERIMENT.md",
+    "commit": "7a4a9fedaf9d297d85c0fa6279acd2627db2497f",
+    "local_sha256": "dc5087f9bbf943265ad90bd1b57d0d8b09e50beb089a925c015364c34a5f1797",
+    "evidence_copy": "outputs/er_v2_retests/history/adaptive_density_control/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "dc5087f9bbf943265ad90bd1b57d0d8b09e50beb089a925c015364c34a5f1797",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/adaptive_density_control/signals.py",
+    "commit": "7a4a9fedaf9d297d85c0fa6279acd2627db2497f",
+    "local_sha256": "de3f98893755a7f5870595b37e3dc2cdcba879bff43ff8637ac8c711aac5f09d",
+    "evidence_copy": "outputs/er_v2_retests/history/adaptive_density_control/signals.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "de3f98893755a7f5870595b37e3dc2cdcba879bff43ff8637ac8c711aac5f09d",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/adaptive_density_control/freeze.py",
+    "commit": "7a4a9fedaf9d297d85c0fa6279acd2627db2497f",
+    "local_sha256": "f0ae7e4fb7c1573d624da0609b858fa550e9ebb1bbdc1f91077bb7c2a5a96c37",
+    "evidence_copy": "outputs/er_v2_retests/history/adaptive_density_control/freeze.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "f0ae7e4fb7c1573d624da0609b858fa550e9ebb1bbdc1f91077bb7c2a5a96c37",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/eth_density_experiment/EXPERIMENT.md",
+    "commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+    "local_sha256": "4c0b8d7dfd6b90f8152f2773b09c2dbc16469036601a4ee00e05f224615b4cfc",
+    "evidence_copy": "outputs/er_v2_retests/history/eth_density_experiment/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "4c0b8d7dfd6b90f8152f2773b09c2dbc16469036601a4ee00e05f224615b4cfc",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/eth_density_experiment/strategy.py",
+    "commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+    "local_sha256": "0ce1050d7c23f8fe215a1c1c7f7ff938c2709c3bf354ee2a05156c7e3c658bc0",
+    "evidence_copy": "outputs/er_v2_retests/history/eth_density_experiment/strategy.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "0ce1050d7c23f8fe215a1c1c7f7ff938c2709c3bf354ee2a05156c7e3c658bc0",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/eth_core_priority/EXPERIMENT.md",
+    "commit": "17366bb41b11ca82e3084f2f042c09e00b160234",
+    "local_sha256": "4cffacf6cbab05edbaf4cbd12a2179fa5ebfeaf8451f02fdb7c3a710a3e60e52",
+    "evidence_copy": "outputs/er_v2_retests/history/eth_core_priority/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "4cffacf6cbab05edbaf4cbd12a2179fa5ebfeaf8451f02fdb7c3a710a3e60e52",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/eth_core_priority/strategy.py",
+    "commit": "17366bb41b11ca82e3084f2f042c09e00b160234",
+    "local_sha256": "eaf3beeaad9f4116b60526dde4d73f2bc8f806b64de15ede8ac8625ff09c7d58",
+    "evidence_copy": "outputs/er_v2_retests/history/eth_core_priority/strategy.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "eaf3beeaad9f4116b60526dde4d73f2bc8f806b64de15ede8ac8625ff09c7d58",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/eth_core_priority/priority_engine.py",
+    "commit": "17366bb41b11ca82e3084f2f042c09e00b160234",
+    "local_sha256": "0b61cefcda814b97b47251ce86406ca98514557f6361e087f4ba33fa3179e369",
+    "evidence_copy": "outputs/er_v2_retests/history/eth_core_priority/priority_engine.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "0b61cefcda814b97b47251ce86406ca98514557f6361e087f4ba33fa3179e369",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/extra_sizing_cost_stress/EXPERIMENT.md",
+    "commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "local_sha256": "7def0db69dc5865333094b44a43ab751fb654d526b5ea74eb3a645bb385b201f",
+    "evidence_copy": "outputs/er_v2_retests/history/extra_sizing_cost_stress/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "7def0db69dc5865333094b44a43ab751fb654d526b5ea74eb3a645bb385b201f",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/extra_sizing_cost_stress/shared.py",
+    "commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "local_sha256": "3f7398117f9f2f94b1a715e601f22252976774243bae52053dfdcb22fbfa2b1f",
+    "evidence_copy": "outputs/er_v2_retests/history/extra_sizing_cost_stress/shared.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "3f7398117f9f2f94b1a715e601f22252976774243bae52053dfdcb22fbfa2b1f",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/extra_sizing_cost_stress/cost_engine.py",
+    "commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "local_sha256": "f79666b00f90a6ed0bc00170c13e5de0227c9c5531ee0960a1eb627114fa328b",
+    "evidence_copy": "outputs/er_v2_retests/history/extra_sizing_cost_stress/cost_engine.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "f79666b00f90a6ed0bc00170c13e5de0227c9c5531ee0960a1eb627114fa328b",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/rebound_followdown/signals.py",
+    "commit": "763d67a05807bae3fb261c95a22393858c9256da",
+    "local_sha256": "1200cc69a012e3c5d47a891bd1be42e9885b43a7da8e3cdc405293bae6f87fb2",
+    "evidence_copy": "outputs/er_v2_retests/history/rebound_followdown/signals.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "1200cc69a012e3c5d47a891bd1be42e9885b43a7da8e3cdc405293bae6f87fb2",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/rebound_annual_zero/EXPERIMENT.md",
+    "commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "local_sha256": "0abab09364b1f9d31aae2d87c16900d3d18939e59d11e861a4b9d5189ce4799e",
+    "evidence_copy": "outputs/er_v2_retests/history/rebound_annual_zero/EXPERIMENT.md",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "0abab09364b1f9d31aae2d87c16900d3d18939e59d11e861a4b9d5189ce4799e",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  },
+  {
+    "source": "outputs/rebound_annual_zero/worker.py",
+    "commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "local_sha256": "26b859f912d10d7fcac7978d7f48ceab7b6e72c503877df0203de1f7b7ecba6d",
+    "evidence_copy": "outputs/er_v2_retests/history/rebound_annual_zero/worker.py",
+    "commit_scope": "receipt commit or frozen historical branch; specific file remote verification listed separately",
+    "copied_SHA256": "26b859f912d10d7fcac7978d7f48ceab7b6e72c503877df0203de1f7b7ecba6d",
+    "remote_verified": true,
+    "original_local_copy_same": true
+  }
+]

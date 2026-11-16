@@ -1,0 +1,13 @@
+{
+  "annual_replays_started_in_Codex": 0,
+  "source_files_authenticated": 26,
+  "baseline_accounts_same_interval_reused": 12,
+  "legacy_variant_accounts_exported_for_reuse": 53,
+  "prior_corrected_FAIL_VOL": "IMPORT_FROM_USER_DRIVE_OR_ZIP_REQUIRED; earlier years not recomputed",
+  "new_2026_scope": "Jan1 through BJT Nov15 inclusive; end2026-11-16T00:00:00+08:00",
+  "new_2026_baseline": "RUN_IN_COLAB; old Jan-Oct not sufficient",
+  "full_pipeline": "NOT_RUN_HERE",
+  "short_reference": "8h raw minute curve exact against original V2",
+  "main_changed": false,
+  "deployment_changed": false
+}

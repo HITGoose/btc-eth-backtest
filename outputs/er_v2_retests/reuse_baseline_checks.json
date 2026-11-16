@@ -1,0 +1,38 @@
+[
+  {
+    "year": 2020,
+    "source_base_cash_trades_equity_minutes_equal": true,
+    "native_hashes_equal": true,
+    "source": "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2020/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json"
+  },
+  {
+    "year": 2021,
+    "source_base_cash_trades_equity_minutes_equal": true,
+    "native_hashes_equal": true,
+    "source": "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2021/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json"
+  },
+  {
+    "year": 2022,
+    "source_base_cash_trades_equity_minutes_equal": true,
+    "native_hashes_equal": true,
+    "source": "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2022/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json"
+  },
+  {
+    "year": 2023,
+    "source_base_cash_trades_equity_minutes_equal": true,
+    "native_hashes_equal": true,
+    "source": "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json"
+  },
+  {
+    "year": 2024,
+    "source_base_cash_trades_equity_minutes_equal": true,
+    "native_hashes_equal": true,
+    "source": "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2024/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json"
+  },
+  {
+    "year": 2025,
+    "source_base_cash_trades_equity_minutes_equal": true,
+    "native_hashes_equal": true,
+    "source": "/workspace/btc-eth-backtest/outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline/results/S_ALL/C0_B_F_TOUCH_result.json"
+  }
+]

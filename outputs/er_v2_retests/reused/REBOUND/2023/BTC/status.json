@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "source": "REUSED_MATCHING_ER_V2_RAW",
+  "result_SHA256": "7a34de2052d3c5271a92b9af91ad2ba3b35eceb96b923682f5bdcbbf0a417521",
+  "equity_SHA256": "4e2324243c0d961db501114bfa558f061cb21fdbd82dfcc7870d08bdee313859",
+  "original_path": "outputs/rebound_annual_zero/runs/2023/BTC/results/REBOUND_result.json",
+  "original_SHA256": "7a34de2052d3c5271a92b9af91ad2ba3b35eceb96b923682f5bdcbbf0a417521",
+  "proof": {
+    "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "V2": true,
+    "source_baseline_exact_cash_trade_equity_minutes": true
+  }
+}

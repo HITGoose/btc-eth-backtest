@@ -1,0 +1,168 @@
+{
+  "asset": "ETH",
+  "period": "2020",
+  "window": [
+    "2020-02-23T11:30:00.000+08:00",
+    "2020-02-23T19:30:00.000+08:00"
+  ],
+  "key": "REF",
+  "configuration": {
+    "key": "REF",
+    "cost": "ZERO_FUNDING_ZERO",
+    "group": "REF",
+    "fill": "F_TOUCH",
+    "fee": 0.0,
+    "slip": 0.0002,
+    "funding": false
+  },
+  "scenario": "STRICT",
+  "status": "COMPLETE",
+  "fee": 0.0,
+  "cash": 529.69216756,
+  "starting_equity": 500.0,
+  "ending_equity": 529.69216756,
+  "trades": [
+    {
+      "signal_ms": 1582429510000,
+      "opened_ms": 1582429642489,
+      "closed_ms": 1582455633188,
+      "side": "LONG",
+      "reason": "ladder_exit",
+      "entry": 264.87,
+      "exit": 270.115966,
+      "notional": 1499.1642000000002,
+      "net": 29.69216756000006,
+      "rung": 2,
+      "opening_sleeve_cash_usdt": 500.0,
+      "trigger_print": 270.17,
+      "closed_us": 1582455633188000,
+      "opened_us": 1582429642489000,
+      "quantity": 5.66,
+      "stop_before_exit": 270.17,
+      "signal_close_ms": 1582429500000,
+      "final_exit_quantity": 5.66,
+      "final_leg_net": 29.69216756000006,
+      "partial_net": 0.0,
+      "partial_fills": [],
+      "exit_vwap": 270.115966,
+      "actual_final_cash_credit": 29.69216756000003,
+      "entry_fee_usdt": 0.0,
+      "entry_fee_journal_correction": 0.0,
+      "origin": "CORE",
+      "submitted_us": 1582429510000000
+    }
+  ],
+  "events": [
+    {
+      "event": "order_sent",
+      "time_us": 1582429510000000,
+      "price": 264.87,
+      "side": 1,
+      "quantity": 5.66,
+      "effective_submission_us": 1582429510000000,
+      "signal_close_ms": 1582429500000,
+      "origin": "CORE",
+      "submitted_us": 1582429510000000
+    },
+    {
+      "event": "limit_touch_proxy_fill",
+      "time_us": 1582429642489000,
+      "price": 264.87,
+      "entry": 264.87,
+      "side": 1,
+      "quantity": 5.66,
+      "submitted_ms": 1582429510000,
+      "signal_close_ms": 1582429500000,
+      "origin": "CORE",
+      "submitted_us": 1582429510000000,
+      "raw_sequence": 4
+    },
+    {
+      "event": "poll_moves_stop",
+      "time_us": 1582438412000000,
+      "price": 270.38,
+      "rung": 1,
+      "stop": 267.52
+    },
+    {
+      "event": "poll_moves_stop",
+      "time_us": 1582449087000000,
+      "price": 272.87,
+      "rung": 2,
+      "stop": 270.17
+    },
+    {
+      "event": "ladder_exit",
+      "time_us": 1582455633188000,
+      "price": 270.17,
+      "rung": 2,
+      "net_usdt": 29.69216756000006,
+      "signal_close_ms": 1582429500000,
+      "origin": "CORE"
+    }
+  ],
+  "cash_events": [
+    {
+      "time_us": 1582455633188000,
+      "delta": 29.69216756000006,
+      "cash": 529.69216756,
+      "side": 1
+    }
+  ],
+  "stats": {
+    "submitted": 1,
+    "fees": 0.0,
+    "long": 1,
+    "ladder_exit": 1
+  },
+  "place_attempts": [
+    {
+      "scheduled_us": 1582429510000000,
+      "observed_check_us": 1582429510000000,
+      "cash": 500.0,
+      "has_position": false,
+      "has_order": false,
+      "side": 1,
+      "accepted": true
+    }
+  ],
+  "sizing_audit": [
+    {
+      "time_ms": 1582429510000,
+      "signal_close_ms": 1582429500000,
+      "origin": "CORE",
+      "extra_ratio": 1.0,
+      "realized_balance": 500.0,
+      "target_notional": 1500.0,
+      "accepted": true,
+      "actual_quantity": 5.66,
+      "actual_notional": 1499.1642000000002,
+      "reason": null,
+      "suite_key": "REF",
+      "effective_size_multiplier": 1.0,
+      "target_leverage": 3.0
+    }
+  ],
+  "slippage_cost_USDT": 0.30583244000000004,
+  "funding_total_USDT": 0.0,
+  "funding": "NOT_INCLUDED",
+  "source": "BINANCE_USDT_PERPETUAL_ONLY",
+  "state_at_end": {
+    "cash": 529.69216756,
+    "position": null,
+    "position_opened_us": null,
+    "pending_order": null
+  },
+  "actual_raw_last_mark": 270.77,
+  "open_contribution": 0.0,
+  "replacement_at_end": null,
+  "no_OHLC_fallback": true,
+  "retest_start": 1582428600,
+  "retest_end": 1582457400,
+  "retest_configuration": {
+    "stage": 0,
+    "kind": "reference"
+  },
+  "retest_fingerprint": "39a7722a40e1fc087dfe7d306360cb1ad7131cdee0f86d2aea32782fa9ef93a3",
+  "signal_count": 1
+}

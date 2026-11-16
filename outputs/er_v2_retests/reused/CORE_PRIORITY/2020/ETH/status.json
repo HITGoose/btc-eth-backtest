@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "source": "REUSED_MATCHING_ER_V2_RAW",
+  "result_SHA256": "b8a71b1f0622c4afe85b25ff4c887fb41a5eca4c19fce638d59069babbb164f5",
+  "equity_SHA256": "e6da3a4eaf5fa3ccf8765158aed2242a0c0433ee7f22c8ba9bafab47ee972a10",
+  "original_path": "outputs/extra_sizing_cost_stress/runs/2020/ETH/baseline/results/STRICT/C0_H_F_TOUCH_result.json",
+  "original_SHA256": "b8a71b1f0622c4afe85b25ff4c887fb41a5eca4c19fce638d59069babbb164f5",
+  "proof": {
+    "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "V2": true,
+    "source_zero_baseline_exact_regressions": true,
+    "threshold": 0.3,
+    "original_group": "H",
+    "source_2025_S_ALL": false
+  }
+}

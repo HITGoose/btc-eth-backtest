@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "source": "REUSED_MATCHING_ER_V2_RAW",
+  "result_SHA256": "90d2b1266dc4d1fd1c6e6a13b7dd9810b19ef8491a986ab73dc52ad4ccf56219",
+  "equity_SHA256": "902c014a4ed7633511bd0acaef1b27d6fbf0eb78093acf9da7670e91ff5f50c6",
+  "original_path": "outputs/rebound_annual_zero/runs/2020/ETH/results/REBOUND_result.json",
+  "original_SHA256": "90d2b1266dc4d1fd1c6e6a13b7dd9810b19ef8491a986ab73dc52ad4ccf56219",
+  "proof": {
+    "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "V2": true,
+    "source_baseline_exact_cash_trade_equity_minutes": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "passed": [
+    "ATR frozen3pct risk<=6pct, monotonic stop, real V2 MRO",
+    "Cancellation T+60 before matching, cash unchanged, count closes",
+    "cap5 and trail_from_8pct preserve V2 and original rung semantics",
+    "dual-asset supplement size1x; no ETH-only ratio leak"
+  ],
+  "full_year_replays": 0
+}

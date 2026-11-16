@@ -1,0 +1,16 @@
+{
+  "complete": true,
+  "source": "REUSED_MATCHING_ER_V2_RAW",
+  "result_SHA256": "37998e639b55597c22d6159d2803357d42a47b8b68ba29d02202352ad06128c9",
+  "equity_SHA256": "133cbd0a3ad98e868024751d9f80b80044d4a57033a7575444ebddc86b431ada",
+  "original_path": "outputs/eth_density_experiment/runs/2024/ETH/ZERO_D_result.json",
+  "original_SHA256": "37998e639b55597c22d6159d2803357d42a47b8b68ba29d02202352ad06128c9",
+  "proof": {
+    "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+    "V2": true,
+    "source_zero_baseline_exact_regressions": true,
+    "threshold": 0.3,
+    "original_group": "D",
+    "source_2025_S_ALL": false
+  }
+}

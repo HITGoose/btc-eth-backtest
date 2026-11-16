@@ -1,0 +1,963 @@
+[
+  {
+    "key": "ETH030",
+    "year": 2020,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "b1dcce96be875548da80b5a0be7f2af90addcfed718bef71b75b49cdf8cb99c6",
+    "equity_SHA256": "105b66fb0ad54478ebaecb0d869396709d154200b0d19bffe0a3ef6b1f24c7b6",
+    "original_path": "outputs/eth_density_experiment/runs/2020/ETH/ZERO_D_result.json",
+    "original_SHA256": "b1dcce96be875548da80b5a0be7f2af90addcfed718bef71b75b49cdf8cb99c6",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "D",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BTC_CONFIRM",
+    "year": 2020,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "c7842395636053b51796802812a9a317d69c359e9c982c943a6649d9adee59aa",
+    "equity_SHA256": "0e17c4c3face8d354e087bbb6ee8114200515749f4993e1b54202548deaa3844",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2020/ETH/baseline/results/STRICT/C0_G_F_TOUCH_result.json",
+    "original_SHA256": "c7842395636053b51796802812a9a317d69c359e9c982c943a6649d9adee59aa",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "G",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "CORE_PRIORITY",
+    "year": 2020,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "b8a71b1f0622c4afe85b25ff4c887fb41a5eca4c19fce638d59069babbb164f5",
+    "equity_SHA256": "e6da3a4eaf5fa3ccf8765158aed2242a0c0433ee7f22c8ba9bafab47ee972a10",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2020/ETH/baseline/results/STRICT/C0_H_F_TOUCH_result.json",
+    "original_SHA256": "b8a71b1f0622c4afe85b25ff4c887fb41a5eca4c19fce638d59069babbb164f5",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "H",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH100",
+    "year": 2020,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "ae045a282fe664e1a5c130b3878af39b2d9a006fd019567a123a8a39da655115",
+    "equity_SHA256": "f716e0bb6ed18c13deb7773374649f493c178bec7cb9ba1f2d8ce1a999d9092d",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2020/ETH/baseline/results/STRICT/C0_I100_F_TOUCH_result.json",
+    "original_SHA256": "ae045a282fe664e1a5c130b3878af39b2d9a006fd019567a123a8a39da655115",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I100",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH50",
+    "year": 2020,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "e271de19833d9e1ff9aaa40b1d2503f74246bbec2adbe8872f793e76fefcf559",
+    "equity_SHA256": "2a00b6bb725195ddd6638cf480a34c5c6e5965d84a447b614303a315eccddc51",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C0_I50_F_TOUCH_result.json",
+    "original_SHA256": "e271de19833d9e1ff9aaa40b1d2503f74246bbec2adbe8872f793e76fefcf559",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I50",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH25",
+    "year": 2020,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "55bf775391be528e0d77a8bd90ebdcaa972d885e1a6ed8d5e6ac4c288edd08e4",
+    "equity_SHA256": "626fc99246b4d168ceb0becedad10cd9d232ed95cf8a8bcd6bf49d7be0d2e0d7",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2020/ETH/experiment/results/STRICT/C0_I25_F_TOUCH_result.json",
+    "original_SHA256": "55bf775391be528e0d77a8bd90ebdcaa972d885e1a6ed8d5e6ac4c288edd08e4",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I25",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "ETH035",
+    "year": 2020,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "fde914858ad19ac9d3d3f4ab357b8aee5f773fe31be5ee65c4eea96ae89d2ebd",
+    "equity_SHA256": "a4a4ca4e6bc5d10fd5dd59a309512abd4ea222e0785b31df3bd7db43a5c56a8c",
+    "original_path": "outputs/eth_density_experiment/runs/2020/ETH/ZERO_F_result.json",
+    "original_SHA256": "fde914858ad19ac9d3d3f4ab357b8aee5f773fe31be5ee65c4eea96ae89d2ebd",
+    "proof": {
+      "source_commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+      "V2": true,
+      "same_folder_zero_baseline_trade_fields_cash_equity_match": true,
+      "threshold": 0.35
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2020,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "9066c201b838e699ea9bae702495f5ba2626f35774326012e6201291cfba50e9",
+    "equity_SHA256": "ccf717a829ed5ef239423a5fe23ea236f171e2484f6c930f59606e8030229528",
+    "original_path": "outputs/rebound_annual_zero/runs/2020/BTC/results/REBOUND_result.json",
+    "original_SHA256": "9066c201b838e699ea9bae702495f5ba2626f35774326012e6201291cfba50e9",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2020,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "90d2b1266dc4d1fd1c6e6a13b7dd9810b19ef8491a986ab73dc52ad4ccf56219",
+    "equity_SHA256": "902c014a4ed7633511bd0acaef1b27d6fbf0eb78093acf9da7670e91ff5f50c6",
+    "original_path": "outputs/rebound_annual_zero/runs/2020/ETH/results/REBOUND_result.json",
+    "original_SHA256": "90d2b1266dc4d1fd1c6e6a13b7dd9810b19ef8491a986ab73dc52ad4ccf56219",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "ETH030",
+    "year": 2021,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "2f559505990a9416ab2ae48a42d3d17e732bc9e6aea6c6e24ce8d3d5f1835324",
+    "equity_SHA256": "eb4f83a8366e8f1caeeafd55bbdcee19e7c47a021c86a7453c2325db8297ecc3",
+    "original_path": "outputs/eth_density_experiment/runs/2021/ETH/ZERO_D_result.json",
+    "original_SHA256": "2f559505990a9416ab2ae48a42d3d17e732bc9e6aea6c6e24ce8d3d5f1835324",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "D",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BTC_CONFIRM",
+    "year": 2021,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "161d2b8b248b0ac5f073e1793cdd0c1afd9630c701d7f1c7cb7bce20a55103ce",
+    "equity_SHA256": "8099adead4f9132dd58e85bd4c34885bd5afc77af875c2208fee63312788db82",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2021/ETH/baseline/results/STRICT/C0_G_F_TOUCH_result.json",
+    "original_SHA256": "161d2b8b248b0ac5f073e1793cdd0c1afd9630c701d7f1c7cb7bce20a55103ce",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "G",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "CORE_PRIORITY",
+    "year": 2021,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "a784e868b64d4aed2d5681297c704df0096077246daa26e38cf3338455edc0e5",
+    "equity_SHA256": "c08a12521feeb9cbfb1b14bd1bdcae34f68bc2c5888068d8162eca040149060c",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2021/ETH/baseline/results/STRICT/C0_H_F_TOUCH_result.json",
+    "original_SHA256": "a784e868b64d4aed2d5681297c704df0096077246daa26e38cf3338455edc0e5",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "H",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH100",
+    "year": 2021,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "16f8d4b6f0eabe4476f10294894d57063605a6c7682a6cd0577176509793f54e",
+    "equity_SHA256": "8099adead4f9132dd58e85bd4c34885bd5afc77af875c2208fee63312788db82",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2021/ETH/baseline/results/STRICT/C0_I100_F_TOUCH_result.json",
+    "original_SHA256": "16f8d4b6f0eabe4476f10294894d57063605a6c7682a6cd0577176509793f54e",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I100",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH50",
+    "year": 2021,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "ea631b25b5ec992066f4c5b278d164c35dc356ff88de0d33956896fe2390f0c4",
+    "equity_SHA256": "8099adead4f9132dd58e85bd4c34885bd5afc77af875c2208fee63312788db82",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2021/ETH/experiment/results/STRICT/C0_I50_F_TOUCH_result.json",
+    "original_SHA256": "ea631b25b5ec992066f4c5b278d164c35dc356ff88de0d33956896fe2390f0c4",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I50",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH25",
+    "year": 2021,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "20e401b996a17054bf37beb138a184c49c93dcf5711a1958bf36fc64e2ea08ff",
+    "equity_SHA256": "8099adead4f9132dd58e85bd4c34885bd5afc77af875c2208fee63312788db82",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2021/ETH/experiment/results/STRICT/C0_I25_F_TOUCH_result.json",
+    "original_SHA256": "20e401b996a17054bf37beb138a184c49c93dcf5711a1958bf36fc64e2ea08ff",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I25",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "ETH035",
+    "year": 2021,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "e4eb02ffc61f1883f7df85cf0815b8c227027175ec11b626fd74a11fa17ae91a",
+    "equity_SHA256": "c9effe51a11286d5c2ad364dd2eaa0970c7aba9bb97ab4708d59af35c505f180",
+    "original_path": "outputs/eth_density_experiment/runs/2021/ETH/ZERO_F_result.json",
+    "original_SHA256": "e4eb02ffc61f1883f7df85cf0815b8c227027175ec11b626fd74a11fa17ae91a",
+    "proof": {
+      "source_commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+      "V2": true,
+      "same_folder_zero_baseline_trade_fields_cash_equity_match": true,
+      "threshold": 0.35
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2021,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "a18ff4e8fc2c2aef23c17aadf86b136c45c22aea9a122798a8f0e5343c4246e5",
+    "equity_SHA256": "818e91db7c0d033e95ff32927d2e0068d697ae1eef983a8d6f6ba395085632e7",
+    "original_path": "outputs/rebound_annual_zero/runs/2021/BTC/results/REBOUND_result.json",
+    "original_SHA256": "a18ff4e8fc2c2aef23c17aadf86b136c45c22aea9a122798a8f0e5343c4246e5",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2021,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "e12033f8ea8c933227a5c95ea93b37b56eed83b13e3a6b749d5aee9ff45f8afe",
+    "equity_SHA256": "e93fcd7915cf4f8a8f0db8243f83b5404cbcbef908a6eafb66ae6b2f1378d970",
+    "original_path": "outputs/rebound_annual_zero/runs/2021/ETH/results/REBOUND_result.json",
+    "original_SHA256": "e12033f8ea8c933227a5c95ea93b37b56eed83b13e3a6b749d5aee9ff45f8afe",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "ETH030",
+    "year": 2022,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "064786e4d5e6f3df7ffd6adc8222dbd1b790600c680d9adbc9f9c3ee950ffd8e",
+    "equity_SHA256": "774d6a81d618ea61cfcffe1f08915e577ac4616d5fac0812e7d73069c0bcd89a",
+    "original_path": "outputs/eth_density_experiment/runs/2022/ETH/ZERO_D_result.json",
+    "original_SHA256": "064786e4d5e6f3df7ffd6adc8222dbd1b790600c680d9adbc9f9c3ee950ffd8e",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "D",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BTC_CONFIRM",
+    "year": 2022,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "7701c414f71a750c2d8edfd20ff9b8b9ddafc7ee999fee3bee4cd280c96a2f02",
+    "equity_SHA256": "0668e6a47e18e16a91555874dd1722468b87ffa2b87f43cd43db861ca20f39a5",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2022/ETH/baseline/results/STRICT/C0_G_F_TOUCH_result.json",
+    "original_SHA256": "7701c414f71a750c2d8edfd20ff9b8b9ddafc7ee999fee3bee4cd280c96a2f02",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "G",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "CORE_PRIORITY",
+    "year": 2022,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "c1a269763715c0b565e558ac1d8a7608af56567e28d4965915c29778e9de3d4c",
+    "equity_SHA256": "48ee15581d2b289abda3fb38dd045be47a583242ef4fddb9f78cbd45f383ff76",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2022/ETH/baseline/results/STRICT/C0_H_F_TOUCH_result.json",
+    "original_SHA256": "c1a269763715c0b565e558ac1d8a7608af56567e28d4965915c29778e9de3d4c",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "H",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH100",
+    "year": 2022,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "d62d399bd6bdaff2776089b79a61a96184eadaba187eeeb5fb3462743c13a77a",
+    "equity_SHA256": "bb634a72275cb8cee40646762955b575edd5348fb2e9bf266c8a0439fe32ca5a",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2022/ETH/baseline/results/STRICT/C0_I100_F_TOUCH_result.json",
+    "original_SHA256": "d62d399bd6bdaff2776089b79a61a96184eadaba187eeeb5fb3462743c13a77a",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I100",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH50",
+    "year": 2022,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "4862421b9040b31a59d4a09b54df4345586d58233fda8ae8fcfe432e02867bff",
+    "equity_SHA256": "b91fa668b6de2002f15e7cd308c61d57d5aad3467c2d35199b9f2e2cc82c8b8c",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C0_I50_F_TOUCH_result.json",
+    "original_SHA256": "4862421b9040b31a59d4a09b54df4345586d58233fda8ae8fcfe432e02867bff",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I50",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH25",
+    "year": 2022,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "c0955899d8b605ab25a41b979393e63e804270deac5e909dd603010079d08436",
+    "equity_SHA256": "02a278004fcff6e8e79ba8af96ab08256f5096559f0726167706e35569386645",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2022/ETH/experiment/results/STRICT/C0_I25_F_TOUCH_result.json",
+    "original_SHA256": "c0955899d8b605ab25a41b979393e63e804270deac5e909dd603010079d08436",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I25",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "ETH035",
+    "year": 2022,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "d20990965fc20c16388a3eafee5e0037129ef3e4a940662172089bc33d52f16c",
+    "equity_SHA256": "45bca9e68dbc471d946f7846d03a272241310ba380fb450e9260a4e2d95f4fa5",
+    "original_path": "outputs/eth_density_experiment/runs/2022/ETH/ZERO_F_result.json",
+    "original_SHA256": "d20990965fc20c16388a3eafee5e0037129ef3e4a940662172089bc33d52f16c",
+    "proof": {
+      "source_commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+      "V2": true,
+      "same_folder_zero_baseline_trade_fields_cash_equity_match": true,
+      "threshold": 0.35
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2022,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "c28fb5d13b0d2423dc778ecb213308363a41ca755812c42f4430736e3536f58e",
+    "equity_SHA256": "345a49cc6a49d5ecf3ca72fd5803a63563b5226e499f4745f422faee76818d07",
+    "original_path": "outputs/rebound_annual_zero/runs/2022/BTC/results/REBOUND_result.json",
+    "original_SHA256": "c28fb5d13b0d2423dc778ecb213308363a41ca755812c42f4430736e3536f58e",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2022,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "b925b6b9b7d1c7b928bb778cfd3552d3365daef5811e663b7b3a4ede16334b59",
+    "equity_SHA256": "07c9f83688088b7e63e234ad49d8b7bb014ad95b7405517a9882e25859237063",
+    "original_path": "outputs/rebound_annual_zero/runs/2022/ETH/results/REBOUND_result.json",
+    "original_SHA256": "b925b6b9b7d1c7b928bb778cfd3552d3365daef5811e663b7b3a4ede16334b59",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "ETH030",
+    "year": 2023,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "8c0f3c4d7b9f35827d25c1d2f3384198a08c3a7e3088db40ac987aef090d859b",
+    "equity_SHA256": "50a5647292ec01dfe4d77006a1064e556cb081e719b2928c2daa200b08286d77",
+    "original_path": "outputs/eth_density_experiment/runs/2023/ETH/ZERO_D_result.json",
+    "original_SHA256": "8c0f3c4d7b9f35827d25c1d2f3384198a08c3a7e3088db40ac987aef090d859b",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "D",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BTC_CONFIRM",
+    "year": 2023,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "f0d9740150575d9aaae29c02d4081525357a802442b4535d3b26dfe3ea1f46b2",
+    "equity_SHA256": "510118ddc4cfcdb80f4112aff92a99457075e96f40e44657087953b0a4b284f6",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline/results/STRICT/C0_G_F_TOUCH_result.json",
+    "original_SHA256": "f0d9740150575d9aaae29c02d4081525357a802442b4535d3b26dfe3ea1f46b2",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "G",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "CORE_PRIORITY",
+    "year": 2023,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "44c6ac9118df42709d160d2b5bbc93490d1675036fe44eb3f482ab468dfed376",
+    "equity_SHA256": "15dbef1cfecb459652f0bc0fe3b922a0f7e6aadb68b31ccf9c1104aa3ef4dcab",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline/results/STRICT/C0_H_F_TOUCH_result.json",
+    "original_SHA256": "44c6ac9118df42709d160d2b5bbc93490d1675036fe44eb3f482ab468dfed376",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "H",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH100",
+    "year": 2023,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "9070e65e0b9161b6436fd4319a766b0dc56839b0796a65b4090d3e1529121972",
+    "equity_SHA256": "d159fc97cca452ba20b8d175736cb2dcf5012b68f7737c77285cfd492ec9e118",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline/results/STRICT/C0_I100_F_TOUCH_result.json",
+    "original_SHA256": "9070e65e0b9161b6436fd4319a766b0dc56839b0796a65b4090d3e1529121972",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I100",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH50",
+    "year": 2023,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "d28db62272011d29b31e76350a0e22ad5e26fabfe6fede9fe5fd8c977c285b75",
+    "equity_SHA256": "12330587d9430eb397b4f4c05f43b0c1d7e674489d4392cc1a290591e2541e86",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2023/ETH/experiment/results/STRICT/C0_I50_F_TOUCH_result.json",
+    "original_SHA256": "d28db62272011d29b31e76350a0e22ad5e26fabfe6fede9fe5fd8c977c285b75",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I50",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH25",
+    "year": 2023,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "e884377aeedfd30b4b54ce26fb9fd2dd9b3caa71e76fa8a597d940e3c741a80f",
+    "equity_SHA256": "976319ac8b84c5ac20250d31c93a26f73e8a4df77f46232b96cdca1d3a3b37e4",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2023/ETH/experiment/results/STRICT/C0_I25_F_TOUCH_result.json",
+    "original_SHA256": "e884377aeedfd30b4b54ce26fb9fd2dd9b3caa71e76fa8a597d940e3c741a80f",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I25",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "ETH035",
+    "year": 2023,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "36408c40c8543f93dd5c88acddef9a79eaa7d7764bf25ea4b0df75118ea46e53",
+    "equity_SHA256": "5edd20b4056f2d2ce847ad78ce37ea5cc17d52206c2447300101d0727a7cdb67",
+    "original_path": "outputs/eth_density_experiment/runs/2023/ETH/ZERO_F_result.json",
+    "original_SHA256": "36408c40c8543f93dd5c88acddef9a79eaa7d7764bf25ea4b0df75118ea46e53",
+    "proof": {
+      "source_commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+      "V2": true,
+      "same_folder_zero_baseline_trade_fields_cash_equity_match": true,
+      "threshold": 0.35
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2023,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "7a34de2052d3c5271a92b9af91ad2ba3b35eceb96b923682f5bdcbbf0a417521",
+    "equity_SHA256": "4e2324243c0d961db501114bfa558f061cb21fdbd82dfcc7870d08bdee313859",
+    "original_path": "outputs/rebound_annual_zero/runs/2023/BTC/results/REBOUND_result.json",
+    "original_SHA256": "7a34de2052d3c5271a92b9af91ad2ba3b35eceb96b923682f5bdcbbf0a417521",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2023,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "4ecb8cde9d3571d5f012e8f5695678a39592872a452af5a84124052d7e033c02",
+    "equity_SHA256": "bdcad9d90b45c8f8b045cb30d9edeed70d4046aef5feaec5e3511c9f5dcec229",
+    "original_path": "outputs/rebound_annual_zero/runs/2023/ETH/results/REBOUND_result.json",
+    "original_SHA256": "4ecb8cde9d3571d5f012e8f5695678a39592872a452af5a84124052d7e033c02",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "ETH030",
+    "year": 2024,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "37998e639b55597c22d6159d2803357d42a47b8b68ba29d02202352ad06128c9",
+    "equity_SHA256": "133cbd0a3ad98e868024751d9f80b80044d4a57033a7575444ebddc86b431ada",
+    "original_path": "outputs/eth_density_experiment/runs/2024/ETH/ZERO_D_result.json",
+    "original_SHA256": "37998e639b55597c22d6159d2803357d42a47b8b68ba29d02202352ad06128c9",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "D",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BTC_CONFIRM",
+    "year": 2024,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "3ea523af49d8b2357eb5831f1c36d233302cf032c80be478f59c41178f493256",
+    "equity_SHA256": "08f5047966de0ed336a2ed92758ad17bf7e8bcbcb0b110c075a1c340ce03aedf",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2024/ETH/baseline/results/STRICT/C0_G_F_TOUCH_result.json",
+    "original_SHA256": "3ea523af49d8b2357eb5831f1c36d233302cf032c80be478f59c41178f493256",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "G",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "CORE_PRIORITY",
+    "year": 2024,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "7f5725a371404f5cddd254cc1005337613cc8b85e8a9c9b6b56bad5d787d185a",
+    "equity_SHA256": "de6c18eac6eeacf0eb1f4f220975eb332e56bddaeb26dbcc025254fd51212371",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2024/ETH/baseline/results/STRICT/C0_H_F_TOUCH_result.json",
+    "original_SHA256": "7f5725a371404f5cddd254cc1005337613cc8b85e8a9c9b6b56bad5d787d185a",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "H",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH100",
+    "year": 2024,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "e7934ffc3a0841261b6b0114318bfde5f49e8bb44682ef26ff3321d3f10985c5",
+    "equity_SHA256": "230e1646ccab0deb31c3135487e90290df3c197739b7c647c9fe53d465b12851",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2024/ETH/baseline/results/STRICT/C0_I100_F_TOUCH_result.json",
+    "original_SHA256": "e7934ffc3a0841261b6b0114318bfde5f49e8bb44682ef26ff3321d3f10985c5",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I100",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH50",
+    "year": 2024,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "a260ccc77d4c5b90a0ec2c8db269da88c90348d24a66c5b4c6276d1bcf101bab",
+    "equity_SHA256": "77236786af724d493a7b72c0c16f67516eda3b090a92909445fc374ed16c96b2",
+    "original_path": "outputs/extra_sizing_cost_stress/sizing_only/runs/2024/ETH/experiment/results/STRICT/C0_I50_F_TOUCH_result.json",
+    "original_SHA256": "a260ccc77d4c5b90a0ec2c8db269da88c90348d24a66c5b4c6276d1bcf101bab",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I50",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "BOTH25",
+    "year": 2024,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "18995162cf0f28399572bc798c4b89d298ee35eb9ea54a3fcf865076eaa86cc6",
+    "equity_SHA256": "20be7931cb05532d0fae07fd653fa53f3ae0bd89d8b2aadbcb92adc42ac9d161",
+    "original_path": "outputs/extra_sizing_cost_stress/sizing_only/runs/2024/ETH/experiment/results/STRICT/C0_I25_F_TOUCH_result.json",
+    "original_SHA256": "18995162cf0f28399572bc798c4b89d298ee35eb9ea54a3fcf865076eaa86cc6",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I25",
+      "source_2025_S_ALL": false
+    }
+  },
+  {
+    "key": "ETH035",
+    "year": 2024,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "12f2c2b2a86d3935183f625049ad3f6bc55eb4f4b351bb54cc11c4678446bccd",
+    "equity_SHA256": "5d7fc04a29e2f1178c592817fea8fc8dae3cf68950ceae6feccd5ba3fff250f3",
+    "original_path": "outputs/eth_density_experiment/runs/2024/ETH/ZERO_F_result.json",
+    "original_SHA256": "12f2c2b2a86d3935183f625049ad3f6bc55eb4f4b351bb54cc11c4678446bccd",
+    "proof": {
+      "source_commit": "01937b2d4a1306ab211a9c1853bda285258c2853",
+      "V2": true,
+      "same_folder_zero_baseline_trade_fields_cash_equity_match": true,
+      "threshold": 0.35
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2024,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "bd1d3b75bb2042e32fd009218226e00716851e74ded077d16bc13de7d43672a7",
+    "equity_SHA256": "4b84f8ddb7bda890b29c0086b484dd29cf0d4065356b3ccc2cca51179e3c60da",
+    "original_path": "outputs/rebound_annual_zero/runs/2024/BTC/results/REBOUND_result.json",
+    "original_SHA256": "bd1d3b75bb2042e32fd009218226e00716851e74ded077d16bc13de7d43672a7",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2024,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "c45bf9b506d5ee5b917be0166923ce0c2d26eb569bb2ff7c33feb1b8eb73162f",
+    "equity_SHA256": "30c285092f632c436f92a2abcdc8c0d57321a7ec385bb35dca1443f201c38d60",
+    "original_path": "outputs/rebound_annual_zero/runs/2024/ETH/results/REBOUND_result.json",
+    "original_SHA256": "c45bf9b506d5ee5b917be0166923ce0c2d26eb569bb2ff7c33feb1b8eb73162f",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "ETH030",
+    "year": 2025,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "69fa6e7681a8f4fd4031466694a837c1a8decc9e6603040e285c4a345c048750",
+    "equity_SHA256": "10e197cf863ad712bcec94a3e934bbd2e0190dedbb0e98023c2bbe348c5b1595",
+    "original_path": "outputs/eth_2025_anomaly_sensitivity/results/S_ALL/ZERO_D_result.json",
+    "original_SHA256": "69fa6e7681a8f4fd4031466694a837c1a8decc9e6603040e285c4a345c048750",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "D",
+      "source_2025_S_ALL": true
+    }
+  },
+  {
+    "key": "BTC_CONFIRM",
+    "year": 2025,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "f05f13b70067a39c3f25028ac54e5fc5b6539d40d4341d784e6137b9c9fea754",
+    "equity_SHA256": "cd18dc68aa28c39d9beca8a0474fa2f191d4781a4fc33f829f87834c9e92c001",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline/results/S_ALL/C0_G_F_TOUCH_result.json",
+    "original_SHA256": "f05f13b70067a39c3f25028ac54e5fc5b6539d40d4341d784e6137b9c9fea754",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "G",
+      "source_2025_S_ALL": true
+    }
+  },
+  {
+    "key": "CORE_PRIORITY",
+    "year": 2025,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "7a4119c3acd5f7da47fbebd156d032b4f5314793f4d7b2548f2e20f79fea8ada",
+    "equity_SHA256": "5823440486911855cd750e9da522197d40cd54003614354a8104d0a35be36ed7",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline/results/S_ALL/C0_H_F_TOUCH_result.json",
+    "original_SHA256": "7a4119c3acd5f7da47fbebd156d032b4f5314793f4d7b2548f2e20f79fea8ada",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "H",
+      "source_2025_S_ALL": true
+    }
+  },
+  {
+    "key": "BOTH100",
+    "year": 2025,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "4a04e3193a5a36e857d85225c25ebd1b375d4b74f1ed1a61d44dd1c62e8cc5ca",
+    "equity_SHA256": "31b006910c0614cfde230c6b1abd1823360e78b72fcb2d460ac8f4831a7e42f9",
+    "original_path": "outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline/results/S_ALL/C0_I100_F_TOUCH_result.json",
+    "original_SHA256": "4a04e3193a5a36e857d85225c25ebd1b375d4b74f1ed1a61d44dd1c62e8cc5ca",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I100",
+      "source_2025_S_ALL": true
+    }
+  },
+  {
+    "key": "BOTH50",
+    "year": 2025,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "b967de36c8596827a8b2bc41b8bd49accc1b1e7437cefa3df062f1d3d46e05c9",
+    "equity_SHA256": "58c2d381c7aa877146d968c2ecbe80525af823fc68d5d966e5bb8ebd034e2697",
+    "original_path": "outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment/results/S_ALL/C0_I50_F_TOUCH_result.json",
+    "original_SHA256": "b967de36c8596827a8b2bc41b8bd49accc1b1e7437cefa3df062f1d3d46e05c9",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I50",
+      "source_2025_S_ALL": true
+    }
+  },
+  {
+    "key": "BOTH25",
+    "year": 2025,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "5ca0b3247e1adb12db4f7b73f883b51ec16527c1792069dbc26adc191b3dd6ec",
+    "equity_SHA256": "8a881b1e8256176093a69351c4afd317c36325abe4c3925c03642d2e4caf0380",
+    "original_path": "outputs/extra_sizing_cost_stress/sizing_only/runs/2025/ETH/experiment/results/S_ALL/C0_I25_F_TOUCH_result.json",
+    "original_SHA256": "5ca0b3247e1adb12db4f7b73f883b51ec16527c1792069dbc26adc191b3dd6ec",
+    "proof": {
+      "source_commit": "02608460c21e1f29db7191cffc58fd8f8c0632b4",
+      "V2": true,
+      "source_zero_baseline_exact_regressions": true,
+      "threshold": 0.3,
+      "original_group": "I25",
+      "source_2025_S_ALL": true
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2025,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "f29bfda5259faf86f3484e3384ded97d7198ad8d766df3c2ffb0c13084b38134",
+    "equity_SHA256": "4035fd921aa941ce76eb23000e8ad77e4d08d550d0627322fa5e879e2cc10d15",
+    "original_path": "outputs/rebound_annual_zero/runs/2025/BTC/results/REBOUND_result.json",
+    "original_SHA256": "f29bfda5259faf86f3484e3384ded97d7198ad8d766df3c2ffb0c13084b38134",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  },
+  {
+    "key": "REBOUND",
+    "year": 2025,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MATCHING_ER_V2_RAW",
+    "result_SHA256": "4d71a16a94b92da74c39cfc9d0cfd61f0e2a2961dc6c014eb9b9cf8e3c40bd9d",
+    "equity_SHA256": "368d0c9e668b970908f328fbd02d7fad090e3ef8071ec10a8abf21b08ae79ff4",
+    "original_path": "outputs/rebound_annual_zero/runs/2025/ETH/results/REBOUND_result.json",
+    "original_SHA256": "4d71a16a94b92da74c39cfc9d0cfd61f0e2a2961dc6c014eb9b9cf8e3c40bd9d",
+    "proof": {
+      "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+      "V2": true,
+      "source_baseline_exact_cash_trade_equity_minutes": true
+    }
+  }
+]

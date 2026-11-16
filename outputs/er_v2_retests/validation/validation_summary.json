@@ -1,0 +1,18 @@
+{
+  "annual_replays": 0,
+  "short_hours": 8,
+  "independent_books": [
+    "REF",
+    "ATR_STOP",
+    "CANCEL",
+    "CAP5",
+    "TRAIL8",
+    "REGIME_SIZE",
+    "Q15",
+    "N05"
+  ],
+  "original_V2_minutes_exact": true,
+  "mechanics_pass": true,
+  "extended_2026_official_data_available": "NOT_TESTED_HERE_USER_COLAB_FETCH",
+  "runtime_fingerprint": "39a7722a40e1fc087dfe7d306360cb1ad7131cdee0f86d2aea32782fa9ef93a3"
+}
