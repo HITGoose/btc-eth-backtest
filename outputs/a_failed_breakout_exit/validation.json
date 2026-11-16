@@ -1,0 +1,11 @@
+{
+  "accounts": 56,
+  "new_accounts": 28,
+  "reused_baseline": 28,
+  "same_financial_fingerprint": true,
+  "financial_fingerprint": "5000c5c6779646c984cead1be67271aa6af2f86c70228684e3a3c7a65a91c24e",
+  "all_prefix_equity_before_first_actual_early_exit_matches": true,
+  "max_cash_residual": 1.0231815394945443e-12,
+  "no_new_entry_signals": true,
+  "incomplete": 0
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "checks": [
+    "Due time uses actual fill and ceil to first eligible15m close",
+    "Both inclusive bands and strict negative gross; one check even when false",
+    "No exit at check close or before next minute",
+    "Original hard and ladder stops win on the same exit event; no duplicate close",
+    "Original slippage and fee cash reconciliation",
+    "Future bars cannot alter the frozen check"
+  ]
+}
