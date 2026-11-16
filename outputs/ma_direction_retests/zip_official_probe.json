@@ -1,0 +1,54 @@
+[
+  {
+    "asset": "BTC",
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-10-29.zip",
+    "at_UTC": "2026-11-16T17:55:15.441141+00:00",
+    "old_ER_expected": {
+      "url": "https://data.binance.vision/data/futures/um/daily/trades/BTCUSDT/BTCUSDT-trades-2026-10-29.zip",
+      "bytes": 34066483,
+      "sha256": "a634b1cc9e3858d732688afc6c8f5d51277a683a27254fc54f4ff70e29bc9d69",
+      "official_checksum_match": true,
+      "asset": "BTC",
+      "date": "2026-10-29",
+      "rows": 4478291,
+      "raw_IDs_strictly_increasing": true,
+      "non_contiguous_ID_steps": 38856,
+      "timestamp_reversals_sorted": 0,
+      "timestamp_scale": 1000,
+      "disagreement_records": 0,
+      "source_market": "BINANCE_USDT_PERPETUAL",
+      "price_rewritten": false
+    },
+    "checksum_HTTP": 200,
+    "official_checksum": "416d6cfe721eafbd41615326cf546f381bdf6f627e79bef9070151b9dad0784c  BTCUSDT-trades-2026-10-29.zip\n",
+    "zip_HEAD_HTTP": 200,
+    "zip_bytes": "36407437",
+    "last_modified": "Mon, 16 Nov 2026 16:47:38 GMT"
+  },
+  {
+    "asset": "ETH",
+    "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-10-29.zip",
+    "at_UTC": "2026-11-16T17:55:15.441564+00:00",
+    "old_ER_expected": {
+      "url": "https://data.binance.vision/data/futures/um/daily/trades/ETHUSDT/ETHUSDT-trades-2026-10-29.zip",
+      "bytes": 56680658,
+      "sha256": "a1380a5185eb2eff57a1975c5d004f92a77652d7f66799dece6103d08e20b1e8",
+      "official_checksum_match": true,
+      "asset": "ETH",
+      "date": "2026-10-29",
+      "rows": 6442667,
+      "raw_IDs_strictly_increasing": true,
+      "non_contiguous_ID_steps": 43708,
+      "timestamp_reversals_sorted": 0,
+      "timestamp_scale": 1000,
+      "disagreement_records": 0,
+      "source_market": "BINANCE_USDT_PERPETUAL",
+      "price_rewritten": false
+    },
+    "checksum_HTTP": 200,
+    "official_checksum": "414785faa9c301fe1933e873a0f384c34a196ec485f1b0357850f542974525a7  ETHUSDT-trades-2026-10-29.zip\n",
+    "zip_HEAD_HTTP": 200,
+    "zip_bytes": "59906547",
+    "last_modified": "Mon, 16 Nov 2026 16:47:40 GMT"
+  }
+]

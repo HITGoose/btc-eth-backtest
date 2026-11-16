@@ -1,0 +1,134 @@
+[
+  {
+    "year": 2020,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "e7960492157365ba1392850e34aa6315e7f518c17733c9c5a5087c5196db9fb9",
+    "equity_SHA256": "94c024f5600a348c3b24c2e56410a0e61071b8f93df0485ff6069f18c46d2bf9",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2020/BTC",
+    "V2": false
+  },
+  {
+    "year": 2020,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "360618bed7ee167d686664216a38afcf0f71ad6f42189ba584ce8ae34f0ceed3",
+    "equity_SHA256": "b8ac2ff2c64f25381dc5b120b9f693773704563eb41475497ab98671d886d918",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2020/ETH",
+    "V2": false
+  },
+  {
+    "year": 2021,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "f0e0adc03f4e190a6c1140afb7a651f27b52834dd7515c46bf092a0582f1d1d0",
+    "equity_SHA256": "39f5881776ff7314f73addb715276d92a56ff6d8a50754d04ace95e83963149d",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2021/BTC",
+    "V2": false
+  },
+  {
+    "year": 2021,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "108d7efd0237d6f0fdfe05da89cfc3170872b858050ad6259dc2071df73c9022",
+    "equity_SHA256": "ec4c41267673a592b2f5afdbf0a6bd88f3a46d2ab00856470189e5a6bf584cbe",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2021/ETH",
+    "V2": false
+  },
+  {
+    "year": 2022,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "85da331c81df136ae8c86c1e3c65c280e017f2e5d0e184f40ebf7af896c9982b",
+    "equity_SHA256": "a18491ad11889624653567b49057d35c3776cda3df51f5f604aa1ab10380361d",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2022/BTC",
+    "V2": false
+  },
+  {
+    "year": 2022,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "dc7efde24dbfa6b945c4e5e792a5b365abe033f8b65415cfe7e675e7c894507f",
+    "equity_SHA256": "19314f115444ee9d6db2c1501349a7d38db1aadb3a611c528b3f8e2898dc8738",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2022/ETH",
+    "V2": false
+  },
+  {
+    "year": 2023,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "42817da7f219551fab7398907cbadd28e268e632aba66750265a672cc4cfd1ff",
+    "equity_SHA256": "176cc61e667e23eb69563a211b4109aab4f279bfe445455d76f8159aab6afd5a",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2023/BTC",
+    "V2": false
+  },
+  {
+    "year": 2023,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "a662b52851f5ad935a0845a820738e42a2f624a80757a1646402df22c5c52a5d",
+    "equity_SHA256": "23220943cbc39d728e37b3854b102cc26701300dc3188f496072fd20e00a6d0e",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2023/ETH",
+    "V2": false
+  },
+  {
+    "year": 2024,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "c90c0e76d94ca50078439c329875800a0e943f6533ed94cca4a8a600f6dfc403",
+    "equity_SHA256": "aa2535792d8c37842473bdc456da072f44397fdc902cb65d3d54ba72f1348cc0",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2024/BTC",
+    "V2": false
+  },
+  {
+    "year": 2024,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "bdf1999aab674f9a288624de9f9f3f63d64eb4344612a89c22710a0afa364221",
+    "equity_SHA256": "d0b37460e8a18aca83e478e33923ee0a58b5fe08237fb52c4a1005acedd0adac",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2024/ETH",
+    "V2": false
+  },
+  {
+    "year": 2025,
+    "asset": "BTC",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "344ee5d3dfb7d371123712f61984d9a0caf9986a0154cd254346b2906dd970ef",
+    "equity_SHA256": "4c0b389f447a15a797a4ea28b16efa8fe77362dc2c7ef8517cc4454e5bc81afb",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2025/BTC",
+    "V2": false
+  },
+  {
+    "year": 2025,
+    "asset": "ETH",
+    "complete": true,
+    "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+    "result_SHA256": "7e8baa50809a87c663d87d50a67802315ad12039a888522f79fc4a5bb7d21314",
+    "equity_SHA256": "1ad0ff338cf91a7ccff6a56781b09f889b3e43f22cca21fcbc81632f50ee3ccc",
+    "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+    "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2025/ETH",
+    "V2": false
+  }
+]

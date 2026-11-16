@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "source": "REUSED_MA_DIRECTION_REFERENCE_NO_V2",
+  "result_SHA256": "bdf1999aab674f9a288624de9f9f3f63d64eb4344612a89c22710a0afa364221",
+  "equity_SHA256": "d0b37460e8a18aca83e478e33923ee0a58b5fe08237fb52c4a1005acedd0adac",
+  "original_source_commit": "f8aa6a9440ce3a0b486a3b1245a1051b77b8d145",
+  "original_path": "/workspace/btc-eth-backtest/outputs/baseline_registry/runs/2024/ETH",
+  "V2": false
+}
