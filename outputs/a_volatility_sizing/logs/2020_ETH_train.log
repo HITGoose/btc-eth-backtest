@@ -1,0 +1,3 @@
+COMMAND ['/workspace/.venv-btc-eth-original/bin/python', '/workspace/btc-eth-backtest/outputs/a_volatility_sizing/runner.py', '2020', 'ETH', 'train']
+START train 2020 ETH ZERO_A_VOL L_fixed None
+COMPLETE train 2020 ETH ZERO_A_VOL 265.25696002000086 61

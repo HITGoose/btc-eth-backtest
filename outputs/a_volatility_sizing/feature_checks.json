@@ -1,0 +1,6 @@
+{
+  "ATR_seed_and_recursion": true,
+  "previous_2880_only": true,
+  "future_data_invariant": true,
+  "clip_and_fallback": true
+}

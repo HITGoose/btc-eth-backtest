@@ -1,0 +1,22 @@
+DONE 2020 BTC train
+DONE 2021 ETH train
+DONE 2021 BTC train
+DONE 2020 ETH train
+DONE 2022 ETH train
+DONE 2022 BTC train
+{"L_fixed": 2.8460284435039482, "successful_submitted_orders": 538, "method": "Arithmetic mean of target leverage of ALL accepted ZERO A_VOL orders, 2020-2022 BTC and ETH; includes later unfilled orders", "code_fingerprint": "49e98392306e3e2785e63ec1f0639d6f5b6135dd5a3af97e46319a0a0ece925f", "frozen_at_UTC": "2026-11-16T02:38:29.188095+00:00", "sources": [{"path": "runs/2020/BTC/ZERO_A_VOL_result.json", "SHA256": "2ea2a4ff2649385f833d1269b4747617777e37c065c4efab034b462936255a11", "orders": 144}, {"path": "runs/2020/ETH/ZERO_A_VOL_result.json", "SHA256": "772d12f7e5668fa20ccf165136b5a40fcc159a38b197c196aaec0bfa7ca0d06c", "orders": 80}, {"path": "runs/2021/BTC/ZERO_A_VOL_result.json", "SHA256": "7cf7a4995e3950e8d81202644a6eb20194be2a2f81406a30f8b7e9f5c2db914d", "orders": 51}, {"path": "runs/2021/ETH/ZERO_A_VOL_result.json", "SHA256": "0277cf0a20c1aa0c36f5046714c49d7930a8f4881a0681aabaea3905db0b4256", "orders": 33}, {"path": "runs/2022/BTC/ZERO_A_VOL_result.json", "SHA256": "e1bb7de792779e0b825535f2884a028e787518469008a7f082d4331e5ea98373", "orders": 148}, {"path": "runs/2022/ETH/ZERO_A_VOL_result.json", "SHA256": "27fd33a61cad37dd5d645535fb5071bec3b23dd780dd70488c815833c5c46539", "orders": 82}]}
+DONE 2021 BTC final
+DONE 2021 ETH final
+DONE 2020 ETH final
+DONE 2022 ETH final
+DONE 2020 BTC final
+DONE 2022 BTC final
+DONE 2023 ETH final
+DONE 2023 BTC final
+DONE 2024 ETH final
+DONE 2025 ETH final
+DONE 2025 BTC final
+DONE 2026 BTC final
+DONE 2024 BTC final
+DONE 2026 ETH final
+ALL_FINANCIAL_RUNS_COMPLETE

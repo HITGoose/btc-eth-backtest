@@ -1,0 +1,1 @@
+COMMAND ['/workspace/.venv-btc-eth-original/bin/python', '/workspace/btc-eth-backtest/outputs/a_volatility_sizing/runner.py', '2020', 'BTC', 'train']
