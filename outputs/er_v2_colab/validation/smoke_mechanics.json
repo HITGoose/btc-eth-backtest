@@ -1,0 +1,64 @@
+{
+  "positive_V2_partial_not_ignored": {
+    "event": "failed_exit_check",
+    "time_us": 14400000000,
+    "opened_us": 0,
+    "signal_close_ms": -10000,
+    "two_closes_inside": true,
+    "partial_gross": 38.16750000000005,
+    "remaining_gross": -9.023999999999967,
+    "whole_trade_gross": 29.14350000000008,
+    "requested": false,
+    "eligible_exit_us": 14460000000
+  },
+  "next_minute_exit": {
+    "check": {
+      "event": "failed_exit_check",
+      "time_us": 14400000000,
+      "opened_us": 0,
+      "signal_close_ms": -10000,
+      "two_closes_inside": true,
+      "partial_gross": 0.0,
+      "remaining_gross": -12.023999999999958,
+      "whole_trade_gross": -12.023999999999958,
+      "requested": true,
+      "eligible_exit_us": 14460000000
+    },
+    "reason": "failed_breakout_exit"
+  },
+  "stop_priority": {
+    "check": {
+      "event": "failed_exit_check",
+      "time_us": 14400000000,
+      "opened_us": 0,
+      "signal_close_ms": -10000,
+      "two_closes_inside": true,
+      "partial_gross": 0.0,
+      "remaining_gross": -12.023999999999958,
+      "whole_trade_gross": -12.023999999999958,
+      "requested": true,
+      "eligible_exit_us": 14460000000
+    },
+    "reason": "hard_stop"
+  },
+  "original_V2_request": {
+    "event": "adaptive_v2_request",
+    "stage": 1,
+    "time_us": 14400000000,
+    "realized_balance": 500.0,
+    "budget_rate": 0.03,
+    "budget": 15.0,
+    "known_close": 99.0,
+    "stop": 97.8,
+    "price_stop_distance": 1.2000000000000028,
+    "target_quantity": 12.49,
+    "requested_quantity": 2.54,
+    "initial_quantity": 15.030000000000001,
+    "cap_quantity": 3.75,
+    "estimated_remaining_risk": 14.988000000000035,
+    "budget_is_reference_not_guarantee": true
+  },
+  "checked_in_seconds": 0.0006041910019121133,
+  "status": "PASS",
+  "scope": "synthetic mechanics, not historical profitability"
+}

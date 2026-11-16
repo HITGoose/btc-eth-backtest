@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "fingerprint": "d16cc9cc72d00e4f06e79e4d5847a8cf7176146256b87f6bf5d0380961c7a0f1",
+  "elapsed_seconds": 2.300963535999472,
+  "cpu_seconds": 2.048559784,
+  "timing": {
+    "native_cache_or_download_seconds": 0.01609963299779338,
+    "signals_and_indicators_seconds": 1.7306064210024488,
+    "raw_replay_wall_seconds": 0.551787680000416
+  },
+  "status": "COMPLETE",
+  "scope": "SHORT_SANITY_NOT_ANNUAL"
+}

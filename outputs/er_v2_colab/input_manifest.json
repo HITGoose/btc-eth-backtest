@@ -1,0 +1,282 @@
+[
+  {
+    "year": "2020",
+    "asset": "BTC",
+    "start": 1581782400,
+    "end": 1609430400,
+    "first15": 1577894400,
+    "first1": 1581696000,
+    "hashes": {
+      "BTC_15m.csv": "de8e13ee366c0e2f054c39ab1d2388d52080a9a71bd6c35dccdf8c8bd77834c8",
+      "BTC_1m.npy": "733aa4d8231e66812c2a8e50442c4da944a17b8cef42aa1273e35d0854f851ff"
+    },
+    "legacy_data": "outputs/er_partial_2020/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC",
+    "reference_SHA256": {
+      "result.json": "2eecc85a46dab9f9d55a186803b792d70b9e9c380cd1afefdba716a6cfa5f452",
+      "equity.npz": "271771bcc8e68f1abaaeade81a5b4ff6e586ab49740b13dc99f45a9b5dcd3c58",
+      "core_signals.json": "bc00508ebf92ad148dc1c3091a8e6d13450d1f75f21a7465a0b97aca31abe054",
+      "config.json": "7d2247f09504dd78cd2e69e804cefdfe499ad646131db483facd4668d34da063"
+    }
+  },
+  {
+    "year": "2020",
+    "asset": "ETH",
+    "start": 1581782400,
+    "end": 1609430400,
+    "first15": 1577894400,
+    "first1": 1581696000,
+    "hashes": {
+      "ETH_15m.csv": "711b37f9d06008d59ed337b33467beaf7bbdedf9a6467f82d8bef5c663f4af5f",
+      "ETH_1m.npy": "a1fdd89415fbae112e733e26f48c68066e8c9006db904f90872c771a28c986c7"
+    },
+    "legacy_data": "outputs/er_partial_2020/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH",
+    "reference_SHA256": {
+      "result.json": "ad5acffef5e1b1a0c46f680dbe9d2145251992dc8a8c45197e62dc979bd777a8",
+      "equity.npz": "7803ac59d749dae73c92cbacc7b05c60544e29c59cff4d2965e594c9a8cac15f",
+      "core_signals.json": "a18e019f7c8600842e2d864c2202d3f72a19f59e2902ac22898fd0a2d8c08bac",
+      "config.json": "b49e61e73fcafeb9b45c38581f5bf5c1d0bd58c0c47fedf43057f5ffe9733193"
+    }
+  },
+  {
+    "year": "2021",
+    "asset": "BTC",
+    "start": 1609430400,
+    "end": 1640966400,
+    "first15": 1602518400,
+    "first1": 1609344000,
+    "hashes": {
+      "BTC_15m.csv": "6d33a0595e67b09d39897bdcbbd6b0e02b67f97429a2f0902af3e04e3902dad9",
+      "BTC_1m.npy": "9a8d0093002c44c1e8da7048b22f8d1804baabbb012cb321fa20b5638407d6c2"
+    },
+    "legacy_data": "outputs/other_years_050/2021/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC",
+    "reference_SHA256": {
+      "result.json": "1b2d86dae781162ba15fbbbd2355a22c93b80eeed0f211804df9831bf609c44e",
+      "equity.npz": "2b1f88cf7db934545321842bf528cfe41834a731ca932464d30beed267871aec",
+      "core_signals.json": "88a0e80b6db233250b5103a7177dbaac3b2820121901eb75cc49f0015890d5c9",
+      "config.json": "079048bf234cf4d4ee301e06cf14ff2679ca3c1da74f5bf209961a1a574fa584"
+    }
+  },
+  {
+    "year": "2021",
+    "asset": "ETH",
+    "start": 1609430400,
+    "end": 1640966400,
+    "first15": 1602518400,
+    "first1": 1609344000,
+    "hashes": {
+      "ETH_15m.csv": "9bc76511d7ef40238fa7d7a83962f361f54528b982b5d6a6ee4e99c79bedbbb9",
+      "ETH_1m.npy": "5e01e0d19bf85137dcc5c9097e13a05d3c319befce8ad392af6a48eadc670f41"
+    },
+    "legacy_data": "outputs/other_years_050/2021/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH",
+    "reference_SHA256": {
+      "result.json": "7c40f1058cde65cb2cc59632fe805be294afdb92a52c7eebaa6bc42728ec5259",
+      "equity.npz": "8099adead4f9132dd58e85bd4c34885bd5afc77af875c2208fee63312788db82",
+      "core_signals.json": "ae6eb6bf5e3e7e7971bb41b2391c93f1b2ebba19aa794bcfb909a6fb2a316222",
+      "config.json": "e9cc7f42e9ec03e675f58262c620e22c5a99d79da39842aa7525bb9841bfc71a"
+    }
+  },
+  {
+    "year": "2022",
+    "asset": "BTC",
+    "start": 1640966400,
+    "end": 1672502400,
+    "first15": 1634054400,
+    "first1": 1640880000,
+    "hashes": {
+      "BTC_15m.csv": "11a6595ece02d9ea310ba4d80d1a49b86c6d4782c16dc7e6580dab48aaca58b9",
+      "BTC_1m.npy": "6f90b9e28d22f83ae136315d6436ec703383bb151f5eb9c4eaf4e1932aee32da"
+    },
+    "legacy_data": "outputs/other_years_050/2022/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC",
+    "reference_SHA256": {
+      "result.json": "5a5e9b9a0c1e456143471d493cbbecdbf7d7bcf4450e42f7d706edbead3c381d",
+      "equity.npz": "e91a0e5c84c4ca4ee6cf4814c8f0c8bafa50b638e92b773092dd7c6ae35f8fa8",
+      "core_signals.json": "4ca5617988b6845ba5eee2bd6e62e1f9abe94256be180ec2904424882f5a1a11",
+      "config.json": "d03fcf002cbcc1d29e0466687ea8cd212c8a17916f45f0d8481612982a96756a"
+    }
+  },
+  {
+    "year": "2022",
+    "asset": "ETH",
+    "start": 1640966400,
+    "end": 1672502400,
+    "first15": 1634054400,
+    "first1": 1640880000,
+    "hashes": {
+      "ETH_15m.csv": "152445481ab4c62f1b2204869f29adc76c1bb7838367e58a3fda66f1db0abef0",
+      "ETH_1m.npy": "e880a4b71bf358bbf4a305194f6e9b6ef8ccb097f0e7ccd403ce0daa20cf392a"
+    },
+    "legacy_data": "outputs/other_years_050/2022/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH",
+    "reference_SHA256": {
+      "result.json": "259c02d5baede161ada00b459f55a291f1a3d8eabc087d3cbb83e5080a42ab76",
+      "equity.npz": "a6253c41d2f1d4feb3310b7fa44286f2cc9daeb7f9136fe3713959c8c4d2ac3a",
+      "core_signals.json": "572c6b61294934ebf4960c40c28aee200f5956e5ac180628b795d591f9483d35",
+      "config.json": "7247dbed33754638193e7ebd9bf10a5c0af6157ae6ae2f28563c360c8cb6a741"
+    }
+  },
+  {
+    "year": "2023",
+    "asset": "BTC",
+    "start": 1672502400,
+    "end": 1704038400,
+    "first15": 1665590400,
+    "first1": 1672416000,
+    "hashes": {
+      "BTC_15m.csv": "eff7dedd5b6729ebc3d264b593728a62a20128215da604f4422f81957e98045d",
+      "BTC_1m.npy": "acb032a06448d8d8bcb68f3853ceb078f6274dda29c3d8ce8ac40b907f1dd7be"
+    },
+    "legacy_data": "outputs/other_years_050/2023/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC",
+    "reference_SHA256": {
+      "result.json": "274fbcca12aa215097eab26643dd2538e7c6613445488ae7a5569043182c06e0",
+      "equity.npz": "a4ff8eb1194e349d1fcd355eb1edd867c81df4468b28e7e7f63b61b38a62ef1e",
+      "core_signals.json": "68312d27e9c63f4d8ad2f5002bdb2ab604a9974e9ab27cc90bb3703fefed1d44",
+      "config.json": "0e7be51d0e4a90412abc0064d84cbd19389b8e8dc99f71aff1e2633abd1039b4"
+    }
+  },
+  {
+    "year": "2023",
+    "asset": "ETH",
+    "start": 1672502400,
+    "end": 1704038400,
+    "first15": 1665590400,
+    "first1": 1672416000,
+    "hashes": {
+      "ETH_15m.csv": "494d83d73064bd8539c67ed6b10f4ef760a175c192c2c5aede6296b7e69e3aa7",
+      "ETH_1m.npy": "948b506e1dd565176c31cb70f26d42f72f94edf0f559368c5bd4779671ea51a8"
+    },
+    "legacy_data": "outputs/other_years_050/2023/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH",
+    "reference_SHA256": {
+      "result.json": "c177790edd2bdf821d818dcdf33276a1216d952f9f83f9dae17467bfa093e687",
+      "equity.npz": "e392e6656403dd1c86849c9574fe9a2bce09cdbcc9117d148fccc12ddecc1d5c",
+      "core_signals.json": "58150c409ca136a48fb99e6671088e269aed1d1a6637b69c4baa0095de1349ce",
+      "config.json": "6e68e4d92c63375ba082313e5ebcc1d316e6e848bf6f895254b433c6d3fa24be"
+    }
+  },
+  {
+    "year": "2024",
+    "asset": "BTC",
+    "start": 1704038400,
+    "end": 1735660800,
+    "first15": 1697126400,
+    "first1": 1703952000,
+    "hashes": {
+      "BTC_15m.csv": "7b5f197ffd624b5b765b68caffe3c012e122008f302c509954f2e42660e7e1f3",
+      "BTC_1m.npy": "f68072d2a81ee545e574d30751d7652b55de59c7950cedbae74b760de84146f8"
+    },
+    "legacy_data": "outputs/other_years_050/2024/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC",
+    "reference_SHA256": {
+      "result.json": "b61b4a16e159a54c9798a998bea924e6d3920e7422c380bafe37c69070fd4c7f",
+      "equity.npz": "7be634ef012a32c27b4c6c749e04409ff25ec0054eb2578703c0b7b06f293fcb",
+      "core_signals.json": "68380bb9fa0fc65808f9d5fd4d2e82c45bb296e162abb44e5279f9032ce4b008",
+      "config.json": "70f4cdeb48fbca608ad9ea5485667ad57da1b1f6f3c7e368d2dd93c24f2906e1"
+    }
+  },
+  {
+    "year": "2024",
+    "asset": "ETH",
+    "start": 1704038400,
+    "end": 1735660800,
+    "first15": 1697126400,
+    "first1": 1703952000,
+    "hashes": {
+      "ETH_15m.csv": "2419f0a47704d4db0f0ba38dda7b4302caa3b5708578725f787367e5e479a342",
+      "ETH_1m.npy": "5a7a5b87b3bd836827fafb589023527a5a1725315083079cfd58b84f1b6f0e8e"
+    },
+    "legacy_data": "outputs/other_years_050/2024/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH",
+    "reference_SHA256": {
+      "result.json": "f79c8f661884dfcfba4eb1ae7006318bdc07fb1c1a3a82940a054939f5a1d100",
+      "equity.npz": "89668b99f952120e0a7a8fe7f72692f80601c77e7f6a8c5b87d9248602cf3703",
+      "core_signals.json": "9954afa32f500916081e87162e3e109703fb2db07782b2409fb433345bf2bdd6",
+      "config.json": "bfe1d31119b2ad2d82b5daccaba0c90701e80acbde2c33104860167ce92fe15e"
+    }
+  },
+  {
+    "year": "2025",
+    "asset": "BTC",
+    "start": 1735660800,
+    "end": 1767196800,
+    "first15": 1728748800,
+    "first1": 1735574400,
+    "hashes": {
+      "BTC_15m.csv": "ed580f3c27d49e0ede526d25fdf5c5affe8f108b812506f7ea0b0a620bafd8dd",
+      "BTC_1m.npy": "135d3def5875cef7081493484006ff85d1791f5fccf8b0167b597a8c60c43e32"
+    },
+    "legacy_data": "outputs/other_years_050/2025/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC",
+    "reference_SHA256": {
+      "result.json": "99fc2e542b67e3724f1f0fb9cd8eb514db330086d7e10f6c9ca5476e8e82cc42",
+      "equity.npz": "84f2611b6b2bb3ee571fc4ccc5a2db2cdaee6ca0025bce6dd0aec25b2ebb7ba1",
+      "core_signals.json": "9f6355b4f33ce39a89aa3afd481bfc817924dc4f0fffc966201415de717953c0",
+      "config.json": "033366ba937ba6608aeab5171c001555dc6bf916da314ecc30fabac726cc5ffe"
+    }
+  },
+  {
+    "year": "2025",
+    "asset": "ETH",
+    "start": 1735660800,
+    "end": 1767196800,
+    "first15": 1728748800,
+    "first1": 1735574400,
+    "hashes": {
+      "ETH_15m.csv": "bfe9b9138641fa1f0d539c5208e11d17f6efb49adf222cf6f0540f9770b355be",
+      "ETH_1m.npy": "ecfbb3e74eaf37db4681e573c945b62093a60316b1c2f89715794405b2e16e46"
+    },
+    "legacy_data": "outputs/other_years_050/2025/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH",
+    "reference_SHA256": {
+      "result.json": "331cd89271b6071767122e3196059aac28598af260fd8dad30a8728a001c6d73",
+      "equity.npz": "8adfbc1455496b44cadafc29c9b6bef45c0585b1c2c0356312933a5b1d6cf429",
+      "core_signals.json": "abbc1441973362076306a255bc180874f32b74becc79d05a32c8e321c63dd9c2",
+      "config.json": "1aad17f3e431c0c33c2f257a40cecee71348cf52bcf267218654c0e1ce93f994"
+    }
+  },
+  {
+    "year": "2026",
+    "asset": "BTC",
+    "start": 1767196800,
+    "end": 1793462400,
+    "first15": 1763308800,
+    "first1": 1767139200,
+    "hashes": {
+      "BTC_15m.csv": "b65073be834f3858aab87b31915ef4abed42b0c2063acc8237aeb429d63ea7f2",
+      "BTC_1m.npy": "df04b1b6f01714c27544f5323dc1d5cc2294af196d6cc57c7afd95fa843f307e"
+    },
+    "legacy_data": "outputs/attribution_2026/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC",
+    "reference_SHA256": {
+      "result.json": "222edc9ed62f44bfd61225007ab1e7426ae19f8331d3010aa33ec0e2be0b2c91",
+      "equity.npz": "bf4b50852db599014b6ec8ffb7d4dfebe5c655aff1de7631063c93492bf1d6b6",
+      "core_signals.json": "8f71331a10c21a8c0173c9f815ebf676abcd865e8da0bb9ab119c125c6bc6a10",
+      "config.json": "3c95e10915ae9b15541d2459d4898cb16cc0e2b05f8146b438045e9516006e76"
+    }
+  },
+  {
+    "year": "2026",
+    "asset": "ETH",
+    "start": 1767196800,
+    "end": 1793462400,
+    "first15": 1763308800,
+    "first1": 1767139200,
+    "hashes": {
+      "ETH_15m.csv": "b9408604f77ff2c47fd403f7cff42c0fb3d3350cfba97dab93f44b53d7f9ce4e",
+      "ETH_1m.npy": "5d241c0cb6bb9e2f64b61b010f03ed25c632b152b7dc10e08bc0bc51ed95c8fb"
+    },
+    "legacy_data": "outputs/attribution_2026/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH",
+    "reference_SHA256": {
+      "result.json": "306906991d3fe9c9db6abe9efb1a517fdb13c20ce4d3a92594f3c6f95b266a2a",
+      "equity.npz": "2668e341b2d7bdd04901e07a6aa7d72ae1edb4c1f06983537c3cc2b5e449f4a7",
+      "core_signals.json": "780b913a08a3309fbd1bd19e92f3bc741630ddbf0eb48ba68ad42f7a28388f98",
+      "config.json": "9cfcc57d6fbc2501fbe4bcc90d526bcaf8a35fbdb6be1eb212076a08a9924d7c"
+    }
+  }
+]
