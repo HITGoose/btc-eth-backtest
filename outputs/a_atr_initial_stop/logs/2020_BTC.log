@@ -1,0 +1,5 @@
+COMMAND ['/workspace/.venv-btc-eth-original/bin/python', '/workspace/btc-eth-backtest/outputs/a_atr_initial_stop/runner.py', '2020', 'BTC']
+START 2020 BTC ZERO_A_ATR_STOP
+COMPLETE 2020 BTC ZERO_A_ATR_STOP 211.49733371760362 111
+START 2020 BTC MAKER_002_SIDE_A_ATR_STOP
+COMPLETE 2020 BTC MAKER_002_SIDE_A_ATR_STOP 184.86338984165192 111

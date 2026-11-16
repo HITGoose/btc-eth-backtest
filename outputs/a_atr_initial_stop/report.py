@@ -1,0 +1,75 @@
+from pathlib import Path
+import ast,csv,json
+import numpy as np
+O=Path(__file__).resolve().parent;R=O.parents[1]
+ns=dict(np=np,csv=csv,json=json);tree=ast.parse((R/'outputs/adaptive_density_control/report.py').read_text());exec(compile(ast.Module(body=[n for n in tree.body if isinstance(n,ast.FunctionDef)and n.name in ['metrics','csvwrite','reason']],type_ignores=[]),'<unchanged statistics>','exec'),ns)
+FEES=['ZERO','MAKER_002_SIDE'];GROUPS=['A_BASE','A_ATR_STOP'];rows=[];trades=[];matches=[];checks=[];expos=[];decomp=[];target=[];sizing=[]
+def key(t):return(t['side'],int(t['signal_close_ms']))
+def records(q):
+ m={}
+ for t in q['trades']:
+  assert key(t)not in m;m[key(t)]=dict(t,record_type='CLOSED',contribution=t['net'],unrealized=0.,open_entry_fee=0.,entry_cash=t['opening_sleeve_cash_usdt'])
+ p=q['state_at_end']['position']
+ if p:
+  o=p['order'];nom=o['price']*o['qty'];u=o['side']*o['qty']*(q['mark_price']-o['price']);t=dict(side='LONG'if o['side']==1 else'SHORT',signal_close_ms=int(o['signal_close_ms']),entry=o['price'],quantity=o['qty'],notional=nom,opened_us=q['state_at_end']['position_opened_us'],closed_us=None,exit=None,reason='OPEN_AT_END',record_type='OPEN_AT_END',net=None,contribution=u-q['fee']*nom,unrealized=u,open_entry_fee=q['fee']*nom,entry_cash=p['opening_cash'],atr_initial_parameters=o.get('atr_parameters'));assert key(t)not in m;m[key(t)]=t
+ for t in m.values():
+  p=t.get('atr_initial_parameters')or dict(d=.02,L=3.,fallback=False,ATR96=None)
+  t.update(initial_d=p['d'],target_L=p['L'],ATR96=p['ATR96'],fallback=p['fallback'],actual_entry_leverage=t['notional']/t['entry_cash'],planned_price_risk_fraction=t['notional']*p['d']/t['entry_cash'],r1000=1000*t['contribution']/t['notional'])
+ return m
+
+def exp(q,v,inp,prices,m):
+ start,end=inp['start'],inp['end'];qty=np.zeros(len(v));seconds=0.
+ for t in m.values():
+  a=t['opened_us'];b=t.get('closed_us')or end*1000000;lo=max(0,int(a//60000000-start//60));hi=min(len(qty),int(b//60000000-start//60));qty[lo:hi]=t['quantity'];seconds+=(min(b,end*1000000)-max(a,start*1000000))/1e6
+ gross=qty*prices;assert(v>0).all();lev=gross/v
+ return gross,dict(minute_count=len(v),timeweighted_gross_equity=float(np.mean(lev)),max_minute_end_gross_equity=float(np.max(lev)),mean_minute_end_gross_USDT=float(np.mean(gross)),holding_fraction=seconds/(end-start))
+def mean(v):return float(np.mean(v))if v else None
+def outcome(t):return'NO_BASE_FILL'if t is None else'BASE_OPEN_AT_END'if t['record_type']=='OPEN_AT_END'else'BASE_WIN'if t['net']>0 else'BASE_LOSS'if t['net']<0 else'BASE_FLAT'
+for y in range(2020,2027):
+ period=str(y)
+ for fee in FEES:
+  acc={}
+  for asset in ['BTC','ETH']:
+   f=O/'runs'/period/asset
+   if not(f/'status.json').exists():continue
+   sigs=json.loads((f/'signals.json').read_text());assert sigs['A_BASE']==sigs['A_ATR_STOP'];core={int(k):v for k,v in sigs['A_BASE'].items()};inp=json.loads((f/'input.json').read_text());raw=np.load(Path(inp['data'])/(asset+'_1m.npy'),mmap_mode='r');prices=raw[(inp['start']-inp['minute_first'])//60:(inp['end']-inp['minute_first'])//60,3]
+   for g in GROUPS:
+    q=json.loads((f/f'{fee}_{g}_result.json').read_text());v=np.load(f/f'{fee}_{g}_equity.npz')['marks'];m=records(q);closed=sum(t['net']for t in q['trades']);u=sum(t['unrealized']for t in m.values());ef=sum(t['open_entry_fee']for t in m.values());ck=dict(period=period,asset=asset,fee_scenario=fee,group=g,cash_residual=q['cash']-500-closed+ef,equity_residual=q['ending_equity']-q['cash']-u,cash_event_residual=q['cash']-500-sum(t['delta']for t in q['cash_events']));assert max(abs(ck[k])for k in ['cash_residual','equity_residual','cash_event_residual'])<1e-7 and abs(v[-1]-q['ending_equity'])<1e-7;checks.append(ck)
+    gross,ex=exp(q,v,inp,prices,m);acc[asset,g]=(q,v,m,gross);ts=list(m.values());assert all(core[k[1]]==(1 if k[0]=='LONG'else-1)for k in m)
+    d=[t['initial_d']for t in ts];ls=[t['actual_entry_leverage']for t in ts];risk=[t['planned_price_risk_fraction']for t in ts]
+    r=dict(period=period,asset=asset,fee_scenario=fee,group=g,**ns['metrics'](v,500,q['trades']),net_pnl_USDT=q['ending_equity']-500,cash_USDT=q['cash'],closed_net_USDT=closed,end_unrealized_USDT=u,open_entry_fee_USDT=ef,open_count=sum(t['record_type']=='OPEN_AT_END'for t in ts),filled_count=len(ts),mean_initial_d=mean(d),median_initial_d=float(np.median(d))if d else None,d_1pct_fraction=mean([abs(x-.01)<1e-12 for x in d]),d_3pct_fraction=mean([abs(x-.03)<1e-12 for x in d]),d_middle_fraction=mean([.01+1e-12<x<.03-1e-12 for x in d]),avg_actual_entry_leverage=mean(ls),mean_planned_price_risk_fraction=mean(risk),max_planned_price_risk_fraction=max(risk,default=0.),submitted_orders=sum(a['accepted']for a in q['sizing_audit']),rejected_orders=sum(not a['accepted']for a in q['sizing_audit']),fallback_signal_count=q.get('fallback_signal_count',0),fallback_submitted_count=q.get('fallback_submitted_count',0),**ex,source=q['status']);rows.append(r);expos.append(dict(period=period,asset=asset,fee_scenario=fee,group=g,**ex));trades.extend(dict(period=period,asset=asset,fee_scenario=fee,group=g,**t)for t in ts)
+    for a in q['sizing_audit']:
+     targetL=a.get('target_leverage',3.);reserve=1.;nom=a['actual_notional'];sent=[e for e in q['events']if e['event']=='order_sent'and int(e['signal_close_ms'])==int(a['signal_close_ms'])]
+     if a['accepted']:
+      assert len(sent)==1;P=sent[0]['price'];assert nom<=a['realized_balance']*targetL+1e-7 and a['realized_balance']*targetL-nom<P*(.0001 if asset=='BTC'else .01)+1e-7
+     if g=='A_ATR_STOP':assert a['planned_price_risk_fraction']<=.06+1e-10 and .01<=a['d']<=.03 and a['target_leverage']==min(3.,.06/a['d'])
+     sizing.append(dict(period=period,asset=asset,fee_scenario=fee,group=g,**a))
+   b,bv,aa,_=acc[asset,'A_BASE'];q,v,bb,_=acc[asset,'A_ATR_STOP'];new=[t for k,t in bb.items()if k not in aa];lost=[t for k,t in aa.items()if k not in bb];nr=sum(t['contribution']for t in new);lr=sum(t['contribution']for t in lost);md=sum(bb[k]['contribution']-a['contribution']for k,a in aa.items()if k in bb);delta=q['ending_equity']-b['ending_equity'];assert abs(delta-nr+lr-md)<1e-7;decomp.append(dict(period=period,asset=asset,fee_scenario=fee,account_difference_USDT=delta,new_fills=len(new),new_contribution_USDT=nr,lost_fills=len(lost),lost_contribution_USDT=lr,matched_difference_USDT=md,residual=delta-nr+lr-md))
+   for k in sorted(set(aa)|set(bb)):
+    a=aa.get(k);t=bb.get(k);cat='NEW'if a is None else'DISAPPEARED'if t is None else'RETAINED'if all(a.get(x)==t.get(x)for x in ['record_type','entry','exit','quantity','opened_us','closed_us','contribution'])else'CHANGED';d=t['initial_d']if t else None
+    matches.append(dict(period=period,asset=asset,fee_scenario=fee,side=k[0],signal_close_ms=k[1],category=cat,base_outcome=outcome(a),base_reason=a['reason']if a else None,variant_reason=t['reason']if t else None,base_record_type=a['record_type']if a else None,variant_record_type=t['record_type']if t else None,base_contribution_USDT=a['contribution']if a else None,variant_contribution_USDT=t['contribution']if t else None,actual_difference_USDT=t['contribution']-a['contribution']if a and t else None,base_r1000=a['r1000']if a else None,variant_r1000=t['r1000']if t else None,r1000_difference=t['r1000']-a['r1000']if a and t else None,base_notional_USDT=a['notional']if a else None,variant_notional_USDT=t['notional']if t else None,base_opened_us=a['opened_us']if a else None,variant_opened_us=t['opened_us']if t else None,base_closed_us=a.get('closed_us')if a else None,variant_closed_us=t.get('closed_us')if t else None,base_entry=a['entry']if a else None,variant_entry=t['entry']if t else None,base_exit=a.get('exit')if a else None,variant_exit=t.get('exit')if t else None,variant_d=d,variant_target_L=t['target_L']if t else None,base_profit_closer_hardstop_earlier=bool(a and t and a['record_type']=='CLOSED'and a['net']>0 and t['record_type']=='CLOSED'and d<.02 and t['reason']=='hard_stop'and t['closed_us']<a['closed_us']),wider_stop_matched_loss=bool(a and t and d>.02 and t['record_type']=='CLOSED'and t['net']<0),absent_reason=ns['reason'](q,k[1],1 if k[0]=='LONG'else-1,core)if t is None else None))
+   if period=='2024'and asset=='BTC':
+    p=b['state_at_end']['position'];assert p;k=('LONG'if p['order']['side']==1 else'SHORT',int(p['order']['signal_close_ms']))
+    for g in GROUPS:
+     z=acc[asset,g][0];t=acc[asset,g][2].get(k);target.append(dict(period=period,asset=asset,fee_scenario=fee,group=g,filled=t is not None,**(t or{'signal_close_ms':k[1]}),holding_days=((t.get('closed_us')or z['window'][1]*1000)-t['opened_us'])/86400000000 if t else None))
+  for g in GROUPS:
+   if('BTC',g)not in acc or('ETH',g)not in acc:continue
+   a,av,aa,ag=acc['BTC',g];b,bv,bb,bg=acc['ETH',g];assert a['window']==b['window']and len(av)==len(bv);v=av+bv;gross=ag+bg;ts=list(aa.values())+list(bb.values());d=[t['initial_d']for t in ts];ls=[t['actual_entry_leverage']for t in ts];risk=[t['planned_price_risk_fraction']for t in ts]
+   rows.append(dict(period=period,asset='COMBINED',fee_scenario=fee,group=g,**ns['metrics'](v,1000,a['trades']+b['trades']),net_pnl_USDT=a['ending_equity']+b['ending_equity']-1000,cash_USDT=a['cash']+b['cash'],closed_net_USDT=sum(t['net']for t in a['trades']+b['trades']),end_unrealized_USDT=sum(t['unrealized']for t in ts),open_entry_fee_USDT=sum(t['open_entry_fee']for t in ts),open_count=sum(t['record_type']=='OPEN_AT_END'for t in ts),filled_count=len(ts),mean_initial_d=mean(d),median_initial_d=float(np.median(d))if d else None,d_1pct_fraction=mean([abs(x-.01)<1e-12 for x in d]),d_3pct_fraction=mean([abs(x-.03)<1e-12 for x in d]),d_middle_fraction=mean([.01+1e-12<x<.03-1e-12 for x in d]),avg_actual_entry_leverage=mean(ls),mean_planned_price_risk_fraction=mean(risk),max_planned_price_risk_fraction=max(risk,default=0.),submitted_orders=sum(sum(x['accepted']for x in z['sizing_audit'])for z in [a,b]),rejected_orders=sum(sum(not x['accepted']for x in z['sizing_audit'])for z in [a,b]),fallback_signal_count=sum(z.get('fallback_signal_count',0)for z in [a,b]),fallback_submitted_count=sum(z.get('fallback_submitted_count',0)for z in [a,b]),minute_count=len(v),timeweighted_gross_equity=float(np.mean(gross/v)),source='COMPLETED_WITH_1M_OHLC_ASSUMPTIONS'));expos.append(dict(period=period,asset='COMBINED',fee_scenario=fee,group=g,minute_count=len(v),timeweighted_gross_equity=float(np.mean(gross/v)),max_minute_end_gross_equity=float(np.max(gross/v)),mean_minute_end_gross_USDT=float(np.mean(gross))))
+index={(r['period'],r['asset'],r['fee_scenario'],r['group']):r for r in rows}
+for r in rows:
+ b=index[r['period'],r['asset'],r['fee_scenario'],'A_BASE'];r.update(difference_vs_base_USDT=r['net_pnl_USDT']-b['net_pnl_USDT'],drawdown_difference_vs_base_pp=r['max_drawdown_pct']-b['max_drawdown_pct'])
+totals=[];attribution=[];riskstats=[]
+for stage,years in [('EARLY_2020_2022',['2020','2021','2022']),('LATER_2023_2026',['2023','2024','2025','2026']),('ALL_7',[str(y)for y in range(2020,2027)])]:
+ for fee in FEES:
+  for asset in ['BTC','ETH','COMBINED']:
+   for g in GROUPS:
+    rr=[index.get((y,asset,fee,g))for y in years]
+    if not all(rr):continue
+    base=[index[y,asset,fee,'A_BASE']for y in years];total=dict(stage=stage,fee_scenario=fee,asset=asset,group=g,independent_intervals=len(rr),net_pnl_USDT=sum(r['net_pnl_USDT']for r in rr),closed_net_USDT=sum(r['closed_net_USDT']for r in rr),end_unrealized_USDT=sum(r['end_unrealized_USDT']for r in rr),open_entry_fee_USDT=sum(r['open_entry_fee_USDT']for r in rr),closed_trades=sum(r['closed_trades']for r in rr),total_loss_USDT=sum(r['total_loss_USDT']for r in rr),max_single_loss_USDT=max(r['max_single_loss_USDT']for r in rr),worst_annual_drawdown_pct=max(r['max_drawdown_pct']for r in rr),difference_vs_base_USDT=sum(r['net_pnl_USDT']-b['net_pnl_USDT']for r,b in zip(rr,base)),outperform_years=sum(r['net_pnl_USDT']>b['net_pnl_USDT']+1e-8 for r,b in zip(rr,base)),higher_drawdown_years=sum(r['max_drawdown_pct']>b['max_drawdown_pct']+1e-8 for r,b in zip(rr,base)),timeweighted_gross_equity=sum(r['timeweighted_gross_equity']*r['minute_count']for r in rr)/sum(r['minute_count']for r in rr));totals.append(total)
+    tt=[t for t in trades if t['period']in years and t['fee_scenario']==fee and t['group']==g and(asset=='COMBINED'or t['asset']==asset)];ds=[t['initial_d']for t in tt];riskstats.append(dict(stage=stage,fee_scenario=fee,asset=asset,group=g,filled_count=len(tt),mean_initial_d=mean(ds),median_initial_d=float(np.median(ds)),d_1pct_fraction=mean([abs(x-.01)<1e-12 for x in ds]),d_3pct_fraction=mean([abs(x-.03)<1e-12 for x in ds]),d_middle_fraction=mean([.01+1e-12<x<.03-1e-12 for x in ds]),mean_actual_entry_leverage=mean([t['actual_entry_leverage']for t in tt]),mean_planned_price_risk_fraction=mean([t['planned_price_risk_fraction']for t in tt]),max_planned_price_risk_fraction=max(t['planned_price_risk_fraction']for t in tt),fallback_fill_count=sum(t['fallback']for t in tt)))
+   mm=[r for r in matches if r['period']in years and r['fee_scenario']==fee and(asset=='COMBINED'or r['asset']==asset)]
+   for cat in ['BASE_WIN','BASE_LOSS','BASE_OPEN_AT_END','NO_BASE_FILL']:
+    rr=[r for r in mm if r['base_outcome']==cat];paired=[r for r in rr if r['actual_difference_USDT']is not None];attribution.append(dict(stage=stage,fee_scenario=fee,asset=asset,category=cat,count=len(rr),matched_count=len(paired),actual_difference_USDT=sum(r['actual_difference_USDT']for r in paired),sum_r1000_difference=sum(r['r1000_difference']for r in paired),mean_r1000_difference=mean([r['r1000_difference']for r in paired]),improved_count=sum(r['actual_difference_USDT']>1e-8 for r in paired),worsened_count=sum(r['actual_difference_USDT']<-1e-8 for r in paired),normalized_improved_count=sum(r['r1000_difference']>1e-8 for r in paired),normalized_worsened_count=sum(r['r1000_difference']<-1e-8 for r in paired),original_profitable_early_closer_stops=sum(r['base_profit_closer_hardstop_earlier']for r in rr),original_profit_on_early_closer_stops_USDT=sum(r['base_contribution_USDT']for r in rr if r['base_profit_closer_hardstop_earlier']),variant_contribution_on_early_closer_stops_USDT=sum(r['variant_contribution_USDT']for r in rr if r['base_profit_closer_hardstop_earlier']),disappeared_count=sum(r['category']=='DISAPPEARED'for r in rr),disappeared_base_contribution_USDT=sum(r['base_contribution_USDT']or 0 for r in rr if r['category']=='DISAPPEARED'),new_count=sum(r['category']=='NEW'for r in rr),new_contribution_USDT=sum(r['variant_contribution_USDT']or 0 for r in rr if r['category']=='NEW')))
+for name,v in [('annual.csv',rows),('exposure.csv',expos),('trades.csv',trades),('trade_matching.csv',matches),('ledger_checks.csv',checks),('account_decomposition.csv',decomp),('btc_2024_long_position.csv',target),('sizing_audit.csv',sizing),('period_summary.csv',totals),('risk_summary.csv',riskstats),('attribution_summary.csv',attribution)]:ns['csvwrite'](O/name,v)
+print('REPORT',len(rows),'annual rows',len(checks),'reconciled accounts',len(trades),'filled records',flush=True)
