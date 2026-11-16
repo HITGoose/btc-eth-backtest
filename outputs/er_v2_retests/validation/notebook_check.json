@@ -3,8 +3,8 @@
   "all_cells_compile": true,
   "no_saved_outputs": true,
   "no_embedded_credentials": true,
-  "locked_code_commit": "24a0db04419a1970f0fab7193da408f6c197adf1",
-  "notebook_SHA256": "95a556b3fd0effd56687b53d1cd81167e29601cb180ca1906c3c5167317766d5",
+  "locked_code_commit": "6a26255153d877fd03be0809fdda46bccbf4c2f1",
+  "notebook_SHA256": "eed1054e9840ecdfc108527e7e2f48047ec1a02bebe4b323fba4f851ec86748f",
   "Colab_service_execution": "NOT_RUN_HERE; scripts short-tested only",
   "full_replays_in_Codex": 0
 }
