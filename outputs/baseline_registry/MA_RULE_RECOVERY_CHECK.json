@@ -1,0 +1,14 @@
+[
+  {
+    "asset": "BTC",
+    "period": "2026",
+    "original_MA_signal_map_exact": true,
+    "signals": 4015
+  },
+  {
+    "asset": "ETH",
+    "period": "2026",
+    "original_MA_signal_map_exact": true,
+    "signals": 2921
+  }
+]

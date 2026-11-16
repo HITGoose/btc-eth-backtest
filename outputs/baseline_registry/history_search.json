@@ -1,0 +1,14 @@
+{
+  "source_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+  "matched_runtime_source_files": 9,
+  "local_original_MA_accounts_found": [
+    "outputs/attribution_2026/BTC_MA_result.json",
+    "outputs/attribution_2026/ETH_MA_result.json"
+  ],
+  "old_2020_2025_MA_full_accounts_found": false,
+  "additional_remote_tree_checked": "0ad7902161b91e7cf5538c5c06195c4a39086c24",
+  "additional_remote_tree_query": "MA_result|MA_equity|ma.*annual|direction.*annual|prior_annual",
+  "additional_remote_tree_matches": 0,
+  "original_2020_MA_window": "UNVERIFIED",
+  "old_Gate_report_not_target": true
+}

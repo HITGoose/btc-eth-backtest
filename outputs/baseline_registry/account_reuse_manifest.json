@@ -1,0 +1,476 @@
+[
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2020",
+    "asset": "BTC",
+    "result": "outputs/rebound_annual_zero/runs/2020/BTC/results/CONTROL_result.json",
+    "result_SHA256": "2eecc85a46dab9f9d55a186803b792d70b9e9c380cd1afefdba716a6cfa5f452",
+    "equity": "outputs/rebound_annual_zero/runs/2020/BTC/results/CONTROL_equity.npz",
+    "equity_SHA256": "271771bcc8e68f1abaaeade81a5b4ff6e586ab49740b13dc99f45a9b5dcd3c58",
+    "config_SHA256": "7d2247f09504dd78cd2e69e804cefdfe499ad646131db483facd4668d34da063",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 66,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [
+        "submitted_us"
+      ],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2020/BTC/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "549e04e1e9e000b0c636e1efc7f499e2433d211f25ea2f4715e617a6f4cb4f85",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "BTC_15m.csv": "de8e13ee366c0e2f054c39ab1d2388d52080a9a71bd6c35dccdf8c8bd77834c8",
+      "BTC_1m.npy": "733aa4d8231e66812c2a8e50442c4da944a17b8cef42aa1273e35d0854f851ff"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/BTC/equity.npz"
+  },
+  {
+    "version": "MA_DIRECTION_REFERENCE",
+    "period": "2020",
+    "asset": "BTC",
+    "result": "outputs/baseline_registry/runs/2020/BTC/results/MA_DIRECTION_REFERENCE_result.json",
+    "result_SHA256": "e7960492157365ba1392850e34aa6315e7f518c17733c9c5a5087c5196db9fb9",
+    "equity": "outputs/baseline_registry/runs/2020/BTC/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "equity_SHA256": "94c024f5600a348c3b24c2e56410a0e61071b8f93df0485ff6069f18c46d2bf9",
+    "action": "SUPPLEMENTARY_RAW_REPLAY",
+    "original_status": "COMPLETE"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2020",
+    "asset": "ETH",
+    "result": "outputs/rebound_annual_zero/runs/2020/ETH/results/CONTROL_result.json",
+    "result_SHA256": "ad5acffef5e1b1a0c46f680dbe9d2145251992dc8a8c45197e62dc979bd777a8",
+    "equity": "outputs/rebound_annual_zero/runs/2020/ETH/results/CONTROL_equity.npz",
+    "equity_SHA256": "7803ac59d749dae73c92cbacc7b05c60544e29c59cff4d2965e594c9a8cac15f",
+    "config_SHA256": "b49e61e73fcafeb9b45c38581f5bf5c1d0bd58c0c47fedf43057f5ffe9733193",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 34,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2020/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "1f5fbdc43ab3b4ede3e5ac83225cf25d27a8d4603f4fe04e43521e934b8a28fd",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "ETH_15m.csv": "711b37f9d06008d59ed337b33467beaf7bbdedf9a6467f82d8bef5c663f4af5f",
+      "ETH_1m.npy": "a1fdd89415fbae112e733e26f48c68066e8c9006db904f90872c771a28c986c7"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH/equity.npz"
+  },
+  {
+    "version": "MA_DIRECTION_REFERENCE",
+    "period": "2020",
+    "asset": "ETH",
+    "result": "outputs/baseline_registry/runs/2020/ETH/results/MA_DIRECTION_REFERENCE_result.json",
+    "result_SHA256": "360618bed7ee167d686664216a38afcf0f71ad6f42189ba584ce8ae34f0ceed3",
+    "equity": "outputs/baseline_registry/runs/2020/ETH/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "equity_SHA256": "b8ac2ff2c64f25381dc5b120b9f693773704563eb41475497ab98671d886d918",
+    "action": "SUPPLEMENTARY_RAW_REPLAY",
+    "original_status": "COMPLETE"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2021",
+    "asset": "BTC",
+    "result": "outputs/rebound_annual_zero/runs/2021/BTC/results/CONTROL_result.json",
+    "result_SHA256": "1b2d86dae781162ba15fbbbd2355a22c93b80eeed0f211804df9831bf609c44e",
+    "equity": "outputs/rebound_annual_zero/runs/2021/BTC/results/CONTROL_equity.npz",
+    "equity_SHA256": "2b1f88cf7db934545321842bf528cfe41834a731ca932464d30beed267871aec",
+    "config_SHA256": "079048bf234cf4d4ee301e06cf14ff2679ca3c1da74f5bf209961a1a574fa584",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 24,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [
+        "submitted_us"
+      ],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2021/BTC/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "4222f1363ecf31c2b69d3430759b62970cc380ba4b06cf45104c796d3d44d897",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "BTC_15m.csv": "6d33a0595e67b09d39897bdcbbd6b0e02b67f97429a2f0902af3e04e3902dad9",
+      "BTC_1m.npy": "9a8d0093002c44c1e8da7048b22f8d1804baabbb012cb321fa20b5638407d6c2"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/BTC/equity.npz"
+  },
+  {
+    "version": "MA_DIRECTION_REFERENCE",
+    "period": "2021",
+    "asset": "BTC",
+    "result": "outputs/baseline_registry/runs/2021/BTC/results/MA_DIRECTION_REFERENCE_result.json",
+    "result_SHA256": "f0e0adc03f4e190a6c1140afb7a651f27b52834dd7515c46bf092a0582f1d1d0",
+    "equity": "outputs/baseline_registry/runs/2021/BTC/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "equity_SHA256": "39f5881776ff7314f73addb715276d92a56ff6d8a50754d04ace95e83963149d",
+    "action": "SUPPLEMENTARY_RAW_REPLAY",
+    "original_status": "COMPLETE"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2021",
+    "asset": "ETH",
+    "result": "outputs/rebound_annual_zero/runs/2021/ETH/results/CONTROL_result.json",
+    "result_SHA256": "7c40f1058cde65cb2cc59632fe805be294afdb92a52c7eebaa6bc42728ec5259",
+    "equity": "outputs/rebound_annual_zero/runs/2021/ETH/results/CONTROL_equity.npz",
+    "equity_SHA256": "8099adead4f9132dd58e85bd4c34885bd5afc77af875c2208fee63312788db82",
+    "config_SHA256": "e9cc7f42e9ec03e675f58262c620e22c5a99d79da39842aa7525bb9841bfc71a",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 10,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2021/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "092c00897b8a8addbf7f9c935e82a155c9c3ee7deb1f90f66494caace232babd",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "ETH_15m.csv": "9bc76511d7ef40238fa7d7a83962f361f54528b982b5d6a6ee4e99c79bedbbb9",
+      "ETH_1m.npy": "5e01e0d19bf85137dcc5c9097e13a05d3c319befce8ad392af6a48eadc670f41"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2021/ETH/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2022",
+    "asset": "BTC",
+    "result": "outputs/rebound_annual_zero/runs/2022/BTC/results/CONTROL_result.json",
+    "result_SHA256": "5a5e9b9a0c1e456143471d493cbbecdbf7d7bcf4450e42f7d706edbead3c381d",
+    "equity": "outputs/rebound_annual_zero/runs/2022/BTC/results/CONTROL_equity.npz",
+    "equity_SHA256": "e91a0e5c84c4ca4ee6cf4814c8f0c8bafa50b638e92b773092dd7c6ae35f8fa8",
+    "config_SHA256": "d03fcf002cbcc1d29e0466687ea8cd212c8a17916f45f0d8481612982a96756a",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 62,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [
+        "submitted_us"
+      ],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2022/BTC/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "3ac819dc9a45add1d30c3cf75353a42115d6220e0b7ce6cdb7975a001379f9e3",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "BTC_15m.csv": "11a6595ece02d9ea310ba4d80d1a49b86c6d4782c16dc7e6580dab48aaca58b9",
+      "BTC_1m.npy": "6f90b9e28d22f83ae136315d6436ec703383bb151f5eb9c4eaf4e1932aee32da"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/BTC/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2022",
+    "asset": "ETH",
+    "result": "outputs/rebound_annual_zero/runs/2022/ETH/results/CONTROL_result.json",
+    "result_SHA256": "259c02d5baede161ada00b459f55a291f1a3d8eabc087d3cbb83e5080a42ab76",
+    "equity": "outputs/rebound_annual_zero/runs/2022/ETH/results/CONTROL_equity.npz",
+    "equity_SHA256": "a6253c41d2f1d4feb3310b7fa44286f2cc9daeb7f9136fe3713959c8c4d2ac3a",
+    "config_SHA256": "7247dbed33754638193e7ebd9bf10a5c0af6157ae6ae2f28563c360c8cb6a741",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 38,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2022/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "2275f4e9427d36c9aa2f1ca1e17aa6377d7c6528593def3e77224f600387bcbd",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "ETH_15m.csv": "152445481ab4c62f1b2204869f29adc76c1bb7838367e58a3fda66f1db0abef0",
+      "ETH_1m.npy": "e880a4b71bf358bbf4a305194f6e9b6ef8ccb097f0e7ccd403ce0daa20cf392a"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2022/ETH/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2023",
+    "asset": "BTC",
+    "result": "outputs/rebound_annual_zero/runs/2023/BTC/results/CONTROL_result.json",
+    "result_SHA256": "274fbcca12aa215097eab26643dd2538e7c6613445488ae7a5569043182c06e0",
+    "equity": "outputs/rebound_annual_zero/runs/2023/BTC/results/CONTROL_equity.npz",
+    "equity_SHA256": "a4ff8eb1194e349d1fcd355eb1edd867c81df4468b28e7e7f63b61b38a62ef1e",
+    "config_SHA256": "0e7be51d0e4a90412abc0064d84cbd19389b8e8dc99f71aff1e2633abd1039b4",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 80,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [
+        "submitted_us"
+      ],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2023/BTC/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "ddad7a5fa1053523133eb2ef55dfd377c1f83236d444001c96baa304c8ff36dc",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "BTC_15m.csv": "eff7dedd5b6729ebc3d264b593728a62a20128215da604f4422f81957e98045d",
+      "BTC_1m.npy": "acb032a06448d8d8bcb68f3853ceb078f6274dda29c3d8ce8ac40b907f1dd7be"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/BTC/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2023",
+    "asset": "ETH",
+    "result": "outputs/rebound_annual_zero/runs/2023/ETH/results/CONTROL_result.json",
+    "result_SHA256": "c177790edd2bdf821d818dcdf33276a1216d952f9f83f9dae17467bfa093e687",
+    "equity": "outputs/rebound_annual_zero/runs/2023/ETH/results/CONTROL_equity.npz",
+    "equity_SHA256": "e392e6656403dd1c86849c9574fe9a2bce09cdbcc9117d148fccc12ddecc1d5c",
+    "config_SHA256": "6e68e4d92c63375ba082313e5ebcc1d316e6e848bf6f895254b433c6d3fa24be",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 74,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2023/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "13796a2fc7e98de59b5eae2c895add86269fac5bd5a4b0a2cfb832dfd0a68299",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "ETH_15m.csv": "494d83d73064bd8539c67ed6b10f4ef760a175c192c2c5aede6296b7e69e3aa7",
+      "ETH_1m.npy": "948b506e1dd565176c31cb70f26d42f72f94edf0f559368c5bd4779671ea51a8"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2023/ETH/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2024",
+    "asset": "BTC",
+    "result": "outputs/rebound_annual_zero/runs/2024/BTC/results/CONTROL_result.json",
+    "result_SHA256": "b61b4a16e159a54c9798a998bea924e6d3920e7422c380bafe37c69070fd4c7f",
+    "equity": "outputs/rebound_annual_zero/runs/2024/BTC/results/CONTROL_equity.npz",
+    "equity_SHA256": "7be634ef012a32c27b4c6c749e04409ff25ec0054eb2578703c0b7b06f293fcb",
+    "config_SHA256": "70f4cdeb48fbca608ad9ea5485667ad57da1b1f6f3c7e368d2dd93c24f2906e1",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 74,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2024/BTC/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "4b941d8c6abb5c63dd3011ad1156990c41f23de83241d4d99e6e5abb265a83ab",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "BTC_15m.csv": "7b5f197ffd624b5b765b68caffe3c012e122008f302c509954f2e42660e7e1f3",
+      "BTC_1m.npy": "f68072d2a81ee545e574d30751d7652b55de59c7950cedbae74b760de84146f8"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/BTC/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2024",
+    "asset": "ETH",
+    "result": "outputs/rebound_annual_zero/runs/2024/ETH/results/CONTROL_result.json",
+    "result_SHA256": "f79c8f661884dfcfba4eb1ae7006318bdc07fb1c1a3a82940a054939f5a1d100",
+    "equity": "outputs/rebound_annual_zero/runs/2024/ETH/results/CONTROL_equity.npz",
+    "equity_SHA256": "89668b99f952120e0a7a8fe7f72692f80601c77e7f6a8c5b87d9248602cf3703",
+    "config_SHA256": "bfe1d31119b2ad2d82b5daccaba0c90701e80acbde2c33104860167ce92fe15e",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 52,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2024/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "a98d50b3a2f31dd456f0a56aeaf99e04ab96874b79e214e86077bd480122fe5f",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "ETH_15m.csv": "2419f0a47704d4db0f0ba38dda7b4302caa3b5708578725f787367e5e479a342",
+      "ETH_1m.npy": "5a7a5b87b3bd836827fafb589023527a5a1725315083079cfd58b84f1b6f0e8e"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2024/ETH/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2025",
+    "asset": "BTC",
+    "result": "outputs/rebound_annual_zero/runs/2025/BTC/results/CONTROL_result.json",
+    "result_SHA256": "99fc2e542b67e3724f1f0fb9cd8eb514db330086d7e10f6c9ca5476e8e82cc42",
+    "equity": "outputs/rebound_annual_zero/runs/2025/BTC/results/CONTROL_equity.npz",
+    "equity_SHA256": "84f2611b6b2bb3ee571fc4ccc5a2db2cdaee6ca0025bce6dd0aec25b2ebb7ba1",
+    "config_SHA256": "033366ba937ba6608aeab5171c001555dc6bf916da314ecc30fabac726cc5ffe",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 61,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2025/BTC/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "67c5ed760808caec500d5e9f8287f2c86c00f74c2beb2e2fe519aabffe180e2f",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "BTC_15m.csv": "ed580f3c27d49e0ede526d25fdf5c5affe8f108b812506f7ea0b0a620bafd8dd",
+      "BTC_1m.npy": "135d3def5875cef7081493484006ff85d1791f5fccf8b0167b597a8c60c43e32"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/BTC/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2025",
+    "asset": "ETH",
+    "result": "outputs/rebound_annual_zero/runs/2025/ETH/results/CONTROL_result.json",
+    "result_SHA256": "331cd89271b6071767122e3196059aac28598af260fd8dad30a8728a001c6d73",
+    "equity": "outputs/rebound_annual_zero/runs/2025/ETH/results/CONTROL_equity.npz",
+    "equity_SHA256": "8adfbc1455496b44cadafc29c9b6bef45c0585b1c2c0356312933a5b1d6cf429",
+    "config_SHA256": "1aad17f3e431c0c33c2f257a40cecee71348cf52bcf267218654c0e1ce93f994",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 49,
+    "original_status": "COMPLETED_WITH_DATA_ANOMALY",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2025/ETH/baseline/results/S_ALL/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "c3f0309e4b44bd5a0d363d92fcbed3d6bfe725b652592b83cce0b97c8e4b8818",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "ETH_15m.csv": "bfe9b9138641fa1f0d539c5208e11d17f6efb49adf222cf6f0540f9770b355be",
+      "ETH_1m.npy": "ecfbb3e74eaf37db4681e573c945b62093a60316b1c2f89715794405b2e16e46"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2025/ETH/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2026",
+    "asset": "BTC",
+    "result": "outputs/rebound_annual_zero/runs/2026/BTC/results/CONTROL_result.json",
+    "result_SHA256": "222edc9ed62f44bfd61225007ab1e7426ae19f8331d3010aa33ec0e2be0b2c91",
+    "equity": "outputs/rebound_annual_zero/runs/2026/BTC/results/CONTROL_equity.npz",
+    "equity_SHA256": "bf4b50852db599014b6ec8ffb7d4dfebe5c655aff1de7631063c93492bf1d6b6",
+    "config_SHA256": "3c95e10915ae9b15541d2459d4898cb16cc0e2b05f8146b438045e9516006e76",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 66,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [
+        "submitted_us"
+      ],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2026/BTC/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "1b9712bdce3bff02e3019c7333a87bb3564ffffde225c4a10885c1d6d8c1e3dd",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "BTC_15m.csv": "b65073be834f3858aab87b31915ef4abed42b0c2063acc8237aeb429d63ea7f2",
+      "BTC_1m.npy": "df04b1b6f01714c27544f5323dc1d5cc2294af196d6cc57c7afd95fa843f307e"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/BTC/equity.npz"
+  },
+  {
+    "version": "ER_V2_REFERENCE",
+    "period": "2026",
+    "asset": "ETH",
+    "result": "outputs/rebound_annual_zero/runs/2026/ETH/results/CONTROL_result.json",
+    "result_SHA256": "306906991d3fe9c9db6abe9efb1a517fdb13c20ce4d3a92594f3c6f95b266a2a",
+    "equity": "outputs/rebound_annual_zero/runs/2026/ETH/results/CONTROL_equity.npz",
+    "equity_SHA256": "2668e341b2d7bdd04901e07a6aa7d72ae1edb4c1f06983537c3cc2b5e449f4a7",
+    "config_SHA256": "9cfcc57d6fbc2501fbe4bcc90d526bcaf8a35fbdb6be1eb212076a08a9924d7c",
+    "source_code_commit": "133f95967b5789b216406b30117d3703643c7d7a",
+    "action": "REUSED_EXISTING_ACCOUNT",
+    "V2_partial_exit_events": 58,
+    "original_status": "COMPLETE",
+    "baseline_comparison": {
+      "passed": true,
+      "all_original_trade_fields_exact": true,
+      "trade_cash_equity_minutes_exact": true,
+      "new_enrichment_fields_not_present_in_reference": [],
+      "reference": "outputs/extra_sizing_cost_stress/runs/2026/ETH/baseline/results/STRICT/C0_B_F_TOUCH_result.json",
+      "reference_SHA256": "c30f18f0aeb36f382d782b2cd2f599ba707722e987bdc0bb2ac7486c0af7ac1a",
+      "financial_engine_unchanged": true,
+      "only_comparator_fix": true
+    },
+    "data_SHA256": {
+      "ETH_15m.csv": "b9408604f77ff2c47fd403f7cff42c0fb3d3350cfba97dab93f44b53d7f9ce4e",
+      "ETH_1m.npy": "5d241c0cb6bb9e2f64b61b010f03ed25c632b152b7dc10e08bc0bc51ed95c8fb"
+    },
+    "published_result": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH/result.json",
+    "published_equity": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2026/ETH/equity.npz"
+  },
+  {
+    "version": "MA_DIRECTION_REFERENCE",
+    "period": "2026",
+    "asset": "ETH",
+    "result": "outputs/baseline_registry/runs/2026/ETH/results/MA_DIRECTION_REFERENCE_result.json",
+    "result_SHA256": "65f4531c1c48e55f159d6f17f303ee3cb905dfd3a3b68ebc201a699836ad9204",
+    "equity": "outputs/baseline_registry/runs/2026/ETH/results/MA_DIRECTION_REFERENCE_equity.npz",
+    "equity_SHA256": "ac0c746f446af14adb7c6f4f2a11ba12a5743999d4822c48cb6555200d2ea6c1",
+    "action": "SUPPLEMENTARY_RAW_REPLAY",
+    "original_status": "COMPLETE"
+  }
+]
