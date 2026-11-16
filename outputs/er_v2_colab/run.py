@@ -30,7 +30,7 @@ def run(year,asset,hours=None,resume_probe=False):
    start=min(frozen)//1000-900;end=min(end,start+round(hours*3600))
   core={t:x for t,x in maps['ER'].items()if start*1000<=t<end*1000};expected={t:x for t,x in frozen.items()if start*1000<=t<end*1000};assert core==expected,'original CORE signal mismatch'
   assert policy.pause_transition and s.r.ENTRY.exit_policy=='uncapped'
-  features=v.indicators(leg);timing['signals_and_indicators_seconds']=time.monotonic()-phase;d=s.b.d;d.BASE='https://data.binance.vision/data/futures/um';d.DATA=data;d.START=start;d.END=end;d.FIRST1=m['first1'];native=s.b.p.Canonical(asset)
+  features=v.indicators(leg,data/f'{asset}_15m.csv');timing['signals_and_indicators_seconds']=time.monotonic()-phase;d=s.b.d;d.BASE='https://data.binance.vision/data/futures/um';d.DATA=data;d.START=start;d.END=end;d.FIRST1=m['first1'];native=s.b.p.Canonical(asset)
   books={k:v.make(asset,leg,core,features,k)for k in VERSIONS};cache=w.raw_cache(asset,native,folder);scene='STRICT'
   if str(year)=='2025'and asset=='ETH':cache=s.a.ScenarioCache(cache,D.anomaly(),'S_ALL');scene='S_ALL';cache.__class__.sources=property(lambda self:self.strict.sources)
   ctx=dict(asset=asset,period=str(year),leg=leg,native=native,start=start,end=end,fingerprint=s.o.digest(dict(code=fp,inputs=m,core=core,end=end,versions=VERSIONS)))

@@ -1,0 +1,48 @@
+{
+  "fingerprint": "34e03cf9618add9d0fbbc9b2dc36ca24418fe68472027d407e47ecbef2f40fa5",
+  "input": {
+    "year": "2020",
+    "asset": "ETH",
+    "start": 1581782400,
+    "end": 1609430400,
+    "first15": 1577894400,
+    "first1": 1581696000,
+    "hashes": {
+      "ETH_15m.csv": "711b37f9d06008d59ed337b33467beaf7bbdedf9a6467f82d8bef5c663f4af5f",
+      "ETH_1m.npy": "a1fdd89415fbae112e733e26f48c68066e8c9006db904f90872c771a28c986c7"
+    },
+    "legacy_data": "outputs/er_partial_2020/data",
+    "reference": "outputs/baseline_registry/reused/ER_V2_REFERENCE/2020/ETH",
+    "reference_SHA256": {
+      "result.json": "ad5acffef5e1b1a0c46f680dbe9d2145251992dc8a8c45197e62dc979bd777a8",
+      "equity.npz": "7803ac59d749dae73c92cbacc7b05c60544e29c59cff4d2965e594c9a8cac15f",
+      "core_signals.json": "a18e019f7c8600842e2d864c2202d3f72a19f59e2902ac22898fd0a2d8c08bac",
+      "config.json": "b49e61e73fcafeb9b45c38581f5bf5c1d0bd58c0c47fedf43057f5ffe9733193"
+    }
+  },
+  "fee": 0,
+  "funding": 0,
+  "slippage": 0.0002,
+  "versions": [
+    "ER_V2_FAIL_EXIT",
+    "ER_V2_VOL_SIZE"
+  ],
+  "original_ER_V2_MRO": [
+    "VariantBook",
+    "Book",
+    "Book",
+    "Dynamic",
+    "Ledger",
+    "BoundedAdaptive",
+    "VariantSleeve",
+    "AuditSleeve",
+    "ObservedSleeve",
+    "Sleeve",
+    "object"
+  ],
+  "start": 1582428600,
+  "end": 1582457400,
+  "signal_count": 1,
+  "signals_exact": true,
+  "scenario": "STRICT"
+}

@@ -1,0 +1,80 @@
+{
+  "archive_SHA256": "c7296b99c63b263a3efde1a98e3b41e440e2683c950681bf2a97ce53afa8c0bc",
+  "completed_tasks": [
+    {
+      "year": "2020",
+      "asset": "ETH"
+    },
+    {
+      "year": "2021",
+      "asset": "BTC"
+    },
+    {
+      "year": "2020",
+      "asset": "BTC"
+    }
+  ],
+  "failed_tasks": [
+    {
+      "year": "2021",
+      "asset": "ETH",
+      "IndexError": true
+    },
+    {
+      "year": "2022",
+      "asset": "ETH",
+      "IndexError": true
+    },
+    {
+      "year": "2022",
+      "asset": "BTC",
+      "IndexError": true
+    },
+    {
+      "year": "2023",
+      "asset": "ETH",
+      "IndexError": true
+    },
+    {
+      "year": "2024",
+      "asset": "BTC",
+      "IndexError": true
+    },
+    {
+      "year": "2024",
+      "asset": "ETH",
+      "IndexError": true
+    },
+    {
+      "year": "2023",
+      "asset": "BTC",
+      "IndexError": true
+    },
+    {
+      "year": "2025",
+      "asset": "ETH",
+      "IndexError": true
+    },
+    {
+      "year": "2025",
+      "asset": "BTC",
+      "IndexError": true
+    },
+    {
+      "year": "2026",
+      "asset": "BTC",
+      "IndexError": true
+    },
+    {
+      "year": "2026",
+      "asset": "ETH",
+      "IndexError": true
+    }
+  ],
+  "completed_accounts": 6,
+  "failed_accounts": 22,
+  "all_new_results_invalid_due_to_feature_time_misalignment": true,
+  "baseline_results_affected": false,
+  "old_variant_checkpoints_reusable": false,
+  "market_downloads_reusable": true
+}

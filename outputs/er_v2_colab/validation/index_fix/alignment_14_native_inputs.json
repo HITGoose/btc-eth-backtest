@@ -1,0 +1,132 @@
+{
+  "checks": [
+    {
+      "year": 2020,
+      "asset": "BTC",
+      "full_length": 35040,
+      "original_first_ms": 1577894400000,
+      "feature_first_ms": 1577894400000,
+      "last_close_ms": 1609430400000,
+      "passed": true
+    },
+    {
+      "year": 2020,
+      "asset": "ETH",
+      "full_length": 35040,
+      "original_first_ms": 1577894400000,
+      "feature_first_ms": 1577894400000,
+      "last_close_ms": 1609430400000,
+      "passed": true
+    },
+    {
+      "year": 2021,
+      "asset": "BTC",
+      "full_length": 39360,
+      "original_first_ms": 1605542400000,
+      "feature_first_ms": 1605542400000,
+      "last_close_ms": 1640966400000,
+      "passed": true
+    },
+    {
+      "year": 2021,
+      "asset": "ETH",
+      "full_length": 39360,
+      "original_first_ms": 1605542400000,
+      "feature_first_ms": 1605542400000,
+      "last_close_ms": 1640966400000,
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "asset": "BTC",
+      "full_length": 39360,
+      "original_first_ms": 1637078400000,
+      "feature_first_ms": 1637078400000,
+      "last_close_ms": 1672502400000,
+      "passed": true
+    },
+    {
+      "year": 2022,
+      "asset": "ETH",
+      "full_length": 39360,
+      "original_first_ms": 1637078400000,
+      "feature_first_ms": 1637078400000,
+      "last_close_ms": 1672502400000,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "asset": "BTC",
+      "full_length": 39360,
+      "original_first_ms": 1668614400000,
+      "feature_first_ms": 1668614400000,
+      "last_close_ms": 1704038400000,
+      "passed": true
+    },
+    {
+      "year": 2023,
+      "asset": "ETH",
+      "full_length": 39360,
+      "original_first_ms": 1668614400000,
+      "feature_first_ms": 1668614400000,
+      "last_close_ms": 1704038400000,
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "asset": "BTC",
+      "full_length": 39456,
+      "original_first_ms": 1700150400000,
+      "feature_first_ms": 1700150400000,
+      "last_close_ms": 1735660800000,
+      "passed": true
+    },
+    {
+      "year": 2024,
+      "asset": "ETH",
+      "full_length": 39456,
+      "original_first_ms": 1700150400000,
+      "feature_first_ms": 1700150400000,
+      "last_close_ms": 1735660800000,
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "asset": "BTC",
+      "full_length": 39360,
+      "original_first_ms": 1731772800000,
+      "feature_first_ms": 1731772800000,
+      "last_close_ms": 1767196800000,
+      "passed": true
+    },
+    {
+      "year": 2025,
+      "asset": "ETH",
+      "full_length": 39360,
+      "original_first_ms": 1731772800000,
+      "feature_first_ms": 1731772800000,
+      "last_close_ms": 1767196800000,
+      "passed": true
+    },
+    {
+      "year": 2026,
+      "asset": "BTC",
+      "full_length": 33504,
+      "original_first_ms": 1763308800000,
+      "feature_first_ms": 1763308800000,
+      "last_close_ms": 1793462400000,
+      "passed": true
+    },
+    {
+      "year": 2026,
+      "asset": "ETH",
+      "full_length": 33504,
+      "original_first_ms": 1763308800000,
+      "feature_first_ms": 1763308800000,
+      "last_close_ms": 1793462400000,
+      "passed": true
+    }
+  ],
+  "causal_prefix_2021_ETH": true,
+  "financial_replays": 0
+}

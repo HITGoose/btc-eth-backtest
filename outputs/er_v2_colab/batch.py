@@ -11,7 +11,18 @@ if __name__=='__main__':
   y,a=job;p=subprocess.run([sys.executable,str(HERE/'run.py'),y,a],capture_output=True,text=True);return dict(year=y,asset=a,code=p.returncode,output=(p.stdout+p.stderr)[-2500:])
  results=[]
  with concurrent.futures.ThreadPoolExecutor(max_workers=workers)as pool:
-  for f in concurrent.futures.as_completed([pool.submit(task,j)for j in jobs]):
-   q=f.result();results.append(q);print(len(results),'/14',q['year'],q['asset'],'OK'if q['code']==0 else'FAILED',q['output'].strip(),flush=True)
+  pending={pool.submit(task,j):j for j in jobs}
+  while pending:
+   done,_=concurrent.futures.wait(pending,timeout=30,return_when=concurrent.futures.FIRST_COMPLETED)
+   for f in done:
+    pending.pop(f);q=f.result();results.append(q);print(len(results),'/14',q['year'],q['asset'],'OK'if q['code']==0 else'FAILED',q['output'].strip(),flush=True)
+   if not done:
+    root=Path(os.environ['BTC_OUTPUT_ROOT']);progress=[]
+    for y,a in pending.values():
+     p=root/'runs'/y/a/'whole/progress.json'
+     if p.exists():
+      try:progress.append(y+' '+a+' '+json.loads(p.read_text()).get('next_time',''))
+      except (ValueError,OSError):pass
+    print('RUNNING',len(results),'/14;', '; '.join(progress[-4:])or'preparing indicators / downloading official data',flush=True)
  root=Path(os.environ['BTC_OUTPUT_ROOT']);(root/'batch_status.json').write_text(json.dumps(results,indent=2))
  if any(q['code']for q in results):print('Some tasks failed. Other results retained. Fix the recorded obstruction and rerun this cell; matching completed tasks skip.')

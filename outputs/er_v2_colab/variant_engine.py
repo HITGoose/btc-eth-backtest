@@ -11,8 +11,12 @@ s=w.s;r=s.r;E=w.E
 BASE_FINANCIAL_FP=s.fp()
 ORIGINAL_V2=s.b.e.x.check_trend
 
-def indicators(leg):
- bars=list(leg.bars.values());close=np.array([b.c for b in bars]);hi=np.array([b.h for b in bars]);lo=np.array([b.l for b in bars])
+def indicators(leg,market_file):
+ raw=r.model.read_market(Path(market_file),leg.first,leg.end)
+ times=np.array(list(raw),dtype=np.int64)
+ assert len(times)==len(leg.width) and times[0]==leg.first
+ assert np.array_equal(times,np.arange(leg.first,leg.end,900000,dtype=np.int64)), 'indicator time grid mismatch'
+ bars=list(raw.values());close=np.array([b.c for b in bars]);hi=np.array([b.h for b in bars]);lo=np.array([b.l for b in bars])
  lines=np.stack([r.model.sma(close,n)for n in (20,60,120)]+[r.model.ema(close,n)for n in (20,60,120)])
  tr=np.maximum(hi-lo,np.maximum(abs(hi-np.r_[close[0],close[:-1]]),abs(lo-np.r_[close[0],close[:-1]])))
  atr=np.full(len(tr),np.nan)
@@ -23,13 +27,15 @@ def indicators(leg):
  med=pd.Series(v[valid]).rolling(2880,min_periods=2880).median().to_numpy()
  before=np.searchsorted(valid,np.arange(len(v)),side='left')-1;ok=before>=0;ref[ok]=med[before[ok]]
  multiplier=np.ones(len(v));good=np.isfinite(ref)&np.isfinite(v)&(v>0);multiplier[good]=np.clip(ref[good]/v[good],.5,1.)
- return dict(lower=lines.min(axis=0),upper=lines.max(axis=0),close=close,multiplier=multiplier,valid=good,atr=atr,v=v,reference=ref)
+ assert np.allclose(100*(lines.max(axis=0)-lines.min(axis=0))/close,leg.width,equal_nan=True), "six-line baseline mismatch"
+ return dict(time_ms=times,lower=lines.min(axis=0),upper=lines.max(axis=0),close=close,multiplier=multiplier,valid=good,atr=atr,v=v,reference=ref)
 
 class VariantBook(E.Book):
  def place(self,t,ref,side,**kw):
   size_event=None
   signal=round(t-10000);i=(signal-self.leg.first)//900000-1
   if self.variant=='ER_V2_VOL_SIZE':
+   assert 0<=i<len(self.features['time_ms']) and self.features['time_ms'][i]==signal-900000, 'sizing timestamp mismatch'
    valid=0<=i<len(self.features['valid'])and bool(self.features['valid'][i]);m=float(self.features['multiplier'][i])if valid else 1.
    kw['size_multiplier']=kw.get('size_multiplier',1.)*m
    size_event=dict(event='volatility_sizing',time_us=round(t*1000),signal_close_ms=signal,multiplier=m,fallback=not valid,base_target_notional=3*max(0.,self.cash),target_notional=3*max(0.,self.cash)*kw['size_multiplier'],ATR96=float(self.features['atr'][i])if valid else None,v=float(self.features['v'][i])if valid else None,v_ref=float(self.features['reference'][i])if valid else None);self.events.append(size_event)
@@ -53,7 +59,9 @@ def check(book,t):
  if t*1000000<eligible:return
  pos.failed_checked=True;i=(t*1000-book.leg.first)//900000-1
  assert i>=1
- f=book.features;inside=all(bool(f['lower'][j]<=f['close'][j]<=f['upper'][j])for j in (i-1,i))
+ f=book.features
+ assert i<len(f['time_ms']) and f['time_ms'][i]==t*1000-900000, 'exit-check timestamp mismatch'
+ inside=all(bool(f['lower'][j]<=f['close'][j]<=f['upper'][j])for j in (i-1,i))
  side=pos.order.side;entry=pos.order.price
  partial=sum(side*(x['execution_price']-entry)*x['quantity']for x in getattr(pos,'partial_fills',[]))
  floating=side*(f['close'][i]-entry)*pos.order.qty;gross=float(partial+floating)

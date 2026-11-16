@@ -7,7 +7,7 @@ np=v.np
 
 def one(partial=False,stop=False,v2_only=False):
  leg=NS(first=0,up=np.full(30,6),down=np.zeros(30),histogram=np.ones(30),bars={i*900000:NS(c=99.)for i in range(30)})
- f=dict(lower=np.full(30,98.),upper=np.full(30,100.),close=np.full(30,99.),multiplier=np.full(30,.5),valid=np.ones(30,dtype=bool),atr=np.ones(30),v=np.ones(30),reference=np.ones(30))
+ f=dict(time_ms=np.arange(30,dtype=np.int64)*900000,lower=np.full(30,98.),upper=np.full(30,100.),close=np.full(30,99.),multiplier=np.full(30,.5),valid=np.ones(30,dtype=bool),atr=np.ones(30),v=np.ones(30),reference=np.ones(30))
  b=v.make('ETH',leg,{-10000:1},f,'ER_V2_FAIL_EXIT');b.audit_timestamp=0.;v.s.activate(b);b.place(0,100.,1,nearest_tick=True);entry=b.order.price;b.visit(entry,0,True,advance_ladder=False);assert b.position.opened_us==0
  if partial:
   b.tranches.append((0.,.25));b.position.partial_queue=[1];b.audit_timestamp=1.;b.visit(110.,1000,True,advance_ladder=False)
