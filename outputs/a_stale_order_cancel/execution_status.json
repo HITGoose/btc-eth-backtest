@@ -1,0 +1,67 @@
+[
+  {
+    "period": "2021",
+    "asset": "ETH",
+    "exit_code": 0
+  },
+  {
+    "period": "2021",
+    "asset": "BTC",
+    "exit_code": 0
+  },
+  {
+    "period": "2020",
+    "asset": "ETH",
+    "exit_code": 0
+  },
+  {
+    "period": "2022",
+    "asset": "ETH",
+    "exit_code": 0
+  },
+  {
+    "period": "2022",
+    "asset": "BTC",
+    "exit_code": 0
+  },
+  {
+    "period": "2023",
+    "asset": "BTC",
+    "exit_code": 0
+  },
+  {
+    "period": "2023",
+    "asset": "ETH",
+    "exit_code": 0
+  },
+  {
+    "period": "2024",
+    "asset": "ETH",
+    "exit_code": 0
+  },
+  {
+    "period": "2025",
+    "asset": "BTC",
+    "exit_code": 0
+  },
+  {
+    "period": "2025",
+    "asset": "ETH",
+    "exit_code": 0
+  },
+  {
+    "period": "2026",
+    "asset": "BTC",
+    "exit_code": 0
+  },
+  {
+    "period": "2024",
+    "asset": "BTC",
+    "exit_code": 0
+  },
+  {
+    "period": "2026",
+    "asset": "ETH",
+    "exit_code": 0
+  }
+]

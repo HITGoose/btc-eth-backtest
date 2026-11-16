@@ -1,0 +1,13 @@
+{
+  "accounts": 56,
+  "new_accounts": 28,
+  "baseline_reused": 28,
+  "incomplete": 0,
+  "single_financial_fingerprint": "af658878de8568be32dadfc4cb0482bf7ac22226bdcf629a5ef6230855b44136",
+  "original_baseline_files_unchanged": true,
+  "entry_signals_identical": true,
+  "prefix_before_first_actual_cancel_matches": true,
+  "original_order_conservation_including_separate_cancel_count": true,
+  "no_failed_breakout_or_partial_exits": true,
+  "max_cash_residual": 1.0231815394945443e-12
+}

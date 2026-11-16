@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "synthetic_only": true,
+  "checks": [
+    "Only new closed15m strictly after submission; no duplicate check",
+    "T+60 cancel precedes same-minute fill; cash unchanged and no rehang",
+    "Fill before cancel invalidates request and preserves position",
+    "Original expiry before cancel; stale request cannot cancel new original-signal order",
+    "Long/short inclusive boundary and crossing entire band"
+  ]
+}

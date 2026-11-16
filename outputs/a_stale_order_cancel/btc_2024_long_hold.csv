@@ -1,0 +1,3 @@
+﻿period,asset,fee_scenario,signal_close_ms,base_wait_minutes,base_holding_days,base_contribution_USDT,variant_filled,variant_cancelled,variant_record_type,variant_contribution_USDT,variant_r1000_difference,variant_order_checks,variant_cancel_requests,no_preservation_exception
+2024,BTC,ZERO,1707233400000,8.5,329.0148148148148,1799.0408799999998,True,False,OPEN_AT_END,1799.0408799999998,0.0,[],[],True
+2024,BTC,MAKER_002_SIDE,1707233400000,8.5,329.0148148148148,1767.370960108,True,False,OPEN_AT_END,1767.370960108,0.0,[],[],True
