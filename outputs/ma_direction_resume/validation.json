@@ -1,0 +1,9 @@
+{
+  "annual_replays": 0,
+  "original_MA_parent_fingerprint": "107ee4449dd8c439547e2cfd5e5378735e19ef74344e15e5fd82de8c13fbca1d",
+  "MA_saved_short_checkpoint_8_books_migrated_exact": true,
+  "old_runtime_and_data_fingerprint_checks": true,
+  "no_V2_MRO_verified": true,
+  "remote_annual_checkpoints": "COLAB_AUDIT_REQUIRED",
+  "full_tail_CSV_validation": "COLAB_REQUIRED"
+}
