@@ -1,0 +1,11 @@
+# MA恢复2025 ETH只读sources属性兼容修复
+
+错误：ScenarioCache.sources是property(lambda self:self.strict.sources)，没有setter；迁移器在保存checkpoint后给cache.sources直接赋值会触发AttributeError。它没有执行新的金融事件，但可能留下缺少raw_sources与迁移收据的半完成文件。
+
+工具只在原固定源码之外加载运行时兼容适配器。原MA金融与恢复源码文件不改，原代码/数据指纹校验仍逐项执行；代理只将来源元数据写入最底层strict.sources。适配器SHA与原迁移器SHA另存compatibility_adapter.json。不是忽略代码指纹，也不修改策略或S_ALL异常处理。
+
+对无收据的既存checkpoint：先严格核验本次代码/数据/配置指纹，再核验原旧指纹，并逐字节对比books、marks、next的协议5序列化状态。只有完全一致时才将半完成文件改名保留，重新执行原迁移审计。不删除唯一状态，不覆盖原旧文件。
+
+已用保存的MA短区间8个真实非V2账户和真正ScenarioCache只读property复现错误，修复测试通过，完整books/marks/next保持原样。未在Codex运行年度回放。用户实际2025 ETH任务仍由原Colab逐项审核后恢复；不声称远端已成功完成。
+
+在原MA恢复Notebook运行工具，不切代码提交或结果目录。原流程会跳过所有核验一致的已完成账户，只继续缺项；预检已有匹配SHA的逐日完成标记复用。main、部署、原账本不改。
