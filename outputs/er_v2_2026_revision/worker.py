@@ -5,7 +5,7 @@ RECOVERY=Path(__file__).resolve().parent
 sys.path.insert(0,str(RECOVERY.parent/'er_v2_retests'))
 import common as c
 sys.path.insert(0,str(RECOVERY))
-import revision
+import revision,migration
 revision.install(c)
 import suite_engine as e
 from catalog import SPECS,canonical
@@ -14,7 +14,10 @@ from inputs import prepare
 sig=c.module('retest_signals_module',c.HERE/'signals.py')
 def run(year,asset,requested,hours=None):
  assert year==2026 or hours, 'Only 2026 annual runs are authorized'
- keys=list(dict.fromkeys(canonical(k,asset)for k in requested));keys=[k for k in keys if hours or not c.existing(k,year,asset)]
+ keys=list(dict.fromkeys(canonical(k,asset)for k in requested));missing=[k for k in keys if hours or not c.existing(k,year,asset)]
+ exact_previous=migration.old_root()/'tasks/2026'/asset/('-'.join(keys))/'whole/checkpoint.pkl.gz'if migration.old_root()else None
+ exact_new=c.OUT/'tasks'/str(year)/asset/('-'.join(keys))/'whole/checkpoint.pkl.gz'
+ keys=keys if missing and not hours and((exact_previous and exact_previous.exists())or exact_new.exists())else missing
  if not keys:return 'REUSED_OR_COMPLETE'
  if any(SPECS[k]['kind']=='import'for k in keys)and year!=2026 and not hours:raise RuntimeError('IMPORT_REQUIRED: completed corrected FAIL_EXIT/VOL_SIZE; do not recalculate')
  freezes={}
@@ -44,6 +47,9 @@ def run(year,asset,requested,hours=None):
   if 'FIXED_LOW'in keys:used_freeze['L_fixed']=freezes['L_fixed']
   if 'ADAPT_CORE_LIGHT'in keys:used_freeze['D_source']=freezes['D_source']
   ctx=dict(asset=asset,period=str(year),leg=leg,native=native,start=start,end=end,fingerprint=c.s.o.digest(dict(code=fp,inputs=m,maps=maps,config={k:SPECS[k]for k in keys},freeze=used_freeze,start=start,end=end)))
+  ctx['migration_inputs']=m;ctx['migration_config']={k:SPECS[k]for k in keys}
+  migration.migrate_checkpoint(c,f,ctx,maps,used_freeze,keys,cache)
+  print('RUN_OR_RESUME',asset,'-'.join(keys),(f/'whole/progress.json').read_text()if(f/'whole/progress.json').exists()else'NO_CHECKPOINT_START_2026',flush=True)
   olddump=c.s.dump
   def saved(p,q):
    olddump(p,q)

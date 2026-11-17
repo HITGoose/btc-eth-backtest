@@ -1,7 +1,12 @@
 {
-  "short_hours": 8,
-  "original_ER_V2_minute_curve_exact": true,
   "yearly_replays_in_Codex": 0,
-  "narrow_revision_gate": "PASS",
-  "old_2026_checkpoints_reused": false
+  "financial_parent_fingerprint": "e83b9a61032e4339ce4bb6be40ee7f1e3810350fc4fca4b14417b66994746b3a",
+  "real_user_BTC_CANCEL_checkpoint_old_fingerprint_exact": true,
+  "real_user_checkpoint_data_config_signal_fingerprint_exact": true,
+  "real_user_books_and_435360_historical_equity_values_unchanged": true,
+  "resume_BJT": "2026-10-30T08:00:00+08:00",
+  "changed_consumed_archive_rejected": true,
+  "tail_36_archives_official_checksum_and_HEAD": "PASS",
+  "tail_36_archives_CSV_parse": "COLAB_REQUIRED_BEFORE_REPLAY",
+  "other_accounts_migration": "COLAB_REQUIRED"
 }

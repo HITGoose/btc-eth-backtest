@@ -1,0 +1,9 @@
+{
+  "commit": "ae8fbb1204a6fcd9c822a42fbb78cc8ec591066a",
+  "parent_suite_fingerprint": "e83b9a61032e4339ce4bb6be40ee7f1e3810350fc4fca4b14417b66994746b3a",
+  "files": {
+    "run.py": "1f6a99d6d4bcb09c83bd158e7c06790647673a1a20854afdfc7107f1cf07f886",
+    "worker.py": "5adfc99ed36c83f41a22e2ef8b08db18e43f73f089846556d81ac1dc0983dbcc",
+    "revision.py": "6aba2d9fab8f79bd491224501afe5fb4fbb8cce8b20fea73edec8e0577ae4570"
+  }
+}
